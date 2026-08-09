@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Navbar from './components/Navbar';
+import WorksheetHero from './components/WorksheetHero';
 import './styles/app.css';
 
 function HeaderApp() {
@@ -26,18 +27,16 @@ function HeaderApp() {
 
     if (view === 'worksheet') {
       const btn = document.querySelector('[data-view-button="worksheet"]');
-      if (btn) {
-        btn.click();
-      } else {
-        window.location.href = lang === 'nl' ? '../nl/index.html#werkblad' : '../en/index.html#worksheet';
-      }
+      if (btn) btn.click();
+      const sheet = document.getElementById('werkblad') || document.getElementById('worksheet');
+      if (sheet) sheet.scrollIntoView({ behavior: 'smooth' });
+      else window.location.href = lang === 'nl' ? '../nl/index.html#werkblad' : '../en/index.html#worksheet';
     } else if (view === 'method') {
       const btn = document.querySelector('[data-view-button="method"]');
-      if (btn) {
-        btn.click();
-      } else {
-        window.location.href = lang === 'nl' ? '../nl/index.html#methode' : '../en/index.html#methode';
-      }
+      if (btn) btn.click();
+      const meth = document.getElementById('methode');
+      if (meth) meth.scrollIntoView({ behavior: 'smooth' });
+      else window.location.href = lang === 'nl' ? '../nl/index.html#methode' : '../en/index.html#methode';
     } else if (view === 'handbook') {
       window.location.href = lang === 'nl' ? '../nl/handleiding.html' : '../en/handbook.html';
     } else if (view === 'contact') {
@@ -70,7 +69,15 @@ function HeaderApp() {
   );
 }
 
-const container = document.getElementById('react-navbar-root');
-if (container) {
-  ReactDOM.createRoot(container).render(<HeaderApp />);
+// Mount Header Navbar
+const navContainer = document.getElementById('react-navbar-root');
+if (navContainer) {
+  ReactDOM.createRoot(navContainer).render(<HeaderApp />);
+}
+
+// Mount Worksheet Hero Card
+const heroContainer = document.getElementById('react-worksheet-hero-root');
+if (heroContainer) {
+  const isEnglish = document.documentElement.lang === 'en';
+  ReactDOM.createRoot(heroContainer).render(<WorksheetHero lang={isEnglish ? 'en' : 'nl'} />);
 }
