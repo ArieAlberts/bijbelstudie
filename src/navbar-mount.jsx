@@ -22,12 +22,30 @@ function HeaderApp() {
   const [lang, setLang] = useState(isEnglish ? 'en' : 'nl');
   const [currentView, setCurrentView] = useState(determineViewFromHash());
 
+  const applyView = (view, scroll = true) => {
+    if (typeof window.setView === 'function') {
+      window.setView(view, scroll);
+    } else {
+      setTimeout(() => {
+        if (typeof window.setView === 'function') {
+          window.setView(view, scroll);
+        }
+      }, 50);
+    }
+  };
+
   useEffect(() => {
+    // Initial sync on mount
+    const initialView = determineViewFromHash();
+    if (initialView === 'worksheet' || initialView === 'method') {
+      applyView(initialView, false);
+    }
+
     const handleHashChange = () => {
       const view = determineViewFromHash();
       setCurrentView(view);
-      if (window.setView && (view === 'worksheet' || view === 'method')) {
-        window.setView(view, true);
+      if (view === 'worksheet' || view === 'method') {
+        applyView(view, true);
       }
     };
 
@@ -39,19 +57,11 @@ function HeaderApp() {
     setCurrentView(view);
 
     if (view === 'worksheet') {
-      if (window.setView) {
-        window.setView('worksheet', true);
-        window.location.hash = '#werkblad';
-      } else {
-        window.location.href = lang === 'nl' ? '../nl/index.html#werkblad' : '../en/index.html#worksheet';
-      }
+      applyView('worksheet', true);
+      window.history.pushState(null, '', '#werkblad');
     } else if (view === 'method') {
-      if (window.setView) {
-        window.setView('method', true);
-        window.location.hash = '#methode';
-      } else {
-        window.location.href = lang === 'nl' ? '../nl/index.html#methode' : '../en/index.html#methode';
-      }
+      applyView('method', true);
+      window.history.pushState(null, '', '#methode');
     } else if (view === 'handbook') {
       window.location.href = lang === 'nl' ? '../nl/handleiding.html' : '../en/handbook.html';
     } else if (view === 'contact') {
