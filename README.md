@@ -1,20 +1,74 @@
-# Verbeterde tweetalige website
+# Zelf de parasja lezen — Read the Parashah Yourself
 
-Deze versie behoudt de bestaande `/nl/`- en `/en/`-structuur, formuliernamen/velden, de opslag-sleutel `frame-parasja-site-v2` en de getrapte hulpflow.
+Een interactief digitaal hulpmiddel voor zelfstandige, gestructureerde en corrigeerbare studie van de wekelijkse Toralezing (parasja), gebaseerd op de **Frame-methode van Arie Alberts**.
 
-## Wijzigingen
-- localStorage en sessionStorage zijn afgeschermd met een in-memory fallback.
-- Skip-links, focusringen, semantische navigatie en reduced-motion-ondersteuning zijn toegevoegd.
-- Inline styles zijn naar CSS-klassen verplaatst.
-- Alle `oklch()`-declaraties hebben een hex/rgb-fallback.
-- Google Fonts-verzoeken zijn verwijderd; CSS gebruikt lokale geïnstalleerde exemplaren wanneer aanwezig en anders systeemfallbacks.
-- NL/EN-privacyverklaringen, footerkoppelingen en contact-consentlinks zijn toegevoegd.
-- Favicon, Apple-touch-icon, Open Graph/Twitter-metadata en wederkerige hreflang-links zijn toegevoegd.
-- `defer="True"` is genormaliseerd naar `defer`.
+> *“De tekst is een land. Iedere uitleg is een kaart. Een goede kaart helpt ons het land zien, maar zij mag het land nooit verzinnen.”*
 
-## Netlify
-Publiceer de volledige inhoud van deze map. De formulieren `quick-feedback` en `serious-help-request`, alle veldnamen en de honeypot `bot-field` zijn ongewijzigd.
+---
 
+## 📖 Over het Project
 
-## Redactionele herhalingsronde
-De metafoor kaart/land blijft als ankerzin, in de volledige uitleg van hoofdstuk 1 en in de woordenlijst. Op andere plaatsen is heruitleg vervangen door directe taal over tekst, uitleg en corrigeerbaarheid. Functionele herhaling in vragen, werkonderdelen en eindchecks is bewust behouden.
+**Zelf de parasja lezen** ondersteunt lezers om de Hebreeuwse Bijbeltekst (Tora en Tanach) in haar eigen opbouw, context en structuur te onderzoeken voordat secundaire verklaringsmodellen of dogma's worden toegepast. 
+
+Het project biedt een interactief digitaal werkblad met 11 stappen, de volledige online handleiding (18 hoofdstukken), een methode-uitleg, contactmogelijkheden en meertalige ondersteuning.
+
+---
+
+## ✨ Belangrijkste Functionaliteiten
+
+- 📜 **Alle 54 Parasjot**: Selecteer elke wekelijkse lezing uit Genesis, Exodus, Leviticus, Numeri en Deuteronomium.
+- ✍️ **11-Stappen Werkblad**: Voortgangsindicator, notitievelden per stap en vinkjes voor voltooide stappen.
+- 💾 **JSON Backup & Restore**: Exporteer al je gemaakte aantekeningen naar een `.json` bestand en laad ze eenvoudig weer in op elk gewenst apparaat.
+- 🍔 **Responsive Hamburger Menu**: Modern, mobielvriendelijk geanimeerd navigatiemenu gebouwd met React.js en glassmorphic styling.
+- 🌍 **Tweetalig (NL / EN)**: Volledige ondersteuning voor Nederlands en Engels.
+- 📚 **Volledige Online Handleiding**: 18 verdiepende hoofdstukken, bronnen, voorbeelden en een Hebreeuwse woordenlijst.
+
+---
+
+## 🛠️ Technologieën
+
+- **Frontend**: [React.js](https://react.dev/) (React 19) + [Vite](https://vitejs.dev/)
+- **Pictogrammen**: [Lucide React](https://lucide.dev/)
+- **Styling**: Vanilla CSS met harmonische warm-perkamenten OKLCH kleurentokens (`#954c28` warm terracotta, `#f8f4ef` perkament papier)
+- **Deployment**: [Netlify](https://www.netlify.com/) met `_redirects` en `netlify.toml`
+
+---
+
+## 🚀 Aan de slag
+
+### Vereisten
+- [Node.js](https://nodejs.org/) (versie 18 of hoger)
+- `npm`
+
+### Installatie
+
+```bash
+# Clone de repository
+git clone https://github.com/ArieAlberts/bijbelstudie.git
+cd bijbelstudie
+
+# Installeer de afhankelijkheden
+npm install
+```
+
+### Ontwikkeling & Server starten
+
+```bash
+# Start de lokale ontwikkelserver
+npm run dev
+```
+
+Open vervolgens `http://localhost:3000` in je browser.
+
+### Productie Build
+
+```bash
+# Bouw de geoptimaliseerde productieversie
+npm run build
+```
+
+---
+
+## 📄 Licentie
+
+Dit project is gepubliceerd onder de MIT Licentie.
