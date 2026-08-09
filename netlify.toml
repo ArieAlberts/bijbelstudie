@@ -1,5 +1,6 @@
 [build]
-  publish = "."
+  command = "npm run build"
+  publish = "dist"
 
 [[headers]]
   for = "/assets/*"
@@ -14,4 +15,24 @@
 [[redirects]]
   from = "/handbook"
   to = "/en/handbook.html"
+  status = 301
+
+[[redirects]]
+  from = "/contact"
+  to = "/nl/contact.html"
+  status = 301
+
+[[redirects]]
+  from = "/privacy"
+  to = "/nl/privacy.html"
+  status = 301
+
+[[redirects]]
+  from = "/bedankt"
+  to = "/nl/bedankt.html"
+  status = 301
+
+[[redirects]]
+  from = "/thanks"
+  to = "/en/thanks.html"
   status = 301
