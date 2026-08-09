@@ -1,0 +1,17 @@
+[build]
+  publish = "."
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[redirects]]
+  from = "/handleiding"
+  to = "/nl/handleiding.html"
+  status = 301
+
+[[redirects]]
+  from = "/handbook"
+  to = "/en/handbook.html"
+  status = 301

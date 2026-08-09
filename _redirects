@@ -1,0 +1,7 @@
+# Netlify Redirect Rules
+/  /nl/index.html  302  Language=nl
+/  /en/index.html  302  Language=en
+/handleiding  /nl/handleiding.html  301
+/handbook  /en/handbook.html  301
+/contact  /nl/contact.html  301
+/privacy  /nl/privacy.html  301
