@@ -24,110 +24,99 @@ const PARASJOT = [
 
 export default function WorksheetHero({ lang }) {
   const [selectedParasja, setSelectedParasja] = useState(PARASJOT[0]);
-  const [completedCount, setCompletedCount] = useState(0);
 
-  // Sync state with LocalStorage / DOM checkboxes
-  useEffect(() => {
-    const updateProgress = () => {
-      const checked = document.querySelectorAll('[data-work-check]:checked').length;
-      setCompletedCount(checked);
-    };
-
-    updateProgress();
-
-    // Listen to changes on checkboxes
-    document.addEventListener('change', updateProgress);
-    return () => document.removeEventListener('change', updateProgress);
-  }, []);
-
-  const totalSteps = 11;
-  const progressPercent = Math.round((completedCount / totalSteps) * 100);
-
-  // Export JSON
-  const handleExportJSON = () => {
+  const safeGetStorage = (key) => {
     try {
-      const stateData = localStorage.getItem('frame-parasja-site-v2') || '{}';
-      const exportData = {
-        version: "2.0",
-        timestamp: new Date().toISOString(),
-        parasja: selectedParasja,
-        state: JSON.parse(stateData)
-      };
-      const blob = new Blob([JSON.stringify(exportData, null, 2)], { type: 'application/json' });
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement('a');
-      a.href = url;
-      a.download = `parasja_studie_${selectedParasja.split(' ')[0].toLowerCase()}_${new Date().toISOString().slice(0, 10)}.json`;
-      a.click();
-      URL.revokeObjectURL(url);
-    } catch (err) {
-      alert(lang === 'nl' ? 'Fout bij het exporteren.' : 'Error exporting data.');
+      return localStorage.getItem(key);
+    } catch (_) {
+      return null;
     }
   };
 
-  // Import JSON
-  const handleImportJSON = (e) => {
-    const file = e.target.files[0];
-    if (!file) return;
-    const reader = new FileReader();
-    reader.onload = (event) => {
-      try {
-        const imported = JSON.parse(event.target.result);
-        if (imported.state) {
-          localStorage.setItem('frame-parasja-site-v2', JSON.stringify(imported.state));
-        } else {
-          localStorage.setItem('frame-parasja-site-v2', JSON.stringify(imported));
-        }
-        if (imported.parasja) setSelectedParasja(imported.parasja);
-        alert(lang === 'nl' ? 'Studie-aantekeningen succesvol geïmporteerd!' : 'Study notes imported successfully!');
-        window.location.reload();
-      } catch (err) {
-        alert(lang === 'nl' ? 'Kan JSON-bestand niet importeren.' : 'Failed to import JSON file.');
-      }
-    };
-    reader.readAsText(file);
-    e.target.value = '';
+  const safeSetStorage = (key, val) => {
+    try {
+      localStorage.setItem(key, val);
+    } catch (_) {}
   };
 
-  // Reset
+  const safeRemoveStorage = (key) => {
+    try {
+      localStorage.removeItem(key);
+    } catch (_) {}
+  };
+
+  const handleExportJSON = () => {
+    const exportBtn = document.getElementById('export-work');
+    if (exportBtn) {
+      exportBtn.click();
+    } else {
+      try {
+        const stateData = safeGetStorage('frame-parasja-site-v2') || '{}';
+        const exportData = {
+          version: "2.0",
+          timestamp: new Date().toISOString(),
+          parasja: selectedParasja,
+          state: JSON.parse(stateData)
+        };
+        const blob = new Blob([JSON.stringify(exportData, null, 2)], { type: 'application/json' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = lang === 'nl' ? 'parasja-studie-backup.json' : 'parashah-study-backup.json';
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+        URL.revokeObjectURL(url);
+      } catch (_) {
+        alert(lang === 'nl' ? 'Fout bij exporteren.' : 'Error exporting data.');
+      }
+    }
+  };
+
+  const handleImportJSON = () => {
+    const importBtn = document.getElementById('import-work');
+    if (importBtn) {
+      importBtn.click();
+    } else {
+      const fileInput = document.getElementById('import-file');
+      if (fileInput) fileInput.click();
+    }
+  };
+
   const handleReset = () => {
-    const msg = lang === 'nl'
-      ? 'Weet je zeker dat je alle vinkjes en aantekeningen op deze pagina wilt wissen?'
-      : 'Clear all checkmarks and notes on this page?';
-    if (window.confirm(msg)) {
-      localStorage.removeItem('frame-parasja-site-v2');
-      window.location.reload();
+    const resetBtn = document.getElementById('reset-work');
+    if (resetBtn) {
+      resetBtn.click();
+    } else {
+      const msg = lang === 'nl'
+        ? 'Alle vinkjes en aantekeningen op deze pagina wissen?'
+        : 'Clear all checkmarks and notes on this page?';
+      if (window.confirm(msg)) {
+        safeRemoveStorage('frame-parasja-site-v2');
+        window.location.reload();
+      }
     }
   };
 
   return (
-    <div className="hero-card" style={{ marginBottom: '32px' }}>
-      <div className="hero-eyebrow">{lang === 'nl' ? 'INTERACTIEF WERKBLAD' : 'INTERACTIVE WORKSHEET'}</div>
-      <h1 className="hero-title">{lang === 'nl' ? 'Zelf de parasja lezen' : 'Read the Parashah Yourself'}</h1>
+    <div className="hero-card">
+      <div className="hero-eyebrow">{lang === 'nl' ? 'De wekelijkse parasja' : 'The weekly parashah'}</div>
+      <h1 className="hero-title">{lang === 'nl' ? 'Lees en onderzoek de parasja' : 'Read and explore the parashah'}</h1>
       <p className="hero-subtitle">
         {lang === 'nl'
-          ? 'Volg de 11 stappen van de methode om zelfstandig en gestructureerd de wekelijkse Toralezing te bestuderen.'
-          : 'Follow the 11 steps of the method to independently and systematically study the weekly Torah portion.'}
+          ? 'Kies de parasja en neem de tijd om de tekst zelf te lezen. De vragen helpen je aandachtig bij de tekst te blijven. De methode en handleiding zijn beschikbaar wanneer je extra uitleg nodig hebt.'
+          : 'Choose the parashah and take time to read the text for yourself. The questions help you stay attentive to the text. The method and handbook are available when you need further explanation.'}
       </p>
 
       {/* Parasja Selector Dropdown */}
-      <div style={{ marginBottom: '24px' }}>
-        <label style={{ display: 'block', fontWeight: 600, marginBottom: '8px', fontSize: '15px' }}>
+      <div className="parasja-selector-container">
+        <label className="parasja-selector-label">
           {lang === 'nl' ? 'Selecteer een parasja:' : 'Select a parashah:'}
         </label>
         <select
           value={selectedParasja}
           onChange={(e) => setSelectedParasja(e.target.value)}
-          style={{
-            width: '100%',
-            maxWidth: '540px',
-            padding: '12px 14px',
-            border: '1px solid var(--line)',
-            borderRadius: '4px',
-            background: 'var(--paper)',
-            fontSize: '15px',
-            fontWeight: 500
-          }}
+          className="parasja-selector-select"
         >
           {PARASJOT.map((p, idx) => (
             <option key={idx} value={p}>{p}</option>
@@ -135,32 +124,20 @@ export default function WorksheetHero({ lang }) {
         </select>
       </div>
 
-      {/* Progress Bar */}
-      <div style={{ marginTop: '20px' }}>
-        <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '14px', fontWeight: 600, marginBottom: '6px' }}>
-          <span>{lang === 'nl' ? 'Voortgang:' : 'Progress:'} {completedCount} / {totalSteps} {lang === 'nl' ? 'stappen voltooid' : 'steps completed'}</span>
-          <span>{progressPercent}%</span>
-        </div>
-        <div style={{ height: '8px', background: 'var(--soft)', borderRadius: '4px', overflow: 'hidden' }}>
-          <div style={{ height: '100%', width: `${progressPercent}%`, background: 'var(--accent)', transition: 'width 0.3s' }} />
-        </div>
-      </div>
-
       {/* Action Buttons: Export, Import, Reset */}
-      <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', marginTop: '24px' }}>
-        <button className="btn-secondary" onClick={handleExportJSON}>
-          <Download size={16} />
+      <div className="hero-action-buttons">
+        <button type="button" className="btn-secondary" onClick={handleExportJSON}>
+          <Download className="btn-icon" size={16} />
           <span>{lang === 'nl' ? 'Exporteer (JSON)' : 'Export (JSON)'}</span>
         </button>
 
-        <label className="btn-secondary" style={{ cursor: 'pointer' }}>
-          <Upload size={16} />
+        <button type="button" className="btn-secondary" onClick={handleImportJSON}>
+          <Upload className="btn-icon" size={16} />
           <span>{lang === 'nl' ? 'Importeer (JSON)' : 'Import (JSON)'}</span>
-          <input type="file" accept=".json" onChange={handleImportJSON} style={{ display: 'none' }} />
-        </label>
+        </button>
 
-        <button className="btn-secondary" onClick={handleReset} style={{ color: '#86281d' }}>
-          <RotateCcw size={16} />
+        <button type="button" className="btn-secondary btn-reset" onClick={handleReset}>
+          <RotateCcw className="btn-icon" size={16} />
           <span>{lang === 'nl' ? 'Reset' : 'Reset'}</span>
         </button>
       </div>

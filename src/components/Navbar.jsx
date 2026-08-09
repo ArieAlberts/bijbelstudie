@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Menu, X, BookOpen, HelpCircle, Book, Mail, Globe } from 'lucide-react';
 
 export default function Navbar({ activeView, setActiveView, lang, setLang }) {
@@ -6,6 +6,16 @@ export default function Navbar({ activeView, setActiveView, lang, setLang }) {
 
   const toggleMenu = () => setIsOpen(!isOpen);
   const closeMenu = () => setIsOpen(false);
+
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key === 'Escape' && isOpen) {
+        closeMenu();
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [isOpen]);
 
   const handleNav = (view) => {
     setActiveView(view);
@@ -24,14 +34,18 @@ export default function Navbar({ activeView, setActiveView, lang, setLang }) {
     method: 'Over de methode',
     handbook: 'Handleiding',
     contact: 'Contact',
-    langSwitch: 'English'
+    langSwitch: 'English',
+    menuOpen: 'Menu openen',
+    menuClose: 'Menu sluiten'
   } : {
     brand: 'Read the Parashah Yourself',
     worksheet: 'Read the parashah',
     method: 'About the method',
     handbook: 'Handbook',
     contact: 'Contact',
-    langSwitch: 'Nederlands'
+    langSwitch: 'Nederlands',
+    menuOpen: 'Open menu',
+    menuClose: 'Close menu'
   };
 
   const handbookUrl = lang === 'nl' ? '../nl/handleiding.html' : '../en/handbook.html';
@@ -40,8 +54,12 @@ export default function Navbar({ activeView, setActiveView, lang, setLang }) {
   return (
     <header className="site-navbar">
       <div className="navbar-container">
-        <a href={lang === 'nl' ? '../nl/index.html' : '../en/index.html'} onClick={() => closeMenu()} className="brand-logo">
-          <BookOpen className="w-5 h-5" style={{ color: 'var(--accent)' }} />
+        <a
+          href={lang === 'nl' ? '../nl/index.html' : '../en/index.html'}
+          onClick={() => closeMenu()}
+          className="brand-logo"
+        >
+          <BookOpen className="brand-icon" aria-hidden="true" />
           <span>{labels.brand}</span>
         </a>
 
@@ -75,63 +93,65 @@ export default function Navbar({ activeView, setActiveView, lang, setLang }) {
           >
             {labels.contact}
           </a>
-          <button className="lang-btn" onClick={toggleLanguage}>
-            <Globe size={14} style={{ display: 'inline', marginRight: '4px', verticalAlign: 'middle' }} />
-            {labels.langSwitch}
+          <button type="button" className="lang-btn" onClick={toggleLanguage}>
+            <Globe className="lang-icon" aria-hidden="true" />
+            <span>{labels.langSwitch}</span>
           </button>
         </nav>
 
         {/* Hamburger Menu Toggle Button for Mobile */}
         <button
+          type="button"
           className="hamburger-btn"
           onClick={toggleMenu}
           aria-expanded={isOpen}
-          aria-label={isOpen ? "Sluit menu" : "Open menu"}
+          aria-controls="mobile-navigation-drawer"
+          aria-label={isOpen ? labels.menuClose : labels.menuOpen}
         >
-          {isOpen ? <X size={22} /> : <Menu size={22} />}
+          {isOpen ? <X size={22} aria-hidden="true" /> : <Menu size={22} aria-hidden="true" />}
           <span>Menu</span>
         </button>
       </div>
 
       {/* Mobile Drawer Overlay */}
       <div className={`mobile-overlay ${isOpen ? 'open' : ''}`} onClick={closeMenu}>
-        <div className="mobile-drawer" onClick={(e) => e.stopPropagation()}>
+        <div id="mobile-navigation-drawer" className="mobile-drawer" onClick={(e) => e.stopPropagation()}>
           <a
             href={lang === 'nl' ? '../nl/index.html#werkblad' : '../en/index.html#worksheet'}
             className={`nav-link ${activeView === 'worksheet' ? 'active' : ''}`}
             onClick={() => handleNav('worksheet')}
           >
-            <BookOpen size={18} style={{ verticalAlign: 'middle', marginRight: '8px' }} />
-            {labels.worksheet}
+            <BookOpen className="nav-icon" aria-hidden="true" />
+            <span>{labels.worksheet}</span>
           </a>
           <a
             href={lang === 'nl' ? '../nl/index.html#methode' : '../en/index.html#methode'}
             className={`nav-link ${activeView === 'method' ? 'active' : ''}`}
             onClick={() => handleNav('method')}
           >
-            <HelpCircle size={18} style={{ verticalAlign: 'middle', marginRight: '8px' }} />
-            {labels.method}
+            <HelpCircle className="nav-icon" aria-hidden="true" />
+            <span>{labels.method}</span>
           </a>
           <a
             href={handbookUrl}
             className={`nav-link ${activeView === 'handbook' ? 'active' : ''}`}
             onClick={() => closeMenu()}
           >
-            <Book size={18} style={{ verticalAlign: 'middle', marginRight: '8px' }} />
-            {labels.handbook}
+            <Book className="nav-icon" aria-hidden="true" />
+            <span>{labels.handbook}</span>
           </a>
           <a
             href={contactUrl}
             className={`nav-link ${activeView === 'contact' ? 'active' : ''}`}
             onClick={() => closeMenu()}
           >
-            <Mail size={18} style={{ verticalAlign: 'middle', marginRight: '8px' }} />
-            {labels.contact}
+            <Mail className="nav-icon" aria-hidden="true" />
+            <span>{labels.contact}</span>
           </a>
-          <hr style={{ border: 0, borderTop: '1px solid var(--line)', margin: '8px 0' }} />
-          <button className="lang-btn" onClick={toggleLanguage} style={{ width: '100%', padding: '10px' }}>
-            <Globe size={16} style={{ display: 'inline', marginRight: '6px', verticalAlign: 'middle' }} />
-            {labels.langSwitch}
+          <hr className="drawer-divider" />
+          <button type="button" className="lang-btn mobile-lang-btn" onClick={toggleLanguage}>
+            <Globe className="lang-icon" aria-hidden="true" />
+            <span>{labels.langSwitch}</span>
           </button>
         </div>
       </div>

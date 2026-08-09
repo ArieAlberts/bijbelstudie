@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Navbar from './components/Navbar';
-import Worksheet from './components/Worksheet';
+import WorksheetHero from './components/WorksheetHero';
 import MethodView from './components/MethodView';
 import Handbook from './components/Handbook';
 import ContactForm from './components/ContactForm';
@@ -22,7 +22,7 @@ export default function App() {
 
       {/* Main Content Area */}
       <main className="app-container">
-        {activeView === 'worksheet' && <Worksheet lang={lang} />}
+        {activeView === 'worksheet' && <WorksheetHero lang={lang} />}
         {activeView === 'method' && <MethodView lang={lang} />}
         {activeView === 'handbook' && <Handbook lang={lang} />}
         {activeView === 'contact' && <ContactForm lang={lang} />}
@@ -33,11 +33,11 @@ export default function App() {
       <footer className="app-footer">
         <p>
           {lang === 'nl'
-            ? 'Zelf de parasja lezen — een praktijkhulpmiddel bij de methode van Arie Alberts · '
-            : 'Read the Parashah Yourself — a practical aid based on the method of Arie Alberts · '}
+            ? 'Zelf de parasja lezen — bij de Frame-methode van Arie Alberts · '
+            : 'Read the Parashah Yourself — based on The Frame method of Arie Alberts · '}
           <button
             onClick={() => setActiveView('privacy')}
-            style={{ border: 0, background: 'transparent', textDecoration: 'underline', cursor: 'pointer', color: 'var(--muted)', fontWeight: 600 }}
+            className="footer-privacy-btn"
           >
             Privacy
           </button>

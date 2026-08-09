@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8"/>
+  <title>Form definitions · Zelf de parasja lezen</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg"/>
+  <link rel="stylesheet" href="assets/css/styles.css"/>
+</head>
+<body>
+  <main id="main" tabindex="-1">
+    <!-- Static Netlify Form Definition: quick-feedback -->
+    <form name="quick-feedback" data-netlify="true" netlify-honeypot="bot-field" method="POST" action="nl/bedankt.html">
+      <input type="hidden" name="form-name" value="quick-feedback"/>
+      <p class="visually-hidden-honeypot"><label>Laat dit veld leeg: <input name="bot-field" type="text"/></label></p>
+      <input name="language"/>
+      <input name="source_type"/>
+      <input name="source_id"/>
+      <input name="source_title"/>
+      <input name="rating"/>
+      <textarea name="comment"></textarea>
+      <input name="page_url"/>
+      <input name="version"/>
+      <input name="submitted_at"/>
+      <button type="submit">Versturen</button>
+    </form>
+
+    <!-- Static Netlify Form Definition: serious-help-request -->
+    <form name="serious-help-request" data-netlify="true" netlify-honeypot="bot-field" method="POST" action="nl/bedankt.html">
+      <input type="hidden" name="form-name" value="serious-help-request"/>
+      <p class="visually-hidden-honeypot"><label>Laat dit veld leeg: <input name="bot-field" type="text"/></label></p>
+      <input name="waar_ben_je"/>
+      <textarea name="wat_heb_je_al_geprobeerd"></textarea>
+      <textarea name="vraag"></textarea>
+      <input name="handleiding_gelezen"/>
+      <input name="toestemming"/>
+      <button type="submit">Versturen</button>
+    </form>
+  </main>
+</body>
+</html>
