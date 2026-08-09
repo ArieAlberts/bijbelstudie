@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom/client';
 import Navbar from './components/Navbar';
 import WorksheetHero from './components/WorksheetHero';
@@ -8,35 +8,50 @@ function HeaderApp() {
   const isEnglish = document.documentElement.lang === 'en';
   const path = window.location.pathname;
 
-  let activeView = 'worksheet';
-  if (path.includes('handleiding') || path.includes('handbook')) {
-    activeView = 'handbook';
-  } else if (path.includes('contact')) {
-    activeView = 'contact';
-  } else if (path.includes('privacy')) {
-    activeView = 'privacy';
-  } else if (window.location.hash.includes('methode')) {
-    activeView = 'method';
-  }
+  const determineViewFromHash = () => {
+    const hash = window.location.hash;
+    if (['#methode', '#uitleg', '#voorbeeld', '#bijlagen'].includes(hash)) {
+      return 'method';
+    }
+    if (path.includes('handleiding') || path.includes('handbook')) return 'handbook';
+    if (path.includes('contact')) return 'contact';
+    if (path.includes('privacy')) return 'privacy';
+    return 'worksheet';
+  };
 
-  const [lang, setLang] = React.useState(isEnglish ? 'en' : 'nl');
-  const [currentView, setCurrentView] = React.useState(activeView);
+  const [lang, setLang] = useState(isEnglish ? 'en' : 'nl');
+  const [currentView, setCurrentView] = useState(determineViewFromHash());
+
+  useEffect(() => {
+    const handleHashChange = () => {
+      const view = determineViewFromHash();
+      setCurrentView(view);
+      if (window.setView && (view === 'worksheet' || view === 'method')) {
+        window.setView(view, true);
+      }
+    };
+
+    window.addEventListener('hashchange', handleHashChange);
+    return () => window.removeEventListener('hashchange', handleHashChange);
+  }, [path]);
 
   const handleViewChange = (view) => {
     setCurrentView(view);
 
     if (view === 'worksheet') {
-      const btn = document.querySelector('[data-view-button="worksheet"]');
-      if (btn) btn.click();
-      const sheet = document.getElementById('werkblad') || document.getElementById('worksheet');
-      if (sheet) sheet.scrollIntoView({ behavior: 'smooth' });
-      else window.location.href = lang === 'nl' ? '../nl/index.html#werkblad' : '../en/index.html#worksheet';
+      if (window.setView) {
+        window.setView('worksheet', true);
+        window.location.hash = '#werkblad';
+      } else {
+        window.location.href = lang === 'nl' ? '../nl/index.html#werkblad' : '../en/index.html#worksheet';
+      }
     } else if (view === 'method') {
-      const btn = document.querySelector('[data-view-button="method"]');
-      if (btn) btn.click();
-      const meth = document.getElementById('methode');
-      if (meth) meth.scrollIntoView({ behavior: 'smooth' });
-      else window.location.href = lang === 'nl' ? '../nl/index.html#methode' : '../en/index.html#methode';
+      if (window.setView) {
+        window.setView('method', true);
+        window.location.hash = '#methode';
+      } else {
+        window.location.href = lang === 'nl' ? '../nl/index.html#methode' : '../en/index.html#methode';
+      }
     } else if (view === 'handbook') {
       window.location.href = lang === 'nl' ? '../nl/handleiding.html' : '../en/handbook.html';
     } else if (view === 'contact') {
@@ -50,12 +65,12 @@ function HeaderApp() {
       if (path.includes('handleiding')) window.location.href = '../en/handbook.html';
       else if (path.includes('contact')) window.location.href = '../en/contact.html';
       else if (path.includes('privacy')) window.location.href = '../en/privacy.html';
-      else window.location.href = '../en/index.html';
+      else window.location.href = '../en/index.html' + window.location.hash;
     } else {
       if (path.includes('handbook')) window.location.href = '../nl/handleiding.html';
       else if (path.includes('contact')) window.location.href = '../nl/contact.html';
       else if (path.includes('privacy')) window.location.href = '../nl/privacy.html';
-      else window.location.href = '../nl/index.html';
+      else window.location.href = '../nl/index.html' + window.location.hash;
     }
   };
 

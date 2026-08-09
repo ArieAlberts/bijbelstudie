@@ -53,10 +53,12 @@
    btn.setAttribute('aria-pressed', String(active));
   });
   if (scroll) {
-   const target = worksheet ? document.querySelector('.worksheet-view') : document.querySelector('#methode');
+   const target = worksheet ? document.querySelector('.worksheet-view') : (document.querySelector('#methode') || document.querySelector('#uitleg'));
    target?.scrollIntoView({ behavior: scrollBehavior(), block: 'start' });
   }
  }
+
+ window.setView = setView;
 
  $$('[data-view-button]').forEach(btn => btn.addEventListener('click', () => setView(btn.dataset.viewButton)));
  $$('[data-view-link]').forEach(link => link.addEventListener('click', ev => {
@@ -67,9 +69,14 @@
   }
  }));
 
- const methodHashes = ['#uitleg', '#methode', '#voorbeeld', '#bijlagen'];
- const initialView = methodHashes.includes(location.hash) ? 'method' : 'worksheet';
- setView(initialView, false);
+ function syncHashView() {
+  const methodHashes = ['#uitleg', '#methode', '#voorbeeld', '#bijlagen'];
+  const view = methodHashes.includes(location.hash) ? 'method' : 'worksheet';
+  setView(view, !!location.hash);
+ }
+
+ window.addEventListener('hashchange', syncHashView);
+ syncHashView();
 
  function bind(prefix, bucket) {
   $$(`[data-${prefix}-check]`).forEach(el => {
