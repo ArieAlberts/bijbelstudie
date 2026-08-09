@@ -1,4 +1,14 @@
-node_modules
-dist
-.DS_Store
+# Dependencies
+node_modules/
+
+# Production Build Output
+dist/
+
+# Logs
 *.log
+
+# OS & Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
