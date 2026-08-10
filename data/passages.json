@@ -54,6 +54,48 @@
         {
           "role": "parasha",
           "ref": {
+            "nl": "Deuteronomium 26:1–29:9",
+            "en": "Deuteronomy 26:1–29:9"
+          },
+          "osis": "Deut.26.1-Deut.29.9"
+        },
+        {
+          "role": "haftara",
+          "ref": {
+            "nl": "Jesaja 60:1–22",
+            "en": "Isaiah 60:1–22"
+          },
+          "osis": "Isa.60.1-Isa.60.22"
+        },
+        {
+          "role": "gospel",
+          "ref": {
+            "nl": "Mattheüs 4:13–24",
+            "en": "Matthew 4:13–24"
+          },
+          "osis": "Matt.4.13-Matt.4.24"
+        }
+      ],
+      "label": {
+        "nl": "Ki Tavo",
+        "en": "Ki Tavo"
+      },
+      "extra_references": [],
+      "id": "ki-tavo",
+      "parasha": "Ki Tavo",
+      "status": "published",
+      "current": false,
+      "published_at": "2026-08-29",
+      "title_nl": "Wanneer gij komt in het land",
+      "title_en": "When you come into the land",
+      "summary_nl": "Over de eerstelingen, de tienden, het verbond in het land Moab, de zegeningen op de berg Gerizim en de waarschuwingen op de berg Ebal.",
+      "summary_en": "On firstfruits, tithes, the covenant in Moab, blessings on Mount Gerizim, and warnings on Mount Ebal."
+    },
+    {
+      "passages": [
+        {
+          "role": "parasha",
+          "ref": {
             "nl": "Deuteronomium 11:26–16:17",
             "en": "Deuteronomy 11:26–16:17"
           },

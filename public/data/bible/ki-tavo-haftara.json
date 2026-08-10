@@ -1,0 +1,4672 @@
+{
+  "study": "ki-tavo",
+  "role": "haftara",
+  "osis": "Isa.60.1-Isa.60.22",
+  "ref": {
+    "nl": "Jesaja 60:1–22",
+    "en": "Isaiah 60:1–22"
+  },
+  "testament": "OT",
+  "verses": [
+    {
+      "osis": "Isa.60.1",
+      "ref": "60:1",
+      "sv": "Maak u op, word verlicht, want uw Licht komt, en de heerlijkheid des HEEREN gaat over u op.",
+      "kjv": [
+        {
+          "t": "Arise,",
+          "s": null
+        },
+        {
+          "t": "shine;",
+          "s": null
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "thy",
+          "s": null
+        },
+        {
+          "t": "light",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "come,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "glory",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "LORD",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "risen",
+          "s": null
+        },
+        {
+          "t": "upon",
+          "s": null
+        },
+        {
+          "t": "thee.",
+          "s": null
+        },
+        {
+          "t": "<sup>shine:",
+          "s": null
+        },
+        {
+          "t": "or,",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "enlightened;",
+          "s": null
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "thy",
+          "s": null
+        },
+        {
+          "t": "light",
+          "s": null
+        },
+        {
+          "t": "cometh</sup>",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "op",
+            "charStart": 7,
+            "charEnd": 9,
+            "strong": "H6965",
+            "status": "verified"
+          },
+          {
+            "surface": "verlicht",
+            "charStart": 16,
+            "charEnd": 24,
+            "strong": "H215",
+            "status": "verified"
+          },
+          {
+            "surface": "Licht",
+            "charStart": 34,
+            "charEnd": 39,
+            "strong": "H216",
+            "status": "verified"
+          },
+          {
+            "surface": "komt",
+            "charStart": 40,
+            "charEnd": 44,
+            "strong": "H935",
+            "status": "verified"
+          },
+          {
+            "surface": "heerlijkheid",
+            "charStart": 52,
+            "charEnd": 64,
+            "strong": "H3519",
+            "status": "verified"
+          },
+          {
+            "surface": "HEEREN",
+            "charStart": 69,
+            "charEnd": 75,
+            "strong": "H3068",
+            "status": "verified"
+          },
+          {
+            "surface": "op",
+            "charStart": 88,
+            "charEnd": 90,
+            "strong": "H2224",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Isa.60.2",
+      "ref": "60:2",
+      "sv": "Want zie, de duisternis zal de aarde bedekken, en donkerheid de volken; doch over u zal de HEERE opgaan, en Zijn heerlijkheid zal over u gezien worden.",
+      "kjv": [
+        {
+          "t": "For,",
+          "s": null
+        },
+        {
+          "t": "behold,",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "darkness",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "cover",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "earth,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "gross",
+          "s": null
+        },
+        {
+          "t": "darkness",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "people:",
+          "s": null
+        },
+        {
+          "t": "but",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "LORD",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "arise",
+          "s": null
+        },
+        {
+          "t": "upon",
+          "s": null
+        },
+        {
+          "t": "thee,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "glory",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "seen",
+          "s": null
+        },
+        {
+          "t": "upon",
+          "s": null
+        },
+        {
+          "t": "thee.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "duisternis",
+            "charStart": 13,
+            "charEnd": 23,
+            "strong": "H2822",
+            "status": "verified"
+          },
+          {
+            "surface": "aarde",
+            "charStart": 31,
+            "charEnd": 36,
+            "strong": "H776",
+            "status": "verified"
+          },
+          {
+            "surface": "bedekken",
+            "charStart": 37,
+            "charEnd": 45,
+            "strong": "H3680",
+            "status": "verified"
+          },
+          {
+            "surface": "donkerheid",
+            "charStart": 50,
+            "charEnd": 60,
+            "strong": "H6205",
+            "status": "verified"
+          },
+          {
+            "surface": "volken",
+            "charStart": 64,
+            "charEnd": 70,
+            "strong": "H3816",
+            "status": "verified"
+          },
+          {
+            "surface": "HEERE",
+            "charStart": 91,
+            "charEnd": 96,
+            "strong": "H3068",
+            "status": "verified"
+          },
+          {
+            "surface": "opgaan",
+            "charStart": 97,
+            "charEnd": 103,
+            "strong": "H2224",
+            "status": "verified"
+          },
+          {
+            "surface": "heerlijkheid",
+            "charStart": 113,
+            "charEnd": 125,
+            "strong": "H3519",
+            "status": "verified"
+          },
+          {
+            "surface": "worden",
+            "charStart": 144,
+            "charEnd": 150,
+            "strong": "H7200",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Isa.60.3",
+      "ref": "60:3",
+      "sv": "En de heidenen zullen tot uw licht gaan, en koningen tot den glans, die u is opgegaan.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "Gentiles",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "come",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "thy",
+          "s": null
+        },
+        {
+          "t": "light,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "kings",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "brightness",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "thy",
+          "s": null
+        },
+        {
+          "t": "rising.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "heidenen",
+            "charStart": 6,
+            "charEnd": 14,
+            "strong": "H1471",
+            "status": "verified"
+          },
+          {
+            "surface": "licht",
+            "charStart": 29,
+            "charEnd": 34,
+            "strong": "H216",
+            "status": "verified"
+          },
+          {
+            "surface": "gaan",
+            "charStart": 35,
+            "charEnd": 39,
+            "strong": "H1980",
+            "status": "verified"
+          },
+          {
+            "surface": "koningen",
+            "charStart": 44,
+            "charEnd": 52,
+            "strong": "H4428",
+            "status": "verified"
+          },
+          {
+            "surface": "glans",
+            "charStart": 61,
+            "charEnd": 66,
+            "strong": "H5051",
+            "status": "verified"
+          },
+          {
+            "surface": "opgegaan",
+            "charStart": 77,
+            "charEnd": 85,
+            "strong": "H2225",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Isa.60.4",
+      "ref": "60:4",
+      "sv": "Hef uw ogen rondom op, en zie, die allen zijn vergaderd, zij komen tot u; uw zonen zullen van verre komen, en uw dochters zullen aan [uw] zijde gevoedsterd worden.",
+      "kjv": [
+        {
+          "t": "Lift",
+          "s": null
+        },
+        {
+          "t": "up",
+          "s": null
+        },
+        {
+          "t": "thine",
+          "s": null
+        },
+        {
+          "t": "eyes",
+          "s": null
+        },
+        {
+          "t": "round",
+          "s": null
+        },
+        {
+          "t": "about,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "see:",
+          "s": null
+        },
+        {
+          "t": "all",
+          "s": null
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "gather",
+          "s": null
+        },
+        {
+          "t": "themselves",
+          "s": null
+        },
+        {
+          "t": "together,",
+          "s": null
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "come",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "thee:",
+          "s": null
+        },
+        {
+          "t": "thy",
+          "s": null
+        },
+        {
+          "t": "sons",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "come",
+          "s": null
+        },
+        {
+          "t": "from",
+          "s": null
+        },
+        {
+          "t": "far,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "thy",
+          "s": null
+        },
+        {
+          "t": "daughters",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "nursed",
+          "s": null
+        },
+        {
+          "t": "at",
+          "s": null
+        },
+        {
+          "t": "thy",
+          "s": null
+        },
+        {
+          "t": "side.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Hef",
+            "charStart": 0,
+            "charEnd": 3,
+            "strong": "H5375",
+            "status": "verified"
+          },
+          {
+            "surface": "ogen",
+            "charStart": 7,
+            "charEnd": 11,
+            "strong": "H5869",
+            "status": "verified"
+          },
+          {
+            "surface": "rondom",
+            "charStart": 12,
+            "charEnd": 18,
+            "strong": "H5439",
+            "status": "verified"
+          },
+          {
+            "surface": "zie",
+            "charStart": 26,
+            "charEnd": 29,
+            "strong": "H7200",
+            "status": "verified"
+          },
+          {
+            "surface": "vergaderd",
+            "charStart": 46,
+            "charEnd": 55,
+            "strong": "H6908",
+            "status": "verified"
+          },
+          {
+            "surface": "komen",
+            "charStart": 61,
+            "charEnd": 66,
+            "strong": "H935",
+            "status": "verified"
+          },
+          {
+            "surface": "zonen",
+            "charStart": 77,
+            "charEnd": 82,
+            "strong": "H1121",
+            "status": "verified"
+          },
+          {
+            "surface": "verre",
+            "charStart": 94,
+            "charEnd": 99,
+            "strong": "H7350",
+            "status": "verified"
+          },
+          {
+            "surface": "komen",
+            "charStart": 100,
+            "charEnd": 105,
+            "strong": "H935",
+            "status": "verified"
+          },
+          {
+            "surface": "dochters",
+            "charStart": 113,
+            "charEnd": 121,
+            "strong": "H1323",
+            "status": "verified"
+          },
+          {
+            "surface": "zijde",
+            "charStart": 138,
+            "charEnd": 143,
+            "strong": "H6654",
+            "status": "verified"
+          },
+          {
+            "surface": "worden",
+            "charStart": 156,
+            "charEnd": 162,
+            "strong": "H539",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Isa.60.5",
+      "ref": "60:5",
+      "sv": "Dan zult gij het zien en samenvloeien, en uw hart zal vervaard zijn en verwijd worden; want de menigte der zee zal tot u gekeerd worden, het heir der heidenen zal tot u komen.",
+      "kjv": [
+        {
+          "t": "Then",
+          "s": null
+        },
+        {
+          "t": "thou",
+          "s": null
+        },
+        {
+          "t": "shalt",
+          "s": null
+        },
+        {
+          "t": "see",
+          "s": null
+        },
+        {
+          "t": ",",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "flow",
+          "s": null
+        },
+        {
+          "t": "together,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "thine",
+          "s": null
+        },
+        {
+          "t": "heart",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "fear,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "enlarged;",
+          "s": null
+        },
+        {
+          "t": "because",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "abundance",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "sea",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "converted",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "thee,",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "forces",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "Gentiles",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "come",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "thee.",
+          "s": null
+        },
+        {
+          "t": "<sup>abundance:",
+          "s": null
+        },
+        {
+          "t": "or,",
+          "s": null
+        },
+        {
+          "t": "noise",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "sea",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "turned",
+          "s": null
+        },
+        {
+          "t": "toward",
+          "s": null
+        },
+        {
+          "t": "thee</sup>",
+          "s": null
+        },
+        {
+          "t": "<sup>forces:",
+          "s": null
+        },
+        {
+          "t": "or,",
+          "s": null
+        },
+        {
+          "t": "wealth</sup>",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "zien",
+            "charStart": 17,
+            "charEnd": 21,
+            "strong": "H7200",
+            "status": "verified"
+          },
+          {
+            "surface": "samenvloeien",
+            "charStart": 25,
+            "charEnd": 37,
+            "strong": "H5102",
+            "status": "verified"
+          },
+          {
+            "surface": "hart",
+            "charStart": 45,
+            "charEnd": 49,
+            "strong": "H3824",
+            "status": "verified"
+          },
+          {
+            "surface": "zijn",
+            "charStart": 63,
+            "charEnd": 67,
+            "strong": "H6342",
+            "status": "verified"
+          },
+          {
+            "surface": "worden",
+            "charStart": 79,
+            "charEnd": 85,
+            "strong": "H7337",
+            "status": "verified"
+          },
+          {
+            "surface": "menigte",
+            "charStart": 95,
+            "charEnd": 102,
+            "strong": "H1995",
+            "status": "verified"
+          },
+          {
+            "surface": "zee",
+            "charStart": 107,
+            "charEnd": 110,
+            "strong": "H3220",
+            "status": "verified"
+          },
+          {
+            "surface": "worden",
+            "charStart": 129,
+            "charEnd": 135,
+            "strong": "H2015",
+            "status": "verified"
+          },
+          {
+            "surface": "heir",
+            "charStart": 141,
+            "charEnd": 145,
+            "strong": "H2428",
+            "status": "verified"
+          },
+          {
+            "surface": "heidenen",
+            "charStart": 150,
+            "charEnd": 158,
+            "strong": "H1471",
+            "status": "verified"
+          },
+          {
+            "surface": "komen",
+            "charStart": 169,
+            "charEnd": 174,
+            "strong": "H935",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Isa.60.6",
+      "ref": "60:6",
+      "sv": "Een hoop kemelen zal u bedekken, de snelle kemelen van Midian en Hefa; zij allen uit Scheba zullen komen; goud en wierook zullen zij aanbrengen, en zij zullen den overvloedigen lof des HEEREN boodschappen.",
+      "kjv": [
+        {
+          "t": "The",
+          "s": null
+        },
+        {
+          "t": "multitude",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "camels",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "cover",
+          "s": null
+        },
+        {
+          "t": "thee,",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "dromedaries",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "Midian",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "Ephah;",
+          "s": null
+        },
+        {
+          "t": "all",
+          "s": null
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "from",
+          "s": null
+        },
+        {
+          "t": "Sheba",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "come:",
+          "s": null
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "bring",
+          "s": null
+        },
+        {
+          "t": "gold",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "incense;",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "shew",
+          "s": null
+        },
+        {
+          "t": "forth",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "praises",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "LORD.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "hoop",
+            "charStart": 4,
+            "charEnd": 8,
+            "strong": "H8229",
+            "status": "verified"
+          },
+          {
+            "surface": "kemelen",
+            "charStart": 9,
+            "charEnd": 16,
+            "strong": "H1581",
+            "status": "verified"
+          },
+          {
+            "surface": "bedekken",
+            "charStart": 23,
+            "charEnd": 31,
+            "strong": "H3680",
+            "status": "verified"
+          },
+          {
+            "surface": "kemelen",
+            "charStart": 43,
+            "charEnd": 50,
+            "strong": "H1070",
+            "status": "verified"
+          },
+          {
+            "surface": "Midian",
+            "charStart": 55,
+            "charEnd": 61,
+            "strong": "H4080",
+            "status": "verified"
+          },
+          {
+            "surface": "Hefa",
+            "charStart": 65,
+            "charEnd": 69,
+            "strong": "H5891",
+            "status": "verified"
+          },
+          {
+            "surface": "Scheba",
+            "charStart": 85,
+            "charEnd": 91,
+            "strong": "H7614",
+            "status": "verified"
+          },
+          {
+            "surface": "komen",
+            "charStart": 99,
+            "charEnd": 104,
+            "strong": "H935",
+            "status": "verified"
+          },
+          {
+            "surface": "goud",
+            "charStart": 106,
+            "charEnd": 110,
+            "strong": "H2091",
+            "status": "verified"
+          },
+          {
+            "surface": "wierook",
+            "charStart": 114,
+            "charEnd": 121,
+            "strong": "H3828",
+            "status": "verified"
+          },
+          {
+            "surface": "aanbrengen",
+            "charStart": 133,
+            "charEnd": 143,
+            "strong": "H5375",
+            "status": "verified"
+          },
+          {
+            "surface": "lof",
+            "charStart": 177,
+            "charEnd": 180,
+            "strong": "H8416",
+            "status": "verified"
+          },
+          {
+            "surface": "HEEREN",
+            "charStart": 185,
+            "charEnd": 191,
+            "strong": "H3068",
+            "status": "verified"
+          },
+          {
+            "surface": "boodschappen",
+            "charStart": 192,
+            "charEnd": 204,
+            "strong": "H1319",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Isa.60.7",
+      "ref": "60:7",
+      "sv": "Al de schapen van Kedar zullen tot u verzameld worden; de rammen van Nebajoth zullen u dienen; zij zullen met welgevallen komen op Mijn altaar, en Ik zal het huis Mijner heerlijkheid heerlijk maken.",
+      "kjv": [
+        {
+          "t": "All",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "flocks",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "Kedar",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "gathered",
+          "s": null
+        },
+        {
+          "t": "together",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "thee,",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "rams",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "Nebaioth",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "minister",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "thee:",
+          "s": null
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "come",
+          "s": null
+        },
+        {
+          "t": "up",
+          "s": null
+        },
+        {
+          "t": "with",
+          "s": null
+        },
+        {
+          "t": "acceptance",
+          "s": null
+        },
+        {
+          "t": "on",
+          "s": null
+        },
+        {
+          "t": "mine",
+          "s": null
+        },
+        {
+          "t": "altar,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "glorify",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "house",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "my",
+          "s": null
+        },
+        {
+          "t": "glory.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "schapen",
+            "charStart": 6,
+            "charEnd": 13,
+            "strong": "H6629",
+            "status": "verified"
+          },
+          {
+            "surface": "Kedar",
+            "charStart": 18,
+            "charEnd": 23,
+            "strong": "H6938",
+            "status": "verified"
+          },
+          {
+            "surface": "worden",
+            "charStart": 47,
+            "charEnd": 53,
+            "strong": "H6908",
+            "status": "verified"
+          },
+          {
+            "surface": "rammen",
+            "charStart": 58,
+            "charEnd": 64,
+            "strong": "H352",
+            "status": "verified"
+          },
+          {
+            "surface": "Nebajoth",
+            "charStart": 69,
+            "charEnd": 77,
+            "strong": "H5032",
+            "status": "verified"
+          },
+          {
+            "surface": "dienen",
+            "charStart": 87,
+            "charEnd": 93,
+            "strong": "H8334",
+            "status": "verified"
+          },
+          {
+            "surface": "welgevallen",
+            "charStart": 110,
+            "charEnd": 121,
+            "strong": "H7522",
+            "status": "verified"
+          },
+          {
+            "surface": "komen",
+            "charStart": 122,
+            "charEnd": 127,
+            "strong": "H5927",
+            "status": "verified"
+          },
+          {
+            "surface": "altaar",
+            "charStart": 136,
+            "charEnd": 142,
+            "strong": "H4196",
+            "status": "verified"
+          },
+          {
+            "surface": "huis",
+            "charStart": 158,
+            "charEnd": 162,
+            "strong": "H1004",
+            "status": "verified"
+          },
+          {
+            "surface": "heerlijkheid",
+            "charStart": 170,
+            "charEnd": 182,
+            "strong": "H8597",
+            "status": "verified"
+          },
+          {
+            "surface": "maken",
+            "charStart": 192,
+            "charEnd": 197,
+            "strong": "H6286",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Isa.60.8",
+      "ref": "60:8",
+      "sv": "Wie zijn deze, [die] daar komen gevlogen als een wolk, en als duiven tot haar vensters?",
+      "kjv": [
+        {
+          "t": "Who",
+          "s": null
+        },
+        {
+          "t": "are",
+          "s": null
+        },
+        {
+          "t": "these",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "fly",
+          "s": null
+        },
+        {
+          "t": "as",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "cloud,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "as",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "doves",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "their",
+          "s": null
+        },
+        {
+          "t": "windows?",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "gevlogen",
+            "charStart": 32,
+            "charEnd": 40,
+            "strong": "H5774",
+            "status": "verified"
+          },
+          {
+            "surface": "wolk",
+            "charStart": 49,
+            "charEnd": 53,
+            "strong": "H5645",
+            "status": "verified"
+          },
+          {
+            "surface": "duiven",
+            "charStart": 62,
+            "charEnd": 68,
+            "strong": "H3123",
+            "status": "verified"
+          },
+          {
+            "surface": "vensters",
+            "charStart": 78,
+            "charEnd": 86,
+            "strong": "H699",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Isa.60.9",
+      "ref": "60:9",
+      "sv": "Want de eilanden zullen Mij verwachten, en de schepen van Tarsis vooreerst, om uw kinderen van verre te brengen, hun zilver en hun goud met hen, tot den Naam des HEEREN uws Gods, en tot den Heilige Israels, dewijl Hij u heerlijk gemaakt heeft.",
+      "kjv": [
+        {
+          "t": "Surely",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "isles",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "wait",
+          "s": null
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "me,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "ships",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "Tarshish",
+          "s": null
+        },
+        {
+          "t": "first,",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "bring",
+          "s": null
+        },
+        {
+          "t": "thy",
+          "s": null
+        },
+        {
+          "t": "sons",
+          "s": null
+        },
+        {
+          "t": "from",
+          "s": null
+        },
+        {
+          "t": "far,",
+          "s": null
+        },
+        {
+          "t": "their",
+          "s": null
+        },
+        {
+          "t": "silver",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "their",
+          "s": null
+        },
+        {
+          "t": "gold",
+          "s": null
+        },
+        {
+          "t": "with",
+          "s": null
+        },
+        {
+          "t": "them,",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "name",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "LORD",
+          "s": null
+        },
+        {
+          "t": "thy",
+          "s": null
+        },
+        {
+          "t": "God,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "Holy",
+          "s": null
+        },
+        {
+          "t": "One",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "Israel,",
+          "s": null
+        },
+        {
+          "t": "because",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "hath",
+          "s": null
+        },
+        {
+          "t": "glorified",
+          "s": null
+        },
+        {
+          "t": "thee.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "eilanden",
+            "charStart": 8,
+            "charEnd": 16,
+            "strong": "H339",
+            "status": "verified"
+          },
+          {
+            "surface": "verwachten",
+            "charStart": 28,
+            "charEnd": 38,
+            "strong": "H6960",
+            "status": "verified"
+          },
+          {
+            "surface": "schepen",
+            "charStart": 46,
+            "charEnd": 53,
+            "strong": "H591",
+            "status": "verified"
+          },
+          {
+            "surface": "Tarsis",
+            "charStart": 58,
+            "charEnd": 64,
+            "strong": "H8659",
+            "status": "verified"
+          },
+          {
+            "surface": "vooreerst",
+            "charStart": 65,
+            "charEnd": 74,
+            "strong": "H7223",
+            "status": "verified"
+          },
+          {
+            "surface": "kinderen",
+            "charStart": 82,
+            "charEnd": 90,
+            "strong": "H1121",
+            "status": "verified"
+          },
+          {
+            "surface": "verre",
+            "charStart": 95,
+            "charEnd": 100,
+            "strong": "H7350",
+            "status": "verified"
+          },
+          {
+            "surface": "brengen",
+            "charStart": 104,
+            "charEnd": 111,
+            "strong": "H935",
+            "status": "verified"
+          },
+          {
+            "surface": "zilver",
+            "charStart": 117,
+            "charEnd": 123,
+            "strong": "H3701",
+            "status": "verified"
+          },
+          {
+            "surface": "goud",
+            "charStart": 131,
+            "charEnd": 135,
+            "strong": "H2091",
+            "status": "verified"
+          },
+          {
+            "surface": "Naam",
+            "charStart": 153,
+            "charEnd": 157,
+            "strong": "H8034",
+            "status": "verified"
+          },
+          {
+            "surface": "HEEREN",
+            "charStart": 162,
+            "charEnd": 168,
+            "strong": "H3068",
+            "status": "verified"
+          },
+          {
+            "surface": "Gods",
+            "charStart": 173,
+            "charEnd": 177,
+            "strong": "H430",
+            "status": "verified"
+          },
+          {
+            "surface": "Heilige",
+            "charStart": 190,
+            "charEnd": 197,
+            "strong": "H6918",
+            "status": "verified"
+          },
+          {
+            "surface": "Israels",
+            "charStart": 198,
+            "charEnd": 205,
+            "strong": "H3478",
+            "status": "verified"
+          },
+          {
+            "surface": "heeft",
+            "charStart": 237,
+            "charEnd": 242,
+            "strong": "H6286",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Isa.60.10",
+      "ref": "60:10",
+      "sv": "En de vreemden zullen uw muren bouwen, en hun koningen zullen u dienen; want in Mijn verbolgenheid heb Ik u geslagen, maar in Mijn welbehagen heb Ik Mij over u ontfermd.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "sons",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "strangers",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "build",
+          "s": null
+        },
+        {
+          "t": "up",
+          "s": null
+        },
+        {
+          "t": "thy",
+          "s": null
+        },
+        {
+          "t": "walls,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "their",
+          "s": null
+        },
+        {
+          "t": "kings",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "minister",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "thee:",
+          "s": null
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "my",
+          "s": null
+        },
+        {
+          "t": "wrath",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "smote",
+          "s": null
+        },
+        {
+          "t": "thee,",
+          "s": null
+        },
+        {
+          "t": "but",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "my",
+          "s": null
+        },
+        {
+          "t": "favour",
+          "s": null
+        },
+        {
+          "t": "have",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "had",
+          "s": null
+        },
+        {
+          "t": "mercy",
+          "s": null
+        },
+        {
+          "t": "on",
+          "s": null
+        },
+        {
+          "t": "thee.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "vreemden",
+            "charStart": 6,
+            "charEnd": 14,
+            "strong": "H1121",
+            "status": "verified"
+          },
+          {
+            "surface": "muren",
+            "charStart": 25,
+            "charEnd": 30,
+            "strong": "H2346",
+            "status": "verified"
+          },
+          {
+            "surface": "bouwen",
+            "charStart": 31,
+            "charEnd": 37,
+            "strong": "H1129",
+            "status": "verified"
+          },
+          {
+            "surface": "koningen",
+            "charStart": 46,
+            "charEnd": 54,
+            "strong": "H4428",
+            "status": "verified"
+          },
+          {
+            "surface": "dienen",
+            "charStart": 64,
+            "charEnd": 70,
+            "strong": "H8334",
+            "status": "verified"
+          },
+          {
+            "surface": "verbolgenheid",
+            "charStart": 85,
+            "charEnd": 98,
+            "strong": "H7110",
+            "status": "verified"
+          },
+          {
+            "surface": "geslagen",
+            "charStart": 108,
+            "charEnd": 116,
+            "strong": "H5221",
+            "status": "verified"
+          },
+          {
+            "surface": "welbehagen",
+            "charStart": 131,
+            "charEnd": 141,
+            "strong": "H7522",
+            "status": "verified"
+          },
+          {
+            "surface": "ontfermd",
+            "charStart": 160,
+            "charEnd": 168,
+            "strong": "H7355",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Isa.60.11",
+      "ref": "60:11",
+      "sv": "En uw poorten zullen steeds openstaan, zij zullen des daags of des nachts niet toegesloten worden; opdat men tot u inbrenge het heir der heidenen, en hun koningen [tot] [u] geleid worden.",
+      "kjv": [
+        {
+          "t": "Therefore",
+          "s": null
+        },
+        {
+          "t": "thy",
+          "s": null
+        },
+        {
+          "t": "gates",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "open",
+          "s": null
+        },
+        {
+          "t": "continually;",
+          "s": null
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "shut",
+          "s": null
+        },
+        {
+          "t": "day",
+          "s": null
+        },
+        {
+          "t": "nor",
+          "s": null
+        },
+        {
+          "t": "night;",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "men",
+          "s": null
+        },
+        {
+          "t": "may",
+          "s": null
+        },
+        {
+          "t": "bring",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "thee",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "forces",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "Gentiles,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "their",
+          "s": null
+        },
+        {
+          "t": "kings",
+          "s": null
+        },
+        {
+          "t": "may",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "brought.",
+          "s": null
+        },
+        {
+          "t": "<sup>forces:",
+          "s": null
+        },
+        {
+          "t": "or,",
+          "s": null
+        },
+        {
+          "t": "wealth</sup>",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "poorten",
+            "charStart": 6,
+            "charEnd": 13,
+            "strong": "H8179",
+            "status": "verified"
+          },
+          {
+            "surface": "steeds",
+            "charStart": 21,
+            "charEnd": 27,
+            "strong": "H8548",
+            "status": "verified"
+          },
+          {
+            "surface": "openstaan",
+            "charStart": 28,
+            "charEnd": 37,
+            "strong": "H6605",
+            "status": "verified"
+          },
+          {
+            "surface": "daags",
+            "charStart": 54,
+            "charEnd": 59,
+            "strong": "H3119",
+            "status": "verified"
+          },
+          {
+            "surface": "nachts",
+            "charStart": 67,
+            "charEnd": 73,
+            "strong": "H3915",
+            "status": "verified"
+          },
+          {
+            "surface": "worden",
+            "charStart": 91,
+            "charEnd": 97,
+            "strong": "H5462",
+            "status": "verified"
+          },
+          {
+            "surface": "inbrenge",
+            "charStart": 115,
+            "charEnd": 123,
+            "strong": "H935",
+            "status": "verified"
+          },
+          {
+            "surface": "heir",
+            "charStart": 128,
+            "charEnd": 132,
+            "strong": "H2428",
+            "status": "verified"
+          },
+          {
+            "surface": "heidenen",
+            "charStart": 137,
+            "charEnd": 145,
+            "strong": "H1471",
+            "status": "verified"
+          },
+          {
+            "surface": "koningen",
+            "charStart": 154,
+            "charEnd": 162,
+            "strong": "H4428",
+            "status": "verified"
+          },
+          {
+            "surface": "worden",
+            "charStart": 180,
+            "charEnd": 186,
+            "strong": "H5090",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Isa.60.12",
+      "ref": "60:12",
+      "sv": "Want het volk en het koninkrijk, welke u niet zullen dienen, die zullen vergaan; en die volken zullen gans verwoest worden.",
+      "kjv": [
+        {
+          "t": "For",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "nation",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "kingdom",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "serve",
+          "s": null
+        },
+        {
+          "t": "thee",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "perish;",
+          "s": null
+        },
+        {
+          "t": "yea,",
+          "s": null
+        },
+        {
+          "t": "those",
+          "s": null
+        },
+        {
+          "t": "nations",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "utterly",
+          "s": null
+        },
+        {
+          "t": "wasted.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "volk",
+            "charStart": 9,
+            "charEnd": 13,
+            "strong": "H1471",
+            "status": "verified"
+          },
+          {
+            "surface": "koninkrijk",
+            "charStart": 21,
+            "charEnd": 31,
+            "strong": "H4467",
+            "status": "verified"
+          },
+          {
+            "surface": "dienen",
+            "charStart": 53,
+            "charEnd": 59,
+            "strong": "H5647",
+            "status": "verified"
+          },
+          {
+            "surface": "vergaan",
+            "charStart": 72,
+            "charEnd": 79,
+            "strong": "H6",
+            "status": "verified"
+          },
+          {
+            "surface": "volken",
+            "charStart": 88,
+            "charEnd": 94,
+            "strong": "H1471",
+            "status": "verified"
+          },
+          {
+            "surface": "gans",
+            "charStart": 102,
+            "charEnd": 106,
+            "strong": "H2717",
+            "status": "verified"
+          },
+          {
+            "surface": "worden",
+            "charStart": 116,
+            "charEnd": 122,
+            "strong": "H2717",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Isa.60.13",
+      "ref": "60:13",
+      "sv": "De heerlijkheid van Libanon zal tot u komen, de denneboom, de beuke [boom] en de busboom te gelijk, om te versieren de plaats Mijns heiligdoms, en Ik zal de plaats Mijner voeten heerlijk maken.",
+      "kjv": [
+        {
+          "t": "The",
+          "s": null
+        },
+        {
+          "t": "glory",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "Lebanon",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "come",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "thee,",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "fir",
+          "s": null
+        },
+        {
+          "t": "tree,",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "pine",
+          "s": null
+        },
+        {
+          "t": "tree,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "box",
+          "s": null
+        },
+        {
+          "t": "together,",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "beautify",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "place",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "my",
+          "s": null
+        },
+        {
+          "t": "sanctuary;",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "make",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "place",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "my",
+          "s": null
+        },
+        {
+          "t": "feet",
+          "s": null
+        },
+        {
+          "t": "glorious.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "heerlijkheid",
+            "charStart": 3,
+            "charEnd": 15,
+            "strong": "H3519",
+            "status": "verified"
+          },
+          {
+            "surface": "Libanon",
+            "charStart": 20,
+            "charEnd": 27,
+            "strong": "H3844",
+            "status": "verified"
+          },
+          {
+            "surface": "komen",
+            "charStart": 38,
+            "charEnd": 43,
+            "strong": "H935",
+            "status": "verified"
+          },
+          {
+            "surface": "denneboom",
+            "charStart": 48,
+            "charEnd": 57,
+            "strong": "H1265",
+            "status": "verified"
+          },
+          {
+            "surface": "beuke",
+            "charStart": 62,
+            "charEnd": 67,
+            "strong": "H8410",
+            "status": "verified"
+          },
+          {
+            "surface": "busboom",
+            "charStart": 81,
+            "charEnd": 88,
+            "strong": "H8391",
+            "status": "verified"
+          },
+          {
+            "surface": "gelijk",
+            "charStart": 92,
+            "charEnd": 98,
+            "strong": "H3162",
+            "status": "verified"
+          },
+          {
+            "surface": "versieren",
+            "charStart": 106,
+            "charEnd": 115,
+            "strong": "H6286",
+            "status": "verified"
+          },
+          {
+            "surface": "plaats",
+            "charStart": 119,
+            "charEnd": 125,
+            "strong": "H4725",
+            "status": "verified"
+          },
+          {
+            "surface": "heiligdoms",
+            "charStart": 132,
+            "charEnd": 142,
+            "strong": "H4720",
+            "status": "verified"
+          },
+          {
+            "surface": "plaats",
+            "charStart": 157,
+            "charEnd": 163,
+            "strong": "H4725",
+            "status": "verified"
+          },
+          {
+            "surface": "voeten",
+            "charStart": 171,
+            "charEnd": 177,
+            "strong": "H7272",
+            "status": "verified"
+          },
+          {
+            "surface": "maken",
+            "charStart": 187,
+            "charEnd": 192,
+            "strong": "H3513",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Isa.60.14",
+      "ref": "60:14",
+      "sv": "Ook zullen, zich buigende, tot u komen de kinderen dergenen, die u onderdrukt hebben, en allen, die u gelasterd hebben zullen zich nederbuigen aan de planten uwer voeten; en zij zullen u noemen de stad des HEEREN, het Sion van den Heilige Israels.",
+      "kjv": [
+        {
+          "t": "The",
+          "s": null
+        },
+        {
+          "t": "sons",
+          "s": null
+        },
+        {
+          "t": "also",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "them",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "afflicted",
+          "s": null
+        },
+        {
+          "t": "thee",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "come",
+          "s": null
+        },
+        {
+          "t": "bending",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "thee;",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "all",
+          "s": null
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "despised",
+          "s": null
+        },
+        {
+          "t": "thee",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "bow",
+          "s": null
+        },
+        {
+          "t": "themselves",
+          "s": null
+        },
+        {
+          "t": "down",
+          "s": null
+        },
+        {
+          "t": "at",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "soles",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "thy",
+          "s": null
+        },
+        {
+          "t": "feet;",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "call",
+          "s": null
+        },
+        {
+          "t": "thee,",
+          "s": null
+        },
+        {
+          "t": "The",
+          "s": null
+        },
+        {
+          "t": "city",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "LORD,",
+          "s": null
+        },
+        {
+          "t": "The",
+          "s": null
+        },
+        {
+          "t": "Zion",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "Holy",
+          "s": null
+        },
+        {
+          "t": "One",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "Israel.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "buigende",
+            "charStart": 17,
+            "charEnd": 25,
+            "strong": "H7817",
+            "status": "verified"
+          },
+          {
+            "surface": "komen",
+            "charStart": 33,
+            "charEnd": 38,
+            "strong": "H1980",
+            "status": "verified"
+          },
+          {
+            "surface": "kinderen",
+            "charStart": 42,
+            "charEnd": 50,
+            "strong": "H1121",
+            "status": "verified"
+          },
+          {
+            "surface": "hebben",
+            "charStart": 78,
+            "charEnd": 84,
+            "strong": "H6031",
+            "status": "verified"
+          },
+          {
+            "surface": "hebben",
+            "charStart": 112,
+            "charEnd": 118,
+            "strong": "H5006",
+            "status": "verified"
+          },
+          {
+            "surface": "nederbuigen",
+            "charStart": 131,
+            "charEnd": 142,
+            "strong": "H7812",
+            "status": "verified"
+          },
+          {
+            "surface": "planten",
+            "charStart": 150,
+            "charEnd": 157,
+            "strong": "H3709",
+            "status": "verified"
+          },
+          {
+            "surface": "voeten",
+            "charStart": 163,
+            "charEnd": 169,
+            "strong": "H7272",
+            "status": "verified"
+          },
+          {
+            "surface": "noemen",
+            "charStart": 187,
+            "charEnd": 193,
+            "strong": "H7121",
+            "status": "verified"
+          },
+          {
+            "surface": "stad",
+            "charStart": 197,
+            "charEnd": 201,
+            "strong": "H5892",
+            "status": "verified"
+          },
+          {
+            "surface": "HEEREN",
+            "charStart": 206,
+            "charEnd": 212,
+            "strong": "H3068",
+            "status": "verified"
+          },
+          {
+            "surface": "Sion",
+            "charStart": 218,
+            "charEnd": 222,
+            "strong": "H6726",
+            "status": "verified"
+          },
+          {
+            "surface": "Heilige",
+            "charStart": 231,
+            "charEnd": 238,
+            "strong": "H6918",
+            "status": "verified"
+          },
+          {
+            "surface": "Israels",
+            "charStart": 239,
+            "charEnd": 246,
+            "strong": "H3478",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Isa.60.15",
+      "ref": "60:15",
+      "sv": "In plaats dat gij verlaten en gehaat zijt geweest, zodat niemand door [u] henen ging, zo zal Ik u stellen tot een eeuwige heerlijkheid, [tot] een vreugde van geslacht tot geslacht.",
+      "kjv": [
+        {
+          "t": "Whereas",
+          "s": null
+        },
+        {
+          "t": "thou",
+          "s": null
+        },
+        {
+          "t": "hast",
+          "s": null
+        },
+        {
+          "t": "been",
+          "s": null
+        },
+        {
+          "t": "forsaken",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "hated,",
+          "s": null
+        },
+        {
+          "t": "so",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "no",
+          "s": null
+        },
+        {
+          "t": "man",
+          "s": null
+        },
+        {
+          "t": "went",
+          "s": null
+        },
+        {
+          "t": "through",
+          "s": null
+        },
+        {
+          "t": "thee,",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "make",
+          "s": null
+        },
+        {
+          "t": "thee",
+          "s": null
+        },
+        {
+          "t": "an",
+          "s": null
+        },
+        {
+          "t": "eternal",
+          "s": null
+        },
+        {
+          "t": "excellency,",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "joy",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "many",
+          "s": null
+        },
+        {
+          "t": "generations.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "dat",
+            "charStart": 10,
+            "charEnd": 13,
+            "strong": "H8478",
+            "status": "verified"
+          },
+          {
+            "surface": "verlaten",
+            "charStart": 18,
+            "charEnd": 26,
+            "strong": "H5800",
+            "status": "verified"
+          },
+          {
+            "surface": "geweest",
+            "charStart": 42,
+            "charEnd": 49,
+            "strong": "H8130",
+            "status": "verified"
+          },
+          {
+            "surface": "ging",
+            "charStart": 80,
+            "charEnd": 84,
+            "strong": "H5674",
+            "status": "verified"
+          },
+          {
+            "surface": "stellen",
+            "charStart": 98,
+            "charEnd": 105,
+            "strong": "H7760",
+            "status": "verified"
+          },
+          {
+            "surface": "eeuwige",
+            "charStart": 114,
+            "charEnd": 121,
+            "strong": "H5769",
+            "status": "verified"
+          },
+          {
+            "surface": "heerlijkheid",
+            "charStart": 122,
+            "charEnd": 134,
+            "strong": "H1347",
+            "status": "verified"
+          },
+          {
+            "surface": "vreugde",
+            "charStart": 146,
+            "charEnd": 153,
+            "strong": "H4885",
+            "status": "verified"
+          },
+          {
+            "surface": "geslacht",
+            "charStart": 158,
+            "charEnd": 166,
+            "strong": "H1755",
+            "status": "verified"
+          },
+          {
+            "surface": "geslacht",
+            "charStart": 171,
+            "charEnd": 179,
+            "strong": "H1755",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Isa.60.16",
+      "ref": "60:16",
+      "sv": "En gij zult de melk der heidenen zuigen, en gij zult de borsten der koningen zuigen; en gij zult weten, dat Ik de HEERE ben, uw Heiland, en uw Verlosser, de Machtige Jakobs.",
+      "kjv": [
+        {
+          "t": "Thou",
+          "s": null
+        },
+        {
+          "t": "shalt",
+          "s": null
+        },
+        {
+          "t": "also",
+          "s": null
+        },
+        {
+          "t": "suck",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "milk",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "Gentiles,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "shalt",
+          "s": null
+        },
+        {
+          "t": "suck",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "breast",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "kings:",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "thou",
+          "s": null
+        },
+        {
+          "t": "shalt",
+          "s": null
+        },
+        {
+          "t": "know",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "LORD",
+          "s": null
+        },
+        {
+          "t": "am",
+          "s": null
+        },
+        {
+          "t": "thy",
+          "s": null
+        },
+        {
+          "t": "Saviour",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "thy",
+          "s": null
+        },
+        {
+          "t": "Redeemer,",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "mighty",
+          "s": null
+        },
+        {
+          "t": "One",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "Jacob.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "melk",
+            "charStart": 15,
+            "charEnd": 19,
+            "strong": "H2461",
+            "status": "verified"
+          },
+          {
+            "surface": "heidenen",
+            "charStart": 24,
+            "charEnd": 32,
+            "strong": "H1471",
+            "status": "verified"
+          },
+          {
+            "surface": "zuigen",
+            "charStart": 33,
+            "charEnd": 39,
+            "strong": "H3243",
+            "status": "verified"
+          },
+          {
+            "surface": "borsten",
+            "charStart": 56,
+            "charEnd": 63,
+            "strong": "H7699",
+            "status": "verified"
+          },
+          {
+            "surface": "koningen",
+            "charStart": 68,
+            "charEnd": 76,
+            "strong": "H4428",
+            "status": "verified"
+          },
+          {
+            "surface": "zuigen",
+            "charStart": 77,
+            "charEnd": 83,
+            "strong": "H3243",
+            "status": "verified"
+          },
+          {
+            "surface": "weten",
+            "charStart": 97,
+            "charEnd": 102,
+            "strong": "H3045",
+            "status": "verified"
+          },
+          {
+            "surface": "HEERE",
+            "charStart": 114,
+            "charEnd": 119,
+            "strong": "H3068",
+            "status": "verified"
+          },
+          {
+            "surface": "Heiland",
+            "charStart": 128,
+            "charEnd": 135,
+            "strong": "H3467",
+            "status": "verified"
+          },
+          {
+            "surface": "Verlosser",
+            "charStart": 143,
+            "charEnd": 152,
+            "strong": "H1350",
+            "status": "verified"
+          },
+          {
+            "surface": "Machtige",
+            "charStart": 157,
+            "charEnd": 165,
+            "strong": "H46",
+            "status": "verified"
+          },
+          {
+            "surface": "Jakobs",
+            "charStart": 166,
+            "charEnd": 172,
+            "strong": "H3290",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Isa.60.17",
+      "ref": "60:17",
+      "sv": "Voor koper zal Ik goud brengen, en voor ijzer zal Ik zilver brengen, en voor hout koper, en voor stenen ijzer; en zal uw opzieners vreedzaam maken, en uw drijvers rechtvaardigen.",
+      "kjv": [
+        {
+          "t": "For",
+          "s": null
+        },
+        {
+          "t": "brass",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "bring",
+          "s": null
+        },
+        {
+          "t": "gold,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "iron",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "bring",
+          "s": null
+        },
+        {
+          "t": "silver,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "wood",
+          "s": null
+        },
+        {
+          "t": "brass,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "stones",
+          "s": null
+        },
+        {
+          "t": "iron:",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "also",
+          "s": null
+        },
+        {
+          "t": "make",
+          "s": null
+        },
+        {
+          "t": "thy",
+          "s": null
+        },
+        {
+          "t": "officers",
+          "s": null
+        },
+        {
+          "t": "peace,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "thine",
+          "s": null
+        },
+        {
+          "t": "exactors",
+          "s": null
+        },
+        {
+          "t": "righteousness.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "koper",
+            "charStart": 5,
+            "charEnd": 10,
+            "strong": "H5178",
+            "status": "verified"
+          },
+          {
+            "surface": "goud",
+            "charStart": 18,
+            "charEnd": 22,
+            "strong": "H2091",
+            "status": "verified"
+          },
+          {
+            "surface": "brengen",
+            "charStart": 23,
+            "charEnd": 30,
+            "strong": "H935",
+            "status": "verified"
+          },
+          {
+            "surface": "ijzer",
+            "charStart": 40,
+            "charEnd": 45,
+            "strong": "H1270",
+            "status": "verified"
+          },
+          {
+            "surface": "zilver",
+            "charStart": 53,
+            "charEnd": 59,
+            "strong": "H3701",
+            "status": "verified"
+          },
+          {
+            "surface": "brengen",
+            "charStart": 60,
+            "charEnd": 67,
+            "strong": "H935",
+            "status": "verified"
+          },
+          {
+            "surface": "hout",
+            "charStart": 77,
+            "charEnd": 81,
+            "strong": "H6086",
+            "status": "verified"
+          },
+          {
+            "surface": "koper",
+            "charStart": 82,
+            "charEnd": 87,
+            "strong": "H5178",
+            "status": "verified"
+          },
+          {
+            "surface": "stenen",
+            "charStart": 97,
+            "charEnd": 103,
+            "strong": "H68",
+            "status": "verified"
+          },
+          {
+            "surface": "ijzer",
+            "charStart": 104,
+            "charEnd": 109,
+            "strong": "H1270",
+            "status": "verified"
+          },
+          {
+            "surface": "opzieners",
+            "charStart": 121,
+            "charEnd": 130,
+            "strong": "H6486",
+            "status": "verified"
+          },
+          {
+            "surface": "vreedzaam",
+            "charStart": 131,
+            "charEnd": 140,
+            "strong": "H7965",
+            "status": "verified"
+          },
+          {
+            "surface": "maken",
+            "charStart": 141,
+            "charEnd": 146,
+            "strong": "H7760",
+            "status": "verified"
+          },
+          {
+            "surface": "drijvers",
+            "charStart": 154,
+            "charEnd": 162,
+            "strong": "H5065",
+            "status": "verified"
+          },
+          {
+            "surface": "rechtvaardigen",
+            "charStart": 163,
+            "charEnd": 177,
+            "strong": "H6666",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Isa.60.18",
+      "ref": "60:18",
+      "sv": "Er zal geen geweld meer gehoord worden in uw land, verstoring noch verbreking in uw landpale; maar uw muren zult gij Heil heten, en uw poorten Lof.",
+      "kjv": [
+        {
+          "t": "Violence",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "no",
+          "s": null
+        },
+        {
+          "t": "more",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "heard",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "thy",
+          "s": null
+        },
+        {
+          "t": "land,",
+          "s": null
+        },
+        {
+          "t": "wasting",
+          "s": null
+        },
+        {
+          "t": "nor",
+          "s": null
+        },
+        {
+          "t": "destruction",
+          "s": null
+        },
+        {
+          "t": "within",
+          "s": null
+        },
+        {
+          "t": "thy",
+          "s": null
+        },
+        {
+          "t": "borders;",
+          "s": null
+        },
+        {
+          "t": "but",
+          "s": null
+        },
+        {
+          "t": "thou",
+          "s": null
+        },
+        {
+          "t": "shalt",
+          "s": null
+        },
+        {
+          "t": "call",
+          "s": null
+        },
+        {
+          "t": "thy",
+          "s": null
+        },
+        {
+          "t": "walls",
+          "s": null
+        },
+        {
+          "t": "Salvation,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "thy",
+          "s": null
+        },
+        {
+          "t": "gates",
+          "s": null
+        },
+        {
+          "t": "Praise.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "geweld",
+            "charStart": 12,
+            "charEnd": 18,
+            "strong": "H2555",
+            "status": "verified"
+          },
+          {
+            "surface": "worden",
+            "charStart": 32,
+            "charEnd": 38,
+            "strong": "H8085",
+            "status": "verified"
+          },
+          {
+            "surface": "land",
+            "charStart": 45,
+            "charEnd": 49,
+            "strong": "H776",
+            "status": "verified"
+          },
+          {
+            "surface": "verstoring",
+            "charStart": 51,
+            "charEnd": 61,
+            "strong": "H7701",
+            "status": "verified"
+          },
+          {
+            "surface": "verbreking",
+            "charStart": 67,
+            "charEnd": 77,
+            "strong": "H7667",
+            "status": "verified"
+          },
+          {
+            "surface": "landpale",
+            "charStart": 84,
+            "charEnd": 92,
+            "strong": "H1366",
+            "status": "verified"
+          },
+          {
+            "surface": "muren",
+            "charStart": 102,
+            "charEnd": 107,
+            "strong": "H2346",
+            "status": "verified"
+          },
+          {
+            "surface": "Heil",
+            "charStart": 117,
+            "charEnd": 121,
+            "strong": "H3444",
+            "status": "verified"
+          },
+          {
+            "surface": "heten",
+            "charStart": 122,
+            "charEnd": 127,
+            "strong": "H7121",
+            "status": "verified"
+          },
+          {
+            "surface": "poorten",
+            "charStart": 135,
+            "charEnd": 142,
+            "strong": "H8179",
+            "status": "verified"
+          },
+          {
+            "surface": "Lof",
+            "charStart": 143,
+            "charEnd": 146,
+            "strong": "H8416",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Isa.60.19",
+      "ref": "60:19",
+      "sv": "De zon zal u niet meer wezen tot een licht des daags, en tot een glans zal u de maan niet lichten; maar de HEERE zal u wezen tot een eeuwig Licht, en uw God tot uw Sierlijkheid.",
+      "kjv": [
+        {
+          "t": "The",
+          "s": null
+        },
+        {
+          "t": "sun",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "no",
+          "s": null
+        },
+        {
+          "t": "more",
+          "s": null
+        },
+        {
+          "t": "thy",
+          "s": null
+        },
+        {
+          "t": "light",
+          "s": null
+        },
+        {
+          "t": "by",
+          "s": null
+        },
+        {
+          "t": "day;",
+          "s": null
+        },
+        {
+          "t": "neither",
+          "s": null
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "brightness",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "moon",
+          "s": null
+        },
+        {
+          "t": "give",
+          "s": null
+        },
+        {
+          "t": "light",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "thee:",
+          "s": null
+        },
+        {
+          "t": "but",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "LORD",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "thee",
+          "s": null
+        },
+        {
+          "t": "an",
+          "s": null
+        },
+        {
+          "t": "everlasting",
+          "s": null
+        },
+        {
+          "t": "light,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "thy",
+          "s": null
+        },
+        {
+          "t": "God",
+          "s": null
+        },
+        {
+          "t": "thy",
+          "s": null
+        },
+        {
+          "t": "glory.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "zon",
+            "charStart": 3,
+            "charEnd": 6,
+            "strong": "H8121",
+            "status": "verified"
+          },
+          {
+            "surface": "licht",
+            "charStart": 37,
+            "charEnd": 42,
+            "strong": "H216",
+            "status": "verified"
+          },
+          {
+            "surface": "daags",
+            "charStart": 47,
+            "charEnd": 52,
+            "strong": "H3119",
+            "status": "verified"
+          },
+          {
+            "surface": "glans",
+            "charStart": 65,
+            "charEnd": 70,
+            "strong": "H5051",
+            "status": "verified"
+          },
+          {
+            "surface": "maan",
+            "charStart": 80,
+            "charEnd": 84,
+            "strong": "H3394",
+            "status": "verified"
+          },
+          {
+            "surface": "lichten",
+            "charStart": 90,
+            "charEnd": 97,
+            "strong": "H216",
+            "status": "verified"
+          },
+          {
+            "surface": "HEERE",
+            "charStart": 107,
+            "charEnd": 112,
+            "strong": "H3068",
+            "status": "verified"
+          },
+          {
+            "surface": "eeuwig",
+            "charStart": 133,
+            "charEnd": 139,
+            "strong": "H5769",
+            "status": "verified"
+          },
+          {
+            "surface": "Licht",
+            "charStart": 140,
+            "charEnd": 145,
+            "strong": "H215",
+            "status": "verified"
+          },
+          {
+            "surface": "God",
+            "charStart": 153,
+            "charEnd": 156,
+            "strong": "H430",
+            "status": "verified"
+          },
+          {
+            "surface": "Sierlijkheid",
+            "charStart": 164,
+            "charEnd": 176,
+            "strong": "H8597",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Isa.60.20",
+      "ref": "60:20",
+      "sv": "Uw zon zal niet meer ondergaan, en uw maan zal haar [licht] niet intrekken; want de HEERE zal u tot een eeuwig licht wezen, en de dagen uwer treuring zullen een einde nemen.",
+      "kjv": [
+        {
+          "t": "Thy",
+          "s": null
+        },
+        {
+          "t": "sun",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "no",
+          "s": null
+        },
+        {
+          "t": "more",
+          "s": null
+        },
+        {
+          "t": "go",
+          "s": null
+        },
+        {
+          "t": "down;",
+          "s": null
+        },
+        {
+          "t": "neither",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "thy",
+          "s": null
+        },
+        {
+          "t": "moon",
+          "s": null
+        },
+        {
+          "t": "withdraw",
+          "s": null
+        },
+        {
+          "t": "itself:",
+          "s": null
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "LORD",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "thine",
+          "s": null
+        },
+        {
+          "t": "everlasting",
+          "s": null
+        },
+        {
+          "t": "light,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "days",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "thy",
+          "s": null
+        },
+        {
+          "t": "mourning",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "ended.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "zon",
+            "charStart": 3,
+            "charEnd": 6,
+            "strong": "H8121",
+            "status": "verified"
+          },
+          {
+            "surface": "ondergaan",
+            "charStart": 21,
+            "charEnd": 30,
+            "strong": "H935",
+            "status": "verified"
+          },
+          {
+            "surface": "maan",
+            "charStart": 38,
+            "charEnd": 42,
+            "strong": "H3391",
+            "status": "verified"
+          },
+          {
+            "surface": "intrekken",
+            "charStart": 65,
+            "charEnd": 74,
+            "strong": "H622",
+            "status": "verified"
+          },
+          {
+            "surface": "HEERE",
+            "charStart": 84,
+            "charEnd": 89,
+            "strong": "H3068",
+            "status": "verified"
+          },
+          {
+            "surface": "eeuwig",
+            "charStart": 104,
+            "charEnd": 110,
+            "strong": "H5769",
+            "status": "verified"
+          },
+          {
+            "surface": "licht",
+            "charStart": 111,
+            "charEnd": 116,
+            "strong": "H216",
+            "status": "verified"
+          },
+          {
+            "surface": "dagen",
+            "charStart": 130,
+            "charEnd": 135,
+            "strong": "H3117",
+            "status": "verified"
+          },
+          {
+            "surface": "treuring",
+            "charStart": 141,
+            "charEnd": 149,
+            "strong": "H60",
+            "status": "verified"
+          },
+          {
+            "surface": "nemen",
+            "charStart": 167,
+            "charEnd": 172,
+            "strong": "H7999",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Isa.60.21",
+      "ref": "60:21",
+      "sv": "En uw volk zullen allen te zamen rechtvaardigen zijn, zij zullen in eeuwigheid de aarde erfelijk bezitten; zij zullen zijn een spruit Mijner plantingen, een werk Mijner handen, opdat Ik verheerlijkt worde.",
+      "kjv": [
+        {
+          "t": "Thy",
+          "s": null
+        },
+        {
+          "t": "people",
+          "s": null
+        },
+        {
+          "t": "also",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "all",
+          "s": null
+        },
+        {
+          "t": "righteous:",
+          "s": null
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "inherit",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "land",
+          "s": null
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "ever,",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "branch",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "my",
+          "s": null
+        },
+        {
+          "t": "planting,",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "work",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "my",
+          "s": null
+        },
+        {
+          "t": "hands,",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "may",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "glorified.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "volk",
+            "charStart": 6,
+            "charEnd": 10,
+            "strong": "H5971",
+            "status": "verified"
+          },
+          {
+            "surface": "rechtvaardigen",
+            "charStart": 33,
+            "charEnd": 47,
+            "strong": "H6662",
+            "status": "verified"
+          },
+          {
+            "surface": "eeuwigheid",
+            "charStart": 68,
+            "charEnd": 78,
+            "strong": "H5769",
+            "status": "verified"
+          },
+          {
+            "surface": "aarde",
+            "charStart": 82,
+            "charEnd": 87,
+            "strong": "H776",
+            "status": "verified"
+          },
+          {
+            "surface": "bezitten",
+            "charStart": 97,
+            "charEnd": 105,
+            "strong": "H3423",
+            "status": "verified"
+          },
+          {
+            "surface": "spruit",
+            "charStart": 127,
+            "charEnd": 133,
+            "strong": "H5342",
+            "status": "verified"
+          },
+          {
+            "surface": "plantingen",
+            "charStart": 141,
+            "charEnd": 151,
+            "strong": "H4302",
+            "status": "verified"
+          },
+          {
+            "surface": "werk",
+            "charStart": 157,
+            "charEnd": 161,
+            "strong": "H4639",
+            "status": "verified"
+          },
+          {
+            "surface": "handen",
+            "charStart": 169,
+            "charEnd": 175,
+            "strong": "H3027",
+            "status": "verified"
+          },
+          {
+            "surface": "worde",
+            "charStart": 199,
+            "charEnd": 204,
+            "strong": "H6286",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Isa.60.22",
+      "ref": "60:22",
+      "sv": "De kleinste zal tot duizend worden, en de minste tot een machtig volk; Ik, de HEERE, zal zulks te zijner tijd snellijk doen komen.",
+      "kjv": [
+        {
+          "t": "A",
+          "s": null
+        },
+        {
+          "t": "little",
+          "s": null
+        },
+        {
+          "t": "one",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "become",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "thousand,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "small",
+          "s": null
+        },
+        {
+          "t": "one",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "strong",
+          "s": null
+        },
+        {
+          "t": "nation:",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "LORD",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "hasten",
+          "s": null
+        },
+        {
+          "t": "it",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "time.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "kleinste",
+            "charStart": 3,
+            "charEnd": 11,
+            "strong": "H6996",
+            "status": "verified"
+          },
+          {
+            "surface": "duizend",
+            "charStart": 20,
+            "charEnd": 27,
+            "strong": "H505",
+            "status": "verified"
+          },
+          {
+            "surface": "minste",
+            "charStart": 42,
+            "charEnd": 48,
+            "strong": "H6810",
+            "status": "verified"
+          },
+          {
+            "surface": "machtig",
+            "charStart": 57,
+            "charEnd": 64,
+            "strong": "H6099",
+            "status": "verified"
+          },
+          {
+            "surface": "volk",
+            "charStart": 65,
+            "charEnd": 69,
+            "strong": "H1471",
+            "status": "verified"
+          },
+          {
+            "surface": "HEERE",
+            "charStart": 78,
+            "charEnd": 83,
+            "strong": "H3068",
+            "status": "verified"
+          },
+          {
+            "surface": "tijd",
+            "charStart": 105,
+            "charEnd": 109,
+            "strong": "H6256",
+            "status": "verified"
+          },
+          {
+            "surface": "komen",
+            "charStart": 124,
+            "charEnd": 129,
+            "strong": "H2363",
+            "status": "verified"
+          }
+        ]
+      }
+    }
+  ],
+  "lexicon": {
+    "H3068": {
+      "lemma": "יְהוָה",
+      "translit": "YHWH",
+      "strong": "H3068",
+      "language": "hebrew",
+      "gloss": "De HEERE, de Verbondsgod van Israël (the LORD)"
+    },
+    "H430": {
+      "lemma": "אֱלֹהִים",
+      "translit": "Elohim",
+      "strong": "H430",
+      "language": "hebrew",
+      "gloss": "God (God, Divine Being)"
+    },
+    "H8179": {
+      "lemma": "שַׁעַר",
+      "translit": "sha'ar",
+      "strong": "H8179",
+      "language": "hebrew",
+      "gloss": "poort, stadspoort (gate)"
+    },
+    "H5971": {
+      "lemma": "עַם",
+      "translit": "am",
+      "strong": "H5971",
+      "language": "hebrew",
+      "gloss": "volk, natie (people, nation)"
+    }
+  }
+}

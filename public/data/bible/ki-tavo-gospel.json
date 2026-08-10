@@ -1,0 +1,2558 @@
+{
+  "study": "ki-tavo",
+  "role": "gospel",
+  "osis": "Matt.4.13-Matt.4.24",
+  "ref": {
+    "nl": "Mattheüs 4:13–24",
+    "en": "Matthew 4:13–24"
+  },
+  "testament": "NT",
+  "verses": [
+    {
+      "osis": "Matt.4.13",
+      "ref": "4:13",
+      "sv": "En Nazareth verlaten hebbende, is komen wonen te Kapernaum, gelegen aan de zee, in de landpale van Zebulon en Nafthali;",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "leaving",
+          "s": null
+        },
+        {
+          "t": "Nazareth,",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "came",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "dwelt",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "Capernaum,",
+          "s": null
+        },
+        {
+          "t": "which",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "upon",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "sea",
+          "s": null
+        },
+        {
+          "t": "coast,",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "borders",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "Zabulon",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "Nephthalim:",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "En",
+            "charStart": 0,
+            "charEnd": 2,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "Nazareth",
+            "charStart": 3,
+            "charEnd": 11,
+            "strong": "G3478",
+            "status": "verified"
+          },
+          {
+            "surface": "hebbende",
+            "charStart": 21,
+            "charEnd": 29,
+            "strong": "G2641",
+            "status": "verified"
+          },
+          {
+            "surface": "komen",
+            "charStart": 34,
+            "charEnd": 39,
+            "strong": "G2064",
+            "status": "verified"
+          },
+          {
+            "surface": "wonen",
+            "charStart": 40,
+            "charEnd": 45,
+            "strong": "G2730",
+            "status": "verified"
+          },
+          {
+            "surface": "te",
+            "charStart": 46,
+            "charEnd": 48,
+            "strong": "G1519",
+            "status": "verified"
+          },
+          {
+            "surface": "Kapernaum",
+            "charStart": 49,
+            "charEnd": 58,
+            "strong": "G2584",
+            "status": "verified"
+          },
+          {
+            "surface": "zee",
+            "charStart": 75,
+            "charEnd": 78,
+            "strong": "G3864",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 80,
+            "charEnd": 82,
+            "strong": "G1722",
+            "status": "verified"
+          },
+          {
+            "surface": "landpale",
+            "charStart": 86,
+            "charEnd": 94,
+            "strong": "G3725",
+            "status": "verified"
+          },
+          {
+            "surface": "Zebulon",
+            "charStart": 99,
+            "charEnd": 106,
+            "strong": "G2194",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 107,
+            "charEnd": 109,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "Nafthali",
+            "charStart": 110,
+            "charEnd": 118,
+            "strong": "G3508",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Matt.4.14",
+      "ref": "4:14",
+      "sv": "Opdat vervuld zou worden, hetgeen gesproken is door Jesaja, den profeet, zeggende:",
+      "kjv": [
+        {
+          "t": "That",
+          "s": null
+        },
+        {
+          "t": "it",
+          "s": null
+        },
+        {
+          "t": "might",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "fulfilled",
+          "s": null
+        },
+        {
+          "t": "which",
+          "s": null
+        },
+        {
+          "t": "was",
+          "s": null
+        },
+        {
+          "t": "spoken",
+          "s": null
+        },
+        {
+          "t": "by",
+          "s": null
+        },
+        {
+          "t": "Esaias",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "prophet,",
+          "s": null
+        },
+        {
+          "t": "saying,",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Opdat",
+            "charStart": 0,
+            "charEnd": 5,
+            "strong": "G2443",
+            "status": "verified"
+          },
+          {
+            "surface": "worden",
+            "charStart": 18,
+            "charEnd": 24,
+            "strong": "G4137",
+            "status": "verified"
+          },
+          {
+            "surface": "hetgeen",
+            "charStart": 26,
+            "charEnd": 33,
+            "strong": "G3588",
+            "status": "verified"
+          },
+          {
+            "surface": "is",
+            "charStart": 44,
+            "charEnd": 46,
+            "strong": "G4483",
+            "status": "verified"
+          },
+          {
+            "surface": "door",
+            "charStart": 47,
+            "charEnd": 51,
+            "strong": "G1223",
+            "status": "verified"
+          },
+          {
+            "surface": "Jesaja",
+            "charStart": 52,
+            "charEnd": 58,
+            "strong": "G2268",
+            "status": "verified"
+          },
+          {
+            "surface": "profeet",
+            "charStart": 64,
+            "charEnd": 71,
+            "strong": "G4396",
+            "status": "verified"
+          },
+          {
+            "surface": "zeggende",
+            "charStart": 73,
+            "charEnd": 81,
+            "strong": "G3004",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Matt.4.15",
+      "ref": "4:15",
+      "sv": "Het land Zebulon en het land Nafthali [aan] [den] weg der zee over de Jordaan, Galilea der volken;",
+      "kjv": [
+        {
+          "t": "The",
+          "s": null
+        },
+        {
+          "t": "land",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "Zabulon,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "land",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "Nephthalim,",
+          "s": null
+        },
+        {
+          "t": "by",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "way",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "sea,",
+          "s": null
+        },
+        {
+          "t": "beyond",
+          "s": null
+        },
+        {
+          "t": "Jordan,",
+          "s": null
+        },
+        {
+          "t": "Galilee",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "Gentiles;",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "land",
+            "charStart": 4,
+            "charEnd": 8,
+            "strong": "G1093",
+            "status": "verified"
+          },
+          {
+            "surface": "Zebulon",
+            "charStart": 9,
+            "charEnd": 16,
+            "strong": "G2194",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 17,
+            "charEnd": 19,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "land",
+            "charStart": 24,
+            "charEnd": 28,
+            "strong": "G1093",
+            "status": "verified"
+          },
+          {
+            "surface": "Nafthali",
+            "charStart": 29,
+            "charEnd": 37,
+            "strong": "G3508",
+            "status": "verified"
+          },
+          {
+            "surface": "weg",
+            "charStart": 50,
+            "charEnd": 53,
+            "strong": "G3598",
+            "status": "verified"
+          },
+          {
+            "surface": "zee",
+            "charStart": 58,
+            "charEnd": 61,
+            "strong": "G2281",
+            "status": "verified"
+          },
+          {
+            "surface": "over",
+            "charStart": 62,
+            "charEnd": 66,
+            "strong": "G4008",
+            "status": "verified"
+          },
+          {
+            "surface": "Jordaan",
+            "charStart": 70,
+            "charEnd": 77,
+            "strong": "G2446",
+            "status": "verified"
+          },
+          {
+            "surface": "Galilea",
+            "charStart": 79,
+            "charEnd": 86,
+            "strong": "G1056",
+            "status": "verified"
+          },
+          {
+            "surface": "volken",
+            "charStart": 91,
+            "charEnd": 97,
+            "strong": "G1484",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Matt.4.16",
+      "ref": "4:16",
+      "sv": "Het volk, dat in duisternis zat, heeft een groot licht gezien; en degenen, die zaten in het land en de schaduwe des doods, denzelven is een licht opgegaan.",
+      "kjv": [
+        {
+          "t": "The",
+          "s": null
+        },
+        {
+          "t": "people",
+          "s": null
+        },
+        {
+          "t": "which",
+          "s": null
+        },
+        {
+          "t": "sat",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "darkness",
+          "s": null
+        },
+        {
+          "t": "saw",
+          "s": null
+        },
+        {
+          "t": "great",
+          "s": null
+        },
+        {
+          "t": "light;",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "them",
+          "s": null
+        },
+        {
+          "t": "which",
+          "s": null
+        },
+        {
+          "t": "sat",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "region",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "shadow",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "death",
+          "s": null
+        },
+        {
+          "t": "light",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "sprung",
+          "s": null
+        },
+        {
+          "t": "up",
+          "s": null
+        },
+        {
+          "t": ".",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "volk",
+            "charStart": 4,
+            "charEnd": 8,
+            "strong": "G2992",
+            "status": "verified"
+          },
+          {
+            "surface": "dat",
+            "charStart": 10,
+            "charEnd": 13,
+            "strong": "G3588",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 14,
+            "charEnd": 16,
+            "strong": "G1722",
+            "status": "verified"
+          },
+          {
+            "surface": "duisternis",
+            "charStart": 17,
+            "charEnd": 27,
+            "strong": "G4655",
+            "status": "verified"
+          },
+          {
+            "surface": "zat",
+            "charStart": 28,
+            "charEnd": 31,
+            "strong": "G2521",
+            "status": "verified"
+          },
+          {
+            "surface": "groot",
+            "charStart": 43,
+            "charEnd": 48,
+            "strong": "G3173",
+            "status": "verified"
+          },
+          {
+            "surface": "licht",
+            "charStart": 49,
+            "charEnd": 54,
+            "strong": "G5457",
+            "status": "verified"
+          },
+          {
+            "surface": "gezien",
+            "charStart": 55,
+            "charEnd": 61,
+            "strong": "G1492",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 63,
+            "charEnd": 65,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "die",
+            "charStart": 75,
+            "charEnd": 78,
+            "strong": "G3588",
+            "status": "verified"
+          },
+          {
+            "surface": "zaten",
+            "charStart": 79,
+            "charEnd": 84,
+            "strong": "G2521",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 85,
+            "charEnd": 87,
+            "strong": "G1722",
+            "status": "verified"
+          },
+          {
+            "surface": "land",
+            "charStart": 92,
+            "charEnd": 96,
+            "strong": "G5561",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 97,
+            "charEnd": 99,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "schaduwe",
+            "charStart": 103,
+            "charEnd": 111,
+            "strong": "G4639",
+            "status": "verified"
+          },
+          {
+            "surface": "doods",
+            "charStart": 116,
+            "charEnd": 121,
+            "strong": "G2288",
+            "status": "verified"
+          },
+          {
+            "surface": "denzelven",
+            "charStart": 123,
+            "charEnd": 132,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "licht",
+            "charStart": 140,
+            "charEnd": 145,
+            "strong": "G5457",
+            "status": "verified"
+          },
+          {
+            "surface": "opgegaan",
+            "charStart": 146,
+            "charEnd": 154,
+            "strong": "G393",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Matt.4.17",
+      "ref": "4:17",
+      "sv": "Van toen aan heeft Jezus begonnen te prediken en te zeggen: Bekeert u; want het Koninkrijk der hemelen is nabij gekomen.",
+      "kjv": [
+        {
+          "t": "From",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "time",
+          "s": null
+        },
+        {
+          "t": "Jesus",
+          "s": null
+        },
+        {
+          "t": "began",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "preach,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "say,",
+          "s": null
+        },
+        {
+          "t": "Repent:",
+          "s": null
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "kingdom",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "heaven",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "at",
+          "s": null
+        },
+        {
+          "t": "hand.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Van",
+            "charStart": 0,
+            "charEnd": 3,
+            "strong": "G575",
+            "status": "verified"
+          },
+          {
+            "surface": "aan",
+            "charStart": 9,
+            "charEnd": 12,
+            "strong": "G5119",
+            "status": "verified"
+          },
+          {
+            "surface": "Jezus",
+            "charStart": 19,
+            "charEnd": 24,
+            "strong": "G2424",
+            "status": "verified"
+          },
+          {
+            "surface": "begonnen",
+            "charStart": 25,
+            "charEnd": 33,
+            "strong": "G756",
+            "status": "verified"
+          },
+          {
+            "surface": "prediken",
+            "charStart": 37,
+            "charEnd": 45,
+            "strong": "G2784",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 46,
+            "charEnd": 48,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "zeggen",
+            "charStart": 52,
+            "charEnd": 58,
+            "strong": "G3004",
+            "status": "verified"
+          },
+          {
+            "surface": "u",
+            "charStart": 68,
+            "charEnd": 69,
+            "strong": "G3340",
+            "status": "verified"
+          },
+          {
+            "surface": "want",
+            "charStart": 71,
+            "charEnd": 75,
+            "strong": "G1063",
+            "status": "verified"
+          },
+          {
+            "surface": "Koninkrijk",
+            "charStart": 80,
+            "charEnd": 90,
+            "strong": "G932",
+            "status": "verified"
+          },
+          {
+            "surface": "hemelen",
+            "charStart": 95,
+            "charEnd": 102,
+            "strong": "G3772",
+            "status": "verified"
+          },
+          {
+            "surface": "gekomen",
+            "charStart": 112,
+            "charEnd": 119,
+            "strong": "G1448",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Matt.4.18",
+      "ref": "4:18",
+      "sv": "En Jezus, wandelende aan de zee van Galilea, zag twee broeders, [namelijk] Simon, gezegd Petrus, en Andreas, zijn broeder, het net in de zee werpende (want zij waren vissers);",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "Jesus,",
+          "s": null
+        },
+        {
+          "t": "walking",
+          "s": null
+        },
+        {
+          "t": "by",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "sea",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "Galilee,",
+          "s": null
+        },
+        {
+          "t": "saw",
+          "s": null
+        },
+        {
+          "t": "two",
+          "s": null
+        },
+        {
+          "t": "brethren,",
+          "s": null
+        },
+        {
+          "t": "Simon",
+          "s": null
+        },
+        {
+          "t": "called",
+          "s": null
+        },
+        {
+          "t": "Peter,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "Andrew",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "brother,",
+          "s": null
+        },
+        {
+          "t": "casting",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "net",
+          "s": null
+        },
+        {
+          "t": "into",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "sea:",
+          "s": null
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "were",
+          "s": null
+        },
+        {
+          "t": "fishers.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "En",
+            "charStart": 0,
+            "charEnd": 2,
+            "strong": "G1161",
+            "status": "verified"
+          },
+          {
+            "surface": "Jezus",
+            "charStart": 3,
+            "charEnd": 8,
+            "strong": "G2424",
+            "status": "verified"
+          },
+          {
+            "surface": "wandelende",
+            "charStart": 10,
+            "charEnd": 20,
+            "strong": "G4043",
+            "status": "verified"
+          },
+          {
+            "surface": "aan",
+            "charStart": 21,
+            "charEnd": 24,
+            "strong": "G3844",
+            "status": "verified"
+          },
+          {
+            "surface": "zee",
+            "charStart": 28,
+            "charEnd": 31,
+            "strong": "G2281",
+            "status": "verified"
+          },
+          {
+            "surface": "Galilea",
+            "charStart": 36,
+            "charEnd": 43,
+            "strong": "G1056",
+            "status": "verified"
+          },
+          {
+            "surface": "zag",
+            "charStart": 45,
+            "charEnd": 48,
+            "strong": "G1492",
+            "status": "verified"
+          },
+          {
+            "surface": "twee",
+            "charStart": 49,
+            "charEnd": 53,
+            "strong": "G1417",
+            "status": "verified"
+          },
+          {
+            "surface": "broeders",
+            "charStart": 54,
+            "charEnd": 62,
+            "strong": "G80",
+            "status": "verified"
+          },
+          {
+            "surface": "Simon",
+            "charStart": 75,
+            "charEnd": 80,
+            "strong": "G4613",
+            "status": "verified"
+          },
+          {
+            "surface": "gezegd",
+            "charStart": 82,
+            "charEnd": 88,
+            "strong": "G3004",
+            "status": "verified"
+          },
+          {
+            "surface": "Petrus",
+            "charStart": 89,
+            "charEnd": 95,
+            "strong": "G4074",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 97,
+            "charEnd": 99,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "Andreas",
+            "charStart": 100,
+            "charEnd": 107,
+            "strong": "G406",
+            "status": "verified"
+          },
+          {
+            "surface": "zijn",
+            "charStart": 109,
+            "charEnd": 113,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "broeder",
+            "charStart": 114,
+            "charEnd": 121,
+            "strong": "G80",
+            "status": "verified"
+          },
+          {
+            "surface": "net",
+            "charStart": 127,
+            "charEnd": 130,
+            "strong": "G293",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 131,
+            "charEnd": 133,
+            "strong": "G1519",
+            "status": "verified"
+          },
+          {
+            "surface": "zee",
+            "charStart": 137,
+            "charEnd": 140,
+            "strong": "G2281",
+            "status": "verified"
+          },
+          {
+            "surface": "werpende",
+            "charStart": 141,
+            "charEnd": 149,
+            "strong": "G906",
+            "status": "verified"
+          },
+          {
+            "surface": "want",
+            "charStart": 151,
+            "charEnd": 155,
+            "strong": "G1063",
+            "status": "verified"
+          },
+          {
+            "surface": "waren",
+            "charStart": 160,
+            "charEnd": 165,
+            "strong": "G2258",
+            "status": "verified"
+          },
+          {
+            "surface": "vissers",
+            "charStart": 166,
+            "charEnd": 173,
+            "strong": "G231",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Matt.4.19",
+      "ref": "4:19",
+      "sv": "En Hij zeide tot hen: Volgt Mij na, en Ik zal u vissers der mensen maken.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "saith",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "them,",
+          "s": null
+        },
+        {
+          "t": "Follow",
+          "s": null
+        },
+        {
+          "t": "me,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "make",
+          "s": null
+        },
+        {
+          "t": "you",
+          "s": null
+        },
+        {
+          "t": "fishers",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "men.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "En",
+            "charStart": 0,
+            "charEnd": 2,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "zeide",
+            "charStart": 7,
+            "charEnd": 12,
+            "strong": "G3004",
+            "status": "verified"
+          },
+          {
+            "surface": "hen",
+            "charStart": 17,
+            "charEnd": 20,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "Volgt",
+            "charStart": 22,
+            "charEnd": 27,
+            "strong": "G1205",
+            "status": "verified"
+          },
+          {
+            "surface": "Mij",
+            "charStart": 28,
+            "charEnd": 31,
+            "strong": "G3450",
+            "status": "verified"
+          },
+          {
+            "surface": "na",
+            "charStart": 32,
+            "charEnd": 34,
+            "strong": "G3694",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 36,
+            "charEnd": 38,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "u",
+            "charStart": 46,
+            "charEnd": 47,
+            "strong": "G5209",
+            "status": "verified"
+          },
+          {
+            "surface": "vissers",
+            "charStart": 48,
+            "charEnd": 55,
+            "strong": "G231",
+            "status": "verified"
+          },
+          {
+            "surface": "mensen",
+            "charStart": 60,
+            "charEnd": 66,
+            "strong": "G444",
+            "status": "verified"
+          },
+          {
+            "surface": "maken",
+            "charStart": 67,
+            "charEnd": 72,
+            "strong": "G4160",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Matt.4.20",
+      "ref": "4:20",
+      "sv": "Zij dan, terstond de netten verlatende, zijn Hem nagevolgd.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "straightway",
+          "s": null
+        },
+        {
+          "t": "left",
+          "s": null
+        },
+        {
+          "t": "their",
+          "s": null
+        },
+        {
+          "t": "nets,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "followed",
+          "s": null
+        },
+        {
+          "t": "him.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "dan",
+            "charStart": 4,
+            "charEnd": 7,
+            "strong": "G1161",
+            "status": "verified"
+          },
+          {
+            "surface": "terstond",
+            "charStart": 9,
+            "charEnd": 17,
+            "strong": "G2112",
+            "status": "verified"
+          },
+          {
+            "surface": "netten",
+            "charStart": 21,
+            "charEnd": 27,
+            "strong": "G1350",
+            "status": "verified"
+          },
+          {
+            "surface": "verlatende",
+            "charStart": 28,
+            "charEnd": 38,
+            "strong": "G863",
+            "status": "verified"
+          },
+          {
+            "surface": "Hem",
+            "charStart": 45,
+            "charEnd": 48,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "nagevolgd",
+            "charStart": 49,
+            "charEnd": 58,
+            "strong": "G190",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Matt.4.21",
+      "ref": "4:21",
+      "sv": "En Hij, van daar voortgegaan zijnde, zag twee andere broeders, [namelijk] Jakobus, den [zoon] van Zebedeus, en Johannes, zijn broeder, in het schip met hun vader Zebedeus, hun netten vermakende, en heeft hen geroepen.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "going",
+          "s": null
+        },
+        {
+          "t": "on",
+          "s": null
+        },
+        {
+          "t": "from",
+          "s": null
+        },
+        {
+          "t": "thence,",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "saw",
+          "s": null
+        },
+        {
+          "t": "other",
+          "s": null
+        },
+        {
+          "t": "two",
+          "s": null
+        },
+        {
+          "t": "brethren,",
+          "s": null
+        },
+        {
+          "t": "James",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "son",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "Zebedee,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "John",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "brother,",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "ship",
+          "s": null
+        },
+        {
+          "t": "with",
+          "s": null
+        },
+        {
+          "t": "Zebedee",
+          "s": null
+        },
+        {
+          "t": "their",
+          "s": null
+        },
+        {
+          "t": "father,",
+          "s": null
+        },
+        {
+          "t": "mending",
+          "s": null
+        },
+        {
+          "t": "their",
+          "s": null
+        },
+        {
+          "t": "nets;",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "called",
+          "s": null
+        },
+        {
+          "t": "them.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "En",
+            "charStart": 0,
+            "charEnd": 2,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "daar",
+            "charStart": 12,
+            "charEnd": 16,
+            "strong": "G1564",
+            "status": "verified"
+          },
+          {
+            "surface": "zijnde",
+            "charStart": 29,
+            "charEnd": 35,
+            "strong": "G4260",
+            "status": "verified"
+          },
+          {
+            "surface": "zag",
+            "charStart": 37,
+            "charEnd": 40,
+            "strong": "G1492",
+            "status": "verified"
+          },
+          {
+            "surface": "twee",
+            "charStart": 41,
+            "charEnd": 45,
+            "strong": "G1417",
+            "status": "verified"
+          },
+          {
+            "surface": "andere",
+            "charStart": 46,
+            "charEnd": 52,
+            "strong": "G243",
+            "status": "verified"
+          },
+          {
+            "surface": "broeders",
+            "charStart": 53,
+            "charEnd": 61,
+            "strong": "G80",
+            "status": "verified"
+          },
+          {
+            "surface": "Jakobus",
+            "charStart": 74,
+            "charEnd": 81,
+            "strong": "G2385",
+            "status": "verified"
+          },
+          {
+            "surface": "den",
+            "charStart": 83,
+            "charEnd": 86,
+            "strong": "G3588",
+            "status": "verified"
+          },
+          {
+            "surface": "Zebedeus",
+            "charStart": 98,
+            "charEnd": 106,
+            "strong": "G2199",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 108,
+            "charEnd": 110,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "Johannes",
+            "charStart": 111,
+            "charEnd": 119,
+            "strong": "G2491",
+            "status": "verified"
+          },
+          {
+            "surface": "zijn",
+            "charStart": 121,
+            "charEnd": 125,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "broeder",
+            "charStart": 126,
+            "charEnd": 133,
+            "strong": "G80",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 135,
+            "charEnd": 137,
+            "strong": "G1722",
+            "status": "verified"
+          },
+          {
+            "surface": "schip",
+            "charStart": 142,
+            "charEnd": 147,
+            "strong": "G4143",
+            "status": "verified"
+          },
+          {
+            "surface": "met",
+            "charStart": 148,
+            "charEnd": 151,
+            "strong": "G3326",
+            "status": "verified"
+          },
+          {
+            "surface": "hun",
+            "charStart": 152,
+            "charEnd": 155,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "vader",
+            "charStart": 156,
+            "charEnd": 161,
+            "strong": "G3962",
+            "status": "verified"
+          },
+          {
+            "surface": "Zebedeus",
+            "charStart": 162,
+            "charEnd": 170,
+            "strong": "G2199",
+            "status": "verified"
+          },
+          {
+            "surface": "hun",
+            "charStart": 172,
+            "charEnd": 175,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "netten",
+            "charStart": 176,
+            "charEnd": 182,
+            "strong": "G1350",
+            "status": "verified"
+          },
+          {
+            "surface": "vermakende",
+            "charStart": 183,
+            "charEnd": 193,
+            "strong": "G2675",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 195,
+            "charEnd": 197,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "hen",
+            "charStart": 204,
+            "charEnd": 207,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "geroepen",
+            "charStart": 208,
+            "charEnd": 216,
+            "strong": "G2564",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Matt.4.22",
+      "ref": "4:22",
+      "sv": "Zij dan, terstond verlatende het schip en hun vader, zijn Hem nagevolgd.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "immediately",
+          "s": null
+        },
+        {
+          "t": "left",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "ship",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "their",
+          "s": null
+        },
+        {
+          "t": "father,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "followed",
+          "s": null
+        },
+        {
+          "t": "him.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "dan",
+            "charStart": 4,
+            "charEnd": 7,
+            "strong": "G1161",
+            "status": "verified"
+          },
+          {
+            "surface": "terstond",
+            "charStart": 9,
+            "charEnd": 17,
+            "strong": "G2112",
+            "status": "verified"
+          },
+          {
+            "surface": "verlatende",
+            "charStart": 18,
+            "charEnd": 28,
+            "strong": "G863",
+            "status": "verified"
+          },
+          {
+            "surface": "schip",
+            "charStart": 33,
+            "charEnd": 38,
+            "strong": "G4143",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 39,
+            "charEnd": 41,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "hun",
+            "charStart": 42,
+            "charEnd": 45,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "vader",
+            "charStart": 46,
+            "charEnd": 51,
+            "strong": "G3962",
+            "status": "verified"
+          },
+          {
+            "surface": "Hem",
+            "charStart": 58,
+            "charEnd": 61,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "nagevolgd",
+            "charStart": 62,
+            "charEnd": 71,
+            "strong": "G190",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Matt.4.23",
+      "ref": "4:23",
+      "sv": "En Jezus omging geheel Galilea, lerende in hun synagogen en predikende het Evangelie des Koninkrijks, en genezende alle ziekte en alle kwale onder het volk.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "Jesus",
+          "s": null
+        },
+        {
+          "t": "went",
+          "s": null
+        },
+        {
+          "t": "about",
+          "s": null
+        },
+        {
+          "t": "all",
+          "s": null
+        },
+        {
+          "t": "Galilee,",
+          "s": null
+        },
+        {
+          "t": "teaching",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "their",
+          "s": null
+        },
+        {
+          "t": "synagogues,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "preaching",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "gospel",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "kingdom,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "healing",
+          "s": null
+        },
+        {
+          "t": "all",
+          "s": null
+        },
+        {
+          "t": "manner",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "sickness",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "all",
+          "s": null
+        },
+        {
+          "t": "manner",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "disease",
+          "s": null
+        },
+        {
+          "t": "among",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "people.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "En",
+            "charStart": 0,
+            "charEnd": 2,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "Jezus",
+            "charStart": 3,
+            "charEnd": 8,
+            "strong": "G2424",
+            "status": "verified"
+          },
+          {
+            "surface": "omging",
+            "charStart": 9,
+            "charEnd": 15,
+            "strong": "G4013",
+            "status": "verified"
+          },
+          {
+            "surface": "geheel",
+            "charStart": 16,
+            "charEnd": 22,
+            "strong": "G3650",
+            "status": "verified"
+          },
+          {
+            "surface": "Galilea",
+            "charStart": 23,
+            "charEnd": 30,
+            "strong": "G1056",
+            "status": "verified"
+          },
+          {
+            "surface": "lerende",
+            "charStart": 32,
+            "charEnd": 39,
+            "strong": "G1321",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 40,
+            "charEnd": 42,
+            "strong": "G1722",
+            "status": "verified"
+          },
+          {
+            "surface": "hun",
+            "charStart": 43,
+            "charEnd": 46,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "synagogen",
+            "charStart": 47,
+            "charEnd": 56,
+            "strong": "G4864",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 57,
+            "charEnd": 59,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "predikende",
+            "charStart": 60,
+            "charEnd": 70,
+            "strong": "G2784",
+            "status": "verified"
+          },
+          {
+            "surface": "Evangelie",
+            "charStart": 75,
+            "charEnd": 84,
+            "strong": "G2098",
+            "status": "verified"
+          },
+          {
+            "surface": "Koninkrijks",
+            "charStart": 89,
+            "charEnd": 100,
+            "strong": "G932",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 102,
+            "charEnd": 104,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "genezende",
+            "charStart": 105,
+            "charEnd": 114,
+            "strong": "G2323",
+            "status": "verified"
+          },
+          {
+            "surface": "alle",
+            "charStart": 115,
+            "charEnd": 119,
+            "strong": "G3956",
+            "status": "verified"
+          },
+          {
+            "surface": "ziekte",
+            "charStart": 120,
+            "charEnd": 126,
+            "strong": "G3554",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 127,
+            "charEnd": 129,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "alle",
+            "charStart": 130,
+            "charEnd": 134,
+            "strong": "G3956",
+            "status": "verified"
+          },
+          {
+            "surface": "kwale",
+            "charStart": 135,
+            "charEnd": 140,
+            "strong": "G3119",
+            "status": "verified"
+          },
+          {
+            "surface": "onder",
+            "charStart": 141,
+            "charEnd": 146,
+            "strong": "G1722",
+            "status": "verified"
+          },
+          {
+            "surface": "volk",
+            "charStart": 151,
+            "charEnd": 155,
+            "strong": "G2992",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Matt.4.24",
+      "ref": "4:24",
+      "sv": "En Zijn gerucht ging [van] [daar] uit in geheel Syrie; en zij brachten tot Hem allen, die kwalijk gesteld waren, met verscheidene ziekten en pijnen bevangen zijnde, en van den duivel bezeten, en maanzieken en geraakten; en Hij genas dezelve.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "fame",
+          "s": null
+        },
+        {
+          "t": "went",
+          "s": null
+        },
+        {
+          "t": "throughout",
+          "s": null
+        },
+        {
+          "t": "all",
+          "s": null
+        },
+        {
+          "t": "Syria:",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "brought",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "him",
+          "s": null
+        },
+        {
+          "t": "all",
+          "s": null
+        },
+        {
+          "t": "sick",
+          "s": null
+        },
+        {
+          "t": "people",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "were",
+          "s": null
+        },
+        {
+          "t": "taken",
+          "s": null
+        },
+        {
+          "t": "with",
+          "s": null
+        },
+        {
+          "t": "divers",
+          "s": null
+        },
+        {
+          "t": "diseases",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "torments,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "those",
+          "s": null
+        },
+        {
+          "t": "which",
+          "s": null
+        },
+        {
+          "t": "were",
+          "s": null
+        },
+        {
+          "t": "possessed",
+          "s": null
+        },
+        {
+          "t": "with",
+          "s": null
+        },
+        {
+          "t": "devils,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "those",
+          "s": null
+        },
+        {
+          "t": "which",
+          "s": null
+        },
+        {
+          "t": "were",
+          "s": null
+        },
+        {
+          "t": "lunatick,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "those",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "had",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "palsy;",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "healed",
+          "s": null
+        },
+        {
+          "t": "them.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "En",
+            "charStart": 0,
+            "charEnd": 2,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "Zijn",
+            "charStart": 3,
+            "charEnd": 7,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "gerucht",
+            "charStart": 8,
+            "charEnd": 15,
+            "strong": "G189",
+            "status": "verified"
+          },
+          {
+            "surface": "uit",
+            "charStart": 34,
+            "charEnd": 37,
+            "strong": "G565",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 38,
+            "charEnd": 40,
+            "strong": "G1519",
+            "status": "verified"
+          },
+          {
+            "surface": "geheel",
+            "charStart": 41,
+            "charEnd": 47,
+            "strong": "G3650",
+            "status": "verified"
+          },
+          {
+            "surface": "Syrie",
+            "charStart": 48,
+            "charEnd": 53,
+            "strong": "G4947",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 55,
+            "charEnd": 57,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "brachten",
+            "charStart": 62,
+            "charEnd": 70,
+            "strong": "G4374",
+            "status": "verified"
+          },
+          {
+            "surface": "Hem",
+            "charStart": 75,
+            "charEnd": 78,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "allen",
+            "charStart": 79,
+            "charEnd": 84,
+            "strong": "G3956",
+            "status": "verified"
+          },
+          {
+            "surface": "kwalijk",
+            "charStart": 90,
+            "charEnd": 97,
+            "strong": "G2560",
+            "status": "verified"
+          },
+          {
+            "surface": "waren",
+            "charStart": 106,
+            "charEnd": 111,
+            "strong": "G2192",
+            "status": "verified"
+          },
+          {
+            "surface": "verscheidene",
+            "charStart": 117,
+            "charEnd": 129,
+            "strong": "G4164",
+            "status": "verified"
+          },
+          {
+            "surface": "ziekten",
+            "charStart": 130,
+            "charEnd": 137,
+            "strong": "G3554",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 138,
+            "charEnd": 140,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "pijnen",
+            "charStart": 141,
+            "charEnd": 147,
+            "strong": "G931",
+            "status": "verified"
+          },
+          {
+            "surface": "zijnde",
+            "charStart": 157,
+            "charEnd": 163,
+            "strong": "G4912",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 165,
+            "charEnd": 167,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "bezeten",
+            "charStart": 183,
+            "charEnd": 190,
+            "strong": "G1139",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 192,
+            "charEnd": 194,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "maanzieken",
+            "charStart": 195,
+            "charEnd": 205,
+            "strong": "G4583",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 206,
+            "charEnd": 208,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "geraakten",
+            "charStart": 209,
+            "charEnd": 218,
+            "strong": "G3885",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 220,
+            "charEnd": 222,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "genas",
+            "charStart": 227,
+            "charEnd": 232,
+            "strong": "G2323",
+            "status": "verified"
+          },
+          {
+            "surface": "dezelve",
+            "charStart": 233,
+            "charEnd": 240,
+            "strong": "G846",
+            "status": "verified"
+          }
+        ]
+      }
+    }
+  ],
+  "lexicon": {
+    "G3962": {
+      "lemma": "πατήρ",
+      "translit": "patēr",
+      "strong": "G3962",
+      "language": "greek",
+      "gloss": "Vader (Father)"
+    }
+  }
+}
