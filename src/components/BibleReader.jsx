@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import LexiconPopover from './LexiconPopover';
+import DraggableStepWindow from './DraggableStepWindow';
 import { fetchBiblePassage } from '../api/bible';
 
 export default function BibleReader({ studyId = 'shoftim', initialSection = 'parasha', lang = 'nl', onSectionChange }) {
   const isEn = lang === 'en';
   const [section, setSection] = useState(initialSection);
-  const [readerMode, setReaderMode] = useState('step'); // 'step' (STEP Bible iFrame) or 'classic'
+  const [showStepWindow, setShowStepWindow] = useState(true);
   const translation = isEn ? 'kjv' : 'sv';
   const stepVersion = isEn ? 'KJV' : 'DutSVV';
 
@@ -48,8 +49,7 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
     if (onSectionChange) onSectionChange(newSec);
   };
 
-  // Generate STEP Bible iFrame URL with full option flags: HVLGUNMC
-  // H = Hebrew/Greek Interlinear, V = Verse numbers, L = Lexicon, G = Grammar, U = Underlying text, N = Notes, M = Meanings, C = Column view
+  // Generate STEP Bible iFrame URL with options=HVLGUNMC
   const getStepIframeUrl = () => {
     const osis = passageData?.osis || 'Deut.16.18-Deut.21.9';
     return `https://www.stepbible.org/?q=version=${stepVersion}|reference=${encodeURIComponent(osis)}&options=HVLGUNMC`;
@@ -174,25 +174,17 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
           <div className="mode-toggle-switch">
             <button
               type="button"
-              className={`mode-btn ${readerMode === 'step' ? 'active' : ''}`}
-              onClick={() => setReaderMode('step')}
-              title={isEn ? "STEP Bible Engine (Interactive Lexicon & Analysis)" : "STEP Bible (Interactief Lexicon & Taalanalyse)"}
+              className={`mode-btn ${showStepWindow ? 'active' : ''}`}
+              onClick={() => setShowStepWindow(!showStepWindow)}
+              title={isEn ? "Toggle Movable STEP Bible Frame Window" : "Open / Sluit Zwevend STEP Bible Venster"}
             >
-              STEP Bible
-            </button>
-            <button
-              type="button"
-              className={`mode-btn ${readerMode === 'classic' ? 'active' : ''}`}
-              onClick={() => setReaderMode('classic')}
-              title={isEn ? "Classic Reading Mode" : "Klassieke Lezer"}
-            >
-              {isEn ? 'Classic' : 'Klassiek'}
+              📖 STEP Bible {showStepWindow ? (isEn ? '(Active)' : '(Actief)') : (isEn ? '(Open)' : '(Open)')}
             </button>
           </div>
         </div>
       </div>
 
-      {/* Reader Content Window */}
+      {/* Reader Content Body Window */}
       <div className="bible-reader-card">
         {loading && (
           <div className="reader-loading">
@@ -212,43 +204,39 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
               <h2 className="passage-title">{passageData.ref ? (passageData.ref[lang] || passageData.ref.nl) : ''}</h2>
               <div className="passage-subtitle">
                 {translation === 'sv' ? 'Statenvertaling (SV)' : 'King James Version (KJV)'}
-                {readerMode === 'step' && ' — STEP Bible Engine (HVLGUNMC)'}
               </div>
             </div>
 
-            {readerMode === 'step' ? (
-              /* STEP Bible Embedded iFrame Engine with HVLGUNMC options */
-              <div className="stepbible-container">
-                <iframe
-                  src={getStepIframeUrl()}
-                  title="STEP Bible Reader"
-                  className="stepbible-iframe"
-                  allowFullScreen
-                />
-              </div>
-            ) : (
-              /* Classic Inline Verses View */
-              <div className="verses-list">
-                {passageData.verses.map((verse) => (
-                  <div key={verse.osis} id={`v-${verse.osis}`} className="verse-row">
-                    <span className="verse-num">{verse.ref}</span>
-                    <div className="verse-text">
-                      {translation === 'sv' ? renderSvVerse(verse) : renderKjvVerse(verse)}
-                    </div>
+            <div className="verses-list">
+              {passageData.verses.map((verse) => (
+                <div key={verse.osis} id={`v-${verse.osis}`} className="verse-row">
+                  <span className="verse-num">{verse.ref}</span>
+                  <div className="verse-text">
+                    {translation === 'sv' ? renderSvVerse(verse) : renderKjvVerse(verse)}
                   </div>
-                ))}
-              </div>
-            )}
+                </div>
+              ))}
+            </div>
           </>
         )}
       </div>
 
-      {/* Speech Balloon Lexicon Popover for Classic mode */}
-      {readerMode === 'classic' && selectedEntry && (
+      {/* Speech Balloon Lexicon Popover */}
+      {selectedEntry && (
         <LexiconPopover
           entry={selectedEntry}
           targetRect={selectedRect}
           onClose={() => setSelectedEntry(null)}
+          lang={lang}
+        />
+      )}
+
+      {/* Floating Movable/Draggable STEP Bible Frame Window */}
+      {showStepWindow && (
+        <DraggableStepWindow
+          passageRef={passageData?.ref ? (passageData.ref[lang] || passageData.ref.nl) : ''}
+          iframeUrl={getStepIframeUrl()}
+          onClose={() => setShowStepWindow(false)}
           lang={lang}
         />
       )}

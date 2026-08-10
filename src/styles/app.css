@@ -384,6 +384,123 @@ button, input, select, textarea {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
 }
 
+/* Draggable / Movable STEP Bible Floating Window */
+.draggable-step-window {
+  position: fixed;
+  z-index: 5000;
+  width: min(650px, 92vw);
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.22);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: width 0.2s ease, height 0.2s ease;
+}
+
+.draggable-step-window.maximized {
+  position: fixed;
+  inset: 10px;
+  width: calc(100vw - 20px) !important;
+  height: calc(100vh - 20px) !important;
+  top: 10px !important;
+  left: 10px !important;
+  z-index: 9999;
+}
+
+.step-window-header {
+  background: var(--paper);
+  border-bottom: 1px solid var(--line);
+  padding: 10px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: move;
+  user-select: none;
+}
+
+.header-title-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.drag-handle-icon {
+  color: var(--accent);
+}
+
+.step-window-actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.window-btn {
+  border: 0;
+  background: transparent;
+  padding: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: var(--muted);
+}
+
+.window-btn:hover {
+  background: var(--soft);
+  color: var(--ink);
+}
+
+.window-btn-close:hover {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.step-window-body {
+  width: 100%;
+  height: clamp(450px, 60vh, 680px);
+  position: relative;
+}
+
+.draggable-step-window.maximized .step-window-body {
+  height: calc(100vh - 70px);
+}
+
+.step-window-body.dragging {
+  pointer-events: none;
+}
+
+.draggable-step-iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+
+.draggable-step-minimized {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 5000;
+  background: var(--ink);
+  color: var(--white);
+  padding: 10px 16px;
+  border-radius: 999px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  font-size: 13.5px;
+  font-weight: 600;
+}
+
+.draggable-step-minimized:hover {
+  background: var(--accent-dark);
+}
+
 /* Bible Reader Scrollable Text Card Styling */
 .bible-reader-card {
   background: var(--white);
@@ -393,22 +510,6 @@ button, input, select, textarea {
   box-shadow: 0 4px 20px var(--shadow);
   max-height: calc(100vh - 170px);
   overflow-y: auto;
-}
-
-.stepbible-container {
-  width: 100%;
-  border-radius: 6px;
-  overflow: hidden;
-  border: 1px solid var(--line);
-  margin-top: 10px;
-}
-
-.stepbible-iframe {
-  width: 100%;
-  height: clamp(550px, 70vh, 750px);
-  border: 0;
-  display: block;
-  background: #ffffff;
 }
 
 .passage-meta-header {
@@ -588,21 +689,6 @@ button, input, select, textarea {
   font-size: 12.5px;
   color: var(--muted);
   font-style: italic;
-}
-
-.popover-external-links {
-  display: flex;
-  gap: 12px;
-  margin-top: 4px;
-}
-
-.popover-ext-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 13px;
-  font-weight: 600;
-  color: var(--accent-dark);
 }
 
 /* Hero Section */
