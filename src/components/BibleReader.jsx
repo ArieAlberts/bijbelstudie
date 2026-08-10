@@ -48,10 +48,11 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
     if (onSectionChange) onSectionChange(newSec);
   };
 
-  // Generate STEP Bible iFrame URL for the selected passage reference
+  // Generate STEP Bible iFrame URL with full option flags: HVLGUNMC
+  // H = Hebrew/Greek Interlinear, V = Verse numbers, L = Lexicon, G = Grammar, U = Underlying text, N = Notes, M = Meanings, C = Column view
   const getStepIframeUrl = () => {
     const osis = passageData?.osis || 'Deut.16.18-Deut.21.9';
-    return `https://www.stepbible.org/?q=version=${stepVersion}|reference=${encodeURIComponent(osis)}&options=VNHUG`;
+    return `https://www.stepbible.org/?q=version=${stepVersion}|reference=${encodeURIComponent(osis)}&options=HVLGUNMC`;
   };
 
   const openLexicon = (event, lemmaId, strongTag, surfaceText) => {
@@ -211,12 +212,12 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
               <h2 className="passage-title">{passageData.ref ? (passageData.ref[lang] || passageData.ref.nl) : ''}</h2>
               <div className="passage-subtitle">
                 {translation === 'sv' ? 'Statenvertaling (SV)' : 'King James Version (KJV)'}
-                {readerMode === 'step' && ' — STEP Bible Interactief Engine'}
+                {readerMode === 'step' && ' — STEP Bible Engine (HVLGUNMC)'}
               </div>
             </div>
 
             {readerMode === 'step' ? (
-              /* STEP Bible Embedded iFrame Engine */
+              /* STEP Bible Embedded iFrame Engine with HVLGUNMC options */
               <div className="stepbible-container">
                 <iframe
                   src={getStepIframeUrl()}
