@@ -1,7 +1,6 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { BIBLE_TEXT_DB } from './bible-data-provider.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -9,6 +8,7 @@ const rootDir = path.resolve(__dirname, '..');
 
 const passagesFile = path.join(rootDir, 'data', 'passages.json');
 const outputDir = path.join(rootDir, 'public', 'data', 'bible');
+const cacheFile = path.join(rootDir, 'scripts', 'authentic-bible-cache.json');
 
 const BOOK_MAP = {
   Deut: { osis: 'Deut', nl: 'Deuteronomium', en: 'Deuteronomy', testament: 'OT' },
@@ -28,7 +28,7 @@ const CHAPTER_MAX_VERSES = {
   "Deut.13": 18,
   "Deut.14": 29,
   "Deut.15": 23,
-  "Deut.16": 22, // Deuteronomium 16 has exactly 22 verses
+  "Deut.16": 22,
   "Deut.17": 20,
   "Deut.18": 22,
   "Deut.19": 21,
@@ -46,11 +46,18 @@ const CHAPTER_MAX_VERSES = {
 };
 
 const MASTER_LEXICON = {
-  "heb:tsedeq": { lemma: "צֶדֶק", translit: "tsedeq", strong: "H6664", language: "hebrew", gloss: "gerechtigheid, wat juist en rechtvaardig is (righteousness, justice)" },
-  "heb:shaphat": { lemma: "שָׁפַט", translit: "shaphat", strong: "H8199", language: "hebrew", gloss: "oordelen, rechtspreken, besturen (to judge, govern)" },
-  "heb:yhwh": { lemma: "יְהוָה", translit: "YHWH", strong: "H3068", language: "hebrew", gloss: "De HEERE, de Verbondsgod van Israël (the LORD)" },
-  "grk:pisteuo": { lemma: "πιστεύω", translit: "pisteuō", strong: "G4100", language: "greek", gloss: "geloven, vertrouwen (to believe, trust)" },
-  "grk:pater": { lemma: "πατήρ", translit: "patēr", strong: "G3962", language: "greek", gloss: "Vader (Father)" }
+  "H8199": { lemma: "שָׁפַט", translit: "shaphat", strong: "H8199", language: "hebrew", gloss: "oordelen, rechtspreken, besturen (to judge, govern)" },
+  "H7860": { lemma: "שֹׁטֵר", translit: "shoter", strong: "H7860", language: "hebrew", gloss: "opziener, ambtman, beambte (officer, official)" },
+  "H5414": { lemma: "נָתַן", translit: "nathan", strong: "H5414", language: "hebrew", gloss: "geven, stellen, beschrikken (to give, set)" },
+  "H8179": { lemma: "שַׁעַר", translit: "sha'ar", strong: "H8179", language: "hebrew", gloss: "poort, stadspoort (gate)" },
+  "H3068": { lemma: "יְהוָה", translit: "YHWH", strong: "H3068", language: "hebrew", gloss: "De HEERE, de Verbondsgod van Israël (the LORD)" },
+  "H430": { lemma: "אֱלֹהִים", translit: "Elohim", strong: "H430", language: "hebrew", gloss: "God (God, Divine Being)" },
+  "H7626": { lemma: "שֵׁבֶט", translit: "shebet", strong: "H7626", language: "hebrew", gloss: "stam, scepter, roede (tribe, rod)" },
+  "H5971": { lemma: "עַם", translit: "am", strong: "H5971", language: "hebrew", gloss: "volk, natie (people, nation)" },
+  "H4941": { lemma: "מִשְׁפָּט", translit: "mishpat", strong: "H4941", language: "hebrew", gloss: "recht, oordeel, gericht (justice, judgment)" },
+  "H6664": { lemma: "צֶדֶק", translit: "tsedeq", strong: "H6664", language: "hebrew", gloss: "gerechtigheid, wat juist en rechtvaardig is (righteousness, justice)" },
+  "G3962": { lemma: "πατήρ", translit: "patēr", strong: "G3962", language: "greek", gloss: "Vader (Father)" },
+  "G4100": { lemma: "πιστεύω", translit: "pisteuō", strong: "G4100", language: "greek", gloss: "geloven, vertrouwen (to believe, trust)" }
 };
 
 function parseOsisRange(osisStr) {
@@ -70,7 +77,7 @@ function parseOsisRange(osisStr) {
   return { book, startCh, startVs, endCh, endVs };
 }
 
-function generatePassageJson(studyId, passage) {
+function generatePassageJson(studyId, passage, cachedDb) {
   const { osis, role, ref } = passage;
   const range = parseOsisRange(osis);
   const meta = BOOK_MAP[range.book];
@@ -80,7 +87,6 @@ function generatePassageJson(studyId, passage) {
   }
 
   const verses = [];
-  const groundTokens = {};
   const passageLexicon = {};
 
   for (let c = range.startCh; c <= range.endCh; c++) {
@@ -90,16 +96,12 @@ function generatePassageJson(studyId, passage) {
 
     for (let v = vStart; v <= vEnd; v++) {
       const verseKey = `${range.book}.${c}.${v}`;
-      let found = BIBLE_TEXT_DB[verseKey];
+      const found = cachedDb[verseKey];
 
-      if (!found) {
-        // Use authentic verse text
-        found = {
-          sv: `En de HEERE sprak tot ${meta.nl} ${c}:${v}, dat Zijn geboden gehouden moeten worden.`,
-          kjv: [{ t: `And the LORD spake in ${meta.en} ${c}:${v}.`, s: null }]
-        };
+      if (!found || !found.sv || !found.kjv) {
+        throw new Error(`[CRITICAL ERROR] Missing authentic verse data for '${verseKey}'!`);
       }
-
+      
       verses.push({
         osis: verseKey,
         ref: `${c}:${v}`,
@@ -108,11 +110,10 @@ function generatePassageJson(studyId, passage) {
         alignments: found.alignments || { sv: [] }
       });
 
-      if (found.tokens) {
-        Object.assign(groundTokens, found.tokens);
-        Object.values(found.tokens).forEach(tok => {
-          if (tok.lemmaId && MASTER_LEXICON[tok.lemmaId]) {
-            passageLexicon[tok.lemmaId] = MASTER_LEXICON[tok.lemmaId];
+      if (found.alignments && found.alignments.sv) {
+        found.alignments.sv.forEach(align => {
+          if (align.strong && MASTER_LEXICON[align.strong]) {
+            passageLexicon[align.strong] = MASTER_LEXICON[align.strong];
           }
         });
       }
@@ -126,9 +127,20 @@ function generatePassageJson(studyId, passage) {
     ref,
     testament: meta.testament,
     verses,
-    groundTokens,
     lexicon: passageLexicon
   };
+}
+
+// Strict Control Validation Check
+function validateAllVerses(passageData, fileName) {
+  passageData.verses.forEach(v => {
+    if (!v.sv || v.sv.includes('sprak tot het volk') || v.sv.includes('uit de Statenvertaling') || v.sv.includes('placeholder')) {
+      throw new Error(`[VALIDATION CONTROL FAILED] Verse ${v.osis} in '${fileName}' contains non-verbatim text: "${v.sv}"!`);
+    }
+    if (!v.kjv || !v.kjv.length || (v.kjv[0].t && (v.kjv[0].t.includes('spake in') || v.kjv[0].t.includes('from KJV')))) {
+      throw new Error(`[VALIDATION CONTROL FAILED] Verse ${v.osis} in '${fileName}' contains non-verbatim KJV text: "${v.kjv[0]?.t}"!`);
+    }
+  });
 }
 
 function buildAllPassages() {
@@ -137,7 +149,14 @@ function buildAllPassages() {
     process.exit(1);
   }
 
+  if (!fs.existsSync(cacheFile)) {
+    console.error(`Missing authentic Bible cache file: ${cacheFile}`);
+    process.exit(1);
+  }
+
+  const cachedDb = JSON.parse(fs.readFileSync(cacheFile, 'utf-8'));
   const manifest = JSON.parse(fs.readFileSync(passagesFile, 'utf-8'));
+
   if (!fs.existsSync(outputDir)) {
     fs.mkdirSync(outputDir, { recursive: true });
   }
@@ -145,12 +164,15 @@ function buildAllPassages() {
   let totalFiles = 0;
   manifest.studies.forEach(study => {
     study.passages.forEach(passage => {
-      const jsonData = generatePassageJson(study.id, passage);
+      const jsonData = generatePassageJson(study.id, passage, cachedDb);
       const fileName = `${study.id}-${passage.role}.json`;
+
+      // Run strict validation control check before saving
+      validateAllVerses(jsonData, fileName);
 
       const filePath = path.join(outputDir, fileName);
       fs.writeFileSync(filePath, JSON.stringify(jsonData, null, 2), 'utf-8');
-      console.log(`✓ Verified & Generated ${fileName} (${jsonData.verses.length} verses)`);
+      console.log(`✓ Verified Verbatim & Generated ${fileName} (${jsonData.verses.length} verses)`);
       totalFiles++;
     });
   });
@@ -158,18 +180,16 @@ function buildAllPassages() {
   const sourcesData = {
     _note: "Bible data sources and provenance manifest for Zelf de parasja lezen.",
     sv: {
-      source: "scrollmapper/bible_databases",
-      module: "DutSVV",
-      edition: "Statenvertaling 1637/1888",
+      source: "Bolls.life / DutSVV",
+      edition: "Statenvertaling 1637/1888 with Strong's Tagging",
       license: "Public Domain",
       notes: "Default Dutch translation"
     },
     kjv: {
-      source: "scrollmapper/bible_databases",
-      module: "KJV 1769",
-      edition: "King James Version 1769 with Strong's Numbers & Morphology",
+      source: "Bolls.life / KJV 1769",
+      edition: "King James Version 1769",
       license: "Public Domain",
-      notes: "Default English translation with word token tagging"
+      notes: "Default English translation"
     },
     lexicon: {
       source: "STEPBible/STEPBible-Data",

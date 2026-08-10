@@ -11,172 +11,2336 @@
     {
       "osis": "Isa.54.11",
       "ref": "54:11",
-      "sv": "En de HEERE sprak tot Jesaja 54:11, dat Zijn geboden gehouden moeten worden.",
+      "sv": "Gij verdrukte, door onweder voortgedrevene, ongetrooste! zie, Ik zal uw stenen gans sierlijk leggen, en Ik zal u op saffieren grondvesten.",
       "kjv": [
         {
-          "t": "And the LORD spake in Isaiah 54:11.",
+          "t": "O",
+          "s": null
+        },
+        {
+          "t": "thou",
+          "s": null
+        },
+        {
+          "t": "afflicted,",
+          "s": null
+        },
+        {
+          "t": "tossed",
+          "s": null
+        },
+        {
+          "t": "with",
+          "s": null
+        },
+        {
+          "t": "tempest,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "comforted,",
+          "s": null
+        },
+        {
+          "t": "behold,",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "lay",
+          "s": null
+        },
+        {
+          "t": "thy",
+          "s": null
+        },
+        {
+          "t": "stones",
+          "s": null
+        },
+        {
+          "t": "with",
+          "s": null
+        },
+        {
+          "t": "fair",
+          "s": null
+        },
+        {
+          "t": "colours,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "lay",
+          "s": null
+        },
+        {
+          "t": "thy",
+          "s": null
+        },
+        {
+          "t": "foundations",
+          "s": null
+        },
+        {
+          "t": "with",
+          "s": null
+        },
+        {
+          "t": "sapphires.",
           "s": null
         }
       ],
       "alignments": {
-        "sv": []
+        "sv": [
+          {
+            "surface": "verdrukte",
+            "charStart": 4,
+            "charEnd": 13,
+            "strong": "H6041",
+            "status": "verified"
+          },
+          {
+            "surface": "voortgedrevene",
+            "charStart": 28,
+            "charEnd": 42,
+            "strong": "H5590",
+            "status": "verified"
+          },
+          {
+            "surface": "ongetrooste",
+            "charStart": 44,
+            "charEnd": 55,
+            "strong": "H5162",
+            "status": "verified"
+          },
+          {
+            "surface": "stenen",
+            "charStart": 72,
+            "charEnd": 78,
+            "strong": "H68",
+            "status": "verified"
+          },
+          {
+            "surface": "sierlijk",
+            "charStart": 84,
+            "charEnd": 92,
+            "strong": "H6320",
+            "status": "verified"
+          },
+          {
+            "surface": "leggen",
+            "charStart": 93,
+            "charEnd": 99,
+            "strong": "H7257",
+            "status": "verified"
+          },
+          {
+            "surface": "saffieren",
+            "charStart": 116,
+            "charEnd": 125,
+            "strong": "H5601",
+            "status": "verified"
+          },
+          {
+            "surface": "grondvesten",
+            "charStart": 126,
+            "charEnd": 137,
+            "strong": "H3245",
+            "status": "verified"
+          }
+        ]
       }
     },
     {
       "osis": "Isa.54.12",
       "ref": "54:12",
-      "sv": "En de HEERE sprak tot Jesaja 54:12, dat Zijn geboden gehouden moeten worden.",
+      "sv": "En uw glasvensters zal Ik kristallijnen maken, en uw poorten van robijnstenen, en uw ganse landpale van aangename stenen.",
       "kjv": [
         {
-          "t": "And the LORD spake in Isaiah 54:12.",
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "make",
+          "s": null
+        },
+        {
+          "t": "thy",
+          "s": null
+        },
+        {
+          "t": "windows",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "agates,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "thy",
+          "s": null
+        },
+        {
+          "t": "gates",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "carbuncles",
+          "s": null
+        },
+        {
+          "t": ",",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "all",
+          "s": null
+        },
+        {
+          "t": "thy",
+          "s": null
+        },
+        {
+          "t": "borders",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "pleasant",
+          "s": null
+        },
+        {
+          "t": "stones.",
           "s": null
         }
       ],
       "alignments": {
-        "sv": []
+        "sv": [
+          {
+            "surface": "glasvensters",
+            "charStart": 6,
+            "charEnd": 18,
+            "strong": "H8121",
+            "status": "verified"
+          },
+          {
+            "surface": "kristallijnen",
+            "charStart": 26,
+            "charEnd": 39,
+            "strong": "H3539",
+            "status": "verified"
+          },
+          {
+            "surface": "maken",
+            "charStart": 40,
+            "charEnd": 45,
+            "strong": "H7760",
+            "status": "verified"
+          },
+          {
+            "surface": "poorten",
+            "charStart": 53,
+            "charEnd": 60,
+            "strong": "H8179",
+            "status": "verified"
+          },
+          {
+            "surface": "robijnstenen",
+            "charStart": 65,
+            "charEnd": 77,
+            "strong": "H68",
+            "status": "verified"
+          },
+          {
+            "surface": "landpale",
+            "charStart": 91,
+            "charEnd": 99,
+            "strong": "H1366",
+            "status": "verified"
+          },
+          {
+            "surface": "aangename",
+            "charStart": 104,
+            "charEnd": 113,
+            "strong": "H2656",
+            "status": "verified"
+          },
+          {
+            "surface": "stenen",
+            "charStart": 114,
+            "charEnd": 120,
+            "strong": "H68",
+            "status": "verified"
+          }
+        ]
       }
     },
     {
       "osis": "Isa.54.13",
       "ref": "54:13",
-      "sv": "En de HEERE sprak tot Jesaja 54:13, dat Zijn geboden gehouden moeten worden.",
+      "sv": "En al uw kinderen zullen van den HEERE geleerd zijn, en de vrede uwer kinderen zal groot zijn.",
       "kjv": [
         {
-          "t": "And the LORD spake in Isaiah 54:13.",
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "all",
+          "s": null
+        },
+        {
+          "t": "thy",
+          "s": null
+        },
+        {
+          "t": "children",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "taught",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "LORD;",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "great",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "peace",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "thy",
+          "s": null
+        },
+        {
+          "t": "children.",
           "s": null
         }
       ],
       "alignments": {
-        "sv": []
+        "sv": [
+          {
+            "surface": "kinderen",
+            "charStart": 9,
+            "charEnd": 17,
+            "strong": "H1121",
+            "status": "verified"
+          },
+          {
+            "surface": "HEERE",
+            "charStart": 33,
+            "charEnd": 38,
+            "strong": "H3068",
+            "status": "verified"
+          },
+          {
+            "surface": "zijn",
+            "charStart": 47,
+            "charEnd": 51,
+            "strong": "H3928",
+            "status": "verified"
+          },
+          {
+            "surface": "vrede",
+            "charStart": 59,
+            "charEnd": 64,
+            "strong": "H7965",
+            "status": "verified"
+          },
+          {
+            "surface": "kinderen",
+            "charStart": 70,
+            "charEnd": 78,
+            "strong": "H1121",
+            "status": "verified"
+          },
+          {
+            "surface": "groot",
+            "charStart": 83,
+            "charEnd": 88,
+            "strong": "H7227",
+            "status": "verified"
+          }
+        ]
       }
     },
     {
       "osis": "Isa.54.14",
       "ref": "54:14",
-      "sv": "En de HEERE sprak tot Jesaja 54:14, dat Zijn geboden gehouden moeten worden.",
+      "sv": "Gij zult door gerechtigheid bevestigd worden; wees verre van verdrukking, want gij zult niet vrezen; en [verre] van verschrikking, want zij zal tot u niet naken.",
       "kjv": [
         {
-          "t": "And the LORD spake in Isaiah 54:14.",
+          "t": "In",
+          "s": null
+        },
+        {
+          "t": "righteousness",
+          "s": null
+        },
+        {
+          "t": "shalt",
+          "s": null
+        },
+        {
+          "t": "thou",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "established:",
+          "s": null
+        },
+        {
+          "t": "thou",
+          "s": null
+        },
+        {
+          "t": "shalt",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "far",
+          "s": null
+        },
+        {
+          "t": "from",
+          "s": null
+        },
+        {
+          "t": "oppression;",
+          "s": null
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "thou",
+          "s": null
+        },
+        {
+          "t": "shalt",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "fear:",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "from",
+          "s": null
+        },
+        {
+          "t": "terror;",
+          "s": null
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "it",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "come",
+          "s": null
+        },
+        {
+          "t": "near",
+          "s": null
+        },
+        {
+          "t": "thee.",
           "s": null
         }
       ],
       "alignments": {
-        "sv": []
+        "sv": [
+          {
+            "surface": "gerechtigheid",
+            "charStart": 14,
+            "charEnd": 27,
+            "strong": "H6666",
+            "status": "verified"
+          },
+          {
+            "surface": "worden",
+            "charStart": 38,
+            "charEnd": 44,
+            "strong": "H3559",
+            "status": "verified"
+          },
+          {
+            "surface": "verre",
+            "charStart": 51,
+            "charEnd": 56,
+            "strong": "H7368",
+            "status": "verified"
+          },
+          {
+            "surface": "verdrukking",
+            "charStart": 61,
+            "charEnd": 72,
+            "strong": "H6233",
+            "status": "verified"
+          },
+          {
+            "surface": "vrezen",
+            "charStart": 93,
+            "charEnd": 99,
+            "strong": "H3372",
+            "status": "verified"
+          },
+          {
+            "surface": "verschrikking",
+            "charStart": 116,
+            "charEnd": 129,
+            "strong": "H4288",
+            "status": "verified"
+          },
+          {
+            "surface": "naken",
+            "charStart": 155,
+            "charEnd": 160,
+            "strong": "H7126",
+            "status": "verified"
+          }
+        ]
       }
     },
     {
       "osis": "Isa.54.15",
       "ref": "54:15",
-      "sv": "En de HEERE sprak tot Jesaja 54:15, dat Zijn geboden gehouden moeten worden.",
+      "sv": "Ziet, zij zullen zich zekerlijk vergaderen, [doch] niet uit Mij; wie zich tegen u vergaderen zal, die zal om uwentwil vallen.",
       "kjv": [
         {
-          "t": "And the LORD spake in Isaiah 54:15.",
+          "t": "Behold,",
+          "s": null
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "surely",
+          "s": null
+        },
+        {
+          "t": "gather",
+          "s": null
+        },
+        {
+          "t": "together,",
+          "s": null
+        },
+        {
+          "t": "but",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "by",
+          "s": null
+        },
+        {
+          "t": "me:",
+          "s": null
+        },
+        {
+          "t": "whosoever",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "gather",
+          "s": null
+        },
+        {
+          "t": "together",
+          "s": null
+        },
+        {
+          "t": "against",
+          "s": null
+        },
+        {
+          "t": "thee",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "fall",
+          "s": null
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "thy",
+          "s": null
+        },
+        {
+          "t": "sake.",
           "s": null
         }
       ],
       "alignments": {
-        "sv": []
+        "sv": [
+          {
+            "surface": "zekerlijk",
+            "charStart": 22,
+            "charEnd": 31,
+            "strong": "H1481",
+            "status": "verified"
+          },
+          {
+            "surface": "vergaderen",
+            "charStart": 32,
+            "charEnd": 42,
+            "strong": "H1481",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 51,
+            "charEnd": 55,
+            "strong": "H657",
+            "status": "verified"
+          },
+          {
+            "surface": "wie",
+            "charStart": 65,
+            "charEnd": 68,
+            "strong": "H4310",
+            "status": "verified"
+          },
+          {
+            "surface": "zal",
+            "charStart": 93,
+            "charEnd": 96,
+            "strong": "H1481",
+            "status": "verified"
+          },
+          {
+            "surface": "vallen",
+            "charStart": 118,
+            "charEnd": 124,
+            "strong": "H5307",
+            "status": "verified"
+          }
+        ]
       }
     },
     {
       "osis": "Isa.54.16",
       "ref": "54:16",
-      "sv": "En de HEERE sprak tot Jesaja 54:16, dat Zijn geboden gehouden moeten worden.",
+      "sv": "Zie, Ik heb den smid geschapen, die de kolen in het vuur opblaast, en die het instrument voortbrengt tot zijn werk; ook heb Ik den verderver geschapen, om te vernielen.",
       "kjv": [
         {
-          "t": "And the LORD spake in Isaiah 54:16.",
+          "t": "Behold,",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "have",
+          "s": null
+        },
+        {
+          "t": "created",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "smith",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "bloweth",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "coals",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "fire,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "bringeth",
+          "s": null
+        },
+        {
+          "t": "forth",
+          "s": null
+        },
+        {
+          "t": "an",
+          "s": null
+        },
+        {
+          "t": "instrument",
+          "s": null
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "work;",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "have",
+          "s": null
+        },
+        {
+          "t": "created",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "waster",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "destroy.",
           "s": null
         }
       ],
       "alignments": {
-        "sv": []
+        "sv": [
+          {
+            "surface": "smid",
+            "charStart": 16,
+            "charEnd": 20,
+            "strong": "H2796",
+            "status": "verified"
+          },
+          {
+            "surface": "geschapen",
+            "charStart": 21,
+            "charEnd": 30,
+            "strong": "H1254",
+            "status": "verified"
+          },
+          {
+            "surface": "kolen",
+            "charStart": 39,
+            "charEnd": 44,
+            "strong": "H6352",
+            "status": "verified"
+          },
+          {
+            "surface": "vuur",
+            "charStart": 52,
+            "charEnd": 56,
+            "strong": "H784",
+            "status": "verified"
+          },
+          {
+            "surface": "opblaast",
+            "charStart": 57,
+            "charEnd": 65,
+            "strong": "H5301",
+            "status": "verified"
+          },
+          {
+            "surface": "instrument",
+            "charStart": 78,
+            "charEnd": 88,
+            "strong": "H3627",
+            "status": "verified"
+          },
+          {
+            "surface": "voortbrengt",
+            "charStart": 89,
+            "charEnd": 100,
+            "strong": "H3318",
+            "status": "verified"
+          },
+          {
+            "surface": "werk",
+            "charStart": 110,
+            "charEnd": 114,
+            "strong": "H4639",
+            "status": "verified"
+          },
+          {
+            "surface": "verderver",
+            "charStart": 131,
+            "charEnd": 140,
+            "strong": "H7843",
+            "status": "verified"
+          },
+          {
+            "surface": "geschapen",
+            "charStart": 141,
+            "charEnd": 150,
+            "strong": "H1254",
+            "status": "verified"
+          },
+          {
+            "surface": "vernielen",
+            "charStart": 158,
+            "charEnd": 167,
+            "strong": "H2254",
+            "status": "verified"
+          }
+        ]
       }
     },
     {
       "osis": "Isa.54.17",
       "ref": "54:17",
-      "sv": "En de HEERE sprak tot Jesaja 54:17, dat Zijn geboden gehouden moeten worden.",
+      "sv": "Alle instrument, dat tegen u bereid wordt, zal niet gelukken, en alle tong, [die] in het gericht tegen u opstaat, zult gij verdoemen; dit is de erve der knechten des HEEREN, en hun gerechtigheid is uit Mij, spreekt de HEERE.",
       "kjv": [
         {
-          "t": "And the LORD spake in Isaiah 54:17.",
+          "t": "No",
+          "s": null
+        },
+        {
+          "t": "weapon",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "formed",
+          "s": null
+        },
+        {
+          "t": "against",
+          "s": null
+        },
+        {
+          "t": "thee",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "prosper;",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "every",
+          "s": null
+        },
+        {
+          "t": "tongue",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "rise",
+          "s": null
+        },
+        {
+          "t": "against",
+          "s": null
+        },
+        {
+          "t": "thee",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "judgment",
+          "s": null
+        },
+        {
+          "t": "thou",
+          "s": null
+        },
+        {
+          "t": "shalt",
+          "s": null
+        },
+        {
+          "t": "condemn.",
+          "s": null
+        },
+        {
+          "t": "This",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "heritage",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "servants",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "LORD,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "their",
+          "s": null
+        },
+        {
+          "t": "righteousness",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "me,",
+          "s": null
+        },
+        {
+          "t": "saith",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "LORD.",
           "s": null
         }
       ],
       "alignments": {
-        "sv": []
+        "sv": [
+          {
+            "surface": "instrument",
+            "charStart": 5,
+            "charEnd": 15,
+            "strong": "H3627",
+            "status": "verified"
+          },
+          {
+            "surface": "wordt",
+            "charStart": 36,
+            "charEnd": 41,
+            "strong": "H3335",
+            "status": "verified"
+          },
+          {
+            "surface": "gelukken",
+            "charStart": 52,
+            "charEnd": 60,
+            "strong": "H6743",
+            "status": "verified"
+          },
+          {
+            "surface": "tong",
+            "charStart": 70,
+            "charEnd": 74,
+            "strong": "H3956",
+            "status": "verified"
+          },
+          {
+            "surface": "gericht",
+            "charStart": 89,
+            "charEnd": 96,
+            "strong": "H4941",
+            "status": "verified"
+          },
+          {
+            "surface": "opstaat",
+            "charStart": 105,
+            "charEnd": 112,
+            "strong": "H6965",
+            "status": "verified"
+          },
+          {
+            "surface": "verdoemen",
+            "charStart": 123,
+            "charEnd": 132,
+            "strong": "H7561",
+            "status": "verified"
+          },
+          {
+            "surface": "erve",
+            "charStart": 144,
+            "charEnd": 148,
+            "strong": "H5159",
+            "status": "verified"
+          },
+          {
+            "surface": "knechten",
+            "charStart": 153,
+            "charEnd": 161,
+            "strong": "H5650",
+            "status": "verified"
+          },
+          {
+            "surface": "HEEREN",
+            "charStart": 166,
+            "charEnd": 172,
+            "strong": "H3068",
+            "status": "verified"
+          },
+          {
+            "surface": "gerechtigheid",
+            "charStart": 181,
+            "charEnd": 194,
+            "strong": "H6666",
+            "status": "verified"
+          },
+          {
+            "surface": "spreekt",
+            "charStart": 207,
+            "charEnd": 214,
+            "strong": "H5002",
+            "status": "verified"
+          },
+          {
+            "surface": "HEERE",
+            "charStart": 218,
+            "charEnd": 223,
+            "strong": "H3068",
+            "status": "verified"
+          }
+        ]
       }
     },
     {
       "osis": "Isa.55.1",
       "ref": "55:1",
-      "sv": "En de HEERE sprak tot Jesaja 55:1, dat Zijn geboden gehouden moeten worden.",
+      "sv": "O alle gij dorstigen! komt tot de wateren, en gij, die geen geld hebt, komt, koopt en eet, ja komt, koopt zonder geld, en zonder prijs, wijn en melk!",
       "kjv": [
         {
-          "t": "And the LORD spake in Isaiah 55:1.",
+          "t": "Ho,",
+          "s": null
+        },
+        {
+          "t": "every",
+          "s": null
+        },
+        {
+          "t": "one",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "thirsteth,",
+          "s": null
+        },
+        {
+          "t": "come",
+          "s": null
+        },
+        {
+          "t": "ye",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "waters,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "hath",
+          "s": null
+        },
+        {
+          "t": "no",
+          "s": null
+        },
+        {
+          "t": "money;",
+          "s": null
+        },
+        {
+          "t": "come",
+          "s": null
+        },
+        {
+          "t": "ye,",
+          "s": null
+        },
+        {
+          "t": "buy,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "eat;",
+          "s": null
+        },
+        {
+          "t": "yea,",
+          "s": null
+        },
+        {
+          "t": "come,",
+          "s": null
+        },
+        {
+          "t": "buy",
+          "s": null
+        },
+        {
+          "t": "wine",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "milk",
+          "s": null
+        },
+        {
+          "t": "without",
+          "s": null
+        },
+        {
+          "t": "money",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "without",
+          "s": null
+        },
+        {
+          "t": "price.",
           "s": null
         }
       ],
       "alignments": {
-        "sv": []
+        "sv": [
+          {
+            "surface": "O",
+            "charStart": 0,
+            "charEnd": 1,
+            "strong": "H1945",
+            "status": "verified"
+          },
+          {
+            "surface": "dorstigen",
+            "charStart": 11,
+            "charEnd": 20,
+            "strong": "H6771",
+            "status": "verified"
+          },
+          {
+            "surface": "komt",
+            "charStart": 22,
+            "charEnd": 26,
+            "strong": "H3212",
+            "status": "verified"
+          },
+          {
+            "surface": "wateren",
+            "charStart": 34,
+            "charEnd": 41,
+            "strong": "H4325",
+            "status": "verified"
+          },
+          {
+            "surface": "geld",
+            "charStart": 60,
+            "charEnd": 64,
+            "strong": "H3701",
+            "status": "verified"
+          },
+          {
+            "surface": "komt",
+            "charStart": 71,
+            "charEnd": 75,
+            "strong": "H3212",
+            "status": "verified"
+          },
+          {
+            "surface": "koopt",
+            "charStart": 77,
+            "charEnd": 82,
+            "strong": "H7666",
+            "status": "verified"
+          },
+          {
+            "surface": "eet",
+            "charStart": 86,
+            "charEnd": 89,
+            "strong": "H398",
+            "status": "verified"
+          },
+          {
+            "surface": "komt",
+            "charStart": 94,
+            "charEnd": 98,
+            "strong": "H3212",
+            "status": "verified"
+          },
+          {
+            "surface": "koopt",
+            "charStart": 100,
+            "charEnd": 105,
+            "strong": "H7666",
+            "status": "verified"
+          },
+          {
+            "surface": "geld",
+            "charStart": 113,
+            "charEnd": 117,
+            "strong": "H3701",
+            "status": "verified"
+          },
+          {
+            "surface": "prijs",
+            "charStart": 129,
+            "charEnd": 134,
+            "strong": "H4242",
+            "status": "verified"
+          },
+          {
+            "surface": "wijn",
+            "charStart": 136,
+            "charEnd": 140,
+            "strong": "H3196",
+            "status": "verified"
+          },
+          {
+            "surface": "melk",
+            "charStart": 144,
+            "charEnd": 148,
+            "strong": "H2461",
+            "status": "verified"
+          }
+        ]
       }
     },
     {
       "osis": "Isa.55.2",
       "ref": "55:2",
-      "sv": "En de HEERE sprak tot Jesaja 55:2, dat Zijn geboden gehouden moeten worden.",
+      "sv": "Waarom weegt gijlieden geld uit voor hetgeen geen brood is, en uw arbeid voor hetgeen niet verzadigen kan? Hoort aandachtiglijk naar Mij, en eet het goede, en laat uw ziel in vettigheid zich verlustigen.",
       "kjv": [
         {
-          "t": "And the LORD spake in Isaiah 55:2.",
+          "t": "Wherefore",
+          "s": null
+        },
+        {
+          "t": "do",
+          "s": null
+        },
+        {
+          "t": "ye",
+          "s": null
+        },
+        {
+          "t": "spend",
+          "s": null
+        },
+        {
+          "t": "money",
+          "s": null
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "which",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "bread?",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "your",
+          "s": null
+        },
+        {
+          "t": "labour",
+          "s": null
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "which",
+          "s": null
+        },
+        {
+          "t": "satisfieth",
+          "s": null
+        },
+        {
+          "t": "not?",
+          "s": null
+        },
+        {
+          "t": "hearken",
+          "s": null
+        },
+        {
+          "t": "diligently",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "me,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "eat",
+          "s": null
+        },
+        {
+          "t": "ye",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "which",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "good,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "let",
+          "s": null
+        },
+        {
+          "t": "your",
+          "s": null
+        },
+        {
+          "t": "soul",
+          "s": null
+        },
+        {
+          "t": "delight",
+          "s": null
+        },
+        {
+          "t": "itself",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "fatness.",
+          "s": null
+        },
+        {
+          "t": "<sup>spend:",
+          "s": null
+        },
+        {
+          "t": "Heb.",
+          "s": null
+        },
+        {
+          "t": "weigh</sup>",
           "s": null
         }
       ],
       "alignments": {
-        "sv": []
+        "sv": [
+          {
+            "surface": "weegt",
+            "charStart": 7,
+            "charEnd": 12,
+            "strong": "H8254",
+            "status": "verified"
+          },
+          {
+            "surface": "geld",
+            "charStart": 23,
+            "charEnd": 27,
+            "strong": "H3701",
+            "status": "verified"
+          },
+          {
+            "surface": "brood",
+            "charStart": 50,
+            "charEnd": 55,
+            "strong": "H3899",
+            "status": "verified"
+          },
+          {
+            "surface": "arbeid",
+            "charStart": 66,
+            "charEnd": 72,
+            "strong": "H3018",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 86,
+            "charEnd": 90,
+            "strong": "H3808",
+            "status": "verified"
+          },
+          {
+            "surface": "kan",
+            "charStart": 102,
+            "charEnd": 105,
+            "strong": "H7654",
+            "status": "verified"
+          },
+          {
+            "surface": "Hoort",
+            "charStart": 107,
+            "charEnd": 112,
+            "strong": "H8085",
+            "status": "verified"
+          },
+          {
+            "surface": "aandachtiglijk",
+            "charStart": 113,
+            "charEnd": 127,
+            "strong": "H8085",
+            "status": "verified"
+          },
+          {
+            "surface": "eet",
+            "charStart": 141,
+            "charEnd": 144,
+            "strong": "H398",
+            "status": "verified"
+          },
+          {
+            "surface": "goede",
+            "charStart": 149,
+            "charEnd": 154,
+            "strong": "H2896",
+            "status": "verified"
+          },
+          {
+            "surface": "ziel",
+            "charStart": 167,
+            "charEnd": 171,
+            "strong": "H5315",
+            "status": "verified"
+          },
+          {
+            "surface": "vettigheid",
+            "charStart": 175,
+            "charEnd": 185,
+            "strong": "H1880",
+            "status": "verified"
+          },
+          {
+            "surface": "verlustigen",
+            "charStart": 191,
+            "charEnd": 202,
+            "strong": "H6026",
+            "status": "verified"
+          }
+        ]
       }
     },
     {
       "osis": "Isa.55.3",
       "ref": "55:3",
-      "sv": "En de HEERE sprak tot Jesaja 55:3, dat Zijn geboden gehouden moeten worden.",
+      "sv": "Neigt uw oor, en komt tot Mij, hoort en uw ziel zal leven; want Ik zal met u een eeuwig verbond maken, [en] [u] [geven] de gewisse weldadigheden van David.",
       "kjv": [
         {
-          "t": "And the LORD spake in Isaiah 55:3.",
+          "t": "Incline",
+          "s": null
+        },
+        {
+          "t": "your",
+          "s": null
+        },
+        {
+          "t": "ear,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "come",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "me:",
+          "s": null
+        },
+        {
+          "t": "hear,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "your",
+          "s": null
+        },
+        {
+          "t": "soul",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "live;",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "make",
+          "s": null
+        },
+        {
+          "t": "an",
+          "s": null
+        },
+        {
+          "t": "everlasting",
+          "s": null
+        },
+        {
+          "t": "covenant",
+          "s": null
+        },
+        {
+          "t": "with",
+          "s": null
+        },
+        {
+          "t": "you,",
+          "s": null
+        },
+        {
+          "t": "even",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "sure",
+          "s": null
+        },
+        {
+          "t": "mercies",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "David.",
           "s": null
         }
       ],
       "alignments": {
-        "sv": []
+        "sv": [
+          {
+            "surface": "Neigt",
+            "charStart": 0,
+            "charEnd": 5,
+            "strong": "H5186",
+            "status": "verified"
+          },
+          {
+            "surface": "oor",
+            "charStart": 9,
+            "charEnd": 12,
+            "strong": "H241",
+            "status": "verified"
+          },
+          {
+            "surface": "komt",
+            "charStart": 17,
+            "charEnd": 21,
+            "strong": "H3212",
+            "status": "verified"
+          },
+          {
+            "surface": "hoort",
+            "charStart": 31,
+            "charEnd": 36,
+            "strong": "H8085",
+            "status": "verified"
+          },
+          {
+            "surface": "ziel",
+            "charStart": 43,
+            "charEnd": 47,
+            "strong": "H5315",
+            "status": "verified"
+          },
+          {
+            "surface": "leven",
+            "charStart": 52,
+            "charEnd": 57,
+            "strong": "H2421",
+            "status": "verified"
+          },
+          {
+            "surface": "eeuwig",
+            "charStart": 81,
+            "charEnd": 87,
+            "strong": "H5769",
+            "status": "verified"
+          },
+          {
+            "surface": "verbond",
+            "charStart": 88,
+            "charEnd": 95,
+            "strong": "H1285",
+            "status": "verified"
+          },
+          {
+            "surface": "maken",
+            "charStart": 96,
+            "charEnd": 101,
+            "strong": "H3772",
+            "status": "verified"
+          },
+          {
+            "surface": "gewisse",
+            "charStart": 123,
+            "charEnd": 130,
+            "strong": "H539",
+            "status": "verified"
+          },
+          {
+            "surface": "weldadigheden",
+            "charStart": 131,
+            "charEnd": 144,
+            "strong": "H2617",
+            "status": "verified"
+          },
+          {
+            "surface": "David",
+            "charStart": 149,
+            "charEnd": 154,
+            "strong": "H1732",
+            "status": "verified"
+          }
+        ]
       }
     },
     {
       "osis": "Isa.55.4",
       "ref": "55:4",
-      "sv": "En de HEERE sprak tot Jesaja 55:4, dat Zijn geboden gehouden moeten worden.",
+      "sv": "Ziet, Ik heb hem [tot] een getuige der volken gegeven, een vorst en gebieder der volken.",
       "kjv": [
         {
-          "t": "And the LORD spake in Isaiah 55:4.",
+          "t": "Behold,",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "have",
+          "s": null
+        },
+        {
+          "t": "given",
+          "s": null
+        },
+        {
+          "t": "him",
+          "s": null
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "witness",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "people,",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "leader",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "commander",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "people.",
           "s": null
         }
       ],
       "alignments": {
-        "sv": []
+        "sv": [
+          {
+            "surface": "getuige",
+            "charStart": 27,
+            "charEnd": 34,
+            "strong": "H5707",
+            "status": "verified"
+          },
+          {
+            "surface": "volken",
+            "charStart": 39,
+            "charEnd": 45,
+            "strong": "H3816",
+            "status": "verified"
+          },
+          {
+            "surface": "gegeven",
+            "charStart": 46,
+            "charEnd": 53,
+            "strong": "H5414",
+            "status": "verified"
+          },
+          {
+            "surface": "vorst",
+            "charStart": 59,
+            "charEnd": 64,
+            "strong": "H5057",
+            "status": "verified"
+          },
+          {
+            "surface": "gebieder",
+            "charStart": 68,
+            "charEnd": 76,
+            "strong": "H6680",
+            "status": "verified"
+          },
+          {
+            "surface": "volken",
+            "charStart": 81,
+            "charEnd": 87,
+            "strong": "H3816",
+            "status": "verified"
+          }
+        ]
       }
     },
     {
       "osis": "Isa.55.5",
       "ref": "55:5",
-      "sv": "En de HEERE sprak tot Jesaja 55:5, dat Zijn geboden gehouden moeten worden.",
+      "sv": "Ziet, gij zult een volk roepen, dat gij niet kendet, en het volk, dat u niet kende, zal tot u lopen, om des HEEREN uws Gods wil, en om des Heiligen Israels wil, want Hij heeft u verheerlijkt.",
       "kjv": [
         {
-          "t": "And the LORD spake in Isaiah 55:5.",
+          "t": "Behold,",
+          "s": null
+        },
+        {
+          "t": "thou",
+          "s": null
+        },
+        {
+          "t": "shalt",
+          "s": null
+        },
+        {
+          "t": "call",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "nation",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "thou",
+          "s": null
+        },
+        {
+          "t": "knowest",
+          "s": null
+        },
+        {
+          "t": "not,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "nations",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "knew",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "thee",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "run",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "thee",
+          "s": null
+        },
+        {
+          "t": "because",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "LORD",
+          "s": null
+        },
+        {
+          "t": "thy",
+          "s": null
+        },
+        {
+          "t": "God,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "Holy",
+          "s": null
+        },
+        {
+          "t": "One",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "Israel;",
+          "s": null
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "hath",
+          "s": null
+        },
+        {
+          "t": "glorified",
+          "s": null
+        },
+        {
+          "t": "thee.",
           "s": null
         }
       ],
       "alignments": {
-        "sv": []
+        "sv": [
+          {
+            "surface": "volk",
+            "charStart": 19,
+            "charEnd": 23,
+            "strong": "H1471",
+            "status": "verified"
+          },
+          {
+            "surface": "roepen",
+            "charStart": 24,
+            "charEnd": 30,
+            "strong": "H7121",
+            "status": "verified"
+          },
+          {
+            "surface": "kendet",
+            "charStart": 45,
+            "charEnd": 51,
+            "strong": "H3045",
+            "status": "verified"
+          },
+          {
+            "surface": "volk",
+            "charStart": 60,
+            "charEnd": 64,
+            "strong": "H1471",
+            "status": "verified"
+          },
+          {
+            "surface": "kende",
+            "charStart": 77,
+            "charEnd": 82,
+            "strong": "H3045",
+            "status": "verified"
+          },
+          {
+            "surface": "lopen",
+            "charStart": 94,
+            "charEnd": 99,
+            "strong": "H7323",
+            "status": "verified"
+          },
+          {
+            "surface": "HEEREN",
+            "charStart": 108,
+            "charEnd": 114,
+            "strong": "H3068",
+            "status": "verified"
+          },
+          {
+            "surface": "Gods",
+            "charStart": 119,
+            "charEnd": 123,
+            "strong": "H430",
+            "status": "verified"
+          },
+          {
+            "surface": "Heiligen",
+            "charStart": 139,
+            "charEnd": 147,
+            "strong": "H6918",
+            "status": "verified"
+          },
+          {
+            "surface": "Israels",
+            "charStart": 148,
+            "charEnd": 155,
+            "strong": "H3478",
+            "status": "verified"
+          },
+          {
+            "surface": "verheerlijkt",
+            "charStart": 178,
+            "charEnd": 190,
+            "strong": "H6286",
+            "status": "verified"
+          }
+        ]
       }
     }
   ],
-  "groundTokens": {},
-  "lexicon": {}
+  "lexicon": {
+    "H8179": {
+      "lemma": "שַׁעַר",
+      "translit": "sha'ar",
+      "strong": "H8179",
+      "language": "hebrew",
+      "gloss": "poort, stadspoort (gate)"
+    },
+    "H3068": {
+      "lemma": "יְהוָה",
+      "translit": "YHWH",
+      "strong": "H3068",
+      "language": "hebrew",
+      "gloss": "De HEERE, de Verbondsgod van Israël (the LORD)"
+    },
+    "H4941": {
+      "lemma": "מִשְׁפָּט",
+      "translit": "mishpat",
+      "strong": "H4941",
+      "language": "hebrew",
+      "gloss": "recht, oordeel, gericht (justice, judgment)"
+    },
+    "H5414": {
+      "lemma": "נָתַן",
+      "translit": "nathan",
+      "strong": "H5414",
+      "language": "hebrew",
+      "gloss": "geven, stellen, beschrikken (to give, set)"
+    },
+    "H430": {
+      "lemma": "אֱלֹהִים",
+      "translit": "Elohim",
+      "strong": "H430",
+      "language": "hebrew",
+      "gloss": "God (God, Divine Being)"
+    }
+  }
 }

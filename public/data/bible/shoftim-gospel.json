@@ -11,71 +11,1392 @@
     {
       "osis": "John.14.9",
       "ref": "14:9",
-      "sv": "Jezus zeide tot hem: Ben Ik zo langen tijd met ulieden geweest, en hebt gij Mij niet gekend, Filippus? Die Mij gezien heeft, die heeft den Vader gezien; en hoe zegt gij: Toon ons den Vader?",
+      "sv": "Jezus zeide tot hem: Ben Ik zo langen tijd met ulieden, en hebt gij Mij niet gekend, Filippus? Die Mij gezien heeft, die heeft den Vader gezien; en hoe zegt gij: Toon ons den Vader?",
       "kjv": [
         {
-          "t": "Jesus saith unto him, Have I been so long time with you, and yet hast thou not known me, Philip? he that hath seen me hath seen the Father; and how sayest thou then, Shew us the Father?",
-          "s": "G3962"
+          "t": "Jesus",
+          "s": null
+        },
+        {
+          "t": "saith",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "him,",
+          "s": null
+        },
+        {
+          "t": "Have",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "been",
+          "s": null
+        },
+        {
+          "t": "so",
+          "s": null
+        },
+        {
+          "t": "long",
+          "s": null
+        },
+        {
+          "t": "time",
+          "s": null
+        },
+        {
+          "t": "with",
+          "s": null
+        },
+        {
+          "t": "you,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "yet",
+          "s": null
+        },
+        {
+          "t": "hast",
+          "s": null
+        },
+        {
+          "t": "thou",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "known",
+          "s": null
+        },
+        {
+          "t": "me,",
+          "s": null
+        },
+        {
+          "t": "Philip?",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "hath",
+          "s": null
+        },
+        {
+          "t": "seen",
+          "s": null
+        },
+        {
+          "t": "me",
+          "s": null
+        },
+        {
+          "t": "hath",
+          "s": null
+        },
+        {
+          "t": "seen",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "Father;",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "how",
+          "s": null
+        },
+        {
+          "t": "sayest",
+          "s": null
+        },
+        {
+          "t": "thou",
+          "s": null
+        },
+        {
+          "t": "then,",
+          "s": null
+        },
+        {
+          "t": "Shew",
+          "s": null
+        },
+        {
+          "t": "us",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "Father?",
+          "s": null
         }
       ],
       "alignments": {
-        "sv": []
+        "sv": [
+          {
+            "surface": "Jezus",
+            "charStart": 0,
+            "charEnd": 5,
+            "strong": "G2424",
+            "status": "verified"
+          },
+          {
+            "surface": "zeide",
+            "charStart": 6,
+            "charEnd": 11,
+            "strong": "G3004",
+            "status": "verified"
+          },
+          {
+            "surface": "hem",
+            "charStart": 16,
+            "charEnd": 19,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "Ik",
+            "charStart": 25,
+            "charEnd": 27,
+            "strong": "G1510",
+            "status": "verified"
+          },
+          {
+            "surface": "langen",
+            "charStart": 31,
+            "charEnd": 37,
+            "strong": "G5118",
+            "status": "verified"
+          },
+          {
+            "surface": "tijd",
+            "charStart": 38,
+            "charEnd": 42,
+            "strong": "G5550",
+            "status": "verified"
+          },
+          {
+            "surface": "met",
+            "charStart": 43,
+            "charEnd": 46,
+            "strong": "G3326",
+            "status": "verified"
+          },
+          {
+            "surface": "ulieden",
+            "charStart": 47,
+            "charEnd": 54,
+            "strong": "G5216",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 56,
+            "charEnd": 58,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "Mij",
+            "charStart": 68,
+            "charEnd": 71,
+            "strong": "G3165",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 72,
+            "charEnd": 76,
+            "strong": "G3756",
+            "status": "verified"
+          },
+          {
+            "surface": "gekend",
+            "charStart": 77,
+            "charEnd": 83,
+            "strong": "G1097",
+            "status": "verified"
+          },
+          {
+            "surface": "Filippus",
+            "charStart": 85,
+            "charEnd": 93,
+            "strong": "G5376",
+            "status": "verified"
+          },
+          {
+            "surface": "Mij",
+            "charStart": 99,
+            "charEnd": 102,
+            "strong": "G1691",
+            "status": "verified"
+          },
+          {
+            "surface": "heeft",
+            "charStart": 110,
+            "charEnd": 115,
+            "strong": "G3708",
+            "status": "verified"
+          },
+          {
+            "surface": "Vader",
+            "charStart": 131,
+            "charEnd": 136,
+            "strong": "G3962",
+            "status": "verified"
+          },
+          {
+            "surface": "gezien",
+            "charStart": 137,
+            "charEnd": 143,
+            "strong": "G3708",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 145,
+            "charEnd": 147,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "hoe",
+            "charStart": 148,
+            "charEnd": 151,
+            "strong": "G4459",
+            "status": "verified"
+          },
+          {
+            "surface": "zegt",
+            "charStart": 152,
+            "charEnd": 156,
+            "strong": "G3004",
+            "status": "verified"
+          },
+          {
+            "surface": "gij",
+            "charStart": 157,
+            "charEnd": 160,
+            "strong": "G4771",
+            "status": "verified"
+          },
+          {
+            "surface": "Toon",
+            "charStart": 162,
+            "charEnd": 166,
+            "strong": "G1166",
+            "status": "verified"
+          },
+          {
+            "surface": "ons",
+            "charStart": 167,
+            "charEnd": 170,
+            "strong": "G2254",
+            "status": "verified"
+          },
+          {
+            "surface": "Vader",
+            "charStart": 175,
+            "charEnd": 180,
+            "strong": "G3962",
+            "status": "verified"
+          }
+        ]
       }
     },
     {
       "osis": "John.14.10",
       "ref": "14:10",
-      "sv": "Geloofst gij niet, dat Ik in den Vader ben, en de Vader in Mij is? De woorden, die Ik tot u spreek, spreek Ik van Mijzelven niet; maar de Vader, Die in Mij blijft, Die doet de werken.",
+      "sv": "Gelooft gij niet, dat Ik in den Vader [ben], en de Vader in Mij is? De woorden, die Ik tot ulieden spreek, spreek Ik van Mijzelven niet, maar de Vader, Die in Mij blijft, Dezelve doet de werken.",
       "kjv": [
         {
-          "t": "Believest thou not that I am in the Father, and the Father in me? the words that I speak unto you I speak not of myself: but the Father that dwelleth in me, he doeth the works.",
-          "s": "G4100"
+          "t": "Believest",
+          "s": null
+        },
+        {
+          "t": "thou",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "am",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "Father,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "Father",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "me?",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "words",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "speak",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "you",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "speak",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "myself:",
+          "s": null
+        },
+        {
+          "t": "but",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "Father",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "dwelleth",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "me,",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "doeth",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "works.",
+          "s": null
         }
       ],
       "alignments": {
-        "sv": []
+        "sv": [
+          {
+            "surface": "gij",
+            "charStart": 8,
+            "charEnd": 11,
+            "strong": "G4100",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 12,
+            "charEnd": 16,
+            "strong": "G3756",
+            "status": "verified"
+          },
+          {
+            "surface": "dat",
+            "charStart": 18,
+            "charEnd": 21,
+            "strong": "G3754",
+            "status": "verified"
+          },
+          {
+            "surface": "Ik",
+            "charStart": 22,
+            "charEnd": 24,
+            "strong": "G1473",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 25,
+            "charEnd": 27,
+            "strong": "G1722",
+            "status": "verified"
+          },
+          {
+            "surface": "Vader",
+            "charStart": 32,
+            "charEnd": 37,
+            "strong": "G3962",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 40,
+            "charEnd": 42,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "Vader",
+            "charStart": 51,
+            "charEnd": 56,
+            "strong": "G3962",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 57,
+            "charEnd": 59,
+            "strong": "G1722",
+            "status": "verified"
+          },
+          {
+            "surface": "Mij",
+            "charStart": 60,
+            "charEnd": 63,
+            "strong": "G1698",
+            "status": "verified"
+          },
+          {
+            "surface": "is",
+            "charStart": 64,
+            "charEnd": 66,
+            "strong": "G2076",
+            "status": "verified"
+          },
+          {
+            "surface": "woorden",
+            "charStart": 71,
+            "charEnd": 78,
+            "strong": "G4487",
+            "status": "verified"
+          },
+          {
+            "surface": "die",
+            "charStart": 80,
+            "charEnd": 83,
+            "strong": "G3739",
+            "status": "verified"
+          },
+          {
+            "surface": "Ik",
+            "charStart": 84,
+            "charEnd": 86,
+            "strong": "G1473",
+            "status": "verified"
+          },
+          {
+            "surface": "ulieden",
+            "charStart": 91,
+            "charEnd": 98,
+            "strong": "G5213",
+            "status": "verified"
+          },
+          {
+            "surface": "spreek",
+            "charStart": 99,
+            "charEnd": 105,
+            "strong": "G2980",
+            "status": "verified"
+          },
+          {
+            "surface": "Ik",
+            "charStart": 114,
+            "charEnd": 116,
+            "strong": "G2980",
+            "status": "verified"
+          },
+          {
+            "surface": "van",
+            "charStart": 117,
+            "charEnd": 120,
+            "strong": "G575",
+            "status": "verified"
+          },
+          {
+            "surface": "Mijzelven",
+            "charStart": 121,
+            "charEnd": 130,
+            "strong": "G1683",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 131,
+            "charEnd": 135,
+            "strong": "G3756",
+            "status": "verified"
+          },
+          {
+            "surface": "maar",
+            "charStart": 137,
+            "charEnd": 141,
+            "strong": "G1161",
+            "status": "verified"
+          },
+          {
+            "surface": "Vader",
+            "charStart": 145,
+            "charEnd": 150,
+            "strong": "G3962",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 156,
+            "charEnd": 158,
+            "strong": "G1722",
+            "status": "verified"
+          },
+          {
+            "surface": "Mij",
+            "charStart": 159,
+            "charEnd": 162,
+            "strong": "G1698",
+            "status": "verified"
+          },
+          {
+            "surface": "blijft",
+            "charStart": 163,
+            "charEnd": 169,
+            "strong": "G3306",
+            "status": "verified"
+          },
+          {
+            "surface": "Dezelve",
+            "charStart": 171,
+            "charEnd": 178,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "doet",
+            "charStart": 179,
+            "charEnd": 183,
+            "strong": "G4160",
+            "status": "verified"
+          },
+          {
+            "surface": "werken",
+            "charStart": 187,
+            "charEnd": 193,
+            "strong": "G2041",
+            "status": "verified"
+          }
+        ]
       }
     },
     {
       "osis": "John.14.11",
       "ref": "14:11",
-      "sv": "Gelooft Mij, dat Ik in den Vader ben, en de Vader in Mij is; en zo niet, gelooft Mij om de werken zelf.",
+      "sv": "Gelooft Mij, dat Ik in den Vader [ben] en de Vader in Mij is; en indien niet, zo gelooft Mij om de werken zelve.",
       "kjv": [
         {
-          "t": "Believe me that I am in the Father, and the Father in me: or else believe me for the very works' sake.",
-          "s": "G4100"
+          "t": "Believe",
+          "s": null
+        },
+        {
+          "t": "me",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "am",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "Father,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "Father",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "me:",
+          "s": null
+        },
+        {
+          "t": "or",
+          "s": null
+        },
+        {
+          "t": "else",
+          "s": null
+        },
+        {
+          "t": "believe",
+          "s": null
+        },
+        {
+          "t": "me",
+          "s": null
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "very",
+          "s": null
+        },
+        {
+          "t": "works'",
+          "s": null
+        },
+        {
+          "t": "sake.",
+          "s": null
         }
       ],
       "alignments": {
-        "sv": []
+        "sv": [
+          {
+            "surface": "Gelooft",
+            "charStart": 0,
+            "charEnd": 7,
+            "strong": "G4100",
+            "status": "verified"
+          },
+          {
+            "surface": "Mij",
+            "charStart": 8,
+            "charEnd": 11,
+            "strong": "G3427",
+            "status": "verified"
+          },
+          {
+            "surface": "dat",
+            "charStart": 13,
+            "charEnd": 16,
+            "strong": "G3754",
+            "status": "verified"
+          },
+          {
+            "surface": "Ik",
+            "charStart": 17,
+            "charEnd": 19,
+            "strong": "G1473",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 20,
+            "charEnd": 22,
+            "strong": "G1722",
+            "status": "verified"
+          },
+          {
+            "surface": "Vader",
+            "charStart": 27,
+            "charEnd": 32,
+            "strong": "G3962",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 35,
+            "charEnd": 37,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "Vader",
+            "charStart": 45,
+            "charEnd": 50,
+            "strong": "G3962",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 51,
+            "charEnd": 53,
+            "strong": "G1722",
+            "status": "verified"
+          },
+          {
+            "surface": "Mij",
+            "charStart": 54,
+            "charEnd": 57,
+            "strong": "G1698",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 72,
+            "charEnd": 76,
+            "strong": "G1490",
+            "status": "verified"
+          },
+          {
+            "surface": "gelooft",
+            "charStart": 81,
+            "charEnd": 88,
+            "strong": "G4100",
+            "status": "verified"
+          },
+          {
+            "surface": "Mij",
+            "charStart": 89,
+            "charEnd": 92,
+            "strong": "G3427",
+            "status": "verified"
+          },
+          {
+            "surface": "om",
+            "charStart": 93,
+            "charEnd": 95,
+            "strong": "G1223",
+            "status": "verified"
+          },
+          {
+            "surface": "werken",
+            "charStart": 99,
+            "charEnd": 105,
+            "strong": "G2041",
+            "status": "verified"
+          },
+          {
+            "surface": "zelve",
+            "charStart": 106,
+            "charEnd": 111,
+            "strong": "G846",
+            "status": "verified"
+          }
+        ]
       }
     },
     {
       "osis": "John.14.12",
       "ref": "14:12",
-      "sv": "Voorwaar, voorwaar zeg Ik ulieden: Die in Mij gelooft, de werken, die Ik doe, zal hij ook doen, en zal meerdere doen dan deze; want Ik ga heen tot Mijn Vader.",
+      "sv": "Voorwaar, voorwaar zeg Ik ulieden: Die in Mij gelooft, de werken, die Ik doe, zal hij ook doen, en zal meerder doen, dan deze; want Ik ga heen tot Mijn Vader.",
       "kjv": [
         {
-          "t": "Verily, verily, I say unto you, He that believeth on me, the works that I do shall he do also; and greater works than these shall he do; because I go unto my Father.",
-          "s": "G3962"
+          "t": "Verily,",
+          "s": null
+        },
+        {
+          "t": "verily,",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "say",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "you,",
+          "s": null
+        },
+        {
+          "t": "He",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "believeth",
+          "s": null
+        },
+        {
+          "t": "on",
+          "s": null
+        },
+        {
+          "t": "me,",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "works",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "do",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "do",
+          "s": null
+        },
+        {
+          "t": "also;",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "greater",
+          "s": null
+        },
+        {
+          "t": "works",
+          "s": null
+        },
+        {
+          "t": "than",
+          "s": null
+        },
+        {
+          "t": "these",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "do;",
+          "s": null
+        },
+        {
+          "t": "because",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "go",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "my",
+          "s": null
+        },
+        {
+          "t": "Father.",
+          "s": null
         }
       ],
       "alignments": {
-        "sv": []
+        "sv": [
+          {
+            "surface": "Voorwaar",
+            "charStart": 0,
+            "charEnd": 8,
+            "strong": "G281",
+            "status": "verified"
+          },
+          {
+            "surface": "voorwaar",
+            "charStart": 10,
+            "charEnd": 18,
+            "strong": "G281",
+            "status": "verified"
+          },
+          {
+            "surface": "Ik",
+            "charStart": 23,
+            "charEnd": 25,
+            "strong": "G3004",
+            "status": "verified"
+          },
+          {
+            "surface": "ulieden",
+            "charStart": 26,
+            "charEnd": 33,
+            "strong": "G5213",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 39,
+            "charEnd": 41,
+            "strong": "G1519",
+            "status": "verified"
+          },
+          {
+            "surface": "Mij",
+            "charStart": 42,
+            "charEnd": 45,
+            "strong": "G1691",
+            "status": "verified"
+          },
+          {
+            "surface": "gelooft",
+            "charStart": 46,
+            "charEnd": 53,
+            "strong": "G4100",
+            "status": "verified"
+          },
+          {
+            "surface": "werken",
+            "charStart": 58,
+            "charEnd": 64,
+            "strong": "G2041",
+            "status": "verified"
+          },
+          {
+            "surface": "die",
+            "charStart": 66,
+            "charEnd": 69,
+            "strong": "G1473",
+            "status": "verified"
+          },
+          {
+            "surface": "doe",
+            "charStart": 73,
+            "charEnd": 76,
+            "strong": "G4160",
+            "status": "verified"
+          },
+          {
+            "surface": "ook",
+            "charStart": 86,
+            "charEnd": 89,
+            "strong": "G2548",
+            "status": "verified"
+          },
+          {
+            "surface": "doen",
+            "charStart": 90,
+            "charEnd": 94,
+            "strong": "G4160",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 96,
+            "charEnd": 98,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "meerder",
+            "charStart": 103,
+            "charEnd": 110,
+            "strong": "G3187",
+            "status": "verified"
+          },
+          {
+            "surface": "doen",
+            "charStart": 111,
+            "charEnd": 115,
+            "strong": "G4160",
+            "status": "verified"
+          },
+          {
+            "surface": "deze",
+            "charStart": 121,
+            "charEnd": 125,
+            "strong": "G5130",
+            "status": "verified"
+          },
+          {
+            "surface": "want",
+            "charStart": 127,
+            "charEnd": 131,
+            "strong": "G3754",
+            "status": "verified"
+          },
+          {
+            "surface": "Ik",
+            "charStart": 132,
+            "charEnd": 134,
+            "strong": "G1473",
+            "status": "verified"
+          },
+          {
+            "surface": "heen",
+            "charStart": 138,
+            "charEnd": 142,
+            "strong": "G4198",
+            "status": "verified"
+          },
+          {
+            "surface": "tot",
+            "charStart": 143,
+            "charEnd": 146,
+            "strong": "G4314",
+            "status": "verified"
+          },
+          {
+            "surface": "Mijn",
+            "charStart": 147,
+            "charEnd": 151,
+            "strong": "G3450",
+            "status": "verified"
+          },
+          {
+            "surface": "Vader",
+            "charStart": 152,
+            "charEnd": 157,
+            "strong": "G3962",
+            "status": "verified"
+          }
+        ]
       }
     },
     {
       "osis": "John.14.13",
       "ref": "14:13",
-      "sv": "En zo wat gij begeert in Mijn Naam, dat zal Ik doen; opdat de Vader in den Zoon verheerlijkt worde.",
+      "sv": "En zo wat gij begeren zult in Mijn Naam, dat zal Ik doen; opdat de Vader in den Zoon verheerlijkt worde.",
       "kjv": [
         {
-          "t": "And whatsoever ye shall ask in my name, that will I do, that the Father may be glorified in the Son.",
-          "s": "G3962"
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "whatsoever",
+          "s": null
+        },
+        {
+          "t": "ye",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "ask",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "my",
+          "s": null
+        },
+        {
+          "t": "name,",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "do,",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "Father",
+          "s": null
+        },
+        {
+          "t": "may",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "glorified",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "Son.",
+          "s": null
         }
       ],
       "alignments": {
-        "sv": []
+        "sv": [
+          {
+            "surface": "En",
+            "charStart": 0,
+            "charEnd": 2,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "zo",
+            "charStart": 3,
+            "charEnd": 5,
+            "strong": "G302",
+            "status": "verified"
+          },
+          {
+            "surface": "wat",
+            "charStart": 6,
+            "charEnd": 9,
+            "strong": "G3748",
+            "status": "verified"
+          },
+          {
+            "surface": "zult",
+            "charStart": 22,
+            "charEnd": 26,
+            "strong": "G154",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 27,
+            "charEnd": 29,
+            "strong": "G1722",
+            "status": "verified"
+          },
+          {
+            "surface": "Mijn",
+            "charStart": 30,
+            "charEnd": 34,
+            "strong": "G3450",
+            "status": "verified"
+          },
+          {
+            "surface": "Naam",
+            "charStart": 35,
+            "charEnd": 39,
+            "strong": "G3686",
+            "status": "verified"
+          },
+          {
+            "surface": "dat",
+            "charStart": 41,
+            "charEnd": 44,
+            "strong": "G5124",
+            "status": "verified"
+          },
+          {
+            "surface": "doen",
+            "charStart": 52,
+            "charEnd": 56,
+            "strong": "G4160",
+            "status": "verified"
+          },
+          {
+            "surface": "opdat",
+            "charStart": 58,
+            "charEnd": 63,
+            "strong": "G2443",
+            "status": "verified"
+          },
+          {
+            "surface": "Vader",
+            "charStart": 67,
+            "charEnd": 72,
+            "strong": "G3962",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 73,
+            "charEnd": 75,
+            "strong": "G1722",
+            "status": "verified"
+          },
+          {
+            "surface": "Zoon",
+            "charStart": 80,
+            "charEnd": 84,
+            "strong": "G5207",
+            "status": "verified"
+          },
+          {
+            "surface": "worde",
+            "charStart": 98,
+            "charEnd": 103,
+            "strong": "G1392",
+            "status": "verified"
+          }
+        ]
       }
     },
     {
@@ -84,26 +1405,198 @@
       "sv": "Zo gij iets begeren zult in Mijn Naam, Ik zal het doen.",
       "kjv": [
         {
-          "t": "If ye shall ask any thing in my name, I will do it.",
+          "t": "If",
+          "s": null
+        },
+        {
+          "t": "ye",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "ask",
+          "s": null
+        },
+        {
+          "t": "any",
+          "s": null
+        },
+        {
+          "t": "thing",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "my",
+          "s": null
+        },
+        {
+          "t": "name,",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "do",
+          "s": null
+        },
+        {
+          "t": "it.",
           "s": null
         }
       ],
       "alignments": {
-        "sv": []
+        "sv": [
+          {
+            "surface": "Zo",
+            "charStart": 0,
+            "charEnd": 2,
+            "strong": "G1437",
+            "status": "verified"
+          },
+          {
+            "surface": "iets",
+            "charStart": 7,
+            "charEnd": 11,
+            "strong": "G5100",
+            "status": "verified"
+          },
+          {
+            "surface": "zult",
+            "charStart": 20,
+            "charEnd": 24,
+            "strong": "G154",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 25,
+            "charEnd": 27,
+            "strong": "G1722",
+            "status": "verified"
+          },
+          {
+            "surface": "Mijn",
+            "charStart": 28,
+            "charEnd": 32,
+            "strong": "G3450",
+            "status": "verified"
+          },
+          {
+            "surface": "Naam",
+            "charStart": 33,
+            "charEnd": 37,
+            "strong": "G3686",
+            "status": "verified"
+          },
+          {
+            "surface": "Ik",
+            "charStart": 39,
+            "charEnd": 41,
+            "strong": "G1473",
+            "status": "verified"
+          },
+          {
+            "surface": "doen",
+            "charStart": 50,
+            "charEnd": 54,
+            "strong": "G4160",
+            "status": "verified"
+          }
+        ]
       }
     },
     {
       "osis": "John.14.15",
       "ref": "14:15",
-      "sv": "Indien gij Mij liefhebt, bewaart Mijn geboden.",
+      "sv": "Indien gij Mij liefhebt, zo bewaart Mijn geboden.",
       "kjv": [
         {
-          "t": "If ye love me, keep my commandments.",
+          "t": "If",
+          "s": null
+        },
+        {
+          "t": "ye",
+          "s": null
+        },
+        {
+          "t": "love",
+          "s": null
+        },
+        {
+          "t": "me,",
+          "s": null
+        },
+        {
+          "t": "keep",
+          "s": null
+        },
+        {
+          "t": "my",
+          "s": null
+        },
+        {
+          "t": "commandments.",
           "s": null
         }
       ],
       "alignments": {
-        "sv": []
+        "sv": [
+          {
+            "surface": "Indien",
+            "charStart": 0,
+            "charEnd": 6,
+            "strong": "G1437",
+            "status": "verified"
+          },
+          {
+            "surface": "Mij",
+            "charStart": 11,
+            "charEnd": 14,
+            "strong": "G3165",
+            "status": "verified"
+          },
+          {
+            "surface": "liefhebt",
+            "charStart": 15,
+            "charEnd": 23,
+            "strong": "G25",
+            "status": "verified"
+          },
+          {
+            "surface": "bewaart",
+            "charStart": 28,
+            "charEnd": 35,
+            "strong": "G5083",
+            "status": "verified"
+          },
+          {
+            "surface": "Mijn",
+            "charStart": 36,
+            "charEnd": 40,
+            "strong": "G1699",
+            "status": "verified"
+          },
+          {
+            "surface": "geboden",
+            "charStart": 41,
+            "charEnd": 48,
+            "strong": "G1785",
+            "status": "verified"
+          }
+        ]
       }
     },
     {
@@ -112,71 +1605,1094 @@
       "sv": "En Ik zal den Vader bidden, en Hij zal u een anderen Trooster geven, opdat Hij bij u blijve in der eeuwigheid;",
       "kjv": [
         {
-          "t": "And I will pray the Father, and he shall give you another Comforter, that he may abide with you for ever;",
-          "s": "G3962"
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "pray",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "Father,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "give",
+          "s": null
+        },
+        {
+          "t": "you",
+          "s": null
+        },
+        {
+          "t": "another",
+          "s": null
+        },
+        {
+          "t": "Comforter,",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "may",
+          "s": null
+        },
+        {
+          "t": "abide",
+          "s": null
+        },
+        {
+          "t": "with",
+          "s": null
+        },
+        {
+          "t": "you",
+          "s": null
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "ever;",
+          "s": null
         }
       ],
       "alignments": {
-        "sv": []
+        "sv": [
+          {
+            "surface": "En",
+            "charStart": 0,
+            "charEnd": 2,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "Ik",
+            "charStart": 3,
+            "charEnd": 5,
+            "strong": "G1473",
+            "status": "verified"
+          },
+          {
+            "surface": "Vader",
+            "charStart": 14,
+            "charEnd": 19,
+            "strong": "G3962",
+            "status": "verified"
+          },
+          {
+            "surface": "bidden",
+            "charStart": 20,
+            "charEnd": 26,
+            "strong": "G2065",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 28,
+            "charEnd": 30,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "u",
+            "charStart": 39,
+            "charEnd": 40,
+            "strong": "G5213",
+            "status": "verified"
+          },
+          {
+            "surface": "anderen",
+            "charStart": 45,
+            "charEnd": 52,
+            "strong": "G243",
+            "status": "verified"
+          },
+          {
+            "surface": "Trooster",
+            "charStart": 53,
+            "charEnd": 61,
+            "strong": "G3875",
+            "status": "verified"
+          },
+          {
+            "surface": "geven",
+            "charStart": 62,
+            "charEnd": 67,
+            "strong": "G1325",
+            "status": "verified"
+          },
+          {
+            "surface": "opdat",
+            "charStart": 69,
+            "charEnd": 74,
+            "strong": "G2443",
+            "status": "verified"
+          },
+          {
+            "surface": "bij",
+            "charStart": 79,
+            "charEnd": 82,
+            "strong": "G3326",
+            "status": "verified"
+          },
+          {
+            "surface": "u",
+            "charStart": 83,
+            "charEnd": 84,
+            "strong": "G5216",
+            "status": "verified"
+          },
+          {
+            "surface": "blijve",
+            "charStart": 85,
+            "charEnd": 91,
+            "strong": "G3306",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 92,
+            "charEnd": 94,
+            "strong": "G1519",
+            "status": "verified"
+          },
+          {
+            "surface": "eeuwigheid",
+            "charStart": 99,
+            "charEnd": 109,
+            "strong": "G165",
+            "status": "verified"
+          }
+        ]
       }
     },
     {
       "osis": "John.14.17",
       "ref": "14:17",
-      "sv": "Namelijk den Geest der waarheid, Welken de wereld niet kan ontvangen; want zij ziet Hem niet, en kent Hem niet; maar gij kent Hem; want Hij blijft bij ulieden, en zal in u zijn.",
+      "sv": "[Namelijk] den Geest der waarheid, Welken de wereld niet kan ontvangen; want zij ziet Hem niet, en kent Hem niet; maar gij kent Hem; want Hij blijft bij ulieden, en zal in u zijn.",
       "kjv": [
         {
-          "t": "Even the Spirit of truth; whom the world cannot receive, because it seeth him not, neither knoweth him: but ye know him; for he dwelleth with you, and shall be in you.",
+          "t": "Even",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "Spirit",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "truth;",
+          "s": null
+        },
+        {
+          "t": "whom",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "world",
+          "s": null
+        },
+        {
+          "t": "cannot",
+          "s": null
+        },
+        {
+          "t": "receive,",
+          "s": null
+        },
+        {
+          "t": "because",
+          "s": null
+        },
+        {
+          "t": "it",
+          "s": null
+        },
+        {
+          "t": "seeth",
+          "s": null
+        },
+        {
+          "t": "him",
+          "s": null
+        },
+        {
+          "t": "not,",
+          "s": null
+        },
+        {
+          "t": "neither",
+          "s": null
+        },
+        {
+          "t": "knoweth",
+          "s": null
+        },
+        {
+          "t": "him:",
+          "s": null
+        },
+        {
+          "t": "but",
+          "s": null
+        },
+        {
+          "t": "ye",
+          "s": null
+        },
+        {
+          "t": "know",
+          "s": null
+        },
+        {
+          "t": "him;",
+          "s": null
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "dwelleth",
+          "s": null
+        },
+        {
+          "t": "with",
+          "s": null
+        },
+        {
+          "t": "you,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "you.",
           "s": null
         }
       ],
       "alignments": {
-        "sv": []
+        "sv": [
+          {
+            "surface": "Geest",
+            "charStart": 15,
+            "charEnd": 20,
+            "strong": "G4151",
+            "status": "verified"
+          },
+          {
+            "surface": "waarheid",
+            "charStart": 25,
+            "charEnd": 33,
+            "strong": "G225",
+            "status": "verified"
+          },
+          {
+            "surface": "Welken",
+            "charStart": 35,
+            "charEnd": 41,
+            "strong": "G3739",
+            "status": "verified"
+          },
+          {
+            "surface": "wereld",
+            "charStart": 45,
+            "charEnd": 51,
+            "strong": "G2889",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 52,
+            "charEnd": 56,
+            "strong": "G3756",
+            "status": "verified"
+          },
+          {
+            "surface": "kan",
+            "charStart": 57,
+            "charEnd": 60,
+            "strong": "G1410",
+            "status": "verified"
+          },
+          {
+            "surface": "ontvangen",
+            "charStart": 61,
+            "charEnd": 70,
+            "strong": "G2983",
+            "status": "verified"
+          },
+          {
+            "surface": "want",
+            "charStart": 72,
+            "charEnd": 76,
+            "strong": "G3754",
+            "status": "verified"
+          },
+          {
+            "surface": "ziet",
+            "charStart": 81,
+            "charEnd": 85,
+            "strong": "G2334",
+            "status": "verified"
+          },
+          {
+            "surface": "Hem",
+            "charStart": 86,
+            "charEnd": 89,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 90,
+            "charEnd": 94,
+            "strong": "G3756",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 96,
+            "charEnd": 98,
+            "strong": "G3761",
+            "status": "verified"
+          },
+          {
+            "surface": "kent",
+            "charStart": 99,
+            "charEnd": 103,
+            "strong": "G1097",
+            "status": "verified"
+          },
+          {
+            "surface": "Hem",
+            "charStart": 104,
+            "charEnd": 107,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 108,
+            "charEnd": 112,
+            "strong": "G3761",
+            "status": "verified"
+          },
+          {
+            "surface": "maar",
+            "charStart": 114,
+            "charEnd": 118,
+            "strong": "G1161",
+            "status": "verified"
+          },
+          {
+            "surface": "gij",
+            "charStart": 119,
+            "charEnd": 122,
+            "strong": "G5210",
+            "status": "verified"
+          },
+          {
+            "surface": "kent",
+            "charStart": 123,
+            "charEnd": 127,
+            "strong": "G1097",
+            "status": "verified"
+          },
+          {
+            "surface": "Hem",
+            "charStart": 128,
+            "charEnd": 131,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "want",
+            "charStart": 133,
+            "charEnd": 137,
+            "strong": "G3754",
+            "status": "verified"
+          },
+          {
+            "surface": "blijft",
+            "charStart": 142,
+            "charEnd": 148,
+            "strong": "G3306",
+            "status": "verified"
+          },
+          {
+            "surface": "bij",
+            "charStart": 149,
+            "charEnd": 152,
+            "strong": "G3844",
+            "status": "verified"
+          },
+          {
+            "surface": "ulieden",
+            "charStart": 153,
+            "charEnd": 160,
+            "strong": "G5213",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 162,
+            "charEnd": 164,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 169,
+            "charEnd": 171,
+            "strong": "G1722",
+            "status": "verified"
+          },
+          {
+            "surface": "u",
+            "charStart": 172,
+            "charEnd": 173,
+            "strong": "G5213",
+            "status": "verified"
+          },
+          {
+            "surface": "zijn",
+            "charStart": 174,
+            "charEnd": 178,
+            "strong": "G2071",
+            "status": "verified"
+          }
+        ]
       }
     },
     {
       "osis": "John.14.18",
       "ref": "14:18",
-      "sv": "Ik zal u geen wezen laten; Ik kom weder tot u.",
+      "sv": "Ik zal u geen wezen laten; Ik kom [weder] tot u.",
       "kjv": [
         {
-          "t": "I will not leave you comfortless: I will come to you.",
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "leave",
+          "s": null
+        },
+        {
+          "t": "you",
+          "s": null
+        },
+        {
+          "t": "comfortless:",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "come",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "you.",
+          "s": null
+        },
+        {
+          "t": "<sup>comfortless:",
+          "s": null
+        },
+        {
+          "t": "or,",
+          "s": null
+        },
+        {
+          "t": "orphans</sup>",
           "s": null
         }
       ],
       "alignments": {
-        "sv": []
+        "sv": [
+          {
+            "surface": "u",
+            "charStart": 7,
+            "charEnd": 8,
+            "strong": "G5209",
+            "status": "verified"
+          },
+          {
+            "surface": "geen",
+            "charStart": 9,
+            "charEnd": 13,
+            "strong": "G3756",
+            "status": "verified"
+          },
+          {
+            "surface": "wezen",
+            "charStart": 14,
+            "charEnd": 19,
+            "strong": "G3737",
+            "status": "verified"
+          },
+          {
+            "surface": "laten",
+            "charStart": 20,
+            "charEnd": 25,
+            "strong": "G863",
+            "status": "verified"
+          },
+          {
+            "surface": "kom",
+            "charStart": 30,
+            "charEnd": 33,
+            "strong": "G2064",
+            "status": "verified"
+          },
+          {
+            "surface": "tot",
+            "charStart": 42,
+            "charEnd": 45,
+            "strong": "G4314",
+            "status": "verified"
+          },
+          {
+            "surface": "u",
+            "charStart": 46,
+            "charEnd": 47,
+            "strong": "G5209",
+            "status": "verified"
+          }
+        ]
       }
     },
     {
       "osis": "John.14.19",
       "ref": "14:19",
-      "sv": "Nog een kleinen tijd, en de wereld zal Mij niet meer zien; maar gij zult Mij zien; diewijl Ik leef, zult gij ook leven.",
+      "sv": "Nog een kleinen [tijd], en de wereld zal Mij niet meer zien; maar gij zult Mij zien; want Ik leef, en gij zult leven.",
       "kjv": [
         {
-          "t": "Yet a little while, and the world seeth me no more; but ye see me: because I live, ye shall live also.",
+          "t": "Yet",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "little",
+          "s": null
+        },
+        {
+          "t": "while,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "world",
+          "s": null
+        },
+        {
+          "t": "seeth",
+          "s": null
+        },
+        {
+          "t": "me",
+          "s": null
+        },
+        {
+          "t": "no",
+          "s": null
+        },
+        {
+          "t": "more;",
+          "s": null
+        },
+        {
+          "t": "but",
+          "s": null
+        },
+        {
+          "t": "ye",
+          "s": null
+        },
+        {
+          "t": "see",
+          "s": null
+        },
+        {
+          "t": "me:",
+          "s": null
+        },
+        {
+          "t": "because",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "live,",
+          "s": null
+        },
+        {
+          "t": "ye",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "live",
+          "s": null
+        },
+        {
+          "t": "also.",
           "s": null
         }
       ],
       "alignments": {
-        "sv": []
+        "sv": [
+          {
+            "surface": "Nog",
+            "charStart": 0,
+            "charEnd": 3,
+            "strong": "G2089",
+            "status": "verified"
+          },
+          {
+            "surface": "kleinen",
+            "charStart": 8,
+            "charEnd": 15,
+            "strong": "G3397",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 24,
+            "charEnd": 26,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "wereld",
+            "charStart": 30,
+            "charEnd": 36,
+            "strong": "G2889",
+            "status": "verified"
+          },
+          {
+            "surface": "Mij",
+            "charStart": 41,
+            "charEnd": 44,
+            "strong": "G3165",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 45,
+            "charEnd": 49,
+            "strong": "G3765",
+            "status": "verified"
+          },
+          {
+            "surface": "meer",
+            "charStart": 50,
+            "charEnd": 54,
+            "strong": "G2089",
+            "status": "verified"
+          },
+          {
+            "surface": "zien",
+            "charStart": 55,
+            "charEnd": 59,
+            "strong": "G2334",
+            "status": "verified"
+          },
+          {
+            "surface": "maar",
+            "charStart": 61,
+            "charEnd": 65,
+            "strong": "G1161",
+            "status": "verified"
+          },
+          {
+            "surface": "gij",
+            "charStart": 66,
+            "charEnd": 69,
+            "strong": "G5210",
+            "status": "verified"
+          },
+          {
+            "surface": "Mij",
+            "charStart": 75,
+            "charEnd": 78,
+            "strong": "G3165",
+            "status": "verified"
+          },
+          {
+            "surface": "zien",
+            "charStart": 79,
+            "charEnd": 83,
+            "strong": "G2334",
+            "status": "verified"
+          },
+          {
+            "surface": "want",
+            "charStart": 85,
+            "charEnd": 89,
+            "strong": "G3754",
+            "status": "verified"
+          },
+          {
+            "surface": "Ik",
+            "charStart": 90,
+            "charEnd": 92,
+            "strong": "G1473",
+            "status": "verified"
+          },
+          {
+            "surface": "leef",
+            "charStart": 93,
+            "charEnd": 97,
+            "strong": "G2198",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 99,
+            "charEnd": 101,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "gij",
+            "charStart": 102,
+            "charEnd": 105,
+            "strong": "G5210",
+            "status": "verified"
+          },
+          {
+            "surface": "leven",
+            "charStart": 111,
+            "charEnd": 116,
+            "strong": "G2198",
+            "status": "verified"
+          }
+        ]
       }
     },
     {
       "osis": "John.14.20",
       "ref": "14:20",
-      "sv": "In dien dag zult gij bekennen, dat Ik in Mijn Vader ben, en gij in Mij, en Ik in u.",
+      "sv": "In dien dag zult gij bekennen, dat Ik in Mijn Vader [ben], en gij in Mij, en Ik in u.",
       "kjv": [
         {
-          "t": "At that day ye shall know that I am in my Father, and ye in me, and I in you.",
-          "s": "G3962"
+          "t": "At",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "day",
+          "s": null
+        },
+        {
+          "t": "ye",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "know",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "am",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "my",
+          "s": null
+        },
+        {
+          "t": "Father,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "ye",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "me,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "you.",
+          "s": null
         }
       ],
       "alignments": {
-        "sv": []
+        "sv": [
+          {
+            "surface": "In",
+            "charStart": 0,
+            "charEnd": 2,
+            "strong": "G1722",
+            "status": "verified"
+          },
+          {
+            "surface": "dien",
+            "charStart": 3,
+            "charEnd": 7,
+            "strong": "G1565",
+            "status": "verified"
+          },
+          {
+            "surface": "dag",
+            "charStart": 8,
+            "charEnd": 11,
+            "strong": "G2250",
+            "status": "verified"
+          },
+          {
+            "surface": "gij",
+            "charStart": 17,
+            "charEnd": 20,
+            "strong": "G5210",
+            "status": "verified"
+          },
+          {
+            "surface": "bekennen",
+            "charStart": 21,
+            "charEnd": 29,
+            "strong": "G1097",
+            "status": "verified"
+          },
+          {
+            "surface": "dat",
+            "charStart": 31,
+            "charEnd": 34,
+            "strong": "G3754",
+            "status": "verified"
+          },
+          {
+            "surface": "Ik",
+            "charStart": 35,
+            "charEnd": 37,
+            "strong": "G1473",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 38,
+            "charEnd": 40,
+            "strong": "G1722",
+            "status": "verified"
+          },
+          {
+            "surface": "Mijn",
+            "charStart": 41,
+            "charEnd": 45,
+            "strong": "G3450",
+            "status": "verified"
+          },
+          {
+            "surface": "Vader",
+            "charStart": 46,
+            "charEnd": 51,
+            "strong": "G3962",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 54,
+            "charEnd": 56,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "gij",
+            "charStart": 62,
+            "charEnd": 65,
+            "strong": "G5210",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 66,
+            "charEnd": 68,
+            "strong": "G1722",
+            "status": "verified"
+          },
+          {
+            "surface": "Mij",
+            "charStart": 69,
+            "charEnd": 72,
+            "strong": "G1698",
+            "status": "verified"
+          },
+          {
+            "surface": "Ik",
+            "charStart": 77,
+            "charEnd": 79,
+            "strong": "G2504",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 80,
+            "charEnd": 82,
+            "strong": "G1722",
+            "status": "verified"
+          },
+          {
+            "surface": "u",
+            "charStart": 83,
+            "charEnd": 84,
+            "strong": "G5213",
+            "status": "verified"
+          }
+        ]
       }
     }
   ],
-  "groundTokens": {},
-  "lexicon": {}
+  "lexicon": {
+    "G3962": {
+      "lemma": "πατήρ",
+      "translit": "patēr",
+      "strong": "G3962",
+      "language": "greek",
+      "gloss": "Vader (Father)"
+    },
+    "G4100": {
+      "lemma": "πιστεύω",
+      "translit": "pisteuō",
+      "strong": "G4100",
+      "language": "greek",
+      "gloss": "geloven, vertrouwen (to believe, trust)"
+    }
+  }
 }

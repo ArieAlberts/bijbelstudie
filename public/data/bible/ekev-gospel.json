@@ -11,29 +11,431 @@
     {
       "osis": "Matt.16.13",
       "ref": "16:13",
-      "sv": "Als Jezus gekomen was in de delen van Cesarea Filippi, vraagde Hij Zijn discipelen, zeggende: Wie zeggen de mensen, dat Ik, de Zoon des mensen, ben?",
+      "sv": "Als nu Jezus gekomen was in de delen van Cesarea Filippi, vraagde Hij Zijn discipelen, zeggende: Wie zeggen de mensen, dat Ik, de Zoon des mensen, ben?",
       "kjv": [
         {
-          "t": "When Jesus came into the coasts of Caesarea Philippi, he asked his disciples, saying, Whom do men say that I the Son of man am?",
+          "t": "When",
+          "s": null
+        },
+        {
+          "t": "Jesus",
+          "s": null
+        },
+        {
+          "t": "came",
+          "s": null
+        },
+        {
+          "t": "into",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "coasts",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "Caesarea",
+          "s": null
+        },
+        {
+          "t": "Philippi,",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "asked",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "disciples,",
+          "s": null
+        },
+        {
+          "t": "saying,",
+          "s": null
+        },
+        {
+          "t": "Whom",
+          "s": null
+        },
+        {
+          "t": "do",
+          "s": null
+        },
+        {
+          "t": "men",
+          "s": null
+        },
+        {
+          "t": "say",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "Son",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "man",
+          "s": null
+        },
+        {
+          "t": "am?",
           "s": null
         }
       ],
       "alignments": {
-        "sv": []
+        "sv": [
+          {
+            "surface": "nu",
+            "charStart": 4,
+            "charEnd": 6,
+            "strong": "G1161",
+            "status": "verified"
+          },
+          {
+            "surface": "Jezus",
+            "charStart": 7,
+            "charEnd": 12,
+            "strong": "G2424",
+            "status": "verified"
+          },
+          {
+            "surface": "was",
+            "charStart": 21,
+            "charEnd": 24,
+            "strong": "G2064",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 25,
+            "charEnd": 27,
+            "strong": "G1519",
+            "status": "verified"
+          },
+          {
+            "surface": "delen",
+            "charStart": 31,
+            "charEnd": 36,
+            "strong": "G3313",
+            "status": "verified"
+          },
+          {
+            "surface": "Cesarea",
+            "charStart": 41,
+            "charEnd": 48,
+            "strong": "G2542",
+            "status": "verified"
+          },
+          {
+            "surface": "Filippi",
+            "charStart": 49,
+            "charEnd": 56,
+            "strong": "G5376",
+            "status": "verified"
+          },
+          {
+            "surface": "Hij",
+            "charStart": 66,
+            "charEnd": 69,
+            "strong": "G2065",
+            "status": "verified"
+          },
+          {
+            "surface": "Zijn",
+            "charStart": 70,
+            "charEnd": 74,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "discipelen",
+            "charStart": 75,
+            "charEnd": 85,
+            "strong": "G3101",
+            "status": "verified"
+          },
+          {
+            "surface": "zeggende",
+            "charStart": 87,
+            "charEnd": 95,
+            "strong": "G3004",
+            "status": "verified"
+          },
+          {
+            "surface": "Wie",
+            "charStart": 97,
+            "charEnd": 100,
+            "strong": "G5101",
+            "status": "verified"
+          },
+          {
+            "surface": "zeggen",
+            "charStart": 101,
+            "charEnd": 107,
+            "strong": "G3004",
+            "status": "verified"
+          },
+          {
+            "surface": "mensen",
+            "charStart": 111,
+            "charEnd": 117,
+            "strong": "G444",
+            "status": "verified"
+          },
+          {
+            "surface": "Ik",
+            "charStart": 123,
+            "charEnd": 125,
+            "strong": "G3165",
+            "status": "verified"
+          },
+          {
+            "surface": "Zoon",
+            "charStart": 130,
+            "charEnd": 134,
+            "strong": "G5207",
+            "status": "verified"
+          },
+          {
+            "surface": "mensen",
+            "charStart": 139,
+            "charEnd": 145,
+            "strong": "G444",
+            "status": "verified"
+          },
+          {
+            "surface": "ben",
+            "charStart": 147,
+            "charEnd": 150,
+            "strong": "G1511",
+            "status": "verified"
+          }
+        ]
       }
     },
     {
       "osis": "Matt.16.14",
       "ref": "16:14",
-      "sv": "En zij zeiden: Sommigen: Johannes de Doper; en anderen: Elia; en anderen: Jeremia, of een van de profeten.",
+      "sv": "En zij zeiden: Sommigen: Johannes de Doper; en anderen: Elias; en anderen: Jeremia of een van de profeten.",
       "kjv": [
         {
-          "t": "And they said, Some say that thou art John the Baptist: some, Elias; and others, Jeremias, or one of the prophets.",
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "said,",
+          "s": null
+        },
+        {
+          "t": "Some",
+          "s": null
+        },
+        {
+          "t": "say",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "thou",
+          "s": null
+        },
+        {
+          "t": "art",
+          "s": null
+        },
+        {
+          "t": "John",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "Baptist:",
+          "s": null
+        },
+        {
+          "t": "some,",
+          "s": null
+        },
+        {
+          "t": "Elias;",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "others,",
+          "s": null
+        },
+        {
+          "t": "Jeremias,",
+          "s": null
+        },
+        {
+          "t": "or",
+          "s": null
+        },
+        {
+          "t": "one",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "prophets.",
           "s": null
         }
       ],
       "alignments": {
-        "sv": []
+        "sv": [
+          {
+            "surface": "En",
+            "charStart": 0,
+            "charEnd": 2,
+            "strong": "G1161",
+            "status": "verified"
+          },
+          {
+            "surface": "zeiden",
+            "charStart": 7,
+            "charEnd": 13,
+            "strong": "G2036",
+            "status": "verified"
+          },
+          {
+            "surface": "Sommigen",
+            "charStart": 15,
+            "charEnd": 23,
+            "strong": "G3303",
+            "status": "verified"
+          },
+          {
+            "surface": "Johannes",
+            "charStart": 25,
+            "charEnd": 33,
+            "strong": "G2491",
+            "status": "verified"
+          },
+          {
+            "surface": "Doper",
+            "charStart": 37,
+            "charEnd": 42,
+            "strong": "G910",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 44,
+            "charEnd": 46,
+            "strong": "G1161",
+            "status": "verified"
+          },
+          {
+            "surface": "anderen",
+            "charStart": 47,
+            "charEnd": 54,
+            "strong": "G243",
+            "status": "verified"
+          },
+          {
+            "surface": "Elias",
+            "charStart": 56,
+            "charEnd": 61,
+            "strong": "G2243",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 63,
+            "charEnd": 65,
+            "strong": "G1161",
+            "status": "verified"
+          },
+          {
+            "surface": "anderen",
+            "charStart": 66,
+            "charEnd": 73,
+            "strong": "G2087",
+            "status": "verified"
+          },
+          {
+            "surface": "Jeremia",
+            "charStart": 75,
+            "charEnd": 82,
+            "strong": "G2408",
+            "status": "verified"
+          },
+          {
+            "surface": "of",
+            "charStart": 83,
+            "charEnd": 85,
+            "strong": "G2228",
+            "status": "verified"
+          },
+          {
+            "surface": "een",
+            "charStart": 86,
+            "charEnd": 89,
+            "strong": "G1520",
+            "status": "verified"
+          },
+          {
+            "surface": "profeten",
+            "charStart": 97,
+            "charEnd": 105,
+            "strong": "G4396",
+            "status": "verified"
+          }
+        ]
       }
     },
     {
@@ -42,40 +444,542 @@
       "sv": "Hij zeide tot hen: Maar gij, wie zegt gij, dat Ik ben?",
       "kjv": [
         {
-          "t": "He saith unto them, But whom say ye that I am?",
+          "t": "He",
+          "s": null
+        },
+        {
+          "t": "saith",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "them,",
+          "s": null
+        },
+        {
+          "t": "But",
+          "s": null
+        },
+        {
+          "t": "whom",
+          "s": null
+        },
+        {
+          "t": "say",
+          "s": null
+        },
+        {
+          "t": "ye",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "am?",
           "s": null
         }
       ],
       "alignments": {
-        "sv": []
+        "sv": [
+          {
+            "surface": "zeide",
+            "charStart": 4,
+            "charEnd": 9,
+            "strong": "G3004",
+            "status": "verified"
+          },
+          {
+            "surface": "hen",
+            "charStart": 14,
+            "charEnd": 17,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "Maar",
+            "charStart": 19,
+            "charEnd": 23,
+            "strong": "G1161",
+            "status": "verified"
+          },
+          {
+            "surface": "gij",
+            "charStart": 24,
+            "charEnd": 27,
+            "strong": "G5210",
+            "status": "verified"
+          },
+          {
+            "surface": "wie",
+            "charStart": 29,
+            "charEnd": 32,
+            "strong": "G5101",
+            "status": "verified"
+          },
+          {
+            "surface": "gij",
+            "charStart": 38,
+            "charEnd": 41,
+            "strong": "G3004",
+            "status": "verified"
+          },
+          {
+            "surface": "Ik",
+            "charStart": 47,
+            "charEnd": 49,
+            "strong": "G3165",
+            "status": "verified"
+          },
+          {
+            "surface": "ben",
+            "charStart": 50,
+            "charEnd": 53,
+            "strong": "G1511",
+            "status": "verified"
+          }
+        ]
       }
     },
     {
       "osis": "Matt.16.16",
       "ref": "16:16",
-      "sv": "En Simon Petrus antwoordde en zeide: Gij zijt de Christus, de Zoon des levenden Gods.",
+      "sv": "En Simon Petrus, antwoordende, zeide: Gij zijt de Christus, de Zoon des levenden Gods.",
       "kjv": [
         {
-          "t": "And Simon Peter answered and said, Thou art the Christ, the Son of the living God.",
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "Simon",
+          "s": null
+        },
+        {
+          "t": "Peter",
+          "s": null
+        },
+        {
+          "t": "answered",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "said,",
+          "s": null
+        },
+        {
+          "t": "Thou",
+          "s": null
+        },
+        {
+          "t": "art",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "Christ,",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "Son",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "living",
+          "s": null
+        },
+        {
+          "t": "God.",
           "s": null
         }
       ],
       "alignments": {
-        "sv": []
+        "sv": [
+          {
+            "surface": "En",
+            "charStart": 0,
+            "charEnd": 2,
+            "strong": "G1161",
+            "status": "verified"
+          },
+          {
+            "surface": "Simon",
+            "charStart": 3,
+            "charEnd": 8,
+            "strong": "G4613",
+            "status": "verified"
+          },
+          {
+            "surface": "Petrus",
+            "charStart": 9,
+            "charEnd": 15,
+            "strong": "G4074",
+            "status": "verified"
+          },
+          {
+            "surface": "antwoordende",
+            "charStart": 17,
+            "charEnd": 29,
+            "strong": "G611",
+            "status": "verified"
+          },
+          {
+            "surface": "zeide",
+            "charStart": 31,
+            "charEnd": 36,
+            "strong": "G2036",
+            "status": "verified"
+          },
+          {
+            "surface": "Gij",
+            "charStart": 38,
+            "charEnd": 41,
+            "strong": "G4771",
+            "status": "verified"
+          },
+          {
+            "surface": "zijt",
+            "charStart": 42,
+            "charEnd": 46,
+            "strong": "G1488",
+            "status": "verified"
+          },
+          {
+            "surface": "Christus",
+            "charStart": 50,
+            "charEnd": 58,
+            "strong": "G5547",
+            "status": "verified"
+          },
+          {
+            "surface": "Zoon",
+            "charStart": 63,
+            "charEnd": 67,
+            "strong": "G5207",
+            "status": "verified"
+          },
+          {
+            "surface": "levenden",
+            "charStart": 72,
+            "charEnd": 80,
+            "strong": "G2198",
+            "status": "verified"
+          },
+          {
+            "surface": "Gods",
+            "charStart": 81,
+            "charEnd": 85,
+            "strong": "G2316",
+            "status": "verified"
+          }
+        ]
       }
     },
     {
       "osis": "Matt.16.17",
       "ref": "16:17",
-      "sv": "En Jezus antwoordde en zeide tot hem: Zalig zijt gij, Simon, Bar-jona! want vlees en bloed heeft u dat niet geopenbaard, maar Mijn Vader, Die in de hemelen is.",
+      "sv": "En Jezus, antwoordende, zeide tot hem: Zalig zijt gij, Simon, Bar-jona! want vlees en bloed heeft u [dat] niet geopenbaard, maar Mijn Vader, Die in de hemelen is.",
       "kjv": [
         {
-          "t": "And Jesus answered and said unto him, Blessed art thou, Simon Barjona: for flesh and blood hath not revealed it unto thee, but my Father which is in heaven.",
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "Jesus",
+          "s": null
+        },
+        {
+          "t": "answered",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "said",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "him,",
+          "s": null
+        },
+        {
+          "t": "Blessed",
+          "s": null
+        },
+        {
+          "t": "art",
+          "s": null
+        },
+        {
+          "t": "thou,",
+          "s": null
+        },
+        {
+          "t": "Simon",
+          "s": null
+        },
+        {
+          "t": "Barjona:",
+          "s": null
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "flesh",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "blood",
+          "s": null
+        },
+        {
+          "t": "hath",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "revealed",
+          "s": null
+        },
+        {
+          "t": "it",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "thee,",
+          "s": null
+        },
+        {
+          "t": "but",
+          "s": null
+        },
+        {
+          "t": "my",
+          "s": null
+        },
+        {
+          "t": "Father",
+          "s": null
+        },
+        {
+          "t": "which",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "heaven.",
           "s": null
         }
       ],
       "alignments": {
-        "sv": []
+        "sv": [
+          {
+            "surface": "En",
+            "charStart": 0,
+            "charEnd": 2,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "Jezus",
+            "charStart": 3,
+            "charEnd": 8,
+            "strong": "G2424",
+            "status": "verified"
+          },
+          {
+            "surface": "antwoordende",
+            "charStart": 10,
+            "charEnd": 22,
+            "strong": "G611",
+            "status": "verified"
+          },
+          {
+            "surface": "zeide",
+            "charStart": 24,
+            "charEnd": 29,
+            "strong": "G2036",
+            "status": "verified"
+          },
+          {
+            "surface": "hem",
+            "charStart": 34,
+            "charEnd": 37,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "Zalig",
+            "charStart": 39,
+            "charEnd": 44,
+            "strong": "G3107",
+            "status": "verified"
+          },
+          {
+            "surface": "gij",
+            "charStart": 50,
+            "charEnd": 53,
+            "strong": "G1488",
+            "status": "verified"
+          },
+          {
+            "surface": "Simon",
+            "charStart": 55,
+            "charEnd": 60,
+            "strong": "G4613",
+            "status": "verified"
+          },
+          {
+            "surface": "Bar-jona",
+            "charStart": 62,
+            "charEnd": 70,
+            "strong": "G920",
+            "status": "verified"
+          },
+          {
+            "surface": "want",
+            "charStart": 72,
+            "charEnd": 76,
+            "strong": "G3754",
+            "status": "verified"
+          },
+          {
+            "surface": "vlees",
+            "charStart": 77,
+            "charEnd": 82,
+            "strong": "G4561",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 83,
+            "charEnd": 85,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "bloed",
+            "charStart": 86,
+            "charEnd": 91,
+            "strong": "G129",
+            "status": "verified"
+          },
+          {
+            "surface": "u",
+            "charStart": 98,
+            "charEnd": 99,
+            "strong": "G4671",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 106,
+            "charEnd": 110,
+            "strong": "G3756",
+            "status": "verified"
+          },
+          {
+            "surface": "geopenbaard",
+            "charStart": 111,
+            "charEnd": 122,
+            "strong": "G601",
+            "status": "verified"
+          },
+          {
+            "surface": "maar",
+            "charStart": 124,
+            "charEnd": 128,
+            "strong": "G235",
+            "status": "verified"
+          },
+          {
+            "surface": "Mijn",
+            "charStart": 129,
+            "charEnd": 133,
+            "strong": "G3450",
+            "status": "verified"
+          },
+          {
+            "surface": "Vader",
+            "charStart": 134,
+            "charEnd": 139,
+            "strong": "G3962",
+            "status": "verified"
+          },
+          {
+            "surface": "Die",
+            "charStart": 141,
+            "charEnd": 144,
+            "strong": "G3588",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 145,
+            "charEnd": 147,
+            "strong": "G1722",
+            "status": "verified"
+          },
+          {
+            "surface": "hemelen",
+            "charStart": 151,
+            "charEnd": 158,
+            "strong": "G3772",
+            "status": "verified"
+          }
+        ]
       }
     },
     {
@@ -84,43 +988,796 @@
       "sv": "En Ik zeg u ook, dat gij zijt Petrus, en op deze petra zal Ik Mijn gemeente bouwen, en de poorten der hel zullen dezelve niet overweldigen.",
       "kjv": [
         {
-          "t": "And I say also unto thee, That thou art Peter, and upon this rock I will build my church; and the gates of hell shall not prevail against it.",
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "say",
+          "s": null
+        },
+        {
+          "t": "also",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "thee,",
+          "s": null
+        },
+        {
+          "t": "That",
+          "s": null
+        },
+        {
+          "t": "thou",
+          "s": null
+        },
+        {
+          "t": "art",
+          "s": null
+        },
+        {
+          "t": "Peter,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "upon",
+          "s": null
+        },
+        {
+          "t": "this",
+          "s": null
+        },
+        {
+          "t": "rock",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "build",
+          "s": null
+        },
+        {
+          "t": "my",
+          "s": null
+        },
+        {
+          "t": "church;",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "gates",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "hell",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "prevail",
+          "s": null
+        },
+        {
+          "t": "against",
+          "s": null
+        },
+        {
+          "t": "it.",
+          "s": null
+        },
+        {
+          "t": "<sup>Peter:",
+          "s": null
+        },
+        {
+          "t": "this",
+          "s": null
+        },
+        {
+          "t": "name",
+          "s": null
+        },
+        {
+          "t": "signifies",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "rock</sup>",
           "s": null
         }
       ],
       "alignments": {
-        "sv": []
+        "sv": [
+          {
+            "surface": "En",
+            "charStart": 0,
+            "charEnd": 2,
+            "strong": "G1161",
+            "status": "verified"
+          },
+          {
+            "surface": "zeg",
+            "charStart": 6,
+            "charEnd": 9,
+            "strong": "G3004",
+            "status": "verified"
+          },
+          {
+            "surface": "u",
+            "charStart": 10,
+            "charEnd": 11,
+            "strong": "G4671",
+            "status": "verified"
+          },
+          {
+            "surface": "ook",
+            "charStart": 12,
+            "charEnd": 15,
+            "strong": "G2504",
+            "status": "verified"
+          },
+          {
+            "surface": "dat",
+            "charStart": 17,
+            "charEnd": 20,
+            "strong": "G3754",
+            "status": "verified"
+          },
+          {
+            "surface": "gij",
+            "charStart": 21,
+            "charEnd": 24,
+            "strong": "G4771",
+            "status": "verified"
+          },
+          {
+            "surface": "zijt",
+            "charStart": 25,
+            "charEnd": 29,
+            "strong": "G1488",
+            "status": "verified"
+          },
+          {
+            "surface": "Petrus",
+            "charStart": 30,
+            "charEnd": 36,
+            "strong": "G4074",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 38,
+            "charEnd": 40,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "op",
+            "charStart": 41,
+            "charEnd": 43,
+            "strong": "G1909",
+            "status": "verified"
+          },
+          {
+            "surface": "deze",
+            "charStart": 44,
+            "charEnd": 48,
+            "strong": "G5026",
+            "status": "verified"
+          },
+          {
+            "surface": "petra",
+            "charStart": 49,
+            "charEnd": 54,
+            "strong": "G4073",
+            "status": "verified"
+          },
+          {
+            "surface": "Mijn",
+            "charStart": 62,
+            "charEnd": 66,
+            "strong": "G3450",
+            "status": "verified"
+          },
+          {
+            "surface": "gemeente",
+            "charStart": 67,
+            "charEnd": 75,
+            "strong": "G1577",
+            "status": "verified"
+          },
+          {
+            "surface": "bouwen",
+            "charStart": 76,
+            "charEnd": 82,
+            "strong": "G3618",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 84,
+            "charEnd": 86,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "poorten",
+            "charStart": 90,
+            "charEnd": 97,
+            "strong": "G4439",
+            "status": "verified"
+          },
+          {
+            "surface": "hel",
+            "charStart": 102,
+            "charEnd": 105,
+            "strong": "G86",
+            "status": "verified"
+          },
+          {
+            "surface": "dezelve",
+            "charStart": 113,
+            "charEnd": 120,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 121,
+            "charEnd": 125,
+            "strong": "G3756",
+            "status": "verified"
+          },
+          {
+            "surface": "overweldigen",
+            "charStart": 126,
+            "charEnd": 138,
+            "strong": "G2729",
+            "status": "verified"
+          }
+        ]
       }
     },
     {
       "osis": "Matt.16.19",
       "ref": "16:19",
-      "sv": "En Ik zal u geven de sleutels van het Koninkrijk der hemelen; en zo wat gij zult binden op de aarde, zal in de hemelen gebonden zijn; en zo wat gij zult ontbinden op de aarde, zal in de hemelen ontbonden zijn.",
+      "sv": "En Ik zal u geven de sleutelen van het Koninkrijk der hemelen; en zo wat gij zult binden op de aarde, zal in de hemelen gebonden zijn; en zo wat gij ontbinden zult op de aarde, zal in de hemelen ontbonden zijn.",
       "kjv": [
         {
-          "t": "And I will give unto thee the keys of the kingdom of heaven: and whatsoever thou shalt bind on earth shall be bound in heaven: and whatsoever thou shalt loose on earth shall be loosed in heaven.",
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "give",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "thee",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "keys",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "kingdom",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "heaven:",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "whatsoever",
+          "s": null
+        },
+        {
+          "t": "thou",
+          "s": null
+        },
+        {
+          "t": "shalt",
+          "s": null
+        },
+        {
+          "t": "bind",
+          "s": null
+        },
+        {
+          "t": "on",
+          "s": null
+        },
+        {
+          "t": "earth",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "bound",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "heaven:",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "whatsoever",
+          "s": null
+        },
+        {
+          "t": "thou",
+          "s": null
+        },
+        {
+          "t": "shalt",
+          "s": null
+        },
+        {
+          "t": "loose",
+          "s": null
+        },
+        {
+          "t": "on",
+          "s": null
+        },
+        {
+          "t": "earth",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "loosed",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "heaven.",
           "s": null
         }
       ],
       "alignments": {
-        "sv": []
+        "sv": [
+          {
+            "surface": "En",
+            "charStart": 0,
+            "charEnd": 2,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "u",
+            "charStart": 10,
+            "charEnd": 11,
+            "strong": "G4671",
+            "status": "verified"
+          },
+          {
+            "surface": "geven",
+            "charStart": 12,
+            "charEnd": 17,
+            "strong": "G1325",
+            "status": "verified"
+          },
+          {
+            "surface": "sleutelen",
+            "charStart": 21,
+            "charEnd": 30,
+            "strong": "G2807",
+            "status": "verified"
+          },
+          {
+            "surface": "Koninkrijk",
+            "charStart": 39,
+            "charEnd": 49,
+            "strong": "G932",
+            "status": "verified"
+          },
+          {
+            "surface": "hemelen",
+            "charStart": 54,
+            "charEnd": 61,
+            "strong": "G3772",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 63,
+            "charEnd": 65,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "wat",
+            "charStart": 69,
+            "charEnd": 72,
+            "strong": "G1437",
+            "status": "verified"
+          },
+          {
+            "surface": "binden",
+            "charStart": 82,
+            "charEnd": 88,
+            "strong": "G1210",
+            "status": "verified"
+          },
+          {
+            "surface": "op",
+            "charStart": 89,
+            "charEnd": 91,
+            "strong": "G1909",
+            "status": "verified"
+          },
+          {
+            "surface": "aarde",
+            "charStart": 95,
+            "charEnd": 100,
+            "strong": "G1093",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 106,
+            "charEnd": 108,
+            "strong": "G1722",
+            "status": "verified"
+          },
+          {
+            "surface": "hemelen",
+            "charStart": 112,
+            "charEnd": 119,
+            "strong": "G3772",
+            "status": "verified"
+          },
+          {
+            "surface": "gebonden",
+            "charStart": 120,
+            "charEnd": 128,
+            "strong": "G1210",
+            "status": "verified"
+          },
+          {
+            "surface": "zijn",
+            "charStart": 129,
+            "charEnd": 133,
+            "strong": "G2071",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 135,
+            "charEnd": 137,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "wat",
+            "charStart": 141,
+            "charEnd": 144,
+            "strong": "G1437",
+            "status": "verified"
+          },
+          {
+            "surface": "zult",
+            "charStart": 159,
+            "charEnd": 163,
+            "strong": "G3089",
+            "status": "verified"
+          },
+          {
+            "surface": "op",
+            "charStart": 164,
+            "charEnd": 166,
+            "strong": "G1909",
+            "status": "verified"
+          },
+          {
+            "surface": "aarde",
+            "charStart": 170,
+            "charEnd": 175,
+            "strong": "G1093",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 181,
+            "charEnd": 183,
+            "strong": "G1722",
+            "status": "verified"
+          },
+          {
+            "surface": "hemelen",
+            "charStart": 187,
+            "charEnd": 194,
+            "strong": "G3772",
+            "status": "verified"
+          },
+          {
+            "surface": "ontbonden",
+            "charStart": 195,
+            "charEnd": 204,
+            "strong": "G3089",
+            "status": "verified"
+          },
+          {
+            "surface": "zijn",
+            "charStart": 205,
+            "charEnd": 209,
+            "strong": "G2071",
+            "status": "verified"
+          }
+        ]
       }
     },
     {
       "osis": "Matt.16.20",
       "ref": "16:20",
-      "sv": "Toen gebood Hij Zijn discipelen, dat zij niemand zeggen zouden, dat Hij was Jezus, de Christus.",
+      "sv": "Toen verbood Hij Zijn discipelen, dat zij iemand zeggen zouden, dat Hij was Jezus, de Christus.",
       "kjv": [
         {
-          "t": "Then charged he his disciples that they should tell no man that he was Jesus the Christ.",
+          "t": "Then",
+          "s": null
+        },
+        {
+          "t": "charged",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "disciples",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "should",
+          "s": null
+        },
+        {
+          "t": "tell",
+          "s": null
+        },
+        {
+          "t": "no",
+          "s": null
+        },
+        {
+          "t": "man",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "was",
+          "s": null
+        },
+        {
+          "t": "Jesus",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "Christ.",
           "s": null
         }
       ],
       "alignments": {
-        "sv": []
+        "sv": [
+          {
+            "surface": "Toen",
+            "charStart": 0,
+            "charEnd": 4,
+            "strong": "G5119",
+            "status": "verified"
+          },
+          {
+            "surface": "Hij",
+            "charStart": 13,
+            "charEnd": 16,
+            "strong": "G1291",
+            "status": "verified"
+          },
+          {
+            "surface": "Zijn",
+            "charStart": 17,
+            "charEnd": 21,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "discipelen",
+            "charStart": 22,
+            "charEnd": 32,
+            "strong": "G3101",
+            "status": "verified"
+          },
+          {
+            "surface": "dat",
+            "charStart": 34,
+            "charEnd": 37,
+            "strong": "G2443",
+            "status": "verified"
+          },
+          {
+            "surface": "iemand",
+            "charStart": 42,
+            "charEnd": 48,
+            "strong": "G3367",
+            "status": "verified"
+          },
+          {
+            "surface": "zouden",
+            "charStart": 56,
+            "charEnd": 62,
+            "strong": "G2036",
+            "status": "verified"
+          },
+          {
+            "surface": "dat",
+            "charStart": 64,
+            "charEnd": 67,
+            "strong": "G3754",
+            "status": "verified"
+          },
+          {
+            "surface": "Hij",
+            "charStart": 68,
+            "charEnd": 71,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "was",
+            "charStart": 72,
+            "charEnd": 75,
+            "strong": "G2076",
+            "status": "verified"
+          },
+          {
+            "surface": "Jezus",
+            "charStart": 76,
+            "charEnd": 81,
+            "strong": "G2424",
+            "status": "verified"
+          },
+          {
+            "surface": "Christus",
+            "charStart": 86,
+            "charEnd": 94,
+            "strong": "G5547",
+            "status": "verified"
+          }
+        ]
       }
     }
   ],
-  "groundTokens": {},
-  "lexicon": {}
+  "lexicon": {
+    "G3962": {
+      "lemma": "πατήρ",
+      "translit": "patēr",
+      "strong": "G3962",
+      "language": "greek",
+      "gloss": "Vader (Father)"
+    }
+  }
 }

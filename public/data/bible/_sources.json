@@ -1,18 +1,16 @@
 {
   "_note": "Bible data sources and provenance manifest for Zelf de parasja lezen.",
   "sv": {
-    "source": "scrollmapper/bible_databases",
-    "module": "DutSVV",
-    "edition": "Statenvertaling 1637/1888",
+    "source": "Bolls.life / DutSVV",
+    "edition": "Statenvertaling 1637/1888 with Strong's Tagging",
     "license": "Public Domain",
     "notes": "Default Dutch translation"
   },
   "kjv": {
-    "source": "scrollmapper/bible_databases",
-    "module": "KJV 1769",
-    "edition": "King James Version 1769 with Strong's Numbers & Morphology",
+    "source": "Bolls.life / KJV 1769",
+    "edition": "King James Version 1769",
     "license": "Public Domain",
-    "notes": "Default English translation with word token tagging"
+    "notes": "Default English translation"
   },
   "lexicon": {
     "source": "STEPBible/STEPBible-Data",
