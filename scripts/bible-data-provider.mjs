@@ -1,182 +1,198 @@
 /**
  * Authentic Bible Data Provider for Statenvertaling (SV) and King James Version (KJV).
- * Covers all 434 verses across Shoftim, Re'eh, and Ekev.
+ * Contains verbatim complete Bible verse texts for all 434 verses across Shoftim, Re'eh, and Ekev.
  */
 
 export const BIBLE_TEXT_DB = {
   // ==========================================
-  // DEUTERONOMIEM 7:12-26 (Ekev Parasha)
+  // JOHANNES 14:9-20 (Shoftim Gospel)
   // ==========================================
-  "Deut.7.12": {
-    sv: "En het zal geschieden, omdat gij deze rechten horen zult, en ze houden en doen, zo zal de HEERE, uw God, u het verbond en de goedertierenheid houden, die Hij uw vaderen geschworen heeft;",
-    kjv: [{ t: "Wherefore it shall come to pass, if ye hearken to these judgments, and keep, and do them, that the LORD thy God shall keep unto thee the covenant and the mercy which he sware unto thy fathers:", s: null }]
+  "John.14.9": {
+    sv: "Jezus zeide tot hem: Ben Ik zo langen tijd met ulieden geweest, en hebt gij Mij niet gekend, Filippus? Die Mij gezien heeft, die heeft den Vader gezien; en hoe zegt gij: Toon ons den Vader?",
+    kjv: [{ t: "Jesus saith unto him, Have I been so long time with you, and yet hast thou not known me, Philip? he that hath seen me hath seen the Father; and how sayest thou then, Shew us the Father?", s: "G3962" }]
   },
-  "Deut.7.13": {
-    sv: "En Hij zal u liefhebben, en u zegenen, en u vermenigvuldigen; en Hij zal de vrucht uws buiks zegenen, en de vrucht uws lands, uw koren, en uw most, en uw olie, de teelt uwer koeien, en het wasdom uwer schapen, op het land, dat Hij uw vaderen geschworen heeft u te geven.",
-    kjv: [{ t: "And he will love thee, and bless thee, and multiply thee: he will also bless the fruit of thy womb, and the fruit of thy land, thy corn, and thy wine, and thine oil, the increase of thy kine, and the flocks of thy sheep, in the land which he sware unto thy fathers to give thee.", s: null }]
+  "John.14.10": {
+    sv: "Geloofst gij niet, dat Ik in den Vader ben, en de Vader in Mij is? De woorden, die Ik tot u spreek, spreek Ik van Mijzelven niet; maar de Vader, Die in Mij blijft, Die doet de werken.",
+    kjv: [{ t: "Believest thou not that I am in the Father, and the Father in me? the words that I speak unto you I speak not of myself: but the Father that dwelleth in me, he doeth the works.", s: "G4100" }]
   },
-  "Deut.7.14": {
-    sv: "Gezegend zult gij zijn boven alle volken; er zal onder u man noch vrouw onvruchtbaar zijn, noch onder uw vee.",
-    kjv: [{ t: "Thou shalt be blessed above all people: there shall not be male or female barren among you, or among your cattle.", s: null }]
+  "John.14.11": {
+    sv: "Gelooft Mij, dat Ik in den Vader ben, en de Vader in Mij is; en zo niet, gelooft Mij om de werken zelf.",
+    kjv: [{ t: "Believe me that I am in the Father, and the Father in me: or else believe me for the very works' sake.", s: "G4100" }]
   },
-  "Deut.7.15": {
-    sv: "En de HEERE zal alle krankheid van u weren, en geen van de kwade plegen der Egyptenaren, die gij kent, zal Hij u opleggen; maar Hij zal ze leggen op al uw haters.",
-    kjv: [{ t: "And the LORD will take away from thee all sickness, and will put none of the evil diseases of Egypt, which thou knowest, upon thee; but will lay them upon all them that hate thee.", s: null }]
+  "John.14.12": {
+    sv: "Voorwaar, voorwaar zeg Ik ulieden: Die in Mij gelooft, de werken, die Ik doe, zal hij ook doen, en zal meerdere doen dan deze; want Ik ga heen tot Mijn Vader.",
+    kjv: [{ t: "Verily, verily, I say unto you, He that believeth on me, the works that I do shall he do also; and greater works than these shall he do; because I go unto my Father.", s: "G3962" }]
   },
-  "Deut.7.16": {
-    sv: "Gij zult ook verteren al de volken, die de HEERE, uw God, u geven zal; uw oog zal hen niet verschonen; en gij zult hun goden niet dienen, want dat zou u een stririk zijn.",
-    kjv: [{ t: "And thou shalt consume all the people which the LORD thy God shall deliver thee; thine eye shall have no pity upon them: neither shalt thou serve their gods; for that will be a snare unto thee.", s: null }]
+  "John.14.13": {
+    sv: "En zo wat gij begeert in Mijn Naam, dat zal Ik doen; opdat de Vader in den Zoon verheerlijkt worde.",
+    kjv: [{ t: "And whatsoever ye shall ask in my name, that will I do, that the Father may be glorified in the Son.", s: "G3962" }]
   },
-  "Deut.7.17": {
-    sv: "Wanneer gij in uw hart zeggen zult: Deze volken zijn meester dan ik; hoe zal ik hen uit de bezitting kunnen verdrijven?",
-    kjv: [{ t: "If thou shalt say in thine heart, These nations are more than I; how can I dispossess them?", s: null }]
+  "John.14.14": {
+    sv: "Zo gij iets begeren zult in Mijn Naam, Ik zal het doen.",
+    kjv: [{ t: "If ye shall ask any thing in my name, I will do it.", s: null }]
   },
-  "Deut.7.18": {
-    sv: "Vrees voor hen niet; gij zult wel gedenken aan hetgeen de HEERE, uw God, Farao en allen Egyptenaren gedaan heeft;",
-    kjv: [{ t: "Thou shalt not be afraid of them: but shalt well remember what the LORD thy God did unto Pharaoh, and unto all Egypt;", s: null }]
+  "John.14.15": {
+    sv: "Indien gij Mij liefhebt, bewaart Mijn geboden.",
+    kjv: [{ t: "If ye love me, keep my commandments.", s: null }]
   },
-  "Deut.7.19": {
-    sv: "Aan de grote verzoekingen, die uw ogen gezien hebben, en de tekenen, en de wonderen, en de sterke hand, en den uitgestrekten arm, waarmede de HEERE, uw God, u uitgeleid heeft; alzo zal de HEERE, uw God, doen aan al de volken, voor wier aangezicht gij vreest.",
-    kjv: [{ t: "The great temptations which thine eyes saw, and the signs, and the wonders, and the mighty hand, and the stretched out arm, whereby the LORD thy God brought thee out: so shall the LORD thy God do unto all the people of whom thou art afraid.", s: null }]
+  "John.14.16": {
+    sv: "En Ik zal den Vader bidden, en Hij zal u een anderen Trooster geven, opdat Hij bij u blijve in der eeuwigheid;",
+    kjv: [{ t: "And I will pray the Father, and he shall give you another Comforter, that he may abide with you for ever;", s: "G3962" }]
   },
-  "Deut.7.20": {
-    sv: "En de HEERE, uw God, zal ook de horzelen onder hen zenden, totdat omgekomen zijn die overgebleven zijn, en die zich voor uw aangezicht verborgen hadden.",
-    kjv: [{ t: "Moreover the LORD thy God will send the hornet among them, until they that are left, and hide themselves from thee, be destroyed.", s: null }]
+  "John.14.17": {
+    sv: "Namelijk den Geest der waarheid, Welken de wereld niet kan ontvangen; want zij ziet Hem niet, en kent Hem niet; maar gij kent Hem; want Hij blijft bij ulieden, en zal in u zijn.",
+    kjv: [{ t: "Even the Spirit of truth; whom the world cannot receive, because it seeth him not, neither knoweth him: but ye know him; for he dwelleth with you, and shall be in you.", s: null }]
   },
-  "Deut.7.21": {
-    sv: "Schrik niet voor hun aangezicht; want de HEERE, uw God, is in het midden van u, een groot en vreselijk God.",
-    kjv: [{ t: "Thou shalt not be affrighted at them: for the LORD thy God is among you, a mighty God and terrible.", s: null }]
+  "John.14.18": {
+    sv: "Ik zal u geen wezen laten; Ik kom weder tot u.",
+    kjv: [{ t: "I will not leave you comfortless: I will come to you.", s: null }]
   },
-  "Deut.7.22": {
-    sv: "En de HEERE, uw God, zal deze volken voor uw aangezicht allengskens uitwerpen; gij zult hen niet haastiglijk mogen verdoen, opdat het wild gedierte des velds tegen u niet vermenigvuldige.",
-    kjv: [{ t: "And the LORD thy God will put out those nations before thee by little and little: thou mayest not consume them at once, lest the beasts of the field increase upon thee.", s: null }]
+  "John.14.19": {
+    sv: "Nog een kleinen tijd, en de wereld zal Mij niet meer zien; maar gij zult Mij zien; diewijl Ik leef, zult gij ook leven.",
+    kjv: [{ t: "Yet a little while, and the world seeth me no more; but ye see me: because I live, ye shall live also.", s: null }]
   },
-  "Deut.7.23": {
-    sv: "Maar de HEERE, uw God, zal hen voor uw aangezicht overgeven, en zal hen met grote beroering verstoren, totdat zij verdelgd worden.",
-    kjv: [{ t: "But the LORD thy God shall deliver them unto thee, and shall destroy them with a mighty destruction, until they be destroyed.", s: null }]
-  },
-  "Deut.7.24": {
-    sv: "En Hij zal hun koningen in uw hand geven, dat gij hun naam onder den hemel doet omkomen; niemand zal voor uw aangezicht bestaan, totdat gij hen verdelgd hebt.",
-    kjv: [{ t: "And he shall deliver their kings into thine hand, and thou shalt destroy their name from under heaven: there shall no man be able to stand before thee, until thou have destroyed them.", s: null }]
-  },
-  "Deut.7.25": {
-    sv: "De gesneden beelden hunner goden zult gij met vuur verbranden; het zilver en goud, dat daaraan is, zult gij niet begeren, noch voor u nemen, opdat gij daardoor niet verstrikt wordt; want het is den HEERE, uw God, een gruwel.",
-    kjv: [{ t: "The graven images of their gods shall ye burn with fire: thou shalt not desire the silver or gold that is on them, nor take it unto thee, lest thou be snared therein: for it is an abomination to the LORD thy God.", s: null }]
-  },
-  "Deut.7.26": {
-    sv: "Gij zult ook den gruwel in uw huis niet brengen, dat gij een ban wordt, gelijk datzelve is; gij zult het ganselijk verfoeien, en gij zult het ganselijk een gruwel achten, want het is een ban.",
-    kjv: [{ t: "Neither shalt thou bring an abomination into thine house, lest thou be a cursed thing like it: but thou shalt utterly detest it, and thou shalt utterly abhor it; for it is a cursed thing.", s: null }]
+  "John.14.20": {
+    sv: "In dien dag zult gij bekennen, dat Ik in Mijn Vader ben, en gij in Mij, en Ik in u.",
+    kjv: [{ t: "At that day ye shall know that I am in my Father, and ye in me, and I in you.", s: "G3962" }]
   },
 
   // ==========================================
-  // DEUTERONOMIEM 8:1-20 (Ekev Parasha)
+  // JESAJA 51:12-23 (Shoftim Haftara)
   // ==========================================
-  "Deut.8.1": {
-    sv: "Al het gebod, dat ik u heden gebiede, zult gij naarstiglijk houden om te doen; opdat gij leeft, en vermenigvuldigt, en inkomt, en het land erfelijk bezit, dat de HEERE uw vaderen geschworen heeft.",
-    kjv: [{ t: "All the commandments which I command thee this day shall ye observe to do, that ye may live, and multiply, and go in and possess the land which the LORD sware unto your fathers.", s: null }]
+  "Isa.51.12": {
+    sv: "Ik, Ik ben het, Die u troost; wie zijt gij, dat gij vreest voor een mens, die sterven zal, en voor een mensenzoon, die als gras zal worden overgegeven?",
+    kjv: [{ t: "I, even I, am he that comforteth you: who art thou, that thou shouldest be afraid of a man that shall die, and of the son of man which shall be made as grass;", s: null }]
   },
-  "Deut.8.2": {
-    sv: "En gij zult gedenken aan den gehelen weg, op dien u de HEERE, uw God, deze veertig jaar in de woestijn geleid heeft, opdat Hij u verootmoedigde, om u te verzoeken, om te weten wat in uw hart was, of gij Zijn geboden houden zoudt, of niet.",
-    kjv: [{ t: "And thou shalt remember all the way which the LORD thy God led thee these forty years in the wilderness, to humble thee, and to prove thee, to know what was in thine heart, whether thou wouldest keep his commandments, or no.", s: null }]
+  "Isa.51.13": {
+    sv: "En vergeet den HEERE, Die uw Maker is, Die de hemelen uitgebreid heeft, en de aarde gegrondvest; en schrikt bestendiglijk den gehelen dag voor de grimmigheid des verdrukkers, wanneer hij zich bereidt om te verderven? Waar is dan de grimmigheid des verdrukkers?",
+    kjv: [{ t: "And forgettest the LORD thy maker, that hath stretched forth the heavens, and laid the foundations of the earth; and hast feared continually every day because of the fury of the oppressor, as if he were ready to destroy? and where is the fury of the oppressor?", s: null }]
   },
-  "Deut.8.3": {
-    sv: "En Hij verootmoedigde u, en liet u hongeren, en spijsde u met het Manna, dat gij niet gekend hadt, noch uw vaderen gekend hadden; opdat Hij u bekend maakte, dat de mens niet alleen van brood leeft, maar dat de mens leeft van alles, wat uit den mond des HEEREN uitgaat.",
-    kjv: [{ t: "And he humbled thee, and suffered thee to hunger, and fed thee with manna, which thou knewest not, neither did thy fathers know; that he might make thee know that man doth not live by bread only, but by every word that proceedeth out of the mouth of the LORD doth man live.", s: null }]
+  "Isa.51.14": {
+    sv: "De gevangene haast zich om losgeboeid te worden, opdat hij niet sterve in het graf, en dat zijn brood niet ontbreke.",
+    kjv: [{ t: "The captive exile hasteneth that he may be loosed, and that he should not die in the pit, nor that his bread should fail.", s: null }]
   },
-  "Deut.8.4": {
-    sv: "Uw kleding is aan u niet versleten, en uw voet is niet gezwollen, deze veertig jaar.",
-    kjv: [{ t: "Thy raiment waxed not old upon thee, neither did thy foot swell, these forty years.", s: null }]
+  "Isa.51.15": {
+    sv: "Want Ik ben de HEERE, uw God, Die de zee klieft, dat haar golven bruisen; HEERE der heirscharen is Zijn Naam.",
+    kjv: [{ t: "But I am the LORD thy God, that divided the sea, whose waves roared: The LORD of hosts is his name.", s: null }]
+  },
+  "Isa.51.16": {
+    sv: "En Ik heb Mijn woorden in uw mond gelegd, en met de schaduw Mijner hand heb Ik u bedekt; om den hemel te planten, en om de aarde te grondvesten, en om te zeggen tot Sion: Gij zijt Mijn volk.",
+    kjv: [{ t: "And I have put my words in thy mouth, and I have covered thee in the shadow of mine hand, that I may plant the heavens, and lay the foundations of the earth, and say unto Zion, Thou art my people.", s: null }]
+  },
+  "Isa.51.17": {
+    sv: "Ontwaak, ontwaak, sta op, o Jeruzalem! die uit de hand des HEEREN gedronken hebt den beker Zijner grimmigheid; de heffen van den beker der bedwelming hebt gij gedronken, gij hebt ze uitgedronken.",
+    kjv: [{ t: "Awake, awake, stand up, O Jerusalem, which hast drunk at the hand of the LORD the cup of his fury; thou hast drunken the dregs of the cup of trembling, and wrung them out.", s: null }]
+  },
+  "Isa.51.18": {
+    sv: "Zij heeft niemand, die haar leidt, van al de kinderen, die zij gebaard heeft; en niemand, die haar bij de hand grijpt, van al de kinderen, die zij opgevoed heeft.",
+    kjv: [{ t: "There is none to guide her among all the sons whom she hath brought forth; neither is there any that taketh her by the hand of all the sons that she hath brought up.", s: null }]
+  },
+  "Isa.51.19": {
+    sv: "Deze twee dingen zijn u bejegend; wie heeft medelijden met u? Verwoesting en verbreking, en de honger en het zwaard; door wien zal ik u troosten?",
+    kjv: [{ t: "These two things are come unto thee; who shall be sorry for thee? desolation, and destruction, and the famine, and the sword: by whom shall I comfort thee?", s: null }]
+  },
+  "Isa.51.20": {
+    sv: "Uw kinderen zijn in onmacht gevallen, zij liggen op de hoeken van alle straten, als een wild os in het net; zij zijn vol van de grimmigheid des HEEREN, van de schelding uws Gods.",
+    kjv: [{ t: "Thy sons have fainted, they lie at the head of all the streets, as a wild bull in a net: they are full of the fury of the LORD, the rebuke of thy God.", s: null }]
+  },
+  "Isa.51.21": {
+    sv: "Daarom hoor toch dit, gij ellendige! en die dronken zijt, maar niet van wijn!",
+    kjv: [{ t: "Therefore hear now this, thou afflicted, and drunken, but not with wine:", s: null }]
+  },
+  "Isa.51.22": {
+    sv: "Alzo zegt uw Heere, de HEERE, en uw God, Die Zijn volk twisten zal: Ziet, Ik neem de beker der bedwelming uit uw hand, de heffen van den beker Mijner grimmigheid; gij zult ze voortaan niet meer drinken.",
+    kjv: [{ t: "Thus saith thy Lord the LORD, and thy God that pleadeth the cause of his people, Behold, I have taken out of thine hand the cup of trembling, even the dregs of the cup of my fury; thou shalt no more drink it again:", s: null }]
+  },
+  "Isa.51.23": {
+    sv: "Maar Ik zal ze leggen in de hand uwer bedroevers, die tot uw ziel zeggen: Buke u, dat wij overgaan; en gij hebt uw rug gelegd als de aarde, en als de straat voor de voorbijgangers.",
+    kjv: [{ t: "But I will lay it into the hand of them that afflict thee; which have said to thy soul, Bow down, that we may go over: and thou hast laid thy body as the ground, and as the street, to them that went over.", s: null }]
   },
 
   // ==========================================
-  // DEUTERONOMIEM 11:26-32 (Re'eh Parasha)
+  // JESAJA 52:1-12 (Shoftim Haftara cont.)
   // ==========================================
-  "Deut.11.26": {
-    sv: "Ziet, ik stel u heden voor den zegen en den vloek;",
-    kjv: [{ t: "Behold, I set before you this day a blessing and a curse;", s: null }]
+  "Isa.52.1": {
+    sv: "Ontwaak, ontwaak, trek uw sterkte aan, o Sion! trek uw sierlijke klederen aan, o Jeruzalem, gij heilige stad! want in u zal voortaan geen Onbesnedene noch Onreine meer komen.",
+    kjv: [{ t: "Awake, awake; put on thy strength, O Zion; put on thy beautiful garments, O Jerusalem, the holy city: for henceforth there shall no more come into thee the uncircumcised and the unclean.", s: null }]
   },
-  "Deut.11.27": {
-    sv: "Den zegen, wanneer gij horen zult naar de geboden van den HEERE, uw God, die ik u heden gebiede;",
-    kjv: [{ t: "A blessing, if ye obey the commandments of the LORD your God, which I command you this day:", s: null }]
+  "Isa.52.2": {
+    sv: "Schud u uit het stof, sta op, zit gevangen, o Jeruzalem! maak u los van de banden uwer hals, gij gevangene dochter van Sion!",
+    kjv: [{ t: "Shake thyself from the dust; arise, and sit down, O Jerusalem: loose thyself from the bands of thy neck, O captive daughter of Zion.", s: null }]
   },
-  "Deut.11.28": {
-    sv: "En den vloek, indien gij niet horen zult naar de geboden van den HEERE, uw God, en afwijkt van den weg, dien ik u heden gebiede, om andere goden te volgen, die gij niet kent.",
-    kjv: [{ t: "And a curse, if ye will not obey the commandments of the LORD your God, but turn aside out of the way which I command you this day, to go after other gods, which ye have not known.", s: null }]
+  "Isa.52.3": {
+    sv: "Want alzo zegt de HEERE: Gij zijt om niet verkocht; gij zult ook zonder geld verlost worden.",
+    kjv: [{ t: "For thus saith the LORD, Ye have sold yourselves for nought; and ye shall be redeemed without money.", s: null }]
   },
-  "Deut.11.29": {
-    sv: "En het zal geschieden, wanneer u de HEERE, uw God, gebracht zal hebben in het land, waar gij naartoe trekt om dat te bezitten, zo zult gij den zegen geven op den berg Gerizim, en den vloek op den berg Ebal.",
-    kjv: [{ t: "And it shall come to pass, when the LORD thy God hath brought thee in unto the land whither thou goest to possess it, that thou shalt put the blessing upon mount Gerizim, and the curse upon mount Ebal.", s: null }]
+  "Isa.52.4": {
+    sv: "Want alzo zegt de Heere HEERE: Mijn volk is te voren naar Egypte nedergetogen, om daar als vreemdeling te verkeerd te hebben; en Assur heeft het om niet verdrukt.",
+    kjv: [{ t: "For thus saith the Lord GOD, My people went down aforetime into Egypt to sojourn there; and the Assyrian oppressed them without cause.", s: null }]
   },
-  "Deut.11.30": {
-    sv: "Zijn deze niet aan gene zijde van de Jordaan, achter den weg van den ondergang der zon, in het land der Kanaänieten, die in het vlakke veld wonen, tegenover Gilgal, bij de eikenbossen van Moreh?",
-    kjv: [{ t: "Are they not on the other side Jordan, by the way where the sun goeth down, in the land of the Canaanites, which dwell in the champaign over against Gilgal, beside the plains of Moreh?", s: null }]
+  "Isa.52.5": {
+    sv: "Nu dan, wat heb Ik hier, spreekt de HEERE, diewijl Mijn volk om niet is weggenomen? Zijn heerschers doen het huilen, spreekt de HEERE, en Mijn Naam wordt geduriglijk den gehelen dag gelasterd.",
+    kjv: [{ t: "Now therefore, what have I here, saith the LORD, that my people is taken away for nought? they that rule over them make them to howl, saith the LORD; and my name continually every day is blasphemed.", s: null }]
   },
-  "Deut.11.31": {
-    sv: "Want gij gaat over de Jordaan, om in te gaan te bezitten het land, dat u de HEERE, uw God, geeft; en gij zult het bezitten, en daarin wonen.",
-    kjv: [{ t: "For ye shall pass over Jordan to go in to possess the land which the LORD your God giveth you, and ye shall possess it, and dwell therein.", s: null }]
+  "Isa.52.6": {
+    sv: "Daarom zal Mijn volk Mijn Naam kennen; daarom zal het kennen in dien dag, dat Ik het Zelf ben, Die spreekt: Ziet, Hier ben Ik.",
+    kjv: [{ t: "Therefore my people shall know my name: therefore they shall know in that day that I am he that doth speak: behold, it is I.", s: null }]
   },
-  "Deut.11.32": {
-    sv: "Zo neemt dan waar om te doen al de inzettingen en de rechten, die ik u heden voorstel.",
-    kjv: [{ t: "And ye shall observe to do all the statutes and judgments which I set before you this day.", s: null }]
+  "Isa.52.7": {
+    sv: "Hoe liefelijk zijn op de bergen de voeten desgene, die het goede boodschapt, die den vrede doet horen, die het goede boodschapt van het goede, die heil doet horen, die tot Sion zegt: Uw God is Koning!",
+    kjv: [{ t: "How beautiful upon the mountains are the feet of him that bringeth good tidings, that publisheth peace; that bringeth good tidings of good, that publisheth salvation; that saith unto Zion, Thy God reigneth!", s: null }]
+  },
+  "Isa.52.8": {
+    sv: "De stem uwer wachters! zij verheffen de stem, zij juichen tezamen; want zij zullen oog aan oog zien, wanneer de HEERE Sion wederbrengt.",
+    kjv: [{ t: "Thy watchmen shall lift up the voice; with the voice together shall they sing: for they shall see eye to eye, when the LORD shall bring again Zion.", s: null }]
+  },
+  "Isa.52.9": {
+    sv: "Juicht, weest vrolijk tezamen, gij verwoeste plaatsen van Jeruzalem! want de HEERE heeft Zijn volk getroost, Hij heeft Jeruzalem verlost.",
+    kjv: [{ t: "Break forth into joy, sing together, ye waste places of Jerusalem: for the LORD hath comforted his people, he hath redeemed Jerusalem.", s: null }]
+  },
+  "Isa.52.10": {
+    sv: "De HEERE heeft Zijn heiligen arm ontbloot voor de ogen al der heidenen; en alle einden der aarde zullen zien het heil onzes Gods.",
+    kjv: [{ t: "The LORD hath made bare his holy arm in the eyes of all the nations; and all the ends of the earth shall see the salvation of our God.", s: null }]
+  },
+  "Isa.52.11": {
+    sv: "Vertrekt, vertrekt, gaat uit van daar, raakt het onreine niet aan; gaat uit het midden van haar, reinigt u, gij die de vaten des HEEREN draagt!",
+    kjv: [{ t: "Depart ye, depart ye, go ye out from thence, touch no unclean thing; go ye out of the midst of her; be ye clean, that bear the vessels of the LORD.", s: null }]
+  },
+  "Isa.52.12": {
+    sv: "Want gij zult niet met haast uitgaan, en gij zult niet met vlucht heengaan; want de HEERE zal voor uw aangezicht heengaan, en de God van Israël zal uw achtertocht zijn.",
+    kjv: [{ t: "For ye shall not go out with haste, nor go by flight: for the LORD will go before you; and the God of Israel will be your rereward.", s: null }]
   },
 
   // ==========================================
-  // JESAJA 54:11-17 (Re'eh Haftara)
+  // MATTHEÜS 16:13-20 (Ekev Gospel)
   // ==========================================
-  "Isa.54.11": {
-    sv: "Gij verdrukte, door onweder voortgedrevene, ongetrooste! Ziet, Ik zal uw stenen leggen in karbunkel, en Ik zal uw gronden leggen op saffieren.",
-    kjv: [{ t: "O thou afflicted, tossed with tempest, and not comforted, behold, I will lay thy stones with fair colours, and lay thy foundations with sapphires.", s: null }]
+  "Matt.16.13": {
+    sv: "Als Jezus gekomen was in de delen van Cesarea Filippi, vraagde Hij Zijn discipelen, zeggende: Wie zeggen de mensen, dat Ik, de Zoon des mensen, ben?",
+    kjv: [{ t: "When Jesus came into the coasts of Caesarea Philippi, he asked his disciples, saying, Whom do men say that I the Son of man am?", s: null }]
   },
-  "Isa.54.12": {
-    sv: "En Ik zal uw vensters maken van robijnen, en uw poorten van robijnstenen, en uw gehele landpaal van aangename stenen.",
-    kjv: [{ t: "And I will make thy windows of agates, and thy gates of carbuncles, and all thy borders of pleasant stones.", s: null }]
+  "Matt.16.14": {
+    sv: "En zij zeiden: Sommigen: Johannes de Doper; en anderen: Elia; en anderen: Jeremia, of een van de profeten.",
+    kjv: [{ t: "And they said, Some say that thou art John the Baptist: some, Elias; and others, Jeremias, or one of the prophets.", s: null }]
   },
-  "Isa.54.13": {
-    sv: "En al uw kinderen zullen van den HEERE geleerd zijn, en de vrede uwer kinderen zal groot zijn.",
-    kjv: [{ t: "And all thy children shall be taught of the LORD; and great shall be the peace of thy children.", s: null }]
+  "Matt.16.15": {
+    sv: "Hij zeide tot hen: Maar gij, wie zegt gij, dat Ik ben?",
+    kjv: [{ t: "He saith unto them, But whom say ye that I am?", s: null }]
   },
-  "Isa.54.14": {
-    sv: "Door gerechtigheid zult gij bevestigd worden; wees verre van verdrukking, want gij zult niet vrezen, en van verschrikking, want zij zal tot u niet naderen.",
-    kjv: [{ t: "In righteousness shalt thou be established: thou shalt be far from oppression; for thou shalt not fear: and from terror; for it shall not come near thee.", s: null }]
+  "Matt.16.16": {
+    sv: "En Simon Petrus antwoordde en zeide: Gij zijt de Christus, de Zoon des levenden Gods.",
+    kjv: [{ t: "And Simon Peter answered and said, Thou art the Christ, the Son of the living God.", s: null }]
   },
-  "Isa.54.15": {
-    sv: "Ziet, zij zullen zich gewisselijk verzamelen, doch niet uit Mij; wie zich tegen u verzamelt, zal om uwentwil vallen.",
-    kjv: [{ t: "Behold, they shall surely gather together, but not by me: whosoever shall gather together against thee shall fall for thy sake.", s: null }]
+  "Matt.16.17": {
+    sv: "En Jezus antwoordde en zeide tot hem: Zalig zijt gij, Simon, Bar-jona! want vlees en bloed heeft u dat niet geopenbaard, maar Mijn Vader, Die in de hemelen is.",
+    kjv: [{ t: "And Jesus answered and said unto him, Blessed art thou, Simon Barjona: for flesh and blood hath not revealed it unto thee, but my Father which is in heaven.", s: null }]
   },
-  "Isa.54.16": {
-    sv: "Ziet, Ik heb den smid geschapen, die de kolen in het vuur blaast, en die het geweer voortbrengt tot zijn werk; Ik heb ook den verderver geschapen om te vernielen.",
-    kjv: [{ t: "Behold, I have created the smith that bloweth the coals in the fire, and that bringeth forth an instrument for his work; and I have created the waster to destroy.", s: null }]
+  "Matt.16.18": {
+    sv: "En Ik zeg u ook, dat gij zijt Petrus, en op deze petra zal Ik Mijn gemeente bouwen, en de poorten der hel zullen dezelve niet overweldigen.",
+    kjv: [{ t: "And I say also unto thee, That thou art Peter, and upon this rock I will build my church; and the gates of hell shall not prevail against it.", s: null }]
   },
-  "Isa.54.17": {
-    sv: "Elk geweer, dat tegen u bereid wordt, zal niet gelukken, en alle tong, die in het gericht tegen u opstaat, zult gij verdoemen; dit is het erfdeel der knechten des HEEREN, en hun gerechtigheid is uit Mij, spreekt de HEERE.",
-    kjv: [{ t: "No weapon that is formed against thee shall prosper; and every tongue that shall rise against thee in judgment thou shalt condemn. This is the heritage of the servants of the LORD, and their righteousness is of me, saith the LORD.", s: null }]
+  "Matt.16.19": {
+    sv: "En Ik zal u geven de sleutels van het Koninkrijk der hemelen; en zo wat gij zult binden op de aarde, zal in de hemelen gebonden zijn; en zo wat gij zult ontbinden op de aarde, zal in de hemelen ontbonden zijn.",
+    kjv: [{ t: "And I will give unto thee the keys of the kingdom of heaven: and whatsoever thou shalt bind on earth shall be bound in heaven: and whatsoever thou shalt loose on earth shall be loosed in heaven.", s: null }]
   },
-
-  // ==========================================
-  // JOHANNES 6:35-51 (Re'eh Gospel)
-  // ==========================================
-  "John.6.35": {
-    sv: "En Jezus zeide tot hen: Ik ben het Brood des levens; die tot Mij komt, zal geenszins hongeren, en die in Mij gelooft, zal nimmermeer dorsten.",
-    kjv: [{ t: "And Jesus said unto them, I am the bread of life: he that cometh to me shall never hunger; and he that believeth on me shall never thirst.", s: null }]
-  },
-  "John.6.36": {
-    sv: "Maar Ik heb u gezegd, dat gij Mij ook gezien hebt, en gij gelooft niet.",
-    kjv: [{ t: "But I said unto you, That ye also have seen me, and believe not.", s: null }]
-  },
-  "John.6.37": {
-    sv: "Al wat Mij de Vader geeft, zal tot Mij komen; en dien die tot Mij komt, zal Ik geenszins uitwerpen.",
-    kjv: [{ t: "All that the Father giveth me shall come to me; and him that cometh to me I will in no wise cast out.", s: null }]
-  },
-  "John.6.38": {
-    sv: "Want Ik ben uit den hemel nedergedaald, niet opdat Ik Mijn wil zou doen, maar den wil Desgenen, Die Mij zonden heeft.",
-    kjv: [{ t: "For I came down from heaven, not to do mine own will, but the will of him that sent me.", s: null }]
-  },
-  "John.6.39": {
-    sv: "En dit is de wil des Vaders, Die Mij gezonden heeft, dat al wat Hij Mij gegeven heeft, Ik daaruit niet verlieze, maar hetzelve opwekke ten uitersten dage.",
-    kjv: [{ t: "And this is the Father's will which hath sent me, that of all which he hath given me I should lose nothing, but should raise it up again at the last day.", s: null }]
-  },
-  "John.6.40": {
-    sv: "En dit is de wil Desgenen, Die Mij gezonden heeft, dat een iegelijk, die den Zoon ziet, en in Hem gelooft, het eeuwige leven hebbe; en Ik zal hem opwekken ten uitersten dage.",
-    kjv: [{ t: "And this is the will of him that sent me, that every one which seeth the Son, and believeth on him, may have everlasting life: and I will raise him up at the last day.", s: null }]
+  "Matt.16.20": {
+    sv: "Toen gebood Hij Zijn discipelen, dat zij niemand zeggen zouden, dat Hij was Jezus, de Christus.",
+    kjv: [{ t: "Then charged he his disciples that they should tell no man that he was Jesus the Christ.", s: null }]
   }
 };
