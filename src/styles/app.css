@@ -323,6 +323,14 @@ button, input, select, textarea {
   box-shadow: 0 4px 14px var(--shadow);
 }
 
+.nav-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
 .section-tabs {
   display: flex;
   gap: 8px;
@@ -350,6 +358,32 @@ button, input, select, textarea {
   border-color: var(--accent);
 }
 
+.mode-toggle-switch {
+  display: flex;
+  background: var(--soft);
+  padding: 3px;
+  border-radius: 6px;
+  border: 1px solid var(--line);
+}
+
+.mode-btn {
+  border: 0;
+  background: transparent;
+  padding: 5px 12px;
+  border-radius: 4px;
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--muted);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.mode-btn.active {
+  background: var(--white);
+  color: var(--accent-dark);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
 /* Bible Reader Scrollable Text Card Styling */
 .bible-reader-card {
   background: var(--white);
@@ -359,6 +393,22 @@ button, input, select, textarea {
   box-shadow: 0 4px 20px var(--shadow);
   max-height: calc(100vh - 170px);
   overflow-y: auto;
+}
+
+.stepbible-container {
+  width: 100%;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  margin-top: 10px;
+}
+
+.stepbible-iframe {
+  width: 100%;
+  height: clamp(550px, 70vh, 750px);
+  border: 0;
+  display: block;
+  background: #ffffff;
 }
 
 .passage-meta-header {
