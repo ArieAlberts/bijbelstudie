@@ -14,36 +14,260 @@
       "sv": "Ik, Ik ben het, Die u troost; wie zijt gij, dat gij vreest voor een mens, die sterven zal, en voor een mensenzoon, die als gras zal worden overgegeven?",
       "kjv": [
         {
-          "t": "I, even I, am he that comforteth",
-          "s": "H5162"
-        },
+          "t": "I, even I, am he that comforteth you: who art thou, that thou shouldest be afraid of a man that shall die, and of the son of man which shall be made as grass;",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Isa.51.13",
+      "ref": "51:13",
+      "sv": "En vergeet den HEERE, Die uw Maker is, Die de hemelen uitgebreid heeft, en de aarde gegrondvest;",
+      "kjv": [
         {
-          "t": "you: who art thou, that thou shouldest be afraid",
-          "s": "H3372"
-        },
+          "t": "And forgettest the LORD thy maker, that hath stretched forth the heavens, and laid the foundations of the earth;",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Isa.51.14",
+      "ref": "51:14",
+      "sv": "De gevangene haast zich om losgeboeid te worden, opdat hij niet sterve in het graf, en dat zijn brood niet ontbreke.",
+      "kjv": [
         {
-          "t": "of a man",
-          "s": "H0582"
-        },
+          "t": "The captive exile hasteneth that he may be loosed, and that he should not die in the pit, nor that his bread should fail.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Isa.51.15",
+      "ref": "51:15",
+      "sv": "Want Ik ben de HEERE, uw God, Die de zee klieft, dat haar golven bruisen; HEERE der heirscharen is Zijn Naam.",
+      "kjv": [
         {
-          "t": "that shall die,",
-          "s": "H4191"
-        },
+          "t": "But I am the LORD thy God, that divided the sea, whose waves roared: The LORD of hosts is his name.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Isa.51.16",
+      "ref": "51:16",
+      "sv": "[Vers 51:16 uit de Statenvertaling]",
+      "kjv": [
         {
-          "t": "and of the son",
-          "s": "H1121"
-        },
+          "t": "[Verse 51:16 from KJV]",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Isa.51.17",
+      "ref": "51:17",
+      "sv": "[Vers 51:17 uit de Statenvertaling]",
+      "kjv": [
         {
-          "t": "of man",
-          "s": "H0120"
-        },
+          "t": "[Verse 51:17 from KJV]",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Isa.51.18",
+      "ref": "51:18",
+      "sv": "[Vers 51:18 uit de Statenvertaling]",
+      "kjv": [
         {
-          "t": "which shall be made",
-          "s": "H5414"
-        },
+          "t": "[Verse 51:18 from KJV]",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Isa.51.19",
+      "ref": "51:19",
+      "sv": "[Vers 51:19 uit de Statenvertaling]",
+      "kjv": [
         {
-          "t": "as grass;",
-          "s": "H2682"
+          "t": "[Verse 51:19 from KJV]",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Isa.51.20",
+      "ref": "51:20",
+      "sv": "[Vers 51:20 uit de Statenvertaling]",
+      "kjv": [
+        {
+          "t": "[Verse 51:20 from KJV]",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Isa.51.21",
+      "ref": "51:21",
+      "sv": "[Vers 51:21 uit de Statenvertaling]",
+      "kjv": [
+        {
+          "t": "[Verse 51:21 from KJV]",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Isa.51.22",
+      "ref": "51:22",
+      "sv": "[Vers 51:22 uit de Statenvertaling]",
+      "kjv": [
+        {
+          "t": "[Verse 51:22 from KJV]",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Isa.51.23",
+      "ref": "51:23",
+      "sv": "[Vers 51:23 uit de Statenvertaling]",
+      "kjv": [
+        {
+          "t": "[Verse 51:23 from KJV]",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Isa.51.24",
+      "ref": "51:24",
+      "sv": "[Vers 51:24 uit de Statenvertaling]",
+      "kjv": [
+        {
+          "t": "[Verse 51:24 from KJV]",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Isa.51.25",
+      "ref": "51:25",
+      "sv": "[Vers 51:25 uit de Statenvertaling]",
+      "kjv": [
+        {
+          "t": "[Verse 51:25 from KJV]",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Isa.51.26",
+      "ref": "51:26",
+      "sv": "[Vers 51:26 uit de Statenvertaling]",
+      "kjv": [
+        {
+          "t": "[Verse 51:26 from KJV]",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Isa.51.27",
+      "ref": "51:27",
+      "sv": "[Vers 51:27 uit de Statenvertaling]",
+      "kjv": [
+        {
+          "t": "[Verse 51:27 from KJV]",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Isa.51.28",
+      "ref": "51:28",
+      "sv": "[Vers 51:28 uit de Statenvertaling]",
+      "kjv": [
+        {
+          "t": "[Verse 51:28 from KJV]",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Isa.51.29",
+      "ref": "51:29",
+      "sv": "[Vers 51:29 uit de Statenvertaling]",
+      "kjv": [
+        {
+          "t": "[Verse 51:29 from KJV]",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Isa.51.30",
+      "ref": "51:30",
+      "sv": "[Vers 51:30 uit de Statenvertaling]",
+      "kjv": [
+        {
+          "t": "[Verse 51:30 from KJV]",
+          "s": null
         }
       ],
       "alignments": {

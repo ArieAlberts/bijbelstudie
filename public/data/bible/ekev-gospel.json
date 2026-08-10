@@ -11,10 +11,10 @@
     {
       "osis": "Matt.16.13",
       "ref": "16:13",
-      "sv": "[Vers 16:13 uit de Statenvertaling]",
+      "sv": "Als Jezus gekomen was in de delen van Cesarea Filippi, vraagde Hij Zijn discipelen, zeggende: Wie zeggen de mensen, dat Ik, de Zoon des mensen, ben?",
       "kjv": [
         {
-          "t": "[Verse 16:13 from KJV]",
+          "t": "When Jesus came into the coasts of Caesarea Philippi, he asked his disciples, saying, Whom do men say that I the Son of man am?",
           "s": null
         }
       ],
@@ -25,10 +25,10 @@
     {
       "osis": "Matt.16.14",
       "ref": "16:14",
-      "sv": "[Vers 16:14 uit de Statenvertaling]",
+      "sv": "En zij zeiden: Sommigen: Johannes de Doper; en anderen: Elia; en anderen: Jeremia, of een van de profeten.",
       "kjv": [
         {
-          "t": "[Verse 16:14 from KJV]",
+          "t": "And they said, Some say that thou art John the Baptist: some, Elias; and others, Jeremias, or one of the prophets.",
           "s": null
         }
       ],
@@ -39,10 +39,10 @@
     {
       "osis": "Matt.16.15",
       "ref": "16:15",
-      "sv": "[Vers 16:15 uit de Statenvertaling]",
+      "sv": "Hij zeide tot hen: Maar gij, wie zegt gij, dat Ik ben?",
       "kjv": [
         {
-          "t": "[Verse 16:15 from KJV]",
+          "t": "He saith unto them, But whom say ye that I am?",
           "s": null
         }
       ],
@@ -56,32 +56,8 @@
       "sv": "En Simon Petrus antwoordde en zeide: Gij zijt de Christus, de Zoon des levenden Gods.",
       "kjv": [
         {
-          "t": "And Simon",
-          "s": "G4613"
-        },
-        {
-          "t": "Peter",
-          "s": "G4074"
-        },
-        {
-          "t": "answered and said,",
-          "s": "G2036"
-        },
-        {
-          "t": "Thou art the Christ,",
-          "s": "G5547"
-        },
-        {
-          "t": "the Son",
-          "s": "G5207"
-        },
-        {
-          "t": "of the living",
-          "s": "G2198"
-        },
-        {
-          "t": "God.",
-          "s": "G2316"
+          "t": "And Simon Peter answered and said, Thou art the Christ, the Son of the living God.",
+          "s": null
         }
       ],
       "alignments": {

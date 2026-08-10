@@ -5,7 +5,7 @@ import { fetchBiblePassage } from '../api/bible';
 export default function BibleReader({ studyId = 'shoftim', initialSection = 'parasha', lang = 'nl', onSectionChange }) {
   const isEn = lang === 'en';
   const [section, setSection] = useState(initialSection);
-  const [translation, setTranslation] = useState(isEn ? 'kjv' : 'sv');
+  const translation = isEn ? 'kjv' : 'sv';
   const [passageData, setPassageData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -114,7 +114,7 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
 
   return (
     <div className="bible-reader-card">
-      {/* Header Controls: Section Selector & Translation Switch */}
+      {/* Header Controls: Section Selector (Torah / Haftara / Evangelie) */}
       <div className="reader-header-controls">
         <nav aria-label={isEn ? "Passage sections" : "Bijbelsecties"} className="section-tabs">
           <button
@@ -139,31 +139,13 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
             {isEn ? 'Gospel' : 'Evangelie'}
           </button>
         </nav>
-
-        <div className="translation-switch">
-          <button
-            type="button"
-            className={`trans-btn ${translation === 'sv' ? 'active' : ''}`}
-            onClick={() => setTranslation('sv')}
-          >
-            SV
-          </button>
-          <span className="trans-divider">|</span>
-          <button
-            type="button"
-            className={`trans-btn ${translation === 'kjv' ? 'active' : ''}`}
-            onClick={() => setTranslation('kjv')}
-          >
-            KJV
-          </button>
-        </div>
       </div>
 
       {/* Reader Content Body */}
       <div className="reader-content-body">
         {loading && (
           <div className="reader-loading">
-            {isEn ? 'Loading Bible passage via API...' : 'Bijbelpassage via API laden...'}
+            {isEn ? 'Loading Bible passage...' : 'Bijbelpassage laden...'}
           </div>
         )}
 
