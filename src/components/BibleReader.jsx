@@ -8,7 +8,6 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
   const [section, setSection] = useState(initialSection);
   const [showStepWindow, setShowStepWindow] = useState(true);
   const translation = isEn ? 'kjv' : 'sv';
-  const stepVersion = isEn ? 'KJV' : 'DutSVV';
 
   const [passageData, setPassageData] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -49,10 +48,17 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
     if (onSectionChange) onSectionChange(newSec);
   };
 
-  // Generate STEP Bible iFrame URL with options=HVLGUNMC
+  // Generate STEP Bible iFrame URL with BOTH translation and original language modules:
+  // - OT (Torah/Haftara): DutSVV + OHB (Open Hebrew Bible)
+  // - NT (Gospel): DutSVV + OGNT (Open Greek New Testament)
+  // Options: HVLGUNMC (Interlinear, Verse numbers, Lexicon, Grammar, Underlying text, Notes, Meanings, Column view)
   const getStepIframeUrl = () => {
     const osis = passageData?.osis || 'Deut.16.18-Deut.21.9';
-    return `https://www.stepbible.org/?q=version=${stepVersion}|reference=${encodeURIComponent(osis)}&options=HVLGUNMC`;
+    const isNt = passageData?.testament === 'NT' || osis.startsWith('John') || osis.startsWith('Matt') || osis.startsWith('Mark') || osis.startsWith('Luke');
+    const originalVersion = isNt ? 'OGNT' : 'OHB';
+    const mainVersion = isEn ? 'KJV' : 'DutSVV';
+
+    return `https://www.stepbible.org/?q=version=${mainVersion}|version=${originalVersion}|reference=${encodeURIComponent(osis)}&options=HVLGUNMC`;
   };
 
   const openLexicon = (event, lemmaId, strongTag, surfaceText) => {
@@ -178,7 +184,7 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
               onClick={() => setShowStepWindow(!showStepWindow)}
               title={isEn ? "Toggle Movable STEP Bible Frame Window" : "Open / Sluit Zwevend STEP Bible Venster"}
             >
-              📖 STEP Bible {showStepWindow ? (isEn ? '(Active)' : '(Actief)') : (isEn ? '(Open)' : '(Open)')}
+              📖 STEP Bible {showStepWindow ? (isEn ? '(Actief)' : '(Actief)') : (isEn ? '(Open)' : '(Open)')}
             </button>
           </div>
         </div>
