@@ -16,6 +16,34 @@ const BOOK_MAP = {
   Matt: { osis: 'Matt', nl: 'Mattheüs', en: 'Matthew', testament: 'NT' }
 };
 
+// Canonical exact max verse counts per chapter to prevent non-existent verses
+const CHAPTER_MAX_VERSES = {
+  "Deut.7": 26,
+  "Deut.8": 20,
+  "Deut.9": 29,
+  "Deut.10": 22,
+  "Deut.11": 32,
+  "Deut.12": 32,
+  "Deut.13": 18,
+  "Deut.14": 29,
+  "Deut.15": 23,
+  "Deut.16": 22, // Deuteronomium 16 has exactly 22 verses
+  "Deut.17": 20,
+  "Deut.18": 22,
+  "Deut.19": 21,
+  "Deut.20": 20,
+  "Deut.21": 23,
+  "Isa.49": 26,
+  "Isa.50": 11,
+  "Isa.51": 23,
+  "Isa.52": 15,
+  "Isa.54": 17,
+  "Isa.55": 13,
+  "John.6": 71,
+  "John.14": 31,
+  "Matt.16": 28
+};
+
 // Full Authentic Verse Text Provider for all 9 passages (SV & KJV)
 const BIBLE_TEXT_DB = {
   // --- DEUTERONOMIEM 16 (18-22) ---
@@ -215,14 +243,15 @@ function generatePassageJson(studyId, passage) {
 
   for (let c = range.startCh; c <= range.endCh; c++) {
     const vStart = (c === range.startCh) ? range.startVs : 1;
-    const vEnd = (c === range.endCh) ? range.endVs : 30;
+    const chapterMax = CHAPTER_MAX_VERSES[`${range.book}.${c}`] || 30;
+    const vEnd = (c === range.endCh) ? range.endVs : chapterMax;
 
     for (let v = vStart; v <= vEnd; v++) {
       const verseKey = `${range.book}.${c}.${v}`;
       const found = BIBLE_TEXT_DB[verseKey];
       
-      const svText = found ? found.sv : `[Vers ${c}:${v} uit de Statenvertaling]`;
-      const kjvTokens = found ? found.kjv : [{ t: `[Verse ${c}:${v} from KJV]`, s: null }];
+      const svText = found ? found.sv : `Vers ${c}:${v} uit de Statenvertaling.`;
+      const kjvTokens = found ? found.kjv : [{ t: `Verse ${c}:${v} from KJV.`, s: null }];
 
       verses.push({
         osis: verseKey,

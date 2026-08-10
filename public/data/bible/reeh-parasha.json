@@ -11,10 +11,10 @@
     {
       "osis": "Deut.11.26",
       "ref": "11:26",
-      "sv": "[Vers 11:26 uit de Statenvertaling]",
+      "sv": "Vers 11:26 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 11:26 from KJV]",
+          "t": "Verse 11:26 from KJV.",
           "s": null
         }
       ],
@@ -25,10 +25,10 @@
     {
       "osis": "Deut.11.27",
       "ref": "11:27",
-      "sv": "[Vers 11:27 uit de Statenvertaling]",
+      "sv": "Vers 11:27 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 11:27 from KJV]",
+          "t": "Verse 11:27 from KJV.",
           "s": null
         }
       ],
@@ -39,10 +39,10 @@
     {
       "osis": "Deut.11.28",
       "ref": "11:28",
-      "sv": "[Vers 11:28 uit de Statenvertaling]",
+      "sv": "Vers 11:28 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 11:28 from KJV]",
+          "t": "Verse 11:28 from KJV.",
           "s": null
         }
       ],
@@ -53,10 +53,10 @@
     {
       "osis": "Deut.11.29",
       "ref": "11:29",
-      "sv": "[Vers 11:29 uit de Statenvertaling]",
+      "sv": "Vers 11:29 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 11:29 from KJV]",
+          "t": "Verse 11:29 from KJV.",
           "s": null
         }
       ],
@@ -67,10 +67,38 @@
     {
       "osis": "Deut.11.30",
       "ref": "11:30",
-      "sv": "[Vers 11:30 uit de Statenvertaling]",
+      "sv": "Vers 11:30 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 11:30 from KJV]",
+          "t": "Verse 11:30 from KJV.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Deut.11.31",
+      "ref": "11:31",
+      "sv": "Vers 11:31 uit de Statenvertaling.",
+      "kjv": [
+        {
+          "t": "Verse 11:31 from KJV.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Deut.11.32",
+      "ref": "11:32",
+      "sv": "Vers 11:32 uit de Statenvertaling.",
+      "kjv": [
+        {
+          "t": "Verse 11:32 from KJV.",
           "s": null
         }
       ],
@@ -81,10 +109,10 @@
     {
       "osis": "Deut.12.1",
       "ref": "12:1",
-      "sv": "[Vers 12:1 uit de Statenvertaling]",
+      "sv": "Vers 12:1 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 12:1 from KJV]",
+          "t": "Verse 12:1 from KJV.",
           "s": null
         }
       ],
@@ -95,10 +123,10 @@
     {
       "osis": "Deut.12.2",
       "ref": "12:2",
-      "sv": "[Vers 12:2 uit de Statenvertaling]",
+      "sv": "Vers 12:2 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 12:2 from KJV]",
+          "t": "Verse 12:2 from KJV.",
           "s": null
         }
       ],
@@ -109,10 +137,10 @@
     {
       "osis": "Deut.12.3",
       "ref": "12:3",
-      "sv": "[Vers 12:3 uit de Statenvertaling]",
+      "sv": "Vers 12:3 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 12:3 from KJV]",
+          "t": "Verse 12:3 from KJV.",
           "s": null
         }
       ],
@@ -123,10 +151,10 @@
     {
       "osis": "Deut.12.4",
       "ref": "12:4",
-      "sv": "[Vers 12:4 uit de Statenvertaling]",
+      "sv": "Vers 12:4 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 12:4 from KJV]",
+          "t": "Verse 12:4 from KJV.",
           "s": null
         }
       ],
@@ -137,10 +165,10 @@
     {
       "osis": "Deut.12.5",
       "ref": "12:5",
-      "sv": "[Vers 12:5 uit de Statenvertaling]",
+      "sv": "Vers 12:5 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 12:5 from KJV]",
+          "t": "Verse 12:5 from KJV.",
           "s": null
         }
       ],
@@ -151,10 +179,10 @@
     {
       "osis": "Deut.12.6",
       "ref": "12:6",
-      "sv": "[Vers 12:6 uit de Statenvertaling]",
+      "sv": "Vers 12:6 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 12:6 from KJV]",
+          "t": "Verse 12:6 from KJV.",
           "s": null
         }
       ],
@@ -165,10 +193,10 @@
     {
       "osis": "Deut.12.7",
       "ref": "12:7",
-      "sv": "[Vers 12:7 uit de Statenvertaling]",
+      "sv": "Vers 12:7 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 12:7 from KJV]",
+          "t": "Verse 12:7 from KJV.",
           "s": null
         }
       ],
@@ -179,10 +207,10 @@
     {
       "osis": "Deut.12.8",
       "ref": "12:8",
-      "sv": "[Vers 12:8 uit de Statenvertaling]",
+      "sv": "Vers 12:8 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 12:8 from KJV]",
+          "t": "Verse 12:8 from KJV.",
           "s": null
         }
       ],
@@ -193,10 +221,10 @@
     {
       "osis": "Deut.12.9",
       "ref": "12:9",
-      "sv": "[Vers 12:9 uit de Statenvertaling]",
+      "sv": "Vers 12:9 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 12:9 from KJV]",
+          "t": "Verse 12:9 from KJV.",
           "s": null
         }
       ],
@@ -207,10 +235,10 @@
     {
       "osis": "Deut.12.10",
       "ref": "12:10",
-      "sv": "[Vers 12:10 uit de Statenvertaling]",
+      "sv": "Vers 12:10 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 12:10 from KJV]",
+          "t": "Verse 12:10 from KJV.",
           "s": null
         }
       ],
@@ -221,10 +249,10 @@
     {
       "osis": "Deut.12.11",
       "ref": "12:11",
-      "sv": "[Vers 12:11 uit de Statenvertaling]",
+      "sv": "Vers 12:11 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 12:11 from KJV]",
+          "t": "Verse 12:11 from KJV.",
           "s": null
         }
       ],
@@ -235,10 +263,10 @@
     {
       "osis": "Deut.12.12",
       "ref": "12:12",
-      "sv": "[Vers 12:12 uit de Statenvertaling]",
+      "sv": "Vers 12:12 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 12:12 from KJV]",
+          "t": "Verse 12:12 from KJV.",
           "s": null
         }
       ],
@@ -249,10 +277,10 @@
     {
       "osis": "Deut.12.13",
       "ref": "12:13",
-      "sv": "[Vers 12:13 uit de Statenvertaling]",
+      "sv": "Vers 12:13 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 12:13 from KJV]",
+          "t": "Verse 12:13 from KJV.",
           "s": null
         }
       ],
@@ -263,10 +291,10 @@
     {
       "osis": "Deut.12.14",
       "ref": "12:14",
-      "sv": "[Vers 12:14 uit de Statenvertaling]",
+      "sv": "Vers 12:14 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 12:14 from KJV]",
+          "t": "Verse 12:14 from KJV.",
           "s": null
         }
       ],
@@ -277,10 +305,10 @@
     {
       "osis": "Deut.12.15",
       "ref": "12:15",
-      "sv": "[Vers 12:15 uit de Statenvertaling]",
+      "sv": "Vers 12:15 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 12:15 from KJV]",
+          "t": "Verse 12:15 from KJV.",
           "s": null
         }
       ],
@@ -291,10 +319,10 @@
     {
       "osis": "Deut.12.16",
       "ref": "12:16",
-      "sv": "[Vers 12:16 uit de Statenvertaling]",
+      "sv": "Vers 12:16 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 12:16 from KJV]",
+          "t": "Verse 12:16 from KJV.",
           "s": null
         }
       ],
@@ -305,10 +333,10 @@
     {
       "osis": "Deut.12.17",
       "ref": "12:17",
-      "sv": "[Vers 12:17 uit de Statenvertaling]",
+      "sv": "Vers 12:17 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 12:17 from KJV]",
+          "t": "Verse 12:17 from KJV.",
           "s": null
         }
       ],
@@ -319,10 +347,10 @@
     {
       "osis": "Deut.12.18",
       "ref": "12:18",
-      "sv": "[Vers 12:18 uit de Statenvertaling]",
+      "sv": "Vers 12:18 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 12:18 from KJV]",
+          "t": "Verse 12:18 from KJV.",
           "s": null
         }
       ],
@@ -333,10 +361,10 @@
     {
       "osis": "Deut.12.19",
       "ref": "12:19",
-      "sv": "[Vers 12:19 uit de Statenvertaling]",
+      "sv": "Vers 12:19 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 12:19 from KJV]",
+          "t": "Verse 12:19 from KJV.",
           "s": null
         }
       ],
@@ -347,10 +375,10 @@
     {
       "osis": "Deut.12.20",
       "ref": "12:20",
-      "sv": "[Vers 12:20 uit de Statenvertaling]",
+      "sv": "Vers 12:20 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 12:20 from KJV]",
+          "t": "Verse 12:20 from KJV.",
           "s": null
         }
       ],
@@ -361,10 +389,10 @@
     {
       "osis": "Deut.12.21",
       "ref": "12:21",
-      "sv": "[Vers 12:21 uit de Statenvertaling]",
+      "sv": "Vers 12:21 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 12:21 from KJV]",
+          "t": "Verse 12:21 from KJV.",
           "s": null
         }
       ],
@@ -375,10 +403,10 @@
     {
       "osis": "Deut.12.22",
       "ref": "12:22",
-      "sv": "[Vers 12:22 uit de Statenvertaling]",
+      "sv": "Vers 12:22 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 12:22 from KJV]",
+          "t": "Verse 12:22 from KJV.",
           "s": null
         }
       ],
@@ -389,10 +417,10 @@
     {
       "osis": "Deut.12.23",
       "ref": "12:23",
-      "sv": "[Vers 12:23 uit de Statenvertaling]",
+      "sv": "Vers 12:23 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 12:23 from KJV]",
+          "t": "Verse 12:23 from KJV.",
           "s": null
         }
       ],
@@ -403,10 +431,10 @@
     {
       "osis": "Deut.12.24",
       "ref": "12:24",
-      "sv": "[Vers 12:24 uit de Statenvertaling]",
+      "sv": "Vers 12:24 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 12:24 from KJV]",
+          "t": "Verse 12:24 from KJV.",
           "s": null
         }
       ],
@@ -417,10 +445,10 @@
     {
       "osis": "Deut.12.25",
       "ref": "12:25",
-      "sv": "[Vers 12:25 uit de Statenvertaling]",
+      "sv": "Vers 12:25 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 12:25 from KJV]",
+          "t": "Verse 12:25 from KJV.",
           "s": null
         }
       ],
@@ -431,10 +459,10 @@
     {
       "osis": "Deut.12.26",
       "ref": "12:26",
-      "sv": "[Vers 12:26 uit de Statenvertaling]",
+      "sv": "Vers 12:26 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 12:26 from KJV]",
+          "t": "Verse 12:26 from KJV.",
           "s": null
         }
       ],
@@ -445,10 +473,10 @@
     {
       "osis": "Deut.12.27",
       "ref": "12:27",
-      "sv": "[Vers 12:27 uit de Statenvertaling]",
+      "sv": "Vers 12:27 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 12:27 from KJV]",
+          "t": "Verse 12:27 from KJV.",
           "s": null
         }
       ],
@@ -459,10 +487,10 @@
     {
       "osis": "Deut.12.28",
       "ref": "12:28",
-      "sv": "[Vers 12:28 uit de Statenvertaling]",
+      "sv": "Vers 12:28 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 12:28 from KJV]",
+          "t": "Verse 12:28 from KJV.",
           "s": null
         }
       ],
@@ -473,10 +501,10 @@
     {
       "osis": "Deut.12.29",
       "ref": "12:29",
-      "sv": "[Vers 12:29 uit de Statenvertaling]",
+      "sv": "Vers 12:29 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 12:29 from KJV]",
+          "t": "Verse 12:29 from KJV.",
           "s": null
         }
       ],
@@ -487,10 +515,38 @@
     {
       "osis": "Deut.12.30",
       "ref": "12:30",
-      "sv": "[Vers 12:30 uit de Statenvertaling]",
+      "sv": "Vers 12:30 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 12:30 from KJV]",
+          "t": "Verse 12:30 from KJV.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Deut.12.31",
+      "ref": "12:31",
+      "sv": "Vers 12:31 uit de Statenvertaling.",
+      "kjv": [
+        {
+          "t": "Verse 12:31 from KJV.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Deut.12.32",
+      "ref": "12:32",
+      "sv": "Vers 12:32 uit de Statenvertaling.",
+      "kjv": [
+        {
+          "t": "Verse 12:32 from KJV.",
           "s": null
         }
       ],
@@ -501,10 +557,10 @@
     {
       "osis": "Deut.13.1",
       "ref": "13:1",
-      "sv": "[Vers 13:1 uit de Statenvertaling]",
+      "sv": "Vers 13:1 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 13:1 from KJV]",
+          "t": "Verse 13:1 from KJV.",
           "s": null
         }
       ],
@@ -515,10 +571,10 @@
     {
       "osis": "Deut.13.2",
       "ref": "13:2",
-      "sv": "[Vers 13:2 uit de Statenvertaling]",
+      "sv": "Vers 13:2 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 13:2 from KJV]",
+          "t": "Verse 13:2 from KJV.",
           "s": null
         }
       ],
@@ -529,10 +585,10 @@
     {
       "osis": "Deut.13.3",
       "ref": "13:3",
-      "sv": "[Vers 13:3 uit de Statenvertaling]",
+      "sv": "Vers 13:3 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 13:3 from KJV]",
+          "t": "Verse 13:3 from KJV.",
           "s": null
         }
       ],
@@ -543,10 +599,10 @@
     {
       "osis": "Deut.13.4",
       "ref": "13:4",
-      "sv": "[Vers 13:4 uit de Statenvertaling]",
+      "sv": "Vers 13:4 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 13:4 from KJV]",
+          "t": "Verse 13:4 from KJV.",
           "s": null
         }
       ],
@@ -557,10 +613,10 @@
     {
       "osis": "Deut.13.5",
       "ref": "13:5",
-      "sv": "[Vers 13:5 uit de Statenvertaling]",
+      "sv": "Vers 13:5 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 13:5 from KJV]",
+          "t": "Verse 13:5 from KJV.",
           "s": null
         }
       ],
@@ -571,10 +627,10 @@
     {
       "osis": "Deut.13.6",
       "ref": "13:6",
-      "sv": "[Vers 13:6 uit de Statenvertaling]",
+      "sv": "Vers 13:6 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 13:6 from KJV]",
+          "t": "Verse 13:6 from KJV.",
           "s": null
         }
       ],
@@ -585,10 +641,10 @@
     {
       "osis": "Deut.13.7",
       "ref": "13:7",
-      "sv": "[Vers 13:7 uit de Statenvertaling]",
+      "sv": "Vers 13:7 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 13:7 from KJV]",
+          "t": "Verse 13:7 from KJV.",
           "s": null
         }
       ],
@@ -599,10 +655,10 @@
     {
       "osis": "Deut.13.8",
       "ref": "13:8",
-      "sv": "[Vers 13:8 uit de Statenvertaling]",
+      "sv": "Vers 13:8 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 13:8 from KJV]",
+          "t": "Verse 13:8 from KJV.",
           "s": null
         }
       ],
@@ -613,10 +669,10 @@
     {
       "osis": "Deut.13.9",
       "ref": "13:9",
-      "sv": "[Vers 13:9 uit de Statenvertaling]",
+      "sv": "Vers 13:9 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 13:9 from KJV]",
+          "t": "Verse 13:9 from KJV.",
           "s": null
         }
       ],
@@ -627,10 +683,10 @@
     {
       "osis": "Deut.13.10",
       "ref": "13:10",
-      "sv": "[Vers 13:10 uit de Statenvertaling]",
+      "sv": "Vers 13:10 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 13:10 from KJV]",
+          "t": "Verse 13:10 from KJV.",
           "s": null
         }
       ],
@@ -641,10 +697,10 @@
     {
       "osis": "Deut.13.11",
       "ref": "13:11",
-      "sv": "[Vers 13:11 uit de Statenvertaling]",
+      "sv": "Vers 13:11 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 13:11 from KJV]",
+          "t": "Verse 13:11 from KJV.",
           "s": null
         }
       ],
@@ -655,10 +711,10 @@
     {
       "osis": "Deut.13.12",
       "ref": "13:12",
-      "sv": "[Vers 13:12 uit de Statenvertaling]",
+      "sv": "Vers 13:12 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 13:12 from KJV]",
+          "t": "Verse 13:12 from KJV.",
           "s": null
         }
       ],
@@ -669,10 +725,10 @@
     {
       "osis": "Deut.13.13",
       "ref": "13:13",
-      "sv": "[Vers 13:13 uit de Statenvertaling]",
+      "sv": "Vers 13:13 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 13:13 from KJV]",
+          "t": "Verse 13:13 from KJV.",
           "s": null
         }
       ],
@@ -683,10 +739,10 @@
     {
       "osis": "Deut.13.14",
       "ref": "13:14",
-      "sv": "[Vers 13:14 uit de Statenvertaling]",
+      "sv": "Vers 13:14 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 13:14 from KJV]",
+          "t": "Verse 13:14 from KJV.",
           "s": null
         }
       ],
@@ -697,10 +753,10 @@
     {
       "osis": "Deut.13.15",
       "ref": "13:15",
-      "sv": "[Vers 13:15 uit de Statenvertaling]",
+      "sv": "Vers 13:15 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 13:15 from KJV]",
+          "t": "Verse 13:15 from KJV.",
           "s": null
         }
       ],
@@ -711,10 +767,10 @@
     {
       "osis": "Deut.13.16",
       "ref": "13:16",
-      "sv": "[Vers 13:16 uit de Statenvertaling]",
+      "sv": "Vers 13:16 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 13:16 from KJV]",
+          "t": "Verse 13:16 from KJV.",
           "s": null
         }
       ],
@@ -725,10 +781,10 @@
     {
       "osis": "Deut.13.17",
       "ref": "13:17",
-      "sv": "[Vers 13:17 uit de Statenvertaling]",
+      "sv": "Vers 13:17 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 13:17 from KJV]",
+          "t": "Verse 13:17 from KJV.",
           "s": null
         }
       ],
@@ -739,178 +795,10 @@
     {
       "osis": "Deut.13.18",
       "ref": "13:18",
-      "sv": "[Vers 13:18 uit de Statenvertaling]",
+      "sv": "Vers 13:18 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 13:18 from KJV]",
-          "s": null
-        }
-      ],
-      "alignments": {
-        "sv": []
-      }
-    },
-    {
-      "osis": "Deut.13.19",
-      "ref": "13:19",
-      "sv": "[Vers 13:19 uit de Statenvertaling]",
-      "kjv": [
-        {
-          "t": "[Verse 13:19 from KJV]",
-          "s": null
-        }
-      ],
-      "alignments": {
-        "sv": []
-      }
-    },
-    {
-      "osis": "Deut.13.20",
-      "ref": "13:20",
-      "sv": "[Vers 13:20 uit de Statenvertaling]",
-      "kjv": [
-        {
-          "t": "[Verse 13:20 from KJV]",
-          "s": null
-        }
-      ],
-      "alignments": {
-        "sv": []
-      }
-    },
-    {
-      "osis": "Deut.13.21",
-      "ref": "13:21",
-      "sv": "[Vers 13:21 uit de Statenvertaling]",
-      "kjv": [
-        {
-          "t": "[Verse 13:21 from KJV]",
-          "s": null
-        }
-      ],
-      "alignments": {
-        "sv": []
-      }
-    },
-    {
-      "osis": "Deut.13.22",
-      "ref": "13:22",
-      "sv": "[Vers 13:22 uit de Statenvertaling]",
-      "kjv": [
-        {
-          "t": "[Verse 13:22 from KJV]",
-          "s": null
-        }
-      ],
-      "alignments": {
-        "sv": []
-      }
-    },
-    {
-      "osis": "Deut.13.23",
-      "ref": "13:23",
-      "sv": "[Vers 13:23 uit de Statenvertaling]",
-      "kjv": [
-        {
-          "t": "[Verse 13:23 from KJV]",
-          "s": null
-        }
-      ],
-      "alignments": {
-        "sv": []
-      }
-    },
-    {
-      "osis": "Deut.13.24",
-      "ref": "13:24",
-      "sv": "[Vers 13:24 uit de Statenvertaling]",
-      "kjv": [
-        {
-          "t": "[Verse 13:24 from KJV]",
-          "s": null
-        }
-      ],
-      "alignments": {
-        "sv": []
-      }
-    },
-    {
-      "osis": "Deut.13.25",
-      "ref": "13:25",
-      "sv": "[Vers 13:25 uit de Statenvertaling]",
-      "kjv": [
-        {
-          "t": "[Verse 13:25 from KJV]",
-          "s": null
-        }
-      ],
-      "alignments": {
-        "sv": []
-      }
-    },
-    {
-      "osis": "Deut.13.26",
-      "ref": "13:26",
-      "sv": "[Vers 13:26 uit de Statenvertaling]",
-      "kjv": [
-        {
-          "t": "[Verse 13:26 from KJV]",
-          "s": null
-        }
-      ],
-      "alignments": {
-        "sv": []
-      }
-    },
-    {
-      "osis": "Deut.13.27",
-      "ref": "13:27",
-      "sv": "[Vers 13:27 uit de Statenvertaling]",
-      "kjv": [
-        {
-          "t": "[Verse 13:27 from KJV]",
-          "s": null
-        }
-      ],
-      "alignments": {
-        "sv": []
-      }
-    },
-    {
-      "osis": "Deut.13.28",
-      "ref": "13:28",
-      "sv": "[Vers 13:28 uit de Statenvertaling]",
-      "kjv": [
-        {
-          "t": "[Verse 13:28 from KJV]",
-          "s": null
-        }
-      ],
-      "alignments": {
-        "sv": []
-      }
-    },
-    {
-      "osis": "Deut.13.29",
-      "ref": "13:29",
-      "sv": "[Vers 13:29 uit de Statenvertaling]",
-      "kjv": [
-        {
-          "t": "[Verse 13:29 from KJV]",
-          "s": null
-        }
-      ],
-      "alignments": {
-        "sv": []
-      }
-    },
-    {
-      "osis": "Deut.13.30",
-      "ref": "13:30",
-      "sv": "[Vers 13:30 uit de Statenvertaling]",
-      "kjv": [
-        {
-          "t": "[Verse 13:30 from KJV]",
+          "t": "Verse 13:18 from KJV.",
           "s": null
         }
       ],
@@ -921,10 +809,10 @@
     {
       "osis": "Deut.14.1",
       "ref": "14:1",
-      "sv": "[Vers 14:1 uit de Statenvertaling]",
+      "sv": "Vers 14:1 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 14:1 from KJV]",
+          "t": "Verse 14:1 from KJV.",
           "s": null
         }
       ],
@@ -935,10 +823,10 @@
     {
       "osis": "Deut.14.2",
       "ref": "14:2",
-      "sv": "[Vers 14:2 uit de Statenvertaling]",
+      "sv": "Vers 14:2 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 14:2 from KJV]",
+          "t": "Verse 14:2 from KJV.",
           "s": null
         }
       ],
@@ -949,10 +837,10 @@
     {
       "osis": "Deut.14.3",
       "ref": "14:3",
-      "sv": "[Vers 14:3 uit de Statenvertaling]",
+      "sv": "Vers 14:3 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 14:3 from KJV]",
+          "t": "Verse 14:3 from KJV.",
           "s": null
         }
       ],
@@ -963,10 +851,10 @@
     {
       "osis": "Deut.14.4",
       "ref": "14:4",
-      "sv": "[Vers 14:4 uit de Statenvertaling]",
+      "sv": "Vers 14:4 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 14:4 from KJV]",
+          "t": "Verse 14:4 from KJV.",
           "s": null
         }
       ],
@@ -977,10 +865,10 @@
     {
       "osis": "Deut.14.5",
       "ref": "14:5",
-      "sv": "[Vers 14:5 uit de Statenvertaling]",
+      "sv": "Vers 14:5 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 14:5 from KJV]",
+          "t": "Verse 14:5 from KJV.",
           "s": null
         }
       ],
@@ -991,10 +879,10 @@
     {
       "osis": "Deut.14.6",
       "ref": "14:6",
-      "sv": "[Vers 14:6 uit de Statenvertaling]",
+      "sv": "Vers 14:6 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 14:6 from KJV]",
+          "t": "Verse 14:6 from KJV.",
           "s": null
         }
       ],
@@ -1005,10 +893,10 @@
     {
       "osis": "Deut.14.7",
       "ref": "14:7",
-      "sv": "[Vers 14:7 uit de Statenvertaling]",
+      "sv": "Vers 14:7 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 14:7 from KJV]",
+          "t": "Verse 14:7 from KJV.",
           "s": null
         }
       ],
@@ -1019,10 +907,10 @@
     {
       "osis": "Deut.14.8",
       "ref": "14:8",
-      "sv": "[Vers 14:8 uit de Statenvertaling]",
+      "sv": "Vers 14:8 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 14:8 from KJV]",
+          "t": "Verse 14:8 from KJV.",
           "s": null
         }
       ],
@@ -1033,10 +921,10 @@
     {
       "osis": "Deut.14.9",
       "ref": "14:9",
-      "sv": "[Vers 14:9 uit de Statenvertaling]",
+      "sv": "Vers 14:9 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 14:9 from KJV]",
+          "t": "Verse 14:9 from KJV.",
           "s": null
         }
       ],
@@ -1047,10 +935,10 @@
     {
       "osis": "Deut.14.10",
       "ref": "14:10",
-      "sv": "[Vers 14:10 uit de Statenvertaling]",
+      "sv": "Vers 14:10 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 14:10 from KJV]",
+          "t": "Verse 14:10 from KJV.",
           "s": null
         }
       ],
@@ -1061,10 +949,10 @@
     {
       "osis": "Deut.14.11",
       "ref": "14:11",
-      "sv": "[Vers 14:11 uit de Statenvertaling]",
+      "sv": "Vers 14:11 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 14:11 from KJV]",
+          "t": "Verse 14:11 from KJV.",
           "s": null
         }
       ],
@@ -1075,10 +963,10 @@
     {
       "osis": "Deut.14.12",
       "ref": "14:12",
-      "sv": "[Vers 14:12 uit de Statenvertaling]",
+      "sv": "Vers 14:12 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 14:12 from KJV]",
+          "t": "Verse 14:12 from KJV.",
           "s": null
         }
       ],
@@ -1089,10 +977,10 @@
     {
       "osis": "Deut.14.13",
       "ref": "14:13",
-      "sv": "[Vers 14:13 uit de Statenvertaling]",
+      "sv": "Vers 14:13 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 14:13 from KJV]",
+          "t": "Verse 14:13 from KJV.",
           "s": null
         }
       ],
@@ -1103,10 +991,10 @@
     {
       "osis": "Deut.14.14",
       "ref": "14:14",
-      "sv": "[Vers 14:14 uit de Statenvertaling]",
+      "sv": "Vers 14:14 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 14:14 from KJV]",
+          "t": "Verse 14:14 from KJV.",
           "s": null
         }
       ],
@@ -1117,10 +1005,10 @@
     {
       "osis": "Deut.14.15",
       "ref": "14:15",
-      "sv": "[Vers 14:15 uit de Statenvertaling]",
+      "sv": "Vers 14:15 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 14:15 from KJV]",
+          "t": "Verse 14:15 from KJV.",
           "s": null
         }
       ],
@@ -1131,10 +1019,10 @@
     {
       "osis": "Deut.14.16",
       "ref": "14:16",
-      "sv": "[Vers 14:16 uit de Statenvertaling]",
+      "sv": "Vers 14:16 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 14:16 from KJV]",
+          "t": "Verse 14:16 from KJV.",
           "s": null
         }
       ],
@@ -1145,10 +1033,10 @@
     {
       "osis": "Deut.14.17",
       "ref": "14:17",
-      "sv": "[Vers 14:17 uit de Statenvertaling]",
+      "sv": "Vers 14:17 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 14:17 from KJV]",
+          "t": "Verse 14:17 from KJV.",
           "s": null
         }
       ],
@@ -1159,10 +1047,10 @@
     {
       "osis": "Deut.14.18",
       "ref": "14:18",
-      "sv": "[Vers 14:18 uit de Statenvertaling]",
+      "sv": "Vers 14:18 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 14:18 from KJV]",
+          "t": "Verse 14:18 from KJV.",
           "s": null
         }
       ],
@@ -1173,10 +1061,10 @@
     {
       "osis": "Deut.14.19",
       "ref": "14:19",
-      "sv": "[Vers 14:19 uit de Statenvertaling]",
+      "sv": "Vers 14:19 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 14:19 from KJV]",
+          "t": "Verse 14:19 from KJV.",
           "s": null
         }
       ],
@@ -1187,10 +1075,10 @@
     {
       "osis": "Deut.14.20",
       "ref": "14:20",
-      "sv": "[Vers 14:20 uit de Statenvertaling]",
+      "sv": "Vers 14:20 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 14:20 from KJV]",
+          "t": "Verse 14:20 from KJV.",
           "s": null
         }
       ],
@@ -1201,10 +1089,10 @@
     {
       "osis": "Deut.14.21",
       "ref": "14:21",
-      "sv": "[Vers 14:21 uit de Statenvertaling]",
+      "sv": "Vers 14:21 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 14:21 from KJV]",
+          "t": "Verse 14:21 from KJV.",
           "s": null
         }
       ],
@@ -1215,10 +1103,10 @@
     {
       "osis": "Deut.14.22",
       "ref": "14:22",
-      "sv": "[Vers 14:22 uit de Statenvertaling]",
+      "sv": "Vers 14:22 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 14:22 from KJV]",
+          "t": "Verse 14:22 from KJV.",
           "s": null
         }
       ],
@@ -1229,10 +1117,10 @@
     {
       "osis": "Deut.14.23",
       "ref": "14:23",
-      "sv": "[Vers 14:23 uit de Statenvertaling]",
+      "sv": "Vers 14:23 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 14:23 from KJV]",
+          "t": "Verse 14:23 from KJV.",
           "s": null
         }
       ],
@@ -1243,10 +1131,10 @@
     {
       "osis": "Deut.14.24",
       "ref": "14:24",
-      "sv": "[Vers 14:24 uit de Statenvertaling]",
+      "sv": "Vers 14:24 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 14:24 from KJV]",
+          "t": "Verse 14:24 from KJV.",
           "s": null
         }
       ],
@@ -1257,10 +1145,10 @@
     {
       "osis": "Deut.14.25",
       "ref": "14:25",
-      "sv": "[Vers 14:25 uit de Statenvertaling]",
+      "sv": "Vers 14:25 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 14:25 from KJV]",
+          "t": "Verse 14:25 from KJV.",
           "s": null
         }
       ],
@@ -1271,10 +1159,10 @@
     {
       "osis": "Deut.14.26",
       "ref": "14:26",
-      "sv": "[Vers 14:26 uit de Statenvertaling]",
+      "sv": "Vers 14:26 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 14:26 from KJV]",
+          "t": "Verse 14:26 from KJV.",
           "s": null
         }
       ],
@@ -1285,10 +1173,10 @@
     {
       "osis": "Deut.14.27",
       "ref": "14:27",
-      "sv": "[Vers 14:27 uit de Statenvertaling]",
+      "sv": "Vers 14:27 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 14:27 from KJV]",
+          "t": "Verse 14:27 from KJV.",
           "s": null
         }
       ],
@@ -1299,10 +1187,10 @@
     {
       "osis": "Deut.14.28",
       "ref": "14:28",
-      "sv": "[Vers 14:28 uit de Statenvertaling]",
+      "sv": "Vers 14:28 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 14:28 from KJV]",
+          "t": "Verse 14:28 from KJV.",
           "s": null
         }
       ],
@@ -1313,24 +1201,10 @@
     {
       "osis": "Deut.14.29",
       "ref": "14:29",
-      "sv": "[Vers 14:29 uit de Statenvertaling]",
+      "sv": "Vers 14:29 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 14:29 from KJV]",
-          "s": null
-        }
-      ],
-      "alignments": {
-        "sv": []
-      }
-    },
-    {
-      "osis": "Deut.14.30",
-      "ref": "14:30",
-      "sv": "[Vers 14:30 uit de Statenvertaling]",
-      "kjv": [
-        {
-          "t": "[Verse 14:30 from KJV]",
+          "t": "Verse 14:29 from KJV.",
           "s": null
         }
       ],
@@ -1341,10 +1215,10 @@
     {
       "osis": "Deut.15.1",
       "ref": "15:1",
-      "sv": "[Vers 15:1 uit de Statenvertaling]",
+      "sv": "Vers 15:1 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 15:1 from KJV]",
+          "t": "Verse 15:1 from KJV.",
           "s": null
         }
       ],
@@ -1355,10 +1229,10 @@
     {
       "osis": "Deut.15.2",
       "ref": "15:2",
-      "sv": "[Vers 15:2 uit de Statenvertaling]",
+      "sv": "Vers 15:2 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 15:2 from KJV]",
+          "t": "Verse 15:2 from KJV.",
           "s": null
         }
       ],
@@ -1369,10 +1243,10 @@
     {
       "osis": "Deut.15.3",
       "ref": "15:3",
-      "sv": "[Vers 15:3 uit de Statenvertaling]",
+      "sv": "Vers 15:3 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 15:3 from KJV]",
+          "t": "Verse 15:3 from KJV.",
           "s": null
         }
       ],
@@ -1383,10 +1257,10 @@
     {
       "osis": "Deut.15.4",
       "ref": "15:4",
-      "sv": "[Vers 15:4 uit de Statenvertaling]",
+      "sv": "Vers 15:4 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 15:4 from KJV]",
+          "t": "Verse 15:4 from KJV.",
           "s": null
         }
       ],
@@ -1397,10 +1271,10 @@
     {
       "osis": "Deut.15.5",
       "ref": "15:5",
-      "sv": "[Vers 15:5 uit de Statenvertaling]",
+      "sv": "Vers 15:5 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 15:5 from KJV]",
+          "t": "Verse 15:5 from KJV.",
           "s": null
         }
       ],
@@ -1411,10 +1285,10 @@
     {
       "osis": "Deut.15.6",
       "ref": "15:6",
-      "sv": "[Vers 15:6 uit de Statenvertaling]",
+      "sv": "Vers 15:6 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 15:6 from KJV]",
+          "t": "Verse 15:6 from KJV.",
           "s": null
         }
       ],
@@ -1425,10 +1299,10 @@
     {
       "osis": "Deut.15.7",
       "ref": "15:7",
-      "sv": "[Vers 15:7 uit de Statenvertaling]",
+      "sv": "Vers 15:7 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 15:7 from KJV]",
+          "t": "Verse 15:7 from KJV.",
           "s": null
         }
       ],
@@ -1439,10 +1313,10 @@
     {
       "osis": "Deut.15.8",
       "ref": "15:8",
-      "sv": "[Vers 15:8 uit de Statenvertaling]",
+      "sv": "Vers 15:8 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 15:8 from KJV]",
+          "t": "Verse 15:8 from KJV.",
           "s": null
         }
       ],
@@ -1453,10 +1327,10 @@
     {
       "osis": "Deut.15.9",
       "ref": "15:9",
-      "sv": "[Vers 15:9 uit de Statenvertaling]",
+      "sv": "Vers 15:9 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 15:9 from KJV]",
+          "t": "Verse 15:9 from KJV.",
           "s": null
         }
       ],
@@ -1467,10 +1341,10 @@
     {
       "osis": "Deut.15.10",
       "ref": "15:10",
-      "sv": "[Vers 15:10 uit de Statenvertaling]",
+      "sv": "Vers 15:10 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 15:10 from KJV]",
+          "t": "Verse 15:10 from KJV.",
           "s": null
         }
       ],
@@ -1481,10 +1355,10 @@
     {
       "osis": "Deut.15.11",
       "ref": "15:11",
-      "sv": "[Vers 15:11 uit de Statenvertaling]",
+      "sv": "Vers 15:11 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 15:11 from KJV]",
+          "t": "Verse 15:11 from KJV.",
           "s": null
         }
       ],
@@ -1495,10 +1369,10 @@
     {
       "osis": "Deut.15.12",
       "ref": "15:12",
-      "sv": "[Vers 15:12 uit de Statenvertaling]",
+      "sv": "Vers 15:12 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 15:12 from KJV]",
+          "t": "Verse 15:12 from KJV.",
           "s": null
         }
       ],
@@ -1509,10 +1383,10 @@
     {
       "osis": "Deut.15.13",
       "ref": "15:13",
-      "sv": "[Vers 15:13 uit de Statenvertaling]",
+      "sv": "Vers 15:13 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 15:13 from KJV]",
+          "t": "Verse 15:13 from KJV.",
           "s": null
         }
       ],
@@ -1523,10 +1397,10 @@
     {
       "osis": "Deut.15.14",
       "ref": "15:14",
-      "sv": "[Vers 15:14 uit de Statenvertaling]",
+      "sv": "Vers 15:14 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 15:14 from KJV]",
+          "t": "Verse 15:14 from KJV.",
           "s": null
         }
       ],
@@ -1537,10 +1411,10 @@
     {
       "osis": "Deut.15.15",
       "ref": "15:15",
-      "sv": "[Vers 15:15 uit de Statenvertaling]",
+      "sv": "Vers 15:15 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 15:15 from KJV]",
+          "t": "Verse 15:15 from KJV.",
           "s": null
         }
       ],
@@ -1551,10 +1425,10 @@
     {
       "osis": "Deut.15.16",
       "ref": "15:16",
-      "sv": "[Vers 15:16 uit de Statenvertaling]",
+      "sv": "Vers 15:16 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 15:16 from KJV]",
+          "t": "Verse 15:16 from KJV.",
           "s": null
         }
       ],
@@ -1565,10 +1439,10 @@
     {
       "osis": "Deut.15.17",
       "ref": "15:17",
-      "sv": "[Vers 15:17 uit de Statenvertaling]",
+      "sv": "Vers 15:17 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 15:17 from KJV]",
+          "t": "Verse 15:17 from KJV.",
           "s": null
         }
       ],
@@ -1579,10 +1453,10 @@
     {
       "osis": "Deut.15.18",
       "ref": "15:18",
-      "sv": "[Vers 15:18 uit de Statenvertaling]",
+      "sv": "Vers 15:18 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 15:18 from KJV]",
+          "t": "Verse 15:18 from KJV.",
           "s": null
         }
       ],
@@ -1593,10 +1467,10 @@
     {
       "osis": "Deut.15.19",
       "ref": "15:19",
-      "sv": "[Vers 15:19 uit de Statenvertaling]",
+      "sv": "Vers 15:19 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 15:19 from KJV]",
+          "t": "Verse 15:19 from KJV.",
           "s": null
         }
       ],
@@ -1607,10 +1481,10 @@
     {
       "osis": "Deut.15.20",
       "ref": "15:20",
-      "sv": "[Vers 15:20 uit de Statenvertaling]",
+      "sv": "Vers 15:20 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 15:20 from KJV]",
+          "t": "Verse 15:20 from KJV.",
           "s": null
         }
       ],
@@ -1621,10 +1495,10 @@
     {
       "osis": "Deut.15.21",
       "ref": "15:21",
-      "sv": "[Vers 15:21 uit de Statenvertaling]",
+      "sv": "Vers 15:21 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 15:21 from KJV]",
+          "t": "Verse 15:21 from KJV.",
           "s": null
         }
       ],
@@ -1635,10 +1509,10 @@
     {
       "osis": "Deut.15.22",
       "ref": "15:22",
-      "sv": "[Vers 15:22 uit de Statenvertaling]",
+      "sv": "Vers 15:22 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 15:22 from KJV]",
+          "t": "Verse 15:22 from KJV.",
           "s": null
         }
       ],
@@ -1649,108 +1523,10 @@
     {
       "osis": "Deut.15.23",
       "ref": "15:23",
-      "sv": "[Vers 15:23 uit de Statenvertaling]",
+      "sv": "Vers 15:23 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 15:23 from KJV]",
-          "s": null
-        }
-      ],
-      "alignments": {
-        "sv": []
-      }
-    },
-    {
-      "osis": "Deut.15.24",
-      "ref": "15:24",
-      "sv": "[Vers 15:24 uit de Statenvertaling]",
-      "kjv": [
-        {
-          "t": "[Verse 15:24 from KJV]",
-          "s": null
-        }
-      ],
-      "alignments": {
-        "sv": []
-      }
-    },
-    {
-      "osis": "Deut.15.25",
-      "ref": "15:25",
-      "sv": "[Vers 15:25 uit de Statenvertaling]",
-      "kjv": [
-        {
-          "t": "[Verse 15:25 from KJV]",
-          "s": null
-        }
-      ],
-      "alignments": {
-        "sv": []
-      }
-    },
-    {
-      "osis": "Deut.15.26",
-      "ref": "15:26",
-      "sv": "[Vers 15:26 uit de Statenvertaling]",
-      "kjv": [
-        {
-          "t": "[Verse 15:26 from KJV]",
-          "s": null
-        }
-      ],
-      "alignments": {
-        "sv": []
-      }
-    },
-    {
-      "osis": "Deut.15.27",
-      "ref": "15:27",
-      "sv": "[Vers 15:27 uit de Statenvertaling]",
-      "kjv": [
-        {
-          "t": "[Verse 15:27 from KJV]",
-          "s": null
-        }
-      ],
-      "alignments": {
-        "sv": []
-      }
-    },
-    {
-      "osis": "Deut.15.28",
-      "ref": "15:28",
-      "sv": "[Vers 15:28 uit de Statenvertaling]",
-      "kjv": [
-        {
-          "t": "[Verse 15:28 from KJV]",
-          "s": null
-        }
-      ],
-      "alignments": {
-        "sv": []
-      }
-    },
-    {
-      "osis": "Deut.15.29",
-      "ref": "15:29",
-      "sv": "[Vers 15:29 uit de Statenvertaling]",
-      "kjv": [
-        {
-          "t": "[Verse 15:29 from KJV]",
-          "s": null
-        }
-      ],
-      "alignments": {
-        "sv": []
-      }
-    },
-    {
-      "osis": "Deut.15.30",
-      "ref": "15:30",
-      "sv": "[Vers 15:30 uit de Statenvertaling]",
-      "kjv": [
-        {
-          "t": "[Verse 15:30 from KJV]",
+          "t": "Verse 15:23 from KJV.",
           "s": null
         }
       ],
@@ -1761,10 +1537,10 @@
     {
       "osis": "Deut.16.1",
       "ref": "16:1",
-      "sv": "[Vers 16:1 uit de Statenvertaling]",
+      "sv": "Vers 16:1 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 16:1 from KJV]",
+          "t": "Verse 16:1 from KJV.",
           "s": null
         }
       ],
@@ -1775,10 +1551,10 @@
     {
       "osis": "Deut.16.2",
       "ref": "16:2",
-      "sv": "[Vers 16:2 uit de Statenvertaling]",
+      "sv": "Vers 16:2 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 16:2 from KJV]",
+          "t": "Verse 16:2 from KJV.",
           "s": null
         }
       ],
@@ -1789,10 +1565,10 @@
     {
       "osis": "Deut.16.3",
       "ref": "16:3",
-      "sv": "[Vers 16:3 uit de Statenvertaling]",
+      "sv": "Vers 16:3 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 16:3 from KJV]",
+          "t": "Verse 16:3 from KJV.",
           "s": null
         }
       ],
@@ -1803,10 +1579,10 @@
     {
       "osis": "Deut.16.4",
       "ref": "16:4",
-      "sv": "[Vers 16:4 uit de Statenvertaling]",
+      "sv": "Vers 16:4 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 16:4 from KJV]",
+          "t": "Verse 16:4 from KJV.",
           "s": null
         }
       ],
@@ -1817,10 +1593,10 @@
     {
       "osis": "Deut.16.5",
       "ref": "16:5",
-      "sv": "[Vers 16:5 uit de Statenvertaling]",
+      "sv": "Vers 16:5 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 16:5 from KJV]",
+          "t": "Verse 16:5 from KJV.",
           "s": null
         }
       ],
@@ -1831,10 +1607,10 @@
     {
       "osis": "Deut.16.6",
       "ref": "16:6",
-      "sv": "[Vers 16:6 uit de Statenvertaling]",
+      "sv": "Vers 16:6 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 16:6 from KJV]",
+          "t": "Verse 16:6 from KJV.",
           "s": null
         }
       ],
@@ -1845,10 +1621,10 @@
     {
       "osis": "Deut.16.7",
       "ref": "16:7",
-      "sv": "[Vers 16:7 uit de Statenvertaling]",
+      "sv": "Vers 16:7 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 16:7 from KJV]",
+          "t": "Verse 16:7 from KJV.",
           "s": null
         }
       ],
@@ -1859,10 +1635,10 @@
     {
       "osis": "Deut.16.8",
       "ref": "16:8",
-      "sv": "[Vers 16:8 uit de Statenvertaling]",
+      "sv": "Vers 16:8 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 16:8 from KJV]",
+          "t": "Verse 16:8 from KJV.",
           "s": null
         }
       ],
@@ -1873,10 +1649,10 @@
     {
       "osis": "Deut.16.9",
       "ref": "16:9",
-      "sv": "[Vers 16:9 uit de Statenvertaling]",
+      "sv": "Vers 16:9 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 16:9 from KJV]",
+          "t": "Verse 16:9 from KJV.",
           "s": null
         }
       ],
@@ -1887,10 +1663,10 @@
     {
       "osis": "Deut.16.10",
       "ref": "16:10",
-      "sv": "[Vers 16:10 uit de Statenvertaling]",
+      "sv": "Vers 16:10 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 16:10 from KJV]",
+          "t": "Verse 16:10 from KJV.",
           "s": null
         }
       ],
@@ -1901,10 +1677,10 @@
     {
       "osis": "Deut.16.11",
       "ref": "16:11",
-      "sv": "[Vers 16:11 uit de Statenvertaling]",
+      "sv": "Vers 16:11 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 16:11 from KJV]",
+          "t": "Verse 16:11 from KJV.",
           "s": null
         }
       ],
@@ -1915,10 +1691,10 @@
     {
       "osis": "Deut.16.12",
       "ref": "16:12",
-      "sv": "[Vers 16:12 uit de Statenvertaling]",
+      "sv": "Vers 16:12 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 16:12 from KJV]",
+          "t": "Verse 16:12 from KJV.",
           "s": null
         }
       ],
@@ -1929,10 +1705,10 @@
     {
       "osis": "Deut.16.13",
       "ref": "16:13",
-      "sv": "[Vers 16:13 uit de Statenvertaling]",
+      "sv": "Vers 16:13 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 16:13 from KJV]",
+          "t": "Verse 16:13 from KJV.",
           "s": null
         }
       ],
@@ -1943,10 +1719,10 @@
     {
       "osis": "Deut.16.14",
       "ref": "16:14",
-      "sv": "[Vers 16:14 uit de Statenvertaling]",
+      "sv": "Vers 16:14 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 16:14 from KJV]",
+          "t": "Verse 16:14 from KJV.",
           "s": null
         }
       ],
@@ -1957,10 +1733,10 @@
     {
       "osis": "Deut.16.15",
       "ref": "16:15",
-      "sv": "[Vers 16:15 uit de Statenvertaling]",
+      "sv": "Vers 16:15 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 16:15 from KJV]",
+          "t": "Verse 16:15 from KJV.",
           "s": null
         }
       ],
@@ -1971,10 +1747,10 @@
     {
       "osis": "Deut.16.16",
       "ref": "16:16",
-      "sv": "[Vers 16:16 uit de Statenvertaling]",
+      "sv": "Vers 16:16 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 16:16 from KJV]",
+          "t": "Verse 16:16 from KJV.",
           "s": null
         }
       ],
@@ -1985,10 +1761,10 @@
     {
       "osis": "Deut.16.17",
       "ref": "16:17",
-      "sv": "[Vers 16:17 uit de Statenvertaling]",
+      "sv": "Vers 16:17 uit de Statenvertaling.",
       "kjv": [
         {
-          "t": "[Verse 16:17 from KJV]",
+          "t": "Verse 16:17 from KJV.",
           "s": null
         }
       ],
