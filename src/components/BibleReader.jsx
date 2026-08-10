@@ -45,7 +45,8 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
   const openLexicon = (lemmaId, strongTag) => {
     if (!passageData || !passageData.lexicon) return;
     const entry = (lemmaId && passageData.lexicon[lemmaId]) ||
-      Object.values(passageData.lexicon).find(e => e.strong === strongTag);
+      Object.values(passageData.lexicon).find(e => e.strong === strongTag) ||
+      (strongTag && passageData.lexicon[strongTag]);
     if (entry) {
       setSelectedEntry(entry);
     }
@@ -113,9 +114,9 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
   };
 
   return (
-    <div className="bible-reader-card">
-      {/* Header Controls: Section Selector (Torah / Haftara / Evangelie) */}
-      <div className="reader-header-controls">
+    <div className="bible-reader-wrapper">
+      {/* Detached Section Navigation Bar (OUTSIDE the text window) */}
+      <div className="reader-standalone-nav">
         <nav aria-label={isEn ? "Passage sections" : "Bijbelsecties"} className="section-tabs">
           <button
             type="button"
@@ -141,8 +142,8 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
         </nav>
       </div>
 
-      {/* Reader Content Body */}
-      <div className="reader-content-body">
+      {/* Reader Content Body Window */}
+      <div className="bible-reader-card">
         {loading && (
           <div className="reader-loading">
             {isEn ? 'Loading Bible passage...' : 'Bijbelpassage laden...'}

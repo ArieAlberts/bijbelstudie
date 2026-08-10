@@ -291,15 +291,12 @@ button, input, select, textarea {
     grid-column: 1;
   }
 
-  /* Sticky Bible Reader placed on the RIGHT (Column 2) */
+  /* Sticky Bible Reader Column placed on the RIGHT (Column 2) */
   #react-bible-reader-root {
     grid-column: 2;
     grid-row: 2 / span 12;
     position: sticky;
     top: 85px;
-    max-height: calc(100vh - 105px);
-    overflow-y: auto;
-    padding-right: 4px;
   }
 }
 
@@ -310,37 +307,32 @@ button, input, select, textarea {
   }
 }
 
-/* Bible Reader Card Styling */
-.bible-reader-card {
+/* Bible Reader Wrapper & Standalone Section Nav Bar */
+.bible-reader-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.reader-standalone-nav {
   background: var(--white);
   border: 1px solid var(--line);
   border-radius: 6px;
-  padding: 20px;
-  box-shadow: 0 4px 20px var(--shadow);
-}
-
-.reader-header-controls {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-  border-bottom: 1px solid var(--line);
-  padding-bottom: 14px;
-  margin-bottom: 18px;
-  flex-wrap: wrap;
+  padding: 10px 14px;
+  box-shadow: 0 4px 14px var(--shadow);
 }
 
 .section-tabs {
   display: flex;
-  gap: 6px;
+  gap: 8px;
 }
 
 .section-tab {
   border: 1px solid var(--line);
   background: var(--paper);
-  padding: 6px 14px;
+  padding: 7px 16px;
   border-radius: 4px;
-  font-size: 13.5px;
+  font-size: 14px;
   font-weight: 600;
   color: var(--ink);
   cursor: pointer;
@@ -357,35 +349,15 @@ button, input, select, textarea {
   border-color: var(--accent);
 }
 
-.translation-switch {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  background: var(--soft);
-  padding: 4px 10px;
-  border-radius: 999px;
+/* Bible Reader Scrollable Text Card Styling */
+.bible-reader-card {
+  background: var(--white);
   border: 1px solid var(--line);
-}
-
-.trans-btn {
-  border: 0;
-  background: transparent;
-  font-size: 13px;
-  font-weight: 700;
-  color: var(--muted);
-  cursor: pointer;
-  padding: 2px 6px;
-  border-radius: 3px;
-}
-
-.trans-btn.active {
-  color: var(--accent-dark);
-  text-decoration: underline;
-}
-
-.trans-divider {
-  color: var(--line);
-  font-size: 12px;
+  border-radius: 6px;
+  padding: 20px;
+  box-shadow: 0 4px 20px var(--shadow);
+  max-height: calc(100vh - 170px);
+  overflow-y: auto;
 }
 
 .passage-meta-header {
