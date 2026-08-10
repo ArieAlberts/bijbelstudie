@@ -312,6 +312,7 @@ button, input, select, textarea {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  position: relative;
 }
 
 .reader-standalone-nav {
@@ -425,44 +426,45 @@ button, input, select, textarea {
   font-weight: 600;
 }
 
-/* Lexicon Popover Dialog */
-.lexicon-backdrop {
-  position: fixed;
-  inset: 0;
-  z-index: 200;
-  background: rgba(38, 29, 22, 0.45);
-  backdrop-filter: blur(4px);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-}
-
-.lexicon-popover {
+/* Speech Balloon Lexicon Popover (No dimming backdrop) */
+.lexicon-balloon {
   background: var(--white);
   border: 1px solid var(--line);
   border-radius: 8px;
-  max-width: 480px;
-  width: 100%;
-  padding: 24px;
-  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.2);
+  max-width: 360px;
+  width: 90vw;
+  padding: 18px 20px;
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.18);
   outline: none;
-  animation: popoverFadeIn 0.2s ease-out;
+  animation: balloonPopIn 0.18s cubic-bezier(0.16, 1, 0.3, 1);
+  font-size: 14px;
 }
 
-@keyframes popoverFadeIn {
-  from { opacity: 0; transform: scale(0.96); }
-  to { opacity: 1; transform: scale(1); }
+.balloon-arrow {
+  position: absolute;
+  top: -7px;
+  left: 24px;
+  width: 12px;
+  height: 12px;
+  background: var(--white);
+  border-left: 1px solid var(--line);
+  border-top: 1px solid var(--line);
+  transform: rotate(45deg);
+}
+
+@keyframes balloonPopIn {
+  from { opacity: 0; transform: translateY(6px) scale(0.97); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
 }
 
 .popover-header {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  gap: 12px;
-  margin-bottom: 16px;
+  gap: 10px;
+  margin-bottom: 12px;
   border-bottom: 1px solid var(--line);
-  padding-bottom: 12px;
+  padding-bottom: 8px;
 }
 
 .popover-title-group {
@@ -474,7 +476,7 @@ button, input, select, textarea {
 
 .popover-lemma {
   font-family: "Source Serif 4", Georgia, serif;
-  font-size: 26px;
+  font-size: 22px;
   font-weight: 700;
   color: var(--ink);
 }
@@ -482,14 +484,14 @@ button, input, select, textarea {
 .popover-translit {
   font-style: italic;
   color: var(--muted);
-  font-size: 16px;
+  font-size: 14.5px;
 }
 
 .popover-strong {
   background: var(--soft);
   padding: 2px 8px;
   border-radius: 4px;
-  font-size: 12px;
+  font-size: 11.5px;
   font-weight: 700;
   color: var(--accent);
 }
@@ -511,11 +513,11 @@ button, input, select, textarea {
 .popover-body {
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 12px;
 }
 
 .popover-label {
-  font-size: 12.5px;
+  font-size: 11.5px;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   font-weight: 700;
@@ -523,17 +525,17 @@ button, input, select, textarea {
 }
 
 .popover-gloss {
-  font-size: 17px;
+  font-size: 15.5px;
   font-weight: 600;
   color: var(--ink);
 }
 
 .popover-warning blockquote {
   margin: 0;
-  padding: 10px 14px;
+  padding: 8px 12px;
   background: var(--paper);
   border-left: 3px solid var(--accent);
-  font-size: 13.5px;
+  font-size: 12.5px;
   color: var(--muted);
   font-style: italic;
 }
@@ -541,14 +543,14 @@ button, input, select, textarea {
 .popover-external-links {
   display: flex;
   gap: 12px;
-  margin-top: 8px;
+  margin-top: 4px;
 }
 
 .popover-ext-link {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  font-size: 13.5px;
+  font-size: 13px;
   font-weight: 600;
   color: var(--accent-dark);
 }

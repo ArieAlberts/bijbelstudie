@@ -10,6 +10,7 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [selectedEntry, setSelectedEntry] = useState(null);
+  const [selectedRect, setSelectedRect] = useState(null);
 
   useEffect(() => {
     setSection(initialSection);
@@ -19,6 +20,8 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
     let isMounted = true;
     setLoading(true);
     setError(null);
+    setSelectedEntry(null);
+    setSelectedRect(null);
 
     fetchBiblePassage(studyId, section)
       .then((data) => {
@@ -27,7 +30,7 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
           setLoading(false);
         }
       })
-      .catch((err) => {
+      .catch(() => {
         if (isMounted) {
           setError(isEn ? 'Passage currently unavailable.' : 'Bijbelgedeelte momenteel niet beschikbaar.');
           setLoading(false);
@@ -42,13 +45,30 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
     if (onSectionChange) onSectionChange(newSec);
   };
 
-  const openLexicon = (lemmaId, strongTag) => {
-    if (!passageData || !passageData.lexicon) return;
-    const entry = (lemmaId && passageData.lexicon[lemmaId]) ||
-      Object.values(passageData.lexicon).find(e => e.strong === strongTag) ||
-      (strongTag && passageData.lexicon[strongTag]);
+  const openLexicon = (event, lemmaId, strongTag) => {
+    const rect = event.currentTarget.getBoundingClientRect();
+
+    let entry = (lemmaId && passageData?.lexicon?.[lemmaId]) ||
+      (strongTag && passageData?.lexicon?.[strongTag]) ||
+      Object.values(passageData?.lexicon || {}).find(e => e.strong === strongTag);
+
+    // Dynamic resolution fallback for Haftara & Evangelie Strong's entries
+    if (!entry && strongTag) {
+      const isGrk = strongTag.startsWith('G');
+      entry = {
+        strong: strongTag,
+        language: isGrk ? 'greek' : 'hebrew',
+        lemma: isGrk ? 'Grondwoord' : 'Grondwoord',
+        translit: strongTag,
+        gloss: isGrk
+          ? `Griekse grondtekst sleutel ${strongTag} (bekijk in STEP Bible / Bible Hub)`
+          : `Hebreeuwse grondtekst sleutel ${strongTag} (bekijk in STEP Bible / Bible Hub)`
+      };
+    }
+
     if (entry) {
       setSelectedEntry(entry);
+      setSelectedRect(rect);
     }
   };
 
@@ -70,7 +90,7 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
           key={idx}
           type="button"
           className="token-btn verified-btn"
-          onClick={() => openLexicon(align.lemmaId, align.strong)}
+          onClick={(e) => openLexicon(e, align.lemmaId, align.strong)}
           title={`${align.surface} → ${align.strong}`}
         >
           {align.surface}
@@ -92,7 +112,7 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
       <span>
         {tokens.map((tok, idx) => {
           if (tok.s) {
-            const lemmaId = Object.keys(passageData.lexicon || {}).find(
+            const lemmaId = Object.keys(passageData?.lexicon || {}).find(
               key => passageData.lexicon[key].strong === tok.s
             );
             return (
@@ -100,7 +120,7 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
                 <button
                   type="button"
                   className="token-btn"
-                  onClick={() => openLexicon(lemmaId, tok.s)}
+                  onClick={(e) => openLexicon(e, lemmaId, tok.s)}
                 >
                   {tok.t}
                 </button>{' '}
@@ -179,10 +199,11 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
         )}
       </div>
 
-      {/* Ground-word Lexicon Popover Dialog */}
+      {/* Speech Balloon Lexicon Popover (No dimming backdrop) */}
       {selectedEntry && (
         <LexiconPopover
           entry={selectedEntry}
+          targetRect={selectedRect}
           onClose={() => setSelectedEntry(null)}
           lang={lang}
         />
