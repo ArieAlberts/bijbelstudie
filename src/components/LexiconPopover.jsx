@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { ExternalLink, X } from 'lucide-react';
+import { X } from 'lucide-react';
 
 export default function LexiconPopover({ entry, targetRect, onClose, lang = 'nl' }) {
   if (!entry) return null;
@@ -24,18 +24,11 @@ export default function LexiconPopover({ entry, targetRect, onClose, lang = 'nl'
     };
   }, [onClose]);
 
-  const stepBibleUrl = `https://www.stepbible.org/?q=version=KJV|version=OHB|strong=${entry.strong}`;
-  const isGreek = entry.language === 'greek' || (entry.strong && entry.strong.startsWith('G'));
-  const cleanStrongNum = entry.strong ? entry.strong.replace(/[HG]/, '') : '';
-  const bibleHubUrl = isGreek
-    ? `https://biblehub.com/greek/${cleanStrongNum}.htm`
-    : `https://biblehub.com/hebrew/${cleanStrongNum}.htm`;
-
   // Calculate fixed position right next to the clicked word element
   let popoverStyle = {};
   if (targetRect) {
     const popoverWidth = 350;
-    const popoverHeight = 220;
+    const popoverHeight = 180;
 
     let top = targetRect.bottom + 8;
     if (top + popoverHeight > window.innerHeight) {
@@ -101,28 +94,6 @@ export default function LexiconPopover({ entry, targetRect, onClose, lang = 'nl'
               ? 'Context Warning: Ground-word meanings offer linguistic nuance; they do not replace the verse in its textual context.'
               : 'Contextwaarschuwing: Grondwoorden geven taalkundige verdieping; zij vervangen de Bijbeltekst in zijn verband niet.'}
           </blockquote>
-        </div>
-
-        <div className="popover-external-links">
-          <a
-            href={stepBibleUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="popover-ext-link"
-          >
-            <ExternalLink size={13} />
-            <span>STEP Bible</span>
-          </a>
-
-          <a
-            href={bibleHubUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="popover-ext-link"
-          >
-            <ExternalLink size={13} />
-            <span>Bible Hub</span>
-          </a>
         </div>
       </div>
     </div>
