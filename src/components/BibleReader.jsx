@@ -11,32 +11,50 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
   const [selectedEntry, setSelectedEntry] = useState(null);
 
   useEffect(() => {
+    setSection(initialSection);
+  }, [initialSection]);
+
+  useEffect(() => {
     let isMounted = true;
     setLoading(true);
     setError(null);
 
-    const dataUrl = `../data/bible/${studyId}-${section}.json`;
+    const basePrefix = window.location.pathname.includes('/nl/') || window.location.pathname.includes('/en/') ? '../' : './';
+    const candidateUrls = [
+      `${basePrefix}data/bible/${studyId}-${section}.json`,
+      `/data/bible/${studyId}-${section}.json`,
+      `./data/bible/${studyId}-${section}.json`,
+      `../data/bible/${studyId}-${section}.json`
+    ];
 
-    fetch(dataUrl)
-      .then((res) => {
-        if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        return res.json();
-      })
-      .then((data) => {
-        if (isMounted) {
-          setPassageData(data);
-          setLoading(false);
-        }
-      })
-      .catch((err) => {
-        if (isMounted) {
-          setError(err.message);
-          setLoading(false);
-        }
-      });
+    let fetchSuccess = false;
+
+    const tryFetch = async () => {
+      for (const url of candidateUrls) {
+        try {
+          const res = await fetch(url);
+          if (res.ok) {
+            const data = await res.json();
+            if (isMounted) {
+              setPassageData(data);
+              setLoading(false);
+              fetchSuccess = true;
+            }
+            break;
+          }
+        } catch (_) {}
+      }
+
+      if (!fetchSuccess && isMounted) {
+        setError(isEn ? 'Passage currently unavailable.' : 'Bijbelgedeelte momenteel niet beschikbaar.');
+        setLoading(false);
+      }
+    };
+
+    tryFetch();
 
     return () => { isMounted = false; };
-  }, [studyId, section]);
+  }, [studyId, section, isEn]);
 
   const handleSectionSelect = (newSec) => {
     setSection(newSec);
@@ -45,7 +63,7 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
 
   const openLexicon = (lemmaId, strongTag) => {
     if (!passageData || !passageData.lexicon) return;
-    const entry = passageData.lexicon[lemmaId] ||
+    const entry = (lemmaId && passageData.lexicon[lemmaId]) ||
       Object.values(passageData.lexicon).find(e => e.strong === strongTag);
     if (entry) {
       setSelectedEntry(entry);
@@ -58,7 +76,6 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
 
     if (!alignments.length) return <span>{text}</span>;
 
-    // Render verified alignments as interactive tokens
     let lastIndex = 0;
     const parts = [];
 
@@ -93,7 +110,6 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
       <span>
         {tokens.map((tok, idx) => {
           if (tok.s) {
-            // Find lemmaId corresponding to strong
             const lemmaId = Object.keys(passageData.lexicon || {}).find(
               key => passageData.lexicon[key].strong === tok.s
             );
@@ -172,14 +188,14 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
 
         {error && (
           <div className="reader-error">
-            {isEn ? 'Passage currently unavailable.' : 'Bijbelgedeelte momenteel niet beschikbaar.'}
+            {error}
           </div>
         )}
 
         {!loading && !error && passageData && (
           <>
             <div className="passage-meta-header">
-              <h2 className="passage-title">{passageData.ref[lang] || passageData.ref.nl}</h2>
+              <h2 className="passage-title">{passageData.ref ? (passageData.ref[lang] || passageData.ref.nl) : ''}</h2>
               <div className="passage-subtitle">
                 {translation === 'sv' ? 'Statenvertaling (SV)' : 'King James Version (KJV)'}
               </div>
