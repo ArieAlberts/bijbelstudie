@@ -5,7 +5,7 @@ export default function DraggableStepWindow({ passageRef, iframeUrl, onClose, la
   const isEn = lang === 'en';
   const windowRef = useRef(null);
   const [position, setPosition] = useState({
-    x: Math.max(20, (typeof window !== 'undefined' ? window.innerWidth : 1200) - 680),
+    x: Math.max(10, (typeof window !== 'undefined' ? window.innerWidth : 1200) - 680),
     y: 85
   });
   const [isDragging, setIsDragging] = useState(false);
@@ -13,6 +13,7 @@ export default function DraggableStepWindow({ passageRef, iframeUrl, onClose, la
   const [isMaximized, setIsMaximized] = useState(false);
   const [isMinimized, setIsMinimized] = useState(false);
 
+  // Mouse Drag Handler
   const handleMouseDown = (e) => {
     if (isMaximized || isMinimized) return;
     setIsDragging(true);
@@ -22,25 +23,46 @@ export default function DraggableStepWindow({ passageRef, iframeUrl, onClose, la
     });
   };
 
+  // Touch Drag Handler for Tablets & Phones
+  const handleTouchStart = (e) => {
+    if (isMaximized || isMinimized || !e.touches[0]) return;
+    setIsDragging(true);
+    setDragOffset({
+      x: e.touches[0].clientX - position.x,
+      y: e.touches[0].clientY - position.y
+    });
+  };
+
   useEffect(() => {
     const handleMouseMove = (e) => {
       if (!isDragging) return;
-      const newX = Math.max(10, Math.min(window.innerWidth - 300, e.clientX - dragOffset.x));
-      const newY = Math.max(10, Math.min(window.innerHeight - 100, e.clientY - dragOffset.y));
+      const newX = Math.max(5, Math.min(window.innerWidth - 120, e.clientX - dragOffset.x));
+      const newY = Math.max(5, Math.min(window.innerHeight - 80, e.clientY - dragOffset.y));
       setPosition({ x: newX, y: newY });
     };
 
-    const handleMouseUp = () => {
+    const handleTouchMove = (e) => {
+      if (!isDragging || !e.touches[0]) return;
+      const newX = Math.max(5, Math.min(window.innerWidth - 120, e.touches[0].clientX - dragOffset.x));
+      const newY = Math.max(5, Math.min(window.innerHeight - 80, e.touches[0].clientY - dragOffset.y));
+      setPosition({ x: newX, y: newY });
+    };
+
+    const handleDragEnd = () => {
       setIsDragging(false);
     };
 
     if (isDragging) {
       window.addEventListener('mousemove', handleMouseMove);
-      window.addEventListener('mouseup', handleMouseUp);
+      window.addEventListener('mouseup', handleDragEnd);
+      window.addEventListener('touchmove', handleTouchMove, { passive: true });
+      window.addEventListener('touchend', handleDragEnd);
     }
     return () => {
       window.removeEventListener('mousemove', handleMouseMove);
-      window.removeEventListener('mouseup', handleMouseUp);
+      window.removeEventListener('mouseup', handleDragEnd);
+      window.removeEventListener('touchmove', handleTouchMove);
+      window.removeEventListener('touchend', handleDragEnd);
     };
   }, [isDragging, dragOffset]);
 
@@ -61,17 +83,22 @@ export default function DraggableStepWindow({ passageRef, iframeUrl, onClose, la
       className={`draggable-step-window ${isMaximized ? 'maximized' : ''}`}
       style={isMaximized ? {} : { top: `${position.y}px`, left: `${position.x}px` }}
     >
-      {/* Draggable Header Bar */}
+      {/* Draggable Header Bar (Mouse & Touch Enabled) */}
       <div
         className="step-window-header"
         onMouseDown={handleMouseDown}
-        title={isEn ? "Click and drag to move window" : "Klik en sleep om venster te verplaatsen"}
+        onTouchStart={handleTouchStart}
+        title={isEn ? "Click or touch and drag to move window" : "Klik/raak aan en sleep om venster te verplaatsen"}
       >
         <div className="header-title-group">
           <Move size={16} className="drag-handle-icon" />
           <span className="step-window-title">STEP Bible — {passageRef}</span>
         </div>
-        <div className="step-window-actions" onMouseDown={(e) => e.stopPropagation()}>
+        <div
+          className="step-window-actions"
+          onMouseDown={(e) => e.stopPropagation()}
+          onTouchStart={(e) => e.stopPropagation()}
+        >
           <button
             type="button"
             className="window-btn"

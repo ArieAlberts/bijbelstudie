@@ -418,6 +418,7 @@ button, input, select, textarea {
   justify-content: space-between;
   cursor: move;
   user-select: none;
+  touch-action: none;
 }
 
 .header-title-group {
@@ -442,10 +443,13 @@ button, input, select, textarea {
 .window-btn {
   border: 0;
   background: transparent;
-  padding: 4px;
+  padding: 6px;
   border-radius: 4px;
   cursor: pointer;
   color: var(--muted);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .window-btn:hover {
@@ -499,6 +503,27 @@ button, input, select, textarea {
 
 .draggable-step-minimized:hover {
   background: var(--accent-dark);
+}
+
+/* Tablet & Mobile Breakpoint Adjustments for Floating Window & Reader */
+@media (max-width: 768px) {
+  .draggable-step-window {
+    width: 96vw !important;
+    left: 2vw !important;
+    top: 65px !important;
+    height: clamp(380px, 70vh, 580px);
+  }
+
+  .step-window-body {
+    height: calc(100% - 42px);
+  }
+
+  .draggable-step-minimized {
+    bottom: 15px;
+    right: 15px;
+    left: 15px;
+    justify-content: space-between;
+  }
 }
 
 /* Bible Reader Scrollable Text Card Styling */
