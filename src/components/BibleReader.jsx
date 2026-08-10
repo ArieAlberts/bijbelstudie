@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import LexiconPopover from './LexiconPopover';
+import { fetchBiblePassage } from '../api/bible';
 
 export default function BibleReader({ studyId = 'shoftim', initialSection = 'parasha', lang = 'nl', onSectionChange }) {
   const isEn = lang === 'en';
@@ -19,39 +20,19 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
     setLoading(true);
     setError(null);
 
-    const basePrefix = window.location.pathname.includes('/nl/') || window.location.pathname.includes('/en/') ? '../' : './';
-    const candidateUrls = [
-      `${basePrefix}data/bible/${studyId}-${section}.json`,
-      `/data/bible/${studyId}-${section}.json`,
-      `./data/bible/${studyId}-${section}.json`,
-      `../data/bible/${studyId}-${section}.json`
-    ];
-
-    let fetchSuccess = false;
-
-    const tryFetch = async () => {
-      for (const url of candidateUrls) {
-        try {
-          const res = await fetch(url);
-          if (res.ok) {
-            const data = await res.json();
-            if (isMounted) {
-              setPassageData(data);
-              setLoading(false);
-              fetchSuccess = true;
-            }
-            break;
-          }
-        } catch (_) {}
-      }
-
-      if (!fetchSuccess && isMounted) {
-        setError(isEn ? 'Passage currently unavailable.' : 'Bijbelgedeelte momenteel niet beschikbaar.');
-        setLoading(false);
-      }
-    };
-
-    tryFetch();
+    fetchBiblePassage(studyId, section)
+      .then((data) => {
+        if (isMounted) {
+          setPassageData(data);
+          setLoading(false);
+        }
+      })
+      .catch((err) => {
+        if (isMounted) {
+          setError(isEn ? 'Passage currently unavailable.' : 'Bijbelgedeelte momenteel niet beschikbaar.');
+          setLoading(false);
+        }
+      });
 
     return () => { isMounted = false; };
   }, [studyId, section, isEn]);
@@ -182,7 +163,7 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
       <div className="reader-content-body">
         {loading && (
           <div className="reader-loading">
-            {isEn ? 'Loading Bible passage...' : 'Bijbelpassage laden...'}
+            {isEn ? 'Loading Bible passage via API...' : 'Bijbelpassage via API laden...'}
           </div>
         )}
 

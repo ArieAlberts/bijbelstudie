@@ -100,30 +100,47 @@ if (navContainer) {
   ReactDOM.createRoot(navContainer).render(<HeaderApp />);
 }
 
-// Workspace Component combining Hero & Integrated Bible Reader
-function WorkspaceWrapper() {
+// Mount Worksheet Hero (Top)
+function HeroWrapper() {
   const isEnglish = document.documentElement.lang === 'en';
-  const [selectedStudy, setSelectedStudy] = useState('shoftim');
-
   return (
-    <div>
-      <WorksheetHero
-        lang={isEnglish ? 'en' : 'nl'}
-        onStudyChange={(id) => setSelectedStudy(id)}
-      />
-      <div style={{ marginBottom: '24px' }}>
-        <BibleReader
-          studyId={selectedStudy}
-          initialSection="parasha"
-          lang={isEnglish ? 'en' : 'nl'}
-        />
-      </div>
-    </div>
+    <WorksheetHero
+      lang={isEnglish ? 'en' : 'nl'}
+      onStudyChange={(id) => {
+        window.dispatchEvent(new CustomEvent('study-changed', { detail: { studyId: id } }));
+      }}
+    />
   );
 }
 
-// Mount Workspace Hero & Bible Reader
 const heroContainer = document.getElementById('react-worksheet-hero-root');
 if (heroContainer) {
-  ReactDOM.createRoot(heroContainer).render(<WorkspaceWrapper />);
+  ReactDOM.createRoot(heroContainer).render(<HeroWrapper />);
+}
+
+// Mount Bible Reader (Right Side of Desktop Grid)
+function BibleReaderWrapper() {
+  const isEnglish = document.documentElement.lang === 'en';
+  const [selectedStudy, setSelectedStudy] = useState('shoftim');
+
+  useEffect(() => {
+    const handleStudyChange = (e) => {
+      if (e.detail?.studyId) setSelectedStudy(e.detail.studyId);
+    };
+    window.addEventListener('study-changed', handleStudyChange);
+    return () => window.removeEventListener('study-changed', handleStudyChange);
+  }, []);
+
+  return (
+    <BibleReader
+      studyId={selectedStudy}
+      initialSection="parasha"
+      lang={isEnglish ? 'en' : 'nl'}
+    />
+  );
+}
+
+const readerContainer = document.getElementById('react-bible-reader-root');
+if (readerContainer) {
+  ReactDOM.createRoot(readerContainer).render(<BibleReaderWrapper />);
 }

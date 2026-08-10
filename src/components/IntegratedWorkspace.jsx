@@ -7,7 +7,6 @@ export default function IntegratedWorkspace({ lang }) {
   const [activeSection, setActiveSection] = useState('parasha');
 
   useEffect(() => {
-    // Listen to worksheet step scroll/focus events to recommend section context without overwriting manual state
     const handleStepContext = (e) => {
       const step = e.detail?.step;
       if (!step) return;
@@ -28,18 +27,18 @@ export default function IntegratedWorkspace({ lang }) {
         onStudyChange={(id) => setSelectedStudyId(id)}
       />
 
-      {/* Workspace Split Grid */}
+      {/* Workspace Split Grid: LEFT = Invulvelden (Worksheet), RIGHT = Sticky Bible Reader */}
       <div className="workspace-grid">
         <div className="workspace-left">
+          {/* Static HTML #werkblad stappen render here on the left */}
+        </div>
+        <div className="workspace-right">
           <BibleReader
             studyId={selectedStudyId}
             initialSection={activeSection}
             lang={lang}
             onSectionChange={(sec) => setActiveSection(sec)}
           />
-        </div>
-        <div className="workspace-right">
-          {/* Static HTML #werkblad is rendered here in the DOM */}
         </div>
       </div>
     </div>

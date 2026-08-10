@@ -65,7 +65,7 @@ button, input, select, textarea {
 }
 
 .navbar-container {
-  max-width: 1240px;
+  max-width: 1280px;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -255,37 +255,58 @@ button, input, select, textarea {
 
 /* Main Container Layout */
 .app-container {
-  max-width: 1240px;
+  max-width: 1280px;
   margin: 0 auto;
   padding: 24px 20px 80px;
 }
 
-/* Integrated Workspace Split Grid (Desktop >= 1000px) */
-.workspace-grid {
-  display: grid;
-  grid-template-columns: minmax(0, 1.35fr) minmax(360px, 0.95fr);
-  gap: 28px;
-  align-items: start;
-}
+/* Desktop Split Layout for #werkblad (>= 1000px): Invulvelden LEFT (Col 1), Reader RIGHT (Col 2) */
+@media (min-width: 1000px) {
+  #werkblad, #worksheet {
+    display: grid;
+    grid-template-columns: minmax(360px, 1fr) minmax(0, 1.25fr);
+    gap: 32px;
+    align-items: start;
+  }
 
-.workspace-left {
-  position: sticky;
-  top: 85px;
-  max-height: calc(100vh - 100px);
-  overflow-y: auto;
-  padding-right: 4px;
+  #react-worksheet-hero-root {
+    grid-column: 1 / -1;
+  }
+
+  /* All Worksheet HTML Elements placed on the LEFT (Column 1) */
+  #werkblad > .u-977d7bc094,
+  #werkblad > .u-f5a1dd8132,
+  #werkblad > .u-c8c1034933,
+  #werkblad > .u-c3b4a33499,
+  #werkblad > .u-7316ba8ecc,
+  #werkblad > .u-b0831f2732,
+  #werkblad > .u-ea9b30720c,
+  #worksheet > .u-977d7bc094,
+  #worksheet > .u-f5a1dd8132,
+  #worksheet > .u-c8c1034933,
+  #worksheet > .u-c3b4a33499,
+  #worksheet > .u-7316ba8ecc,
+  #worksheet > .u-b0831f2732,
+  #worksheet > .u-ea9b30720c {
+    grid-column: 1;
+  }
+
+  /* Sticky Bible Reader placed on the RIGHT (Column 2) */
+  #react-bible-reader-root {
+    grid-column: 2;
+    grid-row: 2 / span 12;
+    position: sticky;
+    top: 85px;
+    max-height: calc(100vh - 105px);
+    overflow-y: auto;
+    padding-right: 4px;
+  }
 }
 
 @media (max-width: 999px) {
-  .workspace-grid {
-    grid-template-columns: 1fr;
-    gap: 24px;
-  }
-
-  .workspace-left {
-    position: static;
-    max-height: none;
-    overflow-y: visible;
+  #react-bible-reader-root {
+    margin-top: 24px;
+    margin-bottom: 24px;
   }
 }
 
@@ -562,8 +583,8 @@ button, input, select, textarea {
 
 /* Hero Section */
 .hero-card {
-  max-width: 880px;
-  margin: 0 auto 32px;
+  max-width: 100%;
+  margin: 0 0 28px;
   padding: 36px 28px;
   background: var(--white);
   border: 1px solid var(--line);

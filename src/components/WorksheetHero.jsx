@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Download, Upload, RotateCcw, BookOpen } from 'lucide-react';
+import { fetchPassagesIndex } from '../api/bible';
 
-export default function WorksheetHero({ lang, onStudyChange, onSectionSelect }) {
+export default function WorksheetHero({ lang, onStudyChange }) {
   const isEn = lang === 'en';
   const [studies, setStudies] = useState([
     {
@@ -38,35 +39,18 @@ export default function WorksheetHero({ lang, onStudyChange, onSectionSelect }) 
   const [selectedStudyId, setSelectedStudyId] = useState('shoftim');
 
   useEffect(() => {
-    const basePrefix = window.location.pathname.includes('/nl/') || window.location.pathname.includes('/en/') ? '../' : './';
-    const candidateUrls = [
-      `${basePrefix}data/passages.json`,
-      `/data/passages.json`,
-      `./data/passages.json`,
-      `../data/passages.json`
-    ];
-
-    const tryFetchPassages = async () => {
-      for (const url of candidateUrls) {
-        try {
-          const res = await fetch(url);
-          if (res.ok) {
-            const data = await res.json();
-            if (data.studies && data.studies.length) {
-              setStudies(data.studies);
-              const activeItem = data.studies.find(s => s.current) || data.studies[0];
-              if (activeItem) {
-                setSelectedStudyId(activeItem.id);
-                if (onStudyChange) onStudyChange(activeItem.id);
-              }
-            }
-            break;
+    fetchPassagesIndex()
+      .then(data => {
+        if (data.studies && data.studies.length) {
+          setStudies(data.studies);
+          const activeItem = data.studies.find(s => s.current) || data.studies[0];
+          if (activeItem) {
+            setSelectedStudyId(activeItem.id);
+            if (onStudyChange) onStudyChange(activeItem.id);
           }
-        } catch (_) {}
-      }
-    };
-
-    tryFetchPassages();
+        }
+      })
+      .catch(() => {});
   }, []);
 
   const handleStudySelect = (id) => {
@@ -85,9 +69,6 @@ export default function WorksheetHero({ lang, onStudyChange, onSectionSelect }) 
 
   const safeGetStorage = (key) => {
     try { return localStorage.getItem(key); } catch (_) { return null; }
-  };
-  const safeSetStorage = (key, val) => {
-    try { localStorage.setItem(key, val); } catch (_) {}
   };
   const safeRemoveStorage = (key) => {
     try { localStorage.removeItem(key); } catch (_) {}
@@ -205,7 +186,7 @@ export default function WorksheetHero({ lang, onStudyChange, onSectionSelect }) 
 
         <button type="button" className="btn-secondary" onClick={handleImportJSON}>
           <Upload className="btn-icon" size={16} />
-          <span>{isEn ? 'Import (JSON)' : 'Importeer (JSON)'}</span>
+          <span>{isEn ? 'Importeer (JSON)' : 'Importeer (JSON)'}</span>
         </button>
 
         <button type="button" className="btn-secondary btn-reset" onClick={handleReset}>
