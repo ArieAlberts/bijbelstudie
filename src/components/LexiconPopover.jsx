@@ -31,19 +31,28 @@ export default function LexiconPopover({ entry, targetRect, onClose, lang = 'nl'
     ? `https://biblehub.com/greek/${cleanStrongNum}.htm`
     : `https://biblehub.com/hebrew/${cleanStrongNum}.htm`;
 
-  // Calculate inline balloon position relative to window viewport
+  // Calculate fixed position right next to the clicked word element
   let popoverStyle = {};
   if (targetRect) {
-    const top = Math.max(10, targetRect.bottom + window.scrollY + 8);
-    const left = Math.min(
-      window.innerWidth - 380,
-      Math.max(10, targetRect.left + window.scrollX - 140)
-    );
+    const popoverWidth = 350;
+    const popoverHeight = 220;
+
+    let top = targetRect.bottom + 8;
+    if (top + popoverHeight > window.innerHeight) {
+      top = Math.max(10, targetRect.top - popoverHeight - 8);
+    }
+
+    let left = targetRect.left - 20;
+    if (left + popoverWidth > window.innerWidth - 20) {
+      left = window.innerWidth - popoverWidth - 20;
+    }
+    if (left < 20) left = 20;
+
     popoverStyle = {
-      position: 'absolute',
+      position: 'fixed',
       top: `${top}px`,
       left: `${left}px`,
-      zIndex: 1000
+      zIndex: 9999
     };
   }
 
@@ -55,7 +64,7 @@ export default function LexiconPopover({ entry, targetRect, onClose, lang = 'nl'
       role="dialog"
       aria-labelledby="popover-lemma-title"
     >
-      {/* Balloon Pointer Arrow */}
+      {/* Speech Balloon Pointer Arrow */}
       <div className="balloon-arrow"></div>
 
       <div className="popover-header">

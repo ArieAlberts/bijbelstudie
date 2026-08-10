@@ -45,7 +45,7 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
     if (onSectionChange) onSectionChange(newSec);
   };
 
-  const openLexicon = (event, lemmaId, strongTag) => {
+  const openLexicon = (event, lemmaId, strongTag, surfaceText) => {
     const rect = event.currentTarget.getBoundingClientRect();
 
     let entry = (lemmaId && passageData?.lexicon?.[lemmaId]) ||
@@ -58,11 +58,11 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
       entry = {
         strong: strongTag,
         language: isGrk ? 'greek' : 'hebrew',
-        lemma: isGrk ? 'Grondwoord' : 'Grondwoord',
+        lemma: surfaceText || (isGrk ? 'Grondwoord' : 'Grondwoord'),
         translit: strongTag,
         gloss: isGrk
-          ? `Griekse grondtekst sleutel ${strongTag} (bekijk in STEP Bible / Bible Hub)`
-          : `Hebreeuwse grondtekst sleutel ${strongTag} (bekijk in STEP Bible / Bible Hub)`
+          ? `Griekse grondtekst sleutel ${strongTag} (Bekijk in STEP Bible & Bible Hub)`
+          : `Hebreeuwse grondtekst sleutel ${strongTag} (Bekijk in STEP Bible & Bible Hub)`
       };
     }
 
@@ -90,7 +90,7 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
           key={idx}
           type="button"
           className="token-btn verified-btn"
-          onClick={(e) => openLexicon(e, align.lemmaId, align.strong)}
+          onClick={(e) => openLexicon(e, align.lemmaId, align.strong, align.surface)}
           title={`${align.surface} → ${align.strong}`}
         >
           {align.surface}
@@ -120,7 +120,7 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
                 <button
                   type="button"
                   className="token-btn"
-                  onClick={(e) => openLexicon(e, lemmaId, tok.s)}
+                  onClick={(e) => openLexicon(e, lemmaId, tok.s, tok.t)}
                 >
                   {tok.t}
                 </button>{' '}
@@ -199,7 +199,7 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
         )}
       </div>
 
-      {/* Speech Balloon Lexicon Popover (No dimming backdrop) */}
+      {/* Fixed Speech Balloon Lexicon Popover (No dimming backdrop) */}
       {selectedEntry && (
         <LexiconPopover
           entry={selectedEntry}
