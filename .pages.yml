@@ -1,0 +1,83 @@
+media:
+  input: public/assets
+  output: /assets
+content:
+  - name: parasjot
+    label: Parasjalezingen
+    type: collection
+    path: content/parasjot
+    format: yaml-frontmatter
+    slug: "{{fields.id}}"
+    fields:
+      - name: id
+        label: ID / Slug
+        type: string
+        required: true
+      - name: parasha
+        label: Parasja Naam
+        type: string
+        required: true
+      - name: label
+        label: Labels per taal
+        type: object
+        fields:
+          - name: nl
+            label: Label NL
+            type: string
+          - name: en
+            label: Label EN
+            type: string
+      - name: status
+        label: Status
+        type: select
+        options:
+          - published
+          - draft
+        default: published
+      - name: current
+        label: Huidige week / Actueel
+        type: boolean
+        default: false
+      - name: published_at
+        label: Publicatiedatum
+        type: date
+      - name: title_nl
+        label: Titel (NL)
+        type: string
+      - name: title_en
+        label: Title (EN)
+        type: string
+      - name: summary_nl
+        label: Samenvatting (NL)
+        type: rich-text
+      - name: summary_en
+        label: Summary (EN)
+        type: rich-text
+      - name: passages
+        label: Bijbelpassages
+        type: list
+        fields:
+          - name: role
+            label: Rol
+            type: select
+            options:
+              - parasha
+              - haftara
+              - gospel
+          - name: osis
+            label: OSIS Verwijzing (bijv. Deut.16.18-Deut.21.9)
+            type: string
+            required: true
+          - name: ref
+            label: Weergave Verwijzing
+            type: object
+            fields:
+              - name: nl
+                label: Verwijzing NL
+                type: string
+              - name: en
+                label: Reference EN
+                type: string
+      - name: body
+        label: Redactionele Lezing (Markdown)
+        type: rich-text

@@ -1,0 +1,224 @@
+{
+  "study": "shoftim",
+  "role": "haftara",
+  "osis": "Isa.51.12-Isa.52.12",
+  "ref": {
+    "nl": "Jesaja 51:12–52:12",
+    "en": "Isaiah 51:12–52:12"
+  },
+  "testament": "OT",
+  "verses": [
+    {
+      "osis": "Isa.51.12",
+      "ref": "51:12",
+      "sv": "Ik, Ik ben het, Die u troost; wie zijt gij, dat gij vreest voor een mens, die sterven zal, en voor een mensenzoon, die als gras zal worden overgegeven?",
+      "kjv": [
+        {
+          "t": "I, even I, am he that comforteth",
+          "s": "H5162"
+        },
+        {
+          "t": "you: who art thou, that thou shouldest be afraid",
+          "s": "H3372"
+        },
+        {
+          "t": "of a man",
+          "s": "H0582"
+        },
+        {
+          "t": "that shall die,",
+          "s": "H4191"
+        },
+        {
+          "t": "and of the son",
+          "s": "H1121"
+        },
+        {
+          "t": "of man",
+          "s": "H0120"
+        },
+        {
+          "t": "which shall be made",
+          "s": "H5414"
+        },
+        {
+          "t": "as grass;",
+          "s": "H2682"
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Isa.52.1",
+      "ref": "52:1",
+      "sv": "[Vers 52:1 uit de Statenvertaling]",
+      "kjv": [
+        {
+          "t": "[Verse 52:1 from KJV]",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Isa.52.2",
+      "ref": "52:2",
+      "sv": "[Vers 52:2 uit de Statenvertaling]",
+      "kjv": [
+        {
+          "t": "[Verse 52:2 from KJV]",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Isa.52.3",
+      "ref": "52:3",
+      "sv": "[Vers 52:3 uit de Statenvertaling]",
+      "kjv": [
+        {
+          "t": "[Verse 52:3 from KJV]",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Isa.52.4",
+      "ref": "52:4",
+      "sv": "[Vers 52:4 uit de Statenvertaling]",
+      "kjv": [
+        {
+          "t": "[Verse 52:4 from KJV]",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Isa.52.5",
+      "ref": "52:5",
+      "sv": "[Vers 52:5 uit de Statenvertaling]",
+      "kjv": [
+        {
+          "t": "[Verse 52:5 from KJV]",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Isa.52.6",
+      "ref": "52:6",
+      "sv": "[Vers 52:6 uit de Statenvertaling]",
+      "kjv": [
+        {
+          "t": "[Verse 52:6 from KJV]",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Isa.52.7",
+      "ref": "52:7",
+      "sv": "[Vers 52:7 uit de Statenvertaling]",
+      "kjv": [
+        {
+          "t": "[Verse 52:7 from KJV]",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Isa.52.8",
+      "ref": "52:8",
+      "sv": "[Vers 52:8 uit de Statenvertaling]",
+      "kjv": [
+        {
+          "t": "[Verse 52:8 from KJV]",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Isa.52.9",
+      "ref": "52:9",
+      "sv": "[Vers 52:9 uit de Statenvertaling]",
+      "kjv": [
+        {
+          "t": "[Verse 52:9 from KJV]",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Isa.52.10",
+      "ref": "52:10",
+      "sv": "[Vers 52:10 uit de Statenvertaling]",
+      "kjv": [
+        {
+          "t": "[Verse 52:10 from KJV]",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Isa.52.11",
+      "ref": "52:11",
+      "sv": "[Vers 52:11 uit de Statenvertaling]",
+      "kjv": [
+        {
+          "t": "[Verse 52:11 from KJV]",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Isa.52.12",
+      "ref": "52:12",
+      "sv": "[Vers 52:12 uit de Statenvertaling]",
+      "kjv": [
+        {
+          "t": "[Verse 52:12 from KJV]",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    }
+  ],
+  "groundTokens": {},
+  "lexicon": {}
+}

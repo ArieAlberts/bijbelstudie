@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom/client';
 import Navbar from './components/Navbar';
 import WorksheetHero from './components/WorksheetHero';
+import BibleReader from './components/BibleReader';
 import './styles/app.css';
 
 function HeaderApp() {
@@ -35,7 +36,6 @@ function HeaderApp() {
   };
 
   useEffect(() => {
-    // Initial sync on mount
     const initialView = determineViewFromHash();
     if (initialView === 'worksheet' || initialView === 'method') {
       applyView(initialView, false);
@@ -100,9 +100,30 @@ if (navContainer) {
   ReactDOM.createRoot(navContainer).render(<HeaderApp />);
 }
 
-// Mount Worksheet Hero Card
+// Workspace Component combining Hero & Integrated Bible Reader
+function WorkspaceWrapper() {
+  const isEnglish = document.documentElement.lang === 'en';
+  const [selectedStudy, setSelectedStudy] = useState('shoftim');
+
+  return (
+    <div>
+      <WorksheetHero
+        lang={isEnglish ? 'en' : 'nl'}
+        onStudyChange={(id) => setSelectedStudy(id)}
+      />
+      <div style={{ marginBottom: '24px' }}>
+        <BibleReader
+          studyId={selectedStudy}
+          initialSection="parasha"
+          lang={isEnglish ? 'en' : 'nl'}
+        />
+      </div>
+    </div>
+  );
+}
+
+// Mount Workspace Hero & Bible Reader
 const heroContainer = document.getElementById('react-worksheet-hero-root');
 if (heroContainer) {
-  const isEnglish = document.documentElement.lang === 'en';
-  ReactDOM.createRoot(heroContainer).render(<WorksheetHero lang={isEnglish ? 'en' : 'nl'} />);
+  ReactDOM.createRoot(heroContainer).render(<WorkspaceWrapper />);
 }

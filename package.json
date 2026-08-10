@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host",
-    "build": "vite build",
+    "build:passages": "node scripts/build-passages-index.mjs",
+    "build:bible": "node scripts/build-bible-data.mjs",
+    "build": "npm run build:passages && npm run build:bible && vite build",
     "preview": "vite preview"
   },
   "dependencies": {

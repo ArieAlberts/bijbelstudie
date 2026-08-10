@@ -1,0 +1,36 @@
+name: Content & Bible Data Pipeline
+
+on:
+  push:
+    paths:
+      - 'content/parasjot/**'
+      - '.pages.yml'
+      - 'scripts/**'
+
+jobs:
+  build-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Build Passages Index
+        run: npm run build:passages
+
+      - name: Build Bible Passage Data
+        run: npm run build:bible
+
+      - name: Commit Generated Passage Data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "auto: regenerate passages index and Bible JSON data from CMS content"
+          file_pattern: "data/passages.json public/data/bible/*.json"

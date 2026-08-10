@@ -1,0 +1,233 @@
+{
+  "study": "shoftim",
+  "role": "gospel",
+  "osis": "John.14.9-John.14.20",
+  "ref": {
+    "nl": "Johannes 14:9–20",
+    "en": "John 14:9–20"
+  },
+  "testament": "NT",
+  "verses": [
+    {
+      "osis": "John.14.9",
+      "ref": "14:9",
+      "sv": "[Vers 14:9 uit de Statenvertaling]",
+      "kjv": [
+        {
+          "t": "[Verse 14:9 from KJV]",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "John.14.10",
+      "ref": "14:10",
+      "sv": "Geloofst gij niet, dat Ik in den Vader ben, en de Vader in Mij is? De woorden, die Ik tot u spreek, spreek Ik van Mijzelven niet; maar de Vader, Die in Mij blijft, Die doet de werken.",
+      "kjv": [
+        {
+          "t": "Believest thou",
+          "s": "G4100"
+        },
+        {
+          "t": "not",
+          "s": "G3756"
+        },
+        {
+          "t": "that I am in the Father,",
+          "s": "G3962"
+        },
+        {
+          "t": "and the Father in me?",
+          "s": "G3962"
+        },
+        {
+          "t": "the words",
+          "s": "G4487"
+        },
+        {
+          "t": "that I speak unto you",
+          "s": "G2980"
+        },
+        {
+          "t": "I speak",
+          "s": "G2980"
+        },
+        {
+          "t": "not of myself:",
+          "s": "G1683"
+        },
+        {
+          "t": "but the Father that dwelleth in me,",
+          "s": "G3306"
+        },
+        {
+          "t": "he doeth the works.",
+          "s": "G2041"
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "John.14.11",
+      "ref": "14:11",
+      "sv": "[Vers 14:11 uit de Statenvertaling]",
+      "kjv": [
+        {
+          "t": "[Verse 14:11 from KJV]",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "John.14.12",
+      "ref": "14:12",
+      "sv": "[Vers 14:12 uit de Statenvertaling]",
+      "kjv": [
+        {
+          "t": "[Verse 14:12 from KJV]",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "John.14.13",
+      "ref": "14:13",
+      "sv": "[Vers 14:13 uit de Statenvertaling]",
+      "kjv": [
+        {
+          "t": "[Verse 14:13 from KJV]",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "John.14.14",
+      "ref": "14:14",
+      "sv": "[Vers 14:14 uit de Statenvertaling]",
+      "kjv": [
+        {
+          "t": "[Verse 14:14 from KJV]",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "John.14.15",
+      "ref": "14:15",
+      "sv": "[Vers 14:15 uit de Statenvertaling]",
+      "kjv": [
+        {
+          "t": "[Verse 14:15 from KJV]",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "John.14.16",
+      "ref": "14:16",
+      "sv": "[Vers 14:16 uit de Statenvertaling]",
+      "kjv": [
+        {
+          "t": "[Verse 14:16 from KJV]",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "John.14.17",
+      "ref": "14:17",
+      "sv": "[Vers 14:17 uit de Statenvertaling]",
+      "kjv": [
+        {
+          "t": "[Verse 14:17 from KJV]",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "John.14.18",
+      "ref": "14:18",
+      "sv": "[Vers 14:18 uit de Statenvertaling]",
+      "kjv": [
+        {
+          "t": "[Verse 14:18 from KJV]",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "John.14.19",
+      "ref": "14:19",
+      "sv": "[Vers 14:19 uit de Statenvertaling]",
+      "kjv": [
+        {
+          "t": "[Verse 14:19 from KJV]",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "John.14.20",
+      "ref": "14:20",
+      "sv": "[Vers 14:20 uit de Statenvertaling]",
+      "kjv": [
+        {
+          "t": "[Verse 14:20 from KJV]",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    }
+  ],
+  "groundTokens": {
+    "John.14.10.w1": {
+      "surface": "πιστεύεις",
+      "lemmaId": "grk:pisteuo",
+      "strong": "G4100",
+      "morph": "V-PAI-2S"
+    }
+  },
+  "lexicon": {
+    "grk:pisteuo": {
+      "lemma": "πιστεύω",
+      "translit": "pisteuō",
+      "strong": "G4100",
+      "language": "greek",
+      "gloss": "geloven, vertrouwen stellen in (to believe, trust)"
+    }
+  }
+}

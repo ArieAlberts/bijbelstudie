@@ -1,0 +1,84 @@
+{
+  "study": "reeh",
+  "role": "haftara",
+  "osis": "Isa.54.11-Isa.55.5",
+  "ref": {
+    "nl": "Jesaja 54:11–55:5",
+    "en": "Isaiah 54:11–55:5"
+  },
+  "testament": "OT",
+  "verses": [
+    {
+      "osis": "Isa.55.1",
+      "ref": "55:1",
+      "sv": "[Vers 55:1 uit de Statenvertaling]",
+      "kjv": [
+        {
+          "t": "[Verse 55:1 from KJV]",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Isa.55.2",
+      "ref": "55:2",
+      "sv": "[Vers 55:2 uit de Statenvertaling]",
+      "kjv": [
+        {
+          "t": "[Verse 55:2 from KJV]",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Isa.55.3",
+      "ref": "55:3",
+      "sv": "[Vers 55:3 uit de Statenvertaling]",
+      "kjv": [
+        {
+          "t": "[Verse 55:3 from KJV]",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Isa.55.4",
+      "ref": "55:4",
+      "sv": "[Vers 55:4 uit de Statenvertaling]",
+      "kjv": [
+        {
+          "t": "[Verse 55:4 from KJV]",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Isa.55.5",
+      "ref": "55:5",
+      "sv": "[Vers 55:5 uit de Statenvertaling]",
+      "kjv": [
+        {
+          "t": "[Verse 55:5 from KJV]",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    }
+  ],
+  "groundTokens": {},
+  "lexicon": {}
+}
