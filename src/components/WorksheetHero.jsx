@@ -60,9 +60,9 @@ export default function WorksheetHero({ lang, onStudyChange }) {
 
   const currentStudy = studies.find(s => s.id === selectedStudyId) || studies[0];
 
-  const getPassageRef = (roleName) => {
-    if (!currentStudy || !currentStudy.passages) return '';
-    const p = currentStudy.passages.find(x => x.role === roleName);
+  const getPassageRef = (studyItem, roleName) => {
+    if (!studyItem || !studyItem.passages) return '';
+    const p = studyItem.passages.find(x => x.role === roleName);
     if (!p || !p.ref) return '';
     return p.ref[lang] || p.ref.nl || '';
   };
@@ -137,7 +137,7 @@ export default function WorksheetHero({ lang, onStudyChange }) {
           : 'Kies de parasja en neem de tijd om de tekst zelf te lezen. De vragen helpen je aandachtig bij de tekst te blijven. De methode en handleiding zijn beschikbaar wanneer je extra uitleg nodig hebt.'}
       </p>
 
-      {/* Parasja Selector Dropdown */}
+      {/* Parasja Selector Dropdown with Torah Reference */}
       <div className="parasja-selector-container">
         <label className="parasja-selector-label">
           {isEn ? 'Select a parashah:' : 'Selecteer een parasja:'}
@@ -147,11 +147,16 @@ export default function WorksheetHero({ lang, onStudyChange }) {
           onChange={(e) => handleStudySelect(e.target.value)}
           className="parasja-selector-select"
         >
-          {studies.map((s) => (
-            <option key={s.id} value={s.id}>
-              {s.label[lang] || s.label.nl || s.parasha}
-            </option>
-          ))}
+          {studies.map((s) => {
+            const name = s.label[lang] || s.label.nl || s.parasha;
+            const torahRef = getPassageRef(s, 'parasha');
+            const labelText = torahRef ? `${name} (${torahRef})` : name;
+            return (
+              <option key={s.id} value={s.id}>
+                {labelText}
+              </option>
+            );
+          })}
         </select>
       </div>
 
@@ -164,15 +169,15 @@ export default function WorksheetHero({ lang, onStudyChange }) {
         <div className="passages-summary-grid">
           <div className="passage-item">
             <span className="passage-role">{isEn ? 'Torah / Parashah:' : 'Torah / Parasja:'}</span>
-            <span className="passage-ref-text">{getPassageRef('parasha')}</span>
+            <span className="passage-ref-text">{getPassageRef(currentStudy, 'parasha')}</span>
           </div>
           <div className="passage-item">
             <span className="passage-role">Haftara:</span>
-            <span className="passage-ref-text">{getPassageRef('haftara')}</span>
+            <span className="passage-ref-text">{getPassageRef(currentStudy, 'haftara')}</span>
           </div>
           <div className="passage-item">
             <span className="passage-role">{isEn ? 'Gospel:' : 'Evangelie:'}</span>
-            <span className="passage-ref-text">{getPassageRef('gospel')}</span>
+            <span className="passage-ref-text">{getPassageRef(currentStudy, 'gospel')}</span>
           </div>
         </div>
       </div>
