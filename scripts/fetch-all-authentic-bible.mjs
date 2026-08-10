@@ -15,19 +15,23 @@ const BOOK_IDS = {
   Gal: 48, Eph: 49, Phil: 50, Col: 51, Heb: 58, Rev: 66
 };
 
-// Comprehensive chapter configuration for all 13 calendar parashot
+// Comprehensive chapter configuration for all parashot including Pinchas
 const CHAPTER_CONFIG = [
   // Genesis
   { book: 'Gen', ch: 21 },
   // Leviticus
   { book: 'Lev', ch: 16 }, { book: 'Lev', ch: 22 }, { book: 'Lev', ch: 23 },
-  // Numbers
-  { book: 'Num', ch: 30 }, { book: 'Num', ch: 31 }, { book: 'Num', ch: 32 },
-  { book: 'Num', ch: 33 }, { book: 'Num', ch: 34 }, { book: 'Num', ch: 35 }, { book: 'Num', ch: 36 },
+  // Numbers (including Pinchas 25-30)
+  { book: 'Num', ch: 25 }, { book: 'Num', ch: 26 }, { book: 'Num', ch: 27 },
+  { book: 'Num', ch: 28 }, { book: 'Num', ch: 29 }, { book: 'Num', ch: 30 },
+  { book: 'Num', ch: 31 }, { book: 'Num', ch: 32 }, { book: 'Num', ch: 33 },
+  { book: 'Num', ch: 34 }, { book: 'Num', ch: 35 }, { book: 'Num', ch: 36 },
   // Deuteronomy
   ...Array.from({ length: 34 }, (_, i) => ({ book: 'Deut', ch: i + 1 })),
   // 1 Samuel
   { book: '1Sam', ch: 1 }, { book: '1Sam', ch: 2 },
+  // 1 Kings (Pinchas Haftara)
+  { book: '1Kgs', ch: 18 }, { book: '1Kgs', ch: 19 },
   // Isaiah
   { book: 'Isa', ch: 1 }, { book: 'Isa', ch: 40 }, { book: 'Isa', ch: 49 }, { book: 'Isa', ch: 50 },
   { book: 'Isa', ch: 51 }, { book: 'Isa', ch: 52 }, { book: 'Isa', ch: 54 }, { book: 'Isa', ch: 55 },
@@ -35,11 +39,11 @@ const CHAPTER_CONFIG = [
   { book: 'Isa', ch: 62 }, { book: 'Isa', ch: 63 },
   // Zechariah
   { book: 'Zech', ch: 14 },
-  // Gospels
+  // Gospels (including John 2 for Pinchas)
   { book: 'Matt', ch: 4 }, { book: 'Matt', ch: 16 }, { book: 'Matt', ch: 18 }, { book: 'Matt', ch: 24 }, { book: 'Matt', ch: 25 },
   { book: 'Mark', ch: 11 },
   { book: 'Luke', ch: 2 }, { book: 'Luke', ch: 3 },
-  { book: 'John', ch: 6 }, { book: 'John', ch: 12 }, { book: 'John', ch: 14 }
+  { book: 'John', ch: 2 }, { book: 'John', ch: 6 }, { book: 'John', ch: 12 }, { book: 'John', ch: 14 }
 ];
 
 const sleep = (ms) => new Promise(res => setTimeout(res, ms));
@@ -87,7 +91,7 @@ function parseKjvTokens(rawText) {
 }
 
 async function fetchAll() {
-  console.log("Fetching authentic verbatim Bible data from Bolls.life API for all 13 calendar parashot...");
+  console.log("Fetching authentic verbatim Bible data from Bolls.life API for all parashot including Pinchas...");
   const svDb = {};
   const kjvDb = {};
 

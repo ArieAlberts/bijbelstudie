@@ -1,0 +1,1933 @@
+{
+  "study": "pinchas",
+  "role": "gospel",
+  "osis": "John.2.13-John.2.22",
+  "ref": {
+    "nl": "Johannes 2:13–22",
+    "en": "John 2:13–22"
+  },
+  "testament": "NT",
+  "verses": [
+    {
+      "osis": "John.2.13",
+      "ref": "2:13",
+      "sv": "En het pascha der Joden was nabij, en Jezus ging op naar Jeruzalem.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "Jews'",
+          "s": null
+        },
+        {
+          "t": "passover",
+          "s": null
+        },
+        {
+          "t": "was",
+          "s": null
+        },
+        {
+          "t": "at",
+          "s": null
+        },
+        {
+          "t": "hand,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "Jesus",
+          "s": null
+        },
+        {
+          "t": "went",
+          "s": null
+        },
+        {
+          "t": "up",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "Jerusalem,",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "En",
+            "charStart": 0,
+            "charEnd": 2,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "pascha",
+            "charStart": 7,
+            "charEnd": 13,
+            "strong": "G3957",
+            "status": "verified"
+          },
+          {
+            "surface": "Joden",
+            "charStart": 18,
+            "charEnd": 23,
+            "strong": "G2453",
+            "status": "verified"
+          },
+          {
+            "surface": "was",
+            "charStart": 24,
+            "charEnd": 27,
+            "strong": "G2258",
+            "status": "verified"
+          },
+          {
+            "surface": "nabij",
+            "charStart": 28,
+            "charEnd": 33,
+            "strong": "G1451",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 35,
+            "charEnd": 37,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "Jezus",
+            "charStart": 38,
+            "charEnd": 43,
+            "strong": "G2424",
+            "status": "verified"
+          },
+          {
+            "surface": "op",
+            "charStart": 49,
+            "charEnd": 51,
+            "strong": "G305",
+            "status": "verified"
+          },
+          {
+            "surface": "naar",
+            "charStart": 52,
+            "charEnd": 56,
+            "strong": "G1519",
+            "status": "verified"
+          },
+          {
+            "surface": "Jeruzalem",
+            "charStart": 57,
+            "charEnd": 66,
+            "strong": "G2414",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "John.2.14",
+      "ref": "2:14",
+      "sv": "En Hij vond in den tempel, die ossen, en schapen, en duiven verkochten, en de wisselaars [daar] zittende.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "found",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "temple",
+          "s": null
+        },
+        {
+          "t": "those",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "sold",
+          "s": null
+        },
+        {
+          "t": "oxen",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "sheep",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "doves,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "changers",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "money",
+          "s": null
+        },
+        {
+          "t": "sitting:",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "En",
+            "charStart": 0,
+            "charEnd": 2,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "vond",
+            "charStart": 7,
+            "charEnd": 11,
+            "strong": "G2147",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 12,
+            "charEnd": 14,
+            "strong": "G1722",
+            "status": "verified"
+          },
+          {
+            "surface": "tempel",
+            "charStart": 19,
+            "charEnd": 25,
+            "strong": "G2411",
+            "status": "verified"
+          },
+          {
+            "surface": "ossen",
+            "charStart": 31,
+            "charEnd": 36,
+            "strong": "G1016",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 38,
+            "charEnd": 40,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "schapen",
+            "charStart": 41,
+            "charEnd": 48,
+            "strong": "G4263",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 50,
+            "charEnd": 52,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "duiven",
+            "charStart": 53,
+            "charEnd": 59,
+            "strong": "G4058",
+            "status": "verified"
+          },
+          {
+            "surface": "verkochten",
+            "charStart": 60,
+            "charEnd": 70,
+            "strong": "G4453",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 72,
+            "charEnd": 74,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "wisselaars",
+            "charStart": 78,
+            "charEnd": 88,
+            "strong": "G2773",
+            "status": "verified"
+          },
+          {
+            "surface": "zittende",
+            "charStart": 96,
+            "charEnd": 104,
+            "strong": "G2521",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "John.2.15",
+      "ref": "2:15",
+      "sv": "En een gesel van touwtjes gemaakt hebbende, dreef Hij ze allen uit den tempel, ook de schapen en de ossen; en het geld der wisselaren stortte Hij uit, en keerde de tafelen om.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "when",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "had",
+          "s": null
+        },
+        {
+          "t": "made",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "scourge",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "small",
+          "s": null
+        },
+        {
+          "t": "cords,",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "drove",
+          "s": null
+        },
+        {
+          "t": "them",
+          "s": null
+        },
+        {
+          "t": "all",
+          "s": null
+        },
+        {
+          "t": "out",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "temple,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "sheep,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "oxen;",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "poured",
+          "s": null
+        },
+        {
+          "t": "out",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "changers'",
+          "s": null
+        },
+        {
+          "t": "money,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "overthrew",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "tables;",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "En",
+            "charStart": 0,
+            "charEnd": 2,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "gesel",
+            "charStart": 7,
+            "charEnd": 12,
+            "strong": "G5416",
+            "status": "verified"
+          },
+          {
+            "surface": "van",
+            "charStart": 13,
+            "charEnd": 16,
+            "strong": "G1537",
+            "status": "verified"
+          },
+          {
+            "surface": "touwtjes",
+            "charStart": 17,
+            "charEnd": 25,
+            "strong": "G4979",
+            "status": "verified"
+          },
+          {
+            "surface": "hebbende",
+            "charStart": 34,
+            "charEnd": 42,
+            "strong": "G4160",
+            "status": "verified"
+          },
+          {
+            "surface": "Hij",
+            "charStart": 50,
+            "charEnd": 53,
+            "strong": "G1544",
+            "status": "verified"
+          },
+          {
+            "surface": "allen",
+            "charStart": 57,
+            "charEnd": 62,
+            "strong": "G3956",
+            "status": "verified"
+          },
+          {
+            "surface": "uit",
+            "charStart": 63,
+            "charEnd": 66,
+            "strong": "G1537",
+            "status": "verified"
+          },
+          {
+            "surface": "tempel",
+            "charStart": 71,
+            "charEnd": 77,
+            "strong": "G2411",
+            "status": "verified"
+          },
+          {
+            "surface": "ook",
+            "charStart": 79,
+            "charEnd": 82,
+            "strong": "G5037",
+            "status": "verified"
+          },
+          {
+            "surface": "schapen",
+            "charStart": 86,
+            "charEnd": 93,
+            "strong": "G4263",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 94,
+            "charEnd": 96,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "ossen",
+            "charStart": 100,
+            "charEnd": 105,
+            "strong": "G1016",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 107,
+            "charEnd": 109,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "geld",
+            "charStart": 114,
+            "charEnd": 118,
+            "strong": "G2772",
+            "status": "verified"
+          },
+          {
+            "surface": "wisselaren",
+            "charStart": 123,
+            "charEnd": 133,
+            "strong": "G2855",
+            "status": "verified"
+          },
+          {
+            "surface": "uit",
+            "charStart": 146,
+            "charEnd": 149,
+            "strong": "G1632",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 151,
+            "charEnd": 153,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "keerde",
+            "charStart": 154,
+            "charEnd": 160,
+            "strong": "G390",
+            "status": "verified"
+          },
+          {
+            "surface": "tafelen",
+            "charStart": 164,
+            "charEnd": 171,
+            "strong": "G5132",
+            "status": "verified"
+          },
+          {
+            "surface": "om",
+            "charStart": 172,
+            "charEnd": 174,
+            "strong": "G390",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "John.2.16",
+      "ref": "2:16",
+      "sv": "En Hij zeide tot degenen, die de duiven verkochten: Neemt deze dingen van hier weg; maakt niet het huis Mijns Vaders tot een huis van koophandel.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "said",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "them",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "sold",
+          "s": null
+        },
+        {
+          "t": "doves,",
+          "s": null
+        },
+        {
+          "t": "Take",
+          "s": null
+        },
+        {
+          "t": "these",
+          "s": null
+        },
+        {
+          "t": "things",
+          "s": null
+        },
+        {
+          "t": "hence;",
+          "s": null
+        },
+        {
+          "t": "make",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "my",
+          "s": null
+        },
+        {
+          "t": "Father's",
+          "s": null
+        },
+        {
+          "t": "house",
+          "s": null
+        },
+        {
+          "t": "an",
+          "s": null
+        },
+        {
+          "t": "house",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "merchandise.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "En",
+            "charStart": 0,
+            "charEnd": 2,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "zeide",
+            "charStart": 7,
+            "charEnd": 12,
+            "strong": "G2036",
+            "status": "verified"
+          },
+          {
+            "surface": "duiven",
+            "charStart": 33,
+            "charEnd": 39,
+            "strong": "G4058",
+            "status": "verified"
+          },
+          {
+            "surface": "verkochten",
+            "charStart": 40,
+            "charEnd": 50,
+            "strong": "G4453",
+            "status": "verified"
+          },
+          {
+            "surface": "Neemt",
+            "charStart": 52,
+            "charEnd": 57,
+            "strong": "G142",
+            "status": "verified"
+          },
+          {
+            "surface": "dingen",
+            "charStart": 63,
+            "charEnd": 69,
+            "strong": "G5023",
+            "status": "verified"
+          },
+          {
+            "surface": "weg",
+            "charStart": 79,
+            "charEnd": 82,
+            "strong": "G1782",
+            "status": "verified"
+          },
+          {
+            "surface": "maakt",
+            "charStart": 84,
+            "charEnd": 89,
+            "strong": "G4160",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 90,
+            "charEnd": 94,
+            "strong": "G3361",
+            "status": "verified"
+          },
+          {
+            "surface": "huis",
+            "charStart": 99,
+            "charEnd": 103,
+            "strong": "G3624",
+            "status": "verified"
+          },
+          {
+            "surface": "Mijns",
+            "charStart": 104,
+            "charEnd": 109,
+            "strong": "G3450",
+            "status": "verified"
+          },
+          {
+            "surface": "Vaders",
+            "charStart": 110,
+            "charEnd": 116,
+            "strong": "G3962",
+            "status": "verified"
+          },
+          {
+            "surface": "huis",
+            "charStart": 125,
+            "charEnd": 129,
+            "strong": "G3624",
+            "status": "verified"
+          },
+          {
+            "surface": "koophandel",
+            "charStart": 134,
+            "charEnd": 144,
+            "strong": "G1712",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "John.2.17",
+      "ref": "2:17",
+      "sv": "En Zijn discipelen werden indachtig, dat er geschreven is: De ijver van Uw huis heeft mij verslonden.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "disciples",
+          "s": null
+        },
+        {
+          "t": "remembered",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "it",
+          "s": null
+        },
+        {
+          "t": "was",
+          "s": null
+        },
+        {
+          "t": "written,",
+          "s": null
+        },
+        {
+          "t": "The",
+          "s": null
+        },
+        {
+          "t": "zeal",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "thine",
+          "s": null
+        },
+        {
+          "t": "house",
+          "s": null
+        },
+        {
+          "t": "hath",
+          "s": null
+        },
+        {
+          "t": "eaten",
+          "s": null
+        },
+        {
+          "t": "me",
+          "s": null
+        },
+        {
+          "t": "up.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "En",
+            "charStart": 0,
+            "charEnd": 2,
+            "strong": "G1161",
+            "status": "verified"
+          },
+          {
+            "surface": "Zijn",
+            "charStart": 3,
+            "charEnd": 7,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "discipelen",
+            "charStart": 8,
+            "charEnd": 18,
+            "strong": "G3101",
+            "status": "verified"
+          },
+          {
+            "surface": "indachtig",
+            "charStart": 26,
+            "charEnd": 35,
+            "strong": "G3415",
+            "status": "verified"
+          },
+          {
+            "surface": "dat",
+            "charStart": 37,
+            "charEnd": 40,
+            "strong": "G3754",
+            "status": "verified"
+          },
+          {
+            "surface": "geschreven",
+            "charStart": 44,
+            "charEnd": 54,
+            "strong": "G1125",
+            "status": "verified"
+          },
+          {
+            "surface": "is",
+            "charStart": 55,
+            "charEnd": 57,
+            "strong": "G2076",
+            "status": "verified"
+          },
+          {
+            "surface": "ijver",
+            "charStart": 62,
+            "charEnd": 67,
+            "strong": "G2205",
+            "status": "verified"
+          },
+          {
+            "surface": "Uw",
+            "charStart": 72,
+            "charEnd": 74,
+            "strong": "G4675",
+            "status": "verified"
+          },
+          {
+            "surface": "huis",
+            "charStart": 75,
+            "charEnd": 79,
+            "strong": "G3624",
+            "status": "verified"
+          },
+          {
+            "surface": "mij",
+            "charStart": 86,
+            "charEnd": 89,
+            "strong": "G3165",
+            "status": "verified"
+          },
+          {
+            "surface": "verslonden",
+            "charStart": 90,
+            "charEnd": 100,
+            "strong": "G2719",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "John.2.18",
+      "ref": "2:18",
+      "sv": "De Joden antwoordden dan, en zeiden tot Hem: Wat teken toont Gij ons, dat Gij deze dingen doet?",
+      "kjv": [
+        {
+          "t": "Then",
+          "s": null
+        },
+        {
+          "t": "answered",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "Jews",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "said",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "him,",
+          "s": null
+        },
+        {
+          "t": "What",
+          "s": null
+        },
+        {
+          "t": "sign",
+          "s": null
+        },
+        {
+          "t": "shewest",
+          "s": null
+        },
+        {
+          "t": "thou",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "us,",
+          "s": null
+        },
+        {
+          "t": "seeing",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "thou",
+          "s": null
+        },
+        {
+          "t": "doest",
+          "s": null
+        },
+        {
+          "t": "these",
+          "s": null
+        },
+        {
+          "t": "things?",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Joden",
+            "charStart": 3,
+            "charEnd": 8,
+            "strong": "G2453",
+            "status": "verified"
+          },
+          {
+            "surface": "antwoordden",
+            "charStart": 9,
+            "charEnd": 20,
+            "strong": "G611",
+            "status": "verified"
+          },
+          {
+            "surface": "dan",
+            "charStart": 21,
+            "charEnd": 24,
+            "strong": "G3767",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 26,
+            "charEnd": 28,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "zeiden",
+            "charStart": 29,
+            "charEnd": 35,
+            "strong": "G2036",
+            "status": "verified"
+          },
+          {
+            "surface": "Hem",
+            "charStart": 40,
+            "charEnd": 43,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "Wat",
+            "charStart": 45,
+            "charEnd": 48,
+            "strong": "G5101",
+            "status": "verified"
+          },
+          {
+            "surface": "teken",
+            "charStart": 49,
+            "charEnd": 54,
+            "strong": "G4592",
+            "status": "verified"
+          },
+          {
+            "surface": "Gij",
+            "charStart": 61,
+            "charEnd": 64,
+            "strong": "G1166",
+            "status": "verified"
+          },
+          {
+            "surface": "ons",
+            "charStart": 65,
+            "charEnd": 68,
+            "strong": "G2254",
+            "status": "verified"
+          },
+          {
+            "surface": "dat",
+            "charStart": 70,
+            "charEnd": 73,
+            "strong": "G3754",
+            "status": "verified"
+          },
+          {
+            "surface": "dingen",
+            "charStart": 83,
+            "charEnd": 89,
+            "strong": "G5023",
+            "status": "verified"
+          },
+          {
+            "surface": "doet",
+            "charStart": 90,
+            "charEnd": 94,
+            "strong": "G4160",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "John.2.19",
+      "ref": "2:19",
+      "sv": "Jezus antwoordde en zeide tot hen: Breekt dezen tempel, en in drie dagen zal Ik denzelven oprichten.",
+      "kjv": [
+        {
+          "t": "Jesus",
+          "s": null
+        },
+        {
+          "t": "answered",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "said",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "them,",
+          "s": null
+        },
+        {
+          "t": "Destroy",
+          "s": null
+        },
+        {
+          "t": "this",
+          "s": null
+        },
+        {
+          "t": "temple,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "three",
+          "s": null
+        },
+        {
+          "t": "days",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "raise",
+          "s": null
+        },
+        {
+          "t": "it",
+          "s": null
+        },
+        {
+          "t": "up.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Jezus",
+            "charStart": 0,
+            "charEnd": 5,
+            "strong": "G2424",
+            "status": "verified"
+          },
+          {
+            "surface": "antwoordde",
+            "charStart": 6,
+            "charEnd": 16,
+            "strong": "G611",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 17,
+            "charEnd": 19,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "zeide",
+            "charStart": 20,
+            "charEnd": 25,
+            "strong": "G2036",
+            "status": "verified"
+          },
+          {
+            "surface": "hen",
+            "charStart": 30,
+            "charEnd": 33,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "Breekt",
+            "charStart": 35,
+            "charEnd": 41,
+            "strong": "G3089",
+            "status": "verified"
+          },
+          {
+            "surface": "dezen",
+            "charStart": 42,
+            "charEnd": 47,
+            "strong": "G5126",
+            "status": "verified"
+          },
+          {
+            "surface": "tempel",
+            "charStart": 48,
+            "charEnd": 54,
+            "strong": "G3485",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 56,
+            "charEnd": 58,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 59,
+            "charEnd": 61,
+            "strong": "G1722",
+            "status": "verified"
+          },
+          {
+            "surface": "drie",
+            "charStart": 62,
+            "charEnd": 66,
+            "strong": "G5140",
+            "status": "verified"
+          },
+          {
+            "surface": "dagen",
+            "charStart": 67,
+            "charEnd": 72,
+            "strong": "G2250",
+            "status": "verified"
+          },
+          {
+            "surface": "denzelven",
+            "charStart": 80,
+            "charEnd": 89,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "oprichten",
+            "charStart": 90,
+            "charEnd": 99,
+            "strong": "G1453",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "John.2.20",
+      "ref": "2:20",
+      "sv": "De Joden zeiden dan: Zes en veertig jaren is [over] dezen tempel gebouwd, en Gij, zult Gij dien in drie dagen oprichten?",
+      "kjv": [
+        {
+          "t": "Then",
+          "s": null
+        },
+        {
+          "t": "said",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "Jews,",
+          "s": null
+        },
+        {
+          "t": "Forty",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "six",
+          "s": null
+        },
+        {
+          "t": "years",
+          "s": null
+        },
+        {
+          "t": "was",
+          "s": null
+        },
+        {
+          "t": "this",
+          "s": null
+        },
+        {
+          "t": "temple",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "building,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "wilt",
+          "s": null
+        },
+        {
+          "t": "thou",
+          "s": null
+        },
+        {
+          "t": "rear",
+          "s": null
+        },
+        {
+          "t": "it",
+          "s": null
+        },
+        {
+          "t": "up",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "three",
+          "s": null
+        },
+        {
+          "t": "days?",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Joden",
+            "charStart": 3,
+            "charEnd": 8,
+            "strong": "G2453",
+            "status": "verified"
+          },
+          {
+            "surface": "zeiden",
+            "charStart": 9,
+            "charEnd": 15,
+            "strong": "G2036",
+            "status": "verified"
+          },
+          {
+            "surface": "dan",
+            "charStart": 16,
+            "charEnd": 19,
+            "strong": "G3767",
+            "status": "verified"
+          },
+          {
+            "surface": "Zes",
+            "charStart": 21,
+            "charEnd": 24,
+            "strong": "G1803",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 25,
+            "charEnd": 27,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "veertig",
+            "charStart": 28,
+            "charEnd": 35,
+            "strong": "G5062",
+            "status": "verified"
+          },
+          {
+            "surface": "jaren",
+            "charStart": 36,
+            "charEnd": 41,
+            "strong": "G2094",
+            "status": "verified"
+          },
+          {
+            "surface": "dezen",
+            "charStart": 52,
+            "charEnd": 57,
+            "strong": "G3778",
+            "status": "verified"
+          },
+          {
+            "surface": "tempel",
+            "charStart": 58,
+            "charEnd": 64,
+            "strong": "G3485",
+            "status": "verified"
+          },
+          {
+            "surface": "gebouwd",
+            "charStart": 65,
+            "charEnd": 72,
+            "strong": "G3618",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 74,
+            "charEnd": 76,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "Gij",
+            "charStart": 77,
+            "charEnd": 80,
+            "strong": "G4771",
+            "status": "verified"
+          },
+          {
+            "surface": "dien",
+            "charStart": 91,
+            "charEnd": 95,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 96,
+            "charEnd": 98,
+            "strong": "G1722",
+            "status": "verified"
+          },
+          {
+            "surface": "drie",
+            "charStart": 99,
+            "charEnd": 103,
+            "strong": "G5140",
+            "status": "verified"
+          },
+          {
+            "surface": "dagen",
+            "charStart": 104,
+            "charEnd": 109,
+            "strong": "G2250",
+            "status": "verified"
+          },
+          {
+            "surface": "oprichten",
+            "charStart": 110,
+            "charEnd": 119,
+            "strong": "G1453",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "John.2.21",
+      "ref": "2:21",
+      "sv": "Maar Hij zeide [dit] van den tempel Zijns lichaams.",
+      "kjv": [
+        {
+          "t": "But",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "spake",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "temple",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "body.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Maar",
+            "charStart": 0,
+            "charEnd": 4,
+            "strong": "G1161",
+            "status": "verified"
+          },
+          {
+            "surface": "Hij",
+            "charStart": 5,
+            "charEnd": 8,
+            "strong": "G1565",
+            "status": "verified"
+          },
+          {
+            "surface": "zeide",
+            "charStart": 9,
+            "charEnd": 14,
+            "strong": "G3004",
+            "status": "verified"
+          },
+          {
+            "surface": "van",
+            "charStart": 21,
+            "charEnd": 24,
+            "strong": "G4012",
+            "status": "verified"
+          },
+          {
+            "surface": "tempel",
+            "charStart": 29,
+            "charEnd": 35,
+            "strong": "G3485",
+            "status": "verified"
+          },
+          {
+            "surface": "Zijns",
+            "charStart": 36,
+            "charEnd": 41,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "lichaams",
+            "charStart": 42,
+            "charEnd": 50,
+            "strong": "G4983",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "John.2.22",
+      "ref": "2:22",
+      "sv": "Daarom, als Hij opgestaan was van de doden, werden Zijn discipelen gedachtig, dat Hij dit tot hen gezegd had, en zij geloofden de Schrift, en het woord, dat Jezus gesproken had.",
+      "kjv": [
+        {
+          "t": "When",
+          "s": null
+        },
+        {
+          "t": "therefore",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "was",
+          "s": null
+        },
+        {
+          "t": "risen",
+          "s": null
+        },
+        {
+          "t": "from",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "dead,",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "disciples",
+          "s": null
+        },
+        {
+          "t": "remembered",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "had",
+          "s": null
+        },
+        {
+          "t": "said",
+          "s": null
+        },
+        {
+          "t": "this",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "them;",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "believed",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "scripture,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "word",
+          "s": null
+        },
+        {
+          "t": "which",
+          "s": null
+        },
+        {
+          "t": "Jesus",
+          "s": null
+        },
+        {
+          "t": "had",
+          "s": null
+        },
+        {
+          "t": "said.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Daarom",
+            "charStart": 0,
+            "charEnd": 6,
+            "strong": "G3767",
+            "status": "verified"
+          },
+          {
+            "surface": "als",
+            "charStart": 8,
+            "charEnd": 11,
+            "strong": "G3753",
+            "status": "verified"
+          },
+          {
+            "surface": "was",
+            "charStart": 26,
+            "charEnd": 29,
+            "strong": "G1453",
+            "status": "verified"
+          },
+          {
+            "surface": "van",
+            "charStart": 30,
+            "charEnd": 33,
+            "strong": "G1537",
+            "status": "verified"
+          },
+          {
+            "surface": "doden",
+            "charStart": 37,
+            "charEnd": 42,
+            "strong": "G3498",
+            "status": "verified"
+          },
+          {
+            "surface": "Zijn",
+            "charStart": 51,
+            "charEnd": 55,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "discipelen",
+            "charStart": 56,
+            "charEnd": 66,
+            "strong": "G3101",
+            "status": "verified"
+          },
+          {
+            "surface": "gedachtig",
+            "charStart": 67,
+            "charEnd": 76,
+            "strong": "G3415",
+            "status": "verified"
+          },
+          {
+            "surface": "dat",
+            "charStart": 78,
+            "charEnd": 81,
+            "strong": "G3754",
+            "status": "verified"
+          },
+          {
+            "surface": "dit",
+            "charStart": 86,
+            "charEnd": 89,
+            "strong": "G5124",
+            "status": "verified"
+          },
+          {
+            "surface": "hen",
+            "charStart": 94,
+            "charEnd": 97,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "had",
+            "charStart": 105,
+            "charEnd": 108,
+            "strong": "G3004",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 110,
+            "charEnd": 112,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "geloofden",
+            "charStart": 117,
+            "charEnd": 126,
+            "strong": "G4100",
+            "status": "verified"
+          },
+          {
+            "surface": "Schrift",
+            "charStart": 130,
+            "charEnd": 137,
+            "strong": "G1124",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 139,
+            "charEnd": 141,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "woord",
+            "charStart": 146,
+            "charEnd": 151,
+            "strong": "G3056",
+            "status": "verified"
+          },
+          {
+            "surface": "dat",
+            "charStart": 153,
+            "charEnd": 156,
+            "strong": "G3739",
+            "status": "verified"
+          },
+          {
+            "surface": "Jezus",
+            "charStart": 157,
+            "charEnd": 162,
+            "strong": "G2424",
+            "status": "verified"
+          },
+          {
+            "surface": "had",
+            "charStart": 173,
+            "charEnd": 176,
+            "strong": "G2036",
+            "status": "verified"
+          }
+        ]
+      }
+    }
+  ],
+  "lexicon": {
+    "G3962": {
+      "lemma": "πατήρ",
+      "translit": "patēr",
+      "strong": "G3962",
+      "language": "greek",
+      "gloss": "Vader (Father)"
+    },
+    "G4100": {
+      "lemma": "πιστεύω",
+      "translit": "pisteuō",
+      "strong": "G4100",
+      "language": "greek",
+      "gloss": "geloven, vertrouwen (to believe, trust)"
+    }
+  }
+}
