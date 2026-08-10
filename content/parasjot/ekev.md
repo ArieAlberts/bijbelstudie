@@ -3,10 +3,10 @@ id: ekev
 parasha: Ekev
 label:
   nl: Ekev
-  en: Eikev
+  en: Ekev
 status: published
 current: false
-published_at: 2026-08-15
+published_at: 2026-08-01
 passages:
   - role: parasha
     ref:
@@ -24,10 +24,10 @@ passages:
       en: "Matthew 16:13–20"
     osis: "Matt.16.13-Matt.16.20"
 extra_references: []
-title_nl: "Het brood dat wij niet kenden"
-title_en: "The bread we did not know"
-summary_nl: "Over de herinnering aan de woestijnweg, honger en manna, en het gevaar van de HEERE te vergeten in overvloed."
-summary_en: "On remembering the wilderness journey, hunger and manna, and the danger of forgetting the LORD in abundance."
+title_nl: "Lezing Ekev"
+title_en: "Ekev Reading"
+summary_nl: "Wekelijkse lezing van Ekev."
+summary_en: "Weekly reading of Ekev."
 ---
 
-"Denk aan de HEER, uw God, want Hij is het die u kracht geeft om vermogen te verwerven." — Deuteronomium 8:18
+De wekelijkse lezing van Ekev.

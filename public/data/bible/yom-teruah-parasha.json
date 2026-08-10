@@ -1,0 +1,6351 @@
+{
+  "study": "yom-teruah",
+  "role": "parasha",
+  "osis": "Gen.21.1-Gen.21.34",
+  "ref": {
+    "nl": "Genesis 21:1–34",
+    "en": "Genesis 21:1–34"
+  },
+  "testament": "OT",
+  "verses": [
+    {
+      "osis": "Gen.21.1",
+      "ref": "21:1",
+      "sv": "En de HEERE bezocht Sara, gelijk als Hij gezegd had; en de HEERE deed aan Sara, gelijk als Hij gesproken had.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "LORD",
+          "s": null
+        },
+        {
+          "t": "visited",
+          "s": null
+        },
+        {
+          "t": "Sarah",
+          "s": null
+        },
+        {
+          "t": "as",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "had",
+          "s": null
+        },
+        {
+          "t": "said,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "LORD",
+          "s": null
+        },
+        {
+          "t": "did",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "Sarah",
+          "s": null
+        },
+        {
+          "t": "as",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "had",
+          "s": null
+        },
+        {
+          "t": "spoken.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "HEERE",
+            "charStart": 6,
+            "charEnd": 11,
+            "strong": "H3068",
+            "status": "verified"
+          },
+          {
+            "surface": "bezocht",
+            "charStart": 12,
+            "charEnd": 19,
+            "strong": "H6485",
+            "status": "verified"
+          },
+          {
+            "surface": "Sara",
+            "charStart": 20,
+            "charEnd": 24,
+            "strong": "H8283",
+            "status": "verified"
+          },
+          {
+            "surface": "als",
+            "charStart": 33,
+            "charEnd": 36,
+            "strong": "H834",
+            "status": "verified"
+          },
+          {
+            "surface": "had",
+            "charStart": 48,
+            "charEnd": 51,
+            "strong": "H559",
+            "status": "verified"
+          },
+          {
+            "surface": "HEERE",
+            "charStart": 59,
+            "charEnd": 64,
+            "strong": "H3068",
+            "status": "verified"
+          },
+          {
+            "surface": "deed",
+            "charStart": 65,
+            "charEnd": 69,
+            "strong": "H6213",
+            "status": "verified"
+          },
+          {
+            "surface": "Sara",
+            "charStart": 74,
+            "charEnd": 78,
+            "strong": "H8283",
+            "status": "verified"
+          },
+          {
+            "surface": "als",
+            "charStart": 87,
+            "charEnd": 90,
+            "strong": "H834",
+            "status": "verified"
+          },
+          {
+            "surface": "had",
+            "charStart": 105,
+            "charEnd": 108,
+            "strong": "H1696",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Gen.21.2",
+      "ref": "21:2",
+      "sv": "En Sara werd bevrucht, en baarde Abraham een zoon in zijn ouderdom, ter gezetter tijd, dien hem God gezegd had.",
+      "kjv": [
+        {
+          "t": "For",
+          "s": null
+        },
+        {
+          "t": "Sarah",
+          "s": null
+        },
+        {
+          "t": "conceived,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "bare",
+          "s": null
+        },
+        {
+          "t": "Abraham",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "son",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "old",
+          "s": null
+        },
+        {
+          "t": "age,",
+          "s": null
+        },
+        {
+          "t": "at",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "set",
+          "s": null
+        },
+        {
+          "t": "time",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "which",
+          "s": null
+        },
+        {
+          "t": "God",
+          "s": null
+        },
+        {
+          "t": "had",
+          "s": null
+        },
+        {
+          "t": "spoken",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "him.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Sara",
+            "charStart": 3,
+            "charEnd": 7,
+            "strong": "H8283",
+            "status": "verified"
+          },
+          {
+            "surface": "bevrucht",
+            "charStart": 13,
+            "charEnd": 21,
+            "strong": "H2029",
+            "status": "verified"
+          },
+          {
+            "surface": "baarde",
+            "charStart": 26,
+            "charEnd": 32,
+            "strong": "H3205",
+            "status": "verified"
+          },
+          {
+            "surface": "Abraham",
+            "charStart": 33,
+            "charEnd": 40,
+            "strong": "H85",
+            "status": "verified"
+          },
+          {
+            "surface": "zoon",
+            "charStart": 45,
+            "charEnd": 49,
+            "strong": "H1121",
+            "status": "verified"
+          },
+          {
+            "surface": "ouderdom",
+            "charStart": 58,
+            "charEnd": 66,
+            "strong": "H2208",
+            "status": "verified"
+          },
+          {
+            "surface": "tijd",
+            "charStart": 81,
+            "charEnd": 85,
+            "strong": "H4150",
+            "status": "verified"
+          },
+          {
+            "surface": "God",
+            "charStart": 96,
+            "charEnd": 99,
+            "strong": "H430",
+            "status": "verified"
+          },
+          {
+            "surface": "had",
+            "charStart": 107,
+            "charEnd": 110,
+            "strong": "H1696",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Gen.21.3",
+      "ref": "21:3",
+      "sv": "En Abraham noemde den naam zijns zoons, die hem geboren was, dien hem Sara gebaard had, Izak.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "Abraham",
+          "s": null
+        },
+        {
+          "t": "called",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "name",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "son",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "was",
+          "s": null
+        },
+        {
+          "t": "born",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "him,",
+          "s": null
+        },
+        {
+          "t": "whom",
+          "s": null
+        },
+        {
+          "t": "Sarah",
+          "s": null
+        },
+        {
+          "t": "bare",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "him,",
+          "s": null
+        },
+        {
+          "t": "Isaac.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Abraham",
+            "charStart": 3,
+            "charEnd": 10,
+            "strong": "H85",
+            "status": "verified"
+          },
+          {
+            "surface": "noemde",
+            "charStart": 11,
+            "charEnd": 17,
+            "strong": "H7121",
+            "status": "verified"
+          },
+          {
+            "surface": "naam",
+            "charStart": 22,
+            "charEnd": 26,
+            "strong": "H8034",
+            "status": "verified"
+          },
+          {
+            "surface": "zoons",
+            "charStart": 33,
+            "charEnd": 38,
+            "strong": "H1121",
+            "status": "verified"
+          },
+          {
+            "surface": "was",
+            "charStart": 56,
+            "charEnd": 59,
+            "strong": "H3205",
+            "status": "verified"
+          },
+          {
+            "surface": "dien",
+            "charStart": 61,
+            "charEnd": 65,
+            "strong": "H834",
+            "status": "verified"
+          },
+          {
+            "surface": "Sara",
+            "charStart": 70,
+            "charEnd": 74,
+            "strong": "H8283",
+            "status": "verified"
+          },
+          {
+            "surface": "had",
+            "charStart": 83,
+            "charEnd": 86,
+            "strong": "H3205",
+            "status": "verified"
+          },
+          {
+            "surface": "Izak",
+            "charStart": 88,
+            "charEnd": 92,
+            "strong": "H3327",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Gen.21.4",
+      "ref": "21:4",
+      "sv": "En Abraham besneed zijn zoon Izak, zijnde acht dagen oud, gelijk als hem God geboden had.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "Abraham",
+          "s": null
+        },
+        {
+          "t": "circumcised",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "son",
+          "s": null
+        },
+        {
+          "t": "Isaac",
+          "s": null
+        },
+        {
+          "t": "being",
+          "s": null
+        },
+        {
+          "t": "eight",
+          "s": null
+        },
+        {
+          "t": "days",
+          "s": null
+        },
+        {
+          "t": "old,",
+          "s": null
+        },
+        {
+          "t": "as",
+          "s": null
+        },
+        {
+          "t": "God",
+          "s": null
+        },
+        {
+          "t": "had",
+          "s": null
+        },
+        {
+          "t": "commanded",
+          "s": null
+        },
+        {
+          "t": "him.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Abraham",
+            "charStart": 3,
+            "charEnd": 10,
+            "strong": "H85",
+            "status": "verified"
+          },
+          {
+            "surface": "besneed",
+            "charStart": 11,
+            "charEnd": 18,
+            "strong": "H4135",
+            "status": "verified"
+          },
+          {
+            "surface": "zoon",
+            "charStart": 24,
+            "charEnd": 28,
+            "strong": "H1121",
+            "status": "verified"
+          },
+          {
+            "surface": "Izak",
+            "charStart": 29,
+            "charEnd": 33,
+            "strong": "H3327",
+            "status": "verified"
+          },
+          {
+            "surface": "acht",
+            "charStart": 42,
+            "charEnd": 46,
+            "strong": "H8083",
+            "status": "verified"
+          },
+          {
+            "surface": "dagen",
+            "charStart": 47,
+            "charEnd": 52,
+            "strong": "H3117",
+            "status": "verified"
+          },
+          {
+            "surface": "oud",
+            "charStart": 53,
+            "charEnd": 56,
+            "strong": "H1121",
+            "status": "verified"
+          },
+          {
+            "surface": "als",
+            "charStart": 65,
+            "charEnd": 68,
+            "strong": "H834",
+            "status": "verified"
+          },
+          {
+            "surface": "hem",
+            "charStart": 69,
+            "charEnd": 72,
+            "strong": "H853",
+            "status": "verified"
+          },
+          {
+            "surface": "God",
+            "charStart": 73,
+            "charEnd": 76,
+            "strong": "H430",
+            "status": "verified"
+          },
+          {
+            "surface": "had",
+            "charStart": 85,
+            "charEnd": 88,
+            "strong": "H6680",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Gen.21.5",
+      "ref": "21:5",
+      "sv": "En Abraham was honderd jaren oud, als hem Izak zijn zoon geboren werd.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "Abraham",
+          "s": null
+        },
+        {
+          "t": "was",
+          "s": null
+        },
+        {
+          "t": "an",
+          "s": null
+        },
+        {
+          "t": "hundred",
+          "s": null
+        },
+        {
+          "t": "years",
+          "s": null
+        },
+        {
+          "t": "old,",
+          "s": null
+        },
+        {
+          "t": "when",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "son",
+          "s": null
+        },
+        {
+          "t": "Isaac",
+          "s": null
+        },
+        {
+          "t": "was",
+          "s": null
+        },
+        {
+          "t": "born",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "him.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Abraham",
+            "charStart": 3,
+            "charEnd": 10,
+            "strong": "H85",
+            "status": "verified"
+          },
+          {
+            "surface": "honderd",
+            "charStart": 15,
+            "charEnd": 22,
+            "strong": "H3967",
+            "status": "verified"
+          },
+          {
+            "surface": "jaren",
+            "charStart": 23,
+            "charEnd": 28,
+            "strong": "H8141",
+            "status": "verified"
+          },
+          {
+            "surface": "oud",
+            "charStart": 29,
+            "charEnd": 32,
+            "strong": "H1121",
+            "status": "verified"
+          },
+          {
+            "surface": "Izak",
+            "charStart": 42,
+            "charEnd": 46,
+            "strong": "H3327",
+            "status": "verified"
+          },
+          {
+            "surface": "zoon",
+            "charStart": 52,
+            "charEnd": 56,
+            "strong": "H1121",
+            "status": "verified"
+          },
+          {
+            "surface": "werd",
+            "charStart": 65,
+            "charEnd": 69,
+            "strong": "H3205",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Gen.21.6",
+      "ref": "21:6",
+      "sv": "En Sara zeide: God heeft mij een lachen gemaakt; al die het hoort, zal met mij lachen.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "Sarah",
+          "s": null
+        },
+        {
+          "t": "said,",
+          "s": null
+        },
+        {
+          "t": "God",
+          "s": null
+        },
+        {
+          "t": "hath",
+          "s": null
+        },
+        {
+          "t": "made",
+          "s": null
+        },
+        {
+          "t": "me",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "laugh,",
+          "s": null
+        },
+        {
+          "t": "so",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "all",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "hear",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "laugh",
+          "s": null
+        },
+        {
+          "t": "with",
+          "s": null
+        },
+        {
+          "t": "me.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Sara",
+            "charStart": 3,
+            "charEnd": 7,
+            "strong": "H8283",
+            "status": "verified"
+          },
+          {
+            "surface": "zeide",
+            "charStart": 8,
+            "charEnd": 13,
+            "strong": "H559",
+            "status": "verified"
+          },
+          {
+            "surface": "God",
+            "charStart": 15,
+            "charEnd": 18,
+            "strong": "H430",
+            "status": "verified"
+          },
+          {
+            "surface": "lachen",
+            "charStart": 33,
+            "charEnd": 39,
+            "strong": "H6712",
+            "status": "verified"
+          },
+          {
+            "surface": "gemaakt",
+            "charStart": 40,
+            "charEnd": 47,
+            "strong": "H6213",
+            "status": "verified"
+          },
+          {
+            "surface": "al",
+            "charStart": 49,
+            "charEnd": 51,
+            "strong": "H3605",
+            "status": "verified"
+          },
+          {
+            "surface": "hoort",
+            "charStart": 60,
+            "charEnd": 65,
+            "strong": "H8085",
+            "status": "verified"
+          },
+          {
+            "surface": "lachen",
+            "charStart": 79,
+            "charEnd": 85,
+            "strong": "H6711",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Gen.21.7",
+      "ref": "21:7",
+      "sv": "Voorts zeide zij: Wie zou Abraham gezegd hebben: Sara heeft zonen gezoogd? want ik heb een zoon gebaard in zijn ouderdom.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "she",
+          "s": null
+        },
+        {
+          "t": "said,",
+          "s": null
+        },
+        {
+          "t": "Who",
+          "s": null
+        },
+        {
+          "t": "would",
+          "s": null
+        },
+        {
+          "t": "have",
+          "s": null
+        },
+        {
+          "t": "said",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "Abraham,",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "Sarah",
+          "s": null
+        },
+        {
+          "t": "should",
+          "s": null
+        },
+        {
+          "t": "have",
+          "s": null
+        },
+        {
+          "t": "given",
+          "s": null
+        },
+        {
+          "t": "children",
+          "s": null
+        },
+        {
+          "t": "suck?",
+          "s": null
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "have",
+          "s": null
+        },
+        {
+          "t": "born",
+          "s": null
+        },
+        {
+          "t": "him",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "son",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "old",
+          "s": null
+        },
+        {
+          "t": "age.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "zij",
+            "charStart": 13,
+            "charEnd": 16,
+            "strong": "H559",
+            "status": "verified"
+          },
+          {
+            "surface": "Wie",
+            "charStart": 18,
+            "charEnd": 21,
+            "strong": "H4310",
+            "status": "verified"
+          },
+          {
+            "surface": "Abraham",
+            "charStart": 26,
+            "charEnd": 33,
+            "strong": "H85",
+            "status": "verified"
+          },
+          {
+            "surface": "hebben",
+            "charStart": 41,
+            "charEnd": 47,
+            "strong": "H4448",
+            "status": "verified"
+          },
+          {
+            "surface": "Sara",
+            "charStart": 49,
+            "charEnd": 53,
+            "strong": "H8283",
+            "status": "verified"
+          },
+          {
+            "surface": "zonen",
+            "charStart": 60,
+            "charEnd": 65,
+            "strong": "H1121",
+            "status": "verified"
+          },
+          {
+            "surface": "gezoogd",
+            "charStart": 66,
+            "charEnd": 73,
+            "strong": "H3243",
+            "status": "verified"
+          },
+          {
+            "surface": "want",
+            "charStart": 75,
+            "charEnd": 79,
+            "strong": "H3588",
+            "status": "verified"
+          },
+          {
+            "surface": "zoon",
+            "charStart": 91,
+            "charEnd": 95,
+            "strong": "H1121",
+            "status": "verified"
+          },
+          {
+            "surface": "gebaard",
+            "charStart": 96,
+            "charEnd": 103,
+            "strong": "H3205",
+            "status": "verified"
+          },
+          {
+            "surface": "ouderdom",
+            "charStart": 112,
+            "charEnd": 120,
+            "strong": "H2208",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Gen.21.8",
+      "ref": "21:8",
+      "sv": "En het kind werd groot, en werd gespeend; toen maakte Abraham een groten maaltijd op den dag, als Izak gespeend werd.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "child",
+          "s": null
+        },
+        {
+          "t": "grew,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "was",
+          "s": null
+        },
+        {
+          "t": "weaned:",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "Abraham",
+          "s": null
+        },
+        {
+          "t": "made",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "great",
+          "s": null
+        },
+        {
+          "t": "feast",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "same",
+          "s": null
+        },
+        {
+          "t": "day",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "Isaac",
+          "s": null
+        },
+        {
+          "t": "was",
+          "s": null
+        },
+        {
+          "t": "weaned.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "kind",
+            "charStart": 7,
+            "charEnd": 11,
+            "strong": "H3206",
+            "status": "verified"
+          },
+          {
+            "surface": "groot",
+            "charStart": 17,
+            "charEnd": 22,
+            "strong": "H1431",
+            "status": "verified"
+          },
+          {
+            "surface": "gespeend",
+            "charStart": 32,
+            "charEnd": 40,
+            "strong": "H1580",
+            "status": "verified"
+          },
+          {
+            "surface": "maakte",
+            "charStart": 47,
+            "charEnd": 53,
+            "strong": "H6213",
+            "status": "verified"
+          },
+          {
+            "surface": "Abraham",
+            "charStart": 54,
+            "charEnd": 61,
+            "strong": "H85",
+            "status": "verified"
+          },
+          {
+            "surface": "groten",
+            "charStart": 66,
+            "charEnd": 72,
+            "strong": "H1419",
+            "status": "verified"
+          },
+          {
+            "surface": "maaltijd",
+            "charStart": 73,
+            "charEnd": 81,
+            "strong": "H4960",
+            "status": "verified"
+          },
+          {
+            "surface": "dag",
+            "charStart": 89,
+            "charEnd": 92,
+            "strong": "H3117",
+            "status": "verified"
+          },
+          {
+            "surface": "Izak",
+            "charStart": 98,
+            "charEnd": 102,
+            "strong": "H3327",
+            "status": "verified"
+          },
+          {
+            "surface": "werd",
+            "charStart": 112,
+            "charEnd": 116,
+            "strong": "H1580",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Gen.21.9",
+      "ref": "21:9",
+      "sv": "En Sara zag den zoon van Hagar, de Egyptische, dien zij Abraham gebaard had, spottende.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "Sarah",
+          "s": null
+        },
+        {
+          "t": "saw",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "son",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "Hagar",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "Egyptian,",
+          "s": null
+        },
+        {
+          "t": "which",
+          "s": null
+        },
+        {
+          "t": "she",
+          "s": null
+        },
+        {
+          "t": "had",
+          "s": null
+        },
+        {
+          "t": "born",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "Abraham,",
+          "s": null
+        },
+        {
+          "t": "mocking.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Sara",
+            "charStart": 3,
+            "charEnd": 7,
+            "strong": "H8283",
+            "status": "verified"
+          },
+          {
+            "surface": "zag",
+            "charStart": 8,
+            "charEnd": 11,
+            "strong": "H7200",
+            "status": "verified"
+          },
+          {
+            "surface": "zoon",
+            "charStart": 16,
+            "charEnd": 20,
+            "strong": "H1121",
+            "status": "verified"
+          },
+          {
+            "surface": "Hagar",
+            "charStart": 25,
+            "charEnd": 30,
+            "strong": "H1904",
+            "status": "verified"
+          },
+          {
+            "surface": "Egyptische",
+            "charStart": 35,
+            "charEnd": 45,
+            "strong": "H4713",
+            "status": "verified"
+          },
+          {
+            "surface": "dien",
+            "charStart": 47,
+            "charEnd": 51,
+            "strong": "H834",
+            "status": "verified"
+          },
+          {
+            "surface": "Abraham",
+            "charStart": 56,
+            "charEnd": 63,
+            "strong": "H85",
+            "status": "verified"
+          },
+          {
+            "surface": "had",
+            "charStart": 72,
+            "charEnd": 75,
+            "strong": "H3205",
+            "status": "verified"
+          },
+          {
+            "surface": "spottende",
+            "charStart": 77,
+            "charEnd": 86,
+            "strong": "H6711",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Gen.21.10",
+      "ref": "21:10",
+      "sv": "En zij zeide tot Abraham: Drijf deze dienstmaagd en haar zoon uit; want de zoon dezer dienstmaagd zal met mijn zoon, met Izak, niet erven.",
+      "kjv": [
+        {
+          "t": "Wherefore",
+          "s": null
+        },
+        {
+          "t": "she",
+          "s": null
+        },
+        {
+          "t": "said",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "Abraham,",
+          "s": null
+        },
+        {
+          "t": "Cast",
+          "s": null
+        },
+        {
+          "t": "out",
+          "s": null
+        },
+        {
+          "t": "this",
+          "s": null
+        },
+        {
+          "t": "bondwoman",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "her",
+          "s": null
+        },
+        {
+          "t": "son:",
+          "s": null
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "son",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "this",
+          "s": null
+        },
+        {
+          "t": "bondwoman",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "heir",
+          "s": null
+        },
+        {
+          "t": "with",
+          "s": null
+        },
+        {
+          "t": "my",
+          "s": null
+        },
+        {
+          "t": "son,",
+          "s": null
+        },
+        {
+          "t": "even",
+          "s": null
+        },
+        {
+          "t": "with",
+          "s": null
+        },
+        {
+          "t": "Isaac.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "zeide",
+            "charStart": 7,
+            "charEnd": 12,
+            "strong": "H559",
+            "status": "verified"
+          },
+          {
+            "surface": "Abraham",
+            "charStart": 17,
+            "charEnd": 24,
+            "strong": "H85",
+            "status": "verified"
+          },
+          {
+            "surface": "Drijf",
+            "charStart": 26,
+            "charEnd": 31,
+            "strong": "H1644",
+            "status": "verified"
+          },
+          {
+            "surface": "deze",
+            "charStart": 32,
+            "charEnd": 36,
+            "strong": "H2063",
+            "status": "verified"
+          },
+          {
+            "surface": "dienstmaagd",
+            "charStart": 37,
+            "charEnd": 48,
+            "strong": "H519",
+            "status": "verified"
+          },
+          {
+            "surface": "zoon",
+            "charStart": 57,
+            "charEnd": 61,
+            "strong": "H1121",
+            "status": "verified"
+          },
+          {
+            "surface": "uit",
+            "charStart": 62,
+            "charEnd": 65,
+            "strong": "H1644",
+            "status": "verified"
+          },
+          {
+            "surface": "want",
+            "charStart": 67,
+            "charEnd": 71,
+            "strong": "H3588",
+            "status": "verified"
+          },
+          {
+            "surface": "zoon",
+            "charStart": 75,
+            "charEnd": 79,
+            "strong": "H1121",
+            "status": "verified"
+          },
+          {
+            "surface": "dezer",
+            "charStart": 80,
+            "charEnd": 85,
+            "strong": "H2063",
+            "status": "verified"
+          },
+          {
+            "surface": "dienstmaagd",
+            "charStart": 86,
+            "charEnd": 97,
+            "strong": "H519",
+            "status": "verified"
+          },
+          {
+            "surface": "met",
+            "charStart": 102,
+            "charEnd": 105,
+            "strong": "H5973",
+            "status": "verified"
+          },
+          {
+            "surface": "zoon",
+            "charStart": 111,
+            "charEnd": 115,
+            "strong": "H1121",
+            "status": "verified"
+          },
+          {
+            "surface": "met",
+            "charStart": 117,
+            "charEnd": 120,
+            "strong": "H5973",
+            "status": "verified"
+          },
+          {
+            "surface": "Izak",
+            "charStart": 121,
+            "charEnd": 125,
+            "strong": "H3327",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 127,
+            "charEnd": 131,
+            "strong": "H3808",
+            "status": "verified"
+          },
+          {
+            "surface": "erven",
+            "charStart": 132,
+            "charEnd": 137,
+            "strong": "H3423",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Gen.21.11",
+      "ref": "21:11",
+      "sv": "En dit woord was zeer kwaad in Abrahams ogen, ter oorzake van zijn zoon.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "thing",
+          "s": null
+        },
+        {
+          "t": "was",
+          "s": null
+        },
+        {
+          "t": "very",
+          "s": null
+        },
+        {
+          "t": "grievous",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "Abraham's",
+          "s": null
+        },
+        {
+          "t": "sight",
+          "s": null
+        },
+        {
+          "t": "because",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "son.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "woord",
+            "charStart": 7,
+            "charEnd": 12,
+            "strong": "H1697",
+            "status": "verified"
+          },
+          {
+            "surface": "zeer",
+            "charStart": 17,
+            "charEnd": 21,
+            "strong": "H3966",
+            "status": "verified"
+          },
+          {
+            "surface": "kwaad",
+            "charStart": 22,
+            "charEnd": 27,
+            "strong": "H3415",
+            "status": "verified"
+          },
+          {
+            "surface": "Abrahams",
+            "charStart": 31,
+            "charEnd": 39,
+            "strong": "H85",
+            "status": "verified"
+          },
+          {
+            "surface": "ogen",
+            "charStart": 40,
+            "charEnd": 44,
+            "strong": "H5869",
+            "status": "verified"
+          },
+          {
+            "surface": "ter",
+            "charStart": 46,
+            "charEnd": 49,
+            "strong": "H5921",
+            "status": "verified"
+          },
+          {
+            "surface": "oorzake",
+            "charStart": 50,
+            "charEnd": 57,
+            "strong": "H182",
+            "status": "verified"
+          },
+          {
+            "surface": "zoon",
+            "charStart": 67,
+            "charEnd": 71,
+            "strong": "H1121",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Gen.21.12",
+      "ref": "21:12",
+      "sv": "Maar God zeide tot Abraham: Laat het niet kwaad zijn in uw ogen, over den jongen, en over uw dienstmaagd; al wat Sara tot u zal zeggen, hoor naar haar stem; want in Izak zal uw zaad genoemd worden.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "God",
+          "s": null
+        },
+        {
+          "t": "said",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "Abraham,",
+          "s": null
+        },
+        {
+          "t": "Let",
+          "s": null
+        },
+        {
+          "t": "it",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "grievous",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "thy",
+          "s": null
+        },
+        {
+          "t": "sight",
+          "s": null
+        },
+        {
+          "t": "because",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "lad,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "because",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "thy",
+          "s": null
+        },
+        {
+          "t": "bondwoman;",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "all",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "Sarah",
+          "s": null
+        },
+        {
+          "t": "hath",
+          "s": null
+        },
+        {
+          "t": "said",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "thee,",
+          "s": null
+        },
+        {
+          "t": "hearken",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "her",
+          "s": null
+        },
+        {
+          "t": "voice;",
+          "s": null
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "Isaac",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "thy",
+          "s": null
+        },
+        {
+          "t": "seed",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "called.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "God",
+            "charStart": 5,
+            "charEnd": 8,
+            "strong": "H430",
+            "status": "verified"
+          },
+          {
+            "surface": "zeide",
+            "charStart": 9,
+            "charEnd": 14,
+            "strong": "H559",
+            "status": "verified"
+          },
+          {
+            "surface": "tot",
+            "charStart": 15,
+            "charEnd": 18,
+            "strong": "H413",
+            "status": "verified"
+          },
+          {
+            "surface": "Abraham",
+            "charStart": 19,
+            "charEnd": 26,
+            "strong": "H85",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 37,
+            "charEnd": 41,
+            "strong": "H408",
+            "status": "verified"
+          },
+          {
+            "surface": "zijn",
+            "charStart": 48,
+            "charEnd": 52,
+            "strong": "H3415",
+            "status": "verified"
+          },
+          {
+            "surface": "ogen",
+            "charStart": 59,
+            "charEnd": 63,
+            "strong": "H5869",
+            "status": "verified"
+          },
+          {
+            "surface": "over",
+            "charStart": 65,
+            "charEnd": 69,
+            "strong": "H5921",
+            "status": "verified"
+          },
+          {
+            "surface": "jongen",
+            "charStart": 74,
+            "charEnd": 80,
+            "strong": "H5288",
+            "status": "verified"
+          },
+          {
+            "surface": "over",
+            "charStart": 85,
+            "charEnd": 89,
+            "strong": "H5921",
+            "status": "verified"
+          },
+          {
+            "surface": "dienstmaagd",
+            "charStart": 93,
+            "charEnd": 104,
+            "strong": "H519",
+            "status": "verified"
+          },
+          {
+            "surface": "al",
+            "charStart": 106,
+            "charEnd": 108,
+            "strong": "H3605",
+            "status": "verified"
+          },
+          {
+            "surface": "wat",
+            "charStart": 109,
+            "charEnd": 112,
+            "strong": "H834",
+            "status": "verified"
+          },
+          {
+            "surface": "Sara",
+            "charStart": 113,
+            "charEnd": 117,
+            "strong": "H8283",
+            "status": "verified"
+          },
+          {
+            "surface": "tot",
+            "charStart": 118,
+            "charEnd": 121,
+            "strong": "H413",
+            "status": "verified"
+          },
+          {
+            "surface": "zeggen",
+            "charStart": 128,
+            "charEnd": 134,
+            "strong": "H559",
+            "status": "verified"
+          },
+          {
+            "surface": "hoor",
+            "charStart": 136,
+            "charEnd": 140,
+            "strong": "H8085",
+            "status": "verified"
+          },
+          {
+            "surface": "stem",
+            "charStart": 151,
+            "charEnd": 155,
+            "strong": "H6963",
+            "status": "verified"
+          },
+          {
+            "surface": "want",
+            "charStart": 157,
+            "charEnd": 161,
+            "strong": "H3588",
+            "status": "verified"
+          },
+          {
+            "surface": "Izak",
+            "charStart": 165,
+            "charEnd": 169,
+            "strong": "H3327",
+            "status": "verified"
+          },
+          {
+            "surface": "zaad",
+            "charStart": 177,
+            "charEnd": 181,
+            "strong": "H2233",
+            "status": "verified"
+          },
+          {
+            "surface": "worden",
+            "charStart": 190,
+            "charEnd": 196,
+            "strong": "H7121",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Gen.21.13",
+      "ref": "21:13",
+      "sv": "Doch Ik zal ook den zoon dezer dienstmaagd tot een volk stellen, omdat hij uw zaad [is].",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "also",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "son",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "bondwoman",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "make",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "nation,",
+          "s": null
+        },
+        {
+          "t": "because",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "thy",
+          "s": null
+        },
+        {
+          "t": "seed.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "ook",
+            "charStart": 12,
+            "charEnd": 15,
+            "strong": "H1571",
+            "status": "verified"
+          },
+          {
+            "surface": "zoon",
+            "charStart": 20,
+            "charEnd": 24,
+            "strong": "H1121",
+            "status": "verified"
+          },
+          {
+            "surface": "dienstmaagd",
+            "charStart": 31,
+            "charEnd": 42,
+            "strong": "H519",
+            "status": "verified"
+          },
+          {
+            "surface": "volk",
+            "charStart": 51,
+            "charEnd": 55,
+            "strong": "H1471",
+            "status": "verified"
+          },
+          {
+            "surface": "stellen",
+            "charStart": 56,
+            "charEnd": 63,
+            "strong": "H7760",
+            "status": "verified"
+          },
+          {
+            "surface": "omdat",
+            "charStart": 65,
+            "charEnd": 70,
+            "strong": "H3588",
+            "status": "verified"
+          },
+          {
+            "surface": "hij",
+            "charStart": 71,
+            "charEnd": 74,
+            "strong": "H1931",
+            "status": "verified"
+          },
+          {
+            "surface": "zaad",
+            "charStart": 78,
+            "charEnd": 82,
+            "strong": "H2233",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Gen.21.14",
+      "ref": "21:14",
+      "sv": "Toen stond Abraham des morgens vroeg op, en nam brood, en een fles water, en gaf ze aan Hagar, die leggende op haar schouder; ook [gaf] [hij] [haar] het kind, en zond haar weg. En zij ging voort, en dwaalde in de woestijn Ber-seba.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "Abraham",
+          "s": null
+        },
+        {
+          "t": "rose",
+          "s": null
+        },
+        {
+          "t": "up",
+          "s": null
+        },
+        {
+          "t": "early",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "morning,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "took",
+          "s": null
+        },
+        {
+          "t": "bread,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "bottle",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "water,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "gave",
+          "s": null
+        },
+        {
+          "t": "it",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "Hagar,",
+          "s": null
+        },
+        {
+          "t": "putting",
+          "s": null
+        },
+        {
+          "t": "it",
+          "s": null
+        },
+        {
+          "t": "on",
+          "s": null
+        },
+        {
+          "t": "her",
+          "s": null
+        },
+        {
+          "t": "shoulder,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "child,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "sent",
+          "s": null
+        },
+        {
+          "t": "her",
+          "s": null
+        },
+        {
+          "t": "away:",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "she",
+          "s": null
+        },
+        {
+          "t": "departed,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "wandered",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "wilderness",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "Beersheba.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "stond",
+            "charStart": 5,
+            "charEnd": 10,
+            "strong": "H7925",
+            "status": "verified"
+          },
+          {
+            "surface": "Abraham",
+            "charStart": 11,
+            "charEnd": 18,
+            "strong": "H85",
+            "status": "verified"
+          },
+          {
+            "surface": "morgens",
+            "charStart": 23,
+            "charEnd": 30,
+            "strong": "H1242",
+            "status": "verified"
+          },
+          {
+            "surface": "op",
+            "charStart": 37,
+            "charEnd": 39,
+            "strong": "H7925",
+            "status": "verified"
+          },
+          {
+            "surface": "nam",
+            "charStart": 44,
+            "charEnd": 47,
+            "strong": "H3947",
+            "status": "verified"
+          },
+          {
+            "surface": "brood",
+            "charStart": 48,
+            "charEnd": 53,
+            "strong": "H3899",
+            "status": "verified"
+          },
+          {
+            "surface": "fles",
+            "charStart": 62,
+            "charEnd": 66,
+            "strong": "H2573",
+            "status": "verified"
+          },
+          {
+            "surface": "water",
+            "charStart": 67,
+            "charEnd": 72,
+            "strong": "H4325",
+            "status": "verified"
+          },
+          {
+            "surface": "gaf",
+            "charStart": 77,
+            "charEnd": 80,
+            "strong": "H5414",
+            "status": "verified"
+          },
+          {
+            "surface": "aan",
+            "charStart": 84,
+            "charEnd": 87,
+            "strong": "H413",
+            "status": "verified"
+          },
+          {
+            "surface": "Hagar",
+            "charStart": 88,
+            "charEnd": 93,
+            "strong": "H1904",
+            "status": "verified"
+          },
+          {
+            "surface": "leggende",
+            "charStart": 99,
+            "charEnd": 107,
+            "strong": "H7760",
+            "status": "verified"
+          },
+          {
+            "surface": "op",
+            "charStart": 108,
+            "charEnd": 110,
+            "strong": "H5921",
+            "status": "verified"
+          },
+          {
+            "surface": "schouder",
+            "charStart": 116,
+            "charEnd": 124,
+            "strong": "H7926",
+            "status": "verified"
+          },
+          {
+            "surface": "het",
+            "charStart": 149,
+            "charEnd": 152,
+            "strong": "H853",
+            "status": "verified"
+          },
+          {
+            "surface": "kind",
+            "charStart": 153,
+            "charEnd": 157,
+            "strong": "H3206",
+            "status": "verified"
+          },
+          {
+            "surface": "weg",
+            "charStart": 172,
+            "charEnd": 175,
+            "strong": "H7971",
+            "status": "verified"
+          },
+          {
+            "surface": "voort",
+            "charStart": 189,
+            "charEnd": 194,
+            "strong": "H3212",
+            "status": "verified"
+          },
+          {
+            "surface": "dwaalde",
+            "charStart": 199,
+            "charEnd": 206,
+            "strong": "H8582",
+            "status": "verified"
+          },
+          {
+            "surface": "woestijn",
+            "charStart": 213,
+            "charEnd": 221,
+            "strong": "H4057",
+            "status": "verified"
+          },
+          {
+            "surface": "Ber-seba",
+            "charStart": 222,
+            "charEnd": 230,
+            "strong": "H884",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Gen.21.15",
+      "ref": "21:15",
+      "sv": "Als nu het water van de fles uit was, zo wierp zij het kind onder een van de struiken.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "water",
+          "s": null
+        },
+        {
+          "t": "was",
+          "s": null
+        },
+        {
+          "t": "spent",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "bottle,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "she",
+          "s": null
+        },
+        {
+          "t": "cast",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "child",
+          "s": null
+        },
+        {
+          "t": "under",
+          "s": null
+        },
+        {
+          "t": "one",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "shrubs.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "water",
+            "charStart": 11,
+            "charEnd": 16,
+            "strong": "H4325",
+            "status": "verified"
+          },
+          {
+            "surface": "van",
+            "charStart": 17,
+            "charEnd": 20,
+            "strong": "H4480",
+            "status": "verified"
+          },
+          {
+            "surface": "fles",
+            "charStart": 24,
+            "charEnd": 28,
+            "strong": "H2573",
+            "status": "verified"
+          },
+          {
+            "surface": "was",
+            "charStart": 33,
+            "charEnd": 36,
+            "strong": "H3615",
+            "status": "verified"
+          },
+          {
+            "surface": "zij",
+            "charStart": 47,
+            "charEnd": 50,
+            "strong": "H7993",
+            "status": "verified"
+          },
+          {
+            "surface": "kind",
+            "charStart": 55,
+            "charEnd": 59,
+            "strong": "H3206",
+            "status": "verified"
+          },
+          {
+            "surface": "onder",
+            "charStart": 60,
+            "charEnd": 65,
+            "strong": "H8478",
+            "status": "verified"
+          },
+          {
+            "surface": "een",
+            "charStart": 66,
+            "charEnd": 69,
+            "strong": "H259",
+            "status": "verified"
+          },
+          {
+            "surface": "struiken",
+            "charStart": 77,
+            "charEnd": 85,
+            "strong": "H7880",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Gen.21.16",
+      "ref": "21:16",
+      "sv": "En zij ging en zette zich tegenover, afgaande zo verre, als die met den boog schieten; want zij zeide: Dat ik het kind niet zie sterven; en zij zat tegenover, en hief haar stem op, en weende.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "she",
+          "s": null
+        },
+        {
+          "t": "went,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "sat",
+          "s": null
+        },
+        {
+          "t": "her",
+          "s": null
+        },
+        {
+          "t": "down",
+          "s": null
+        },
+        {
+          "t": "over",
+          "s": null
+        },
+        {
+          "t": "against",
+          "s": null
+        },
+        {
+          "t": "him",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "good",
+          "s": null
+        },
+        {
+          "t": "way",
+          "s": null
+        },
+        {
+          "t": "off,",
+          "s": null
+        },
+        {
+          "t": "as",
+          "s": null
+        },
+        {
+          "t": "it",
+          "s": null
+        },
+        {
+          "t": "were",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "bowshot",
+          "s": null
+        },
+        {
+          "t": ":",
+          "s": null
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "she",
+          "s": null
+        },
+        {
+          "t": "said,",
+          "s": null
+        },
+        {
+          "t": "Let",
+          "s": null
+        },
+        {
+          "t": "me",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "see",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "death",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "child.",
+          "s": null
+        },
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "she",
+          "s": null
+        },
+        {
+          "t": "sat",
+          "s": null
+        },
+        {
+          "t": "over",
+          "s": null
+        },
+        {
+          "t": "against",
+          "s": null
+        },
+        {
+          "t": "him,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "lift",
+          "s": null
+        },
+        {
+          "t": "up",
+          "s": null
+        },
+        {
+          "t": "her",
+          "s": null
+        },
+        {
+          "t": "voice,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "wept.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "ging",
+            "charStart": 7,
+            "charEnd": 11,
+            "strong": "H3212",
+            "status": "verified"
+          },
+          {
+            "surface": "zich",
+            "charStart": 21,
+            "charEnd": 25,
+            "strong": "H3427",
+            "status": "verified"
+          },
+          {
+            "surface": "tegenover",
+            "charStart": 26,
+            "charEnd": 35,
+            "strong": "H4480",
+            "status": "verified"
+          },
+          {
+            "surface": "verre",
+            "charStart": 49,
+            "charEnd": 54,
+            "strong": "H7368",
+            "status": "verified"
+          },
+          {
+            "surface": "boog",
+            "charStart": 72,
+            "charEnd": 76,
+            "strong": "H7198",
+            "status": "verified"
+          },
+          {
+            "surface": "schieten",
+            "charStart": 77,
+            "charEnd": 85,
+            "strong": "H2909",
+            "status": "verified"
+          },
+          {
+            "surface": "want",
+            "charStart": 87,
+            "charEnd": 91,
+            "strong": "H3588",
+            "status": "verified"
+          },
+          {
+            "surface": "zeide",
+            "charStart": 96,
+            "charEnd": 101,
+            "strong": "H559",
+            "status": "verified"
+          },
+          {
+            "surface": "kind",
+            "charStart": 114,
+            "charEnd": 118,
+            "strong": "H3206",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 119,
+            "charEnd": 123,
+            "strong": "H408",
+            "status": "verified"
+          },
+          {
+            "surface": "zie",
+            "charStart": 124,
+            "charEnd": 127,
+            "strong": "H7200",
+            "status": "verified"
+          },
+          {
+            "surface": "sterven",
+            "charStart": 128,
+            "charEnd": 135,
+            "strong": "H4194",
+            "status": "verified"
+          },
+          {
+            "surface": "zat",
+            "charStart": 144,
+            "charEnd": 147,
+            "strong": "H3427",
+            "status": "verified"
+          },
+          {
+            "surface": "tegenover",
+            "charStart": 148,
+            "charEnd": 157,
+            "strong": "H4480",
+            "status": "verified"
+          },
+          {
+            "surface": "hief",
+            "charStart": 162,
+            "charEnd": 166,
+            "strong": "H5375",
+            "status": "verified"
+          },
+          {
+            "surface": "stem",
+            "charStart": 172,
+            "charEnd": 176,
+            "strong": "H6963",
+            "status": "verified"
+          },
+          {
+            "surface": "op",
+            "charStart": 177,
+            "charEnd": 179,
+            "strong": "H5375",
+            "status": "verified"
+          },
+          {
+            "surface": "weende",
+            "charStart": 184,
+            "charEnd": 190,
+            "strong": "H1058",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Gen.21.17",
+      "ref": "21:17",
+      "sv": "En God hoorde de stem van den jongen; en de Engel Gods riep Hagar toe uit den hemel, en zeide tot haar: Wat [is] u, Hagar? Vrees niet; want God heeft naar des jongens stem gehoord, ter plaatse, waar hij [is].",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "God",
+          "s": null
+        },
+        {
+          "t": "heard",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "voice",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "lad;",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "angel",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "God",
+          "s": null
+        },
+        {
+          "t": "called",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "Hagar",
+          "s": null
+        },
+        {
+          "t": "out",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "heaven,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "said",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "her,",
+          "s": null
+        },
+        {
+          "t": "What",
+          "s": null
+        },
+        {
+          "t": "aileth",
+          "s": null
+        },
+        {
+          "t": "thee,",
+          "s": null
+        },
+        {
+          "t": "Hagar?",
+          "s": null
+        },
+        {
+          "t": "fear",
+          "s": null
+        },
+        {
+          "t": "not;",
+          "s": null
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "God",
+          "s": null
+        },
+        {
+          "t": "hath",
+          "s": null
+        },
+        {
+          "t": "heard",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "voice",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "lad",
+          "s": null
+        },
+        {
+          "t": "where",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "is.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "God",
+            "charStart": 3,
+            "charEnd": 6,
+            "strong": "H430",
+            "status": "verified"
+          },
+          {
+            "surface": "hoorde",
+            "charStart": 7,
+            "charEnd": 13,
+            "strong": "H8085",
+            "status": "verified"
+          },
+          {
+            "surface": "stem",
+            "charStart": 17,
+            "charEnd": 21,
+            "strong": "H6963",
+            "status": "verified"
+          },
+          {
+            "surface": "jongen",
+            "charStart": 30,
+            "charEnd": 36,
+            "strong": "H5288",
+            "status": "verified"
+          },
+          {
+            "surface": "Engel",
+            "charStart": 44,
+            "charEnd": 49,
+            "strong": "H4397",
+            "status": "verified"
+          },
+          {
+            "surface": "Gods",
+            "charStart": 50,
+            "charEnd": 54,
+            "strong": "H430",
+            "status": "verified"
+          },
+          {
+            "surface": "riep",
+            "charStart": 55,
+            "charEnd": 59,
+            "strong": "H7121",
+            "status": "verified"
+          },
+          {
+            "surface": "Hagar",
+            "charStart": 60,
+            "charEnd": 65,
+            "strong": "H1904",
+            "status": "verified"
+          },
+          {
+            "surface": "toe",
+            "charStart": 66,
+            "charEnd": 69,
+            "strong": "H413",
+            "status": "verified"
+          },
+          {
+            "surface": "uit",
+            "charStart": 70,
+            "charEnd": 73,
+            "strong": "H4480",
+            "status": "verified"
+          },
+          {
+            "surface": "hemel",
+            "charStart": 78,
+            "charEnd": 83,
+            "strong": "H8064",
+            "status": "verified"
+          },
+          {
+            "surface": "zeide",
+            "charStart": 88,
+            "charEnd": 93,
+            "strong": "H559",
+            "status": "verified"
+          },
+          {
+            "surface": "Wat",
+            "charStart": 104,
+            "charEnd": 107,
+            "strong": "H4100",
+            "status": "verified"
+          },
+          {
+            "surface": "Hagar",
+            "charStart": 116,
+            "charEnd": 121,
+            "strong": "H1904",
+            "status": "verified"
+          },
+          {
+            "surface": "Vrees",
+            "charStart": 123,
+            "charEnd": 128,
+            "strong": "H3372",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 129,
+            "charEnd": 133,
+            "strong": "H408",
+            "status": "verified"
+          },
+          {
+            "surface": "want",
+            "charStart": 135,
+            "charEnd": 139,
+            "strong": "H3588",
+            "status": "verified"
+          },
+          {
+            "surface": "God",
+            "charStart": 140,
+            "charEnd": 143,
+            "strong": "H430",
+            "status": "verified"
+          },
+          {
+            "surface": "naar",
+            "charStart": 150,
+            "charEnd": 154,
+            "strong": "H413",
+            "status": "verified"
+          },
+          {
+            "surface": "jongens",
+            "charStart": 159,
+            "charEnd": 166,
+            "strong": "H5288",
+            "status": "verified"
+          },
+          {
+            "surface": "stem",
+            "charStart": 167,
+            "charEnd": 171,
+            "strong": "H6963",
+            "status": "verified"
+          },
+          {
+            "surface": "gehoord",
+            "charStart": 172,
+            "charEnd": 179,
+            "strong": "H8085",
+            "status": "verified"
+          },
+          {
+            "surface": "plaatse",
+            "charStart": 185,
+            "charEnd": 192,
+            "strong": "H834",
+            "status": "verified"
+          },
+          {
+            "surface": "waar",
+            "charStart": 194,
+            "charEnd": 198,
+            "strong": "H8033",
+            "status": "verified"
+          },
+          {
+            "surface": "hij",
+            "charStart": 199,
+            "charEnd": 202,
+            "strong": "H1931",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Gen.21.18",
+      "ref": "21:18",
+      "sv": "Sta op, hef den jongen op, en houd hem vast met uwe hand; want Ik zal hem tot een groot volk stellen.",
+      "kjv": [
+        {
+          "t": "Arise,",
+          "s": null
+        },
+        {
+          "t": "lift",
+          "s": null
+        },
+        {
+          "t": "up",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "lad,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "hold",
+          "s": null
+        },
+        {
+          "t": "him",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "thine",
+          "s": null
+        },
+        {
+          "t": "hand;",
+          "s": null
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "make",
+          "s": null
+        },
+        {
+          "t": "him",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "great",
+          "s": null
+        },
+        {
+          "t": "nation.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "op",
+            "charStart": 4,
+            "charEnd": 6,
+            "strong": "H6965",
+            "status": "verified"
+          },
+          {
+            "surface": "hef",
+            "charStart": 8,
+            "charEnd": 11,
+            "strong": "H5375",
+            "status": "verified"
+          },
+          {
+            "surface": "jongen",
+            "charStart": 16,
+            "charEnd": 22,
+            "strong": "H5288",
+            "status": "verified"
+          },
+          {
+            "surface": "op",
+            "charStart": 23,
+            "charEnd": 25,
+            "strong": "H5375",
+            "status": "verified"
+          },
+          {
+            "surface": "houd",
+            "charStart": 30,
+            "charEnd": 34,
+            "strong": "H2388",
+            "status": "verified"
+          },
+          {
+            "surface": "met",
+            "charStart": 44,
+            "charEnd": 47,
+            "strong": "H854",
+            "status": "verified"
+          },
+          {
+            "surface": "hand",
+            "charStart": 52,
+            "charEnd": 56,
+            "strong": "H3027",
+            "status": "verified"
+          },
+          {
+            "surface": "want",
+            "charStart": 58,
+            "charEnd": 62,
+            "strong": "H3588",
+            "status": "verified"
+          },
+          {
+            "surface": "groot",
+            "charStart": 82,
+            "charEnd": 87,
+            "strong": "H1419",
+            "status": "verified"
+          },
+          {
+            "surface": "volk",
+            "charStart": 88,
+            "charEnd": 92,
+            "strong": "H1471",
+            "status": "verified"
+          },
+          {
+            "surface": "stellen",
+            "charStart": 93,
+            "charEnd": 100,
+            "strong": "H7760",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Gen.21.19",
+      "ref": "21:19",
+      "sv": "En God opende haar ogen, dat zij een waterput zag; en zij ging, en vulde de fles met water, en gaf den jongen te drinken.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "God",
+          "s": null
+        },
+        {
+          "t": "opened",
+          "s": null
+        },
+        {
+          "t": "her",
+          "s": null
+        },
+        {
+          "t": "eyes,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "she",
+          "s": null
+        },
+        {
+          "t": "saw",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "well",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "water;",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "she",
+          "s": null
+        },
+        {
+          "t": "went,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "filled",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "bottle",
+          "s": null
+        },
+        {
+          "t": "with",
+          "s": null
+        },
+        {
+          "t": "water,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "gave",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "lad",
+          "s": null
+        },
+        {
+          "t": "drink.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "God",
+            "charStart": 3,
+            "charEnd": 6,
+            "strong": "H430",
+            "status": "verified"
+          },
+          {
+            "surface": "opende",
+            "charStart": 7,
+            "charEnd": 13,
+            "strong": "H6491",
+            "status": "verified"
+          },
+          {
+            "surface": "ogen",
+            "charStart": 19,
+            "charEnd": 23,
+            "strong": "H5869",
+            "status": "verified"
+          },
+          {
+            "surface": "waterput",
+            "charStart": 37,
+            "charEnd": 45,
+            "strong": "H875",
+            "status": "verified"
+          },
+          {
+            "surface": "zag",
+            "charStart": 46,
+            "charEnd": 49,
+            "strong": "H7200",
+            "status": "verified"
+          },
+          {
+            "surface": "ging",
+            "charStart": 58,
+            "charEnd": 62,
+            "strong": "H3212",
+            "status": "verified"
+          },
+          {
+            "surface": "vulde",
+            "charStart": 67,
+            "charEnd": 72,
+            "strong": "H4390",
+            "status": "verified"
+          },
+          {
+            "surface": "fles",
+            "charStart": 76,
+            "charEnd": 80,
+            "strong": "H2573",
+            "status": "verified"
+          },
+          {
+            "surface": "water",
+            "charStart": 85,
+            "charEnd": 90,
+            "strong": "H4325",
+            "status": "verified"
+          },
+          {
+            "surface": "gaf",
+            "charStart": 95,
+            "charEnd": 98,
+            "strong": "H8248",
+            "status": "verified"
+          },
+          {
+            "surface": "jongen",
+            "charStart": 103,
+            "charEnd": 109,
+            "strong": "H5288",
+            "status": "verified"
+          },
+          {
+            "surface": "drinken",
+            "charStart": 113,
+            "charEnd": 120,
+            "strong": "H8248",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Gen.21.20",
+      "ref": "21:20",
+      "sv": "En God was met den jongen; en hij werd groot, en hij woonde in de woestijn, en werd een boogschutter.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "God",
+          "s": null
+        },
+        {
+          "t": "was",
+          "s": null
+        },
+        {
+          "t": "with",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "lad;",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "grew,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "dwelt",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "wilderness,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "became",
+          "s": null
+        },
+        {
+          "t": "an",
+          "s": null
+        },
+        {
+          "t": "archer",
+          "s": null
+        },
+        {
+          "t": ".",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "God",
+            "charStart": 3,
+            "charEnd": 6,
+            "strong": "H430",
+            "status": "verified"
+          },
+          {
+            "surface": "was",
+            "charStart": 7,
+            "charEnd": 10,
+            "strong": "H1961",
+            "status": "verified"
+          },
+          {
+            "surface": "met",
+            "charStart": 11,
+            "charEnd": 14,
+            "strong": "H854",
+            "status": "verified"
+          },
+          {
+            "surface": "jongen",
+            "charStart": 19,
+            "charEnd": 25,
+            "strong": "H5288",
+            "status": "verified"
+          },
+          {
+            "surface": "groot",
+            "charStart": 39,
+            "charEnd": 44,
+            "strong": "H1431",
+            "status": "verified"
+          },
+          {
+            "surface": "woonde",
+            "charStart": 53,
+            "charEnd": 59,
+            "strong": "H3427",
+            "status": "verified"
+          },
+          {
+            "surface": "woestijn",
+            "charStart": 66,
+            "charEnd": 74,
+            "strong": "H4057",
+            "status": "verified"
+          },
+          {
+            "surface": "werd",
+            "charStart": 79,
+            "charEnd": 83,
+            "strong": "H1961",
+            "status": "verified"
+          },
+          {
+            "surface": "boogschutter",
+            "charStart": 88,
+            "charEnd": 100,
+            "strong": "H7235",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Gen.21.21",
+      "ref": "21:21",
+      "sv": "En hij woonde in de woestijn Paran; en zijn moeder nam hem een vrouw uit Egypteland.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "dwelt",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "wilderness",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "Paran:",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "mother",
+          "s": null
+        },
+        {
+          "t": "took",
+          "s": null
+        },
+        {
+          "t": "him",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "wife",
+          "s": null
+        },
+        {
+          "t": "out",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "land",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "Egypt.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "woonde",
+            "charStart": 7,
+            "charEnd": 13,
+            "strong": "H3427",
+            "status": "verified"
+          },
+          {
+            "surface": "woestijn",
+            "charStart": 20,
+            "charEnd": 28,
+            "strong": "H4057",
+            "status": "verified"
+          },
+          {
+            "surface": "Paran",
+            "charStart": 29,
+            "charEnd": 34,
+            "strong": "H6290",
+            "status": "verified"
+          },
+          {
+            "surface": "moeder",
+            "charStart": 44,
+            "charEnd": 50,
+            "strong": "H517",
+            "status": "verified"
+          },
+          {
+            "surface": "nam",
+            "charStart": 51,
+            "charEnd": 54,
+            "strong": "H3947",
+            "status": "verified"
+          },
+          {
+            "surface": "vrouw",
+            "charStart": 63,
+            "charEnd": 68,
+            "strong": "H802",
+            "status": "verified"
+          },
+          {
+            "surface": "uit",
+            "charStart": 69,
+            "charEnd": 72,
+            "strong": "H4480",
+            "status": "verified"
+          },
+          {
+            "surface": "Egypteland",
+            "charStart": 73,
+            "charEnd": 83,
+            "strong": "H776",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Gen.21.22",
+      "ref": "21:22",
+      "sv": "Voorts geschiedde het ter zelfder tijd, dat Abimelech, mitsgaders Pichol, zijn krijgsoverste, tot Abraham sprak, zeggende: God [is] met u in alles, wat gij doet.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "it",
+          "s": null
+        },
+        {
+          "t": "came",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "pass",
+          "s": null
+        },
+        {
+          "t": "at",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "time,",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "Abimelech",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "Phichol",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "chief",
+          "s": null
+        },
+        {
+          "t": "captain",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "host",
+          "s": null
+        },
+        {
+          "t": "spake",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "Abraham,",
+          "s": null
+        },
+        {
+          "t": "saying,",
+          "s": null
+        },
+        {
+          "t": "God",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "with",
+          "s": null
+        },
+        {
+          "t": "thee",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "all",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "thou",
+          "s": null
+        },
+        {
+          "t": "doest:",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "het",
+            "charStart": 18,
+            "charEnd": 21,
+            "strong": "H1961",
+            "status": "verified"
+          },
+          {
+            "surface": "zelfder",
+            "charStart": 26,
+            "charEnd": 33,
+            "strong": "H1931",
+            "status": "verified"
+          },
+          {
+            "surface": "tijd",
+            "charStart": 34,
+            "charEnd": 38,
+            "strong": "H6256",
+            "status": "verified"
+          },
+          {
+            "surface": "Abimelech",
+            "charStart": 44,
+            "charEnd": 53,
+            "strong": "H40",
+            "status": "verified"
+          },
+          {
+            "surface": "Pichol",
+            "charStart": 66,
+            "charEnd": 72,
+            "strong": "H6369",
+            "status": "verified"
+          },
+          {
+            "surface": "krijgsoverste",
+            "charStart": 79,
+            "charEnd": 92,
+            "strong": "H8269",
+            "status": "verified"
+          },
+          {
+            "surface": "tot",
+            "charStart": 94,
+            "charEnd": 97,
+            "strong": "H413",
+            "status": "verified"
+          },
+          {
+            "surface": "Abraham",
+            "charStart": 98,
+            "charEnd": 105,
+            "strong": "H85",
+            "status": "verified"
+          },
+          {
+            "surface": "sprak",
+            "charStart": 106,
+            "charEnd": 111,
+            "strong": "H559",
+            "status": "verified"
+          },
+          {
+            "surface": "zeggende",
+            "charStart": 113,
+            "charEnd": 121,
+            "strong": "H559",
+            "status": "verified"
+          },
+          {
+            "surface": "God",
+            "charStart": 123,
+            "charEnd": 126,
+            "strong": "H430",
+            "status": "verified"
+          },
+          {
+            "surface": "met",
+            "charStart": 132,
+            "charEnd": 135,
+            "strong": "H5973",
+            "status": "verified"
+          },
+          {
+            "surface": "alles",
+            "charStart": 141,
+            "charEnd": 146,
+            "strong": "H3605",
+            "status": "verified"
+          },
+          {
+            "surface": "wat",
+            "charStart": 148,
+            "charEnd": 151,
+            "strong": "H834",
+            "status": "verified"
+          },
+          {
+            "surface": "gij",
+            "charStart": 152,
+            "charEnd": 155,
+            "strong": "H859",
+            "status": "verified"
+          },
+          {
+            "surface": "doet",
+            "charStart": 156,
+            "charEnd": 160,
+            "strong": "H6213",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Gen.21.23",
+      "ref": "21:23",
+      "sv": "Zo zweer mij nu hier bij God: Zo gij mij, of mijn zoon, of mijn neef liegen zult! naar de weldadigheid, die ik bij u gedaan heb, zult gij doen bij mij, en bij het land, waarin gij als vreemdeling verkeert.",
+      "kjv": [
+        {
+          "t": "Now",
+          "s": null
+        },
+        {
+          "t": "therefore",
+          "s": null
+        },
+        {
+          "t": "swear",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "me",
+          "s": null
+        },
+        {
+          "t": "here",
+          "s": null
+        },
+        {
+          "t": "by",
+          "s": null
+        },
+        {
+          "t": "God",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "thou",
+          "s": null
+        },
+        {
+          "t": "wilt",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "deal",
+          "s": null
+        },
+        {
+          "t": "falsely",
+          "s": null
+        },
+        {
+          "t": "with",
+          "s": null
+        },
+        {
+          "t": "me,",
+          "s": null
+        },
+        {
+          "t": "nor",
+          "s": null
+        },
+        {
+          "t": "with",
+          "s": null
+        },
+        {
+          "t": "my",
+          "s": null
+        },
+        {
+          "t": "son,",
+          "s": null
+        },
+        {
+          "t": "nor",
+          "s": null
+        },
+        {
+          "t": "with",
+          "s": null
+        },
+        {
+          "t": "my",
+          "s": null
+        },
+        {
+          "t": "son's",
+          "s": null
+        },
+        {
+          "t": "son:",
+          "s": null
+        },
+        {
+          "t": "but",
+          "s": null
+        },
+        {
+          "t": "according",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "kindness",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "have",
+          "s": null
+        },
+        {
+          "t": "done",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "thee,",
+          "s": null
+        },
+        {
+          "t": "thou",
+          "s": null
+        },
+        {
+          "t": "shalt",
+          "s": null
+        },
+        {
+          "t": "do",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "me,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "land",
+          "s": null
+        },
+        {
+          "t": "wherein",
+          "s": null
+        },
+        {
+          "t": "thou",
+          "s": null
+        },
+        {
+          "t": "hast",
+          "s": null
+        },
+        {
+          "t": "sojourned.",
+          "s": null
+        },
+        {
+          "t": "<sup>that",
+          "s": null
+        },
+        {
+          "t": "thou:",
+          "s": null
+        },
+        {
+          "t": "Heb.",
+          "s": null
+        },
+        {
+          "t": "if",
+          "s": null
+        },
+        {
+          "t": "thou",
+          "s": null
+        },
+        {
+          "t": "shalt",
+          "s": null
+        },
+        {
+          "t": "lie",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "me</sup>",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "zweer",
+            "charStart": 3,
+            "charEnd": 8,
+            "strong": "H7650",
+            "status": "verified"
+          },
+          {
+            "surface": "nu",
+            "charStart": 13,
+            "charEnd": 15,
+            "strong": "H6258",
+            "status": "verified"
+          },
+          {
+            "surface": "hier",
+            "charStart": 16,
+            "charEnd": 20,
+            "strong": "H2008",
+            "status": "verified"
+          },
+          {
+            "surface": "God",
+            "charStart": 25,
+            "charEnd": 28,
+            "strong": "H430",
+            "status": "verified"
+          },
+          {
+            "surface": "Zo",
+            "charStart": 30,
+            "charEnd": 32,
+            "strong": "H518",
+            "status": "verified"
+          },
+          {
+            "surface": "zoon",
+            "charStart": 50,
+            "charEnd": 54,
+            "strong": "H5209",
+            "status": "verified"
+          },
+          {
+            "surface": "neef",
+            "charStart": 64,
+            "charEnd": 68,
+            "strong": "H5220",
+            "status": "verified"
+          },
+          {
+            "surface": "zult",
+            "charStart": 76,
+            "charEnd": 80,
+            "strong": "H8266",
+            "status": "verified"
+          },
+          {
+            "surface": "weldadigheid",
+            "charStart": 90,
+            "charEnd": 102,
+            "strong": "H2617",
+            "status": "verified"
+          },
+          {
+            "surface": "die",
+            "charStart": 104,
+            "charEnd": 107,
+            "strong": "H834",
+            "status": "verified"
+          },
+          {
+            "surface": "bij",
+            "charStart": 111,
+            "charEnd": 114,
+            "strong": "H5973",
+            "status": "verified"
+          },
+          {
+            "surface": "heb",
+            "charStart": 124,
+            "charEnd": 127,
+            "strong": "H6213",
+            "status": "verified"
+          },
+          {
+            "surface": "doen",
+            "charStart": 138,
+            "charEnd": 142,
+            "strong": "H6213",
+            "status": "verified"
+          },
+          {
+            "surface": "bij",
+            "charStart": 143,
+            "charEnd": 146,
+            "strong": "H5973",
+            "status": "verified"
+          },
+          {
+            "surface": "bij",
+            "charStart": 155,
+            "charEnd": 158,
+            "strong": "H5973",
+            "status": "verified"
+          },
+          {
+            "surface": "land",
+            "charStart": 163,
+            "charEnd": 167,
+            "strong": "H776",
+            "status": "verified"
+          },
+          {
+            "surface": "waarin",
+            "charStart": 169,
+            "charEnd": 175,
+            "strong": "H834",
+            "status": "verified"
+          },
+          {
+            "surface": "verkeert",
+            "charStart": 196,
+            "charEnd": 204,
+            "strong": "H1481",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Gen.21.24",
+      "ref": "21:24",
+      "sv": "En Abraham zeide: Ik zal zweren.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "Abraham",
+          "s": null
+        },
+        {
+          "t": "said,",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "swear.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Abraham",
+            "charStart": 3,
+            "charEnd": 10,
+            "strong": "H85",
+            "status": "verified"
+          },
+          {
+            "surface": "zeide",
+            "charStart": 11,
+            "charEnd": 16,
+            "strong": "H559",
+            "status": "verified"
+          },
+          {
+            "surface": "Ik",
+            "charStart": 18,
+            "charEnd": 20,
+            "strong": "H595",
+            "status": "verified"
+          },
+          {
+            "surface": "zweren",
+            "charStart": 25,
+            "charEnd": 31,
+            "strong": "H7650",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Gen.21.25",
+      "ref": "21:25",
+      "sv": "En Abraham berispte Abimelech ter oorzake van een waterput, die Abimelechs knechten met geweld genomen hadden.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "Abraham",
+          "s": null
+        },
+        {
+          "t": "reproved",
+          "s": null
+        },
+        {
+          "t": "Abimelech",
+          "s": null
+        },
+        {
+          "t": "because",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "well",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "water,",
+          "s": null
+        },
+        {
+          "t": "which",
+          "s": null
+        },
+        {
+          "t": "Abimelech's",
+          "s": null
+        },
+        {
+          "t": "servants",
+          "s": null
+        },
+        {
+          "t": "had",
+          "s": null
+        },
+        {
+          "t": "violently",
+          "s": null
+        },
+        {
+          "t": "taken",
+          "s": null
+        },
+        {
+          "t": "away.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Abraham",
+            "charStart": 3,
+            "charEnd": 10,
+            "strong": "H85",
+            "status": "verified"
+          },
+          {
+            "surface": "berispte",
+            "charStart": 11,
+            "charEnd": 19,
+            "strong": "H3198",
+            "status": "verified"
+          },
+          {
+            "surface": "Abimelech",
+            "charStart": 20,
+            "charEnd": 29,
+            "strong": "H40",
+            "status": "verified"
+          },
+          {
+            "surface": "ter",
+            "charStart": 30,
+            "charEnd": 33,
+            "strong": "H5921",
+            "status": "verified"
+          },
+          {
+            "surface": "oorzake",
+            "charStart": 34,
+            "charEnd": 41,
+            "strong": "H182",
+            "status": "verified"
+          },
+          {
+            "surface": "waterput",
+            "charStart": 50,
+            "charEnd": 58,
+            "strong": "H875",
+            "status": "verified"
+          },
+          {
+            "surface": "die",
+            "charStart": 60,
+            "charEnd": 63,
+            "strong": "H834",
+            "status": "verified"
+          },
+          {
+            "surface": "Abimelechs",
+            "charStart": 64,
+            "charEnd": 74,
+            "strong": "H40",
+            "status": "verified"
+          },
+          {
+            "surface": "knechten",
+            "charStart": 75,
+            "charEnd": 83,
+            "strong": "H5650",
+            "status": "verified"
+          },
+          {
+            "surface": "hadden",
+            "charStart": 103,
+            "charEnd": 109,
+            "strong": "H1497",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Gen.21.26",
+      "ref": "21:26",
+      "sv": "Toen zeide Abimelech: Ik heb niet geweten, wie dit stuk gedaan heeft; en ook hebt gij het mij niet aangezegd, en ik heb er ook niet van gehoord, dan heden.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "Abimelech",
+          "s": null
+        },
+        {
+          "t": "said,",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "wot",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "who",
+          "s": null
+        },
+        {
+          "t": "hath",
+          "s": null
+        },
+        {
+          "t": "done",
+          "s": null
+        },
+        {
+          "t": "this",
+          "s": null
+        },
+        {
+          "t": "thing:",
+          "s": null
+        },
+        {
+          "t": "neither",
+          "s": null
+        },
+        {
+          "t": "didst",
+          "s": null
+        },
+        {
+          "t": "thou",
+          "s": null
+        },
+        {
+          "t": "tell",
+          "s": null
+        },
+        {
+          "t": "me,",
+          "s": null
+        },
+        {
+          "t": "neither",
+          "s": null
+        },
+        {
+          "t": "yet",
+          "s": null
+        },
+        {
+          "t": "heard",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "it,",
+          "s": null
+        },
+        {
+          "t": "but",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "day.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "zeide",
+            "charStart": 5,
+            "charEnd": 10,
+            "strong": "H559",
+            "status": "verified"
+          },
+          {
+            "surface": "Abimelech",
+            "charStart": 11,
+            "charEnd": 20,
+            "strong": "H40",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 29,
+            "charEnd": 33,
+            "strong": "H3808",
+            "status": "verified"
+          },
+          {
+            "surface": "geweten",
+            "charStart": 34,
+            "charEnd": 41,
+            "strong": "H3045",
+            "status": "verified"
+          },
+          {
+            "surface": "wie",
+            "charStart": 43,
+            "charEnd": 46,
+            "strong": "H4310",
+            "status": "verified"
+          },
+          {
+            "surface": "dit",
+            "charStart": 47,
+            "charEnd": 50,
+            "strong": "H2088",
+            "status": "verified"
+          },
+          {
+            "surface": "stuk",
+            "charStart": 51,
+            "charEnd": 55,
+            "strong": "H1697",
+            "status": "verified"
+          },
+          {
+            "surface": "heeft",
+            "charStart": 63,
+            "charEnd": 68,
+            "strong": "H6213",
+            "status": "verified"
+          },
+          {
+            "surface": "ook",
+            "charStart": 73,
+            "charEnd": 76,
+            "strong": "H1571",
+            "status": "verified"
+          },
+          {
+            "surface": "gij",
+            "charStart": 82,
+            "charEnd": 85,
+            "strong": "H859",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 94,
+            "charEnd": 98,
+            "strong": "H3808",
+            "status": "verified"
+          },
+          {
+            "surface": "aangezegd",
+            "charStart": 99,
+            "charEnd": 108,
+            "strong": "H5046",
+            "status": "verified"
+          },
+          {
+            "surface": "ik",
+            "charStart": 113,
+            "charEnd": 115,
+            "strong": "H595",
+            "status": "verified"
+          },
+          {
+            "surface": "ook",
+            "charStart": 123,
+            "charEnd": 126,
+            "strong": "H1571",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 127,
+            "charEnd": 131,
+            "strong": "H3808",
+            "status": "verified"
+          },
+          {
+            "surface": "gehoord",
+            "charStart": 136,
+            "charEnd": 143,
+            "strong": "H8085",
+            "status": "verified"
+          },
+          {
+            "surface": "dan",
+            "charStart": 145,
+            "charEnd": 148,
+            "strong": "H1115",
+            "status": "verified"
+          },
+          {
+            "surface": "heden",
+            "charStart": 149,
+            "charEnd": 154,
+            "strong": "H3117",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Gen.21.27",
+      "ref": "21:27",
+      "sv": "En Abraham nam schapen en runderen, en gaf die aan Abimelech; en die beiden maakten een verbond.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "Abraham",
+          "s": null
+        },
+        {
+          "t": "took",
+          "s": null
+        },
+        {
+          "t": "sheep",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "oxen,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "gave",
+          "s": null
+        },
+        {
+          "t": "them",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "Abimelech;",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "both",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "them",
+          "s": null
+        },
+        {
+          "t": "made",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "covenant.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Abraham",
+            "charStart": 3,
+            "charEnd": 10,
+            "strong": "H85",
+            "status": "verified"
+          },
+          {
+            "surface": "nam",
+            "charStart": 11,
+            "charEnd": 14,
+            "strong": "H3947",
+            "status": "verified"
+          },
+          {
+            "surface": "schapen",
+            "charStart": 15,
+            "charEnd": 22,
+            "strong": "H6629",
+            "status": "verified"
+          },
+          {
+            "surface": "runderen",
+            "charStart": 26,
+            "charEnd": 34,
+            "strong": "H1241",
+            "status": "verified"
+          },
+          {
+            "surface": "gaf",
+            "charStart": 39,
+            "charEnd": 42,
+            "strong": "H5414",
+            "status": "verified"
+          },
+          {
+            "surface": "Abimelech",
+            "charStart": 51,
+            "charEnd": 60,
+            "strong": "H40",
+            "status": "verified"
+          },
+          {
+            "surface": "beiden",
+            "charStart": 69,
+            "charEnd": 75,
+            "strong": "H8147",
+            "status": "verified"
+          },
+          {
+            "surface": "maakten",
+            "charStart": 76,
+            "charEnd": 83,
+            "strong": "H3772",
+            "status": "verified"
+          },
+          {
+            "surface": "verbond",
+            "charStart": 88,
+            "charEnd": 95,
+            "strong": "H1285",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Gen.21.28",
+      "ref": "21:28",
+      "sv": "Doch Abraham stelde zeven ooilammeren der kudde bijzonder.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "Abraham",
+          "s": null
+        },
+        {
+          "t": "set",
+          "s": null
+        },
+        {
+          "t": "seven",
+          "s": null
+        },
+        {
+          "t": "ewe",
+          "s": null
+        },
+        {
+          "t": "lambs",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "flock",
+          "s": null
+        },
+        {
+          "t": "by",
+          "s": null
+        },
+        {
+          "t": "themselves.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Abraham",
+            "charStart": 5,
+            "charEnd": 12,
+            "strong": "H85",
+            "status": "verified"
+          },
+          {
+            "surface": "stelde",
+            "charStart": 13,
+            "charEnd": 19,
+            "strong": "H5324",
+            "status": "verified"
+          },
+          {
+            "surface": "zeven",
+            "charStart": 20,
+            "charEnd": 25,
+            "strong": "H7651",
+            "status": "verified"
+          },
+          {
+            "surface": "ooilammeren",
+            "charStart": 26,
+            "charEnd": 37,
+            "strong": "H3535",
+            "status": "verified"
+          },
+          {
+            "surface": "kudde",
+            "charStart": 42,
+            "charEnd": 47,
+            "strong": "H6629",
+            "status": "verified"
+          },
+          {
+            "surface": "bijzonder",
+            "charStart": 48,
+            "charEnd": 57,
+            "strong": "H909",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Gen.21.29",
+      "ref": "21:29",
+      "sv": "Zo zeide Abimelech tot Abraham: Wat zullen hier deze zeven ooilammeren, die gij bijzonder gesteld hebt?",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "Abimelech",
+          "s": null
+        },
+        {
+          "t": "said",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "Abraham,",
+          "s": null
+        },
+        {
+          "t": "What",
+          "s": null
+        },
+        {
+          "t": "mean",
+          "s": null
+        },
+        {
+          "t": "these",
+          "s": null
+        },
+        {
+          "t": "seven",
+          "s": null
+        },
+        {
+          "t": "ewe",
+          "s": null
+        },
+        {
+          "t": "lambs",
+          "s": null
+        },
+        {
+          "t": "which",
+          "s": null
+        },
+        {
+          "t": "thou",
+          "s": null
+        },
+        {
+          "t": "hast",
+          "s": null
+        },
+        {
+          "t": "set",
+          "s": null
+        },
+        {
+          "t": "by",
+          "s": null
+        },
+        {
+          "t": "themselves?",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "zeide",
+            "charStart": 3,
+            "charEnd": 8,
+            "strong": "H559",
+            "status": "verified"
+          },
+          {
+            "surface": "Abimelech",
+            "charStart": 9,
+            "charEnd": 18,
+            "strong": "H40",
+            "status": "verified"
+          },
+          {
+            "surface": "tot",
+            "charStart": 19,
+            "charEnd": 22,
+            "strong": "H413",
+            "status": "verified"
+          },
+          {
+            "surface": "Abraham",
+            "charStart": 23,
+            "charEnd": 30,
+            "strong": "H85",
+            "status": "verified"
+          },
+          {
+            "surface": "Wat",
+            "charStart": 32,
+            "charEnd": 35,
+            "strong": "H4100",
+            "status": "verified"
+          },
+          {
+            "surface": "hier",
+            "charStart": 43,
+            "charEnd": 47,
+            "strong": "H2008",
+            "status": "verified"
+          },
+          {
+            "surface": "deze",
+            "charStart": 48,
+            "charEnd": 52,
+            "strong": "H429",
+            "status": "verified"
+          },
+          {
+            "surface": "zeven",
+            "charStart": 53,
+            "charEnd": 58,
+            "strong": "H7651",
+            "status": "verified"
+          },
+          {
+            "surface": "ooilammeren",
+            "charStart": 59,
+            "charEnd": 70,
+            "strong": "H3535",
+            "status": "verified"
+          },
+          {
+            "surface": "bijzonder",
+            "charStart": 80,
+            "charEnd": 89,
+            "strong": "H909",
+            "status": "verified"
+          },
+          {
+            "surface": "hebt",
+            "charStart": 98,
+            "charEnd": 102,
+            "strong": "H5324",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Gen.21.30",
+      "ref": "21:30",
+      "sv": "En hij zeide: Dat gij de zeven ooilammeren van mijn hand nemen zult, opdat het mij tot een getuigenis zij, dat ik dezen put gegraven heb.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "said,",
+          "s": null
+        },
+        {
+          "t": "For",
+          "s": null
+        },
+        {
+          "t": "these",
+          "s": null
+        },
+        {
+          "t": "seven",
+          "s": null
+        },
+        {
+          "t": "ewe",
+          "s": null
+        },
+        {
+          "t": "lambs",
+          "s": null
+        },
+        {
+          "t": "shalt",
+          "s": null
+        },
+        {
+          "t": "thou",
+          "s": null
+        },
+        {
+          "t": "take",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "my",
+          "s": null
+        },
+        {
+          "t": "hand,",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "may",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "witness",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "me,",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "have",
+          "s": null
+        },
+        {
+          "t": "digged",
+          "s": null
+        },
+        {
+          "t": "this",
+          "s": null
+        },
+        {
+          "t": "well.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "zeide",
+            "charStart": 7,
+            "charEnd": 12,
+            "strong": "H559",
+            "status": "verified"
+          },
+          {
+            "surface": "Dat",
+            "charStart": 14,
+            "charEnd": 17,
+            "strong": "H3588",
+            "status": "verified"
+          },
+          {
+            "surface": "zeven",
+            "charStart": 25,
+            "charEnd": 30,
+            "strong": "H7651",
+            "status": "verified"
+          },
+          {
+            "surface": "ooilammeren",
+            "charStart": 31,
+            "charEnd": 42,
+            "strong": "H3535",
+            "status": "verified"
+          },
+          {
+            "surface": "hand",
+            "charStart": 52,
+            "charEnd": 56,
+            "strong": "H3027",
+            "status": "verified"
+          },
+          {
+            "surface": "zult",
+            "charStart": 63,
+            "charEnd": 67,
+            "strong": "H3947",
+            "status": "verified"
+          },
+          {
+            "surface": "opdat",
+            "charStart": 69,
+            "charEnd": 74,
+            "strong": "H5668",
+            "status": "verified"
+          },
+          {
+            "surface": "getuigenis",
+            "charStart": 91,
+            "charEnd": 101,
+            "strong": "H5713",
+            "status": "verified"
+          },
+          {
+            "surface": "zij",
+            "charStart": 102,
+            "charEnd": 105,
+            "strong": "H1961",
+            "status": "verified"
+          },
+          {
+            "surface": "dat",
+            "charStart": 107,
+            "charEnd": 110,
+            "strong": "H3588",
+            "status": "verified"
+          },
+          {
+            "surface": "dezen",
+            "charStart": 114,
+            "charEnd": 119,
+            "strong": "H2063",
+            "status": "verified"
+          },
+          {
+            "surface": "put",
+            "charStart": 120,
+            "charEnd": 123,
+            "strong": "H875",
+            "status": "verified"
+          },
+          {
+            "surface": "heb",
+            "charStart": 133,
+            "charEnd": 136,
+            "strong": "H2658",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Gen.21.31",
+      "ref": "21:31",
+      "sv": "Daarom noemde men die plaats Ber-seba, omdat die beiden daar gezworen hadden.",
+      "kjv": [
+        {
+          "t": "Wherefore",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "called",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "place",
+          "s": null
+        },
+        {
+          "t": "Beersheba;",
+          "s": null
+        },
+        {
+          "t": "because",
+          "s": null
+        },
+        {
+          "t": "there",
+          "s": null
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "sware",
+          "s": null
+        },
+        {
+          "t": "both",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "them.",
+          "s": null
+        },
+        {
+          "t": "<sup>Beersheba:",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "is,",
+          "s": null
+        },
+        {
+          "t": "The",
+          "s": null
+        },
+        {
+          "t": "well",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "oath</sup>",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Daarom",
+            "charStart": 0,
+            "charEnd": 6,
+            "strong": "H5921",
+            "status": "verified"
+          },
+          {
+            "surface": "men",
+            "charStart": 14,
+            "charEnd": 17,
+            "strong": "H7121",
+            "status": "verified"
+          },
+          {
+            "surface": "die",
+            "charStart": 18,
+            "charEnd": 21,
+            "strong": "H1931",
+            "status": "verified"
+          },
+          {
+            "surface": "plaats",
+            "charStart": 22,
+            "charEnd": 28,
+            "strong": "H4725",
+            "status": "verified"
+          },
+          {
+            "surface": "Ber-seba",
+            "charStart": 29,
+            "charEnd": 37,
+            "strong": "H884",
+            "status": "verified"
+          },
+          {
+            "surface": "omdat",
+            "charStart": 39,
+            "charEnd": 44,
+            "strong": "H3588",
+            "status": "verified"
+          },
+          {
+            "surface": "beiden",
+            "charStart": 49,
+            "charEnd": 55,
+            "strong": "H8147",
+            "status": "verified"
+          },
+          {
+            "surface": "daar",
+            "charStart": 56,
+            "charEnd": 60,
+            "strong": "H8033",
+            "status": "verified"
+          },
+          {
+            "surface": "hadden",
+            "charStart": 70,
+            "charEnd": 76,
+            "strong": "H7650",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Gen.21.32",
+      "ref": "21:32",
+      "sv": "Alzo maakten zij een verbond te Ber-seba. Daarna stond Abimelech op, en Pichol, zijn krijgsoverste, en zij keerden wederom naar het land der Filistijnen.",
+      "kjv": [
+        {
+          "t": "Thus",
+          "s": null
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "made",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "covenant",
+          "s": null
+        },
+        {
+          "t": "at",
+          "s": null
+        },
+        {
+          "t": "Beersheba:",
+          "s": null
+        },
+        {
+          "t": "then",
+          "s": null
+        },
+        {
+          "t": "Abimelech",
+          "s": null
+        },
+        {
+          "t": "rose",
+          "s": null
+        },
+        {
+          "t": "up,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "Phichol",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "chief",
+          "s": null
+        },
+        {
+          "t": "captain",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "host,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "returned",
+          "s": null
+        },
+        {
+          "t": "into",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "land",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "Philistines.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "zij",
+            "charStart": 13,
+            "charEnd": 16,
+            "strong": "H3772",
+            "status": "verified"
+          },
+          {
+            "surface": "verbond",
+            "charStart": 21,
+            "charEnd": 28,
+            "strong": "H1285",
+            "status": "verified"
+          },
+          {
+            "surface": "Ber-seba",
+            "charStart": 32,
+            "charEnd": 40,
+            "strong": "H884",
+            "status": "verified"
+          },
+          {
+            "surface": "stond",
+            "charStart": 49,
+            "charEnd": 54,
+            "strong": "H6965",
+            "status": "verified"
+          },
+          {
+            "surface": "Abimelech",
+            "charStart": 55,
+            "charEnd": 64,
+            "strong": "H40",
+            "status": "verified"
+          },
+          {
+            "surface": "op",
+            "charStart": 65,
+            "charEnd": 67,
+            "strong": "H6965",
+            "status": "verified"
+          },
+          {
+            "surface": "Pichol",
+            "charStart": 72,
+            "charEnd": 78,
+            "strong": "H6369",
+            "status": "verified"
+          },
+          {
+            "surface": "krijgsoverste",
+            "charStart": 85,
+            "charEnd": 98,
+            "strong": "H8269",
+            "status": "verified"
+          },
+          {
+            "surface": "wederom",
+            "charStart": 115,
+            "charEnd": 122,
+            "strong": "H7725",
+            "status": "verified"
+          },
+          {
+            "surface": "naar",
+            "charStart": 123,
+            "charEnd": 127,
+            "strong": "H413",
+            "status": "verified"
+          },
+          {
+            "surface": "land",
+            "charStart": 132,
+            "charEnd": 136,
+            "strong": "H776",
+            "status": "verified"
+          },
+          {
+            "surface": "Filistijnen",
+            "charStart": 141,
+            "charEnd": 152,
+            "strong": "H6430",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Gen.21.33",
+      "ref": "21:33",
+      "sv": "En hij plantte een bos in Ber-seba, en riep aldaar den Naam des HEEREN, des eeuwigen Gods, aan.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "Abraham",
+          "s": null
+        },
+        {
+          "t": "planted",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "grove",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "Beersheba,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "called",
+          "s": null
+        },
+        {
+          "t": "there",
+          "s": null
+        },
+        {
+          "t": "on",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "name",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "LORD,",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "everlasting",
+          "s": null
+        },
+        {
+          "t": "God.",
+          "s": null
+        },
+        {
+          "t": "<sup>grove:",
+          "s": null
+        },
+        {
+          "t": "or,",
+          "s": null
+        },
+        {
+          "t": "tree</sup>",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "plantte",
+            "charStart": 7,
+            "charEnd": 14,
+            "strong": "H5193",
+            "status": "verified"
+          },
+          {
+            "surface": "bos",
+            "charStart": 19,
+            "charEnd": 22,
+            "strong": "H815",
+            "status": "verified"
+          },
+          {
+            "surface": "Ber-seba",
+            "charStart": 26,
+            "charEnd": 34,
+            "strong": "H884",
+            "status": "verified"
+          },
+          {
+            "surface": "riep",
+            "charStart": 39,
+            "charEnd": 43,
+            "strong": "H7121",
+            "status": "verified"
+          },
+          {
+            "surface": "aldaar",
+            "charStart": 44,
+            "charEnd": 50,
+            "strong": "H8033",
+            "status": "verified"
+          },
+          {
+            "surface": "Naam",
+            "charStart": 55,
+            "charEnd": 59,
+            "strong": "H8034",
+            "status": "verified"
+          },
+          {
+            "surface": "HEEREN",
+            "charStart": 64,
+            "charEnd": 70,
+            "strong": "H3068",
+            "status": "verified"
+          },
+          {
+            "surface": "eeuwigen",
+            "charStart": 76,
+            "charEnd": 84,
+            "strong": "H5769",
+            "status": "verified"
+          },
+          {
+            "surface": "Gods",
+            "charStart": 85,
+            "charEnd": 89,
+            "strong": "H410",
+            "status": "verified"
+          },
+          {
+            "surface": "aan",
+            "charStart": 91,
+            "charEnd": 94,
+            "strong": "H7121",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Gen.21.34",
+      "ref": "21:34",
+      "sv": "En Abraham woonde als vreemdeling vele dagen in het land der Filistijnen.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "Abraham",
+          "s": null
+        },
+        {
+          "t": "sojourned",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "Philistines'",
+          "s": null
+        },
+        {
+          "t": "land",
+          "s": null
+        },
+        {
+          "t": "many",
+          "s": null
+        },
+        {
+          "t": "days.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Abraham",
+            "charStart": 3,
+            "charEnd": 10,
+            "strong": "H85",
+            "status": "verified"
+          },
+          {
+            "surface": "vreemdeling",
+            "charStart": 22,
+            "charEnd": 33,
+            "strong": "H1481",
+            "status": "verified"
+          },
+          {
+            "surface": "vele",
+            "charStart": 34,
+            "charEnd": 38,
+            "strong": "H7227",
+            "status": "verified"
+          },
+          {
+            "surface": "dagen",
+            "charStart": 39,
+            "charEnd": 44,
+            "strong": "H3117",
+            "status": "verified"
+          },
+          {
+            "surface": "land",
+            "charStart": 52,
+            "charEnd": 56,
+            "strong": "H776",
+            "status": "verified"
+          },
+          {
+            "surface": "Filistijnen",
+            "charStart": 61,
+            "charEnd": 72,
+            "strong": "H6430",
+            "status": "verified"
+          }
+        ]
+      }
+    }
+  ],
+  "lexicon": {
+    "H3068": {
+      "lemma": "יְהוָה",
+      "translit": "YHWH",
+      "strong": "H3068",
+      "language": "hebrew",
+      "gloss": "De HEERE, de Verbondsgod van Israël (the LORD)"
+    },
+    "H430": {
+      "lemma": "אֱלֹהִים",
+      "translit": "Elohim",
+      "strong": "H430",
+      "language": "hebrew",
+      "gloss": "God (God, Divine Being)"
+    },
+    "H5414": {
+      "lemma": "נָתַן",
+      "translit": "nathan",
+      "strong": "H5414",
+      "language": "hebrew",
+      "gloss": "geven, stellen, beschrikken (to give, set)"
+    }
+  }
+}

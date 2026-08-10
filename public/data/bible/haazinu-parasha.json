@@ -1,0 +1,9494 @@
+{
+  "study": "haazinu",
+  "role": "parasha",
+  "osis": "Deut.32.1-Deut.32.52",
+  "ref": {
+    "nl": "Deuteronomium 32:1–52",
+    "en": "Deuteronomy 32:1–52"
+  },
+  "testament": "OT",
+  "verses": [
+    {
+      "osis": "Deut.32.1",
+      "ref": "32:1",
+      "sv": "Neig de oren, gij hemel, en ik zal spreken; en de aarde hore de redenen mijns monds.",
+      "kjv": [
+        {
+          "t": "Give",
+          "s": null
+        },
+        {
+          "t": "ear,",
+          "s": null
+        },
+        {
+          "t": "O",
+          "s": null
+        },
+        {
+          "t": "ye",
+          "s": null
+        },
+        {
+          "t": "heavens,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "speak;",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "hear,",
+          "s": null
+        },
+        {
+          "t": "O",
+          "s": null
+        },
+        {
+          "t": "earth,",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "words",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "my",
+          "s": null
+        },
+        {
+          "t": "mouth.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "oren",
+            "charStart": 8,
+            "charEnd": 12,
+            "strong": "H238",
+            "status": "verified"
+          },
+          {
+            "surface": "hemel",
+            "charStart": 18,
+            "charEnd": 23,
+            "strong": "H8064",
+            "status": "verified"
+          },
+          {
+            "surface": "spreken",
+            "charStart": 35,
+            "charEnd": 42,
+            "strong": "H1696",
+            "status": "verified"
+          },
+          {
+            "surface": "aarde",
+            "charStart": 50,
+            "charEnd": 55,
+            "strong": "H776",
+            "status": "verified"
+          },
+          {
+            "surface": "hore",
+            "charStart": 56,
+            "charEnd": 60,
+            "strong": "H8085",
+            "status": "verified"
+          },
+          {
+            "surface": "redenen",
+            "charStart": 64,
+            "charEnd": 71,
+            "strong": "H561",
+            "status": "verified"
+          },
+          {
+            "surface": "monds",
+            "charStart": 78,
+            "charEnd": 83,
+            "strong": "H6310",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Deut.32.2",
+      "ref": "32:2",
+      "sv": "Mijn leer druipe als een regen, mijn rede vloeie als een dauw; als een stofregen op de grasscheutjes, en als druppelen op het kruid.",
+      "kjv": [
+        {
+          "t": "My",
+          "s": null
+        },
+        {
+          "t": "doctrine",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "drop",
+          "s": null
+        },
+        {
+          "t": "as",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "rain,",
+          "s": null
+        },
+        {
+          "t": "my",
+          "s": null
+        },
+        {
+          "t": "speech",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "distil",
+          "s": null
+        },
+        {
+          "t": "as",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "dew,",
+          "s": null
+        },
+        {
+          "t": "as",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "small",
+          "s": null
+        },
+        {
+          "t": "rain",
+          "s": null
+        },
+        {
+          "t": "upon",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "tender",
+          "s": null
+        },
+        {
+          "t": "herb,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "as",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "showers",
+          "s": null
+        },
+        {
+          "t": "upon",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "grass:",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "leer",
+            "charStart": 5,
+            "charEnd": 9,
+            "strong": "H3948",
+            "status": "verified"
+          },
+          {
+            "surface": "druipe",
+            "charStart": 10,
+            "charEnd": 16,
+            "strong": "H6201",
+            "status": "verified"
+          },
+          {
+            "surface": "regen",
+            "charStart": 25,
+            "charEnd": 30,
+            "strong": "H4306",
+            "status": "verified"
+          },
+          {
+            "surface": "rede",
+            "charStart": 37,
+            "charEnd": 41,
+            "strong": "H565",
+            "status": "verified"
+          },
+          {
+            "surface": "vloeie",
+            "charStart": 42,
+            "charEnd": 48,
+            "strong": "H5140",
+            "status": "verified"
+          },
+          {
+            "surface": "dauw",
+            "charStart": 57,
+            "charEnd": 61,
+            "strong": "H2919",
+            "status": "verified"
+          },
+          {
+            "surface": "stofregen",
+            "charStart": 71,
+            "charEnd": 80,
+            "strong": "H8164",
+            "status": "verified"
+          },
+          {
+            "surface": "grasscheutjes",
+            "charStart": 87,
+            "charEnd": 100,
+            "strong": "H1877",
+            "status": "verified"
+          },
+          {
+            "surface": "druppelen",
+            "charStart": 109,
+            "charEnd": 118,
+            "strong": "H7241",
+            "status": "verified"
+          },
+          {
+            "surface": "kruid",
+            "charStart": 126,
+            "charEnd": 131,
+            "strong": "H6212",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Deut.32.3",
+      "ref": "32:3",
+      "sv": "Want ik zal den Naam des HEEREN uitroepen; geeft onzen God grootheid!",
+      "kjv": [
+        {
+          "t": "Because",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "publish",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "name",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "LORD:",
+          "s": null
+        },
+        {
+          "t": "ascribe",
+          "s": null
+        },
+        {
+          "t": "ye",
+          "s": null
+        },
+        {
+          "t": "greatness",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "our",
+          "s": null
+        },
+        {
+          "t": "God.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Naam",
+            "charStart": 16,
+            "charEnd": 20,
+            "strong": "H8034",
+            "status": "verified"
+          },
+          {
+            "surface": "HEEREN",
+            "charStart": 25,
+            "charEnd": 31,
+            "strong": "H3068",
+            "status": "verified"
+          },
+          {
+            "surface": "uitroepen",
+            "charStart": 32,
+            "charEnd": 41,
+            "strong": "H7121",
+            "status": "verified"
+          },
+          {
+            "surface": "geeft",
+            "charStart": 43,
+            "charEnd": 48,
+            "strong": "H3051",
+            "status": "verified"
+          },
+          {
+            "surface": "God",
+            "charStart": 55,
+            "charEnd": 58,
+            "strong": "H430",
+            "status": "verified"
+          },
+          {
+            "surface": "grootheid",
+            "charStart": 59,
+            "charEnd": 68,
+            "strong": "H1433",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Deut.32.4",
+      "ref": "32:4",
+      "sv": "Hij is de Rotssteen, Wiens werk volkomen is; want al Zijn wegen zijn gerichte. God is waarheid, en is geen onrecht; rechtvaardig en recht is Hij.",
+      "kjv": [
+        {
+          "t": "He",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "Rock,",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "work",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "perfect:",
+          "s": null
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "all",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "ways",
+          "s": null
+        },
+        {
+          "t": "are",
+          "s": null
+        },
+        {
+          "t": "judgment:",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "God",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "truth",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "without",
+          "s": null
+        },
+        {
+          "t": "iniquity,",
+          "s": null
+        },
+        {
+          "t": "just",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "right",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "he.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Rotssteen",
+            "charStart": 10,
+            "charEnd": 19,
+            "strong": "H6697",
+            "status": "verified"
+          },
+          {
+            "surface": "werk",
+            "charStart": 27,
+            "charEnd": 31,
+            "strong": "H6467",
+            "status": "verified"
+          },
+          {
+            "surface": "volkomen",
+            "charStart": 32,
+            "charEnd": 40,
+            "strong": "H8549",
+            "status": "verified"
+          },
+          {
+            "surface": "wegen",
+            "charStart": 58,
+            "charEnd": 63,
+            "strong": "H1870",
+            "status": "verified"
+          },
+          {
+            "surface": "gerichte",
+            "charStart": 69,
+            "charEnd": 77,
+            "strong": "H4941",
+            "status": "verified"
+          },
+          {
+            "surface": "God",
+            "charStart": 79,
+            "charEnd": 82,
+            "strong": "H410",
+            "status": "verified"
+          },
+          {
+            "surface": "waarheid",
+            "charStart": 86,
+            "charEnd": 94,
+            "strong": "H530",
+            "status": "verified"
+          },
+          {
+            "surface": "onrecht",
+            "charStart": 107,
+            "charEnd": 114,
+            "strong": "H5766",
+            "status": "verified"
+          },
+          {
+            "surface": "rechtvaardig",
+            "charStart": 116,
+            "charEnd": 128,
+            "strong": "H6662",
+            "status": "verified"
+          },
+          {
+            "surface": "recht",
+            "charStart": 132,
+            "charEnd": 137,
+            "strong": "H3477",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Deut.32.5",
+      "ref": "32:5",
+      "sv": "Hij heeft het tegen Hem verdorven; het zijn Zijn kinderen niet; de schandvlek is hun; het is een verkeerd en verdraaid geslacht.",
+      "kjv": [
+        {
+          "t": "They",
+          "s": null
+        },
+        {
+          "t": "have",
+          "s": null
+        },
+        {
+          "t": "corrupted",
+          "s": null
+        },
+        {
+          "t": "themselves,",
+          "s": null
+        },
+        {
+          "t": "their",
+          "s": null
+        },
+        {
+          "t": "spot",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "spot",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "children:",
+          "s": null
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "are",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "perverse",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "crooked",
+          "s": null
+        },
+        {
+          "t": "generation.",
+          "s": null
+        },
+        {
+          "t": "<sup>They",
+          "s": null
+        },
+        {
+          "t": "have:",
+          "s": null
+        },
+        {
+          "t": "Heb.",
+          "s": null
+        },
+        {
+          "t": "He",
+          "s": null
+        },
+        {
+          "t": "hath",
+          "s": null
+        },
+        {
+          "t": "corrupted",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "himself</sup>",
+          "s": null
+        },
+        {
+          "t": "<sup>their:",
+          "s": null
+        },
+        {
+          "t": "or,",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "are",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "children,",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "their",
+          "s": null
+        },
+        {
+          "t": "blot</sup>",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "verdorven",
+            "charStart": 24,
+            "charEnd": 33,
+            "strong": "H7843",
+            "status": "verified"
+          },
+          {
+            "surface": "kinderen",
+            "charStart": 49,
+            "charEnd": 57,
+            "strong": "H1121",
+            "status": "verified"
+          },
+          {
+            "surface": "schandvlek",
+            "charStart": 67,
+            "charEnd": 77,
+            "strong": "H3971",
+            "status": "verified"
+          },
+          {
+            "surface": "verkeerd",
+            "charStart": 97,
+            "charEnd": 105,
+            "strong": "H6141",
+            "status": "verified"
+          },
+          {
+            "surface": "verdraaid",
+            "charStart": 109,
+            "charEnd": 118,
+            "strong": "H6618",
+            "status": "verified"
+          },
+          {
+            "surface": "geslacht",
+            "charStart": 119,
+            "charEnd": 127,
+            "strong": "H1755",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Deut.32.6",
+      "ref": "32:6",
+      "sv": "Zult gij dit den HEERE vergelden, gij, dwaas en onwijs volk! Is Hij niet uw Vader, Die u verkregen, Die u gemaakt en u bevestigd heeft?",
+      "kjv": [
+        {
+          "t": "Do",
+          "s": null
+        },
+        {
+          "t": "ye",
+          "s": null
+        },
+        {
+          "t": "thus",
+          "s": null
+        },
+        {
+          "t": "requite",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "LORD,",
+          "s": null
+        },
+        {
+          "t": "O",
+          "s": null
+        },
+        {
+          "t": "foolish",
+          "s": null
+        },
+        {
+          "t": "people",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "unwise?",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "thy",
+          "s": null
+        },
+        {
+          "t": "father",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "hath",
+          "s": null
+        },
+        {
+          "t": "bought",
+          "s": null
+        },
+        {
+          "t": "thee?",
+          "s": null
+        },
+        {
+          "t": "hath",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "made",
+          "s": null
+        },
+        {
+          "t": "thee,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "established",
+          "s": null
+        },
+        {
+          "t": "thee?",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "HEERE",
+            "charStart": 17,
+            "charEnd": 22,
+            "strong": "H3068",
+            "status": "verified"
+          },
+          {
+            "surface": "vergelden",
+            "charStart": 23,
+            "charEnd": 32,
+            "strong": "H1580",
+            "status": "verified"
+          },
+          {
+            "surface": "dwaas",
+            "charStart": 39,
+            "charEnd": 44,
+            "strong": "H5036",
+            "status": "verified"
+          },
+          {
+            "surface": "onwijs",
+            "charStart": 48,
+            "charEnd": 54,
+            "strong": "H2450",
+            "status": "verified"
+          },
+          {
+            "surface": "volk",
+            "charStart": 55,
+            "charEnd": 59,
+            "strong": "H5971",
+            "status": "verified"
+          },
+          {
+            "surface": "Vader",
+            "charStart": 76,
+            "charEnd": 81,
+            "strong": "H1",
+            "status": "verified"
+          },
+          {
+            "surface": "verkregen",
+            "charStart": 89,
+            "charEnd": 98,
+            "strong": "H7069",
+            "status": "verified"
+          },
+          {
+            "surface": "gemaakt",
+            "charStart": 106,
+            "charEnd": 113,
+            "strong": "H6213",
+            "status": "verified"
+          },
+          {
+            "surface": "heeft",
+            "charStart": 129,
+            "charEnd": 134,
+            "strong": "H3559",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Deut.32.7",
+      "ref": "32:7",
+      "sv": "Gedenk aan de dagen van ouds; merk op de jaren van elk geslacht; vraag uw vader, die zal het u bekend maken, uw ouden, en zij zullen het u zeggen.",
+      "kjv": [
+        {
+          "t": "Remember",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "days",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "old,",
+          "s": null
+        },
+        {
+          "t": "consider",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "years",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "many",
+          "s": null
+        },
+        {
+          "t": "generations:",
+          "s": null
+        },
+        {
+          "t": "ask",
+          "s": null
+        },
+        {
+          "t": "thy",
+          "s": null
+        },
+        {
+          "t": "father,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "shew",
+          "s": null
+        },
+        {
+          "t": "thee;",
+          "s": null
+        },
+        {
+          "t": "thy",
+          "s": null
+        },
+        {
+          "t": "elders,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "tell",
+          "s": null
+        },
+        {
+          "t": "thee.",
+          "s": null
+        },
+        {
+          "t": "<sup>many:",
+          "s": null
+        },
+        {
+          "t": "Heb.",
+          "s": null
+        },
+        {
+          "t": "generation",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "generation</sup>",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Gedenk",
+            "charStart": 0,
+            "charEnd": 6,
+            "strong": "H2142",
+            "status": "verified"
+          },
+          {
+            "surface": "dagen",
+            "charStart": 14,
+            "charEnd": 19,
+            "strong": "H3117",
+            "status": "verified"
+          },
+          {
+            "surface": "ouds",
+            "charStart": 24,
+            "charEnd": 28,
+            "strong": "H5769",
+            "status": "verified"
+          },
+          {
+            "surface": "op",
+            "charStart": 35,
+            "charEnd": 37,
+            "strong": "H995",
+            "status": "verified"
+          },
+          {
+            "surface": "jaren",
+            "charStart": 41,
+            "charEnd": 46,
+            "strong": "H8141",
+            "status": "verified"
+          },
+          {
+            "surface": "elk",
+            "charStart": 51,
+            "charEnd": 54,
+            "strong": "H1755",
+            "status": "verified"
+          },
+          {
+            "surface": "geslacht",
+            "charStart": 55,
+            "charEnd": 63,
+            "strong": "H1755",
+            "status": "verified"
+          },
+          {
+            "surface": "vraag",
+            "charStart": 65,
+            "charEnd": 70,
+            "strong": "H7592",
+            "status": "verified"
+          },
+          {
+            "surface": "vader",
+            "charStart": 74,
+            "charEnd": 79,
+            "strong": "H1",
+            "status": "verified"
+          },
+          {
+            "surface": "maken",
+            "charStart": 102,
+            "charEnd": 107,
+            "strong": "H5046",
+            "status": "verified"
+          },
+          {
+            "surface": "ouden",
+            "charStart": 112,
+            "charEnd": 117,
+            "strong": "H2205",
+            "status": "verified"
+          },
+          {
+            "surface": "zeggen",
+            "charStart": 139,
+            "charEnd": 145,
+            "strong": "H559",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Deut.32.8",
+      "ref": "32:8",
+      "sv": "Toen de Allerhoogste aan de volken de erfenis uitdeelde, toen Hij Adams kinderen vaneen scheidde, heeft Hij de landpalen der volken gesteld naar het getal der kinderen Israels.",
+      "kjv": [
+        {
+          "t": "When",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "most",
+          "s": null
+        },
+        {
+          "t": "High",
+          "s": null
+        },
+        {
+          "t": "divided",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "nations",
+          "s": null
+        },
+        {
+          "t": "their",
+          "s": null
+        },
+        {
+          "t": "inheritance,",
+          "s": null
+        },
+        {
+          "t": "when",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "separated",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "sons",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "Adam,",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "set",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "bounds",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "people",
+          "s": null
+        },
+        {
+          "t": "according",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "number",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "children",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "Israel.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Allerhoogste",
+            "charStart": 8,
+            "charEnd": 20,
+            "strong": "H5945",
+            "status": "verified"
+          },
+          {
+            "surface": "volken",
+            "charStart": 28,
+            "charEnd": 34,
+            "strong": "H1471",
+            "status": "verified"
+          },
+          {
+            "surface": "uitdeelde",
+            "charStart": 46,
+            "charEnd": 55,
+            "strong": "H5157",
+            "status": "verified"
+          },
+          {
+            "surface": "Adams",
+            "charStart": 66,
+            "charEnd": 71,
+            "strong": "H120",
+            "status": "verified"
+          },
+          {
+            "surface": "kinderen",
+            "charStart": 72,
+            "charEnd": 80,
+            "strong": "H1121",
+            "status": "verified"
+          },
+          {
+            "surface": "scheidde",
+            "charStart": 88,
+            "charEnd": 96,
+            "strong": "H6504",
+            "status": "verified"
+          },
+          {
+            "surface": "landpalen",
+            "charStart": 111,
+            "charEnd": 120,
+            "strong": "H1367",
+            "status": "verified"
+          },
+          {
+            "surface": "volken",
+            "charStart": 125,
+            "charEnd": 131,
+            "strong": "H5971",
+            "status": "verified"
+          },
+          {
+            "surface": "gesteld",
+            "charStart": 132,
+            "charEnd": 139,
+            "strong": "H5324",
+            "status": "verified"
+          },
+          {
+            "surface": "getal",
+            "charStart": 149,
+            "charEnd": 154,
+            "strong": "H4557",
+            "status": "verified"
+          },
+          {
+            "surface": "kinderen",
+            "charStart": 159,
+            "charEnd": 167,
+            "strong": "H1121",
+            "status": "verified"
+          },
+          {
+            "surface": "Israels",
+            "charStart": 168,
+            "charEnd": 175,
+            "strong": "H3478",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Deut.32.9",
+      "ref": "32:9",
+      "sv": "Want des HEEREN deel is Zijn volk, Jakob is het snoer Zijner erve.",
+      "kjv": [
+        {
+          "t": "For",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "LORD'S",
+          "s": null
+        },
+        {
+          "t": "portion",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "people;",
+          "s": null
+        },
+        {
+          "t": "Jacob",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "lot",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "inheritance.",
+          "s": null
+        },
+        {
+          "t": "<sup>lot:",
+          "s": null
+        },
+        {
+          "t": "Heb.",
+          "s": null
+        },
+        {
+          "t": "cord</sup>",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "HEEREN",
+            "charStart": 9,
+            "charEnd": 15,
+            "strong": "H3068",
+            "status": "verified"
+          },
+          {
+            "surface": "deel",
+            "charStart": 16,
+            "charEnd": 20,
+            "strong": "H2506",
+            "status": "verified"
+          },
+          {
+            "surface": "volk",
+            "charStart": 29,
+            "charEnd": 33,
+            "strong": "H5971",
+            "status": "verified"
+          },
+          {
+            "surface": "Jakob",
+            "charStart": 35,
+            "charEnd": 40,
+            "strong": "H3290",
+            "status": "verified"
+          },
+          {
+            "surface": "snoer",
+            "charStart": 48,
+            "charEnd": 53,
+            "strong": "H2256",
+            "status": "verified"
+          },
+          {
+            "surface": "erve",
+            "charStart": 61,
+            "charEnd": 65,
+            "strong": "H5159",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Deut.32.10",
+      "ref": "32:10",
+      "sv": "Hij vond hem in een land der woestijn, en in een woeste huilende wildernis; Hij voerde hem rondom, Hij onderwees hem, Hij bewaarde hem als Zijn oogappel.",
+      "kjv": [
+        {
+          "t": "He",
+          "s": null
+        },
+        {
+          "t": "found",
+          "s": null
+        },
+        {
+          "t": "him",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "desert",
+          "s": null
+        },
+        {
+          "t": "land,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "waste",
+          "s": null
+        },
+        {
+          "t": "howling",
+          "s": null
+        },
+        {
+          "t": "wilderness;",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "led",
+          "s": null
+        },
+        {
+          "t": "him",
+          "s": null
+        },
+        {
+          "t": "about,",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "instructed",
+          "s": null
+        },
+        {
+          "t": "him,",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "kept",
+          "s": null
+        },
+        {
+          "t": "him",
+          "s": null
+        },
+        {
+          "t": "as",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "apple",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "eye.",
+          "s": null
+        },
+        {
+          "t": "<sup>led:",
+          "s": null
+        },
+        {
+          "t": "or,",
+          "s": null
+        },
+        {
+          "t": "compassed</sup>",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "vond",
+            "charStart": 4,
+            "charEnd": 8,
+            "strong": "H4672",
+            "status": "verified"
+          },
+          {
+            "surface": "land",
+            "charStart": 20,
+            "charEnd": 24,
+            "strong": "H776",
+            "status": "verified"
+          },
+          {
+            "surface": "woestijn",
+            "charStart": 29,
+            "charEnd": 37,
+            "strong": "H4057",
+            "status": "verified"
+          },
+          {
+            "surface": "woeste",
+            "charStart": 49,
+            "charEnd": 55,
+            "strong": "H8414",
+            "status": "verified"
+          },
+          {
+            "surface": "huilende",
+            "charStart": 56,
+            "charEnd": 64,
+            "strong": "H3214",
+            "status": "verified"
+          },
+          {
+            "surface": "wildernis",
+            "charStart": 65,
+            "charEnd": 74,
+            "strong": "H3452",
+            "status": "verified"
+          },
+          {
+            "surface": "rondom",
+            "charStart": 91,
+            "charEnd": 97,
+            "strong": "H5437",
+            "status": "verified"
+          },
+          {
+            "surface": "onderwees",
+            "charStart": 103,
+            "charEnd": 112,
+            "strong": "H995",
+            "status": "verified"
+          },
+          {
+            "surface": "bewaarde",
+            "charStart": 122,
+            "charEnd": 130,
+            "strong": "H5341",
+            "status": "verified"
+          },
+          {
+            "surface": "oogappel",
+            "charStart": 144,
+            "charEnd": 152,
+            "strong": "H380",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Deut.32.11",
+      "ref": "32:11",
+      "sv": "Gelijk een arend zijn nest opwekt, over zijn jongen zweeft, zijn vleugelen uitbreidt, ze neemt en ze draagt op zijn vlerken;",
+      "kjv": [
+        {
+          "t": "As",
+          "s": null
+        },
+        {
+          "t": "an",
+          "s": null
+        },
+        {
+          "t": "eagle",
+          "s": null
+        },
+        {
+          "t": "stirreth",
+          "s": null
+        },
+        {
+          "t": "up",
+          "s": null
+        },
+        {
+          "t": "her",
+          "s": null
+        },
+        {
+          "t": "nest,",
+          "s": null
+        },
+        {
+          "t": "fluttereth",
+          "s": null
+        },
+        {
+          "t": "over",
+          "s": null
+        },
+        {
+          "t": "her",
+          "s": null
+        },
+        {
+          "t": "young,",
+          "s": null
+        },
+        {
+          "t": "spreadeth",
+          "s": null
+        },
+        {
+          "t": "abroad",
+          "s": null
+        },
+        {
+          "t": "her",
+          "s": null
+        },
+        {
+          "t": "wings,",
+          "s": null
+        },
+        {
+          "t": "taketh",
+          "s": null
+        },
+        {
+          "t": "them,",
+          "s": null
+        },
+        {
+          "t": "beareth",
+          "s": null
+        },
+        {
+          "t": "them",
+          "s": null
+        },
+        {
+          "t": "on",
+          "s": null
+        },
+        {
+          "t": "her",
+          "s": null
+        },
+        {
+          "t": "wings:",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "arend",
+            "charStart": 11,
+            "charEnd": 16,
+            "strong": "H5404",
+            "status": "verified"
+          },
+          {
+            "surface": "nest",
+            "charStart": 22,
+            "charEnd": 26,
+            "strong": "H7064",
+            "status": "verified"
+          },
+          {
+            "surface": "opwekt",
+            "charStart": 27,
+            "charEnd": 33,
+            "strong": "H5782",
+            "status": "verified"
+          },
+          {
+            "surface": "jongen",
+            "charStart": 45,
+            "charEnd": 51,
+            "strong": "H1469",
+            "status": "verified"
+          },
+          {
+            "surface": "zweeft",
+            "charStart": 52,
+            "charEnd": 58,
+            "strong": "H7363",
+            "status": "verified"
+          },
+          {
+            "surface": "vleugelen",
+            "charStart": 65,
+            "charEnd": 74,
+            "strong": "H3671",
+            "status": "verified"
+          },
+          {
+            "surface": "uitbreidt",
+            "charStart": 75,
+            "charEnd": 84,
+            "strong": "H6566",
+            "status": "verified"
+          },
+          {
+            "surface": "neemt",
+            "charStart": 89,
+            "charEnd": 94,
+            "strong": "H3947",
+            "status": "verified"
+          },
+          {
+            "surface": "draagt",
+            "charStart": 101,
+            "charEnd": 107,
+            "strong": "H5375",
+            "status": "verified"
+          },
+          {
+            "surface": "vlerken",
+            "charStart": 116,
+            "charEnd": 123,
+            "strong": "H84",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Deut.32.12",
+      "ref": "32:12",
+      "sv": "[Zo] leidde hem de HEERE alleen, en er was geen vreemd god met hem.",
+      "kjv": [
+        {
+          "t": "So",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "LORD",
+          "s": null
+        },
+        {
+          "t": "alone",
+          "s": null
+        },
+        {
+          "t": "did",
+          "s": null
+        },
+        {
+          "t": "lead",
+          "s": null
+        },
+        {
+          "t": "him,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "there",
+          "s": null
+        },
+        {
+          "t": "was",
+          "s": null
+        },
+        {
+          "t": "no",
+          "s": null
+        },
+        {
+          "t": "strange",
+          "s": null
+        },
+        {
+          "t": "god",
+          "s": null
+        },
+        {
+          "t": "with",
+          "s": null
+        },
+        {
+          "t": "him.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "leidde",
+            "charStart": 5,
+            "charEnd": 11,
+            "strong": "H5148",
+            "status": "verified"
+          },
+          {
+            "surface": "HEERE",
+            "charStart": 19,
+            "charEnd": 24,
+            "strong": "H3068",
+            "status": "verified"
+          },
+          {
+            "surface": "alleen",
+            "charStart": 25,
+            "charEnd": 31,
+            "strong": "H910",
+            "status": "verified"
+          },
+          {
+            "surface": "vreemd",
+            "charStart": 48,
+            "charEnd": 54,
+            "strong": "H5236",
+            "status": "verified"
+          },
+          {
+            "surface": "god",
+            "charStart": 55,
+            "charEnd": 58,
+            "strong": "H410",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Deut.32.13",
+      "ref": "32:13",
+      "sv": "Hij deed hem rijden op de hoogten der aarde, dat hij at de inkomsten des velds; en Hij deed hem honig zuigen uit de steenrots, en olie uit den kei der rots;",
+      "kjv": [
+        {
+          "t": "He",
+          "s": null
+        },
+        {
+          "t": "made",
+          "s": null
+        },
+        {
+          "t": "him",
+          "s": null
+        },
+        {
+          "t": "ride",
+          "s": null
+        },
+        {
+          "t": "on",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "high",
+          "s": null
+        },
+        {
+          "t": "places",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "earth,",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "might",
+          "s": null
+        },
+        {
+          "t": "eat",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "increase",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "fields;",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "made",
+          "s": null
+        },
+        {
+          "t": "him",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "suck",
+          "s": null
+        },
+        {
+          "t": "honey",
+          "s": null
+        },
+        {
+          "t": "out",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "rock,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "oil",
+          "s": null
+        },
+        {
+          "t": "out",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "flinty",
+          "s": null
+        },
+        {
+          "t": "rock;",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "rijden",
+            "charStart": 13,
+            "charEnd": 19,
+            "strong": "H7392",
+            "status": "verified"
+          },
+          {
+            "surface": "hoogten",
+            "charStart": 26,
+            "charEnd": 33,
+            "strong": "H1116",
+            "status": "verified"
+          },
+          {
+            "surface": "aarde",
+            "charStart": 38,
+            "charEnd": 43,
+            "strong": "H776",
+            "status": "verified"
+          },
+          {
+            "surface": "at",
+            "charStart": 46,
+            "charEnd": 48,
+            "strong": "H398",
+            "status": "verified"
+          },
+          {
+            "surface": "inkomsten",
+            "charStart": 59,
+            "charEnd": 68,
+            "strong": "H8570",
+            "status": "verified"
+          },
+          {
+            "surface": "velds",
+            "charStart": 73,
+            "charEnd": 78,
+            "strong": "H7704",
+            "status": "verified"
+          },
+          {
+            "surface": "honig",
+            "charStart": 96,
+            "charEnd": 101,
+            "strong": "H1706",
+            "status": "verified"
+          },
+          {
+            "surface": "zuigen",
+            "charStart": 102,
+            "charEnd": 108,
+            "strong": "H3243",
+            "status": "verified"
+          },
+          {
+            "surface": "steenrots",
+            "charStart": 116,
+            "charEnd": 125,
+            "strong": "H5553",
+            "status": "verified"
+          },
+          {
+            "surface": "olie",
+            "charStart": 130,
+            "charEnd": 134,
+            "strong": "H8081",
+            "status": "verified"
+          },
+          {
+            "surface": "kei",
+            "charStart": 143,
+            "charEnd": 146,
+            "strong": "H2496",
+            "status": "verified"
+          },
+          {
+            "surface": "rots",
+            "charStart": 151,
+            "charEnd": 155,
+            "strong": "H6697",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Deut.32.14",
+      "ref": "32:14",
+      "sv": "Boter van koeien, en melk van klein vee, met het vet der lammeren en der rammen, die in Bazan weiden, en der bokken, met het vette der nieren van tarwe; en het druivenbloed, reinen wijn, hebt gij gedronken.",
+      "kjv": [
+        {
+          "t": "Butter",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "kine,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "milk",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "sheep,",
+          "s": null
+        },
+        {
+          "t": "with",
+          "s": null
+        },
+        {
+          "t": "fat",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "lambs,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "rams",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "breed",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "Bashan,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "goats,",
+          "s": null
+        },
+        {
+          "t": "with",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "fat",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "kidneys",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "wheat;",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "thou",
+          "s": null
+        },
+        {
+          "t": "didst",
+          "s": null
+        },
+        {
+          "t": "drink",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "pure",
+          "s": null
+        },
+        {
+          "t": "blood",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "grape.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Boter",
+            "charStart": 0,
+            "charEnd": 5,
+            "strong": "H2529",
+            "status": "verified"
+          },
+          {
+            "surface": "koeien",
+            "charStart": 10,
+            "charEnd": 16,
+            "strong": "H1241",
+            "status": "verified"
+          },
+          {
+            "surface": "melk",
+            "charStart": 21,
+            "charEnd": 25,
+            "strong": "H2461",
+            "status": "verified"
+          },
+          {
+            "surface": "vee",
+            "charStart": 36,
+            "charEnd": 39,
+            "strong": "H6629",
+            "status": "verified"
+          },
+          {
+            "surface": "vet",
+            "charStart": 49,
+            "charEnd": 52,
+            "strong": "H2459",
+            "status": "verified"
+          },
+          {
+            "surface": "lammeren",
+            "charStart": 57,
+            "charEnd": 65,
+            "strong": "H3733",
+            "status": "verified"
+          },
+          {
+            "surface": "rammen",
+            "charStart": 73,
+            "charEnd": 79,
+            "strong": "H352",
+            "status": "verified"
+          },
+          {
+            "surface": "Bazan",
+            "charStart": 88,
+            "charEnd": 93,
+            "strong": "H1316",
+            "status": "verified"
+          },
+          {
+            "surface": "weiden",
+            "charStart": 94,
+            "charEnd": 100,
+            "strong": "H1121",
+            "status": "verified"
+          },
+          {
+            "surface": "bokken",
+            "charStart": 109,
+            "charEnd": 115,
+            "strong": "H6260",
+            "status": "verified"
+          },
+          {
+            "surface": "vette",
+            "charStart": 125,
+            "charEnd": 130,
+            "strong": "H2459",
+            "status": "verified"
+          },
+          {
+            "surface": "nieren",
+            "charStart": 135,
+            "charEnd": 141,
+            "strong": "H3629",
+            "status": "verified"
+          },
+          {
+            "surface": "tarwe",
+            "charStart": 146,
+            "charEnd": 151,
+            "strong": "H2406",
+            "status": "verified"
+          },
+          {
+            "surface": "druivenbloed",
+            "charStart": 160,
+            "charEnd": 172,
+            "strong": "H1818",
+            "status": "verified"
+          },
+          {
+            "surface": "reinen",
+            "charStart": 174,
+            "charEnd": 180,
+            "strong": "H2561",
+            "status": "verified"
+          },
+          {
+            "surface": "wijn",
+            "charStart": 181,
+            "charEnd": 185,
+            "strong": "H6025",
+            "status": "verified"
+          },
+          {
+            "surface": "gedronken",
+            "charStart": 196,
+            "charEnd": 205,
+            "strong": "H8354",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Deut.32.15",
+      "ref": "32:15",
+      "sv": "Als nu Jeschurun vet werd, zo sloeg hij achteruit (gij zijt vet, gij zijt dik, [ja], [met] [vet] overdekt geworden! ); en hij liet God varen, Die hem gemaakt heeft, en versmaadde den Rotssteen zijns heils.",
+      "kjv": [
+        {
+          "t": "But",
+          "s": null
+        },
+        {
+          "t": "Jeshurun",
+          "s": null
+        },
+        {
+          "t": "waxed",
+          "s": null
+        },
+        {
+          "t": "fat,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "kicked:",
+          "s": null
+        },
+        {
+          "t": "thou",
+          "s": null
+        },
+        {
+          "t": "art",
+          "s": null
+        },
+        {
+          "t": "waxen",
+          "s": null
+        },
+        {
+          "t": "fat,",
+          "s": null
+        },
+        {
+          "t": "thou",
+          "s": null
+        },
+        {
+          "t": "art",
+          "s": null
+        },
+        {
+          "t": "grown",
+          "s": null
+        },
+        {
+          "t": "thick,",
+          "s": null
+        },
+        {
+          "t": "thou",
+          "s": null
+        },
+        {
+          "t": "art",
+          "s": null
+        },
+        {
+          "t": "covered",
+          "s": null
+        },
+        {
+          "t": "with",
+          "s": null
+        },
+        {
+          "t": "fatness;",
+          "s": null
+        },
+        {
+          "t": "then",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "forsook",
+          "s": null
+        },
+        {
+          "t": "God",
+          "s": null
+        },
+        {
+          "t": "which",
+          "s": null
+        },
+        {
+          "t": "made",
+          "s": null
+        },
+        {
+          "t": "him,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "lightly",
+          "s": null
+        },
+        {
+          "t": "esteemed",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "Rock",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "salvation.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Jeschurun",
+            "charStart": 7,
+            "charEnd": 16,
+            "strong": "H3484",
+            "status": "verified"
+          },
+          {
+            "surface": "werd",
+            "charStart": 21,
+            "charEnd": 25,
+            "strong": "H8080",
+            "status": "verified"
+          },
+          {
+            "surface": "achteruit",
+            "charStart": 40,
+            "charEnd": 49,
+            "strong": "H1163",
+            "status": "verified"
+          },
+          {
+            "surface": "vet",
+            "charStart": 60,
+            "charEnd": 63,
+            "strong": "H8080",
+            "status": "verified"
+          },
+          {
+            "surface": "dik",
+            "charStart": 74,
+            "charEnd": 77,
+            "strong": "H5666",
+            "status": "verified"
+          },
+          {
+            "surface": "geworden",
+            "charStart": 106,
+            "charEnd": 114,
+            "strong": "H3780",
+            "status": "verified"
+          },
+          {
+            "surface": "God",
+            "charStart": 131,
+            "charEnd": 134,
+            "strong": "H433",
+            "status": "verified"
+          },
+          {
+            "surface": "varen",
+            "charStart": 135,
+            "charEnd": 140,
+            "strong": "H5203",
+            "status": "verified"
+          },
+          {
+            "surface": "heeft",
+            "charStart": 158,
+            "charEnd": 163,
+            "strong": "H6213",
+            "status": "verified"
+          },
+          {
+            "surface": "versmaadde",
+            "charStart": 168,
+            "charEnd": 178,
+            "strong": "H5034",
+            "status": "verified"
+          },
+          {
+            "surface": "Rotssteen",
+            "charStart": 183,
+            "charEnd": 192,
+            "strong": "H6697",
+            "status": "verified"
+          },
+          {
+            "surface": "heils",
+            "charStart": 199,
+            "charEnd": 204,
+            "strong": "H3444",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Deut.32.16",
+      "ref": "32:16",
+      "sv": "Zij hebben Hem tot ijver verwekt door vreemde [goden]; door gruwelen hebben zij Hem tot toorn verwekt.",
+      "kjv": [
+        {
+          "t": "They",
+          "s": null
+        },
+        {
+          "t": "provoked",
+          "s": null
+        },
+        {
+          "t": "him",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "jealousy",
+          "s": null
+        },
+        {
+          "t": "with",
+          "s": null
+        },
+        {
+          "t": "strange",
+          "s": null
+        },
+        {
+          "t": "gods,",
+          "s": null
+        },
+        {
+          "t": "with",
+          "s": null
+        },
+        {
+          "t": "abominations",
+          "s": null
+        },
+        {
+          "t": "provoked",
+          "s": null
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "him",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "anger.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "verwekt",
+            "charStart": 25,
+            "charEnd": 32,
+            "strong": "H7065",
+            "status": "verified"
+          },
+          {
+            "surface": "vreemde",
+            "charStart": 38,
+            "charEnd": 45,
+            "strong": "H2114",
+            "status": "verified"
+          },
+          {
+            "surface": "gruwelen",
+            "charStart": 60,
+            "charEnd": 68,
+            "strong": "H8441",
+            "status": "verified"
+          },
+          {
+            "surface": "verwekt",
+            "charStart": 94,
+            "charEnd": 101,
+            "strong": "H3707",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Deut.32.17",
+      "ref": "32:17",
+      "sv": "Zij hebben aan de duivelen geofferd, niet aan God; aan de goden, die zij niet kenden; nieuwe, die van nabij gekomen waren, voor dewelke uw vaders niet geschrikt hebben.",
+      "kjv": [
+        {
+          "t": "They",
+          "s": null
+        },
+        {
+          "t": "sacrificed",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "devils,",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "God;",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "gods",
+          "s": null
+        },
+        {
+          "t": "whom",
+          "s": null
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "knew",
+          "s": null
+        },
+        {
+          "t": "not,",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "new",
+          "s": null
+        },
+        {
+          "t": "gods",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "came",
+          "s": null
+        },
+        {
+          "t": "newly",
+          "s": null
+        },
+        {
+          "t": "up,",
+          "s": null
+        },
+        {
+          "t": "whom",
+          "s": null
+        },
+        {
+          "t": "your",
+          "s": null
+        },
+        {
+          "t": "fathers",
+          "s": null
+        },
+        {
+          "t": "feared",
+          "s": null
+        },
+        {
+          "t": "not.",
+          "s": null
+        },
+        {
+          "t": "<sup>not",
+          "s": null
+        },
+        {
+          "t": "to:",
+          "s": null
+        },
+        {
+          "t": "or,",
+          "s": null
+        },
+        {
+          "t": "which",
+          "s": null
+        },
+        {
+          "t": "were",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "God</sup>",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "duivelen",
+            "charStart": 18,
+            "charEnd": 26,
+            "strong": "H7700",
+            "status": "verified"
+          },
+          {
+            "surface": "geofferd",
+            "charStart": 27,
+            "charEnd": 35,
+            "strong": "H2076",
+            "status": "verified"
+          },
+          {
+            "surface": "God",
+            "charStart": 46,
+            "charEnd": 49,
+            "strong": "H433",
+            "status": "verified"
+          },
+          {
+            "surface": "goden",
+            "charStart": 58,
+            "charEnd": 63,
+            "strong": "H430",
+            "status": "verified"
+          },
+          {
+            "surface": "kenden",
+            "charStart": 78,
+            "charEnd": 84,
+            "strong": "H3045",
+            "status": "verified"
+          },
+          {
+            "surface": "nieuwe",
+            "charStart": 86,
+            "charEnd": 92,
+            "strong": "H2319",
+            "status": "verified"
+          },
+          {
+            "surface": "nabij",
+            "charStart": 102,
+            "charEnd": 107,
+            "strong": "H7138",
+            "status": "verified"
+          },
+          {
+            "surface": "waren",
+            "charStart": 116,
+            "charEnd": 121,
+            "strong": "H935",
+            "status": "verified"
+          },
+          {
+            "surface": "vaders",
+            "charStart": 139,
+            "charEnd": 145,
+            "strong": "H1",
+            "status": "verified"
+          },
+          {
+            "surface": "hebben",
+            "charStart": 161,
+            "charEnd": 167,
+            "strong": "H8175",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Deut.32.18",
+      "ref": "32:18",
+      "sv": "Den Rotssteen, Die u gegenereerd heeft, hebt gij vergeten; en gij hebt in vergetenis gesteld den God, Die u gebaard heeft.",
+      "kjv": [
+        {
+          "t": "Of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "Rock",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "begat",
+          "s": null
+        },
+        {
+          "t": "thee",
+          "s": null
+        },
+        {
+          "t": "thou",
+          "s": null
+        },
+        {
+          "t": "art",
+          "s": null
+        },
+        {
+          "t": "unmindful,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "hast",
+          "s": null
+        },
+        {
+          "t": "forgotten",
+          "s": null
+        },
+        {
+          "t": "God",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "formed",
+          "s": null
+        },
+        {
+          "t": "thee.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Rotssteen",
+            "charStart": 4,
+            "charEnd": 13,
+            "strong": "H6697",
+            "status": "verified"
+          },
+          {
+            "surface": "heeft",
+            "charStart": 33,
+            "charEnd": 38,
+            "strong": "H3205",
+            "status": "verified"
+          },
+          {
+            "surface": "vergeten",
+            "charStart": 49,
+            "charEnd": 57,
+            "strong": "H7876",
+            "status": "verified"
+          },
+          {
+            "surface": "gesteld",
+            "charStart": 85,
+            "charEnd": 92,
+            "strong": "H7911",
+            "status": "verified"
+          },
+          {
+            "surface": "God",
+            "charStart": 97,
+            "charEnd": 100,
+            "strong": "H410",
+            "status": "verified"
+          },
+          {
+            "surface": "heeft",
+            "charStart": 116,
+            "charEnd": 121,
+            "strong": "H2342",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Deut.32.19",
+      "ref": "32:19",
+      "sv": "Als het de HEERE zag, zo versmaadde Hij hen, uit toornigheid tegen zijn zonen en zijn dochteren.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "when",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "LORD",
+          "s": null
+        },
+        {
+          "t": "saw",
+          "s": null
+        },
+        {
+          "t": "it,",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "abhorred",
+          "s": null
+        },
+        {
+          "t": "them,",
+          "s": null
+        },
+        {
+          "t": "because",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "provoking",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "sons,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "daughters.",
+          "s": null
+        },
+        {
+          "t": "<sup>abhorred:",
+          "s": null
+        },
+        {
+          "t": "or,",
+          "s": null
+        },
+        {
+          "t": "despised</sup>",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "HEERE",
+            "charStart": 11,
+            "charEnd": 16,
+            "strong": "H3068",
+            "status": "verified"
+          },
+          {
+            "surface": "zag",
+            "charStart": 17,
+            "charEnd": 20,
+            "strong": "H7200",
+            "status": "verified"
+          },
+          {
+            "surface": "Hij",
+            "charStart": 36,
+            "charEnd": 39,
+            "strong": "H5006",
+            "status": "verified"
+          },
+          {
+            "surface": "toornigheid",
+            "charStart": 49,
+            "charEnd": 60,
+            "strong": "H3708",
+            "status": "verified"
+          },
+          {
+            "surface": "zonen",
+            "charStart": 72,
+            "charEnd": 77,
+            "strong": "H1121",
+            "status": "verified"
+          },
+          {
+            "surface": "dochteren",
+            "charStart": 86,
+            "charEnd": 95,
+            "strong": "H1323",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Deut.32.20",
+      "ref": "32:20",
+      "sv": "En Hij zeide: Ik zal Mijn aangezicht van hen verbergen; Ik zal zien, welk hunlieder einde zal wezen; want zij zijn een gans verkeerd geslacht, kinderen, in welke geen trouw is.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "said,",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "hide",
+          "s": null
+        },
+        {
+          "t": "my",
+          "s": null
+        },
+        {
+          "t": "face",
+          "s": null
+        },
+        {
+          "t": "from",
+          "s": null
+        },
+        {
+          "t": "them,",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "see",
+          "s": null
+        },
+        {
+          "t": "what",
+          "s": null
+        },
+        {
+          "t": "their",
+          "s": null
+        },
+        {
+          "t": "end",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "be:",
+          "s": null
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "are",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "very",
+          "s": null
+        },
+        {
+          "t": "froward",
+          "s": null
+        },
+        {
+          "t": "generation,",
+          "s": null
+        },
+        {
+          "t": "children",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "whom",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "no",
+          "s": null
+        },
+        {
+          "t": "faith.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "zeide",
+            "charStart": 7,
+            "charEnd": 12,
+            "strong": "H559",
+            "status": "verified"
+          },
+          {
+            "surface": "aangezicht",
+            "charStart": 26,
+            "charEnd": 36,
+            "strong": "H6440",
+            "status": "verified"
+          },
+          {
+            "surface": "verbergen",
+            "charStart": 45,
+            "charEnd": 54,
+            "strong": "H5641",
+            "status": "verified"
+          },
+          {
+            "surface": "zien",
+            "charStart": 63,
+            "charEnd": 67,
+            "strong": "H7200",
+            "status": "verified"
+          },
+          {
+            "surface": "einde",
+            "charStart": 84,
+            "charEnd": 89,
+            "strong": "H319",
+            "status": "verified"
+          },
+          {
+            "surface": "verkeerd",
+            "charStart": 124,
+            "charEnd": 132,
+            "strong": "H8419",
+            "status": "verified"
+          },
+          {
+            "surface": "geslacht",
+            "charStart": 133,
+            "charEnd": 141,
+            "strong": "H1755",
+            "status": "verified"
+          },
+          {
+            "surface": "kinderen",
+            "charStart": 143,
+            "charEnd": 151,
+            "strong": "H1121",
+            "status": "verified"
+          },
+          {
+            "surface": "trouw",
+            "charStart": 167,
+            "charEnd": 172,
+            "strong": "H529",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Deut.32.21",
+      "ref": "32:21",
+      "sv": "Zij hebben Mij tot ijver verwekt door hetgeen geen God is; zij hebben Mij tot toorn verwekt door hun ijdelheden; Ik dan zal hen tot ijver verwekken door diegenen, die geen volk zijn; door een dwaas volk zal Ik hen tot toorn verwekken.",
+      "kjv": [
+        {
+          "t": "They",
+          "s": null
+        },
+        {
+          "t": "have",
+          "s": null
+        },
+        {
+          "t": "moved",
+          "s": null
+        },
+        {
+          "t": "me",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "jealousy",
+          "s": null
+        },
+        {
+          "t": "with",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "which",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "God;",
+          "s": null
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "have",
+          "s": null
+        },
+        {
+          "t": "provoked",
+          "s": null
+        },
+        {
+          "t": "me",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "anger",
+          "s": null
+        },
+        {
+          "t": "with",
+          "s": null
+        },
+        {
+          "t": "their",
+          "s": null
+        },
+        {
+          "t": "vanities:",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "move",
+          "s": null
+        },
+        {
+          "t": "them",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "jealousy",
+          "s": null
+        },
+        {
+          "t": "with",
+          "s": null
+        },
+        {
+          "t": "those",
+          "s": null
+        },
+        {
+          "t": "which",
+          "s": null
+        },
+        {
+          "t": "are",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "people;",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "provoke",
+          "s": null
+        },
+        {
+          "t": "them",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "anger",
+          "s": null
+        },
+        {
+          "t": "with",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "foolish",
+          "s": null
+        },
+        {
+          "t": "nation.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "verwekt",
+            "charStart": 25,
+            "charEnd": 32,
+            "strong": "H7065",
+            "status": "verified"
+          },
+          {
+            "surface": "geen",
+            "charStart": 41,
+            "charEnd": 45,
+            "strong": "H3808",
+            "status": "verified"
+          },
+          {
+            "surface": "God",
+            "charStart": 51,
+            "charEnd": 54,
+            "strong": "H410",
+            "status": "verified"
+          },
+          {
+            "surface": "verwekt",
+            "charStart": 84,
+            "charEnd": 91,
+            "strong": "H3707",
+            "status": "verified"
+          },
+          {
+            "surface": "ijdelheden",
+            "charStart": 101,
+            "charEnd": 111,
+            "strong": "H1892",
+            "status": "verified"
+          },
+          {
+            "surface": "verwekken",
+            "charStart": 138,
+            "charEnd": 147,
+            "strong": "H7065",
+            "status": "verified"
+          },
+          {
+            "surface": "volk",
+            "charStart": 172,
+            "charEnd": 176,
+            "strong": "H5971",
+            "status": "verified"
+          },
+          {
+            "surface": "dwaas",
+            "charStart": 192,
+            "charEnd": 197,
+            "strong": "H5036",
+            "status": "verified"
+          },
+          {
+            "surface": "volk",
+            "charStart": 198,
+            "charEnd": 202,
+            "strong": "H1471",
+            "status": "verified"
+          },
+          {
+            "surface": "verwekken",
+            "charStart": 224,
+            "charEnd": 233,
+            "strong": "H3707",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Deut.32.22",
+      "ref": "32:22",
+      "sv": "Want een vuur is aangestoken in Mijn toorn, en zal bernen tot in de onderste hel, en zal het land met zijn inkomst verteren, en de gronden der bergen in vlam zetten.",
+      "kjv": [
+        {
+          "t": "For",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "fire",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "kindled",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "mine",
+          "s": null
+        },
+        {
+          "t": "anger,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "burn",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "lowest",
+          "s": null
+        },
+        {
+          "t": "hell,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "consume",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "earth",
+          "s": null
+        },
+        {
+          "t": "with",
+          "s": null
+        },
+        {
+          "t": "her",
+          "s": null
+        },
+        {
+          "t": "increase,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "set",
+          "s": null
+        },
+        {
+          "t": "on",
+          "s": null
+        },
+        {
+          "t": "fire",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "foundations",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "mountains.",
+          "s": null
+        },
+        {
+          "t": "<sup>shall",
+          "s": null
+        },
+        {
+          "t": "burn:",
+          "s": null
+        },
+        {
+          "t": "or,",
+          "s": null
+        },
+        {
+          "t": "hath",
+          "s": null
+        },
+        {
+          "t": "burned</sup>",
+          "s": null
+        },
+        {
+          "t": "<sup>shall",
+          "s": null
+        },
+        {
+          "t": "consume:",
+          "s": null
+        },
+        {
+          "t": "or,",
+          "s": null
+        },
+        {
+          "t": "hath",
+          "s": null
+        },
+        {
+          "t": "consumed</sup>",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "vuur",
+            "charStart": 9,
+            "charEnd": 13,
+            "strong": "H784",
+            "status": "verified"
+          },
+          {
+            "surface": "aangestoken",
+            "charStart": 17,
+            "charEnd": 28,
+            "strong": "H6919",
+            "status": "verified"
+          },
+          {
+            "surface": "toorn",
+            "charStart": 37,
+            "charEnd": 42,
+            "strong": "H639",
+            "status": "verified"
+          },
+          {
+            "surface": "bernen",
+            "charStart": 51,
+            "charEnd": 57,
+            "strong": "H3344",
+            "status": "verified"
+          },
+          {
+            "surface": "onderste",
+            "charStart": 68,
+            "charEnd": 76,
+            "strong": "H8482",
+            "status": "verified"
+          },
+          {
+            "surface": "hel",
+            "charStart": 77,
+            "charEnd": 80,
+            "strong": "H7585",
+            "status": "verified"
+          },
+          {
+            "surface": "land",
+            "charStart": 93,
+            "charEnd": 97,
+            "strong": "H776",
+            "status": "verified"
+          },
+          {
+            "surface": "inkomst",
+            "charStart": 107,
+            "charEnd": 114,
+            "strong": "H2981",
+            "status": "verified"
+          },
+          {
+            "surface": "verteren",
+            "charStart": 115,
+            "charEnd": 123,
+            "strong": "H398",
+            "status": "verified"
+          },
+          {
+            "surface": "gronden",
+            "charStart": 131,
+            "charEnd": 138,
+            "strong": "H4144",
+            "status": "verified"
+          },
+          {
+            "surface": "bergen",
+            "charStart": 143,
+            "charEnd": 149,
+            "strong": "H2022",
+            "status": "verified"
+          },
+          {
+            "surface": "zetten",
+            "charStart": 158,
+            "charEnd": 164,
+            "strong": "H3857",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Deut.32.23",
+      "ref": "32:23",
+      "sv": "Ik zal kwaden over hen hopen; Mijn pijlen zal Ik op hen verschieten.",
+      "kjv": [
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "heap",
+          "s": null
+        },
+        {
+          "t": "mischiefs",
+          "s": null
+        },
+        {
+          "t": "upon",
+          "s": null
+        },
+        {
+          "t": "them;",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "spend",
+          "s": null
+        },
+        {
+          "t": "mine",
+          "s": null
+        },
+        {
+          "t": "arrows",
+          "s": null
+        },
+        {
+          "t": "upon",
+          "s": null
+        },
+        {
+          "t": "them.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "kwaden",
+            "charStart": 7,
+            "charEnd": 13,
+            "strong": "H7451",
+            "status": "verified"
+          },
+          {
+            "surface": "hopen",
+            "charStart": 23,
+            "charEnd": 28,
+            "strong": "H5595",
+            "status": "verified"
+          },
+          {
+            "surface": "pijlen",
+            "charStart": 35,
+            "charEnd": 41,
+            "strong": "H2671",
+            "status": "verified"
+          },
+          {
+            "surface": "verschieten",
+            "charStart": 56,
+            "charEnd": 67,
+            "strong": "H3615",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Deut.32.24",
+      "ref": "32:24",
+      "sv": "Uitgeteerd zullen zij zijn van honger, opgegeten van den karbonkel en bitter verderf; en Ik zal de tanden der beesten onder hen schikken, met vurig venijn van slangen des stofs.",
+      "kjv": [
+        {
+          "t": "They",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "burnt",
+          "s": null
+        },
+        {
+          "t": "with",
+          "s": null
+        },
+        {
+          "t": "hunger,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "devoured",
+          "s": null
+        },
+        {
+          "t": "with",
+          "s": null
+        },
+        {
+          "t": "burning",
+          "s": null
+        },
+        {
+          "t": "heat,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "with",
+          "s": null
+        },
+        {
+          "t": "bitter",
+          "s": null
+        },
+        {
+          "t": "destruction:",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "also",
+          "s": null
+        },
+        {
+          "t": "send",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "teeth",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "beasts",
+          "s": null
+        },
+        {
+          "t": "upon",
+          "s": null
+        },
+        {
+          "t": "them,",
+          "s": null
+        },
+        {
+          "t": "with",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "poison",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "serpents",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "dust.",
+          "s": null
+        },
+        {
+          "t": "<sup>heat:",
+          "s": null
+        },
+        {
+          "t": "Heb.",
+          "s": null
+        },
+        {
+          "t": "coals</sup>",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Uitgeteerd",
+            "charStart": 0,
+            "charEnd": 10,
+            "strong": "H4198",
+            "status": "verified"
+          },
+          {
+            "surface": "honger",
+            "charStart": 31,
+            "charEnd": 37,
+            "strong": "H7458",
+            "status": "verified"
+          },
+          {
+            "surface": "opgegeten",
+            "charStart": 39,
+            "charEnd": 48,
+            "strong": "H3898",
+            "status": "verified"
+          },
+          {
+            "surface": "karbonkel",
+            "charStart": 57,
+            "charEnd": 66,
+            "strong": "H7565",
+            "status": "verified"
+          },
+          {
+            "surface": "bitter",
+            "charStart": 70,
+            "charEnd": 76,
+            "strong": "H4815",
+            "status": "verified"
+          },
+          {
+            "surface": "verderf",
+            "charStart": 77,
+            "charEnd": 84,
+            "strong": "H6986",
+            "status": "verified"
+          },
+          {
+            "surface": "tanden",
+            "charStart": 99,
+            "charEnd": 105,
+            "strong": "H8127",
+            "status": "verified"
+          },
+          {
+            "surface": "beesten",
+            "charStart": 110,
+            "charEnd": 117,
+            "strong": "H929",
+            "status": "verified"
+          },
+          {
+            "surface": "schikken",
+            "charStart": 128,
+            "charEnd": 136,
+            "strong": "H7971",
+            "status": "verified"
+          },
+          {
+            "surface": "venijn",
+            "charStart": 148,
+            "charEnd": 154,
+            "strong": "H2534",
+            "status": "verified"
+          },
+          {
+            "surface": "slangen",
+            "charStart": 159,
+            "charEnd": 166,
+            "strong": "H2119",
+            "status": "verified"
+          },
+          {
+            "surface": "stofs",
+            "charStart": 171,
+            "charEnd": 176,
+            "strong": "H6083",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Deut.32.25",
+      "ref": "32:25",
+      "sv": "Van buiten zal het zwaard beroven, en uit de binnenkameren de verschrikking; ook den jongeling, ook de jonge dochter, het zuigende kind met den grijzen man.",
+      "kjv": [
+        {
+          "t": "The",
+          "s": null
+        },
+        {
+          "t": "sword",
+          "s": null
+        },
+        {
+          "t": "without,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "terror",
+          "s": null
+        },
+        {
+          "t": "within,",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "destroy",
+          "s": null
+        },
+        {
+          "t": "both",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "young",
+          "s": null
+        },
+        {
+          "t": "man",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "virgin,",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "suckling",
+          "s": null
+        },
+        {
+          "t": "also",
+          "s": null
+        },
+        {
+          "t": "with",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "man",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "gray",
+          "s": null
+        },
+        {
+          "t": "hairs.",
+          "s": null
+        },
+        {
+          "t": "<sup>within:",
+          "s": null
+        },
+        {
+          "t": "Heb.",
+          "s": null
+        },
+        {
+          "t": "from",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "chambers</sup>",
+          "s": null
+        },
+        {
+          "t": "<sup>destroy:",
+          "s": null
+        },
+        {
+          "t": "Heb.",
+          "s": null
+        },
+        {
+          "t": "bereave</sup>",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "buiten",
+            "charStart": 4,
+            "charEnd": 10,
+            "strong": "H2351",
+            "status": "verified"
+          },
+          {
+            "surface": "zwaard",
+            "charStart": 19,
+            "charEnd": 25,
+            "strong": "H2719",
+            "status": "verified"
+          },
+          {
+            "surface": "beroven",
+            "charStart": 26,
+            "charEnd": 33,
+            "strong": "H7921",
+            "status": "verified"
+          },
+          {
+            "surface": "binnenkameren",
+            "charStart": 45,
+            "charEnd": 58,
+            "strong": "H2315",
+            "status": "verified"
+          },
+          {
+            "surface": "verschrikking",
+            "charStart": 62,
+            "charEnd": 75,
+            "strong": "H367",
+            "status": "verified"
+          },
+          {
+            "surface": "jongeling",
+            "charStart": 85,
+            "charEnd": 94,
+            "strong": "H970",
+            "status": "verified"
+          },
+          {
+            "surface": "dochter",
+            "charStart": 109,
+            "charEnd": 116,
+            "strong": "H1330",
+            "status": "verified"
+          },
+          {
+            "surface": "kind",
+            "charStart": 131,
+            "charEnd": 135,
+            "strong": "H3243",
+            "status": "verified"
+          },
+          {
+            "surface": "grijzen",
+            "charStart": 144,
+            "charEnd": 151,
+            "strong": "H7872",
+            "status": "verified"
+          },
+          {
+            "surface": "man",
+            "charStart": 152,
+            "charEnd": 155,
+            "strong": "H376",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Deut.32.26",
+      "ref": "32:26",
+      "sv": "Ik zeide: In alle hoeken zoude Ik hen verstrooien; Ik zoude hun gedachtenis van onder de mensen doen ophouden;",
+      "kjv": [
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "said,",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "would",
+          "s": null
+        },
+        {
+          "t": "scatter",
+          "s": null
+        },
+        {
+          "t": "them",
+          "s": null
+        },
+        {
+          "t": "into",
+          "s": null
+        },
+        {
+          "t": "corners,",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "would",
+          "s": null
+        },
+        {
+          "t": "make",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "remembrance",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "them",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "cease",
+          "s": null
+        },
+        {
+          "t": "from",
+          "s": null
+        },
+        {
+          "t": "among",
+          "s": null
+        },
+        {
+          "t": "men:",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "zeide",
+            "charStart": 3,
+            "charEnd": 8,
+            "strong": "H559",
+            "status": "verified"
+          },
+          {
+            "surface": "verstrooien",
+            "charStart": 38,
+            "charEnd": 49,
+            "strong": "H6284",
+            "status": "verified"
+          },
+          {
+            "surface": "gedachtenis",
+            "charStart": 64,
+            "charEnd": 75,
+            "strong": "H2143",
+            "status": "verified"
+          },
+          {
+            "surface": "mensen",
+            "charStart": 89,
+            "charEnd": 95,
+            "strong": "H582",
+            "status": "verified"
+          },
+          {
+            "surface": "ophouden",
+            "charStart": 101,
+            "charEnd": 109,
+            "strong": "H7673",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Deut.32.27",
+      "ref": "32:27",
+      "sv": "Ten ware, dat Ik de toornigheid des vijands schroomde, dat niet hun tegenpartijen zich vreemd mochten houden; dat zij niet mochten zeggen: Onze hand is hoog geweest; de HEERE heeft dit alles niet gewrocht.",
+      "kjv": [
+        {
+          "t": "Were",
+          "s": null
+        },
+        {
+          "t": "it",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "feared",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "wrath",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "enemy,",
+          "s": null
+        },
+        {
+          "t": "lest",
+          "s": null
+        },
+        {
+          "t": "their",
+          "s": null
+        },
+        {
+          "t": "adversaries",
+          "s": null
+        },
+        {
+          "t": "should",
+          "s": null
+        },
+        {
+          "t": "behave",
+          "s": null
+        },
+        {
+          "t": "themselves",
+          "s": null
+        },
+        {
+          "t": "strangely,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "lest",
+          "s": null
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "should",
+          "s": null
+        },
+        {
+          "t": "say,",
+          "s": null
+        },
+        {
+          "t": "Our",
+          "s": null
+        },
+        {
+          "t": "hand",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "high,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "LORD",
+          "s": null
+        },
+        {
+          "t": "hath",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "done",
+          "s": null
+        },
+        {
+          "t": "all",
+          "s": null
+        },
+        {
+          "t": "this.",
+          "s": null
+        },
+        {
+          "t": "<sup>Our:",
+          "s": null
+        },
+        {
+          "t": "or,",
+          "s": null
+        },
+        {
+          "t": "Our",
+          "s": null
+        },
+        {
+          "t": "high",
+          "s": null
+        },
+        {
+          "t": "hand,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "LORD",
+          "s": null
+        },
+        {
+          "t": "hath",
+          "s": null
+        },
+        {
+          "t": "done</sup>",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "ware",
+            "charStart": 4,
+            "charEnd": 8,
+            "strong": "H3884",
+            "status": "verified"
+          },
+          {
+            "surface": "toornigheid",
+            "charStart": 20,
+            "charEnd": 31,
+            "strong": "H3708",
+            "status": "verified"
+          },
+          {
+            "surface": "vijands",
+            "charStart": 36,
+            "charEnd": 43,
+            "strong": "H341",
+            "status": "verified"
+          },
+          {
+            "surface": "schroomde",
+            "charStart": 44,
+            "charEnd": 53,
+            "strong": "H1481",
+            "status": "verified"
+          },
+          {
+            "surface": "tegenpartijen",
+            "charStart": 68,
+            "charEnd": 81,
+            "strong": "H6862",
+            "status": "verified"
+          },
+          {
+            "surface": "houden",
+            "charStart": 102,
+            "charEnd": 108,
+            "strong": "H5234",
+            "status": "verified"
+          },
+          {
+            "surface": "zeggen",
+            "charStart": 131,
+            "charEnd": 137,
+            "strong": "H559",
+            "status": "verified"
+          },
+          {
+            "surface": "hand",
+            "charStart": 144,
+            "charEnd": 148,
+            "strong": "H3027",
+            "status": "verified"
+          },
+          {
+            "surface": "geweest",
+            "charStart": 157,
+            "charEnd": 164,
+            "strong": "H7311",
+            "status": "verified"
+          },
+          {
+            "surface": "HEERE",
+            "charStart": 169,
+            "charEnd": 174,
+            "strong": "H3068",
+            "status": "verified"
+          },
+          {
+            "surface": "gewrocht",
+            "charStart": 196,
+            "charEnd": 204,
+            "strong": "H6466",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Deut.32.28",
+      "ref": "32:28",
+      "sv": "Want zij zijn een volk, dat door raadslagen verloren gaat, en er is geen verstand in hen.",
+      "kjv": [
+        {
+          "t": "For",
+          "s": null
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "are",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "nation",
+          "s": null
+        },
+        {
+          "t": "void",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "counsel,",
+          "s": null
+        },
+        {
+          "t": "neither",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "there",
+          "s": null
+        },
+        {
+          "t": "any",
+          "s": null
+        },
+        {
+          "t": "understanding",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "them.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "volk",
+            "charStart": 18,
+            "charEnd": 22,
+            "strong": "H1471",
+            "status": "verified"
+          },
+          {
+            "surface": "raadslagen",
+            "charStart": 33,
+            "charEnd": 43,
+            "strong": "H6098",
+            "status": "verified"
+          },
+          {
+            "surface": "gaat",
+            "charStart": 53,
+            "charEnd": 57,
+            "strong": "H6",
+            "status": "verified"
+          },
+          {
+            "surface": "verstand",
+            "charStart": 73,
+            "charEnd": 81,
+            "strong": "H8394",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Deut.32.29",
+      "ref": "32:29",
+      "sv": "O, dat zij wijs waren; zij zouden dit vernemen, zij zouden op hun einde merken.",
+      "kjv": [
+        {
+          "t": "O",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "were",
+          "s": null
+        },
+        {
+          "t": "wise,",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "understood",
+          "s": null
+        },
+        {
+          "t": "this,",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "would",
+          "s": null
+        },
+        {
+          "t": "consider",
+          "s": null
+        },
+        {
+          "t": "their",
+          "s": null
+        },
+        {
+          "t": "latter",
+          "s": null
+        },
+        {
+          "t": "end!",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "dat",
+            "charStart": 3,
+            "charEnd": 6,
+            "strong": "H3863",
+            "status": "verified"
+          },
+          {
+            "surface": "waren",
+            "charStart": 16,
+            "charEnd": 21,
+            "strong": "H2449",
+            "status": "verified"
+          },
+          {
+            "surface": "vernemen",
+            "charStart": 38,
+            "charEnd": 46,
+            "strong": "H7919",
+            "status": "verified"
+          },
+          {
+            "surface": "einde",
+            "charStart": 66,
+            "charEnd": 71,
+            "strong": "H319",
+            "status": "verified"
+          },
+          {
+            "surface": "merken",
+            "charStart": 72,
+            "charEnd": 78,
+            "strong": "H995",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Deut.32.30",
+      "ref": "32:30",
+      "sv": "Hoe zoude een enige duizend jagen, en twee tien duizend doen vluchten, ten ware, dat hunlieder Rotssteen hen verkocht, en de HEERE hen overgeleverd had?",
+      "kjv": [
+        {
+          "t": "How",
+          "s": null
+        },
+        {
+          "t": "should",
+          "s": null
+        },
+        {
+          "t": "one",
+          "s": null
+        },
+        {
+          "t": "chase",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "thousand,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "two",
+          "s": null
+        },
+        {
+          "t": "put",
+          "s": null
+        },
+        {
+          "t": "ten",
+          "s": null
+        },
+        {
+          "t": "thousand",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "flight,",
+          "s": null
+        },
+        {
+          "t": "except",
+          "s": null
+        },
+        {
+          "t": "their",
+          "s": null
+        },
+        {
+          "t": "Rock",
+          "s": null
+        },
+        {
+          "t": "had",
+          "s": null
+        },
+        {
+          "t": "sold",
+          "s": null
+        },
+        {
+          "t": "them,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "LORD",
+          "s": null
+        },
+        {
+          "t": "had",
+          "s": null
+        },
+        {
+          "t": "shut",
+          "s": null
+        },
+        {
+          "t": "them",
+          "s": null
+        },
+        {
+          "t": "up?",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "enige",
+            "charStart": 14,
+            "charEnd": 19,
+            "strong": "H259",
+            "status": "verified"
+          },
+          {
+            "surface": "duizend",
+            "charStart": 20,
+            "charEnd": 27,
+            "strong": "H505",
+            "status": "verified"
+          },
+          {
+            "surface": "jagen",
+            "charStart": 28,
+            "charEnd": 33,
+            "strong": "H7291",
+            "status": "verified"
+          },
+          {
+            "surface": "twee",
+            "charStart": 38,
+            "charEnd": 42,
+            "strong": "H8147",
+            "status": "verified"
+          },
+          {
+            "surface": "tien",
+            "charStart": 43,
+            "charEnd": 47,
+            "strong": "H7233",
+            "status": "verified"
+          },
+          {
+            "surface": "duizend",
+            "charStart": 48,
+            "charEnd": 55,
+            "strong": "H505",
+            "status": "verified"
+          },
+          {
+            "surface": "vluchten",
+            "charStart": 61,
+            "charEnd": 69,
+            "strong": "H5127",
+            "status": "verified"
+          },
+          {
+            "surface": "ware",
+            "charStart": 75,
+            "charEnd": 79,
+            "strong": "H3808",
+            "status": "verified"
+          },
+          {
+            "surface": "Rotssteen",
+            "charStart": 95,
+            "charEnd": 104,
+            "strong": "H6697",
+            "status": "verified"
+          },
+          {
+            "surface": "verkocht",
+            "charStart": 109,
+            "charEnd": 117,
+            "strong": "H4376",
+            "status": "verified"
+          },
+          {
+            "surface": "HEERE",
+            "charStart": 125,
+            "charEnd": 130,
+            "strong": "H3068",
+            "status": "verified"
+          },
+          {
+            "surface": "hen",
+            "charStart": 131,
+            "charEnd": 134,
+            "strong": "H3588",
+            "status": "verified"
+          },
+          {
+            "surface": "had",
+            "charStart": 148,
+            "charEnd": 151,
+            "strong": "H5462",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Deut.32.31",
+      "ref": "32:31",
+      "sv": "Want hun rotssteen is niet gelijk onze Rotssteen, zelfs onze vijanden rechters zijnde.",
+      "kjv": [
+        {
+          "t": "For",
+          "s": null
+        },
+        {
+          "t": "their",
+          "s": null
+        },
+        {
+          "t": "rock",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "as",
+          "s": null
+        },
+        {
+          "t": "our",
+          "s": null
+        },
+        {
+          "t": "Rock,",
+          "s": null
+        },
+        {
+          "t": "even",
+          "s": null
+        },
+        {
+          "t": "our",
+          "s": null
+        },
+        {
+          "t": "enemies",
+          "s": null
+        },
+        {
+          "t": "themselves",
+          "s": null
+        },
+        {
+          "t": "being",
+          "s": null
+        },
+        {
+          "t": "judges.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "rotssteen",
+            "charStart": 9,
+            "charEnd": 18,
+            "strong": "H6697",
+            "status": "verified"
+          },
+          {
+            "surface": "Rotssteen",
+            "charStart": 39,
+            "charEnd": 48,
+            "strong": "H6697",
+            "status": "verified"
+          },
+          {
+            "surface": "vijanden",
+            "charStart": 61,
+            "charEnd": 69,
+            "strong": "H341",
+            "status": "verified"
+          },
+          {
+            "surface": "rechters",
+            "charStart": 70,
+            "charEnd": 78,
+            "strong": "H6414",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Deut.32.32",
+      "ref": "32:32",
+      "sv": "Want hun wijnstok is uit den wijnstok van Sodom, en uit de velden van Gomorra; hun wijndruiven zijn vergiftige wijndruiven; zij hebben bittere bezien.",
+      "kjv": [
+        {
+          "t": "For",
+          "s": null
+        },
+        {
+          "t": "their",
+          "s": null
+        },
+        {
+          "t": "vine",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "vine",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "Sodom,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "fields",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "Gomorrah:",
+          "s": null
+        },
+        {
+          "t": "their",
+          "s": null
+        },
+        {
+          "t": "grapes",
+          "s": null
+        },
+        {
+          "t": "are",
+          "s": null
+        },
+        {
+          "t": "grapes",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "gall,",
+          "s": null
+        },
+        {
+          "t": "their",
+          "s": null
+        },
+        {
+          "t": "clusters",
+          "s": null
+        },
+        {
+          "t": "are",
+          "s": null
+        },
+        {
+          "t": "bitter:",
+          "s": null
+        },
+        {
+          "t": "<sup>of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "vine:",
+          "s": null
+        },
+        {
+          "t": "or,",
+          "s": null
+        },
+        {
+          "t": "worse",
+          "s": null
+        },
+        {
+          "t": "than",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "vine</sup>",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "wijnstok",
+            "charStart": 9,
+            "charEnd": 17,
+            "strong": "H1612",
+            "status": "verified"
+          },
+          {
+            "surface": "wijnstok",
+            "charStart": 29,
+            "charEnd": 37,
+            "strong": "H1612",
+            "status": "verified"
+          },
+          {
+            "surface": "Sodom",
+            "charStart": 42,
+            "charEnd": 47,
+            "strong": "H5467",
+            "status": "verified"
+          },
+          {
+            "surface": "velden",
+            "charStart": 59,
+            "charEnd": 65,
+            "strong": "H7709",
+            "status": "verified"
+          },
+          {
+            "surface": "Gomorra",
+            "charStart": 70,
+            "charEnd": 77,
+            "strong": "H6017",
+            "status": "verified"
+          },
+          {
+            "surface": "wijndruiven",
+            "charStart": 83,
+            "charEnd": 94,
+            "strong": "H6025",
+            "status": "verified"
+          },
+          {
+            "surface": "vergiftige",
+            "charStart": 100,
+            "charEnd": 110,
+            "strong": "H7219",
+            "status": "verified"
+          },
+          {
+            "surface": "wijndruiven",
+            "charStart": 111,
+            "charEnd": 122,
+            "strong": "H6025",
+            "status": "verified"
+          },
+          {
+            "surface": "bittere",
+            "charStart": 135,
+            "charEnd": 142,
+            "strong": "H4846",
+            "status": "verified"
+          },
+          {
+            "surface": "bezien",
+            "charStart": 143,
+            "charEnd": 149,
+            "strong": "H811",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Deut.32.33",
+      "ref": "32:33",
+      "sv": "Hun wijn is vurig drakenvenijn, en een wreed adderenvergift.",
+      "kjv": [
+        {
+          "t": "Their",
+          "s": null
+        },
+        {
+          "t": "wine",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "poison",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "dragons,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "cruel",
+          "s": null
+        },
+        {
+          "t": "venom",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "asps.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "wijn",
+            "charStart": 4,
+            "charEnd": 8,
+            "strong": "H3196",
+            "status": "verified"
+          },
+          {
+            "surface": "drakenvenijn",
+            "charStart": 18,
+            "charEnd": 30,
+            "strong": "H2534",
+            "status": "verified"
+          },
+          {
+            "surface": "wreed",
+            "charStart": 39,
+            "charEnd": 44,
+            "strong": "H393",
+            "status": "verified"
+          },
+          {
+            "surface": "adderenvergift",
+            "charStart": 45,
+            "charEnd": 59,
+            "strong": "H7219",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Deut.32.34",
+      "ref": "32:34",
+      "sv": "Is dat niet bij Mij opgesloten, verzegeld in Mijn schatten?",
+      "kjv": [
+        {
+          "t": "Is",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "this",
+          "s": null
+        },
+        {
+          "t": "laid",
+          "s": null
+        },
+        {
+          "t": "up",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "store",
+          "s": null
+        },
+        {
+          "t": "with",
+          "s": null
+        },
+        {
+          "t": "me,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "sealed",
+          "s": null
+        },
+        {
+          "t": "up",
+          "s": null
+        },
+        {
+          "t": "among",
+          "s": null
+        },
+        {
+          "t": "my",
+          "s": null
+        },
+        {
+          "t": "treasures?",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "opgesloten",
+            "charStart": 20,
+            "charEnd": 30,
+            "strong": "H3647",
+            "status": "verified"
+          },
+          {
+            "surface": "verzegeld",
+            "charStart": 32,
+            "charEnd": 41,
+            "strong": "H2856",
+            "status": "verified"
+          },
+          {
+            "surface": "schatten",
+            "charStart": 50,
+            "charEnd": 58,
+            "strong": "H214",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Deut.32.35",
+      "ref": "32:35",
+      "sv": "Mijn is de wraak en de vergelding, ten tijde als hunlieder voet zal wankelen; want de dag huns ondergangs is nabij, en de dingen, die hun zullen gebeuren, haasten.",
+      "kjv": [
+        {
+          "t": "To",
+          "s": null
+        },
+        {
+          "t": "me",
+          "s": null
+        },
+        {
+          "t": "belongeth",
+          "s": null
+        },
+        {
+          "t": "vengeance,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "recompence;",
+          "s": null
+        },
+        {
+          "t": "their",
+          "s": null
+        },
+        {
+          "t": "foot",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "slide",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "due",
+          "s": null
+        },
+        {
+          "t": "time:",
+          "s": null
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "day",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "their",
+          "s": null
+        },
+        {
+          "t": "calamity",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "at",
+          "s": null
+        },
+        {
+          "t": "hand,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "things",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "come",
+          "s": null
+        },
+        {
+          "t": "upon",
+          "s": null
+        },
+        {
+          "t": "them",
+          "s": null
+        },
+        {
+          "t": "make",
+          "s": null
+        },
+        {
+          "t": "haste.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "wraak",
+            "charStart": 11,
+            "charEnd": 16,
+            "strong": "H5359",
+            "status": "verified"
+          },
+          {
+            "surface": "vergelding",
+            "charStart": 23,
+            "charEnd": 33,
+            "strong": "H8005",
+            "status": "verified"
+          },
+          {
+            "surface": "tijde",
+            "charStart": 39,
+            "charEnd": 44,
+            "strong": "H6256",
+            "status": "verified"
+          },
+          {
+            "surface": "voet",
+            "charStart": 59,
+            "charEnd": 63,
+            "strong": "H7272",
+            "status": "verified"
+          },
+          {
+            "surface": "wankelen",
+            "charStart": 68,
+            "charEnd": 76,
+            "strong": "H4131",
+            "status": "verified"
+          },
+          {
+            "surface": "dag",
+            "charStart": 86,
+            "charEnd": 89,
+            "strong": "H3117",
+            "status": "verified"
+          },
+          {
+            "surface": "ondergangs",
+            "charStart": 95,
+            "charEnd": 105,
+            "strong": "H343",
+            "status": "verified"
+          },
+          {
+            "surface": "nabij",
+            "charStart": 109,
+            "charEnd": 114,
+            "strong": "H7138",
+            "status": "verified"
+          },
+          {
+            "surface": "gebeuren",
+            "charStart": 145,
+            "charEnd": 153,
+            "strong": "H6264",
+            "status": "verified"
+          },
+          {
+            "surface": "haasten",
+            "charStart": 155,
+            "charEnd": 162,
+            "strong": "H2363",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Deut.32.36",
+      "ref": "32:36",
+      "sv": "Want de HEERE zal aan Zijn volk recht doen, en het zal Hem over Zijn knechten berouwen; want Hij zal zien, dat de hand is weggegaan, en de beslotene en verlatene niets is.",
+      "kjv": [
+        {
+          "t": "For",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "LORD",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "judge",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "people,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "repent",
+          "s": null
+        },
+        {
+          "t": "himself",
+          "s": null
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "servants,",
+          "s": null
+        },
+        {
+          "t": "when",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "seeth",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "their",
+          "s": null
+        },
+        {
+          "t": "power",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "gone,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "there",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "none",
+          "s": null
+        },
+        {
+          "t": "shut",
+          "s": null
+        },
+        {
+          "t": "up,",
+          "s": null
+        },
+        {
+          "t": "or",
+          "s": null
+        },
+        {
+          "t": "left.",
+          "s": null
+        },
+        {
+          "t": "<sup>power:",
+          "s": null
+        },
+        {
+          "t": "Heb.",
+          "s": null
+        },
+        {
+          "t": "hand</sup>",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "HEERE",
+            "charStart": 8,
+            "charEnd": 13,
+            "strong": "H3068",
+            "status": "verified"
+          },
+          {
+            "surface": "volk",
+            "charStart": 27,
+            "charEnd": 31,
+            "strong": "H5971",
+            "status": "verified"
+          },
+          {
+            "surface": "doen",
+            "charStart": 38,
+            "charEnd": 42,
+            "strong": "H1777",
+            "status": "verified"
+          },
+          {
+            "surface": "knechten",
+            "charStart": 69,
+            "charEnd": 77,
+            "strong": "H5650",
+            "status": "verified"
+          },
+          {
+            "surface": "berouwen",
+            "charStart": 78,
+            "charEnd": 86,
+            "strong": "H5162",
+            "status": "verified"
+          },
+          {
+            "surface": "zien",
+            "charStart": 101,
+            "charEnd": 105,
+            "strong": "H7200",
+            "status": "verified"
+          },
+          {
+            "surface": "hand",
+            "charStart": 114,
+            "charEnd": 118,
+            "strong": "H3027",
+            "status": "verified"
+          },
+          {
+            "surface": "weggegaan",
+            "charStart": 122,
+            "charEnd": 131,
+            "strong": "H235",
+            "status": "verified"
+          },
+          {
+            "surface": "beslotene",
+            "charStart": 139,
+            "charEnd": 148,
+            "strong": "H6113",
+            "status": "verified"
+          },
+          {
+            "surface": "verlatene",
+            "charStart": 152,
+            "charEnd": 161,
+            "strong": "H5800",
+            "status": "verified"
+          },
+          {
+            "surface": "niets",
+            "charStart": 162,
+            "charEnd": 167,
+            "strong": "H657",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Deut.32.37",
+      "ref": "32:37",
+      "sv": "Dan zal Hij zeggen: Waar zijn hun goden; de rotssteen, op welken zij betrouwden?",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "say,",
+          "s": null
+        },
+        {
+          "t": "Where",
+          "s": null
+        },
+        {
+          "t": "are",
+          "s": null
+        },
+        {
+          "t": "their",
+          "s": null
+        },
+        {
+          "t": "gods,",
+          "s": null
+        },
+        {
+          "t": "their",
+          "s": null
+        },
+        {
+          "t": "rock",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "whom",
+          "s": null
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "trusted,",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "zeggen",
+            "charStart": 12,
+            "charEnd": 18,
+            "strong": "H559",
+            "status": "verified"
+          },
+          {
+            "surface": "goden",
+            "charStart": 34,
+            "charEnd": 39,
+            "strong": "H430",
+            "status": "verified"
+          },
+          {
+            "surface": "rotssteen",
+            "charStart": 44,
+            "charEnd": 53,
+            "strong": "H6697",
+            "status": "verified"
+          },
+          {
+            "surface": "betrouwden",
+            "charStart": 69,
+            "charEnd": 79,
+            "strong": "H2620",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Deut.32.38",
+      "ref": "32:38",
+      "sv": "Welker slachtofferen vet zij aten, welker drankofferen wijn zij dronken; dat zij opstaan en u helpen, dat er verberging voor u zij.",
+      "kjv": [
+        {
+          "t": "Which",
+          "s": null
+        },
+        {
+          "t": "did",
+          "s": null
+        },
+        {
+          "t": "eat",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "fat",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "their",
+          "s": null
+        },
+        {
+          "t": "sacrifices,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "drank",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "wine",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "their",
+          "s": null
+        },
+        {
+          "t": "drink",
+          "s": null
+        },
+        {
+          "t": "offerings?",
+          "s": null
+        },
+        {
+          "t": "let",
+          "s": null
+        },
+        {
+          "t": "them",
+          "s": null
+        },
+        {
+          "t": "rise",
+          "s": null
+        },
+        {
+          "t": "up",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "help",
+          "s": null
+        },
+        {
+          "t": "you,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "your",
+          "s": null
+        },
+        {
+          "t": "protection.",
+          "s": null
+        },
+        {
+          "t": "<sup>your:",
+          "s": null
+        },
+        {
+          "t": "Heb.",
+          "s": null
+        },
+        {
+          "t": "an",
+          "s": null
+        },
+        {
+          "t": "hiding",
+          "s": null
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "you</sup>",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "slachtofferen",
+            "charStart": 7,
+            "charEnd": 20,
+            "strong": "H2077",
+            "status": "verified"
+          },
+          {
+            "surface": "vet",
+            "charStart": 21,
+            "charEnd": 24,
+            "strong": "H2459",
+            "status": "verified"
+          },
+          {
+            "surface": "aten",
+            "charStart": 29,
+            "charEnd": 33,
+            "strong": "H398",
+            "status": "verified"
+          },
+          {
+            "surface": "drankofferen",
+            "charStart": 42,
+            "charEnd": 54,
+            "strong": "H5257",
+            "status": "verified"
+          },
+          {
+            "surface": "wijn",
+            "charStart": 55,
+            "charEnd": 59,
+            "strong": "H3196",
+            "status": "verified"
+          },
+          {
+            "surface": "dronken",
+            "charStart": 64,
+            "charEnd": 71,
+            "strong": "H8354",
+            "status": "verified"
+          },
+          {
+            "surface": "opstaan",
+            "charStart": 81,
+            "charEnd": 88,
+            "strong": "H6965",
+            "status": "verified"
+          },
+          {
+            "surface": "helpen",
+            "charStart": 94,
+            "charEnd": 100,
+            "strong": "H5826",
+            "status": "verified"
+          },
+          {
+            "surface": "verberging",
+            "charStart": 109,
+            "charEnd": 119,
+            "strong": "H5643",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Deut.32.39",
+      "ref": "32:39",
+      "sv": "Ziet nu, dat Ik, Ik DIE ben, en geen God met Mij, Ik dood en maak levend; Ik versla en Ik heel; en er is niemand, die uit Mijn hand redt!",
+      "kjv": [
+        {
+          "t": "See",
+          "s": null
+        },
+        {
+          "t": "now",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "I,",
+          "s": null
+        },
+        {
+          "t": "even",
+          "s": null
+        },
+        {
+          "t": "I,",
+          "s": null
+        },
+        {
+          "t": "am",
+          "s": null
+        },
+        {
+          "t": "he,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "there",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "no",
+          "s": null
+        },
+        {
+          "t": "god",
+          "s": null
+        },
+        {
+          "t": "with",
+          "s": null
+        },
+        {
+          "t": "me:",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "kill,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "make",
+          "s": null
+        },
+        {
+          "t": "alive;",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "wound,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "heal:",
+          "s": null
+        },
+        {
+          "t": "neither",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "there",
+          "s": null
+        },
+        {
+          "t": "any",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "can",
+          "s": null
+        },
+        {
+          "t": "deliver",
+          "s": null
+        },
+        {
+          "t": "out",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "my",
+          "s": null
+        },
+        {
+          "t": "hand.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Ziet",
+            "charStart": 0,
+            "charEnd": 4,
+            "strong": "H7200",
+            "status": "verified"
+          },
+          {
+            "surface": "God",
+            "charStart": 37,
+            "charEnd": 40,
+            "strong": "H430",
+            "status": "verified"
+          },
+          {
+            "surface": "dood",
+            "charStart": 53,
+            "charEnd": 57,
+            "strong": "H4191",
+            "status": "verified"
+          },
+          {
+            "surface": "levend",
+            "charStart": 66,
+            "charEnd": 72,
+            "strong": "H2421",
+            "status": "verified"
+          },
+          {
+            "surface": "versla",
+            "charStart": 77,
+            "charEnd": 83,
+            "strong": "H4272",
+            "status": "verified"
+          },
+          {
+            "surface": "heel",
+            "charStart": 90,
+            "charEnd": 94,
+            "strong": "H7495",
+            "status": "verified"
+          },
+          {
+            "surface": "hand",
+            "charStart": 127,
+            "charEnd": 131,
+            "strong": "H3027",
+            "status": "verified"
+          },
+          {
+            "surface": "redt",
+            "charStart": 132,
+            "charEnd": 136,
+            "strong": "H5337",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Deut.32.40",
+      "ref": "32:40",
+      "sv": "Want Ik zal Mijn hand naar den hemel opheffen, en Ik zal zeggen: Ik leef in eeuwigheid!",
+      "kjv": [
+        {
+          "t": "For",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "lift",
+          "s": null
+        },
+        {
+          "t": "up",
+          "s": null
+        },
+        {
+          "t": "my",
+          "s": null
+        },
+        {
+          "t": "hand",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "heaven,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "say,",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "live",
+          "s": null
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "ever.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "hand",
+            "charStart": 17,
+            "charEnd": 21,
+            "strong": "H3027",
+            "status": "verified"
+          },
+          {
+            "surface": "hemel",
+            "charStart": 31,
+            "charEnd": 36,
+            "strong": "H8064",
+            "status": "verified"
+          },
+          {
+            "surface": "opheffen",
+            "charStart": 37,
+            "charEnd": 45,
+            "strong": "H5375",
+            "status": "verified"
+          },
+          {
+            "surface": "zeggen",
+            "charStart": 57,
+            "charEnd": 63,
+            "strong": "H559",
+            "status": "verified"
+          },
+          {
+            "surface": "leef",
+            "charStart": 68,
+            "charEnd": 72,
+            "strong": "H2416",
+            "status": "verified"
+          },
+          {
+            "surface": "eeuwigheid",
+            "charStart": 76,
+            "charEnd": 86,
+            "strong": "H5769",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Deut.32.41",
+      "ref": "32:41",
+      "sv": "Indien Ik Mijn glinsterend zwaard wette, en Mijn hand ten gerichte grijpt, zo zal Ik wraak op Mijn tegenpartijen doen wederkeren, en Mijn hateren vergelden.",
+      "kjv": [
+        {
+          "t": "If",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "whet",
+          "s": null
+        },
+        {
+          "t": "my",
+          "s": null
+        },
+        {
+          "t": "glittering",
+          "s": null
+        },
+        {
+          "t": "sword,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "mine",
+          "s": null
+        },
+        {
+          "t": "hand",
+          "s": null
+        },
+        {
+          "t": "take",
+          "s": null
+        },
+        {
+          "t": "hold",
+          "s": null
+        },
+        {
+          "t": "on",
+          "s": null
+        },
+        {
+          "t": "judgment;",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "render",
+          "s": null
+        },
+        {
+          "t": "vengeance",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "mine",
+          "s": null
+        },
+        {
+          "t": "enemies,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "reward",
+          "s": null
+        },
+        {
+          "t": "them",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "hate",
+          "s": null
+        },
+        {
+          "t": "me.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "glinsterend",
+            "charStart": 15,
+            "charEnd": 26,
+            "strong": "H1300",
+            "status": "verified"
+          },
+          {
+            "surface": "zwaard",
+            "charStart": 27,
+            "charEnd": 33,
+            "strong": "H2719",
+            "status": "verified"
+          },
+          {
+            "surface": "wette",
+            "charStart": 34,
+            "charEnd": 39,
+            "strong": "H8150",
+            "status": "verified"
+          },
+          {
+            "surface": "hand",
+            "charStart": 49,
+            "charEnd": 53,
+            "strong": "H3027",
+            "status": "verified"
+          },
+          {
+            "surface": "gerichte",
+            "charStart": 58,
+            "charEnd": 66,
+            "strong": "H4941",
+            "status": "verified"
+          },
+          {
+            "surface": "grijpt",
+            "charStart": 67,
+            "charEnd": 73,
+            "strong": "H270",
+            "status": "verified"
+          },
+          {
+            "surface": "wraak",
+            "charStart": 85,
+            "charEnd": 90,
+            "strong": "H5359",
+            "status": "verified"
+          },
+          {
+            "surface": "tegenpartijen",
+            "charStart": 99,
+            "charEnd": 112,
+            "strong": "H6862",
+            "status": "verified"
+          },
+          {
+            "surface": "wederkeren",
+            "charStart": 118,
+            "charEnd": 128,
+            "strong": "H7725",
+            "status": "verified"
+          },
+          {
+            "surface": "hateren",
+            "charStart": 138,
+            "charEnd": 145,
+            "strong": "H8130",
+            "status": "verified"
+          },
+          {
+            "surface": "vergelden",
+            "charStart": 146,
+            "charEnd": 155,
+            "strong": "H7999",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Deut.32.42",
+      "ref": "32:42",
+      "sv": "Ik zal Mijn pijlen dronken maken van bloed, en Mijn zwaard zal vlees eten; van het bloed des verslagenen en des gevangenen, van het hoofd af zullen er wraken des vijands zijn.",
+      "kjv": [
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "make",
+          "s": null
+        },
+        {
+          "t": "mine",
+          "s": null
+        },
+        {
+          "t": "arrows",
+          "s": null
+        },
+        {
+          "t": "drunk",
+          "s": null
+        },
+        {
+          "t": "with",
+          "s": null
+        },
+        {
+          "t": "blood,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "my",
+          "s": null
+        },
+        {
+          "t": "sword",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "devour",
+          "s": null
+        },
+        {
+          "t": "flesh;",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "with",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "blood",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "slain",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "captives,",
+          "s": null
+        },
+        {
+          "t": "from",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "beginning",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "revenges",
+          "s": null
+        },
+        {
+          "t": "upon",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "enemy.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "pijlen",
+            "charStart": 12,
+            "charEnd": 18,
+            "strong": "H2671",
+            "status": "verified"
+          },
+          {
+            "surface": "maken",
+            "charStart": 27,
+            "charEnd": 32,
+            "strong": "H7937",
+            "status": "verified"
+          },
+          {
+            "surface": "bloed",
+            "charStart": 37,
+            "charEnd": 42,
+            "strong": "H1818",
+            "status": "verified"
+          },
+          {
+            "surface": "zwaard",
+            "charStart": 52,
+            "charEnd": 58,
+            "strong": "H2719",
+            "status": "verified"
+          },
+          {
+            "surface": "vlees",
+            "charStart": 63,
+            "charEnd": 68,
+            "strong": "H1320",
+            "status": "verified"
+          },
+          {
+            "surface": "eten",
+            "charStart": 69,
+            "charEnd": 73,
+            "strong": "H398",
+            "status": "verified"
+          },
+          {
+            "surface": "bloed",
+            "charStart": 83,
+            "charEnd": 88,
+            "strong": "H1818",
+            "status": "verified"
+          },
+          {
+            "surface": "verslagenen",
+            "charStart": 93,
+            "charEnd": 104,
+            "strong": "H2491",
+            "status": "verified"
+          },
+          {
+            "surface": "gevangenen",
+            "charStart": 112,
+            "charEnd": 122,
+            "strong": "H7633",
+            "status": "verified"
+          },
+          {
+            "surface": "hoofd",
+            "charStart": 132,
+            "charEnd": 137,
+            "strong": "H7218",
+            "status": "verified"
+          },
+          {
+            "surface": "wraken",
+            "charStart": 151,
+            "charEnd": 157,
+            "strong": "H6546",
+            "status": "verified"
+          },
+          {
+            "surface": "vijands",
+            "charStart": 162,
+            "charEnd": 169,
+            "strong": "H341",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Deut.32.43",
+      "ref": "32:43",
+      "sv": "Juicht, gij heidenen, [met] Zijn volk! want Hij zal het bloed Zijner knechten wreken; en Hij zal de wraak op Zijn tegenpartijen doen wederkeren, en verzoenen Zijn land [en] Zijn volk.",
+      "kjv": [
+        {
+          "t": "Rejoice,",
+          "s": null
+        },
+        {
+          "t": "O",
+          "s": null
+        },
+        {
+          "t": "ye",
+          "s": null
+        },
+        {
+          "t": "nations,",
+          "s": null
+        },
+        {
+          "t": "with",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "people:",
+          "s": null
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "avenge",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "blood",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "servants,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "render",
+          "s": null
+        },
+        {
+          "t": "vengeance",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "adversaries,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "merciful",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "land,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "people.",
+          "s": null
+        },
+        {
+          "t": "<sup>Rejoice:",
+          "s": null
+        },
+        {
+          "t": "or,",
+          "s": null
+        },
+        {
+          "t": "Praise",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "people,",
+          "s": null
+        },
+        {
+          "t": "ye",
+          "s": null
+        },
+        {
+          "t": "nations:",
+          "s": null
+        },
+        {
+          "t": "or,",
+          "s": null
+        },
+        {
+          "t": "Sing",
+          "s": null
+        },
+        {
+          "t": "ye</sup>",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Juicht",
+            "charStart": 0,
+            "charEnd": 6,
+            "strong": "H7442",
+            "status": "verified"
+          },
+          {
+            "surface": "heidenen",
+            "charStart": 12,
+            "charEnd": 20,
+            "strong": "H1471",
+            "status": "verified"
+          },
+          {
+            "surface": "volk",
+            "charStart": 33,
+            "charEnd": 37,
+            "strong": "H5971",
+            "status": "verified"
+          },
+          {
+            "surface": "bloed",
+            "charStart": 56,
+            "charEnd": 61,
+            "strong": "H1818",
+            "status": "verified"
+          },
+          {
+            "surface": "knechten",
+            "charStart": 69,
+            "charEnd": 77,
+            "strong": "H5650",
+            "status": "verified"
+          },
+          {
+            "surface": "wreken",
+            "charStart": 78,
+            "charEnd": 84,
+            "strong": "H5358",
+            "status": "verified"
+          },
+          {
+            "surface": "wraak",
+            "charStart": 100,
+            "charEnd": 105,
+            "strong": "H5359",
+            "status": "verified"
+          },
+          {
+            "surface": "tegenpartijen",
+            "charStart": 114,
+            "charEnd": 127,
+            "strong": "H6862",
+            "status": "verified"
+          },
+          {
+            "surface": "wederkeren",
+            "charStart": 133,
+            "charEnd": 143,
+            "strong": "H7725",
+            "status": "verified"
+          },
+          {
+            "surface": "verzoenen",
+            "charStart": 148,
+            "charEnd": 157,
+            "strong": "H3722",
+            "status": "verified"
+          },
+          {
+            "surface": "land",
+            "charStart": 163,
+            "charEnd": 167,
+            "strong": "H127",
+            "status": "verified"
+          },
+          {
+            "surface": "volk",
+            "charStart": 178,
+            "charEnd": 182,
+            "strong": "H5971",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Deut.32.44",
+      "ref": "32:44",
+      "sv": "En Mozes kwam, en sprak al de woorden dezes lieds voor de oren des volks, hij en Hosea, de zoon van Nun.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "Moses",
+          "s": null
+        },
+        {
+          "t": "came",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "spake",
+          "s": null
+        },
+        {
+          "t": "all",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "words",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "this",
+          "s": null
+        },
+        {
+          "t": "song",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "ears",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "people,",
+          "s": null
+        },
+        {
+          "t": "he,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "Hoshea",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "son",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "Nun.",
+          "s": null
+        },
+        {
+          "t": "<sup>Hoshea:",
+          "s": null
+        },
+        {
+          "t": "or,",
+          "s": null
+        },
+        {
+          "t": "Joshua</sup>",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Mozes",
+            "charStart": 3,
+            "charEnd": 8,
+            "strong": "H4872",
+            "status": "verified"
+          },
+          {
+            "surface": "kwam",
+            "charStart": 9,
+            "charEnd": 13,
+            "strong": "H935",
+            "status": "verified"
+          },
+          {
+            "surface": "sprak",
+            "charStart": 18,
+            "charEnd": 23,
+            "strong": "H1696",
+            "status": "verified"
+          },
+          {
+            "surface": "woorden",
+            "charStart": 30,
+            "charEnd": 37,
+            "strong": "H1697",
+            "status": "verified"
+          },
+          {
+            "surface": "lieds",
+            "charStart": 44,
+            "charEnd": 49,
+            "strong": "H7892",
+            "status": "verified"
+          },
+          {
+            "surface": "oren",
+            "charStart": 58,
+            "charEnd": 62,
+            "strong": "H241",
+            "status": "verified"
+          },
+          {
+            "surface": "volks",
+            "charStart": 67,
+            "charEnd": 72,
+            "strong": "H5971",
+            "status": "verified"
+          },
+          {
+            "surface": "Hosea",
+            "charStart": 81,
+            "charEnd": 86,
+            "strong": "H1954",
+            "status": "verified"
+          },
+          {
+            "surface": "zoon",
+            "charStart": 91,
+            "charEnd": 95,
+            "strong": "H1121",
+            "status": "verified"
+          },
+          {
+            "surface": "Nun",
+            "charStart": 100,
+            "charEnd": 103,
+            "strong": "H5126",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Deut.32.45",
+      "ref": "32:45",
+      "sv": "Als nu Mozes geeindigd had al die woorden tot gans Israel te spreken;",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "Moses",
+          "s": null
+        },
+        {
+          "t": "made",
+          "s": null
+        },
+        {
+          "t": "an",
+          "s": null
+        },
+        {
+          "t": "end",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "speaking",
+          "s": null
+        },
+        {
+          "t": "all",
+          "s": null
+        },
+        {
+          "t": "these",
+          "s": null
+        },
+        {
+          "t": "words",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "all",
+          "s": null
+        },
+        {
+          "t": "Israel:",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Mozes",
+            "charStart": 7,
+            "charEnd": 12,
+            "strong": "H4872",
+            "status": "verified"
+          },
+          {
+            "surface": "had",
+            "charStart": 23,
+            "charEnd": 26,
+            "strong": "H3615",
+            "status": "verified"
+          },
+          {
+            "surface": "woorden",
+            "charStart": 34,
+            "charEnd": 41,
+            "strong": "H1697",
+            "status": "verified"
+          },
+          {
+            "surface": "Israel",
+            "charStart": 51,
+            "charEnd": 57,
+            "strong": "H3478",
+            "status": "verified"
+          },
+          {
+            "surface": "spreken",
+            "charStart": 61,
+            "charEnd": 68,
+            "strong": "H1696",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Deut.32.46",
+      "ref": "32:46",
+      "sv": "Zo zeide hij tot hen: Zet uw hart op al de woorden, die ik heden onder ulieden betuige, dat gij ze uw kinderen gebieden zult, dat zij waarnemen te doen al de woorden dezer wet.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "said",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "them,",
+          "s": null
+        },
+        {
+          "t": "Set",
+          "s": null
+        },
+        {
+          "t": "your",
+          "s": null
+        },
+        {
+          "t": "hearts",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "all",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "words",
+          "s": null
+        },
+        {
+          "t": "which",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "testify",
+          "s": null
+        },
+        {
+          "t": "among",
+          "s": null
+        },
+        {
+          "t": "you",
+          "s": null
+        },
+        {
+          "t": "this",
+          "s": null
+        },
+        {
+          "t": "day,",
+          "s": null
+        },
+        {
+          "t": "which",
+          "s": null
+        },
+        {
+          "t": "ye",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "command",
+          "s": null
+        },
+        {
+          "t": "your",
+          "s": null
+        },
+        {
+          "t": "children",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "observe",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "do,",
+          "s": null
+        },
+        {
+          "t": "all",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "words",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "this",
+          "s": null
+        },
+        {
+          "t": "law.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "hij",
+            "charStart": 9,
+            "charEnd": 12,
+            "strong": "H559",
+            "status": "verified"
+          },
+          {
+            "surface": "Zet",
+            "charStart": 22,
+            "charEnd": 25,
+            "strong": "H7760",
+            "status": "verified"
+          },
+          {
+            "surface": "hart",
+            "charStart": 29,
+            "charEnd": 33,
+            "strong": "H3824",
+            "status": "verified"
+          },
+          {
+            "surface": "woorden",
+            "charStart": 43,
+            "charEnd": 50,
+            "strong": "H1697",
+            "status": "verified"
+          },
+          {
+            "surface": "heden",
+            "charStart": 59,
+            "charEnd": 64,
+            "strong": "H3117",
+            "status": "verified"
+          },
+          {
+            "surface": "betuige",
+            "charStart": 79,
+            "charEnd": 86,
+            "strong": "H5749",
+            "status": "verified"
+          },
+          {
+            "surface": "kinderen",
+            "charStart": 102,
+            "charEnd": 110,
+            "strong": "H1121",
+            "status": "verified"
+          },
+          {
+            "surface": "zult",
+            "charStart": 120,
+            "charEnd": 124,
+            "strong": "H6680",
+            "status": "verified"
+          },
+          {
+            "surface": "waarnemen",
+            "charStart": 134,
+            "charEnd": 143,
+            "strong": "H8104",
+            "status": "verified"
+          },
+          {
+            "surface": "doen",
+            "charStart": 147,
+            "charEnd": 151,
+            "strong": "H6213",
+            "status": "verified"
+          },
+          {
+            "surface": "woorden",
+            "charStart": 158,
+            "charEnd": 165,
+            "strong": "H1697",
+            "status": "verified"
+          },
+          {
+            "surface": "wet",
+            "charStart": 172,
+            "charEnd": 175,
+            "strong": "H8451",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Deut.32.47",
+      "ref": "32:47",
+      "sv": "Want dat is geen vergeefs woord voor ulieden; maar het is uw leven; en door ditzelve woord zult gij de dagen verlengen op het land, waar gij over de Jordaan naar toe gaat, om dat te erven.",
+      "kjv": [
+        {
+          "t": "For",
+          "s": null
+        },
+        {
+          "t": "it",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "vain",
+          "s": null
+        },
+        {
+          "t": "thing",
+          "s": null
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "you;",
+          "s": null
+        },
+        {
+          "t": "because",
+          "s": null
+        },
+        {
+          "t": "it",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "your",
+          "s": null
+        },
+        {
+          "t": "life:",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "through",
+          "s": null
+        },
+        {
+          "t": "this",
+          "s": null
+        },
+        {
+          "t": "thing",
+          "s": null
+        },
+        {
+          "t": "ye",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "prolong",
+          "s": null
+        },
+        {
+          "t": "your",
+          "s": null
+        },
+        {
+          "t": "days",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "land,",
+          "s": null
+        },
+        {
+          "t": "whither",
+          "s": null
+        },
+        {
+          "t": "ye",
+          "s": null
+        },
+        {
+          "t": "go",
+          "s": null
+        },
+        {
+          "t": "over",
+          "s": null
+        },
+        {
+          "t": "Jordan",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "possess",
+          "s": null
+        },
+        {
+          "t": "it.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "vergeefs",
+            "charStart": 17,
+            "charEnd": 25,
+            "strong": "H7386",
+            "status": "verified"
+          },
+          {
+            "surface": "woord",
+            "charStart": 26,
+            "charEnd": 31,
+            "strong": "H1697",
+            "status": "verified"
+          },
+          {
+            "surface": "leven",
+            "charStart": 61,
+            "charEnd": 66,
+            "strong": "H2416",
+            "status": "verified"
+          },
+          {
+            "surface": "woord",
+            "charStart": 85,
+            "charEnd": 90,
+            "strong": "H1697",
+            "status": "verified"
+          },
+          {
+            "surface": "dagen",
+            "charStart": 103,
+            "charEnd": 108,
+            "strong": "H3117",
+            "status": "verified"
+          },
+          {
+            "surface": "verlengen",
+            "charStart": 109,
+            "charEnd": 118,
+            "strong": "H748",
+            "status": "verified"
+          },
+          {
+            "surface": "land",
+            "charStart": 126,
+            "charEnd": 130,
+            "strong": "H127",
+            "status": "verified"
+          },
+          {
+            "surface": "Jordaan",
+            "charStart": 149,
+            "charEnd": 156,
+            "strong": "H3383",
+            "status": "verified"
+          },
+          {
+            "surface": "gaat",
+            "charStart": 166,
+            "charEnd": 170,
+            "strong": "H5674",
+            "status": "verified"
+          },
+          {
+            "surface": "erven",
+            "charStart": 182,
+            "charEnd": 187,
+            "strong": "H3423",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Deut.32.48",
+      "ref": "32:48",
+      "sv": "Daarna sprak de HEERE tot Mozes, op dienzelfden dag, zeggende:",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "LORD",
+          "s": null
+        },
+        {
+          "t": "spake",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "Moses",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "selfsame",
+          "s": null
+        },
+        {
+          "t": "day,",
+          "s": null
+        },
+        {
+          "t": "saying,",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "sprak",
+            "charStart": 7,
+            "charEnd": 12,
+            "strong": "H1696",
+            "status": "verified"
+          },
+          {
+            "surface": "HEERE",
+            "charStart": 16,
+            "charEnd": 21,
+            "strong": "H3068",
+            "status": "verified"
+          },
+          {
+            "surface": "Mozes",
+            "charStart": 26,
+            "charEnd": 31,
+            "strong": "H4872",
+            "status": "verified"
+          },
+          {
+            "surface": "dienzelfden",
+            "charStart": 36,
+            "charEnd": 47,
+            "strong": "H6106",
+            "status": "verified"
+          },
+          {
+            "surface": "dag",
+            "charStart": 48,
+            "charEnd": 51,
+            "strong": "H3117",
+            "status": "verified"
+          },
+          {
+            "surface": "zeggende",
+            "charStart": 53,
+            "charEnd": 61,
+            "strong": "H559",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Deut.32.49",
+      "ref": "32:49",
+      "sv": "Klim op den berg Abarim (deze is de berg Nebo, die in het land van Moab is, die tegenover Jericho is), en zie het land Kanaan, dat Ik den kinderen Israels tot een bezitting geven zal;",
+      "kjv": [
+        {
+          "t": "Get",
+          "s": null
+        },
+        {
+          "t": "thee",
+          "s": null
+        },
+        {
+          "t": "up",
+          "s": null
+        },
+        {
+          "t": "into",
+          "s": null
+        },
+        {
+          "t": "this",
+          "s": null
+        },
+        {
+          "t": "mountain",
+          "s": null
+        },
+        {
+          "t": "Abarim,",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "mount",
+          "s": null
+        },
+        {
+          "t": "Nebo,",
+          "s": null
+        },
+        {
+          "t": "which",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "land",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "Moab,",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "over",
+          "s": null
+        },
+        {
+          "t": "against",
+          "s": null
+        },
+        {
+          "t": "Jericho;",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "behold",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "land",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "Canaan,",
+          "s": null
+        },
+        {
+          "t": "which",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "give",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "children",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "Israel",
+          "s": null
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "possession:",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "op",
+            "charStart": 5,
+            "charEnd": 7,
+            "strong": "H5927",
+            "status": "verified"
+          },
+          {
+            "surface": "berg",
+            "charStart": 12,
+            "charEnd": 16,
+            "strong": "H2022",
+            "status": "verified"
+          },
+          {
+            "surface": "Abarim",
+            "charStart": 17,
+            "charEnd": 23,
+            "strong": "H5682",
+            "status": "verified"
+          },
+          {
+            "surface": "berg",
+            "charStart": 36,
+            "charEnd": 40,
+            "strong": "H2022",
+            "status": "verified"
+          },
+          {
+            "surface": "Nebo",
+            "charStart": 41,
+            "charEnd": 45,
+            "strong": "H5015",
+            "status": "verified"
+          },
+          {
+            "surface": "land",
+            "charStart": 58,
+            "charEnd": 62,
+            "strong": "H776",
+            "status": "verified"
+          },
+          {
+            "surface": "Moab",
+            "charStart": 67,
+            "charEnd": 71,
+            "strong": "H4124",
+            "status": "verified"
+          },
+          {
+            "surface": "tegenover",
+            "charStart": 80,
+            "charEnd": 89,
+            "strong": "H6440",
+            "status": "verified"
+          },
+          {
+            "surface": "Jericho",
+            "charStart": 90,
+            "charEnd": 97,
+            "strong": "H3405",
+            "status": "verified"
+          },
+          {
+            "surface": "zie",
+            "charStart": 106,
+            "charEnd": 109,
+            "strong": "H7200",
+            "status": "verified"
+          },
+          {
+            "surface": "land",
+            "charStart": 114,
+            "charEnd": 118,
+            "strong": "H776",
+            "status": "verified"
+          },
+          {
+            "surface": "Kanaan",
+            "charStart": 119,
+            "charEnd": 125,
+            "strong": "H3667",
+            "status": "verified"
+          },
+          {
+            "surface": "kinderen",
+            "charStart": 138,
+            "charEnd": 146,
+            "strong": "H1121",
+            "status": "verified"
+          },
+          {
+            "surface": "Israels",
+            "charStart": 147,
+            "charEnd": 154,
+            "strong": "H3478",
+            "status": "verified"
+          },
+          {
+            "surface": "bezitting",
+            "charStart": 163,
+            "charEnd": 172,
+            "strong": "H272",
+            "status": "verified"
+          },
+          {
+            "surface": "zal",
+            "charStart": 179,
+            "charEnd": 182,
+            "strong": "H5414",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Deut.32.50",
+      "ref": "32:50",
+      "sv": "En sterf op dien berg, waarheen gij opklimmen zult, en word vergaderd tot uw volken; gelijk als uw broeder Aaron stierf op den berg Hor, en werd tot zijn volken vergaderd.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "die",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "mount",
+          "s": null
+        },
+        {
+          "t": "whither",
+          "s": null
+        },
+        {
+          "t": "thou",
+          "s": null
+        },
+        {
+          "t": "goest",
+          "s": null
+        },
+        {
+          "t": "up,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "gathered",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "thy",
+          "s": null
+        },
+        {
+          "t": "people;",
+          "s": null
+        },
+        {
+          "t": "as",
+          "s": null
+        },
+        {
+          "t": "Aaron",
+          "s": null
+        },
+        {
+          "t": "thy",
+          "s": null
+        },
+        {
+          "t": "brother",
+          "s": null
+        },
+        {
+          "t": "died",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "mount",
+          "s": null
+        },
+        {
+          "t": "Hor,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "was",
+          "s": null
+        },
+        {
+          "t": "gathered",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "people:",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "sterf",
+            "charStart": 3,
+            "charEnd": 8,
+            "strong": "H4191",
+            "status": "verified"
+          },
+          {
+            "surface": "berg",
+            "charStart": 17,
+            "charEnd": 21,
+            "strong": "H2022",
+            "status": "verified"
+          },
+          {
+            "surface": "zult",
+            "charStart": 46,
+            "charEnd": 50,
+            "strong": "H5927",
+            "status": "verified"
+          },
+          {
+            "surface": "vergaderd",
+            "charStart": 60,
+            "charEnd": 69,
+            "strong": "H622",
+            "status": "verified"
+          },
+          {
+            "surface": "volken",
+            "charStart": 77,
+            "charEnd": 83,
+            "strong": "H5971",
+            "status": "verified"
+          },
+          {
+            "surface": "broeder",
+            "charStart": 99,
+            "charEnd": 106,
+            "strong": "H251",
+            "status": "verified"
+          },
+          {
+            "surface": "Aaron",
+            "charStart": 107,
+            "charEnd": 112,
+            "strong": "H175",
+            "status": "verified"
+          },
+          {
+            "surface": "stierf",
+            "charStart": 113,
+            "charEnd": 119,
+            "strong": "H4191",
+            "status": "verified"
+          },
+          {
+            "surface": "berg",
+            "charStart": 127,
+            "charEnd": 131,
+            "strong": "H2022",
+            "status": "verified"
+          },
+          {
+            "surface": "Hor",
+            "charStart": 132,
+            "charEnd": 135,
+            "strong": "H2023",
+            "status": "verified"
+          },
+          {
+            "surface": "volken",
+            "charStart": 154,
+            "charEnd": 160,
+            "strong": "H5971",
+            "status": "verified"
+          },
+          {
+            "surface": "vergaderd",
+            "charStart": 161,
+            "charEnd": 170,
+            "strong": "H622",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Deut.32.51",
+      "ref": "32:51",
+      "sv": "Omdat gijlieden u tegen Mij vergrepen hebt, in het midden der kinderen Israels, aan het twistwater te Kades, in de woestijn Zin; omdat gij Mij niet geheiligd hebt in het midden der kinderen Israels.",
+      "kjv": [
+        {
+          "t": "Because",
+          "s": null
+        },
+        {
+          "t": "ye",
+          "s": null
+        },
+        {
+          "t": "trespassed",
+          "s": null
+        },
+        {
+          "t": "against",
+          "s": null
+        },
+        {
+          "t": "me",
+          "s": null
+        },
+        {
+          "t": "among",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "children",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "Israel",
+          "s": null
+        },
+        {
+          "t": "at",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "waters",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "Meribah-Kadesh",
+          "s": null
+        },
+        {
+          "t": ",",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "wilderness",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "Zin;",
+          "s": null
+        },
+        {
+          "t": "because",
+          "s": null
+        },
+        {
+          "t": "ye",
+          "s": null
+        },
+        {
+          "t": "sanctified",
+          "s": null
+        },
+        {
+          "t": "me",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "midst",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "children",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "Israel.",
+          "s": null
+        },
+        {
+          "t": "<sup>Meribah-Kadesh:",
+          "s": null
+        },
+        {
+          "t": "or,",
+          "s": null
+        },
+        {
+          "t": "strife",
+          "s": null
+        },
+        {
+          "t": "at",
+          "s": null
+        },
+        {
+          "t": "Kadesh</sup>",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "hebt",
+            "charStart": 38,
+            "charEnd": 42,
+            "strong": "H4603",
+            "status": "verified"
+          },
+          {
+            "surface": "midden",
+            "charStart": 51,
+            "charEnd": 57,
+            "strong": "H8432",
+            "status": "verified"
+          },
+          {
+            "surface": "kinderen",
+            "charStart": 62,
+            "charEnd": 70,
+            "strong": "H1121",
+            "status": "verified"
+          },
+          {
+            "surface": "Israels",
+            "charStart": 71,
+            "charEnd": 78,
+            "strong": "H3478",
+            "status": "verified"
+          },
+          {
+            "surface": "twistwater",
+            "charStart": 88,
+            "charEnd": 98,
+            "strong": "H4325",
+            "status": "verified"
+          },
+          {
+            "surface": "Kades",
+            "charStart": 102,
+            "charEnd": 107,
+            "strong": "H6946",
+            "status": "verified"
+          },
+          {
+            "surface": "woestijn",
+            "charStart": 115,
+            "charEnd": 123,
+            "strong": "H4057",
+            "status": "verified"
+          },
+          {
+            "surface": "Zin",
+            "charStart": 124,
+            "charEnd": 127,
+            "strong": "H6790",
+            "status": "verified"
+          },
+          {
+            "surface": "hebt",
+            "charStart": 158,
+            "charEnd": 162,
+            "strong": "H6942",
+            "status": "verified"
+          },
+          {
+            "surface": "midden",
+            "charStart": 170,
+            "charEnd": 176,
+            "strong": "H8432",
+            "status": "verified"
+          },
+          {
+            "surface": "kinderen",
+            "charStart": 181,
+            "charEnd": 189,
+            "strong": "H1121",
+            "status": "verified"
+          },
+          {
+            "surface": "Israels",
+            "charStart": 190,
+            "charEnd": 197,
+            "strong": "H3478",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Deut.32.52",
+      "ref": "32:52",
+      "sv": "Want van tegenover zult gij dat land zien, maar daarheen niet inkomen, in het land, dat Ik den kinderen Israels geven zal.",
+      "kjv": [
+        {
+          "t": "Yet",
+          "s": null
+        },
+        {
+          "t": "thou",
+          "s": null
+        },
+        {
+          "t": "shalt",
+          "s": null
+        },
+        {
+          "t": "see",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "land",
+          "s": null
+        },
+        {
+          "t": "before",
+          "s": null
+        },
+        {
+          "t": "thee;",
+          "s": null
+        },
+        {
+          "t": "but",
+          "s": null
+        },
+        {
+          "t": "thou",
+          "s": null
+        },
+        {
+          "t": "shalt",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "go",
+          "s": null
+        },
+        {
+          "t": "thither",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "land",
+          "s": null
+        },
+        {
+          "t": "which",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "give",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "children",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "Israel.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "land",
+            "charStart": 32,
+            "charEnd": 36,
+            "strong": "H776",
+            "status": "verified"
+          },
+          {
+            "surface": "zien",
+            "charStart": 37,
+            "charEnd": 41,
+            "strong": "H7200",
+            "status": "verified"
+          },
+          {
+            "surface": "inkomen",
+            "charStart": 62,
+            "charEnd": 69,
+            "strong": "H935",
+            "status": "verified"
+          },
+          {
+            "surface": "land",
+            "charStart": 78,
+            "charEnd": 82,
+            "strong": "H776",
+            "status": "verified"
+          },
+          {
+            "surface": "kinderen",
+            "charStart": 95,
+            "charEnd": 103,
+            "strong": "H1121",
+            "status": "verified"
+          },
+          {
+            "surface": "Israels",
+            "charStart": 104,
+            "charEnd": 111,
+            "strong": "H3478",
+            "status": "verified"
+          },
+          {
+            "surface": "zal",
+            "charStart": 118,
+            "charEnd": 121,
+            "strong": "H5414",
+            "status": "verified"
+          }
+        ]
+      }
+    }
+  ],
+  "lexicon": {
+    "H3068": {
+      "lemma": "יְהוָה",
+      "translit": "YHWH",
+      "strong": "H3068",
+      "language": "hebrew",
+      "gloss": "De HEERE, de Verbondsgod van Israël (the LORD)"
+    },
+    "H430": {
+      "lemma": "אֱלֹהִים",
+      "translit": "Elohim",
+      "strong": "H430",
+      "language": "hebrew",
+      "gloss": "God (God, Divine Being)"
+    },
+    "H4941": {
+      "lemma": "מִשְׁפָּט",
+      "translit": "mishpat",
+      "strong": "H4941",
+      "language": "hebrew",
+      "gloss": "recht, oordeel, gericht (justice, judgment)"
+    },
+    "H5971": {
+      "lemma": "עַם",
+      "translit": "am",
+      "strong": "H5971",
+      "language": "hebrew",
+      "gloss": "volk, natie (people, nation)"
+    },
+    "H5414": {
+      "lemma": "נָתַן",
+      "translit": "nathan",
+      "strong": "H5414",
+      "language": "hebrew",
+      "gloss": "geven, stellen, beschrikken (to give, set)"
+    }
+  }
+}

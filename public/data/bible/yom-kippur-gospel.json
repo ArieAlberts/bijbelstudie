@@ -1,0 +1,3473 @@
+{
+  "study": "yom-kippur",
+  "role": "gospel",
+  "osis": "Matt.25.31-Matt.25.46",
+  "ref": {
+    "nl": "Mattheüs 25:31–46",
+    "en": "Matthew 25:31–46"
+  },
+  "testament": "NT",
+  "verses": [
+    {
+      "osis": "Matt.25.31",
+      "ref": "25:31",
+      "sv": "En wanneer de Zoon des mensen komen zal in Zijn heerlijkheid, en al de heilige engelen met Hem, dan zal Hij zitten op den troon Zijner heerlijkheid.",
+      "kjv": [
+        {
+          "t": "When",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "Son",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "man",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "come",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "glory,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "all",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "holy",
+          "s": null
+        },
+        {
+          "t": "angels",
+          "s": null
+        },
+        {
+          "t": "with",
+          "s": null
+        },
+        {
+          "t": "him,",
+          "s": null
+        },
+        {
+          "t": "then",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "sit",
+          "s": null
+        },
+        {
+          "t": "upon",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "throne",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "glory:",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "En",
+            "charStart": 0,
+            "charEnd": 2,
+            "strong": "G1161",
+            "status": "verified"
+          },
+          {
+            "surface": "wanneer",
+            "charStart": 3,
+            "charEnd": 10,
+            "strong": "G3752",
+            "status": "verified"
+          },
+          {
+            "surface": "Zoon",
+            "charStart": 14,
+            "charEnd": 18,
+            "strong": "G5207",
+            "status": "verified"
+          },
+          {
+            "surface": "mensen",
+            "charStart": 23,
+            "charEnd": 29,
+            "strong": "G444",
+            "status": "verified"
+          },
+          {
+            "surface": "zal",
+            "charStart": 36,
+            "charEnd": 39,
+            "strong": "G2064",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 40,
+            "charEnd": 42,
+            "strong": "G1722",
+            "status": "verified"
+          },
+          {
+            "surface": "Zijn",
+            "charStart": 43,
+            "charEnd": 47,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "heerlijkheid",
+            "charStart": 48,
+            "charEnd": 60,
+            "strong": "G1391",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 62,
+            "charEnd": 64,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "al",
+            "charStart": 65,
+            "charEnd": 67,
+            "strong": "G3956",
+            "status": "verified"
+          },
+          {
+            "surface": "heilige",
+            "charStart": 71,
+            "charEnd": 78,
+            "strong": "G40",
+            "status": "verified"
+          },
+          {
+            "surface": "engelen",
+            "charStart": 79,
+            "charEnd": 86,
+            "strong": "G32",
+            "status": "verified"
+          },
+          {
+            "surface": "met",
+            "charStart": 87,
+            "charEnd": 90,
+            "strong": "G3326",
+            "status": "verified"
+          },
+          {
+            "surface": "Hem",
+            "charStart": 91,
+            "charEnd": 94,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "dan",
+            "charStart": 96,
+            "charEnd": 99,
+            "strong": "G5119",
+            "status": "verified"
+          },
+          {
+            "surface": "zitten",
+            "charStart": 108,
+            "charEnd": 114,
+            "strong": "G2523",
+            "status": "verified"
+          },
+          {
+            "surface": "op",
+            "charStart": 115,
+            "charEnd": 117,
+            "strong": "G1909",
+            "status": "verified"
+          },
+          {
+            "surface": "troon",
+            "charStart": 122,
+            "charEnd": 127,
+            "strong": "G2362",
+            "status": "verified"
+          },
+          {
+            "surface": "Zijner",
+            "charStart": 128,
+            "charEnd": 134,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "heerlijkheid",
+            "charStart": 135,
+            "charEnd": 147,
+            "strong": "G1391",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Matt.25.32",
+      "ref": "25:32",
+      "sv": "En voor Hem zullen al de volken vergaderd worden, en Hij zal ze van elkander scheiden, gelijk de herder de schapen van de bokken scheidt.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "before",
+          "s": null
+        },
+        {
+          "t": "him",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "gathered",
+          "s": null
+        },
+        {
+          "t": "all",
+          "s": null
+        },
+        {
+          "t": "nations:",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "separate",
+          "s": null
+        },
+        {
+          "t": "them",
+          "s": null
+        },
+        {
+          "t": "one",
+          "s": null
+        },
+        {
+          "t": "from",
+          "s": null
+        },
+        {
+          "t": "another,",
+          "s": null
+        },
+        {
+          "t": "as",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "shepherd",
+          "s": null
+        },
+        {
+          "t": "divideth",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "sheep",
+          "s": null
+        },
+        {
+          "t": "from",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "goats:",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "En",
+            "charStart": 0,
+            "charEnd": 2,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "voor",
+            "charStart": 3,
+            "charEnd": 7,
+            "strong": "G1715",
+            "status": "verified"
+          },
+          {
+            "surface": "Hem",
+            "charStart": 8,
+            "charEnd": 11,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "al",
+            "charStart": 19,
+            "charEnd": 21,
+            "strong": "G3956",
+            "status": "verified"
+          },
+          {
+            "surface": "volken",
+            "charStart": 25,
+            "charEnd": 31,
+            "strong": "G1484",
+            "status": "verified"
+          },
+          {
+            "surface": "worden",
+            "charStart": 42,
+            "charEnd": 48,
+            "strong": "G4863",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 50,
+            "charEnd": 52,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "ze",
+            "charStart": 61,
+            "charEnd": 63,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "van",
+            "charStart": 64,
+            "charEnd": 67,
+            "strong": "G575",
+            "status": "verified"
+          },
+          {
+            "surface": "elkander",
+            "charStart": 68,
+            "charEnd": 76,
+            "strong": "G240",
+            "status": "verified"
+          },
+          {
+            "surface": "scheiden",
+            "charStart": 77,
+            "charEnd": 85,
+            "strong": "G873",
+            "status": "verified"
+          },
+          {
+            "surface": "gelijk",
+            "charStart": 87,
+            "charEnd": 93,
+            "strong": "G5618",
+            "status": "verified"
+          },
+          {
+            "surface": "herder",
+            "charStart": 97,
+            "charEnd": 103,
+            "strong": "G4166",
+            "status": "verified"
+          },
+          {
+            "surface": "schapen",
+            "charStart": 107,
+            "charEnd": 114,
+            "strong": "G4263",
+            "status": "verified"
+          },
+          {
+            "surface": "van",
+            "charStart": 115,
+            "charEnd": 118,
+            "strong": "G575",
+            "status": "verified"
+          },
+          {
+            "surface": "bokken",
+            "charStart": 122,
+            "charEnd": 128,
+            "strong": "G2056",
+            "status": "verified"
+          },
+          {
+            "surface": "scheidt",
+            "charStart": 129,
+            "charEnd": 136,
+            "strong": "G873",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Matt.25.33",
+      "ref": "25:33",
+      "sv": "En Hij zal de schapen tot Zijn rechter [hand] zetten, maar de bokken tot [Zijn] linker [hand].",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "set",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "sheep",
+          "s": null
+        },
+        {
+          "t": "on",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "right",
+          "s": null
+        },
+        {
+          "t": "hand,",
+          "s": null
+        },
+        {
+          "t": "but",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "goats",
+          "s": null
+        },
+        {
+          "t": "on",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "left.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "En",
+            "charStart": 0,
+            "charEnd": 2,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "schapen",
+            "charStart": 14,
+            "charEnd": 21,
+            "strong": "G4263",
+            "status": "verified"
+          },
+          {
+            "surface": "tot",
+            "charStart": 22,
+            "charEnd": 25,
+            "strong": "G1537",
+            "status": "verified"
+          },
+          {
+            "surface": "Zijn",
+            "charStart": 26,
+            "charEnd": 30,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "rechter",
+            "charStart": 31,
+            "charEnd": 38,
+            "strong": "G1188",
+            "status": "verified"
+          },
+          {
+            "surface": "zetten",
+            "charStart": 46,
+            "charEnd": 52,
+            "strong": "G2476",
+            "status": "verified"
+          },
+          {
+            "surface": "maar",
+            "charStart": 54,
+            "charEnd": 58,
+            "strong": "G1161",
+            "status": "verified"
+          },
+          {
+            "surface": "bokken",
+            "charStart": 62,
+            "charEnd": 68,
+            "strong": "G2055",
+            "status": "verified"
+          },
+          {
+            "surface": "tot",
+            "charStart": 69,
+            "charEnd": 72,
+            "strong": "G1537",
+            "status": "verified"
+          },
+          {
+            "surface": "linker",
+            "charStart": 80,
+            "charEnd": 86,
+            "strong": "G2176",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Matt.25.34",
+      "ref": "25:34",
+      "sv": "Alsdan zal de Koning zeggen tot degenen, die tot Zijn rechter [hand] [zijn]: Komt, gij gezegenden Mijns Vaders! beerft dat Koninkrijk, hetwelk u bereid is van de grondlegging der wereld.",
+      "kjv": [
+        {
+          "t": "Then",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "King",
+          "s": null
+        },
+        {
+          "t": "say",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "them",
+          "s": null
+        },
+        {
+          "t": "on",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "right",
+          "s": null
+        },
+        {
+          "t": "hand,",
+          "s": null
+        },
+        {
+          "t": "Come,",
+          "s": null
+        },
+        {
+          "t": "ye",
+          "s": null
+        },
+        {
+          "t": "blessed",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "my",
+          "s": null
+        },
+        {
+          "t": "Father,",
+          "s": null
+        },
+        {
+          "t": "inherit",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "kingdom",
+          "s": null
+        },
+        {
+          "t": "prepared",
+          "s": null
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "you",
+          "s": null
+        },
+        {
+          "t": "from",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "foundation",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "world:",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Alsdan",
+            "charStart": 0,
+            "charEnd": 6,
+            "strong": "G5119",
+            "status": "verified"
+          },
+          {
+            "surface": "Koning",
+            "charStart": 14,
+            "charEnd": 20,
+            "strong": "G935",
+            "status": "verified"
+          },
+          {
+            "surface": "zeggen",
+            "charStart": 21,
+            "charEnd": 27,
+            "strong": "G2046",
+            "status": "verified"
+          },
+          {
+            "surface": "tot",
+            "charStart": 28,
+            "charEnd": 31,
+            "strong": "G1537",
+            "status": "verified"
+          },
+          {
+            "surface": "Zijn",
+            "charStart": 49,
+            "charEnd": 53,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "rechter",
+            "charStart": 54,
+            "charEnd": 61,
+            "strong": "G1188",
+            "status": "verified"
+          },
+          {
+            "surface": "Komt",
+            "charStart": 77,
+            "charEnd": 81,
+            "strong": "G1205",
+            "status": "verified"
+          },
+          {
+            "surface": "gezegenden",
+            "charStart": 87,
+            "charEnd": 97,
+            "strong": "G2127",
+            "status": "verified"
+          },
+          {
+            "surface": "Mijns",
+            "charStart": 98,
+            "charEnd": 103,
+            "strong": "G3450",
+            "status": "verified"
+          },
+          {
+            "surface": "Vaders",
+            "charStart": 104,
+            "charEnd": 110,
+            "strong": "G3962",
+            "status": "verified"
+          },
+          {
+            "surface": "beerft",
+            "charStart": 112,
+            "charEnd": 118,
+            "strong": "G2816",
+            "status": "verified"
+          },
+          {
+            "surface": "Koninkrijk",
+            "charStart": 123,
+            "charEnd": 133,
+            "strong": "G932",
+            "status": "verified"
+          },
+          {
+            "surface": "u",
+            "charStart": 143,
+            "charEnd": 144,
+            "strong": "G5213",
+            "status": "verified"
+          },
+          {
+            "surface": "is",
+            "charStart": 152,
+            "charEnd": 154,
+            "strong": "G2090",
+            "status": "verified"
+          },
+          {
+            "surface": "van",
+            "charStart": 155,
+            "charEnd": 158,
+            "strong": "G575",
+            "status": "verified"
+          },
+          {
+            "surface": "grondlegging",
+            "charStart": 162,
+            "charEnd": 174,
+            "strong": "G2602",
+            "status": "verified"
+          },
+          {
+            "surface": "wereld",
+            "charStart": 179,
+            "charEnd": 185,
+            "strong": "G2889",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Matt.25.35",
+      "ref": "25:35",
+      "sv": "Want Ik ben hongerig geweest, en gij hebt Mij te eten gegeven; Ik ben dorstig geweest, en gij hebt Mij te drinken gegeven; Ik was een vreemdeling, en gij hebt Mij geherbergd.",
+      "kjv": [
+        {
+          "t": "For",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "was",
+          "s": null
+        },
+        {
+          "t": "an",
+          "s": null
+        },
+        {
+          "t": "hungred,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "ye",
+          "s": null
+        },
+        {
+          "t": "gave",
+          "s": null
+        },
+        {
+          "t": "me",
+          "s": null
+        },
+        {
+          "t": "meat:",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "was",
+          "s": null
+        },
+        {
+          "t": "thirsty,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "ye",
+          "s": null
+        },
+        {
+          "t": "gave",
+          "s": null
+        },
+        {
+          "t": "me",
+          "s": null
+        },
+        {
+          "t": "drink:",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "was",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "stranger,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "ye",
+          "s": null
+        },
+        {
+          "t": "took",
+          "s": null
+        },
+        {
+          "t": "me",
+          "s": null
+        },
+        {
+          "t": "in:",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Want",
+            "charStart": 0,
+            "charEnd": 4,
+            "strong": "G1063",
+            "status": "verified"
+          },
+          {
+            "surface": "geweest",
+            "charStart": 21,
+            "charEnd": 28,
+            "strong": "G3983",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 30,
+            "charEnd": 32,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "Mij",
+            "charStart": 42,
+            "charEnd": 45,
+            "strong": "G3427",
+            "status": "verified"
+          },
+          {
+            "surface": "eten",
+            "charStart": 49,
+            "charEnd": 53,
+            "strong": "G5315",
+            "status": "verified"
+          },
+          {
+            "surface": "gegeven",
+            "charStart": 54,
+            "charEnd": 61,
+            "strong": "G1325",
+            "status": "verified"
+          },
+          {
+            "surface": "geweest",
+            "charStart": 78,
+            "charEnd": 85,
+            "strong": "G1372",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 87,
+            "charEnd": 89,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "Mij",
+            "charStart": 99,
+            "charEnd": 102,
+            "strong": "G3165",
+            "status": "verified"
+          },
+          {
+            "surface": "gegeven",
+            "charStart": 114,
+            "charEnd": 121,
+            "strong": "G4222",
+            "status": "verified"
+          },
+          {
+            "surface": "was",
+            "charStart": 126,
+            "charEnd": 129,
+            "strong": "G2252",
+            "status": "verified"
+          },
+          {
+            "surface": "vreemdeling",
+            "charStart": 134,
+            "charEnd": 145,
+            "strong": "G3581",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 147,
+            "charEnd": 149,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "Mij",
+            "charStart": 159,
+            "charEnd": 162,
+            "strong": "G3165",
+            "status": "verified"
+          },
+          {
+            "surface": "geherbergd",
+            "charStart": 163,
+            "charEnd": 173,
+            "strong": "G4863",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Matt.25.36",
+      "ref": "25:36",
+      "sv": "[Ik] [was] naakt, en gij hebt Mij gekleed; Ik ben krank geweest, en gij hebt Mij bezocht; Ik was in de gevangenis, en gij zijt tot Mij gekomen.",
+      "kjv": [
+        {
+          "t": "Naked,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "ye",
+          "s": null
+        },
+        {
+          "t": "clothed",
+          "s": null
+        },
+        {
+          "t": "me:",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "was",
+          "s": null
+        },
+        {
+          "t": "sick,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "ye",
+          "s": null
+        },
+        {
+          "t": "visited",
+          "s": null
+        },
+        {
+          "t": "me:",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "was",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "prison,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "ye",
+          "s": null
+        },
+        {
+          "t": "came",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "me.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "naakt",
+            "charStart": 11,
+            "charEnd": 16,
+            "strong": "G1131",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 18,
+            "charEnd": 20,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "Mij",
+            "charStart": 30,
+            "charEnd": 33,
+            "strong": "G3165",
+            "status": "verified"
+          },
+          {
+            "surface": "gekleed",
+            "charStart": 34,
+            "charEnd": 41,
+            "strong": "G4016",
+            "status": "verified"
+          },
+          {
+            "surface": "geweest",
+            "charStart": 56,
+            "charEnd": 63,
+            "strong": "G770",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 65,
+            "charEnd": 67,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "Mij",
+            "charStart": 77,
+            "charEnd": 80,
+            "strong": "G3165",
+            "status": "verified"
+          },
+          {
+            "surface": "bezocht",
+            "charStart": 81,
+            "charEnd": 88,
+            "strong": "G1980",
+            "status": "verified"
+          },
+          {
+            "surface": "was",
+            "charStart": 93,
+            "charEnd": 96,
+            "strong": "G2252",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 97,
+            "charEnd": 99,
+            "strong": "G1722",
+            "status": "verified"
+          },
+          {
+            "surface": "gevangenis",
+            "charStart": 103,
+            "charEnd": 113,
+            "strong": "G5438",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 115,
+            "charEnd": 117,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "tot",
+            "charStart": 127,
+            "charEnd": 130,
+            "strong": "G4314",
+            "status": "verified"
+          },
+          {
+            "surface": "Mij",
+            "charStart": 131,
+            "charEnd": 134,
+            "strong": "G3165",
+            "status": "verified"
+          },
+          {
+            "surface": "gekomen",
+            "charStart": 135,
+            "charEnd": 142,
+            "strong": "G2064",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Matt.25.37",
+      "ref": "25:37",
+      "sv": "Dan zullen de rechtvaardigen Hem antwoorden, zeggende: Heere! wanneer hebben wij U hongerig gezien, en gespijzigd, of dorstig, en te drinken gegeven?",
+      "kjv": [
+        {
+          "t": "Then",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "righteous",
+          "s": null
+        },
+        {
+          "t": "answer",
+          "s": null
+        },
+        {
+          "t": "him,",
+          "s": null
+        },
+        {
+          "t": "saying,",
+          "s": null
+        },
+        {
+          "t": "Lord,",
+          "s": null
+        },
+        {
+          "t": "when",
+          "s": null
+        },
+        {
+          "t": "saw",
+          "s": null
+        },
+        {
+          "t": "we",
+          "s": null
+        },
+        {
+          "t": "thee",
+          "s": null
+        },
+        {
+          "t": "an",
+          "s": null
+        },
+        {
+          "t": "hungred,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "fed",
+          "s": null
+        },
+        {
+          "t": "thee?",
+          "s": null
+        },
+        {
+          "t": "or",
+          "s": null
+        },
+        {
+          "t": "thirsty,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "gave",
+          "s": null
+        },
+        {
+          "t": "thee",
+          "s": null
+        },
+        {
+          "t": "drink?",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Dan",
+            "charStart": 0,
+            "charEnd": 3,
+            "strong": "G5119",
+            "status": "verified"
+          },
+          {
+            "surface": "rechtvaardigen",
+            "charStart": 14,
+            "charEnd": 28,
+            "strong": "G1342",
+            "status": "verified"
+          },
+          {
+            "surface": "Hem",
+            "charStart": 29,
+            "charEnd": 32,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "antwoorden",
+            "charStart": 33,
+            "charEnd": 43,
+            "strong": "G611",
+            "status": "verified"
+          },
+          {
+            "surface": "zeggende",
+            "charStart": 45,
+            "charEnd": 53,
+            "strong": "G3004",
+            "status": "verified"
+          },
+          {
+            "surface": "Heere",
+            "charStart": 55,
+            "charEnd": 60,
+            "strong": "G2962",
+            "status": "verified"
+          },
+          {
+            "surface": "wanneer",
+            "charStart": 62,
+            "charEnd": 69,
+            "strong": "G4219",
+            "status": "verified"
+          },
+          {
+            "surface": "U",
+            "charStart": 81,
+            "charEnd": 82,
+            "strong": "G4571",
+            "status": "verified"
+          },
+          {
+            "surface": "hongerig",
+            "charStart": 83,
+            "charEnd": 91,
+            "strong": "G3983",
+            "status": "verified"
+          },
+          {
+            "surface": "gezien",
+            "charStart": 92,
+            "charEnd": 98,
+            "strong": "G1492",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 100,
+            "charEnd": 102,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "gespijzigd",
+            "charStart": 103,
+            "charEnd": 113,
+            "strong": "G5142",
+            "status": "verified"
+          },
+          {
+            "surface": "of",
+            "charStart": 115,
+            "charEnd": 117,
+            "strong": "G2228",
+            "status": "verified"
+          },
+          {
+            "surface": "dorstig",
+            "charStart": 118,
+            "charEnd": 125,
+            "strong": "G1372",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 127,
+            "charEnd": 129,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "gegeven",
+            "charStart": 141,
+            "charEnd": 148,
+            "strong": "G4222",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Matt.25.38",
+      "ref": "25:38",
+      "sv": "En wanneer hebben wij U een vreemdeling gezien, en geherbergd, of naakt en gekleed?",
+      "kjv": [
+        {
+          "t": "When",
+          "s": null
+        },
+        {
+          "t": "saw",
+          "s": null
+        },
+        {
+          "t": "we",
+          "s": null
+        },
+        {
+          "t": "thee",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "stranger,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "took",
+          "s": null
+        },
+        {
+          "t": "thee",
+          "s": null
+        },
+        {
+          "t": "in?",
+          "s": null
+        },
+        {
+          "t": "or",
+          "s": null
+        },
+        {
+          "t": "naked,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "clothed",
+          "s": null
+        },
+        {
+          "t": "thee?",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "En",
+            "charStart": 0,
+            "charEnd": 2,
+            "strong": "G1161",
+            "status": "verified"
+          },
+          {
+            "surface": "wanneer",
+            "charStart": 3,
+            "charEnd": 10,
+            "strong": "G4219",
+            "status": "verified"
+          },
+          {
+            "surface": "U",
+            "charStart": 22,
+            "charEnd": 23,
+            "strong": "G4571",
+            "status": "verified"
+          },
+          {
+            "surface": "vreemdeling",
+            "charStart": 28,
+            "charEnd": 39,
+            "strong": "G3581",
+            "status": "verified"
+          },
+          {
+            "surface": "gezien",
+            "charStart": 40,
+            "charEnd": 46,
+            "strong": "G1492",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 48,
+            "charEnd": 50,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "geherbergd",
+            "charStart": 51,
+            "charEnd": 61,
+            "strong": "G4863",
+            "status": "verified"
+          },
+          {
+            "surface": "of",
+            "charStart": 63,
+            "charEnd": 65,
+            "strong": "G2228",
+            "status": "verified"
+          },
+          {
+            "surface": "naakt",
+            "charStart": 66,
+            "charEnd": 71,
+            "strong": "G1131",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 72,
+            "charEnd": 74,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "gekleed",
+            "charStart": 75,
+            "charEnd": 82,
+            "strong": "G4016",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Matt.25.39",
+      "ref": "25:39",
+      "sv": "En wanneer hebben wij U krank gezien, of in de gevangenis, en zijn tot U gekomen?",
+      "kjv": [
+        {
+          "t": "Or",
+          "s": null
+        },
+        {
+          "t": "when",
+          "s": null
+        },
+        {
+          "t": "saw",
+          "s": null
+        },
+        {
+          "t": "we",
+          "s": null
+        },
+        {
+          "t": "thee",
+          "s": null
+        },
+        {
+          "t": "sick,",
+          "s": null
+        },
+        {
+          "t": "or",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "prison,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "came",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "thee?",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "En",
+            "charStart": 0,
+            "charEnd": 2,
+            "strong": "G1161",
+            "status": "verified"
+          },
+          {
+            "surface": "wanneer",
+            "charStart": 3,
+            "charEnd": 10,
+            "strong": "G4219",
+            "status": "verified"
+          },
+          {
+            "surface": "U",
+            "charStart": 22,
+            "charEnd": 23,
+            "strong": "G4571",
+            "status": "verified"
+          },
+          {
+            "surface": "krank",
+            "charStart": 24,
+            "charEnd": 29,
+            "strong": "G772",
+            "status": "verified"
+          },
+          {
+            "surface": "gezien",
+            "charStart": 30,
+            "charEnd": 36,
+            "strong": "G1492",
+            "status": "verified"
+          },
+          {
+            "surface": "of",
+            "charStart": 38,
+            "charEnd": 40,
+            "strong": "G2228",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 41,
+            "charEnd": 43,
+            "strong": "G1722",
+            "status": "verified"
+          },
+          {
+            "surface": "gevangenis",
+            "charStart": 47,
+            "charEnd": 57,
+            "strong": "G5438",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 59,
+            "charEnd": 61,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "tot",
+            "charStart": 67,
+            "charEnd": 70,
+            "strong": "G4314",
+            "status": "verified"
+          },
+          {
+            "surface": "U",
+            "charStart": 71,
+            "charEnd": 72,
+            "strong": "G4571",
+            "status": "verified"
+          },
+          {
+            "surface": "gekomen",
+            "charStart": 73,
+            "charEnd": 80,
+            "strong": "G2064",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Matt.25.40",
+      "ref": "25:40",
+      "sv": "En de Koning zal antwoorden en tot hen zeggen: Voorwaar zeg Ik u: Voor zoveel gij [dit] een van deze Mijn minste broeders gedaan hebt, zo hebt gij [dat] Mij gedaan.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "King",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "answer",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "say",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "them,",
+          "s": null
+        },
+        {
+          "t": "Verily",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "say",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "you,",
+          "s": null
+        },
+        {
+          "t": "Inasmuch",
+          "s": null
+        },
+        {
+          "t": "as",
+          "s": null
+        },
+        {
+          "t": "ye",
+          "s": null
+        },
+        {
+          "t": "have",
+          "s": null
+        },
+        {
+          "t": "done",
+          "s": null
+        },
+        {
+          "t": "it",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "one",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "least",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "these",
+          "s": null
+        },
+        {
+          "t": "my",
+          "s": null
+        },
+        {
+          "t": "brethren,",
+          "s": null
+        },
+        {
+          "t": "ye",
+          "s": null
+        },
+        {
+          "t": "have",
+          "s": null
+        },
+        {
+          "t": "done",
+          "s": null
+        },
+        {
+          "t": "it",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "me.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "En",
+            "charStart": 0,
+            "charEnd": 2,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "Koning",
+            "charStart": 6,
+            "charEnd": 12,
+            "strong": "G935",
+            "status": "verified"
+          },
+          {
+            "surface": "antwoorden",
+            "charStart": 17,
+            "charEnd": 27,
+            "strong": "G611",
+            "status": "verified"
+          },
+          {
+            "surface": "hen",
+            "charStart": 35,
+            "charEnd": 38,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "zeggen",
+            "charStart": 39,
+            "charEnd": 45,
+            "strong": "G2046",
+            "status": "verified"
+          },
+          {
+            "surface": "Voorwaar",
+            "charStart": 47,
+            "charEnd": 55,
+            "strong": "G281",
+            "status": "verified"
+          },
+          {
+            "surface": "Ik",
+            "charStart": 60,
+            "charEnd": 62,
+            "strong": "G3004",
+            "status": "verified"
+          },
+          {
+            "surface": "u",
+            "charStart": 63,
+            "charEnd": 64,
+            "strong": "G5213",
+            "status": "verified"
+          },
+          {
+            "surface": "Voor",
+            "charStart": 66,
+            "charEnd": 70,
+            "strong": "G1909",
+            "status": "verified"
+          },
+          {
+            "surface": "zoveel",
+            "charStart": 71,
+            "charEnd": 77,
+            "strong": "G3745",
+            "status": "verified"
+          },
+          {
+            "surface": "een",
+            "charStart": 88,
+            "charEnd": 91,
+            "strong": "G1520",
+            "status": "verified"
+          },
+          {
+            "surface": "deze",
+            "charStart": 96,
+            "charEnd": 100,
+            "strong": "G5130",
+            "status": "verified"
+          },
+          {
+            "surface": "Mijn",
+            "charStart": 101,
+            "charEnd": 105,
+            "strong": "G3450",
+            "status": "verified"
+          },
+          {
+            "surface": "minste",
+            "charStart": 106,
+            "charEnd": 112,
+            "strong": "G1646",
+            "status": "verified"
+          },
+          {
+            "surface": "broeders",
+            "charStart": 113,
+            "charEnd": 121,
+            "strong": "G80",
+            "status": "verified"
+          },
+          {
+            "surface": "hebt",
+            "charStart": 129,
+            "charEnd": 133,
+            "strong": "G4160",
+            "status": "verified"
+          },
+          {
+            "surface": "Mij",
+            "charStart": 153,
+            "charEnd": 156,
+            "strong": "G1698",
+            "status": "verified"
+          },
+          {
+            "surface": "gedaan",
+            "charStart": 157,
+            "charEnd": 163,
+            "strong": "G4160",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Matt.25.41",
+      "ref": "25:41",
+      "sv": "Dan zal Hij zeggen ook tot degenen, die ter linker [hand] [zijn]: Gaat weg van Mij, gij vervloekten, in het eeuwige vuur, hetwelk den duivel en zijn engelen bereid is.",
+      "kjv": [
+        {
+          "t": "Then",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "say",
+          "s": null
+        },
+        {
+          "t": "also",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "them",
+          "s": null
+        },
+        {
+          "t": "on",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "left",
+          "s": null
+        },
+        {
+          "t": "hand,",
+          "s": null
+        },
+        {
+          "t": "Depart",
+          "s": null
+        },
+        {
+          "t": "from",
+          "s": null
+        },
+        {
+          "t": "me,",
+          "s": null
+        },
+        {
+          "t": "ye",
+          "s": null
+        },
+        {
+          "t": "cursed,",
+          "s": null
+        },
+        {
+          "t": "into",
+          "s": null
+        },
+        {
+          "t": "everlasting",
+          "s": null
+        },
+        {
+          "t": "fire,",
+          "s": null
+        },
+        {
+          "t": "prepared",
+          "s": null
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "devil",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "angels:",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Dan",
+            "charStart": 0,
+            "charEnd": 3,
+            "strong": "G5119",
+            "status": "verified"
+          },
+          {
+            "surface": "zeggen",
+            "charStart": 12,
+            "charEnd": 18,
+            "strong": "G2046",
+            "status": "verified"
+          },
+          {
+            "surface": "ook",
+            "charStart": 19,
+            "charEnd": 22,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "ter",
+            "charStart": 40,
+            "charEnd": 43,
+            "strong": "G1537",
+            "status": "verified"
+          },
+          {
+            "surface": "linker",
+            "charStart": 44,
+            "charEnd": 50,
+            "strong": "G2176",
+            "status": "verified"
+          },
+          {
+            "surface": "weg",
+            "charStart": 71,
+            "charEnd": 74,
+            "strong": "G4198",
+            "status": "verified"
+          },
+          {
+            "surface": "van",
+            "charStart": 75,
+            "charEnd": 78,
+            "strong": "G575",
+            "status": "verified"
+          },
+          {
+            "surface": "Mij",
+            "charStart": 79,
+            "charEnd": 82,
+            "strong": "G1700",
+            "status": "verified"
+          },
+          {
+            "surface": "vervloekten",
+            "charStart": 88,
+            "charEnd": 99,
+            "strong": "G2672",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 101,
+            "charEnd": 103,
+            "strong": "G1519",
+            "status": "verified"
+          },
+          {
+            "surface": "eeuwige",
+            "charStart": 108,
+            "charEnd": 115,
+            "strong": "G166",
+            "status": "verified"
+          },
+          {
+            "surface": "vuur",
+            "charStart": 116,
+            "charEnd": 120,
+            "strong": "G4442",
+            "status": "verified"
+          },
+          {
+            "surface": "duivel",
+            "charStart": 134,
+            "charEnd": 140,
+            "strong": "G1228",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 141,
+            "charEnd": 143,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "zijn",
+            "charStart": 144,
+            "charEnd": 148,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "engelen",
+            "charStart": 149,
+            "charEnd": 156,
+            "strong": "G32",
+            "status": "verified"
+          },
+          {
+            "surface": "is",
+            "charStart": 164,
+            "charEnd": 166,
+            "strong": "G2090",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Matt.25.42",
+      "ref": "25:42",
+      "sv": "Want Ik ben hongerig geweest, en gij hebt Mij niet te eten gegeven; Ik ben dorstig geweest, en gij hebt Mij niet te drinken gegeven;",
+      "kjv": [
+        {
+          "t": "For",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "was",
+          "s": null
+        },
+        {
+          "t": "an",
+          "s": null
+        },
+        {
+          "t": "hungred,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "ye",
+          "s": null
+        },
+        {
+          "t": "gave",
+          "s": null
+        },
+        {
+          "t": "me",
+          "s": null
+        },
+        {
+          "t": "no",
+          "s": null
+        },
+        {
+          "t": "meat:",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "was",
+          "s": null
+        },
+        {
+          "t": "thirsty,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "ye",
+          "s": null
+        },
+        {
+          "t": "gave",
+          "s": null
+        },
+        {
+          "t": "me",
+          "s": null
+        },
+        {
+          "t": "no",
+          "s": null
+        },
+        {
+          "t": "drink:",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Want",
+            "charStart": 0,
+            "charEnd": 4,
+            "strong": "G1063",
+            "status": "verified"
+          },
+          {
+            "surface": "geweest",
+            "charStart": 21,
+            "charEnd": 28,
+            "strong": "G3983",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 30,
+            "charEnd": 32,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "Mij",
+            "charStart": 42,
+            "charEnd": 45,
+            "strong": "G3427",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 46,
+            "charEnd": 50,
+            "strong": "G3756",
+            "status": "verified"
+          },
+          {
+            "surface": "eten",
+            "charStart": 54,
+            "charEnd": 58,
+            "strong": "G5315",
+            "status": "verified"
+          },
+          {
+            "surface": "gegeven",
+            "charStart": 59,
+            "charEnd": 66,
+            "strong": "G1325",
+            "status": "verified"
+          },
+          {
+            "surface": "geweest",
+            "charStart": 83,
+            "charEnd": 90,
+            "strong": "G1372",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 92,
+            "charEnd": 94,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "Mij",
+            "charStart": 104,
+            "charEnd": 107,
+            "strong": "G3165",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 108,
+            "charEnd": 112,
+            "strong": "G3756",
+            "status": "verified"
+          },
+          {
+            "surface": "gegeven",
+            "charStart": 124,
+            "charEnd": 131,
+            "strong": "G4222",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Matt.25.43",
+      "ref": "25:43",
+      "sv": "Ik was een vreemdeling; en gij hebt Mij niet geherbergd; naakt, en gij hebt Mij niet gekleed; krank, en in de gevangenis, en gij hebt Mij niet bezocht.",
+      "kjv": [
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "was",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "stranger,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "ye",
+          "s": null
+        },
+        {
+          "t": "took",
+          "s": null
+        },
+        {
+          "t": "me",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "in:",
+          "s": null
+        },
+        {
+          "t": "naked,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "ye",
+          "s": null
+        },
+        {
+          "t": "clothed",
+          "s": null
+        },
+        {
+          "t": "me",
+          "s": null
+        },
+        {
+          "t": "not:",
+          "s": null
+        },
+        {
+          "t": "sick,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "prison,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "ye",
+          "s": null
+        },
+        {
+          "t": "visited",
+          "s": null
+        },
+        {
+          "t": "me",
+          "s": null
+        },
+        {
+          "t": "not.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "was",
+            "charStart": 3,
+            "charEnd": 6,
+            "strong": "G2252",
+            "status": "verified"
+          },
+          {
+            "surface": "vreemdeling",
+            "charStart": 11,
+            "charEnd": 22,
+            "strong": "G3581",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 24,
+            "charEnd": 26,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "Mij",
+            "charStart": 36,
+            "charEnd": 39,
+            "strong": "G3165",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 40,
+            "charEnd": 44,
+            "strong": "G3756",
+            "status": "verified"
+          },
+          {
+            "surface": "geherbergd",
+            "charStart": 45,
+            "charEnd": 55,
+            "strong": "G4863",
+            "status": "verified"
+          },
+          {
+            "surface": "naakt",
+            "charStart": 57,
+            "charEnd": 62,
+            "strong": "G1131",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 64,
+            "charEnd": 66,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "Mij",
+            "charStart": 76,
+            "charEnd": 79,
+            "strong": "G3165",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 80,
+            "charEnd": 84,
+            "strong": "G3756",
+            "status": "verified"
+          },
+          {
+            "surface": "gekleed",
+            "charStart": 85,
+            "charEnd": 92,
+            "strong": "G4016",
+            "status": "verified"
+          },
+          {
+            "surface": "krank",
+            "charStart": 94,
+            "charEnd": 99,
+            "strong": "G772",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 101,
+            "charEnd": 103,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 104,
+            "charEnd": 106,
+            "strong": "G1722",
+            "status": "verified"
+          },
+          {
+            "surface": "gevangenis",
+            "charStart": 110,
+            "charEnd": 120,
+            "strong": "G5438",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 122,
+            "charEnd": 124,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "Mij",
+            "charStart": 134,
+            "charEnd": 137,
+            "strong": "G3165",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 138,
+            "charEnd": 142,
+            "strong": "G3756",
+            "status": "verified"
+          },
+          {
+            "surface": "bezocht",
+            "charStart": 143,
+            "charEnd": 150,
+            "strong": "G1980",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Matt.25.44",
+      "ref": "25:44",
+      "sv": "Dan zullen ook dezen Hem antwoorden, zeggende: Heere, wanneer hebben wij U hongerig gezien, of dorstig, of een vreemdeling, of naakt, of krank, of in de gevangenis, en hebben U niet gediend?",
+      "kjv": [
+        {
+          "t": "Then",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "also",
+          "s": null
+        },
+        {
+          "t": "answer",
+          "s": null
+        },
+        {
+          "t": "him,",
+          "s": null
+        },
+        {
+          "t": "saying,",
+          "s": null
+        },
+        {
+          "t": "Lord,",
+          "s": null
+        },
+        {
+          "t": "when",
+          "s": null
+        },
+        {
+          "t": "saw",
+          "s": null
+        },
+        {
+          "t": "we",
+          "s": null
+        },
+        {
+          "t": "thee",
+          "s": null
+        },
+        {
+          "t": "an",
+          "s": null
+        },
+        {
+          "t": "hungred,",
+          "s": null
+        },
+        {
+          "t": "or",
+          "s": null
+        },
+        {
+          "t": "athirst,",
+          "s": null
+        },
+        {
+          "t": "or",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "stranger,",
+          "s": null
+        },
+        {
+          "t": "or",
+          "s": null
+        },
+        {
+          "t": "naked,",
+          "s": null
+        },
+        {
+          "t": "or",
+          "s": null
+        },
+        {
+          "t": "sick,",
+          "s": null
+        },
+        {
+          "t": "or",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "prison,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "did",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "minister",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "thee?",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Dan",
+            "charStart": 0,
+            "charEnd": 3,
+            "strong": "G5119",
+            "status": "verified"
+          },
+          {
+            "surface": "ook",
+            "charStart": 11,
+            "charEnd": 14,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "dezen",
+            "charStart": 15,
+            "charEnd": 20,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "antwoorden",
+            "charStart": 25,
+            "charEnd": 35,
+            "strong": "G611",
+            "status": "verified"
+          },
+          {
+            "surface": "zeggende",
+            "charStart": 37,
+            "charEnd": 45,
+            "strong": "G3004",
+            "status": "verified"
+          },
+          {
+            "surface": "Heere",
+            "charStart": 47,
+            "charEnd": 52,
+            "strong": "G2962",
+            "status": "verified"
+          },
+          {
+            "surface": "wanneer",
+            "charStart": 54,
+            "charEnd": 61,
+            "strong": "G4219",
+            "status": "verified"
+          },
+          {
+            "surface": "U",
+            "charStart": 73,
+            "charEnd": 74,
+            "strong": "G4571",
+            "status": "verified"
+          },
+          {
+            "surface": "hongerig",
+            "charStart": 75,
+            "charEnd": 83,
+            "strong": "G3983",
+            "status": "verified"
+          },
+          {
+            "surface": "gezien",
+            "charStart": 84,
+            "charEnd": 90,
+            "strong": "G1492",
+            "status": "verified"
+          },
+          {
+            "surface": "of",
+            "charStart": 92,
+            "charEnd": 94,
+            "strong": "G2228",
+            "status": "verified"
+          },
+          {
+            "surface": "dorstig",
+            "charStart": 95,
+            "charEnd": 102,
+            "strong": "G1372",
+            "status": "verified"
+          },
+          {
+            "surface": "of",
+            "charStart": 104,
+            "charEnd": 106,
+            "strong": "G2228",
+            "status": "verified"
+          },
+          {
+            "surface": "vreemdeling",
+            "charStart": 111,
+            "charEnd": 122,
+            "strong": "G3581",
+            "status": "verified"
+          },
+          {
+            "surface": "of",
+            "charStart": 124,
+            "charEnd": 126,
+            "strong": "G2228",
+            "status": "verified"
+          },
+          {
+            "surface": "naakt",
+            "charStart": 127,
+            "charEnd": 132,
+            "strong": "G1131",
+            "status": "verified"
+          },
+          {
+            "surface": "of",
+            "charStart": 134,
+            "charEnd": 136,
+            "strong": "G2228",
+            "status": "verified"
+          },
+          {
+            "surface": "krank",
+            "charStart": 137,
+            "charEnd": 142,
+            "strong": "G772",
+            "status": "verified"
+          },
+          {
+            "surface": "of",
+            "charStart": 144,
+            "charEnd": 146,
+            "strong": "G2228",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 147,
+            "charEnd": 149,
+            "strong": "G1722",
+            "status": "verified"
+          },
+          {
+            "surface": "gevangenis",
+            "charStart": 153,
+            "charEnd": 163,
+            "strong": "G5438",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 165,
+            "charEnd": 167,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "U",
+            "charStart": 175,
+            "charEnd": 176,
+            "strong": "G4671",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 177,
+            "charEnd": 181,
+            "strong": "G3756",
+            "status": "verified"
+          },
+          {
+            "surface": "gediend",
+            "charStart": 182,
+            "charEnd": 189,
+            "strong": "G1247",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Matt.25.45",
+      "ref": "25:45",
+      "sv": "Dan zal Hij hun antwoorden en zeggen: Voorwaar zeg Ik u: Voor zoveel gij [dit] een van deze minsten niet gedaan hebt, zo hebt gij het Mij ook niet gedaan.",
+      "kjv": [
+        {
+          "t": "Then",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "answer",
+          "s": null
+        },
+        {
+          "t": "them,",
+          "s": null
+        },
+        {
+          "t": "saying,",
+          "s": null
+        },
+        {
+          "t": "Verily",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "say",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "you,",
+          "s": null
+        },
+        {
+          "t": "Inasmuch",
+          "s": null
+        },
+        {
+          "t": "as",
+          "s": null
+        },
+        {
+          "t": "ye",
+          "s": null
+        },
+        {
+          "t": "did",
+          "s": null
+        },
+        {
+          "t": "it",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "one",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "least",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "these,",
+          "s": null
+        },
+        {
+          "t": "ye",
+          "s": null
+        },
+        {
+          "t": "did",
+          "s": null
+        },
+        {
+          "t": "it",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "me.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Dan",
+            "charStart": 0,
+            "charEnd": 3,
+            "strong": "G5119",
+            "status": "verified"
+          },
+          {
+            "surface": "hun",
+            "charStart": 12,
+            "charEnd": 15,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "antwoorden",
+            "charStart": 16,
+            "charEnd": 26,
+            "strong": "G611",
+            "status": "verified"
+          },
+          {
+            "surface": "zeggen",
+            "charStart": 30,
+            "charEnd": 36,
+            "strong": "G3004",
+            "status": "verified"
+          },
+          {
+            "surface": "Voorwaar",
+            "charStart": 38,
+            "charEnd": 46,
+            "strong": "G281",
+            "status": "verified"
+          },
+          {
+            "surface": "Ik",
+            "charStart": 51,
+            "charEnd": 53,
+            "strong": "G3004",
+            "status": "verified"
+          },
+          {
+            "surface": "u",
+            "charStart": 54,
+            "charEnd": 55,
+            "strong": "G5213",
+            "status": "verified"
+          },
+          {
+            "surface": "Voor",
+            "charStart": 57,
+            "charEnd": 61,
+            "strong": "G1909",
+            "status": "verified"
+          },
+          {
+            "surface": "zoveel",
+            "charStart": 62,
+            "charEnd": 68,
+            "strong": "G3745",
+            "status": "verified"
+          },
+          {
+            "surface": "een",
+            "charStart": 79,
+            "charEnd": 82,
+            "strong": "G1520",
+            "status": "verified"
+          },
+          {
+            "surface": "deze",
+            "charStart": 87,
+            "charEnd": 91,
+            "strong": "G5130",
+            "status": "verified"
+          },
+          {
+            "surface": "minsten",
+            "charStart": 92,
+            "charEnd": 99,
+            "strong": "G1646",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 100,
+            "charEnd": 104,
+            "strong": "G3756",
+            "status": "verified"
+          },
+          {
+            "surface": "hebt",
+            "charStart": 112,
+            "charEnd": 116,
+            "strong": "G4160",
+            "status": "verified"
+          },
+          {
+            "surface": "Mij",
+            "charStart": 134,
+            "charEnd": 137,
+            "strong": "G1698",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 142,
+            "charEnd": 146,
+            "strong": "G3761",
+            "status": "verified"
+          },
+          {
+            "surface": "gedaan",
+            "charStart": 147,
+            "charEnd": 153,
+            "strong": "G4160",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Matt.25.46",
+      "ref": "25:46",
+      "sv": "En dezen zullen gaan in de eeuwige pijn; maar de rechtvaardigen in het eeuwige leven.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "these",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "go",
+          "s": null
+        },
+        {
+          "t": "away",
+          "s": null
+        },
+        {
+          "t": "into",
+          "s": null
+        },
+        {
+          "t": "everlasting",
+          "s": null
+        },
+        {
+          "t": "punishment:",
+          "s": null
+        },
+        {
+          "t": "but",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "righteous",
+          "s": null
+        },
+        {
+          "t": "into",
+          "s": null
+        },
+        {
+          "t": "life",
+          "s": null
+        },
+        {
+          "t": "eternal.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "En",
+            "charStart": 0,
+            "charEnd": 2,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "dezen",
+            "charStart": 3,
+            "charEnd": 8,
+            "strong": "G3778",
+            "status": "verified"
+          },
+          {
+            "surface": "gaan",
+            "charStart": 16,
+            "charEnd": 20,
+            "strong": "G565",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 21,
+            "charEnd": 23,
+            "strong": "G1519",
+            "status": "verified"
+          },
+          {
+            "surface": "eeuwige",
+            "charStart": 27,
+            "charEnd": 34,
+            "strong": "G166",
+            "status": "verified"
+          },
+          {
+            "surface": "pijn",
+            "charStart": 35,
+            "charEnd": 39,
+            "strong": "G2851",
+            "status": "verified"
+          },
+          {
+            "surface": "maar",
+            "charStart": 41,
+            "charEnd": 45,
+            "strong": "G1161",
+            "status": "verified"
+          },
+          {
+            "surface": "rechtvaardigen",
+            "charStart": 49,
+            "charEnd": 63,
+            "strong": "G1342",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 64,
+            "charEnd": 66,
+            "strong": "G1519",
+            "status": "verified"
+          },
+          {
+            "surface": "eeuwige",
+            "charStart": 71,
+            "charEnd": 78,
+            "strong": "G166",
+            "status": "verified"
+          },
+          {
+            "surface": "leven",
+            "charStart": 79,
+            "charEnd": 84,
+            "strong": "G2222",
+            "status": "verified"
+          }
+        ]
+      }
+    }
+  ],
+  "lexicon": {
+    "G3962": {
+      "lemma": "πατήρ",
+      "translit": "patēr",
+      "strong": "G3962",
+      "language": "greek",
+      "gloss": "Vader (Father)"
+    }
+  }
+}

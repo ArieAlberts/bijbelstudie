@@ -11,43 +11,40 @@ const outputDir = path.join(rootDir, 'public', 'data', 'bible');
 const cacheFile = path.join(rootDir, 'scripts', 'authentic-bible-cache.json');
 
 const BOOK_MAP = {
+  Gen: { osis: 'Gen', nl: 'Genesis', en: 'Genesis', testament: 'OT' },
+  Exod: { osis: 'Exod', nl: 'Exodus', en: 'Exodus', testament: 'OT' },
+  Lev: { osis: 'Lev', nl: 'Leviticus', en: 'Leviticus', testament: 'OT' },
+  Num: { osis: 'Num', nl: 'Numeri', en: 'Numbers', testament: 'OT' },
   Deut: { osis: 'Deut', nl: 'Deuteronomium', en: 'Deuteronomy', testament: 'OT' },
+  '1Sam': { osis: '1Sam', nl: '1 Samuël', en: '1 Samuel', testament: 'OT' },
+  '2Sam': { osis: '2Sam', nl: '2 Samuël', en: '2 Samuel', testament: 'OT' },
   Isa: { osis: 'Isa', nl: 'Jesaja', en: 'Isaiah', testament: 'OT' },
-  John: { osis: 'John', nl: 'Johannes', en: 'John', testament: 'NT' },
-  Matt: { osis: 'Matt', nl: 'Mattheüs', en: 'Matthew', testament: 'NT' }
+  Zech: { osis: 'Zech', nl: 'Zacharia', en: 'Zechariah', testament: 'OT' },
+  Matt: { osis: 'Matt', nl: 'Mattheüs', en: 'Matthew', testament: 'NT' },
+  Mark: { osis: 'Mark', nl: 'Markus', en: 'Mark', testament: 'NT' },
+  Luke: { osis: 'Luke', nl: 'Lukas', en: 'Luke', testament: 'NT' },
+  John: { osis: 'John', nl: 'Johannes', en: 'John', testament: 'NT' }
 };
 
 const CHAPTER_MAX_VERSES = {
-  "Deut.7": 26,
-  "Deut.8": 20,
-  "Deut.9": 29,
-  "Deut.10": 22,
-  "Deut.11": 32,
-  "Deut.12": 32,
-  "Deut.13": 18,
-  "Deut.14": 29,
-  "Deut.15": 23,
-  "Deut.16": 22,
-  "Deut.17": 20,
-  "Deut.18": 22,
-  "Deut.19": 21,
-  "Deut.20": 20,
-  "Deut.21": 23,
-  "Deut.26": 19,
-  "Deut.27": 26,
-  "Deut.28": 68,
-  "Deut.29": 29,
-  "Isa.49": 26,
-  "Isa.50": 11,
-  "Isa.51": 23,
-  "Isa.52": 15,
-  "Isa.54": 17,
-  "Isa.55": 13,
-  "Isa.60": 22,
-  "John.6": 71,
-  "John.14": 31,
-  "Matt.4": 25,
-  "Matt.16": 28
+  "Gen.21": 34,
+  "Lev.16": 34, "Lev.22": 33, "Lev.23": 44,
+  "Num.30": 16, "Num.31": 54, "Num.32": 42, "Num.33": 56, "Num.34": 29, "Num.35": 34, "Num.36": 13,
+  "Deut.1": 46, "Deut.2": 37, "Deut.3": 29, "Deut.4": 49, "Deut.5": 33, "Deut.6": 25,
+  "Deut.7": 26, "Deut.8": 20, "Deut.9": 29, "Deut.10": 22, "Deut.11": 32, "Deut.12": 32,
+  "Deut.13": 18, "Deut.14": 29, "Deut.15": 23, "Deut.16": 22, "Deut.17": 20, "Deut.18": 22,
+  "Deut.19": 21, "Deut.20": 20, "Deut.21": 23, "Deut.22": 30, "Deut.23": 25, "Deut.24": 22,
+  "Deut.25": 19, "Deut.26": 19, "Deut.27": 26, "Deut.28": 68, "Deut.29": 29, "Deut.30": 20,
+  "Deut.31": 30, "Deut.32": 52, "Deut.33": 29, "Deut.34": 12,
+  "1Sam.1": 28, "1Sam.2": 36,
+  "Isa.1": 31, "Isa.40": 31, "Isa.49": 26, "Isa.50": 11, "Isa.51": 23, "Isa.52": 15,
+  "Isa.54": 17, "Isa.55": 13, "Isa.57": 21, "Isa.58": 14, "Isa.60": 22, "Isa.61": 11,
+  "Isa.62": 12, "Isa.63": 19,
+  "Zech.14": 21,
+  "Matt.4": 25, "Matt.16": 28, "Matt.18": 35, "Matt.24": 51, "Matt.25": 46,
+  "Mark.11": 33,
+  "Luke.2": 52, "Luke.3": 38,
+  "John.6": 71, "John.12": 50, "John.14": 31
 };
 
 const MASTER_LEXICON = {
@@ -138,7 +135,7 @@ function generatePassageJson(studyId, passage, cachedDb) {
 
 function validateAllVerses(passageData, fileName) {
   passageData.verses.forEach(v => {
-    if (!v.sv || v.sv.includes('sprak tot het volk') || v.sv.includes('uit de Statenvertaling') || v.sv.includes('placeholder')) {
+    if (!v.sv || v.sv.length < 3 || v.sv.toLowerCase().includes('placeholder') || v.sv.toLowerCase().includes('uit de statenvertaling')) {
       throw new Error(`[VALIDATION CONTROL FAILED] Verse ${v.osis} in '${fileName}' contains non-verbatim text: "${v.sv}"!`);
     }
   });

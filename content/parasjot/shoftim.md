@@ -2,11 +2,11 @@
 id: shoftim
 parasha: Shoftim
 label:
-  nl: Sjoftim
+  nl: Shoftim
   en: Shoftim
 status: published
 current: true
-published_at: 2026-08-01
+published_at: 2026-08-15
 passages:
   - role: parasha
     ref:
@@ -24,10 +24,10 @@ passages:
       en: "John 14:9–20"
     osis: "John.14.9-John.14.20"
 extra_references: []
-title_nl: "Als gerechtigheid de grond wordt"
-title_en: "When justice becomes the foundation"
-summary_nl: "Over rechters, gezag, gerechtigheid en het koningschap onder Gods wet."
-summary_en: "On judges, authority, justice, and kingship under God's law."
+title_nl: "Lezing Shoftim"
+title_en: "Shoftim Reading"
+summary_nl: "Wekelijkse lezing van Shoftim."
+summary_en: "Weekly reading of Shoftim."
 ---
 
-De tekst roept op om rechters en opzieners aan te stellen die met gerechtigheid oordelen. Gerechtigheid mag niet worden verdraaid door geschenken of aanzien des persoons.
+De wekelijkse lezing van Shoftim.

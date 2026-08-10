@@ -1,0 +1,3891 @@
+{
+  "study": "devarim",
+  "role": "gospel",
+  "osis": "Matt.24.1-Matt.24.22",
+  "ref": {
+    "nl": "Mattheüs 24:1–22",
+    "en": "Matthew 24:1–22"
+  },
+  "testament": "NT",
+  "verses": [
+    {
+      "osis": "Matt.24.1",
+      "ref": "24:1",
+      "sv": "En Jezus ging uit en vertrok van den tempel; en Zijn discipelen kwamen bij Hem, om Hem de gebouwen des tempels te tonen.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "Jesus",
+          "s": null
+        },
+        {
+          "t": "went",
+          "s": null
+        },
+        {
+          "t": "out,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "departed",
+          "s": null
+        },
+        {
+          "t": "from",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "temple:",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "disciples",
+          "s": null
+        },
+        {
+          "t": "came",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "him",
+          "s": null
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "shew",
+          "s": null
+        },
+        {
+          "t": "him",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "buildings",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "temple.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "En",
+            "charStart": 0,
+            "charEnd": 2,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "Jezus",
+            "charStart": 3,
+            "charEnd": 8,
+            "strong": "G2424",
+            "status": "verified"
+          },
+          {
+            "surface": "uit",
+            "charStart": 14,
+            "charEnd": 17,
+            "strong": "G1831",
+            "status": "verified"
+          },
+          {
+            "surface": "vertrok",
+            "charStart": 21,
+            "charEnd": 28,
+            "strong": "G4198",
+            "status": "verified"
+          },
+          {
+            "surface": "van",
+            "charStart": 29,
+            "charEnd": 32,
+            "strong": "G575",
+            "status": "verified"
+          },
+          {
+            "surface": "tempel",
+            "charStart": 37,
+            "charEnd": 43,
+            "strong": "G2411",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 45,
+            "charEnd": 47,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "Zijn",
+            "charStart": 48,
+            "charEnd": 52,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "discipelen",
+            "charStart": 53,
+            "charEnd": 63,
+            "strong": "G3101",
+            "status": "verified"
+          },
+          {
+            "surface": "kwamen",
+            "charStart": 64,
+            "charEnd": 70,
+            "strong": "G4334",
+            "status": "verified"
+          },
+          {
+            "surface": "Hem",
+            "charStart": 75,
+            "charEnd": 78,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "gebouwen",
+            "charStart": 90,
+            "charEnd": 98,
+            "strong": "G3619",
+            "status": "verified"
+          },
+          {
+            "surface": "tempels",
+            "charStart": 103,
+            "charEnd": 110,
+            "strong": "G2411",
+            "status": "verified"
+          },
+          {
+            "surface": "tonen",
+            "charStart": 114,
+            "charEnd": 119,
+            "strong": "G1925",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Matt.24.2",
+      "ref": "24:2",
+      "sv": "En Jezus zeide tot hen: Ziet gij niet al deze dingen? Voorwaar zeg Ik u: Hier zal niet [een] steen op den [anderen] steen gelaten worden, die niet afgebroken zal worden.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "Jesus",
+          "s": null
+        },
+        {
+          "t": "said",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "them,",
+          "s": null
+        },
+        {
+          "t": "See",
+          "s": null
+        },
+        {
+          "t": "ye",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "all",
+          "s": null
+        },
+        {
+          "t": "these",
+          "s": null
+        },
+        {
+          "t": "things?",
+          "s": null
+        },
+        {
+          "t": "verily",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "say",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "you,",
+          "s": null
+        },
+        {
+          "t": "There",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "left",
+          "s": null
+        },
+        {
+          "t": "here",
+          "s": null
+        },
+        {
+          "t": "one",
+          "s": null
+        },
+        {
+          "t": "stone",
+          "s": null
+        },
+        {
+          "t": "upon",
+          "s": null
+        },
+        {
+          "t": "another,",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "thrown",
+          "s": null
+        },
+        {
+          "t": "down.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "En",
+            "charStart": 0,
+            "charEnd": 2,
+            "strong": "G1161",
+            "status": "verified"
+          },
+          {
+            "surface": "Jezus",
+            "charStart": 3,
+            "charEnd": 8,
+            "strong": "G2424",
+            "status": "verified"
+          },
+          {
+            "surface": "zeide",
+            "charStart": 9,
+            "charEnd": 14,
+            "strong": "G2036",
+            "status": "verified"
+          },
+          {
+            "surface": "hen",
+            "charStart": 19,
+            "charEnd": 22,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "gij",
+            "charStart": 29,
+            "charEnd": 32,
+            "strong": "G991",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 33,
+            "charEnd": 37,
+            "strong": "G3756",
+            "status": "verified"
+          },
+          {
+            "surface": "al",
+            "charStart": 38,
+            "charEnd": 40,
+            "strong": "G3956",
+            "status": "verified"
+          },
+          {
+            "surface": "dingen",
+            "charStart": 46,
+            "charEnd": 52,
+            "strong": "G5023",
+            "status": "verified"
+          },
+          {
+            "surface": "Voorwaar",
+            "charStart": 54,
+            "charEnd": 62,
+            "strong": "G281",
+            "status": "verified"
+          },
+          {
+            "surface": "Ik",
+            "charStart": 67,
+            "charEnd": 69,
+            "strong": "G3004",
+            "status": "verified"
+          },
+          {
+            "surface": "u",
+            "charStart": 70,
+            "charEnd": 71,
+            "strong": "G5213",
+            "status": "verified"
+          },
+          {
+            "surface": "Hier",
+            "charStart": 73,
+            "charEnd": 77,
+            "strong": "G5602",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 82,
+            "charEnd": 86,
+            "strong": "G3364",
+            "status": "verified"
+          },
+          {
+            "surface": "steen",
+            "charStart": 93,
+            "charEnd": 98,
+            "strong": "G3037",
+            "status": "verified"
+          },
+          {
+            "surface": "op",
+            "charStart": 99,
+            "charEnd": 101,
+            "strong": "G1909",
+            "status": "verified"
+          },
+          {
+            "surface": "steen",
+            "charStart": 116,
+            "charEnd": 121,
+            "strong": "G3037",
+            "status": "verified"
+          },
+          {
+            "surface": "worden",
+            "charStart": 130,
+            "charEnd": 136,
+            "strong": "G863",
+            "status": "verified"
+          },
+          {
+            "surface": "die",
+            "charStart": 138,
+            "charEnd": 141,
+            "strong": "G3739",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 142,
+            "charEnd": 146,
+            "strong": "G3364",
+            "status": "verified"
+          },
+          {
+            "surface": "worden",
+            "charStart": 162,
+            "charEnd": 168,
+            "strong": "G2647",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Matt.24.3",
+      "ref": "24:3",
+      "sv": "En als Hij op den Olijfberg gezeten was, gingen de discipelen tot Hem alleen, zeggende: Zeg ons, wanneer zullen deze dingen zijn, en welk [zal] het teken [zijn] van Uw toekomst, en van de voleinding der wereld?",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "as",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "sat",
+          "s": null
+        },
+        {
+          "t": "upon",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "mount",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "Olives,",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "disciples",
+          "s": null
+        },
+        {
+          "t": "came",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "him",
+          "s": null
+        },
+        {
+          "t": "privately",
+          "s": null
+        },
+        {
+          "t": ",",
+          "s": null
+        },
+        {
+          "t": "saying,",
+          "s": null
+        },
+        {
+          "t": "Tell",
+          "s": null
+        },
+        {
+          "t": "us,",
+          "s": null
+        },
+        {
+          "t": "when",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "these",
+          "s": null
+        },
+        {
+          "t": "things",
+          "s": null
+        },
+        {
+          "t": "be?",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "what",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "sign",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "thy",
+          "s": null
+        },
+        {
+          "t": "coming,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "end",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "world?",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "En",
+            "charStart": 0,
+            "charEnd": 2,
+            "strong": "G1161",
+            "status": "verified"
+          },
+          {
+            "surface": "op",
+            "charStart": 11,
+            "charEnd": 13,
+            "strong": "G1909",
+            "status": "verified"
+          },
+          {
+            "surface": "Olijfberg",
+            "charStart": 18,
+            "charEnd": 27,
+            "strong": "G3735",
+            "status": "verified"
+          },
+          {
+            "surface": "was",
+            "charStart": 36,
+            "charEnd": 39,
+            "strong": "G2521",
+            "status": "verified"
+          },
+          {
+            "surface": "gingen",
+            "charStart": 41,
+            "charEnd": 47,
+            "strong": "G4334",
+            "status": "verified"
+          },
+          {
+            "surface": "discipelen",
+            "charStart": 51,
+            "charEnd": 61,
+            "strong": "G3101",
+            "status": "verified"
+          },
+          {
+            "surface": "Hem",
+            "charStart": 66,
+            "charEnd": 69,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "alleen",
+            "charStart": 70,
+            "charEnd": 76,
+            "strong": "G2596",
+            "status": "verified"
+          },
+          {
+            "surface": "zeggende",
+            "charStart": 78,
+            "charEnd": 86,
+            "strong": "G3004",
+            "status": "verified"
+          },
+          {
+            "surface": "Zeg",
+            "charStart": 88,
+            "charEnd": 91,
+            "strong": "G2036",
+            "status": "verified"
+          },
+          {
+            "surface": "ons",
+            "charStart": 92,
+            "charEnd": 95,
+            "strong": "G2254",
+            "status": "verified"
+          },
+          {
+            "surface": "wanneer",
+            "charStart": 97,
+            "charEnd": 104,
+            "strong": "G4219",
+            "status": "verified"
+          },
+          {
+            "surface": "dingen",
+            "charStart": 117,
+            "charEnd": 123,
+            "strong": "G5023",
+            "status": "verified"
+          },
+          {
+            "surface": "zijn",
+            "charStart": 124,
+            "charEnd": 128,
+            "strong": "G2071",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 130,
+            "charEnd": 132,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "welk",
+            "charStart": 133,
+            "charEnd": 137,
+            "strong": "G5101",
+            "status": "verified"
+          },
+          {
+            "surface": "teken",
+            "charStart": 148,
+            "charEnd": 153,
+            "strong": "G4592",
+            "status": "verified"
+          },
+          {
+            "surface": "Uw",
+            "charStart": 165,
+            "charEnd": 167,
+            "strong": "G4674",
+            "status": "verified"
+          },
+          {
+            "surface": "toekomst",
+            "charStart": 168,
+            "charEnd": 176,
+            "strong": "G3952",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 178,
+            "charEnd": 180,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "voleinding",
+            "charStart": 188,
+            "charEnd": 198,
+            "strong": "G4930",
+            "status": "verified"
+          },
+          {
+            "surface": "wereld",
+            "charStart": 203,
+            "charEnd": 209,
+            "strong": "G165",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Matt.24.4",
+      "ref": "24:4",
+      "sv": "En Jezus, antwoordende, zeide tot hen: Ziet toe, dat u niemand verleide.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "Jesus",
+          "s": null
+        },
+        {
+          "t": "answered",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "said",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "them,",
+          "s": null
+        },
+        {
+          "t": "Take",
+          "s": null
+        },
+        {
+          "t": "heed",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "no",
+          "s": null
+        },
+        {
+          "t": "man",
+          "s": null
+        },
+        {
+          "t": "deceive",
+          "s": null
+        },
+        {
+          "t": "you.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "En",
+            "charStart": 0,
+            "charEnd": 2,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "Jezus",
+            "charStart": 3,
+            "charEnd": 8,
+            "strong": "G2424",
+            "status": "verified"
+          },
+          {
+            "surface": "antwoordende",
+            "charStart": 10,
+            "charEnd": 22,
+            "strong": "G611",
+            "status": "verified"
+          },
+          {
+            "surface": "zeide",
+            "charStart": 24,
+            "charEnd": 29,
+            "strong": "G2036",
+            "status": "verified"
+          },
+          {
+            "surface": "hen",
+            "charStart": 34,
+            "charEnd": 37,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "toe",
+            "charStart": 44,
+            "charEnd": 47,
+            "strong": "G991",
+            "status": "verified"
+          },
+          {
+            "surface": "u",
+            "charStart": 53,
+            "charEnd": 54,
+            "strong": "G5209",
+            "status": "verified"
+          },
+          {
+            "surface": "niemand",
+            "charStart": 55,
+            "charEnd": 62,
+            "strong": "G3361",
+            "status": "verified"
+          },
+          {
+            "surface": "verleide",
+            "charStart": 63,
+            "charEnd": 71,
+            "strong": "G4105",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Matt.24.5",
+      "ref": "24:5",
+      "sv": "Want velen zullen komen onder Mijn Naam, zeggende: Ik ben de Christus; en zij zullen velen verleiden.",
+      "kjv": [
+        {
+          "t": "For",
+          "s": null
+        },
+        {
+          "t": "many",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "come",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "my",
+          "s": null
+        },
+        {
+          "t": "name,",
+          "s": null
+        },
+        {
+          "t": "saying,",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "am",
+          "s": null
+        },
+        {
+          "t": "Christ;",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "deceive",
+          "s": null
+        },
+        {
+          "t": "many.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Want",
+            "charStart": 0,
+            "charEnd": 4,
+            "strong": "G1063",
+            "status": "verified"
+          },
+          {
+            "surface": "velen",
+            "charStart": 5,
+            "charEnd": 10,
+            "strong": "G4183",
+            "status": "verified"
+          },
+          {
+            "surface": "komen",
+            "charStart": 18,
+            "charEnd": 23,
+            "strong": "G2064",
+            "status": "verified"
+          },
+          {
+            "surface": "onder",
+            "charStart": 24,
+            "charEnd": 29,
+            "strong": "G1909",
+            "status": "verified"
+          },
+          {
+            "surface": "Mijn",
+            "charStart": 30,
+            "charEnd": 34,
+            "strong": "G3450",
+            "status": "verified"
+          },
+          {
+            "surface": "Naam",
+            "charStart": 35,
+            "charEnd": 39,
+            "strong": "G3686",
+            "status": "verified"
+          },
+          {
+            "surface": "zeggende",
+            "charStart": 41,
+            "charEnd": 49,
+            "strong": "G3004",
+            "status": "verified"
+          },
+          {
+            "surface": "Ik",
+            "charStart": 51,
+            "charEnd": 53,
+            "strong": "G1473",
+            "status": "verified"
+          },
+          {
+            "surface": "ben",
+            "charStart": 54,
+            "charEnd": 57,
+            "strong": "G1510",
+            "status": "verified"
+          },
+          {
+            "surface": "Christus",
+            "charStart": 61,
+            "charEnd": 69,
+            "strong": "G5547",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 71,
+            "charEnd": 73,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "velen",
+            "charStart": 85,
+            "charEnd": 90,
+            "strong": "G4183",
+            "status": "verified"
+          },
+          {
+            "surface": "verleiden",
+            "charStart": 91,
+            "charEnd": 100,
+            "strong": "G4105",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Matt.24.6",
+      "ref": "24:6",
+      "sv": "En gij zult horen van oorlogen, en geruchten van oorlogen; ziet toe, wordt niet verschrikt; want al [die] dingen moeten geschieden, maar nog is het einde niet.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "ye",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "hear",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "wars",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "rumours",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "wars:",
+          "s": null
+        },
+        {
+          "t": "see",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "ye",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "troubled:",
+          "s": null
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "all",
+          "s": null
+        },
+        {
+          "t": "these",
+          "s": null
+        },
+        {
+          "t": "things",
+          "s": null
+        },
+        {
+          "t": "must",
+          "s": null
+        },
+        {
+          "t": "come",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "pass,",
+          "s": null
+        },
+        {
+          "t": "but",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "end",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "yet.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "En",
+            "charStart": 0,
+            "charEnd": 2,
+            "strong": "G1161",
+            "status": "verified"
+          },
+          {
+            "surface": "zult",
+            "charStart": 7,
+            "charEnd": 11,
+            "strong": "G3195",
+            "status": "verified"
+          },
+          {
+            "surface": "horen",
+            "charStart": 12,
+            "charEnd": 17,
+            "strong": "G191",
+            "status": "verified"
+          },
+          {
+            "surface": "oorlogen",
+            "charStart": 22,
+            "charEnd": 30,
+            "strong": "G4171",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 32,
+            "charEnd": 34,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "geruchten",
+            "charStart": 35,
+            "charEnd": 44,
+            "strong": "G189",
+            "status": "verified"
+          },
+          {
+            "surface": "oorlogen",
+            "charStart": 49,
+            "charEnd": 57,
+            "strong": "G4171",
+            "status": "verified"
+          },
+          {
+            "surface": "toe",
+            "charStart": 64,
+            "charEnd": 67,
+            "strong": "G3708",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 75,
+            "charEnd": 79,
+            "strong": "G3361",
+            "status": "verified"
+          },
+          {
+            "surface": "verschrikt",
+            "charStart": 80,
+            "charEnd": 90,
+            "strong": "G2360",
+            "status": "verified"
+          },
+          {
+            "surface": "want",
+            "charStart": 92,
+            "charEnd": 96,
+            "strong": "G1063",
+            "status": "verified"
+          },
+          {
+            "surface": "dingen",
+            "charStart": 106,
+            "charEnd": 112,
+            "strong": "G3956",
+            "status": "verified"
+          },
+          {
+            "surface": "moeten",
+            "charStart": 113,
+            "charEnd": 119,
+            "strong": "G1163",
+            "status": "verified"
+          },
+          {
+            "surface": "geschieden",
+            "charStart": 120,
+            "charEnd": 130,
+            "strong": "G1096",
+            "status": "verified"
+          },
+          {
+            "surface": "maar",
+            "charStart": 132,
+            "charEnd": 136,
+            "strong": "G235",
+            "status": "verified"
+          },
+          {
+            "surface": "nog",
+            "charStart": 137,
+            "charEnd": 140,
+            "strong": "G3768",
+            "status": "verified"
+          },
+          {
+            "surface": "is",
+            "charStart": 141,
+            "charEnd": 143,
+            "strong": "G2076",
+            "status": "verified"
+          },
+          {
+            "surface": "einde",
+            "charStart": 148,
+            "charEnd": 153,
+            "strong": "G5056",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 154,
+            "charEnd": 158,
+            "strong": "G3768",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Matt.24.7",
+      "ref": "24:7",
+      "sv": "Want het [ene] volk zal tegen het [andere] volk opstaan, en het [ene] koninkrijk tegen het [andere] koninkrijk; en er zullen zijn hongersnoden, en pestilentien, en aardbevingen in verscheidene plaatsen.",
+      "kjv": [
+        {
+          "t": "For",
+          "s": null
+        },
+        {
+          "t": "nation",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "rise",
+          "s": null
+        },
+        {
+          "t": "against",
+          "s": null
+        },
+        {
+          "t": "nation,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "kingdom",
+          "s": null
+        },
+        {
+          "t": "against",
+          "s": null
+        },
+        {
+          "t": "kingdom:",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "there",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "famines,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "pestilences,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "earthquakes,",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "divers",
+          "s": null
+        },
+        {
+          "t": "places.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Want",
+            "charStart": 0,
+            "charEnd": 4,
+            "strong": "G1063",
+            "status": "verified"
+          },
+          {
+            "surface": "volk",
+            "charStart": 15,
+            "charEnd": 19,
+            "strong": "G1484",
+            "status": "verified"
+          },
+          {
+            "surface": "tegen",
+            "charStart": 24,
+            "charEnd": 29,
+            "strong": "G1909",
+            "status": "verified"
+          },
+          {
+            "surface": "volk",
+            "charStart": 43,
+            "charEnd": 47,
+            "strong": "G1484",
+            "status": "verified"
+          },
+          {
+            "surface": "opstaan",
+            "charStart": 48,
+            "charEnd": 55,
+            "strong": "G1453",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 57,
+            "charEnd": 59,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "koninkrijk",
+            "charStart": 70,
+            "charEnd": 80,
+            "strong": "G932",
+            "status": "verified"
+          },
+          {
+            "surface": "tegen",
+            "charStart": 81,
+            "charEnd": 86,
+            "strong": "G1909",
+            "status": "verified"
+          },
+          {
+            "surface": "koninkrijk",
+            "charStart": 100,
+            "charEnd": 110,
+            "strong": "G932",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 112,
+            "charEnd": 114,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "zijn",
+            "charStart": 125,
+            "charEnd": 129,
+            "strong": "G2071",
+            "status": "verified"
+          },
+          {
+            "surface": "hongersnoden",
+            "charStart": 130,
+            "charEnd": 142,
+            "strong": "G3042",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 144,
+            "charEnd": 146,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "pestilentien",
+            "charStart": 147,
+            "charEnd": 159,
+            "strong": "G3061",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 161,
+            "charEnd": 163,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "aardbevingen",
+            "charStart": 164,
+            "charEnd": 176,
+            "strong": "G4578",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 177,
+            "charEnd": 179,
+            "strong": "G2596",
+            "status": "verified"
+          },
+          {
+            "surface": "plaatsen",
+            "charStart": 193,
+            "charEnd": 201,
+            "strong": "G5117",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Matt.24.8",
+      "ref": "24:8",
+      "sv": "Doch al die dingen [zijn] [maar] een beginsel der smarten.",
+      "kjv": [
+        {
+          "t": "All",
+          "s": null
+        },
+        {
+          "t": "these",
+          "s": null
+        },
+        {
+          "t": "are",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "beginning",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "sorrows.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Doch",
+            "charStart": 0,
+            "charEnd": 4,
+            "strong": "G1161",
+            "status": "verified"
+          },
+          {
+            "surface": "al",
+            "charStart": 5,
+            "charEnd": 7,
+            "strong": "G3956",
+            "status": "verified"
+          },
+          {
+            "surface": "dingen",
+            "charStart": 12,
+            "charEnd": 18,
+            "strong": "G5023",
+            "status": "verified"
+          },
+          {
+            "surface": "beginsel",
+            "charStart": 37,
+            "charEnd": 45,
+            "strong": "G746",
+            "status": "verified"
+          },
+          {
+            "surface": "smarten",
+            "charStart": 50,
+            "charEnd": 57,
+            "strong": "G5604",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Matt.24.9",
+      "ref": "24:9",
+      "sv": "Alsdan zullen zij u overleveren in verdrukking, en zullen u doden, en gij zult gehaat worden van alle volken, om Mijns Naams wil.",
+      "kjv": [
+        {
+          "t": "Then",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "deliver",
+          "s": null
+        },
+        {
+          "t": "you",
+          "s": null
+        },
+        {
+          "t": "up",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "afflicted,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "kill",
+          "s": null
+        },
+        {
+          "t": "you:",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "ye",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "hated",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "all",
+          "s": null
+        },
+        {
+          "t": "nations",
+          "s": null
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "my",
+          "s": null
+        },
+        {
+          "t": "name's",
+          "s": null
+        },
+        {
+          "t": "sake.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Alsdan",
+            "charStart": 0,
+            "charEnd": 6,
+            "strong": "G5119",
+            "status": "verified"
+          },
+          {
+            "surface": "u",
+            "charStart": 8,
+            "charEnd": 9,
+            "strong": "G5209",
+            "status": "verified"
+          },
+          {
+            "surface": "overleveren",
+            "charStart": 20,
+            "charEnd": 31,
+            "strong": "G3860",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 32,
+            "charEnd": 34,
+            "strong": "G1519",
+            "status": "verified"
+          },
+          {
+            "surface": "verdrukking",
+            "charStart": 35,
+            "charEnd": 46,
+            "strong": "G2347",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 48,
+            "charEnd": 50,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "u",
+            "charStart": 52,
+            "charEnd": 53,
+            "strong": "G5209",
+            "status": "verified"
+          },
+          {
+            "surface": "doden",
+            "charStart": 60,
+            "charEnd": 65,
+            "strong": "G615",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 67,
+            "charEnd": 69,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "gehaat",
+            "charStart": 79,
+            "charEnd": 85,
+            "strong": "G3404",
+            "status": "verified"
+          },
+          {
+            "surface": "worden",
+            "charStart": 86,
+            "charEnd": 92,
+            "strong": "G2071",
+            "status": "verified"
+          },
+          {
+            "surface": "van",
+            "charStart": 93,
+            "charEnd": 96,
+            "strong": "G5259",
+            "status": "verified"
+          },
+          {
+            "surface": "alle",
+            "charStart": 97,
+            "charEnd": 101,
+            "strong": "G3956",
+            "status": "verified"
+          },
+          {
+            "surface": "volken",
+            "charStart": 102,
+            "charEnd": 108,
+            "strong": "G1484",
+            "status": "verified"
+          },
+          {
+            "surface": "om",
+            "charStart": 110,
+            "charEnd": 112,
+            "strong": "G1223",
+            "status": "verified"
+          },
+          {
+            "surface": "Mijns",
+            "charStart": 113,
+            "charEnd": 118,
+            "strong": "G3450",
+            "status": "verified"
+          },
+          {
+            "surface": "Naams",
+            "charStart": 119,
+            "charEnd": 124,
+            "strong": "G3686",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Matt.24.10",
+      "ref": "24:10",
+      "sv": "En dan zullen er velen geergerd worden, en zullen elkander overleveren, en elkander haten.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "then",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "many",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "offended,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "betray",
+          "s": null
+        },
+        {
+          "t": "one",
+          "s": null
+        },
+        {
+          "t": "another,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "hate",
+          "s": null
+        },
+        {
+          "t": "one",
+          "s": null
+        },
+        {
+          "t": "another.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "En",
+            "charStart": 0,
+            "charEnd": 2,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "dan",
+            "charStart": 3,
+            "charEnd": 6,
+            "strong": "G5119",
+            "status": "verified"
+          },
+          {
+            "surface": "velen",
+            "charStart": 17,
+            "charEnd": 22,
+            "strong": "G4183",
+            "status": "verified"
+          },
+          {
+            "surface": "worden",
+            "charStart": 32,
+            "charEnd": 38,
+            "strong": "G4624",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 40,
+            "charEnd": 42,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "elkander",
+            "charStart": 50,
+            "charEnd": 58,
+            "strong": "G240",
+            "status": "verified"
+          },
+          {
+            "surface": "overleveren",
+            "charStart": 59,
+            "charEnd": 70,
+            "strong": "G3860",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 72,
+            "charEnd": 74,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "elkander",
+            "charStart": 75,
+            "charEnd": 83,
+            "strong": "G240",
+            "status": "verified"
+          },
+          {
+            "surface": "haten",
+            "charStart": 84,
+            "charEnd": 89,
+            "strong": "G3404",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Matt.24.11",
+      "ref": "24:11",
+      "sv": "En vele valse profeten zullen opstaan, en zullen er velen verleiden.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "many",
+          "s": null
+        },
+        {
+          "t": "false",
+          "s": null
+        },
+        {
+          "t": "prophets",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "rise,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "deceive",
+          "s": null
+        },
+        {
+          "t": "many.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "En",
+            "charStart": 0,
+            "charEnd": 2,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "vele",
+            "charStart": 3,
+            "charEnd": 7,
+            "strong": "G4183",
+            "status": "verified"
+          },
+          {
+            "surface": "profeten",
+            "charStart": 14,
+            "charEnd": 22,
+            "strong": "G5578",
+            "status": "verified"
+          },
+          {
+            "surface": "opstaan",
+            "charStart": 30,
+            "charEnd": 37,
+            "strong": "G1453",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 39,
+            "charEnd": 41,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "velen",
+            "charStart": 52,
+            "charEnd": 57,
+            "strong": "G4183",
+            "status": "verified"
+          },
+          {
+            "surface": "verleiden",
+            "charStart": 58,
+            "charEnd": 67,
+            "strong": "G4105",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Matt.24.12",
+      "ref": "24:12",
+      "sv": "En omdat de ongerechtigheid vermenigvuldigd zal worden, zo zal de liefde van velen verkouden.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "because",
+          "s": null
+        },
+        {
+          "t": "iniquity",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "abound,",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "love",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "many",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "wax",
+          "s": null
+        },
+        {
+          "t": "cold.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "En",
+            "charStart": 0,
+            "charEnd": 2,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "omdat",
+            "charStart": 3,
+            "charEnd": 8,
+            "strong": "G1223",
+            "status": "verified"
+          },
+          {
+            "surface": "ongerechtigheid",
+            "charStart": 12,
+            "charEnd": 27,
+            "strong": "G458",
+            "status": "verified"
+          },
+          {
+            "surface": "worden",
+            "charStart": 48,
+            "charEnd": 54,
+            "strong": "G4129",
+            "status": "verified"
+          },
+          {
+            "surface": "liefde",
+            "charStart": 66,
+            "charEnd": 72,
+            "strong": "G26",
+            "status": "verified"
+          },
+          {
+            "surface": "velen",
+            "charStart": 77,
+            "charEnd": 82,
+            "strong": "G4183",
+            "status": "verified"
+          },
+          {
+            "surface": "verkouden",
+            "charStart": 83,
+            "charEnd": 92,
+            "strong": "G5594",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Matt.24.13",
+      "ref": "24:13",
+      "sv": "Maar wie volharden zal tot het einde, die zal zalig worden.",
+      "kjv": [
+        {
+          "t": "But",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "endure",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "end,",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "same",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "saved.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Maar",
+            "charStart": 0,
+            "charEnd": 4,
+            "strong": "G1161",
+            "status": "verified"
+          },
+          {
+            "surface": "zal",
+            "charStart": 19,
+            "charEnd": 22,
+            "strong": "G5278",
+            "status": "verified"
+          },
+          {
+            "surface": "tot",
+            "charStart": 23,
+            "charEnd": 26,
+            "strong": "G1519",
+            "status": "verified"
+          },
+          {
+            "surface": "einde",
+            "charStart": 31,
+            "charEnd": 36,
+            "strong": "G5056",
+            "status": "verified"
+          },
+          {
+            "surface": "die",
+            "charStart": 38,
+            "charEnd": 41,
+            "strong": "G3778",
+            "status": "verified"
+          },
+          {
+            "surface": "worden",
+            "charStart": 52,
+            "charEnd": 58,
+            "strong": "G4982",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Matt.24.14",
+      "ref": "24:14",
+      "sv": "En dit Evangelie des Koninkrijks zal in de gehele wereld gepredikt worden tot een getuigenis allen volken; en dan zal het einde komen.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "this",
+          "s": null
+        },
+        {
+          "t": "gospel",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "kingdom",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "preached",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "all",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "world",
+          "s": null
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "witness",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "all",
+          "s": null
+        },
+        {
+          "t": "nations;",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "then",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "end",
+          "s": null
+        },
+        {
+          "t": "come.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "En",
+            "charStart": 0,
+            "charEnd": 2,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "dit",
+            "charStart": 3,
+            "charEnd": 6,
+            "strong": "G5124",
+            "status": "verified"
+          },
+          {
+            "surface": "Evangelie",
+            "charStart": 7,
+            "charEnd": 16,
+            "strong": "G2098",
+            "status": "verified"
+          },
+          {
+            "surface": "Koninkrijks",
+            "charStart": 21,
+            "charEnd": 32,
+            "strong": "G932",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 37,
+            "charEnd": 39,
+            "strong": "G1722",
+            "status": "verified"
+          },
+          {
+            "surface": "gehele",
+            "charStart": 43,
+            "charEnd": 49,
+            "strong": "G3650",
+            "status": "verified"
+          },
+          {
+            "surface": "wereld",
+            "charStart": 50,
+            "charEnd": 56,
+            "strong": "G3625",
+            "status": "verified"
+          },
+          {
+            "surface": "worden",
+            "charStart": 67,
+            "charEnd": 73,
+            "strong": "G2784",
+            "status": "verified"
+          },
+          {
+            "surface": "tot",
+            "charStart": 74,
+            "charEnd": 77,
+            "strong": "G1519",
+            "status": "verified"
+          },
+          {
+            "surface": "getuigenis",
+            "charStart": 82,
+            "charEnd": 92,
+            "strong": "G3142",
+            "status": "verified"
+          },
+          {
+            "surface": "allen",
+            "charStart": 93,
+            "charEnd": 98,
+            "strong": "G3956",
+            "status": "verified"
+          },
+          {
+            "surface": "volken",
+            "charStart": 99,
+            "charEnd": 105,
+            "strong": "G1484",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 107,
+            "charEnd": 109,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "dan",
+            "charStart": 110,
+            "charEnd": 113,
+            "strong": "G5119",
+            "status": "verified"
+          },
+          {
+            "surface": "einde",
+            "charStart": 122,
+            "charEnd": 127,
+            "strong": "G5056",
+            "status": "verified"
+          },
+          {
+            "surface": "komen",
+            "charStart": 128,
+            "charEnd": 133,
+            "strong": "G2240",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Matt.24.15",
+      "ref": "24:15",
+      "sv": "Wanneer gij dan zult zien den gruwel der verwoesting, waarvan gesproken is door Daniel, den profeet, staande in de heilige plaats; (die [het] leest, die merke daarop! )",
+      "kjv": [
+        {
+          "t": "When",
+          "s": null
+        },
+        {
+          "t": "ye",
+          "s": null
+        },
+        {
+          "t": "therefore",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "see",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "abomination",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "desolation,",
+          "s": null
+        },
+        {
+          "t": "spoken",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "by",
+          "s": null
+        },
+        {
+          "t": "Daniel",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "prophet,",
+          "s": null
+        },
+        {
+          "t": "stand",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "holy",
+          "s": null
+        },
+        {
+          "t": "place,",
+          "s": null
+        },
+        {
+          "t": "(whoso",
+          "s": null
+        },
+        {
+          "t": "readeth,",
+          "s": null
+        },
+        {
+          "t": "let",
+          "s": null
+        },
+        {
+          "t": "him",
+          "s": null
+        },
+        {
+          "t": "understand:)",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Wanneer",
+            "charStart": 0,
+            "charEnd": 7,
+            "strong": "G3752",
+            "status": "verified"
+          },
+          {
+            "surface": "dan",
+            "charStart": 12,
+            "charEnd": 15,
+            "strong": "G3767",
+            "status": "verified"
+          },
+          {
+            "surface": "zien",
+            "charStart": 21,
+            "charEnd": 25,
+            "strong": "G1492",
+            "status": "verified"
+          },
+          {
+            "surface": "gruwel",
+            "charStart": 30,
+            "charEnd": 36,
+            "strong": "G946",
+            "status": "verified"
+          },
+          {
+            "surface": "verwoesting",
+            "charStart": 41,
+            "charEnd": 52,
+            "strong": "G2050",
+            "status": "verified"
+          },
+          {
+            "surface": "is",
+            "charStart": 72,
+            "charEnd": 74,
+            "strong": "G4483",
+            "status": "verified"
+          },
+          {
+            "surface": "door",
+            "charStart": 75,
+            "charEnd": 79,
+            "strong": "G1223",
+            "status": "verified"
+          },
+          {
+            "surface": "Daniel",
+            "charStart": 80,
+            "charEnd": 86,
+            "strong": "G1158",
+            "status": "verified"
+          },
+          {
+            "surface": "profeet",
+            "charStart": 92,
+            "charEnd": 99,
+            "strong": "G4396",
+            "status": "verified"
+          },
+          {
+            "surface": "staande",
+            "charStart": 101,
+            "charEnd": 108,
+            "strong": "G2476",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 109,
+            "charEnd": 111,
+            "strong": "G1722",
+            "status": "verified"
+          },
+          {
+            "surface": "heilige",
+            "charStart": 115,
+            "charEnd": 122,
+            "strong": "G40",
+            "status": "verified"
+          },
+          {
+            "surface": "plaats",
+            "charStart": 123,
+            "charEnd": 129,
+            "strong": "G5117",
+            "status": "verified"
+          },
+          {
+            "surface": "leest",
+            "charStart": 142,
+            "charEnd": 147,
+            "strong": "G314",
+            "status": "verified"
+          },
+          {
+            "surface": "daarop",
+            "charStart": 159,
+            "charEnd": 165,
+            "strong": "G3539",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Matt.24.16",
+      "ref": "24:16",
+      "sv": "Dat alsdan, die in Judea zijn, vlieden op de bergen;",
+      "kjv": [
+        {
+          "t": "Then",
+          "s": null
+        },
+        {
+          "t": "let",
+          "s": null
+        },
+        {
+          "t": "them",
+          "s": null
+        },
+        {
+          "t": "which",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "Judaea",
+          "s": null
+        },
+        {
+          "t": "flee",
+          "s": null
+        },
+        {
+          "t": "into",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "mountains:",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "alsdan",
+            "charStart": 4,
+            "charEnd": 10,
+            "strong": "G5119",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 16,
+            "charEnd": 18,
+            "strong": "G1722",
+            "status": "verified"
+          },
+          {
+            "surface": "Judea",
+            "charStart": 19,
+            "charEnd": 24,
+            "strong": "G2449",
+            "status": "verified"
+          },
+          {
+            "surface": "vlieden",
+            "charStart": 31,
+            "charEnd": 38,
+            "strong": "G5343",
+            "status": "verified"
+          },
+          {
+            "surface": "op",
+            "charStart": 39,
+            "charEnd": 41,
+            "strong": "G1909",
+            "status": "verified"
+          },
+          {
+            "surface": "bergen",
+            "charStart": 45,
+            "charEnd": 51,
+            "strong": "G3735",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Matt.24.17",
+      "ref": "24:17",
+      "sv": "Die op het dak is, kome niet af, om iets uit zijn huis weg te nemen;",
+      "kjv": [
+        {
+          "t": "Let",
+          "s": null
+        },
+        {
+          "t": "him",
+          "s": null
+        },
+        {
+          "t": "which",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "on",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "housetop",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "come",
+          "s": null
+        },
+        {
+          "t": "down",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "take",
+          "s": null
+        },
+        {
+          "t": "any",
+          "s": null
+        },
+        {
+          "t": "thing",
+          "s": null
+        },
+        {
+          "t": "out",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "house:",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "op",
+            "charStart": 4,
+            "charEnd": 6,
+            "strong": "G1909",
+            "status": "verified"
+          },
+          {
+            "surface": "dak",
+            "charStart": 11,
+            "charEnd": 14,
+            "strong": "G1430",
+            "status": "verified"
+          },
+          {
+            "surface": "kome",
+            "charStart": 19,
+            "charEnd": 23,
+            "strong": "G2597",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 24,
+            "charEnd": 28,
+            "strong": "G3361",
+            "status": "verified"
+          },
+          {
+            "surface": "iets",
+            "charStart": 36,
+            "charEnd": 40,
+            "strong": "G5100",
+            "status": "verified"
+          },
+          {
+            "surface": "uit",
+            "charStart": 41,
+            "charEnd": 44,
+            "strong": "G1537",
+            "status": "verified"
+          },
+          {
+            "surface": "zijn",
+            "charStart": 45,
+            "charEnd": 49,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "huis",
+            "charStart": 50,
+            "charEnd": 54,
+            "strong": "G3614",
+            "status": "verified"
+          },
+          {
+            "surface": "nemen",
+            "charStart": 62,
+            "charEnd": 67,
+            "strong": "G142",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Matt.24.18",
+      "ref": "24:18",
+      "sv": "En die op den akker is, kere niet weder terug, om zijn klederen weg te nemen.",
+      "kjv": [
+        {
+          "t": "Neither",
+          "s": null
+        },
+        {
+          "t": "let",
+          "s": null
+        },
+        {
+          "t": "him",
+          "s": null
+        },
+        {
+          "t": "which",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "field",
+          "s": null
+        },
+        {
+          "t": "return",
+          "s": null
+        },
+        {
+          "t": "back",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "take",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "clothes.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "En",
+            "charStart": 0,
+            "charEnd": 2,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "op",
+            "charStart": 7,
+            "charEnd": 9,
+            "strong": "G1722",
+            "status": "verified"
+          },
+          {
+            "surface": "akker",
+            "charStart": 14,
+            "charEnd": 19,
+            "strong": "G68",
+            "status": "verified"
+          },
+          {
+            "surface": "kere",
+            "charStart": 24,
+            "charEnd": 28,
+            "strong": "G1994",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 29,
+            "charEnd": 33,
+            "strong": "G3361",
+            "status": "verified"
+          },
+          {
+            "surface": "weder",
+            "charStart": 34,
+            "charEnd": 39,
+            "strong": "G1994",
+            "status": "verified"
+          },
+          {
+            "surface": "terug",
+            "charStart": 40,
+            "charEnd": 45,
+            "strong": "G3694",
+            "status": "verified"
+          },
+          {
+            "surface": "zijn",
+            "charStart": 50,
+            "charEnd": 54,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "klederen",
+            "charStart": 55,
+            "charEnd": 63,
+            "strong": "G2440",
+            "status": "verified"
+          },
+          {
+            "surface": "nemen",
+            "charStart": 71,
+            "charEnd": 76,
+            "strong": "G142",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Matt.24.19",
+      "ref": "24:19",
+      "sv": "Maar wee den bevruchten, en den zogenden [vrouwen] in die dagen!",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "woe",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "them",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "are",
+          "s": null
+        },
+        {
+          "t": "with",
+          "s": null
+        },
+        {
+          "t": "child,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "them",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "give",
+          "s": null
+        },
+        {
+          "t": "suck",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "those",
+          "s": null
+        },
+        {
+          "t": "days!",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Maar",
+            "charStart": 0,
+            "charEnd": 4,
+            "strong": "G1161",
+            "status": "verified"
+          },
+          {
+            "surface": "wee",
+            "charStart": 5,
+            "charEnd": 8,
+            "strong": "G3759",
+            "status": "verified"
+          },
+          {
+            "surface": "bevruchten",
+            "charStart": 13,
+            "charEnd": 23,
+            "strong": "G2192",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 25,
+            "charEnd": 27,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "zogenden",
+            "charStart": 32,
+            "charEnd": 40,
+            "strong": "G2337",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 51,
+            "charEnd": 53,
+            "strong": "G1722",
+            "status": "verified"
+          },
+          {
+            "surface": "die",
+            "charStart": 54,
+            "charEnd": 57,
+            "strong": "G1565",
+            "status": "verified"
+          },
+          {
+            "surface": "dagen",
+            "charStart": 58,
+            "charEnd": 63,
+            "strong": "G2250",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Matt.24.20",
+      "ref": "24:20",
+      "sv": "Doch bidt, dat uw vlucht niet geschiede des winters, noch op een sabbat.",
+      "kjv": [
+        {
+          "t": "But",
+          "s": null
+        },
+        {
+          "t": "pray",
+          "s": null
+        },
+        {
+          "t": "ye",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "your",
+          "s": null
+        },
+        {
+          "t": "flight",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "winter,",
+          "s": null
+        },
+        {
+          "t": "neither",
+          "s": null
+        },
+        {
+          "t": "on",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "sabbath",
+          "s": null
+        },
+        {
+          "t": "day:",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Doch",
+            "charStart": 0,
+            "charEnd": 4,
+            "strong": "G1161",
+            "status": "verified"
+          },
+          {
+            "surface": "bidt",
+            "charStart": 5,
+            "charEnd": 9,
+            "strong": "G4336",
+            "status": "verified"
+          },
+          {
+            "surface": "dat",
+            "charStart": 11,
+            "charEnd": 14,
+            "strong": "G2443",
+            "status": "verified"
+          },
+          {
+            "surface": "uw",
+            "charStart": 15,
+            "charEnd": 17,
+            "strong": "G5216",
+            "status": "verified"
+          },
+          {
+            "surface": "vlucht",
+            "charStart": 18,
+            "charEnd": 24,
+            "strong": "G5437",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 25,
+            "charEnd": 29,
+            "strong": "G3361",
+            "status": "verified"
+          },
+          {
+            "surface": "geschiede",
+            "charStart": 30,
+            "charEnd": 39,
+            "strong": "G1096",
+            "status": "verified"
+          },
+          {
+            "surface": "winters",
+            "charStart": 44,
+            "charEnd": 51,
+            "strong": "G5494",
+            "status": "verified"
+          },
+          {
+            "surface": "noch",
+            "charStart": 53,
+            "charEnd": 57,
+            "strong": "G3366",
+            "status": "verified"
+          },
+          {
+            "surface": "op",
+            "charStart": 58,
+            "charEnd": 60,
+            "strong": "G1722",
+            "status": "verified"
+          },
+          {
+            "surface": "sabbat",
+            "charStart": 65,
+            "charEnd": 71,
+            "strong": "G4521",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Matt.24.21",
+      "ref": "24:21",
+      "sv": "Want alsdan zal grote verdrukking wezen, hoedanige niet is geweest van het begin der wereld tot nu toe, en ook niet zijn zal.",
+      "kjv": [
+        {
+          "t": "For",
+          "s": null
+        },
+        {
+          "t": "then",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "great",
+          "s": null
+        },
+        {
+          "t": "tribulation,",
+          "s": null
+        },
+        {
+          "t": "such",
+          "s": null
+        },
+        {
+          "t": "as",
+          "s": null
+        },
+        {
+          "t": "was",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "since",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "beginning",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "world",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "this",
+          "s": null
+        },
+        {
+          "t": "time,",
+          "s": null
+        },
+        {
+          "t": "no,",
+          "s": null
+        },
+        {
+          "t": "nor",
+          "s": null
+        },
+        {
+          "t": "ever",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "be.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Want",
+            "charStart": 0,
+            "charEnd": 4,
+            "strong": "G1063",
+            "status": "verified"
+          },
+          {
+            "surface": "alsdan",
+            "charStart": 5,
+            "charEnd": 11,
+            "strong": "G5119",
+            "status": "verified"
+          },
+          {
+            "surface": "grote",
+            "charStart": 16,
+            "charEnd": 21,
+            "strong": "G3173",
+            "status": "verified"
+          },
+          {
+            "surface": "verdrukking",
+            "charStart": 22,
+            "charEnd": 33,
+            "strong": "G2347",
+            "status": "verified"
+          },
+          {
+            "surface": "wezen",
+            "charStart": 34,
+            "charEnd": 39,
+            "strong": "G2071",
+            "status": "verified"
+          },
+          {
+            "surface": "hoedanige",
+            "charStart": 41,
+            "charEnd": 50,
+            "strong": "G3634",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 51,
+            "charEnd": 55,
+            "strong": "G3756",
+            "status": "verified"
+          },
+          {
+            "surface": "geweest",
+            "charStart": 59,
+            "charEnd": 66,
+            "strong": "G1096",
+            "status": "verified"
+          },
+          {
+            "surface": "van",
+            "charStart": 67,
+            "charEnd": 70,
+            "strong": "G575",
+            "status": "verified"
+          },
+          {
+            "surface": "begin",
+            "charStart": 75,
+            "charEnd": 80,
+            "strong": "G746",
+            "status": "verified"
+          },
+          {
+            "surface": "wereld",
+            "charStart": 85,
+            "charEnd": 91,
+            "strong": "G2889",
+            "status": "verified"
+          },
+          {
+            "surface": "tot",
+            "charStart": 92,
+            "charEnd": 95,
+            "strong": "G2193",
+            "status": "verified"
+          },
+          {
+            "surface": "nu",
+            "charStart": 96,
+            "charEnd": 98,
+            "strong": "G3568",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 111,
+            "charEnd": 115,
+            "strong": "G3761",
+            "status": "verified"
+          },
+          {
+            "surface": "zal",
+            "charStart": 121,
+            "charEnd": 124,
+            "strong": "G1096",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Matt.24.22",
+      "ref": "24:22",
+      "sv": "En zo die dagen niet verkort werden, geen vlees zou behouden worden; maar om der uitverkorenen wil zullen die dagen verkort worden.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "except",
+          "s": null
+        },
+        {
+          "t": "those",
+          "s": null
+        },
+        {
+          "t": "days",
+          "s": null
+        },
+        {
+          "t": "should",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "shortened,",
+          "s": null
+        },
+        {
+          "t": "there",
+          "s": null
+        },
+        {
+          "t": "should",
+          "s": null
+        },
+        {
+          "t": "no",
+          "s": null
+        },
+        {
+          "t": "flesh",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "saved:",
+          "s": null
+        },
+        {
+          "t": "but",
+          "s": null
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "elect's",
+          "s": null
+        },
+        {
+          "t": "sake",
+          "s": null
+        },
+        {
+          "t": "those",
+          "s": null
+        },
+        {
+          "t": "days",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "shortened.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "En",
+            "charStart": 0,
+            "charEnd": 2,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "zo",
+            "charStart": 3,
+            "charEnd": 5,
+            "strong": "G1487",
+            "status": "verified"
+          },
+          {
+            "surface": "die",
+            "charStart": 6,
+            "charEnd": 9,
+            "strong": "G1565",
+            "status": "verified"
+          },
+          {
+            "surface": "dagen",
+            "charStart": 10,
+            "charEnd": 15,
+            "strong": "G2250",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 16,
+            "charEnd": 20,
+            "strong": "G3361",
+            "status": "verified"
+          },
+          {
+            "surface": "werden",
+            "charStart": 29,
+            "charEnd": 35,
+            "strong": "G2856",
+            "status": "verified"
+          },
+          {
+            "surface": "geen",
+            "charStart": 37,
+            "charEnd": 41,
+            "strong": "G3756",
+            "status": "verified"
+          },
+          {
+            "surface": "vlees",
+            "charStart": 42,
+            "charEnd": 47,
+            "strong": "G4561",
+            "status": "verified"
+          },
+          {
+            "surface": "worden",
+            "charStart": 61,
+            "charEnd": 67,
+            "strong": "G302",
+            "status": "verified"
+          },
+          {
+            "surface": "maar",
+            "charStart": 69,
+            "charEnd": 73,
+            "strong": "G1161",
+            "status": "verified"
+          },
+          {
+            "surface": "om",
+            "charStart": 74,
+            "charEnd": 76,
+            "strong": "G1223",
+            "status": "verified"
+          },
+          {
+            "surface": "uitverkorenen",
+            "charStart": 81,
+            "charEnd": 94,
+            "strong": "G1588",
+            "status": "verified"
+          },
+          {
+            "surface": "die",
+            "charStart": 106,
+            "charEnd": 109,
+            "strong": "G1565",
+            "status": "verified"
+          },
+          {
+            "surface": "dagen",
+            "charStart": 110,
+            "charEnd": 115,
+            "strong": "G2250",
+            "status": "verified"
+          },
+          {
+            "surface": "worden",
+            "charStart": 124,
+            "charEnd": 130,
+            "strong": "G2856",
+            "status": "verified"
+          }
+        ]
+      }
+    }
+  ],
+  "lexicon": {}
+}

@@ -2,7 +2,7 @@
 id: reeh
 parasha: Re'eh
 label:
-  nl: Re’eh
+  nl: Re'eh
   en: Re'eh
 status: published
 current: false
@@ -20,14 +20,14 @@ passages:
     osis: "Isa.54.11-Isa.55.5"
   - role: gospel
     ref:
-      nl: "Johannes 6:35–51"
+      nl: "Johannes 6:35-51"
       en: "John 6:35–51"
     osis: "John.6.35-John.6.51"
 extra_references: []
-title_nl: "Zie, ik houd u heden zegen en vervloeking voor"
-title_en: "Behold, I set before you this day a blessing and a curse"
-summary_nl: "Over de keuze tussen gehoorzaamheid en afgoderij, de plaats die de HEERE zal kiezen, en de feesttijden."
-summary_en: "On choosing between obedience and idolatry, the place the LORD will choose, and the appointed feasts."
+title_nl: "Lezing Re'eh"
+title_en: "Re'eh Reading"
+summary_nl: "Wekelijkse lezing van Re'eh."
+summary_en: "Weekly reading of Re'eh."
 ---
 
-De keuze staat scherp: de zegen bij het luisteren naar de geboden van de HEERE, of de vloek bij het afwijken daarvan.
+De wekelijkse lezing van Re'eh.

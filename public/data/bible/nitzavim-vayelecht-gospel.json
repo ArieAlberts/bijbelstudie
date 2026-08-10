@@ -1,0 +1,2020 @@
+{
+  "study": "nitzavim-vayelecht",
+  "role": "gospel",
+  "osis": "John.12.41-John.12.50",
+  "ref": {
+    "nl": "Johannes 12:41-50",
+    "en": "John 12:41–50"
+  },
+  "testament": "NT",
+  "verses": [
+    {
+      "osis": "John.12.41",
+      "ref": "12:41",
+      "sv": "Dit zeide Jesaja, toen hij Zijn heerlijkheid zag, en van Hem sprak.",
+      "kjv": [
+        {
+          "t": "These",
+          "s": null
+        },
+        {
+          "t": "things",
+          "s": null
+        },
+        {
+          "t": "said",
+          "s": null
+        },
+        {
+          "t": "Esaias,",
+          "s": null
+        },
+        {
+          "t": "when",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "saw",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "glory,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "spake",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "him.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Dit",
+            "charStart": 0,
+            "charEnd": 3,
+            "strong": "G5023",
+            "status": "verified"
+          },
+          {
+            "surface": "zeide",
+            "charStart": 4,
+            "charEnd": 9,
+            "strong": "G2036",
+            "status": "verified"
+          },
+          {
+            "surface": "Jesaja",
+            "charStart": 10,
+            "charEnd": 16,
+            "strong": "G2268",
+            "status": "verified"
+          },
+          {
+            "surface": "toen",
+            "charStart": 18,
+            "charEnd": 22,
+            "strong": "G3753",
+            "status": "verified"
+          },
+          {
+            "surface": "Zijn",
+            "charStart": 27,
+            "charEnd": 31,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "heerlijkheid",
+            "charStart": 32,
+            "charEnd": 44,
+            "strong": "G1391",
+            "status": "verified"
+          },
+          {
+            "surface": "zag",
+            "charStart": 45,
+            "charEnd": 48,
+            "strong": "G1492",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 50,
+            "charEnd": 52,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "van",
+            "charStart": 53,
+            "charEnd": 56,
+            "strong": "G4012",
+            "status": "verified"
+          },
+          {
+            "surface": "Hem",
+            "charStart": 57,
+            "charEnd": 60,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "sprak",
+            "charStart": 61,
+            "charEnd": 66,
+            "strong": "G2980",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "John.12.42",
+      "ref": "12:42",
+      "sv": "Nochtans geloofden ook zelfs velen uit de oversten in Hem; maar om der Farizeen wil beleden zij het niet; opdat zij uit de synagoge niet zouden geworpen worden.",
+      "kjv": [
+        {
+          "t": "Nevertheless",
+          "s": null
+        },
+        {
+          "t": "among",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "chief",
+          "s": null
+        },
+        {
+          "t": "rulers",
+          "s": null
+        },
+        {
+          "t": "also",
+          "s": null
+        },
+        {
+          "t": "many",
+          "s": null
+        },
+        {
+          "t": "believed",
+          "s": null
+        },
+        {
+          "t": "on",
+          "s": null
+        },
+        {
+          "t": "him;",
+          "s": null
+        },
+        {
+          "t": "but",
+          "s": null
+        },
+        {
+          "t": "because",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "Pharisees",
+          "s": null
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "did",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "confess",
+          "s": null
+        },
+        {
+          "t": "him,",
+          "s": null
+        },
+        {
+          "t": "lest",
+          "s": null
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "should",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "put",
+          "s": null
+        },
+        {
+          "t": "out",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "synagogue:",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Nochtans",
+            "charStart": 0,
+            "charEnd": 8,
+            "strong": "G3676",
+            "status": "verified"
+          },
+          {
+            "surface": "geloofden",
+            "charStart": 9,
+            "charEnd": 18,
+            "strong": "G4100",
+            "status": "verified"
+          },
+          {
+            "surface": "ook",
+            "charStart": 19,
+            "charEnd": 22,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "velen",
+            "charStart": 29,
+            "charEnd": 34,
+            "strong": "G4183",
+            "status": "verified"
+          },
+          {
+            "surface": "uit",
+            "charStart": 35,
+            "charEnd": 38,
+            "strong": "G1537",
+            "status": "verified"
+          },
+          {
+            "surface": "oversten",
+            "charStart": 42,
+            "charEnd": 50,
+            "strong": "G758",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 51,
+            "charEnd": 53,
+            "strong": "G1519",
+            "status": "verified"
+          },
+          {
+            "surface": "Hem",
+            "charStart": 54,
+            "charEnd": 57,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "maar",
+            "charStart": 59,
+            "charEnd": 63,
+            "strong": "G235",
+            "status": "verified"
+          },
+          {
+            "surface": "om",
+            "charStart": 64,
+            "charEnd": 66,
+            "strong": "G1223",
+            "status": "verified"
+          },
+          {
+            "surface": "Farizeen",
+            "charStart": 71,
+            "charEnd": 79,
+            "strong": "G5330",
+            "status": "verified"
+          },
+          {
+            "surface": "zij",
+            "charStart": 92,
+            "charEnd": 95,
+            "strong": "G3670",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 100,
+            "charEnd": 104,
+            "strong": "G3756",
+            "status": "verified"
+          },
+          {
+            "surface": "opdat",
+            "charStart": 106,
+            "charEnd": 111,
+            "strong": "G2443",
+            "status": "verified"
+          },
+          {
+            "surface": "synagoge",
+            "charStart": 123,
+            "charEnd": 131,
+            "strong": "G656",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 132,
+            "charEnd": 136,
+            "strong": "G3361",
+            "status": "verified"
+          },
+          {
+            "surface": "worden",
+            "charStart": 153,
+            "charEnd": 159,
+            "strong": "G1096",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "John.12.43",
+      "ref": "12:43",
+      "sv": "Want zij hadden de eer der mensen lief, meer dan de eer van God.",
+      "kjv": [
+        {
+          "t": "For",
+          "s": null
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "loved",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "praise",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "men",
+          "s": null
+        },
+        {
+          "t": "more",
+          "s": null
+        },
+        {
+          "t": "than",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "praise",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "God.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Want",
+            "charStart": 0,
+            "charEnd": 4,
+            "strong": "G1063",
+            "status": "verified"
+          },
+          {
+            "surface": "eer",
+            "charStart": 19,
+            "charEnd": 22,
+            "strong": "G1391",
+            "status": "verified"
+          },
+          {
+            "surface": "mensen",
+            "charStart": 27,
+            "charEnd": 33,
+            "strong": "G444",
+            "status": "verified"
+          },
+          {
+            "surface": "lief",
+            "charStart": 34,
+            "charEnd": 38,
+            "strong": "G25",
+            "status": "verified"
+          },
+          {
+            "surface": "meer",
+            "charStart": 40,
+            "charEnd": 44,
+            "strong": "G3123",
+            "status": "verified"
+          },
+          {
+            "surface": "dan",
+            "charStart": 45,
+            "charEnd": 48,
+            "strong": "G2260",
+            "status": "verified"
+          },
+          {
+            "surface": "eer",
+            "charStart": 52,
+            "charEnd": 55,
+            "strong": "G1391",
+            "status": "verified"
+          },
+          {
+            "surface": "God",
+            "charStart": 60,
+            "charEnd": 63,
+            "strong": "G2316",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "John.12.44",
+      "ref": "12:44",
+      "sv": "En Jezus riep, en zeide: Die in Mij gelooft, gelooft in Mij niet, maar in Dengene, Die Mij gezonden heeft.",
+      "kjv": [
+        {
+          "t": "Jesus",
+          "s": null
+        },
+        {
+          "t": "cried",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "said,",
+          "s": null
+        },
+        {
+          "t": "He",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "believeth",
+          "s": null
+        },
+        {
+          "t": "on",
+          "s": null
+        },
+        {
+          "t": "me,",
+          "s": null
+        },
+        {
+          "t": "believeth",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "on",
+          "s": null
+        },
+        {
+          "t": "me,",
+          "s": null
+        },
+        {
+          "t": "but",
+          "s": null
+        },
+        {
+          "t": "on",
+          "s": null
+        },
+        {
+          "t": "him",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "sent",
+          "s": null
+        },
+        {
+          "t": "me.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "En",
+            "charStart": 0,
+            "charEnd": 2,
+            "strong": "G1161",
+            "status": "verified"
+          },
+          {
+            "surface": "Jezus",
+            "charStart": 3,
+            "charEnd": 8,
+            "strong": "G2424",
+            "status": "verified"
+          },
+          {
+            "surface": "riep",
+            "charStart": 9,
+            "charEnd": 13,
+            "strong": "G2896",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 15,
+            "charEnd": 17,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "zeide",
+            "charStart": 18,
+            "charEnd": 23,
+            "strong": "G2036",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 29,
+            "charEnd": 31,
+            "strong": "G1519",
+            "status": "verified"
+          },
+          {
+            "surface": "Mij",
+            "charStart": 32,
+            "charEnd": 35,
+            "strong": "G1691",
+            "status": "verified"
+          },
+          {
+            "surface": "gelooft",
+            "charStart": 36,
+            "charEnd": 43,
+            "strong": "G4100",
+            "status": "verified"
+          },
+          {
+            "surface": "gelooft",
+            "charStart": 45,
+            "charEnd": 52,
+            "strong": "G4100",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 53,
+            "charEnd": 55,
+            "strong": "G1519",
+            "status": "verified"
+          },
+          {
+            "surface": "Mij",
+            "charStart": 56,
+            "charEnd": 59,
+            "strong": "G1691",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 60,
+            "charEnd": 64,
+            "strong": "G3756",
+            "status": "verified"
+          },
+          {
+            "surface": "maar",
+            "charStart": 66,
+            "charEnd": 70,
+            "strong": "G235",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 71,
+            "charEnd": 73,
+            "strong": "G1519",
+            "status": "verified"
+          },
+          {
+            "surface": "Mij",
+            "charStart": 87,
+            "charEnd": 90,
+            "strong": "G3165",
+            "status": "verified"
+          },
+          {
+            "surface": "heeft",
+            "charStart": 100,
+            "charEnd": 105,
+            "strong": "G3992",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "John.12.45",
+      "ref": "12:45",
+      "sv": "En die Mij ziet, die ziet Dengene, Die Mij gezonden heeft.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "seeth",
+          "s": null
+        },
+        {
+          "t": "me",
+          "s": null
+        },
+        {
+          "t": "seeth",
+          "s": null
+        },
+        {
+          "t": "him",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "sent",
+          "s": null
+        },
+        {
+          "t": "me.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "En",
+            "charStart": 0,
+            "charEnd": 2,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "Mij",
+            "charStart": 7,
+            "charEnd": 10,
+            "strong": "G1691",
+            "status": "verified"
+          },
+          {
+            "surface": "ziet",
+            "charStart": 11,
+            "charEnd": 15,
+            "strong": "G2334",
+            "status": "verified"
+          },
+          {
+            "surface": "ziet",
+            "charStart": 21,
+            "charEnd": 25,
+            "strong": "G2334",
+            "status": "verified"
+          },
+          {
+            "surface": "Mij",
+            "charStart": 39,
+            "charEnd": 42,
+            "strong": "G3165",
+            "status": "verified"
+          },
+          {
+            "surface": "heeft",
+            "charStart": 52,
+            "charEnd": 57,
+            "strong": "G3992",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "John.12.46",
+      "ref": "12:46",
+      "sv": "Ik ben een Licht, in de wereld gekomen, opdat een iegelijk, die in Mij gelooft, in de duisternis niet blijve.",
+      "kjv": [
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "am",
+          "s": null
+        },
+        {
+          "t": "come",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "light",
+          "s": null
+        },
+        {
+          "t": "into",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "world,",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "whosoever",
+          "s": null
+        },
+        {
+          "t": "believeth",
+          "s": null
+        },
+        {
+          "t": "on",
+          "s": null
+        },
+        {
+          "t": "me",
+          "s": null
+        },
+        {
+          "t": "should",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "abide",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "darkness.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Ik",
+            "charStart": 0,
+            "charEnd": 2,
+            "strong": "G1473",
+            "status": "verified"
+          },
+          {
+            "surface": "Licht",
+            "charStart": 11,
+            "charEnd": 16,
+            "strong": "G5457",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 18,
+            "charEnd": 20,
+            "strong": "G1519",
+            "status": "verified"
+          },
+          {
+            "surface": "wereld",
+            "charStart": 24,
+            "charEnd": 30,
+            "strong": "G2889",
+            "status": "verified"
+          },
+          {
+            "surface": "gekomen",
+            "charStart": 31,
+            "charEnd": 38,
+            "strong": "G2064",
+            "status": "verified"
+          },
+          {
+            "surface": "opdat",
+            "charStart": 40,
+            "charEnd": 45,
+            "strong": "G2443",
+            "status": "verified"
+          },
+          {
+            "surface": "iegelijk",
+            "charStart": 50,
+            "charEnd": 58,
+            "strong": "G3956",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 64,
+            "charEnd": 66,
+            "strong": "G1519",
+            "status": "verified"
+          },
+          {
+            "surface": "Mij",
+            "charStart": 67,
+            "charEnd": 70,
+            "strong": "G1691",
+            "status": "verified"
+          },
+          {
+            "surface": "gelooft",
+            "charStart": 71,
+            "charEnd": 78,
+            "strong": "G4100",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 80,
+            "charEnd": 82,
+            "strong": "G1722",
+            "status": "verified"
+          },
+          {
+            "surface": "duisternis",
+            "charStart": 86,
+            "charEnd": 96,
+            "strong": "G4653",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 97,
+            "charEnd": 101,
+            "strong": "G3361",
+            "status": "verified"
+          },
+          {
+            "surface": "blijve",
+            "charStart": 102,
+            "charEnd": 108,
+            "strong": "G3306",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "John.12.47",
+      "ref": "12:47",
+      "sv": "En indien iemand Mijn woorden gehoord, en niet geloofd zal hebben, Ik oordeel hem niet; want Ik ben niet gekomen, opdat Ik de wereld oordele, maar opdat Ik de wereld zalig make.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "if",
+          "s": null
+        },
+        {
+          "t": "any",
+          "s": null
+        },
+        {
+          "t": "man",
+          "s": null
+        },
+        {
+          "t": "hear",
+          "s": null
+        },
+        {
+          "t": "my",
+          "s": null
+        },
+        {
+          "t": "words,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "believe",
+          "s": null
+        },
+        {
+          "t": "not,",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "judge",
+          "s": null
+        },
+        {
+          "t": "him",
+          "s": null
+        },
+        {
+          "t": "not:",
+          "s": null
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "came",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "judge",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "world,",
+          "s": null
+        },
+        {
+          "t": "but",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "save",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "world.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "En",
+            "charStart": 0,
+            "charEnd": 2,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "indien",
+            "charStart": 3,
+            "charEnd": 9,
+            "strong": "G3362",
+            "status": "verified"
+          },
+          {
+            "surface": "iemand",
+            "charStart": 10,
+            "charEnd": 16,
+            "strong": "G5100",
+            "status": "verified"
+          },
+          {
+            "surface": "Mijn",
+            "charStart": 17,
+            "charEnd": 21,
+            "strong": "G3450",
+            "status": "verified"
+          },
+          {
+            "surface": "woorden",
+            "charStart": 22,
+            "charEnd": 29,
+            "strong": "G4487",
+            "status": "verified"
+          },
+          {
+            "surface": "gehoord",
+            "charStart": 30,
+            "charEnd": 37,
+            "strong": "G191",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 39,
+            "charEnd": 41,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 42,
+            "charEnd": 46,
+            "strong": "G3361",
+            "status": "verified"
+          },
+          {
+            "surface": "hebben",
+            "charStart": 59,
+            "charEnd": 65,
+            "strong": "G4100",
+            "status": "verified"
+          },
+          {
+            "surface": "Ik",
+            "charStart": 67,
+            "charEnd": 69,
+            "strong": "G1473",
+            "status": "verified"
+          },
+          {
+            "surface": "oordeel",
+            "charStart": 70,
+            "charEnd": 77,
+            "strong": "G2919",
+            "status": "verified"
+          },
+          {
+            "surface": "hem",
+            "charStart": 78,
+            "charEnd": 81,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 82,
+            "charEnd": 86,
+            "strong": "G3756",
+            "status": "verified"
+          },
+          {
+            "surface": "want",
+            "charStart": 88,
+            "charEnd": 92,
+            "strong": "G1063",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 100,
+            "charEnd": 104,
+            "strong": "G3756",
+            "status": "verified"
+          },
+          {
+            "surface": "gekomen",
+            "charStart": 105,
+            "charEnd": 112,
+            "strong": "G2064",
+            "status": "verified"
+          },
+          {
+            "surface": "opdat",
+            "charStart": 114,
+            "charEnd": 119,
+            "strong": "G2443",
+            "status": "verified"
+          },
+          {
+            "surface": "wereld",
+            "charStart": 126,
+            "charEnd": 132,
+            "strong": "G2889",
+            "status": "verified"
+          },
+          {
+            "surface": "oordele",
+            "charStart": 133,
+            "charEnd": 140,
+            "strong": "G2919",
+            "status": "verified"
+          },
+          {
+            "surface": "maar",
+            "charStart": 142,
+            "charEnd": 146,
+            "strong": "G235",
+            "status": "verified"
+          },
+          {
+            "surface": "opdat",
+            "charStart": 147,
+            "charEnd": 152,
+            "strong": "G2443",
+            "status": "verified"
+          },
+          {
+            "surface": "wereld",
+            "charStart": 159,
+            "charEnd": 165,
+            "strong": "G2889",
+            "status": "verified"
+          },
+          {
+            "surface": "make",
+            "charStart": 172,
+            "charEnd": 176,
+            "strong": "G4982",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "John.12.48",
+      "ref": "12:48",
+      "sv": "Die Mij verwerpt, en Mijn woorden niet ontvangt, heeft, die hem oordeelt; het woord, dat Ik gesproken heb, dat zal hem oordelen ten laatsten dage.",
+      "kjv": [
+        {
+          "t": "He",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "rejecteth",
+          "s": null
+        },
+        {
+          "t": "me,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "receiveth",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "my",
+          "s": null
+        },
+        {
+          "t": "words,",
+          "s": null
+        },
+        {
+          "t": "hath",
+          "s": null
+        },
+        {
+          "t": "one",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "judgeth",
+          "s": null
+        },
+        {
+          "t": "him:",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "word",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "have",
+          "s": null
+        },
+        {
+          "t": "spoken,",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "same",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "judge",
+          "s": null
+        },
+        {
+          "t": "him",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "last",
+          "s": null
+        },
+        {
+          "t": "day.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Mij",
+            "charStart": 4,
+            "charEnd": 7,
+            "strong": "G1691",
+            "status": "verified"
+          },
+          {
+            "surface": "verwerpt",
+            "charStart": 8,
+            "charEnd": 16,
+            "strong": "G114",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 18,
+            "charEnd": 20,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "Mijn",
+            "charStart": 21,
+            "charEnd": 25,
+            "strong": "G3450",
+            "status": "verified"
+          },
+          {
+            "surface": "woorden",
+            "charStart": 26,
+            "charEnd": 33,
+            "strong": "G4487",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 34,
+            "charEnd": 38,
+            "strong": "G3361",
+            "status": "verified"
+          },
+          {
+            "surface": "ontvangt",
+            "charStart": 39,
+            "charEnd": 47,
+            "strong": "G2983",
+            "status": "verified"
+          },
+          {
+            "surface": "heeft",
+            "charStart": 49,
+            "charEnd": 54,
+            "strong": "G2192",
+            "status": "verified"
+          },
+          {
+            "surface": "hem",
+            "charStart": 60,
+            "charEnd": 63,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "oordeelt",
+            "charStart": 64,
+            "charEnd": 72,
+            "strong": "G2919",
+            "status": "verified"
+          },
+          {
+            "surface": "woord",
+            "charStart": 78,
+            "charEnd": 83,
+            "strong": "G3056",
+            "status": "verified"
+          },
+          {
+            "surface": "dat",
+            "charStart": 85,
+            "charEnd": 88,
+            "strong": "G3739",
+            "status": "verified"
+          },
+          {
+            "surface": "heb",
+            "charStart": 102,
+            "charEnd": 105,
+            "strong": "G2980",
+            "status": "verified"
+          },
+          {
+            "surface": "dat",
+            "charStart": 107,
+            "charEnd": 110,
+            "strong": "G1565",
+            "status": "verified"
+          },
+          {
+            "surface": "hem",
+            "charStart": 115,
+            "charEnd": 118,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "oordelen",
+            "charStart": 119,
+            "charEnd": 127,
+            "strong": "G2919",
+            "status": "verified"
+          },
+          {
+            "surface": "ten",
+            "charStart": 128,
+            "charEnd": 131,
+            "strong": "G1722",
+            "status": "verified"
+          },
+          {
+            "surface": "laatsten",
+            "charStart": 132,
+            "charEnd": 140,
+            "strong": "G2078",
+            "status": "verified"
+          },
+          {
+            "surface": "dage",
+            "charStart": 141,
+            "charEnd": 145,
+            "strong": "G2250",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "John.12.49",
+      "ref": "12:49",
+      "sv": "Want Ik heb uit Mijzelven niet gesproken; maar de Vader, Die Mij gezonden heeft, Die heeft Mij een gebod gegeven, wat Ik zeggen zal, en wat Ik spreken zal.",
+      "kjv": [
+        {
+          "t": "For",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "have",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "spoken",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "myself;",
+          "s": null
+        },
+        {
+          "t": "but",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "Father",
+          "s": null
+        },
+        {
+          "t": "which",
+          "s": null
+        },
+        {
+          "t": "sent",
+          "s": null
+        },
+        {
+          "t": "me,",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "gave",
+          "s": null
+        },
+        {
+          "t": "me",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "commandment,",
+          "s": null
+        },
+        {
+          "t": "what",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "should",
+          "s": null
+        },
+        {
+          "t": "say,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "what",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "should",
+          "s": null
+        },
+        {
+          "t": "speak.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Want",
+            "charStart": 0,
+            "charEnd": 4,
+            "strong": "G3754",
+            "status": "verified"
+          },
+          {
+            "surface": "Ik",
+            "charStart": 5,
+            "charEnd": 7,
+            "strong": "G1473",
+            "status": "verified"
+          },
+          {
+            "surface": "uit",
+            "charStart": 12,
+            "charEnd": 15,
+            "strong": "G1537",
+            "status": "verified"
+          },
+          {
+            "surface": "Mijzelven",
+            "charStart": 16,
+            "charEnd": 25,
+            "strong": "G1683",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 26,
+            "charEnd": 30,
+            "strong": "G3756",
+            "status": "verified"
+          },
+          {
+            "surface": "gesproken",
+            "charStart": 31,
+            "charEnd": 40,
+            "strong": "G2980",
+            "status": "verified"
+          },
+          {
+            "surface": "maar",
+            "charStart": 42,
+            "charEnd": 46,
+            "strong": "G235",
+            "status": "verified"
+          },
+          {
+            "surface": "Vader",
+            "charStart": 50,
+            "charEnd": 55,
+            "strong": "G3962",
+            "status": "verified"
+          },
+          {
+            "surface": "Mij",
+            "charStart": 61,
+            "charEnd": 64,
+            "strong": "G3165",
+            "status": "verified"
+          },
+          {
+            "surface": "heeft",
+            "charStart": 74,
+            "charEnd": 79,
+            "strong": "G3992",
+            "status": "verified"
+          },
+          {
+            "surface": "Mij",
+            "charStart": 91,
+            "charEnd": 94,
+            "strong": "G3427",
+            "status": "verified"
+          },
+          {
+            "surface": "gebod",
+            "charStart": 99,
+            "charEnd": 104,
+            "strong": "G1785",
+            "status": "verified"
+          },
+          {
+            "surface": "gegeven",
+            "charStart": 105,
+            "charEnd": 112,
+            "strong": "G1325",
+            "status": "verified"
+          },
+          {
+            "surface": "wat",
+            "charStart": 114,
+            "charEnd": 117,
+            "strong": "G5101",
+            "status": "verified"
+          },
+          {
+            "surface": "zal",
+            "charStart": 128,
+            "charEnd": 131,
+            "strong": "G2036",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 133,
+            "charEnd": 135,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "wat",
+            "charStart": 136,
+            "charEnd": 139,
+            "strong": "G5101",
+            "status": "verified"
+          },
+          {
+            "surface": "zal",
+            "charStart": 151,
+            "charEnd": 154,
+            "strong": "G2980",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "John.12.50",
+      "ref": "12:50",
+      "sv": "En Ik weet, dat Zijn gebod het eeuwige leven is. Hetgeen Ik dan spreek, dat spreek Ik alzo, gelijk Mij de Vader gezegd heeft.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "know",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "commandment",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "life",
+          "s": null
+        },
+        {
+          "t": "everlasting:",
+          "s": null
+        },
+        {
+          "t": "whatsoever",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "speak",
+          "s": null
+        },
+        {
+          "t": "therefore,",
+          "s": null
+        },
+        {
+          "t": "even",
+          "s": null
+        },
+        {
+          "t": "as",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "Father",
+          "s": null
+        },
+        {
+          "t": "said",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "me,",
+          "s": null
+        },
+        {
+          "t": "so",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "speak.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "En",
+            "charStart": 0,
+            "charEnd": 2,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "weet",
+            "charStart": 6,
+            "charEnd": 10,
+            "strong": "G1492",
+            "status": "verified"
+          },
+          {
+            "surface": "dat",
+            "charStart": 12,
+            "charEnd": 15,
+            "strong": "G3754",
+            "status": "verified"
+          },
+          {
+            "surface": "Zijn",
+            "charStart": 16,
+            "charEnd": 20,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "gebod",
+            "charStart": 21,
+            "charEnd": 26,
+            "strong": "G1785",
+            "status": "verified"
+          },
+          {
+            "surface": "eeuwige",
+            "charStart": 31,
+            "charEnd": 38,
+            "strong": "G166",
+            "status": "verified"
+          },
+          {
+            "surface": "leven",
+            "charStart": 39,
+            "charEnd": 44,
+            "strong": "G2222",
+            "status": "verified"
+          },
+          {
+            "surface": "is",
+            "charStart": 45,
+            "charEnd": 47,
+            "strong": "G2076",
+            "status": "verified"
+          },
+          {
+            "surface": "Hetgeen",
+            "charStart": 49,
+            "charEnd": 56,
+            "strong": "G3739",
+            "status": "verified"
+          },
+          {
+            "surface": "Ik",
+            "charStart": 57,
+            "charEnd": 59,
+            "strong": "G1473",
+            "status": "verified"
+          },
+          {
+            "surface": "dan",
+            "charStart": 60,
+            "charEnd": 63,
+            "strong": "G3767",
+            "status": "verified"
+          },
+          {
+            "surface": "spreek",
+            "charStart": 64,
+            "charEnd": 70,
+            "strong": "G2980",
+            "status": "verified"
+          },
+          {
+            "surface": "Ik",
+            "charStart": 83,
+            "charEnd": 85,
+            "strong": "G2980",
+            "status": "verified"
+          },
+          {
+            "surface": "alzo",
+            "charStart": 86,
+            "charEnd": 90,
+            "strong": "G3779",
+            "status": "verified"
+          },
+          {
+            "surface": "gelijk",
+            "charStart": 92,
+            "charEnd": 98,
+            "strong": "G2531",
+            "status": "verified"
+          },
+          {
+            "surface": "Mij",
+            "charStart": 99,
+            "charEnd": 102,
+            "strong": "G3427",
+            "status": "verified"
+          },
+          {
+            "surface": "Vader",
+            "charStart": 106,
+            "charEnd": 111,
+            "strong": "G3962",
+            "status": "verified"
+          },
+          {
+            "surface": "heeft",
+            "charStart": 119,
+            "charEnd": 124,
+            "strong": "G2046",
+            "status": "verified"
+          }
+        ]
+      }
+    }
+  ],
+  "lexicon": {
+    "G4100": {
+      "lemma": "πιστεύω",
+      "translit": "pisteuō",
+      "strong": "G4100",
+      "language": "greek",
+      "gloss": "geloven, vertrouwen (to believe, trust)"
+    },
+    "G3962": {
+      "lemma": "πατήρ",
+      "translit": "patēr",
+      "strong": "G3962",
+      "language": "greek",
+      "gloss": "Vader (Father)"
+    }
+  }
+}
