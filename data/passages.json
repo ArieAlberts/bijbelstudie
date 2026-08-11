@@ -1,5 +1,5 @@
 {
-  "_note": "Gegenereerd door scripts/build-passages-index.mjs uit /content/parasjot/*.md. NIET handmatig bewerken.",
+  "_note": "Gegenereerd door scripts/build-passages-index.mjs uit /content/parasjot/*.md via js-yaml met schemavalidatie. NIET handmatig bewerken.",
   "defaults": {
     "translations": {
       "nl": "SV",
@@ -8,6 +8,15 @@
   },
   "studies": [
     {
+      "id": "devarim",
+      "parasha": "Devarim",
+      "label": {
+        "nl": "Devarim",
+        "en": "Devarim"
+      },
+      "status": "published",
+      "current": false,
+      "published_at": "2026-07-18",
       "passages": [
         {
           "role": "parasha",
@@ -34,16 +43,7 @@
           "osis": "Matt.24.1-Matt.24.22"
         }
       ],
-      "label": {
-        "nl": "Devarim",
-        "en": "Devarim"
-      },
       "extra_references": [],
-      "id": "devarim",
-      "parasha": "Devarim",
-      "status": "published",
-      "current": false,
-      "published_at": "2026-07-18",
       "title_nl": "Lezing Devarim",
       "title_en": "Devarim Reading",
       "summary_nl": "Wekelijkse lezing van Devarim.",
@@ -51,6 +51,15 @@
       "body": "De wekelijkse lezing van Devarim."
     },
     {
+      "id": "ekev",
+      "parasha": "Ekev",
+      "label": {
+        "nl": "Ekev",
+        "en": "Ekev"
+      },
+      "status": "published",
+      "current": false,
+      "published_at": "2026-08-01",
       "passages": [
         {
           "role": "parasha",
@@ -77,16 +86,7 @@
           "osis": "Matt.16.13-Matt.16.20"
         }
       ],
-      "label": {
-        "nl": "Ekev",
-        "en": "Ekev"
-      },
       "extra_references": [],
-      "id": "ekev",
-      "parasha": "Ekev",
-      "status": "published",
-      "current": false,
-      "published_at": "2026-08-01",
       "title_nl": "Lezing Ekev",
       "title_en": "Ekev Reading",
       "summary_nl": "Wekelijkse lezing van Ekev.",
@@ -94,6 +94,15 @@
       "body": "De wekelijkse lezing van Ekev."
     },
     {
+      "id": "haazinu",
+      "parasha": "Ha'azinu",
+      "label": {
+        "nl": "Ha'azinu",
+        "en": "Ha'azinu"
+      },
+      "status": "published",
+      "current": false,
+      "published_at": "2026-09-19",
       "passages": [
         {
           "role": "parasha",
@@ -112,23 +121,23 @@
           "osis": "Matt.18.21-Matt.18.35"
         }
       ],
-      "label": {
-        "nl": "Haazinu",
-        "en": "Haazinu"
-      },
       "extra_references": [],
-      "id": "haazinu",
-      "parasha": "Haazinu",
-      "status": "published",
-      "current": false,
-      "published_at": "2026-09-19",
-      "title_nl": "Lezing Haazinu",
-      "title_en": "Haazinu Reading",
-      "summary_nl": "Wekelijkse lezing van Haazinu.",
-      "summary_en": "Weekly reading of Haazinu.",
+      "title_nl": "Lezing Ha'azinu",
+      "title_en": "Ha'azinu Reading",
+      "summary_nl": "Wekelijkse lezing van Ha'azinu.",
+      "summary_en": "Weekly reading of Ha'azinu.",
       "body": "De wekelijkse lezing van Ha'azinu."
     },
     {
+      "id": "ki-tavo",
+      "parasha": "Ki Tavo",
+      "label": {
+        "nl": "Ki Tavo",
+        "en": "Ki Tavo"
+      },
+      "status": "published",
+      "current": false,
+      "published_at": "2026-08-29",
       "passages": [
         {
           "role": "parasha",
@@ -155,16 +164,7 @@
           "osis": "Matt.4.13-Matt.4.24"
         }
       ],
-      "label": {
-        "nl": "Ki Tavo",
-        "en": "Ki Tavo"
-      },
       "extra_references": [],
-      "id": "ki-tavo",
-      "parasha": "Ki Tavo",
-      "status": "published",
-      "current": false,
-      "published_at": "2026-08-29",
       "title_nl": "Lezing Ki Tavo",
       "title_en": "Ki Tavo Reading",
       "summary_nl": "Wekelijkse lezing van Ki Tavo.",
@@ -172,6 +172,15 @@
       "body": "De wekelijkse lezing van Ki Tavo."
     },
     {
+      "id": "ki-tetze",
+      "parasha": "Ki Tetze",
+      "label": {
+        "nl": "Ki Tetze",
+        "en": "Ki Tetze"
+      },
+      "status": "published",
+      "current": false,
+      "published_at": "2026-08-22",
       "passages": [
         {
           "role": "parasha",
@@ -198,16 +207,7 @@
           "osis": "Matt.24.29-Matt.24.42"
         }
       ],
-      "label": {
-        "nl": "Ki Tetze",
-        "en": "Ki Tetze"
-      },
       "extra_references": [],
-      "id": "ki-tetze",
-      "parasha": "Ki Tetze",
-      "status": "published",
-      "current": false,
-      "published_at": "2026-08-22",
       "title_nl": "Lezing Ki Tetze",
       "title_en": "Ki Tetze Reading",
       "summary_nl": "Wekelijkse lezing van Ki Tetze.",
@@ -215,6 +215,15 @@
       "body": "De wekelijkse lezing van Ki Tetze."
     },
     {
+      "id": "mattot-massei",
+      "parasha": "Mattot / Massei",
+      "label": {
+        "nl": "Mattot / Massei",
+        "en": "Mattot / Massei"
+      },
+      "status": "published",
+      "current": false,
+      "published_at": "2026-07-11",
       "passages": [
         {
           "role": "parasha",
@@ -233,16 +242,7 @@
           "osis": "Mark.11.12-Mark.11.25"
         }
       ],
-      "label": {
-        "nl": "Mattot / Massei",
-        "en": "Mattot / Massei"
-      },
       "extra_references": [],
-      "id": "mattot-massei",
-      "parasha": "Mattot / Massei",
-      "status": "published",
-      "current": false,
-      "published_at": "2026-07-11",
       "title_nl": "Lezing Mattot / Massei",
       "title_en": "Mattot / Massei Reading",
       "summary_nl": "Wekelijkse lezing van Mattot / Massei.",
@@ -250,6 +250,15 @@
       "body": "De wekelijkse lezing van Mattot / Massei."
     },
     {
+      "id": "nitzavim-vayelecht",
+      "parasha": "Nitzavim / Vayelecht",
+      "label": {
+        "nl": "Nitzavim / Vayelecht",
+        "en": "Nitzavim / Vayelecht"
+      },
+      "status": "published",
+      "current": false,
+      "published_at": "2026-09-05",
       "passages": [
         {
           "role": "parasha",
@@ -276,16 +285,7 @@
           "osis": "John.12.41-John.12.50"
         }
       ],
-      "label": {
-        "nl": "Nitzavim / Vayelecht",
-        "en": "Nitzavim / Vayelecht"
-      },
       "extra_references": [],
-      "id": "nitzavim-vayelecht",
-      "parasha": "Nitzavim / Vayelecht",
-      "status": "published",
-      "current": false,
-      "published_at": "2026-09-05",
       "title_nl": "Lezing Nitzavim / Vayelecht",
       "title_en": "Nitzavim / Vayelecht Reading",
       "summary_nl": "Wekelijkse lezing van Nitzavim / Vayelecht.",
@@ -293,6 +293,15 @@
       "body": "De wekelijkse lezing van Nitzavim / Vayelecht."
     },
     {
+      "id": "pinchas",
+      "parasha": "Pinchas",
+      "label": {
+        "nl": "Pinchas",
+        "en": "Pinchas"
+      },
+      "status": "published",
+      "current": false,
+      "published_at": "2026-07-04",
       "passages": [
         {
           "role": "parasha",
@@ -319,16 +328,7 @@
           "osis": "John.2.13-John.2.22"
         }
       ],
-      "label": {
-        "nl": "Pinchas",
-        "en": "Pinchas"
-      },
       "extra_references": [],
-      "id": "pinchas",
-      "parasha": "Pinchas",
-      "status": "published",
-      "current": false,
-      "published_at": "2026-07-04",
       "title_nl": "Lezing Pinchas",
       "title_en": "Pinchas Reading",
       "summary_nl": "Over de ijver van Pinechas, het verbond van vrede, de telling van het volk en de dochters van Tzelofchad.",
@@ -336,6 +336,15 @@
       "body": "De HEERE sprak tot Mozes: Pinechas, de zoon van Eleazar, de zoon van Aäron, de priester, heeft Mijn grimmigheid van de kinderen Israëls afgewend..."
     },
     {
+      "id": "reeh",
+      "parasha": "Re'eh",
+      "label": {
+        "nl": "Re'eh",
+        "en": "Re'eh"
+      },
+      "status": "published",
+      "current": false,
+      "published_at": "2026-08-08",
       "passages": [
         {
           "role": "parasha",
@@ -362,23 +371,23 @@
           "osis": "John.6.35-John.6.51"
         }
       ],
-      "label": {
-        "nl": "Reeh",
-        "en": "Reeh"
-      },
       "extra_references": [],
-      "id": "reeh",
-      "parasha": "Reeh",
-      "status": "published",
-      "current": false,
-      "published_at": "2026-08-08",
-      "title_nl": "Lezing Reeh",
-      "title_en": "Reeh Reading",
-      "summary_nl": "Wekelijkse lezing van Reeh.",
-      "summary_en": "Weekly reading of Reeh.",
+      "title_nl": "Lezing Re'eh",
+      "title_en": "Re'eh Reading",
+      "summary_nl": "Wekelijkse lezing van Re'eh.",
+      "summary_en": "Weekly reading of Re'eh.",
       "body": "De wekelijkse lezing van Re'eh."
     },
     {
+      "id": "shoftim",
+      "parasha": "Shoftim",
+      "label": {
+        "nl": "Shoftim",
+        "en": "Shoftim"
+      },
+      "status": "published",
+      "current": true,
+      "published_at": "2026-08-15",
       "passages": [
         {
           "role": "parasha",
@@ -405,16 +414,7 @@
           "osis": "John.14.9-John.14.20"
         }
       ],
-      "label": {
-        "nl": "Shoftim",
-        "en": "Shoftim"
-      },
       "extra_references": [],
-      "id": "shoftim",
-      "parasha": "Shoftim",
-      "status": "published",
-      "current": true,
-      "published_at": "2026-08-15",
       "title_nl": "Lezing Shoftim",
       "title_en": "Shoftim Reading",
       "summary_nl": "Wekelijkse lezing van Shoftim.",
@@ -422,6 +422,15 @@
       "body": "De wekelijkse lezing van Shoftim."
     },
     {
+      "id": "sukkot",
+      "parasha": "Sukkot",
+      "label": {
+        "nl": "Sukkot",
+        "en": "Sukkot"
+      },
+      "status": "published",
+      "current": false,
+      "published_at": "2026-09-26",
       "passages": [
         {
           "role": "parasha",
@@ -448,16 +457,7 @@
           "osis": "Luke.2.1-Luke.2.20"
         }
       ],
-      "label": {
-        "nl": "Sukkot",
-        "en": "Sukkot"
-      },
       "extra_references": [],
-      "id": "sukkot",
-      "parasha": "Sukkot",
-      "status": "published",
-      "current": false,
-      "published_at": "2026-09-26",
       "title_nl": "Lezing Sukkot",
       "title_en": "Sukkot Reading",
       "summary_nl": "Wekelijkse lezing van Sukkot.",
@@ -465,6 +465,15 @@
       "body": "De wekelijkse lezing van Sukkot."
     },
     {
+      "id": "vaetchanan",
+      "parasha": "Va'etchanan",
+      "label": {
+        "nl": "Va'etchanan",
+        "en": "Va'etchanan"
+      },
+      "status": "published",
+      "current": false,
+      "published_at": "2026-07-25",
       "passages": [
         {
           "role": "parasha",
@@ -491,23 +500,23 @@
           "osis": "Luke.3.2-Luke.3.15"
         }
       ],
-      "label": {
-        "nl": "Vaetchanan",
-        "en": "Vaetchanan"
-      },
       "extra_references": [],
-      "id": "vaetchanan",
-      "parasha": "Vaetchanan",
-      "status": "published",
-      "current": false,
-      "published_at": "2026-07-25",
-      "title_nl": "Lezing Vaetchanan",
-      "title_en": "Vaetchanan Reading",
-      "summary_nl": "Wekelijkse lezing van Vaetchanan.",
-      "summary_en": "Weekly reading of Vaetchanan.",
+      "title_nl": "Lezing Va'etchanan",
+      "title_en": "Va'etchanan Reading",
+      "summary_nl": "Wekelijkse lezing van Va'etchanan.",
+      "summary_en": "Weekly reading of Va'etchanan.",
       "body": "De wekelijkse lezing van Va'etchanan."
     },
     {
+      "id": "yom-kippur",
+      "parasha": "Yom Kippur",
+      "label": {
+        "nl": "Yom Kippur",
+        "en": "Yom Kippur"
+      },
+      "status": "published",
+      "current": false,
+      "published_at": "2026-09-21",
       "passages": [
         {
           "role": "parasha",
@@ -534,16 +543,7 @@
           "osis": "Matt.25.31-Matt.25.46"
         }
       ],
-      "label": {
-        "nl": "Yom Kippur",
-        "en": "Yom Kippur"
-      },
       "extra_references": [],
-      "id": "yom-kippur",
-      "parasha": "Yom Kippur",
-      "status": "published",
-      "current": false,
-      "published_at": "2026-09-21",
       "title_nl": "Lezing Yom Kippur",
       "title_en": "Yom Kippur Reading",
       "summary_nl": "Wekelijkse lezing van Yom Kippur.",
@@ -551,6 +551,15 @@
       "body": "De wekelijkse lezing van Yom Kippur."
     },
     {
+      "id": "yom-teruah",
+      "parasha": "Yom Teruah",
+      "label": {
+        "nl": "Yom Teruah",
+        "en": "Yom Teruah"
+      },
+      "status": "published",
+      "current": false,
+      "published_at": "2026-09-12",
       "passages": [
         {
           "role": "parasha",
@@ -577,16 +586,7 @@
           "osis": "Matt.24.29-Matt.24.36"
         }
       ],
-      "label": {
-        "nl": "Yom Teruah",
-        "en": "Yom Teruah"
-      },
       "extra_references": [],
-      "id": "yom-teruah",
-      "parasha": "Yom Teruah",
-      "status": "published",
-      "current": false,
-      "published_at": "2026-09-12",
       "title_nl": "Lezing Yom Teruah",
       "title_en": "Yom Teruah Reading",
       "summary_nl": "Wekelijkse lezing van Yom Teruah.",

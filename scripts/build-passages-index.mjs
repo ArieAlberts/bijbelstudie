@@ -1,6 +1,10 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
+const yaml = require('js-yaml');
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -10,67 +14,52 @@ const contentDir = path.join(rootDir, 'content', 'parasjot');
 const outputFile = path.join(rootDir, 'data', 'passages.json');
 const publicOutputFile = path.join(rootDir, 'public', 'data', 'passages.json');
 
-function parseYamlFrontmatter(fileContent) {
-  const match = fileContent.match(/^---\r?\n([\s\S]+?)\r?\n---/);
-  if (!match) return null;
-  const yamlText = match[1];
-
-  const bodyMatch = fileContent.match(/^---\r?\n[\s\S]+?\r?\n---\r?\n([\s\S]*)$/);
-  const markdownBody = bodyMatch ? bodyMatch[1].trim() : '';
-
-  const obj = {
-    passages: [],
-    label: {},
-    extra_references: []
-  };
-
-  let currentPassage = null;
-  let inPassages = false;
-
-  const lines = yamlText.split(/\r?\n/);
-  for (let i = 0; i < lines.length; i++) {
-    const line = lines[i];
-    if (!line.trim() || line.trim().startsWith('#')) continue;
-
-    if (line.startsWith('id:')) obj.id = line.split(':').slice(1).join(':').trim().replace(/['"]/g, '');
-    else if (line.startsWith('parasha:')) obj.parasha = line.split(':').slice(1).join(':').trim().replace(/['"]/g, '');
-    else if (line.startsWith('status:')) obj.status = line.split(':').slice(1).join(':').trim().replace(/['"]/g, '');
-    else if (line.startsWith('current:')) obj.current = line.split(':').slice(1).join(':').trim() === 'true';
-    else if (line.startsWith('published_at:')) obj.published_at = line.split(':').slice(1).join(':').trim().replace(/['"]/g, '');
-    else if (line.startsWith('title_nl:')) obj.title_nl = line.split(':').slice(1).join(':').trim().replace(/['"]/g, '');
-    else if (line.startsWith('title_en:')) obj.title_en = line.split(':').slice(1).join(':').trim().replace(/['"]/g, '');
-    else if (line.startsWith('summary_nl:')) obj.summary_nl = line.split(':').slice(1).join(':').trim().replace(/['"]/g, '');
-    else if (line.startsWith('summary_en:')) obj.summary_en = line.split(':').slice(1).join(':').trim().replace(/['"]/g, '');
-    
-    // Label parsing
-    else if (line.trim().startsWith('nl:') && !inPassages) {
-      obj.label.nl = line.split(':').slice(1).join(':').trim().replace(/['"]/g, '');
-    } else if (line.trim().startsWith('en:') && !inPassages) {
-      obj.label.en = line.split(':').slice(1).join(':').trim().replace(/['"]/g, '');
-    }
-
-    // Passages array parsing
-    else if (line.startsWith('passages:')) {
-      inPassages = true;
-    } else if (inPassages && line.trim().startsWith('- role:')) {
-      currentPassage = { role: line.split(':').slice(1).join(':').trim().replace(/['"]/g, ''), ref: {} };
-      obj.passages.push(currentPassage);
-    } else if (inPassages && currentPassage) {
-      if (line.includes('osis:')) {
-        currentPassage.osis = line.split(':').slice(1).join(':').trim().replace(/['"]/g, '');
-      } else if (line.includes('nl:')) {
-        currentPassage.ref.nl = line.split(':').slice(1).join(':').trim().replace(/['"]/g, '');
-      } else if (line.includes('en:')) {
-        currentPassage.ref.en = line.split(':').slice(1).join(':').trim().replace(/['"]/g, '');
-      }
-    }
+function parseFrontmatter(fileContent, fileName) {
+  const match = fileContent.match(/^---\r?\n([\s\S]+?)\r?\n---\r?\n?([\s\S]*)$/);
+  if (!match) {
+    throw new Error(`[CMS SCHEMA ERROR] File '${fileName}' missing valid YAML frontmatter delimiters ('---').`);
   }
 
+  const yamlStr = match[1];
+  const markdownBody = match[2] ? match[2].trim() : '';
+
+  let parsed;
+  try {
+    parsed = yaml.load(yamlStr);
+  } catch (yamlErr) {
+    throw new Error(`[CMS YAML PARSE ERROR] File '${fileName}': ${yamlErr.message}`);
+  }
+
+  if (!parsed || typeof parsed !== 'object') {
+    throw new Error(`[CMS SCHEMA ERROR] File '${fileName}' frontmatter is not a valid object.`);
+  }
+
+  // Mandatory Schema Validation
+  if (!parsed.id) throw new Error(`[CMS SCHEMA ERROR] File '${fileName}' missing required field 'id'.`);
+  if (!parsed.parasha) throw new Error(`[CMS SCHEMA ERROR] File '${fileName}' missing required field 'parasha'.`);
+  if (!parsed.passages || !Array.isArray(parsed.passages) || parsed.passages.length === 0) {
+    throw new Error(`[CMS SCHEMA ERROR] File '${fileName}' must contain a non-empty 'passages' array.`);
+  }
+
+  // Passage items validation
+  parsed.passages.forEach((p, idx) => {
+    if (!p.role) throw new Error(`[CMS SCHEMA ERROR] Passage #${idx + 1} in '${fileName}' missing 'role'.`);
+    if (!p.osis) throw new Error(`[CMS SCHEMA ERROR] Passage #${idx + 1} in '${fileName}' missing 'osis'.`);
+    if (!p.ref || (typeof p.ref === 'object' && !p.ref.nl && !p.ref.en)) {
+      throw new Error(`[CMS SCHEMA ERROR] Passage #${idx + 1} in '${fileName}' missing 'ref' translations.`);
+    }
+  });
+
+  // Ensure default arrays and objects
+  if (!parsed.label) parsed.label = { nl: parsed.parasha, en: parsed.parasha };
+  if (!parsed.extra_references) parsed.extra_references = [];
+
+  // Attach Markdown body text if present
   if (markdownBody) {
-    obj.body = markdownBody;
+    parsed.body = markdownBody;
   }
 
-  return obj;
+  return parsed;
 }
 
 function buildPassagesManifest() {
@@ -85,14 +74,14 @@ function buildPassagesManifest() {
   for (const file of files) {
     const filePath = path.join(contentDir, file);
     const content = fs.readFileSync(filePath, 'utf-8');
-    const parsed = parseYamlFrontmatter(content);
+    const parsed = parseFrontmatter(content, file);
     if (parsed && (parsed.status === 'published' || !parsed.status)) {
       studies.push(parsed);
     }
   }
 
   const manifest = {
-    _note: "Gegenereerd door scripts/build-passages-index.mjs uit /content/parasjot/*.md. NIET handmatig bewerken.",
+    _note: "Gegenereerd door scripts/build-passages-index.mjs uit /content/parasjot/*.md via js-yaml met schemavalidatie. NIET handmatig bewerken.",
     defaults: {
       translations: {
         nl: "SV",
@@ -115,7 +104,7 @@ function buildPassagesManifest() {
   const jsonString = JSON.stringify(manifest, null, 2);
   fs.writeFileSync(outputFile, jsonString, 'utf-8');
   fs.writeFileSync(publicOutputFile, jsonString, 'utf-8');
-  console.log(`Successfully generated ${outputFile} and ${publicOutputFile} with ${studies.length} studies.`);
+  console.log(`✓ Successfully validated and generated ${outputFile} and ${publicOutputFile} with ${studies.length} studies using js-yaml.`);
 }
 
 buildPassagesManifest();
