@@ -1,13 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import LexiconPopover from './LexiconPopover';
 import DraggableStepWindow from './DraggableStepWindow';
-import { fetchBiblePassage, fetchPassagesIndex } from '../api/bible';
+import { fetchBiblePassage, fetchPassagesIndex, fetchBiblePassageByRef } from '../api/bible';
+import { Search, RotateCcw } from 'lucide-react';
 
 export default function BibleReader({ studyId = 'shoftim', initialSection = 'parasha', lang = 'nl', onSectionChange }) {
   const isEn = lang === 'en';
   const [section, setSection] = useState(initialSection);
   const [showStepWindow, setShowStepWindow] = useState(false);
   const [translation, setTranslation] = useState(isEn ? 'kjv' : 'sv');
+
+  const [customSearchQuery, setCustomSearchQuery] = useState('');
+  const [isCustomLookup, setIsCustomLookup] = useState(false);
 
   useEffect(() => {
     setTranslation(isEn ? 'kjv' : 'sv');
@@ -23,7 +27,9 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
 
   useEffect(() => {
     setSection(initialSection);
-  }, [initialSection]);
+    setIsCustomLookup(false);
+    setCustomSearchQuery('');
+  }, [initialSection, studyId]);
 
   useEffect(() => {
     fetchPassagesIndex()
@@ -33,7 +39,7 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
           if (studyItem && studyItem.passages) {
             const roles = studyItem.passages.map((p) => p.role);
             setAvailableRoles(roles);
-            if (!roles.includes(section)) {
+            if (!roles.includes(section) && !isCustomLookup) {
               const fallbackSec = roles[0] || 'parasha';
               setSection(fallbackSec);
               if (onSectionChange) onSectionChange(fallbackSec);
@@ -45,6 +51,8 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
   }, [studyId]);
 
   useEffect(() => {
+    if (isCustomLookup) return; // Managed by handleCustomSearch
+
     let isMounted = true;
     setLoading(true);
     setError(null);
@@ -66,20 +74,47 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
       });
 
     return () => { isMounted = false; };
-  }, [studyId, section, isEn]);
+  }, [studyId, section, isEn, isCustomLookup]);
 
   const handleSectionSelect = (newSec) => {
+    setIsCustomLookup(false);
+    setCustomSearchQuery('');
     setSection(newSec);
     if (onSectionChange) onSectionChange(newSec);
   };
 
-  // Generate STEP Bible iFrame URL with BOTH translation and original language modules:
-  // - OT (Torah/Haftara): DutSVV + OHB (Open Hebrew Bible)
-  // - NT (Gospel): DutSVV + OGNT (Open Greek New Testament)
-  // Options: HVLGUNMC (Interlinear, Verse numbers, Lexicon, Grammar, Underlying text, Notes, Meanings, Column view)
+  const handleCustomSearchSubmit = (e) => {
+    e.preventDefault();
+    if (!customSearchQuery.trim()) return;
+
+    setLoading(true);
+    setError(null);
+    setSelectedEntry(null);
+    setSelectedRect(null);
+
+    fetchBiblePassageByRef(customSearchQuery, lang)
+      .then(data => {
+        setPassageData(data);
+        setIsCustomLookup(true);
+        setLoading(false);
+      })
+      .catch(err => {
+        setError(err.message || (isEn ? 'Could not find requested Bible passage.' : 'Bijbelgedeelte niet gevonden. Probeer bijv. "Johannes 3:16" of "Jesaja 53".'));
+        setLoading(false);
+      });
+  };
+
+  const handleResetToParasha = () => {
+    setIsCustomLookup(false);
+    setCustomSearchQuery('');
+    const defaultSec = availableRoles[0] || 'parasha';
+    setSection(defaultSec);
+    if (onSectionChange) onSectionChange(defaultSec);
+  };
+
   const getStepIframeUrl = () => {
     const osis = passageData?.osis || 'Deut.16.18-Deut.21.9';
-    const isNt = passageData?.testament === 'NT' || osis.startsWith('John') || osis.startsWith('Matt') || osis.startsWith('Mark') || osis.startsWith('Luke');
+    const isNt = passageData?.testament === 'NT' || osis.startsWith('John') || osis.startsWith('Matt') || osis.startsWith('Mark') || osis.startsWith('Luke') || osis.startsWith('Acts') || osis.startsWith('Rom');
     const originalVersion = isNt ? 'OGNT' : 'OHB';
     const mainVersion = isEn ? 'KJV' : 'DutSVV';
 
@@ -135,6 +170,8 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
 
   const renderKjvVerse = (verse) => {
     const tokens = verse.kjv || [];
+    if (!tokens.length) return <span>{verse.sv}</span>;
+
     return (
       <span>
         {tokens.map((tok, idx) => {
@@ -162,6 +199,7 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
 
   const getLocalizedRefTitle = () => {
     if (!passageData || !passageData.ref) return '';
+    if (typeof passageData.ref === 'string') return passageData.ref;
     if (isEn) {
       return passageData.ref.en || 'Translation not available';
     }
@@ -170,14 +208,14 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
 
   return (
     <div className="bible-reader-wrapper">
-      {/* Detached Section Navigation Bar */}
+      {/* Detached Section Navigation & Full Bible Search Bar */}
       <div className="reader-standalone-nav">
-        <div className="nav-row">
+        <div className="nav-row" style={{ gap: '10px' }}>
           <nav aria-label={isEn ? "Passage sections" : "Bijbelsecties"} className="section-tabs">
             {availableRoles.includes('parasha') && (
               <button
                 type="button"
-                className={`section-tab ${section === 'parasha' ? 'active' : ''}`}
+                className={`section-tab ${!isCustomLookup && section === 'parasha' ? 'active' : ''}`}
                 onClick={() => handleSectionSelect('parasha')}
               >
                 {isEn ? 'Parashah' : 'Torah'}
@@ -186,7 +224,7 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
             {availableRoles.includes('haftara') && (
               <button
                 type="button"
-                className={`section-tab ${section === 'haftara' ? 'active' : ''}`}
+                className={`section-tab ${!isCustomLookup && section === 'haftara' ? 'active' : ''}`}
                 onClick={() => handleSectionSelect('haftara')}
               >
                 Haftara
@@ -195,7 +233,7 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
             {availableRoles.includes('gospel') && (
               <button
                 type="button"
-                className={`section-tab ${section === 'gospel' ? 'active' : ''}`}
+                className={`section-tab ${!isCustomLookup && section === 'gospel' ? 'active' : ''}`}
                 onClick={() => handleSectionSelect('gospel')}
               >
                 {isEn ? 'Gospel' : 'Evangelie'}
@@ -203,7 +241,7 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
             )}
           </nav>
 
-          <div className="nav-right-controls" style={{ display: 'flex', gap: '8px', alignItems: 'center' }}>
+          <div className="nav-right-controls" style={{ display: 'flex', gap: '8px', alignItems: 'center', flexWrap: 'wrap' }}>
             {/* Translation Toggle Switch: SV vs KJV */}
             <div className="translation-toggle" style={{ display: 'inline-flex', background: 'var(--color-bg-secondary, #f6f1eb)', borderRadius: '4px', padding: '2px', border: '1px solid var(--color-border, #dbcec4)' }}>
               <button
@@ -256,6 +294,45 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
             </div>
           </div>
         </div>
+
+        {/* Full 66-Book Bible Verse Lookup Form */}
+        <form onSubmit={handleCustomSearchSubmit} style={{ marginTop: '10px', display: 'flex', gap: '6px', alignItems: 'center' }}>
+          <div style={{ position: 'relative', flex: 1 }}>
+            <input
+              type="text"
+              value={customSearchQuery}
+              onChange={(e) => setCustomSearchQuery(e.target.value)}
+              placeholder={isEn ? "Search any Bible passage (e.g. John 3:16, Isaiah 53)..." : "Zoek elk willekeurig Bijbelvers (bijv. Johannes 3:16, Jesaja 53)..."}
+              style={{
+                width: '100%',
+                padding: '6px 10px 6px 30px',
+                borderRadius: '4px',
+                border: '1px solid var(--line, #dbcec4)',
+                fontSize: '0.88rem',
+                background: 'var(--paper, #f8f4ef)'
+              }}
+            />
+            <Search size={14} style={{ position: 'absolute', left: '10px', top: '50%', transform: 'translateY(-50%)', color: 'var(--muted, #615248)' }} />
+          </div>
+          <button
+            type="submit"
+            className="btn-secondary"
+            style={{ padding: '6px 12px', fontSize: '0.85rem' }}
+          >
+            {isEn ? 'Search' : 'Zoeken'}
+          </button>
+          {isCustomLookup && (
+            <button
+              type="button"
+              onClick={handleResetToParasha}
+              className="btn-secondary"
+              title={isEn ? "Return to Parashah" : "Terug naar Parasja"}
+              style={{ padding: '6px 10px', fontSize: '0.85rem', color: '#86281d' }}
+            >
+              <RotateCcw size={14} />
+            </button>
+          )}
+        </form>
       </div>
 
       {/* Reader Content Body Window */}
@@ -267,7 +344,7 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
         )}
 
         {error && (
-          <div className="reader-error">
+          <div className="reader-error" style={{ color: '#86281d', padding: '10px' }}>
             {error}
           </div>
         )}
@@ -278,6 +355,7 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
               <h2 className="passage-title">{getLocalizedRefTitle()}</h2>
               <div className="passage-subtitle">
                 {translation === 'sv' ? 'Statenvertaling (SV)' : 'King James Version (KJV)'}
+                {isCustomLookup && <span> · (Volledige Bijbelzoeker)</span>}
               </div>
             </div>
 
