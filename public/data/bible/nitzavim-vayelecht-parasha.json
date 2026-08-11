@@ -15484,61 +15484,2273 @@
     }
   ],
   "lexicon": {
+    "H5324": {
+      "strong": "H5324",
+      "language": "hebrew",
+      "lemma": "נָצַב",
+      "translit": "nâtsab",
+      "gloss": "to station, in various applications (literally or figuratively)",
+      "strongs_def": "to station, in various applications (literally or figuratively)",
+      "kjv_def": "appointed, deputy, erect, establish, Huzzah by mistake for a proper name, lay, officer, pillar, present, rear up, set over, up, settle, sharpen, establish, make to stand-ing, still, up, upright, best state."
+    },
+    "H3117": {
+      "strong": "H3117",
+      "language": "hebrew",
+      "lemma": "יוֹם",
+      "translit": "yôwm",
+      "gloss": "a day (as the warm hours), whether literal (from sunrise to sunset, or from one sunset to the next), or figurative (a space of time defined by an associated term), (often used adverb)",
+      "strongs_def": "a day (as the warm hours), whether literal (from sunrise to sunset, or from one sunset to the next), or figurative (a space of time defined by an associated term), (often used adverb)",
+      "kjv_def": "age, always, chronicals, continually-ance, daily, birth-, each, to day, now a, two days agone, elder, end, evening, for ever-lasting, -more, full, life, as so long as ... live, even now, old, outlived, perpetually, presently, remaineth, required, season, since, space, then, process of time, as at other times, in trouble, weather, as when, a, the, within a while that, whole age, full year-ly, younger."
+    },
+    "H6440": {
+      "strong": "H6440",
+      "language": "hebrew",
+      "lemma": "פָּנִים",
+      "translit": "pânîym",
+      "gloss": "the face (as the part that turns); used in a great variety of applications (literally and figuratively); also (with prepositional prefix) as a preposition (before, etc.)",
+      "strongs_def": "the face (as the part that turns); used in a great variety of applications (literally and figuratively); also (with prepositional prefix) as a preposition (before, etc.)",
+      "kjv_def": "accept, a-be- fore-time, against, anger, as long as, at, battle, because of, beseech, countenance, edge, employ, endure, enquire, face, favour, fear of, for, forefront-part, form-er time, -ward, from, front, heaviness, him-self, honourable, impudent, in, it, look-eth -s, me, meet, more than, mouth, of, off, of old time, on, open, out of, over against, the partial, person, please, presence, propect, was purposed, by reason of, regard, right forth, serve, shewbread, sight, state, straight, street, thee, them-selves, through -out, till, time-s past, un- to-ward, upon, upside down, with-in, -stand, ye, you."
+    },
     "H3068": {
-      "lemma": "יְהוָה",
-      "translit": "YHWH",
       "strong": "H3068",
       "language": "hebrew",
-      "gloss": "De HEERE, de Verbondsgod van Israël (the LORD)"
+      "lemma": "יְהֹוָה",
+      "translit": "Yᵉhôvâh",
+      "gloss": "Jehovah, Jewish national name of God",
+      "strongs_def": "Jehovah, Jewish national name of God",
+      "kjv_def": "Jehovah, the Lord. Compare H3050 יָהּ, H3069 יְהֹוִה."
     },
     "H430": {
-      "lemma": "אֱלֹהִים",
-      "translit": "Elohim",
       "strong": "H430",
       "language": "hebrew",
-      "gloss": "God (God, Divine Being)"
+      "lemma": "אֱלֹהִים",
+      "translit": "ʼĕlôhîym",
+      "gloss": "gods in the ordinary sense; but specifically used (in the plural thus, especially with the article) of the supreme God; occasionally applied by way of deference to magistrates; and sometimes as a superlative",
+      "strongs_def": "gods in the ordinary sense; but specifically used (in the plural thus, especially with the article) of the supreme God; occasionally applied by way of deference to magistrates; and sometimes as a superlative",
+      "kjv_def": "angels, exceeding, God gods -dess, -ly, very great, judges, mighty."
+    },
+    "H7218": {
+      "strong": "H7218",
+      "language": "hebrew",
+      "lemma": "רֹאשׁ",
+      "translit": "rôʼsh",
+      "gloss": "the head (as most easily shaken), whether literal or figurative (in many applications, of place, time, rank, itc.)",
+      "strongs_def": "the head (as most easily shaken), whether literal or figurative (in many applications, of place, time, rank, itc.)",
+      "kjv_def": "band, beginning, captain, chapiter, chief-est place, man, things, company, end, every man, excellent, first, forefront, be-head, height, on high-est part, priest, lead, poor, principal, ruler, sum, top."
     },
     "H7626": {
-      "lemma": "שֵׁבֶט",
-      "translit": "shebet",
       "strong": "H7626",
       "language": "hebrew",
-      "gloss": "stam, scepter, roede (tribe, rod)"
+      "lemma": "שֵׁבֶט",
+      "translit": "shêbeṭ",
+      "gloss": "a scion, i.e. (literally) a stick (for punishing, writing, fighting, ruling, walking, etc.) or (figuratively) a clan",
+      "strongs_def": "a scion, i.e. (literally) a stick (for punishing, writing, fighting, ruling, walking, etc.) or (figuratively) a clan",
+      "kjv_def": "correction, dart, rod, sceptre, staff, tribe."
+    },
+    "H2205": {
+      "strong": "H2205",
+      "language": "hebrew",
+      "lemma": "זָקֵן",
+      "translit": "zâqên",
+      "gloss": "old",
+      "strongs_def": "old",
+      "kjv_def": "aged, ancient man, elder-est, old man, men and...women, senator."
     },
     "H7860": {
-      "lemma": "שֹׁטֵר",
-      "translit": "shoter",
       "strong": "H7860",
       "language": "hebrew",
-      "gloss": "opziener, ambtman, beambte (officer, official)"
+      "lemma": "שֹׁטֵר",
+      "translit": "shôṭêr",
+      "gloss": "properly, a scribe, i.e. (by analogy or implication) an official superintendent or magistrate",
+      "strongs_def": "properly, a scribe, i.e. (by analogy or implication) an official superintendent or magistrate",
+      "kjv_def": "officer, overseer, ruler."
+    },
+    "H376": {
+      "strong": "H376",
+      "language": "hebrew",
+      "lemma": "אִישׁ",
+      "translit": "ʼîysh",
+      "gloss": "a man as an individual or a male person; often used as an adjunct to a more definite term (and in such cases frequently not expressed in translation)",
+      "strongs_def": "a man as an individual or a male person; often used as an adjunct to a more definite term (and in such cases frequently not expressed in translation)",
+      "kjv_def": "also, another, any man, a certain, champion, consent, each, every one, fellow, foot-, husband- man, good-, great, mighty man, he, high degree, him that is, husband, man-kind, none, one, people, person, steward, what man soever, whoso-ever, worthy. Compare H802 אִשָּׁה."
+    },
+    "H3478": {
+      "strong": "H3478",
+      "language": "hebrew",
+      "lemma": "יִשְׂרָאֵל",
+      "translit": "Yisrâʼêl",
+      "gloss": "Jisrael, a symbolical name of Jacob; also (typically) of his posterity",
+      "strongs_def": "Jisrael, a symbolical name of Jacob; also (typically) of his posterity",
+      "kjv_def": "Israel."
+    },
+    "H2945": {
+      "strong": "H2945",
+      "language": "hebrew",
+      "lemma": "טַף",
+      "translit": "ṭaph",
+      "gloss": "a family (mostly used collectively in the singular)",
+      "strongs_def": "a family (mostly used collectively in the singular)",
+      "kjv_def": "little children ones, families."
+    },
+    "H802": {
+      "strong": "H802",
+      "language": "hebrew",
+      "lemma": "אִשָּׁה",
+      "translit": "ʼishshâh",
+      "gloss": "a woman",
+      "strongs_def": "a woman",
+      "kjv_def": "adulter ess, each, every, female, many, none, one, together, wife, woman. Often unexpressed in English."
+    },
+    "H1616": {
+      "strong": "H1616",
+      "language": "hebrew",
+      "lemma": "גֵּר",
+      "translit": "gêr",
+      "gloss": "properly, a guest; by implication, a foreigner",
+      "strongs_def": "properly, a guest; by implication, a foreigner",
+      "kjv_def": "alien, sojourner, stranger."
+    },
+    "H7130": {
+      "strong": "H7130",
+      "language": "hebrew",
+      "lemma": "קֶרֶב",
+      "translit": "qereb",
+      "gloss": "properly, the nearest part, i.e. the center, whether literal, figurative or adverbial (especially with preposition)",
+      "strongs_def": "properly, the nearest part, i.e. the center, whether literal, figurative or adverbial (especially with preposition)",
+      "kjv_def": "among, before, bowels, unto charge, eat up, heart, him, in, inward -ly, part, -s, thought, midst, out of, purtenance, therein, through, within self."
+    },
+    "H4264": {
+      "strong": "H4264",
+      "language": "hebrew",
+      "lemma": "מַחֲנֶה",
+      "translit": "machăneh",
+      "gloss": "an encampment (of travellers or troops); hence, an army, whether literal (of soldiers) or figurative (of dancers, angels, cattle, locusts, stars; or even the sacred courts)",
+      "strongs_def": "an encampment (of travellers or troops); hence, an army, whether literal (of soldiers) or figurative (of dancers, angels, cattle, locusts, stars; or even the sacred courts)",
+      "kjv_def": "army, band, battle, camp, company, drove, host, tents."
+    },
+    "H2404": {
+      "strong": "H2404",
+      "language": "hebrew",
+      "lemma": "חָטַב",
+      "translit": "châṭab",
+      "gloss": "to chop or carve wood",
+      "strongs_def": "to chop or carve wood",
+      "kjv_def": "cut down, hew-er, polish."
+    },
+    "H7579": {
+      "strong": "H7579",
+      "language": "hebrew",
+      "lemma": "שָׁאַב",
+      "translit": "shâʼab",
+      "gloss": "to bale up water",
+      "strongs_def": "to bale up water",
+      "kjv_def": "woman to draw-er, water."
+    },
+    "H6086": {
+      "strong": "H6086",
+      "language": "hebrew",
+      "lemma": "עֵץ",
+      "translit": "ʻêts",
+      "gloss": "a tree (from its firmness); hence, wood (plural sticks)",
+      "strongs_def": "a tree (from its firmness); hence, wood (plural sticks)",
+      "kjv_def": "carpenter, gallows, helve, pine, plank, staff, stalk, stick, stock, timber, tree, wood."
+    },
+    "H4325": {
+      "strong": "H4325",
+      "language": "hebrew",
+      "lemma": "מַיִם",
+      "translit": "mayim",
+      "gloss": "water; figuratively, juice; by euphemism, urine, semen",
+      "strongs_def": "water; figuratively, juice; by euphemism, urine, semen",
+      "kjv_def": "piss, wasting, water-ing, -course, -flood, -spring."
+    },
+    "H5674": {
+      "strong": "H5674",
+      "language": "hebrew",
+      "lemma": "עָבַר",
+      "translit": "ʻâbar",
+      "gloss": "to cross over; used very widely of any transition (literal or figurative; transitive, intransitive, intensive, causative); specifically, to cover (in copulation)",
+      "strongs_def": "to cross over; used very widely of any transition (literal or figurative; transitive, intransitive, intensive, causative); specifically, to cover (in copulation)",
+      "kjv_def": "alienate, alter, at all, beyond, bring over, through, carry over, over- come on, over, conduct over, convey over, current, deliver, do away, enter, escape, fail, gender, get over, make go away, beyond, by, forth, his way, in, on, over, through, have away more, lay, meddle, overrun, make partition, cause to, give, make to, over pass-age, along, away, beyond, by, -enger, on, out, over, through, cause to, make proclaim-amation, perish, provoke to anger, put away, rage, raiser of taxes, remove, send over, set apart, shave, cause to make sound, speedily, sweet smelling, take away, make to transgress-or, translate, turn away, way- faring man, be wrath."
+    },
+    "H1285": {
+      "strong": "H1285",
+      "language": "hebrew",
+      "lemma": "בְּרִית",
+      "translit": "bᵉrîyth",
+      "gloss": "a compact (because made by passing between pieces of flesh)",
+      "strongs_def": "a compact (because made by passing between pieces of flesh)",
+      "kjv_def": "confederacy, con- feder-ate, covenant, league."
+    },
+    "H423": {
+      "strong": "H423",
+      "language": "hebrew",
+      "lemma": "אָלָה",
+      "translit": "ʼâlâh",
+      "gloss": "an imprecation",
+      "strongs_def": "an imprecation",
+      "kjv_def": "curse, cursing, execration, oath, swearing."
+    },
+    "H3772": {
+      "strong": "H3772",
+      "language": "hebrew",
+      "lemma": "כָּרַת",
+      "translit": "kârath",
+      "gloss": "to cut (off, down or asunder); by implication, to destroy or consume; specifically, to covenant (i.e. make an alliance or bargain, originally by cutting flesh and passing between the pieces)",
+      "strongs_def": "to cut (off, down or asunder); by implication, to destroy or consume; specifically, to covenant (i.e. make an alliance or bargain, originally by cutting flesh and passing between the pieces)",
+      "kjv_def": "be chewed, be con-feder- ate, covenant, cut down, off, destroy, fail, feller, be freed, hew down, make a league covenant, lose, perish, utterly, want."
     },
     "H5971": {
-      "lemma": "עַם",
-      "translit": "am",
       "strong": "H5971",
       "language": "hebrew",
-      "gloss": "volk, natie (people, nation)"
+      "lemma": "עַם",
+      "translit": "ʻam",
+      "gloss": "a people (as a congregated unit); specifically, a tribe (as those of Israel); hence (collectively) troops or attendants; figuratively, a flock",
+      "strongs_def": "a people (as a congregated unit); specifically, a tribe (as those of Israel); hence (collectively) troops or attendants; figuratively, a flock",
+      "kjv_def": "folk, men, nation, people."
+    },
+    "H6965": {
+      "strong": "H6965",
+      "language": "hebrew",
+      "lemma": "קוּם",
+      "translit": "qûwm",
+      "gloss": "to rise (in various applications, literal, figurative, intensive and causative)",
+      "strongs_def": "to rise (in various applications, literal, figurative, intensive and causative)",
+      "kjv_def": "abide, accomplish, be clearer, confirm, continue, decree, be dim, endure, enemy, enjoin, get up, make good, help, hold, help to lift up again, make, but newly, ordain, perform, pitch, raise up, rear up, remain, a- rise up again, against, rouse up, set up, e- stablish, make to stand up, stir up, strengthen, succeed, as-, make sure-ly, be up-hold, -rising."
+    },
+    "H1696": {
+      "strong": "H1696",
+      "language": "hebrew",
+      "lemma": "דָבַר",
+      "translit": "dâbar",
+      "gloss": "perhaps properly, to arrange; but used figuratively (of words), to speak; rarely (in a destructive sense) to subdue",
+      "strongs_def": "perhaps properly, to arrange; but used figuratively (of words), to speak; rarely (in a destructive sense) to subdue",
+      "kjv_def": "answer, appoint, bid, command, commune, declare, destroy, give, name, promise, pronounce, rehearse, say, speak, be spokesman, subdue, talk, teach, tell, think, use entreaties, utter, well, work."
+    },
+    "H1": {
+      "strong": "H1",
+      "language": "hebrew",
+      "lemma": "אָב",
+      "translit": "ʼâb",
+      "gloss": "father, in a literal and immediate, or figurative and remote application",
+      "strongs_def": "father, in a literal and immediate, or figurative and remote application",
+      "kjv_def": "chief, fore- father-less, patrimony, principal. Compare names in 'Abi-'."
+    },
+    "H85": {
+      "strong": "H85",
+      "language": "hebrew",
+      "lemma": "אַבְרָהָם",
+      "translit": "ʼAbrâhâm",
+      "gloss": "Abraham, the later name of Abram",
+      "strongs_def": "Abraham, the later name of Abram",
+      "kjv_def": "Abraham."
+    },
+    "H3327": {
+      "strong": "H3327",
+      "language": "hebrew",
+      "lemma": "יִצְחָק",
+      "translit": "Yitschâq",
+      "gloss": "Jitschak (or Isaac), son of Abraham",
+      "strongs_def": "Jitschak (or Isaac), son of Abraham",
+      "kjv_def": "Isaac. Compare H3446 יִשְׂחָק."
+    },
+    "H3290": {
+      "strong": "H3290",
+      "language": "hebrew",
+      "lemma": "יַעֲקֹב",
+      "translit": "Yaʻăqôb",
+      "gloss": "Jaakob, the Israelitish patriarch",
+      "strongs_def": "Jaakob, the Israelitish patriarch",
+      "kjv_def": "Jacob."
+    },
+    "H7650": {
+      "strong": "H7650",
+      "language": "hebrew",
+      "lemma": "שָׁבַע",
+      "translit": "shâbaʻ",
+      "gloss": "to seven oneself, i.e. swear (as if by repeating a declaration seven times)",
+      "strongs_def": "to seven oneself, i.e. swear (as if by repeating a declaration seven times)",
+      "kjv_def": "adjure, charge by an oath, with an oath, feed to the full by mistake for H7646 שָׂבַע, take an oath, straitly, cause to, make to swear."
+    },
+    "H5975": {
+      "strong": "H5975",
+      "language": "hebrew",
+      "lemma": "עָמַד",
+      "translit": "ʻâmad",
+      "gloss": "to stand, in various relations (literal and figurative, intransitive and transitive)",
+      "strongs_def": "to stand, in various relations (literal and figurative, intransitive and transitive)",
+      "kjv_def": "abide behind, appoint, arise, cease, confirm, continue, dwell, be employed, endure, establish, leave, make, ordain, be over, place, be present self, raise up, remain, repair, serve, set forth, over, -tle, up, make to, make to be at a, with- stand by, fast, firm, still, up, be at a stay up, tarry."
+    },
+    "H3426": {
+      "strong": "H3426",
+      "language": "hebrew",
+      "lemma": "יֵשׁ",
+      "translit": "yêsh",
+      "gloss": "there is or are (or any other form of the verb to be, as may suit the connection)",
+      "strongs_def": "there is or are (or any other form of the verb to be, as may suit the connection)",
+      "kjv_def": "there are, he, it, shall, there, there may, there shall, there should be, thou do, had, hast, which hath, I, shalt, that have, he, it, there is, substance, it there was, there were, ye will, thou wilt, wouldest."
+    },
+    "H3045": {
+      "strong": "H3045",
+      "language": "hebrew",
+      "lemma": "יָדַע",
+      "translit": "yâdaʻ",
+      "gloss": "to know (properly, to ascertain by seeing); used in a great variety of senses, figuratively, literally, euphemistically and inferentially (including observation, care, recognition; and causatively, instruction, designation, punishment, etc.)",
+      "strongs_def": "to know (properly, to ascertain by seeing); used in a great variety of senses, figuratively, literally, euphemistically and inferentially (including observation, care, recognition; and causatively, instruction, designation, punishment, etc.)",
+      "kjv_def": "acknowledge, acquaintance-ted with, advise, answer, appoint, assuredly, be aware, un- awares, can-not, certainly, comprehend, consider, could they, cunning, declare, be diligent, can, cause to discern, discover, endued with, familiar friend, famous, feel, can have, be ig- norant, instruct, kinsfolk, kinsman, cause to let, make know, come to give, have, take knowledge, have knowledge, be, make, make to be, make self known, be learned, lie by man, mark, perceive, privy to, prognosticator, regard, have respect, skilful, shew, can man of skill, be sure, of a surety, teach, can tell, understand, have understanding, will be, wist, wit, wot."
+    },
+    "H776": {
+      "strong": "H776",
+      "language": "hebrew",
+      "lemma": "אֶרֶץ",
+      "translit": "ʼerets",
+      "gloss": "the earth (at large, or partitively a land)",
+      "strongs_def": "the earth (at large, or partitively a land)",
+      "kjv_def": "common, country, earth, field, ground, land, natins, way, wilderness, world."
+    },
+    "H3427": {
+      "strong": "H3427",
+      "language": "hebrew",
+      "lemma": "יָשַׁב",
+      "translit": "yâshab",
+      "gloss": "properly, to sit down (specifically as judge. in ambush, in quiet); by implication, to dwell, to remain; causatively, to settle, to marry",
+      "strongs_def": "properly, to sit down (specifically as judge. in ambush, in quiet); by implication, to dwell, to remain; causatively, to settle, to marry",
+      "kjv_def": "make to abide-ing, continue, cause to, make to dwell-ing, ease self, endure, establish, fail, habitation, haunt, make to inhabit-ant, make to keep house, lurking, marry-ing, bring again to place, remain, return, seat, set-tle, down- sit-down, still, -ting down, -ting place -uate, take, tarry."
+    },
+    "H1471": {
+      "strong": "H1471",
+      "language": "hebrew",
+      "lemma": "גּוֹי",
+      "translit": "gôwy",
+      "gloss": "a foreign nation; hence, a Gentile; also (figuratively) a troop of animals, or a flight of locusts",
+      "strongs_def": "a foreign nation; hence, a Gentile; also (figuratively) a troop of animals, or a flight of locusts",
+      "kjv_def": "Gentile, heathen, nation, people."
+    },
+    "H4714": {
+      "strong": "H4714",
+      "language": "hebrew",
+      "lemma": "מִצְרַיִם",
+      "translit": "Mitsrayim",
+      "gloss": "Mitsrajim, i.e. Upper and Lower Egypt",
+      "strongs_def": "Mitsrajim, i.e. Upper and Lower Egypt",
+      "kjv_def": "Egypt, Egyptians, Mizraim."
+    },
+    "H7200": {
+      "strong": "H7200",
+      "language": "hebrew",
+      "lemma": "רָאָה",
+      "translit": "râʼâh",
+      "gloss": "to see, literally or figuratively (in numerous applications, direct and implied, transitive, intransitive and causative)",
+      "strongs_def": "to see, literally or figuratively (in numerous applications, direct and implied, transitive, intransitive and causative)",
+      "kjv_def": "advise self, appear, approve, behold, certainly, consider, discern, make to enjoy, have experience, gaze, take heed, indeed, joyfully, lo, look on, one another, one on another, one upon another, out, up, upon, mark, meet, be near, perceive, present, provide, regard, have respect, fore-, cause to, let see-r, -m, one another, shew self, sight of others, e- spy, stare, surely, think, view, visions."
+    },
+    "H8251": {
+      "strong": "H8251",
+      "language": "hebrew",
+      "lemma": "שִׁקּוּץ",
+      "translit": "shiqqûwts",
+      "gloss": "disgusting, i.e. filthy; especially idolatrous or (concretely) an idol",
+      "strongs_def": "disgusting, i.e. filthy; especially idolatrous or (concretely) an idol",
+      "kjv_def": "abominable filth idol, -ation, detestable thing."
+    },
+    "H1544": {
+      "strong": "H1544",
+      "language": "hebrew",
+      "lemma": "גִּלּוּל",
+      "translit": "gillûwl",
+      "gloss": "properly, a log (as round); by implication, an idol",
+      "strongs_def": "properly, a log (as round); by implication, an idol",
+      "kjv_def": "idol."
+    },
+    "H68": {
+      "strong": "H68",
+      "language": "hebrew",
+      "lemma": "אֶבֶן",
+      "translit": "ʼeben",
+      "gloss": "a stone",
+      "strongs_def": "a stone",
+      "kjv_def": "carbuncle, mason, plummet, chalk-, hail-, head-, sling- stone-ny, divers weight-s."
+    },
+    "H3701": {
+      "strong": "H3701",
+      "language": "hebrew",
+      "lemma": "כֶּסֶף",
+      "translit": "keçeph",
+      "gloss": "silver (from its pale color); by implication, money",
+      "strongs_def": "silver (from its pale color); by implication, money",
+      "kjv_def": "money, price, silver-ling."
+    },
+    "H2091": {
+      "strong": "H2091",
+      "language": "hebrew",
+      "lemma": "זָהָב",
+      "translit": "zâhâb",
+      "gloss": "gold, figuratively, something gold-colored (i.e. yellow), as oil, a clear sky",
+      "strongs_def": "gold, figuratively, something gold-colored (i.e. yellow), as oil, a clear sky",
+      "kjv_def": "gold-en, fair weather."
+    },
+    "H4940": {
+      "strong": "H4940",
+      "language": "hebrew",
+      "lemma": "מִשְׁפָּחָה",
+      "translit": "mishpâchâh",
+      "gloss": "a family, i.e. circle of relatives; figuratively, a class (of persons), a species (of animals) or sort (of things); by extension a tribe or people",
+      "strongs_def": "a family, i.e. circle of relatives; figuratively, a class (of persons), a species (of animals) or sort (of things); by extension a tribe or people",
+      "kjv_def": "family, kind-red."
+    },
+    "H3824": {
+      "strong": "H3824",
+      "language": "hebrew",
+      "lemma": "לֵבָב",
+      "translit": "lêbâb",
+      "gloss": "the heart (as the most interior organ);",
+      "strongs_def": "the heart (as the most interior organ);",
+      "kjv_def": "bethink themselves, breast, comfortably, courage, faint, tender- heart-ed, midst, mind, unawares, understanding."
+    },
+    "H6437": {
+      "strong": "H6437",
+      "language": "hebrew",
+      "lemma": "פָּנָה",
+      "translit": "pânâh",
+      "gloss": "to turn; by implication, to face, i.e. appear, look, etc.",
+      "strongs_def": "to turn; by implication, to face, i.e. appear, look, etc.",
+      "kjv_def": "appear, at even- tide, behold, cast out, come on, corner, dawning, empty, go away, lie, look, mark, pass away, prepare, regard, have respect to, re- turn aside, away, back, face, self, right early."
+    },
+    "H3212": {
+      "strong": "H3212",
+      "language": "hebrew",
+      "lemma": "יָלַךְ",
+      "translit": "yâlak",
+      "gloss": "to walk (literally or figuratively); causatively, to carry (in various senses)",
+      "strongs_def": "to walk (literally or figuratively); causatively, to carry (in various senses)",
+      "kjv_def": "again, away, bear, bring, carry away, come away, depart, flow, follow-ing, get away, hence, him, cause to, made go away, -ing, -ne, one's way, out, grow, lead forth, let down, march, prosper, pursue, cause to run, spread, take away -journey, vanish, cause to walk-ing, wax, be weak."
+    },
+    "H5647": {
+      "strong": "H5647",
+      "language": "hebrew",
+      "lemma": "עָבַד",
+      "translit": "ʻâbad",
+      "gloss": "to work (in any sense); by implication, to serve, till, (causatively) enslave, etc.",
+      "strongs_def": "to work (in any sense); by implication, to serve, till, (causatively) enslave, etc.",
+      "kjv_def": "be, keep in bondage, be bondmen, bond-service, compel, do, dress, ear, execute, husbandman, keep, labour-ing man, bring to pass, cause to, make to serve-ing, self, be, become servant-s, do use service, till-er, transgress from margin, set a work, be wrought, worshipper,"
+    },
+    "H8328": {
+      "strong": "H8328",
+      "language": "hebrew",
+      "lemma": "שֶׁרֶשׁ",
+      "translit": "sheresh",
+      "gloss": "a root (literally or figuratively)",
+      "strongs_def": "a root (literally or figuratively)",
+      "kjv_def": "bottom, deep, heel, root."
+    },
+    "H7219": {
+      "strong": "H7219",
+      "language": "hebrew",
+      "lemma": "רֹאשׁ",
+      "translit": "rôʼsh",
+      "gloss": "a poisonous plant, probably the poppy (from its conspicuous head); generally poison (even of serpents)",
+      "strongs_def": "a poisonous plant, probably the poppy (from its conspicuous head); generally poison (even of serpents)",
+      "kjv_def": "gall, hemlock, poison, venom."
+    },
+    "H3939": {
+      "strong": "H3939",
+      "language": "hebrew",
+      "lemma": "לַעֲנָה",
+      "translit": "laʻănâh",
+      "gloss": "wormwood (regarded as poisonous, and therefore accursed)",
+      "strongs_def": "wormwood (regarded as poisonous, and therefore accursed)",
+      "kjv_def": "hemlock, wormwood."
+    },
+    "H6509": {
+      "strong": "H6509",
+      "language": "hebrew",
+      "lemma": "פָּרָה",
+      "translit": "pârâh",
+      "gloss": "to bear fruit (literally or figuratively)",
+      "strongs_def": "to bear fruit (literally or figuratively)",
+      "kjv_def": "bear, bring forth fruit, be, cause to be, make fruitful, grow, increase."
+    },
+    "H1697": {
+      "strong": "H1697",
+      "language": "hebrew",
+      "lemma": "דָּבָר",
+      "translit": "dâbâr",
+      "gloss": "a word; by implication, a matter (as spoken of) or thing; adverbially, a cause",
+      "strongs_def": "a word; by implication, a matter (as spoken of) or thing; adverbially, a cause",
+      "kjv_def": "act, advice, affair, answer, any such thing, because of, book, business, care, case, cause, certain rate, chronicles, commandment, commune-ication, concern-ing, confer, counsel, dearth, decree, deed, disease, due, duty, effect, eloquent, errand, evil favoured- ness, glory, harm, hurt, iniquity, judgment, language, lying, manner, matter, message, no thing, oracle, ought, parts, pertaining, please, portion, power, promise, provision, purpose, question, rate, reason, report, request, as hast said, sake, saying, sentence, sign, so, some uncleanness, somewhat to say, song, speech, spoken, talk, task, that, there done, thing concerning, thought, thus, tidings, what-soever, wherewith, which, word, work."
+    },
+    "H8085": {
+      "strong": "H8085",
+      "language": "hebrew",
+      "lemma": "שָׁמַע",
+      "translit": "shâmaʻ",
+      "gloss": "to hear intelligently (often with implication of attention, obedience, etc.; causatively, to tell, etc.)",
+      "strongs_def": "to hear intelligently (often with implication of attention, obedience, etc.; causatively, to tell, etc.)",
+      "kjv_def": "attentively, call gather together, carefully, certainly, consent, consider, be content, declare, diligently, discern, give ear, cause to, let, make to hear-ken, tell, indeed, listen, make a noise, be obedient, obey, perceive, make a proclaim-ation, publish, regard, report, shew forth, make a sound, surely, tell, understand, whosoever heareth, witness."
+    },
+    "H1288": {
+      "strong": "H1288",
+      "language": "hebrew",
+      "lemma": "בָרַךְ",
+      "translit": "bârak",
+      "gloss": "to kneel; by implication to bless God (as an act of adoration), and (vice-versa) man (as a benefit); also (by euphemism) to curse (God or the king, as treason)",
+      "strongs_def": "to kneel; by implication to bless God (as an act of adoration), and (vice-versa) man (as a benefit); also (by euphemism) to curse (God or the king, as treason)",
+      "kjv_def": "abundantly, altogether, at all, blaspheme, bless, congratulate, curse, greatly, indeed, kneel down, praise, salute, still, thank."
+    },
+    "H559": {
+      "strong": "H559",
+      "language": "hebrew",
+      "lemma": "אָמַר",
+      "translit": "ʼâmar",
+      "gloss": "to say (used with great latitude)",
+      "strongs_def": "to say (used with great latitude)",
+      "kjv_def": "answer, appoint, avouch, bid, boast self, call, certify, challenge, charge, at the, give command-ment, commune, consider, declare, demand, desire, determine, expressly, indeed, intend, name, plainly, promise, publish, report, require, say, speak against, of, still, suppose, talk, tell, term, that is, think, use speech, utter, verily, yet."
+    },
+    "H7965": {
+      "strong": "H7965",
+      "language": "hebrew",
+      "lemma": "שָׁלוֹם",
+      "translit": "shâlôwm",
+      "gloss": "safe, i.e. (figuratively) well, happy, friendly; also (abstractly) welfare, i.e. health, prosperity, peace",
+      "strongs_def": "safe, i.e. (figuratively) well, happy, friendly; also (abstractly) welfare, i.e. health, prosperity, peace",
+      "kjv_def": "do, familiar, fare, favour, friend, great, good health, perfect, such as be at peace-able, -ably, prosper-ity, -ous, rest, safe-ty, salute, welfare, all is, be well, wholly."
+    },
+    "H3588": {
+      "strong": "H3588",
+      "language": "hebrew",
+      "lemma": "כִּי",
+      "translit": "kîy",
+      "gloss": "(by implication) very widely used as a relative conjunction or adverb (as below); often largely modified by other particles annexed",
+      "strongs_def": "(by implication) very widely used as a relative conjunction or adverb (as below); often largely modified by other particles annexed",
+      "kjv_def": "and, + forasmuch, inasmuch, where- as, assured-ly, + but, certainly, doubtless, + else, even, + except, for, how, because, in, so, than that, + nevertheless, now, rightly, seeing, since, surely, then, therefore, + al- though, + till, truly, + until, when, whether, while, whom, yea, yet."
+    },
+    "H3820": {
+      "strong": "H3820",
+      "language": "hebrew",
+      "lemma": "לֵב",
+      "translit": "lêb",
+      "gloss": "the heart; also used (figuratively) very widely for the feelings, the will and even the intellect; likewise for the centre of anything",
+      "strongs_def": "the heart; also used (figuratively) very widely for the feelings, the will and even the intellect; likewise for the centre of anything",
+      "kjv_def": "care for, comfortably, consent, considered, courag-eous, friend-ly, broken-, hard-, merry-, stiff-, stout-, double heart-ed, heed, I, kindly, midst, mind-ed, regard-ed, themselves, unawares, understanding, well, willingly, wisdom."
+    },
+    "H8307": {
+      "strong": "H8307",
+      "language": "hebrew",
+      "lemma": "שְׁרִירוּת",
+      "translit": "shᵉrîyrûwth",
+      "gloss": "obstinacy",
+      "strongs_def": "obstinacy",
+      "kjv_def": "imagination, lust."
+    },
+    "H7302": {
+      "strong": "H7302",
+      "language": "hebrew",
+      "lemma": "רָוֶה",
+      "translit": "râveh",
+      "gloss": "sated (with drink)",
+      "strongs_def": "sated (with drink)",
+      "kjv_def": "drunkenness, watered."
+    },
+    "H5595": {
+      "strong": "H5595",
+      "language": "hebrew",
+      "lemma": "סָפָה",
+      "translit": "çâphâh",
+      "gloss": "properly, to scrape (literally, to shave; but usually figuratively) together (i.e. to accumulate or increase) or away (i.e. to scatter, remove, or ruin; intransitively, to perish)",
+      "strongs_def": "properly, to scrape (literally, to shave; but usually figuratively) together (i.e. to accumulate or increase) or away (i.e. to scatter, remove, or ruin; intransitively, to perish)",
+      "kjv_def": "add, augment, consume, destroy, heap, join, perish, put."
+    },
+    "H6771": {
+      "strong": "H6771",
+      "language": "hebrew",
+      "lemma": "צָמֵא",
+      "translit": "tsâmêʼ",
+      "gloss": "thirsty (literally or figuratively)",
+      "strongs_def": "thirsty (literally or figuratively)",
+      "kjv_def": "that thirst-eth, -y."
+    },
+    "H14": {
+      "strong": "H14",
+      "language": "hebrew",
+      "lemma": "אָבָה",
+      "translit": "ʼâbâh",
+      "gloss": "to breathe after, i.e. (figuratively) to be acquiescent",
+      "strongs_def": "to breathe after, i.e. (figuratively) to be acquiescent",
+      "kjv_def": "consent, rest content will, be willing."
+    },
+    "H5545": {
+      "strong": "H5545",
+      "language": "hebrew",
+      "lemma": "סָלַח",
+      "translit": "çâlach",
+      "gloss": "to forgive",
+      "strongs_def": "to forgive",
+      "kjv_def": "forgive, pardon, spare."
+    },
+    "H639": {
+      "strong": "H639",
+      "language": "hebrew",
+      "lemma": "אַף",
+      "translit": "ʼaph",
+      "gloss": "properly, the nose or nostril; hence, the face, and occasionally a person; also (from the rapid breathing in passion) ire",
+      "strongs_def": "properly, the nose or nostril; hence, the face, and occasionally a person; also (from the rapid breathing in passion) ire",
+      "kjv_def": "anger-gry, before, countenance, face, forebearing, forehead, long- suffering, nose, nostril, snout, worthy, wrath."
+    },
+    "H7068": {
+      "strong": "H7068",
+      "language": "hebrew",
+      "lemma": "קִנְאָה",
+      "translit": "qinʼâh",
+      "gloss": "jealousy or envy",
+      "strongs_def": "jealousy or envy",
+      "kjv_def": "envy-ied, jealousy, sake, zeal."
+    },
+    "H6225": {
+      "strong": "H6225",
+      "language": "hebrew",
+      "lemma": "עָשַׁן",
+      "translit": "ʻâshan",
+      "gloss": "to smoke, whether literal or figurative",
+      "strongs_def": "to smoke, whether literal or figurative",
+      "kjv_def": "be angry be on a smoke."
+    },
+    "H5612": {
+      "strong": "H5612",
+      "language": "hebrew",
+      "lemma": "סֵפֶר",
+      "translit": "çêpher",
+      "gloss": "properly, writing (the art or a document); by implication, a book",
+      "strongs_def": "properly, writing (the art or a document); by implication, a book",
+      "kjv_def": "bill, book, evidence, learn-ed -ing, letter, register, scroll."
+    },
+    "H3789": {
+      "strong": "H3789",
+      "language": "hebrew",
+      "lemma": "כָּתַב",
+      "translit": "kâthab",
+      "gloss": "to grave, by implication, to write (describe, inscribe, prescribe, subscribe)",
+      "strongs_def": "to grave, by implication, to write (describe, inscribe, prescribe, subscribe)",
+      "kjv_def": "describe, record, prescribe, subscribe, write-ing, -ten."
+    },
+    "H7257": {
+      "strong": "H7257",
+      "language": "hebrew",
+      "lemma": "רָבַץ",
+      "translit": "râbats",
+      "gloss": "to crouch (on all four legs folded, like a recumbent animal); be implication, to recline, repose, brood, lurk, imbed",
+      "strongs_def": "to crouch (on all four legs folded, like a recumbent animal); be implication, to recline, repose, brood, lurk, imbed",
+      "kjv_def": "crouch down, fall down, make a fold, lay, cause to, make to lie down, make to rest, sit."
+    },
+    "H8034": {
+      "strong": "H8034",
+      "language": "hebrew",
+      "lemma": "שֵׁם",
+      "translit": "shêm",
+      "gloss": "an appellation, as amark or memorial of individuality; by implication honor, authority, character",
+      "strongs_def": "an appellation, as amark or memorial of individuality; by implication honor, authority, character",
+      "kjv_def": "base, in- fame-ous, named-d, renown, report."
+    },
+    "H8064": {
+      "strong": "H8064",
+      "language": "hebrew",
+      "lemma": "שָׁמַיִם",
+      "translit": "shâmayim",
+      "gloss": "the sky (as aloft; the dual perhaps alluding to the visible arch in which the clouds move, as well as to the higher ether where the celestial bodies revolve)",
+      "strongs_def": "the sky (as aloft; the dual perhaps alluding to the visible arch in which the clouds move, as well as to the higher ether where the celestial bodies revolve)",
+      "kjv_def": "air, astrologer, heaven-s."
+    },
+    "H4229": {
+      "strong": "H4229",
+      "language": "hebrew",
+      "lemma": "מָחָה",
+      "translit": "mâchâh",
+      "gloss": "properly, to stroke or rub; by implication, to erase; also to smooth (as if with oil), i.e. grease or make fat; also to touch, i.e. reach to",
+      "strongs_def": "properly, to stroke or rub; by implication, to erase; also to smooth (as if with oil), i.e. grease or make fat; also to touch, i.e. reach to",
+      "kjv_def": "abolish, blot out, destroy, full of marrow, put out, reach unto, utterly, wipe away, out."
+    },
+    "H7451": {
+      "strong": "H7451",
+      "language": "hebrew",
+      "lemma": "רַע",
+      "translit": "raʻ",
+      "gloss": "bad or (as noun) evil (natural or moral)",
+      "strongs_def": "bad or (as noun) evil (natural or moral)",
+      "kjv_def": "adversity, affliction, bad, calamity, displease-ure, distress, evil-favouredness, man, thing, exceedingly, great, grief-vous, harm, heavy, hurt-ful, ill favoured, mark, mischief-vous, misery, naught-ty, noisome, not please, sad-ly, sore, sorrow, trouble, vex, wicked-ly, -ness, one, worse-st, wretchedness, wrong. Incl. feminine raaah; as adjective or noun.."
+    },
+    "H914": {
+      "strong": "H914",
+      "language": "hebrew",
+      "lemma": "בָּדַל",
+      "translit": "bâdal",
+      "gloss": "to divide (in variation senses literally or figuratively, separate, distinguish, differ, select, etc.)",
+      "strongs_def": "to divide (in variation senses literally or figuratively, separate, distinguish, differ, select, etc.)",
+      "kjv_def": "make, put difference, divide asunder, make separate self, -ation, sever out, utterly."
+    },
+    "H8451": {
+      "strong": "H8451",
+      "language": "hebrew",
+      "lemma": "תּוֹרָה",
+      "translit": "tôwrâh",
+      "gloss": "a precept or statute, especially the Decalogue or Pentateuch",
+      "strongs_def": "a precept or statute, especially the Decalogue or Pentateuch",
+      "kjv_def": "law."
+    },
+    "H314": {
+      "strong": "H314",
+      "language": "hebrew",
+      "lemma": "אַחֲרוֹן",
+      "translit": "ʼachărôwn",
+      "gloss": "hinder; generally, late or last; specifically (as facing the east) western",
+      "strongs_def": "hinder; generally, late or last; specifically (as facing the east) western",
+      "kjv_def": "after -ward, to come, following, hind-er, -ermost, -most, last, latter, rereward, utter most."
+    },
+    "H1755": {
+      "strong": "H1755",
+      "language": "hebrew",
+      "lemma": "דּוֹר",
+      "translit": "dôwr",
+      "gloss": "properly, a revolution of time, i.e. an age or generation; also a dwelling",
+      "strongs_def": "properly, a revolution of time, i.e. an age or generation; also a dwelling",
+      "kjv_def": "age, evermore, generation, n- ever, posterity."
+    },
+    "H1121": {
+      "strong": "H1121",
+      "language": "hebrew",
+      "lemma": "בֵּן",
+      "translit": "bên",
+      "gloss": "a son (as a builder of the family name), in the widest sense (of literal and figurative relationship, including grandson, subject, nation, quality or condition, etc., (like father or brother), etc.)",
+      "strongs_def": "a son (as a builder of the family name), in the widest sense (of literal and figurative relationship, including grandson, subject, nation, quality or condition, etc., (like father or brother), etc.)",
+      "kjv_def": "afflicted, age, Ahoh- Ammon- Hachmon- Lev- ite, anoint- ed one, appointed to, arrow, Assyr- Babylon- Egypt- Grec- ian, one born, bough, branch, breed, young bullock, young calf, came up in, child, colt, common, corn, daughter, of first, firstborn, foal, very fruitful, postage, in, kid, lamb, man, meet, mighty, nephew, old, people, rebel, robber, servant born, soldier, son, spark, steward, stranger, surely, them of, tumultuous one, valiant-est, whelp, worthy, young one, youth."
+    },
+    "H310": {
+      "strong": "H310",
+      "language": "hebrew",
+      "lemma": "אַחַר",
+      "translit": "ʼachar",
+      "gloss": "properly, the hind part; generally used as an adverb or conjunction, after (in various senses)",
+      "strongs_def": "properly, the hind part; generally used as an adverb or conjunction, after (in various senses)",
+      "kjv_def": "after that, -ward, again, at, away from, back from, -side, behind, beside, by, follow after, -ing, forasmuch, from, hereafter, hinder end, out over live, persecute, posterity, pursuing, remnant, seeing, since, thence-forth, when, with."
+    },
+    "H5237": {
+      "strong": "H5237",
+      "language": "hebrew",
+      "lemma": "נׇכְרִי",
+      "translit": "nokrîy",
+      "gloss": "strange, in a variety of degrees and applications (foreign, non-relative, adulterous, different, wonderful)",
+      "strongs_def": "strange, in a variety of degrees and applications (foreign, non-relative, adulterous, different, wonderful)",
+      "kjv_def": "alien, foreigner, outlandish, strange-r, woman."
+    },
+    "H7350": {
+      "strong": "H7350",
+      "language": "hebrew",
+      "lemma": "רָחוֹק",
+      "translit": "râchôwq",
+      "gloss": "remote, literally or figuratively, of place or time; specifically, precious; often used adverbially (with preposition)",
+      "strongs_def": "remote, literally or figuratively, of place or time; specifically, precious; often used adverbially (with preposition)",
+      "kjv_def": "a- far abroad, off, long ago, of old, space, great while to come."
+    },
+    "H935": {
+      "strong": "H935",
+      "language": "hebrew",
+      "lemma": "בּוֹא",
+      "translit": "bôwʼ",
+      "gloss": "to go or come (in a wide variety of applications)",
+      "strongs_def": "to go or come (in a wide variety of applications)",
+      "kjv_def": "abide, apply, attain, be, befall, besiege, bring forth, in, into, to pass, call, carry, certainly, cause, let, thing for to come against, in, out, upon, to pass, depart, doubtless again, eat, employ, cause to enter in, into, -tering, -trance, -try, be fallen, fetch, follow, get, give, go down, in, to war, grant, have, indeed, in- vade, lead, lift up, mention, pull in, put, resort, run down, send, set, well stricken in age, surely, take in, way."
+    },
+    "H4347": {
+      "strong": "H4347",
+      "language": "hebrew",
+      "lemma": "מַכָּה",
+      "translit": "makkâh",
+      "gloss": "a wound; figuratively, carnage, also pestilence",
+      "strongs_def": "a wound; figuratively, carnage, also pestilence",
+      "kjv_def": "beaten, blow, plague, slaughter, smote, sore, stripe, stroke, wound-ed."
+    },
+    "H8463": {
+      "strong": "H8463",
+      "language": "hebrew",
+      "lemma": "תַּחֲלוּא",
+      "translit": "tachălûwʼ",
+      "gloss": "a malady",
+      "strongs_def": "a malady",
+      "kjv_def": "disease, grievous, that are sick-ness."
+    },
+    "H2470": {
+      "strong": "H2470",
+      "language": "hebrew",
+      "lemma": "חָלָה",
+      "translit": "châlâh",
+      "gloss": "properly, to be rubbed or worn; hence (figuratively) to be weak, sick, afflicted; or (causatively) to grieve, make sick; also to stroke (in flattering), entreat",
+      "strongs_def": "properly, to be rubbed or worn; hence (figuratively) to be weak, sick, afflicted; or (causatively) to grieve, make sick; also to stroke (in flattering), entreat",
+      "kjv_def": "beseech, be diseased, put to grief, be grieved, be grievous, infirmity, intreat, lay to, put to pain, pray, make prayer, be fall, make sick, sore, be sorry, make suit supplication, woman in travail, be become weak, be wounded."
+    },
+    "H1614": {
+      "strong": "H1614",
+      "language": "hebrew",
+      "lemma": "גׇּפְרִית",
+      "translit": "gophrîyth",
+      "gloss": "properly, cypress-resin; by analogy, sulphur (as equally inflammable)",
+      "strongs_def": "properly, cypress-resin; by analogy, sulphur (as equally inflammable)",
+      "kjv_def": "brimstone."
+    },
+    "H4417": {
+      "strong": "H4417",
+      "language": "hebrew",
+      "lemma": "מֶלַח",
+      "translit": "melach",
+      "gloss": "properly, powder, i.e. (specifically) salt (as easily pulverized and dissolved)",
+      "strongs_def": "properly, powder, i.e. (specifically) salt (as easily pulverized and dissolved)",
+      "kjv_def": "salt-pit."
+    },
+    "H8316": {
+      "strong": "H8316",
+      "language": "hebrew",
+      "lemma": "שְׂרֵפָה",
+      "translit": "sᵉrêphâh",
+      "gloss": "cremation",
+      "strongs_def": "cremation",
+      "kjv_def": "burning."
+    },
+    "H2232": {
+      "strong": "H2232",
+      "language": "hebrew",
+      "lemma": "זָרַע",
+      "translit": "zâraʻ",
+      "gloss": "to sow; figuratively, to disseminate, plant, fructify",
+      "strongs_def": "to sow; figuratively, to disseminate, plant, fructify",
+      "kjv_def": "bear, conceive seed, set with sow-er, yield."
+    },
+    "H6779": {
+      "strong": "H6779",
+      "language": "hebrew",
+      "lemma": "צָמַח",
+      "translit": "tsâmach",
+      "gloss": "to sprout (transitive or intransitive, literal or figurative)",
+      "strongs_def": "to sprout (transitive or intransitive, literal or figurative)",
+      "kjv_def": "bear, bring forth, cause to, make to bud forth, cause to, make to grow again, up, cause to spring forth, up."
+    },
+    "H6212": {
+      "strong": "H6212",
+      "language": "hebrew",
+      "lemma": "עֶשֶׂב",
+      "translit": "ʻeseb",
+      "gloss": "grass (or any tender shoot)",
+      "strongs_def": "grass (or any tender shoot)",
+      "kjv_def": "grass, herb."
+    },
+    "H5927": {
+      "strong": "H5927",
+      "language": "hebrew",
+      "lemma": "עָלָה",
+      "translit": "ʻâlâh",
+      "gloss": "to ascend, intransitively (be high) or actively (mount); used in a great variety of senses, primary and secondary, literal and figurative",
+      "strongs_def": "to ascend, intransitively (be high) or actively (mount); used in a great variety of senses, primary and secondary, literal and figurative",
+      "kjv_def": "arise up, cause to ascend up, at once, break the day up, bring up, cause to burn, carry up, cast up, shew, climb up, cause to, make to come up, cut off, dawn, depart, exalt, excel, fall, fetch up, get up, make to go away, up; grow over increase, lay, leap, levy, lift self up, light, make up, mention, mount up, offer, make to pay, perfect, prefer, put on, raise, recover, restore, make to rise up, scale, set up, shoot forth up, begin to spring up, stir up, take away up, work."
+    },
+    "H4114": {
+      "strong": "H4114",
+      "language": "hebrew",
+      "lemma": "מַהְפֵּכָה",
+      "translit": "mahpêkâh",
+      "gloss": "a destruction",
+      "strongs_def": "a destruction",
+      "kjv_def": "when...overthrew, overthrow-n."
+    },
+    "H5467": {
+      "strong": "H5467",
+      "language": "hebrew",
+      "lemma": "סְדֹם",
+      "translit": "Çᵉdôm",
+      "gloss": "Sedom, a place near the Dead Sea",
+      "strongs_def": "Sedom, a place near the Dead Sea",
+      "kjv_def": "Sodom."
+    },
+    "H6017": {
+      "strong": "H6017",
+      "language": "hebrew",
+      "lemma": "עֲמֹרָה",
+      "translit": "ʻĂmôrâh",
+      "gloss": "Amorah, a place in Palestine",
+      "strongs_def": "Amorah, a place in Palestine",
+      "kjv_def": "Gomorrah."
+    },
+    "H126": {
+      "strong": "H126",
+      "language": "hebrew",
+      "lemma": "אַדְמָה",
+      "translit": "ʼAdmâh",
+      "gloss": "Admah, a place near the Dead Sea",
+      "strongs_def": "Admah, a place near the Dead Sea",
+      "kjv_def": "Admah."
+    },
+    "H6636": {
+      "strong": "H6636",
+      "language": "hebrew",
+      "lemma": "צְבֹאִים",
+      "translit": "Tsᵉbôʼîym",
+      "gloss": "Tseboim or Tsebijim, a place in Palestine",
+      "strongs_def": "Tseboim or Tsebijim, a place in Palestine",
+      "kjv_def": "Zeboiim, Zeboim."
+    },
+    "H2015": {
+      "strong": "H2015",
+      "language": "hebrew",
+      "lemma": "הָפַךְ",
+      "translit": "hâphak",
+      "gloss": "to turn about or over; by implication, to change, overturn, return, pervert",
+      "strongs_def": "to turn about or over; by implication, to change, overturn, return, pervert",
+      "kjv_def": "become, change, come, be converted, give, make a bed, overthrow -turn, perverse, retire, tumble, turn again, aside, back, to the contrary, every way."
+    },
+    "H2534": {
+      "strong": "H2534",
+      "language": "hebrew",
+      "lemma": "חֵמָה",
+      "translit": "chêmâh",
+      "gloss": "heat; figuratively, anger, poison (from its fever)",
+      "strongs_def": "heat; figuratively, anger, poison (from its fever)",
+      "kjv_def": "anger, bottles, hot displeasure, furious-ly, -ry, heat, indignation, poison, rage, wrath-ful. See H2529 חֶמְאָה."
+    },
+    "H6213": {
+      "strong": "H6213",
+      "language": "hebrew",
+      "lemma": "עָשָׂה",
+      "translit": "ʻâsâh",
+      "gloss": "to do or make, in the broadest sense and widest application",
+      "strongs_def": "to do or make, in the broadest sense and widest application",
+      "kjv_def": "accomplish, advance, appoint, apt, be at, become, bear, bestow, bring forth, bruise, be busy, certainly, have the charge of, commit, deal with, deck, displease, do, ready dress-ed, put in execute-ion, exercise, fashion, feast, fight- ing man, finish, fit, fly, follow, fulfill, furnish, gather, get, go about, govern, grant, great, hinder, hold a feast, indeed, be industrious, journey, keep, labour, maintain, make, be meet, observe, be occupied, offer, officer, pare, bring come to pass, perform, pracise, prepare, procure, provide, put, requite, sacrifice, serve, set, shew, sin, spend, surely, take, thoroughly, trim, very, vex, be warr- ior, work-man, yield, use."
+    },
+    "H2750": {
+      "strong": "H2750",
+      "language": "hebrew",
+      "lemma": "חֳרִי",
+      "translit": "chŏrîy",
+      "gloss": "a burning (i.e. intense) anger",
+      "strongs_def": "a burning (i.e. intense) anger",
+      "kjv_def": "fierce, great, heat."
+    },
+    "H1419": {
+      "strong": "H1419",
+      "language": "hebrew",
+      "lemma": "גָּדוֹל",
+      "translit": "gâdôwl",
+      "gloss": "great (in any sense); hence, older; also insolent",
+      "strongs_def": "great (in any sense); hence, older; also insolent",
+      "kjv_def": "aloud, elder-est, exceeding-ly, far, man of great man, matter, thing,-er,-ness, high, long, loud, mighty, more, much, noble, proud thing, sore, very."
+    },
+    "H5800": {
+      "strong": "H5800",
+      "language": "hebrew",
+      "lemma": "עָזַב",
+      "translit": "ʻâzab",
+      "gloss": "to loosen, i.e. relinquish, permit, etc.",
+      "strongs_def": "to loosen, i.e. relinquish, permit, etc.",
+      "kjv_def": "commit self, fail, forsake, fortify, help, leave destitute, off, refuse, surely."
+    },
+    "H3318": {
+      "strong": "H3318",
+      "language": "hebrew",
+      "lemma": "יָצָא",
+      "translit": "yâtsâʼ",
+      "gloss": "to go (causatively, bring) out, in a great variety of applications, literally and figuratively, direct and proxim.",
+      "strongs_def": "to go (causatively, bring) out, in a great variety of applications, literally and figuratively, direct and proxim.",
+      "kjv_def": "after, appear, assuredly, bear out, begotten, break out, bring forth out, up, carry out, come abroad, out, thereat, without, be condemned, depart-ing, -ure, draw forth, in the end, escape, exact, fail, fall out, fetch forth out, get away forth, hence, out, able to, cause to, let go abroad forth, on, out, going out, grow, have forth out, issue out, lay lie out, lead out, pluck out, proceed, pull out, put away, be risen, scarce, send with commandment, shoot forth, spread, spring out, stand out, still, surely, take forth out, at any time, to and fro, utter."
+    },
+    "H312": {
+      "strong": "H312",
+      "language": "hebrew",
+      "lemma": "אַחֵר",
+      "translit": "ʼachêr",
+      "gloss": "properly, hinder; generally, next, other, etc.",
+      "strongs_def": "properly, hinder; generally, next, other, etc.",
+      "kjv_def": "an- other man, following, next, strange."
+    },
+    "H7812": {
+      "strong": "H7812",
+      "language": "hebrew",
+      "lemma": "שָׁחָה",
+      "translit": "shâchâh",
+      "gloss": "to depress, i.e. prostrate (especially reflexive, in homage to royalty or God)",
+      "strongs_def": "to depress, i.e. prostrate (especially reflexive, in homage to royalty or God)",
+      "kjv_def": "bow self down, crouch, fall down flat, humbly beseech, do make obeisance, do reverence, make to stoop, worship."
+    },
+    "H2505": {
+      "strong": "H2505",
+      "language": "hebrew",
+      "lemma": "חָלַק",
+      "translit": "châlaq",
+      "gloss": "to be smooth (figuratively); by implication (as smooth stones were used for lots) to apportion or separate",
+      "strongs_def": "to be smooth (figuratively); by implication (as smooth stones were used for lots) to apportion or separate",
+      "kjv_def": "deal, distribute, divide, flatter, give, have, im- part-ner, take away a portion, receive, separate self, be smooth-er."
+    },
+    "H2734": {
+      "strong": "H2734",
+      "language": "hebrew",
+      "lemma": "חָרָה",
+      "translit": "chârâh",
+      "gloss": "to glow or grow warm; figuratively (usually) to blaze up, of anger, zeal, jealousy",
+      "strongs_def": "to glow or grow warm; figuratively (usually) to blaze up, of anger, zeal, jealousy",
+      "kjv_def": "be angry, burn, be displeased, earnestly, fret self, grieve, be wax hot, be incensed, kindle, very, be wroth. See H8474 תַּחָרָה."
+    },
+    "H7045": {
+      "strong": "H7045",
+      "language": "hebrew",
+      "lemma": "קְלָלָה",
+      "translit": "qᵉlâlâh",
+      "gloss": "vilification",
+      "strongs_def": "vilification",
+      "kjv_def": "ac- curse-d, -ing."
+    },
+    "H127": {
+      "strong": "H127",
+      "language": "hebrew",
+      "lemma": "אֲדָמָה",
+      "translit": "ʼădâmâh",
+      "gloss": "soil (from its general redness)",
+      "strongs_def": "soil (from its general redness)",
+      "kjv_def": "country, earth, ground, husband-man -ry, land."
+    },
+    "H5428": {
+      "strong": "H5428",
+      "language": "hebrew",
+      "lemma": "נָתַשׁ",
+      "translit": "nâthash",
+      "gloss": "to tear away",
+      "strongs_def": "to tear away",
+      "kjv_def": "destroy, forsake, pluck out, up, by the roots, pull up, root out up, utterly. s"
+    },
+    "H7110": {
+      "strong": "H7110",
+      "language": "hebrew",
+      "lemma": "קֶצֶף",
+      "translit": "qetseph",
+      "gloss": "a splinter (as chipped off); figuratively, rage or strife",
+      "strongs_def": "a splinter (as chipped off); figuratively, rage or strife",
+      "kjv_def": "foam, indignation, sore, wrath."
+    },
+    "H7993": {
+      "strong": "H7993",
+      "language": "hebrew",
+      "lemma": "שָׁלַךְ",
+      "translit": "shâlak",
+      "gloss": "to throw out, down or away (literally or figuratively)",
+      "strongs_def": "to throw out, down or away (literally or figuratively)",
+      "kjv_def": "adventure, cast away, down, forth, off, out, hurl, pluck, throw."
+    },
+    "H5641": {
+      "strong": "H5641",
+      "language": "hebrew",
+      "lemma": "סָתַר",
+      "translit": "çâthar",
+      "gloss": "to hide (by covering), literally or figuratively",
+      "strongs_def": "to hide (by covering), literally or figuratively",
+      "kjv_def": "be absent, keep close, conceal, hide self, keep secret, surely."
+    },
+    "H1540": {
+      "strong": "H1540",
+      "language": "hebrew",
+      "lemma": "גָּלָה",
+      "translit": "gâlâh",
+      "gloss": "to denude (especially in a disgraceful sense); by implication, to exile (captives being usually stripped); figuratively, to reveal",
+      "strongs_def": "to denude (especially in a disgraceful sense); by implication, to exile (captives being usually stripped); figuratively, to reveal",
+      "kjv_def": "advertise, appear, bewray, bring, carry, lead, go captive into captivity, depart, disclose, discover, exile, be gone, open, plainly, publish, remove, reveal, shamelessly, shew, surely, tell, uncover."
+    },
+    "H5704": {
+      "strong": "H5704",
+      "language": "hebrew",
+      "lemma": "עַד",
+      "translit": "ʻad",
+      "gloss": "as far (or long, or much) as, whether of space (even unto) or time (during, while, until) or degree (equally with)",
+      "strongs_def": "as far (or long, or much) as, whether of space (even unto) or time (during, while, until) or degree (equally with)",
+      "kjv_def": "against, and, as, at, before, by that, even to, for-asmuch as, hither- to, how long, into, as long much as, so that, till, toward, until, when, while, as yet."
+    },
+    "H5769": {
+      "strong": "H5769",
+      "language": "hebrew",
+      "lemma": "עוֹלָם",
+      "translit": "ʻôwlâm",
+      "gloss": "properly, concealed, i.e. the vanishing point; generally, time out of mind (past or future), i.e. (practically) eternity; frequentatively, adverbial (especially with prepositional prefix) always",
+      "strongs_def": "properly, concealed, i.e. the vanishing point; generally, time out of mind (past or future), i.e. (practically) eternity; frequentatively, adverbial (especially with prepositional prefix) always",
+      "kjv_def": "alway-s, ancient time, any more, continuance, eternal, for, n- ever-lasting, -more, of old, lasting, long time, of old time, perpetual, at any time, beginning of the world without end. Compare H5331 נֶצַח, H5703 עַד."
+    },
+    "H1293": {
+      "strong": "H1293",
+      "language": "hebrew",
+      "lemma": "בְּרָכָה",
+      "translit": "Bᵉrâkâh",
+      "gloss": "benediction; by implication prosperity",
+      "strongs_def": "benediction; by implication prosperity",
+      "kjv_def": "blessing, liberal, pool, present."
     },
     "H5414": {
-      "lemma": "נָתַן",
-      "translit": "nathan",
       "strong": "H5414",
       "language": "hebrew",
-      "gloss": "geven, stellen, beschrikken (to give, set)"
+      "lemma": "נָתַן",
+      "translit": "nâthan",
+      "gloss": "to give, used with greatest latitude of application (put, make, etc.)",
+      "strongs_def": "to give, used with greatest latitude of application (put, make, etc.)",
+      "kjv_def": "add, apply, appoint, ascribe, assign, avenge, be healed, bestow, bring forth, hither, cast, cause, charge, come, commit, consider, count, cry, deliver up, direct, distribute, do, doubtless, without fail, fasten, frame, get, give forth, over, up, grant, hang up, have, indeed, lay unto charge, up, give leave, lend, let out, lie, lift up, make, O that, occupy, offer, ordain, pay, perform, place, pour, print, pull, put forth, recompense, render, requite, restore, send out, set forth, shew, shoot forth up, sing, slander, strike, sub- mit, suffer, surely, take, thrust, trade, turn, utter, weep, willingly, withdraw, would to God, yield."
+    },
+    "H7725": {
+      "strong": "H7725",
+      "language": "hebrew",
+      "lemma": "שׁוּב",
+      "translit": "shûwb",
+      "gloss": "to turn back (hence, away) transitively or intransitively, literally or figuratively (not necessarily with the idea of return to the starting point); generally to retreat; often adverbial, again",
+      "strongs_def": "to turn back (hence, away) transitively or intransitively, literally or figuratively (not necessarily with the idea of return to the starting point); generally to retreat; often adverbial, again",
+      "kjv_def": "break, build, circumcise, dig, do anything, do evil, feed, lay down, lie down, lodge, make, rejoice, send, take, weep again, cause to answer again, in any case wise, at all, averse, bring again, back, home again, call to mind, carry again back, cease, certainly, come again back, consider, continually, convert, deliver again, deny, draw back, fetch home again, fro, get oneself back again, give again, go again back, home, go out, hinder, let, see more, needs, be past, pay, pervert, pull in again, put again, up again, recall, recompense, recover, refresh, relieve, render again, requite, rescue, restore, retrieve, cause to, make to return, reverse, reward, say nay, send back, set again, slide back, still, surely, take back off, cause to, make to turn again, self again, away, back, back again, backward, from, off, withdraw."
+    },
+    "H5080": {
+      "strong": "H5080",
+      "language": "hebrew",
+      "lemma": "נָדַח",
+      "translit": "nâdach",
+      "gloss": "to push off; used in a great variety of applications, literally and figuratively (to expel, mislead, strike, inflict, etc.)",
+      "strongs_def": "to push off; used in a great variety of applications, literally and figuratively (to expel, mislead, strike, inflict, etc.)",
+      "kjv_def": "banish, bring, cast down out, chase, compel, draw away, drive away, out, quite, fetch a stroke, force, go away, outcast, thrust away out, withdraw."
+    },
+    "H6963": {
+      "strong": "H6963",
+      "language": "hebrew",
+      "lemma": "קוֹל",
+      "translit": "qôwl",
+      "gloss": "a voice or sound",
+      "strongs_def": "a voice or sound",
+      "kjv_def": "aloud, bleating, crackling, cry out, fame, lightness, lowing, noise, hold peace, pro- claim, proclamation, sing, sound, spark, thunder-ing, voice, yell."
+    },
+    "H6680": {
+      "strong": "H6680",
+      "language": "hebrew",
+      "lemma": "צָוָה",
+      "translit": "tsâvâh",
+      "gloss": "(intensively) to constitute, enjoin",
+      "strongs_def": "(intensively) to constitute, enjoin",
+      "kjv_def": "appoint, for- bid, give a charge, give a, give in, send with command-er, -ment, send a messenger, put, set in order."
+    },
+    "H5315": {
+      "strong": "H5315",
+      "language": "hebrew",
+      "lemma": "נֶפֶשׁ",
+      "translit": "nephesh",
+      "gloss": "properly, a breathing creature, i.e. animal of (abstractly) vitality; used very widely in a literal, accommodated or figurative sense (bodily or mental)",
+      "strongs_def": "properly, a breathing creature, i.e. animal of (abstractly) vitality; used very widely in a literal, accommodated or figurative sense (bodily or mental)",
+      "kjv_def": "any, appetite, beast, body, breath, creature, dead-ly, desire, dis- contented, fish, ghost, greedy, he, heart-y, hath, jeopardy of life in jeopardy, lust, man, me, mind, mortally, one, own, person, pleasure, her-, him-, my-, thy- self, them your -selves, slay, soul, tablet, they, thing, she will, would have it."
+    },
+    "H7622": {
+      "strong": "H7622",
+      "language": "hebrew",
+      "lemma": "שְׁבוּת",
+      "translit": "shᵉbûwth",
+      "gloss": "exile, concretely, prisoners; figuratively, a former state of prosperity",
+      "strongs_def": "exile, concretely, prisoners; figuratively, a former state of prosperity",
+      "kjv_def": "captive-ity."
+    },
+    "H7355": {
+      "strong": "H7355",
+      "language": "hebrew",
+      "lemma": "רָחַם",
+      "translit": "râcham",
+      "gloss": "to fondle; by implication, to love, especially to compassionate",
+      "strongs_def": "to fondle; by implication, to love, especially to compassionate",
+      "kjv_def": "have compassion on, upon, love, find, have, obtain, shew mercy-iful, on, upon, have pity, Ruhamah, surely."
+    },
+    "H6908": {
+      "strong": "H6908",
+      "language": "hebrew",
+      "lemma": "קָבַץ",
+      "translit": "qâbats",
+      "gloss": "to grasp, i.e. collect",
+      "strongs_def": "to grasp, i.e. collect",
+      "kjv_def": "assemble selves, gather bring together, selves together, up, heap, resort, surely, take up."
+    },
+    "H6327": {
+      "strong": "H6327",
+      "language": "hebrew",
+      "lemma": "פּוּץ",
+      "translit": "pûwts",
+      "gloss": "to dash in pieces, literally or figuratively (especially to disperse)",
+      "strongs_def": "to dash in pieces, literally or figuratively (especially to disperse)",
+      "kjv_def": "break dash, shake in to pieces, cast abroad, disperse selves, drive, retire, scatter abroad, spread abroad."
+    },
+    "H7097": {
+      "strong": "H7097",
+      "language": "hebrew",
+      "lemma": "קָצֶה",
+      "translit": "qâtseh",
+      "gloss": "an extremity",
+      "strongs_def": "an extremity",
+      "kjv_def": "after, border, brim, brink, edge, end, in- finite, frontier, outmost coast, quarter, shore, out- side, some, ut-ter- most part."
+    },
+    "H3947": {
+      "strong": "H3947",
+      "language": "hebrew",
+      "lemma": "לָקַח",
+      "translit": "lâqach",
+      "gloss": "to take (in the widest variety of applications)",
+      "strongs_def": "to take (in the widest variety of applications)",
+      "kjv_def": "accept, bring, buy, carry away, drawn, fetch, get, infold, many, mingle, place, receive-ing, reserve, seize, send for, take away, -ing, up, use, win."
+    },
+    "H3423": {
+      "strong": "H3423",
+      "language": "hebrew",
+      "lemma": "יָרַשׁ",
+      "translit": "yârash",
+      "gloss": "to occupy (by driving out previous tenants, and possessing in their place); by implication, to seize, to rob, to inherit; also to expel, to impoverish, to ruin",
+      "strongs_def": "to occupy (by driving out previous tenants, and possessing in their place); by implication, to seize, to rob, to inherit; also to expel, to impoverish, to ruin",
+      "kjv_def": "cast out, consume, destroy, disinherit, dispossess, drive-ing out, enjoy, expel, without fail, give to, leave for inherit-ance, -or magistrate, be make poor, come to poverty, give to, make to possess, get have in take possession, seize upon, succeed, utterly."
+    },
+    "H3190": {
+      "strong": "H3190",
+      "language": "hebrew",
+      "lemma": "יָטַב",
+      "translit": "yâṭab",
+      "gloss": "to be (causative) make well, literally (sound, beautiful) or figuratively (happy, successful, right)",
+      "strongs_def": "to be (causative) make well, literally (sound, beautiful) or figuratively (happy, successful, right)",
+      "kjv_def": "be accepted, amend, use aright, benefit, be make better, seem best, make cheerful, be comely, be content, diligent-ly, dress, earnestly, find favour, give, be glad, do be, make good-ness, be make merry, please well, shew more kindness, skilfully, very small, surely, make sweet, thoroughly, tire, trim, very, be can, deal, entreat, go, have well said, seen."
+    },
+    "H7235": {
+      "strong": "H7235",
+      "language": "hebrew",
+      "lemma": "רָבָה",
+      "translit": "râbâh",
+      "gloss": "to increase (in whatever respect)",
+      "strongs_def": "to increase (in whatever respect)",
+      "kjv_def": "bring in abundance -antly, archer by mistake for H7232 רָבַב, be in authority, bring up, continue, enlarge, excel, exceeding-ly, be full of, be, make great-er, -ly, -ness, grow up, heap, increase, be long, be, give, have, make, use many a time, any, be, give, give the, have more in number, ask, be, be so, gather, over, take, yield much greater, more, make to multiply, nourish, plenty-eous, process of time, sore, store, thoroughly, very."
+    },
+    "H4135": {
+      "strong": "H4135",
+      "language": "hebrew",
+      "lemma": "מוּל",
+      "translit": "mûwl",
+      "gloss": "to cut short, i.e. curtail (specifically the prepuce, i.e. to circumcise); by implication, to blunt; figuratively, to destroy",
+      "strongs_def": "to cut short, i.e. curtail (specifically the prepuce, i.e. to circumcise); by implication, to blunt; figuratively, to destroy",
+      "kjv_def": "circumcise-ing, selves, cut down in pieces, destroy, must needs."
+    },
+    "H2233": {
+      "strong": "H2233",
+      "language": "hebrew",
+      "lemma": "זֶרַע",
+      "translit": "zeraʻ",
+      "gloss": "seed; figuratively, fruit, plant, sowing-time, posterity",
+      "strongs_def": "seed; figuratively, fruit, plant, sowing-time, posterity",
+      "kjv_def": "carnally, child, fruitful, seed-time, sowing-time."
+    },
+    "H157": {
+      "strong": "H157",
+      "language": "hebrew",
+      "lemma": "אָהַב",
+      "translit": "ʼâhab",
+      "gloss": "to have affection for (sexually or otherwise)",
+      "strongs_def": "to have affection for (sexually or otherwise)",
+      "kjv_def": "be- love-d, -ly, -r, like, friend."
+    },
+    "H2416": {
+      "strong": "H2416",
+      "language": "hebrew",
+      "lemma": "חַי",
+      "translit": "chay",
+      "gloss": "alive; hence, raw (flesh); fresh (plant, water, year), strong; also (as noun, especially in the feminine singular and masculine plural) life (or living thing), whether literally or figuratively",
+      "strongs_def": "alive; hence, raw (flesh); fresh (plant, water, year), strong; also (as noun, especially in the feminine singular and masculine plural) life (or living thing), whether literally or figuratively",
+      "kjv_def": "age, alive, appetite, wild beast, company, congregation, life-time, live-ly, living creature, thing, maintenance, merry, multitude, be old, quick, raw, running, springing, troop."
+    },
+    "H341": {
+      "strong": "H341",
+      "language": "hebrew",
+      "lemma": "אֹיֵב",
+      "translit": "ʼôyêb",
+      "gloss": "hating; an adversary",
+      "strongs_def": "hating; an adversary",
+      "kjv_def": "enemy, foe."
+    },
+    "H8130": {
+      "strong": "H8130",
+      "language": "hebrew",
+      "lemma": "שָׂנֵא",
+      "translit": "sânêʼ",
+      "gloss": "to hate (personally)",
+      "strongs_def": "to hate (personally)",
+      "kjv_def": "enemy, foe, be hate-ful, -r, odious, utterly."
+    },
+    "H7291": {
+      "strong": "H7291",
+      "language": "hebrew",
+      "lemma": "רָדַף",
+      "translit": "râdaph",
+      "gloss": "to run after (usually with hostile intent; figuratively (of time) gone by)",
+      "strongs_def": "to run after (usually with hostile intent; figuratively (of time) gone by)",
+      "kjv_def": "chase, put to flight, follow after, on, hunt, be under persecute-ion, -or, pursue-r."
+    },
+    "H4687": {
+      "strong": "H4687",
+      "language": "hebrew",
+      "lemma": "מִצְוָה",
+      "translit": "mitsvâh",
+      "gloss": "a command, whether human or divine (collectively, the Law)",
+      "strongs_def": "a command, whether human or divine (collectively, the Law)",
+      "kjv_def": "which was commanded-ment, law, ordinance, precept."
+    },
+    "H3498": {
+      "strong": "H3498",
+      "language": "hebrew",
+      "lemma": "יָתַר",
+      "translit": "yâthar",
+      "gloss": "to jut over or exceed; by implication, to excel; (intransitively) to remain or be left; causatively, to leave, cause to abound, preserve",
+      "strongs_def": "to jut over or exceed; by implication, to excel; (intransitively) to remain or be left; causatively, to leave, cause to abound, preserve",
+      "kjv_def": "excel, leave a remnant, left behind, too much, make plenteous, preserve, be, let remain-der, -ing, -nant, reserve, residue, rest."
+    },
+    "H4639": {
+      "strong": "H4639",
+      "language": "hebrew",
+      "lemma": "מַעֲשֶׂה",
+      "translit": "maʻăseh",
+      "gloss": "an action (good or bad); generally, a transaction; abstractly, activity; by implication, a product (specifically, a poem) or (generally) property",
+      "strongs_def": "an action (good or bad); generally, a transaction; abstractly, activity; by implication, a product (specifically, a poem) or (generally) property",
+      "kjv_def": "act, art, bakemeat, business, deed, do-ing, labor, thing made, ware of making, occupation, thing offered, operation, possession, well, handy-, needle-, net- working, -manship, wrought."
+    },
+    "H3027": {
+      "strong": "H3027",
+      "language": "hebrew",
+      "lemma": "יָד",
+      "translit": "yâd",
+      "gloss": "a hand (the open one (indicating power, means, direction, etc.),",
+      "strongs_def": "a hand (the open one (indicating power, means, direction, etc.),",
+      "kjv_def": "be able, about, armholes, at, axletree, because of, beside, border, bounty, broad, broken- handed, by, charge, coast, consecrate, creditor, custody, debt, dominion, enough, fellowship, force, from, hand-staves, -y work, he, himself, in, labour, large, ledge, left- handed, means, mine, ministry, near, of, order, ordinance, our, parts, pain, power, presumptuously, service, side, sore, state, stay, draw with strength, stroke, swear, terror, thee, by them, themselves, thine own, thou, through, throwing, thumb, times, to, under, us, wait on, way- side, where, wide, with him, me, you, work, yield, yourselves."
+    },
+    "H6529": {
+      "strong": "H6529",
+      "language": "hebrew",
+      "lemma": "פְּרִי",
+      "translit": "pᵉrîy",
+      "gloss": "fruit (literally or figuratively)",
+      "strongs_def": "fruit (literally or figuratively)",
+      "kjv_def": "bough, first-fruit-ful, reward."
+    },
+    "H990": {
+      "strong": "H990",
+      "language": "hebrew",
+      "lemma": "בֶּטֶן",
+      "translit": "beṭen",
+      "gloss": "the belly, especially the womb; also the bosom or body of anything",
+      "strongs_def": "the belly, especially the womb; also the bosom or body of anything",
+      "kjv_def": "belly, body, as they be born, within, womb."
+    },
+    "H929": {
+      "strong": "H929",
+      "language": "hebrew",
+      "lemma": "בְּהֵמָה",
+      "translit": "bᵉhêmâh",
+      "gloss": "properly, a dumb beast; especially any large quadruped or animal (often collective)",
+      "strongs_def": "properly, a dumb beast; especially any large quadruped or animal (often collective)",
+      "kjv_def": "beast, cattle."
+    },
+    "H2896": {
+      "strong": "H2896",
+      "language": "hebrew",
+      "lemma": "טוֹב",
+      "translit": "ṭôwb",
+      "gloss": "good (as an adjective) in the widest sense; used likewise as a noun, both in the masculine and the feminine, the singular and the plural (good, a good or good thing, a good man or woman; the good, goods or good things, good men or women), also as an adverb (well)",
+      "strongs_def": "good (as an adjective) in the widest sense; used likewise as a noun, both in the masculine and the feminine, the singular and the plural (good, a good or good thing, a good man or woman; the good, goods or good things, good men or women), also as an adverb (well)",
+      "kjv_def": "beautiful, best, better, bountiful, cheerful, at ease, fair word, be in favour, fine, glad, good deed, -lier, -liest, -ly, -ness, -s, graciously, joyful, kindly, kindness, liketh best, loving, merry, most, pleasant, pleaseth, pleasure, precious, prosperity, ready, sweet, wealth, welfare, be well-favoured."
+    },
+    "H7797": {
+      "strong": "H7797",
+      "language": "hebrew",
+      "lemma": "שׂוּשׂ",
+      "translit": "sûws",
+      "gloss": "to be bright, i.e. cheerful",
+      "strongs_def": "to be bright, i.e. cheerful",
+      "kjv_def": "be glad, greatly, joy, make mirth, rejoice."
+    },
+    "H8104": {
+      "strong": "H8104",
+      "language": "hebrew",
+      "lemma": "שָׁמַר",
+      "translit": "shâmar",
+      "gloss": "properly, to hedge about (as with thorns), i.e. guard; generally, to protect, attend to, etc.",
+      "strongs_def": "properly, to hedge about (as with thorns), i.e. guard; generally, to protect, attend to, etc.",
+      "kjv_def": "beward, be circumspect, take heed to self, keep-er, self, mark, look narrowly, observe, preserve, regard, reserve, save self, sure, that lay wait for, watch-man."
+    },
+    "H2708": {
+      "strong": "H2708",
+      "language": "hebrew",
+      "lemma": "חֻקָּה",
+      "translit": "chuqqâh",
+      "gloss": "{an enactment; hence, an appointment (of time, space, quantity, labor or usage)}",
+      "strongs_def": "{an enactment; hence, an appointment (of time, space, quantity, labor or usage)}",
+      "kjv_def": "appointed, custom, manner, ordinance, site, statute."
+    },
+    "H6381": {
+      "strong": "H6381",
+      "language": "hebrew",
+      "lemma": "פָּלָא",
+      "translit": "pâlâʼ",
+      "gloss": "properly, perhaps to separate, i.e. distinguish (literally or figuratively); by implication, to be (causatively, make) great, difficult, wonderful",
+      "strongs_def": "properly, perhaps to separate, i.e. distinguish (literally or figuratively); by implication, to be (causatively, make) great, difficult, wonderful",
+      "kjv_def": "accomplish, arise...too, be too hard, hidden, things too high, be, do, do a, shew marvelous-ly, -els, things, work, miracles, perform, separate, make singular, be, great, make wonderful-ers, -ly, things, works, wondrous things, works, -ly."
+    },
+    "H5676": {
+      "strong": "H5676",
+      "language": "hebrew",
+      "lemma": "עֵבֶר",
+      "translit": "ʻêber",
+      "gloss": "properly, a region across; but used only adverbially (with or without a preposition) on the opposite side (especially of the Jordan; ususally meaning the east)",
+      "strongs_def": "properly, a region across; but used only adverbially (with or without a preposition) on the opposite side (especially of the Jordan; ususally meaning the east)",
+      "kjv_def": "against, beyond, by, from, over, passage, quarter, other, this side, straight."
+    },
+    "H3220": {
+      "strong": "H3220",
+      "language": "hebrew",
+      "lemma": "יָם",
+      "translit": "yâm",
+      "gloss": "a sea (as breaking in noisy surf) or large body of water; specifically (with the article), the Mediterranean Sea; sometimes a large river, or an artifical basin; locally, the west, or (rarely) the south",
+      "strongs_def": "a sea (as breaking in noisy surf) or large body of water; specifically (with the article), the Mediterranean Sea; sometimes a large river, or an artifical basin; locally, the west, or (rarely) the south",
+      "kjv_def": "sea -faring man, -shore, south, west -ern, side, -ward."
+    },
+    "H3966": {
+      "strong": "H3966",
+      "language": "hebrew",
+      "lemma": "מְאֹד",
+      "translit": "mᵉʼôd",
+      "gloss": "properly, vehemence, i.e. (with or without preposition) vehemently; by implication, wholly, speedily, etc. (often with other words as an intensive or superlative; especially when repeated)",
+      "strongs_def": "properly, vehemence, i.e. (with or without preposition) vehemently; by implication, wholly, speedily, etc. (often with other words as an intensive or superlative; especially when repeated)",
+      "kjv_def": "diligently, especially, exceeding-ly, far, fast, good, great-ly, louder and louder, might-ily, -y, so much, quickly, so sore, utterly, very much, sore, well."
+    },
+    "H7138": {
+      "strong": "H7138",
+      "language": "hebrew",
+      "lemma": "קָרוֹב",
+      "translit": "qârôwb",
+      "gloss": "near (in place, kindred or time)",
+      "strongs_def": "near (in place, kindred or time)",
+      "kjv_def": "allied, approach, at hand, any of kin, kinsfold-sman, that is near of kin, neighbour, that is next, them that come nigh at hand, more ready, short-ly."
+    },
+    "H6310": {
+      "strong": "H6310",
+      "language": "hebrew",
+      "lemma": "פֶּה",
+      "translit": "peh",
+      "gloss": "the mouth (as the means of blowing), whether literal or figurative (particularly speech); specifically edge, portion or side; adverbially (with preposition) according to",
+      "strongs_def": "the mouth (as the means of blowing), whether literal or figurative (particularly speech); specifically edge, portion or side; adverbially (with preposition) according to",
+      "kjv_def": "accord-ing as, -ing to, after, appointment, assent, collar, command-ment, eat, edge, end, entry, file, hole, in, mind, mouth, part, portion, should say-ing, sentence, skirt, sound, speech, spoken, talk, tenor, to, two-edged, wish, word."
+    },
+    "H4194": {
+      "strong": "H4194",
+      "language": "hebrew",
+      "lemma": "מָוֶת",
+      "translit": "mâveth",
+      "gloss": "death (natural or violent); concretely, the dead, their place or state (hades); figuratively, pestilence, ruin",
+      "strongs_def": "death (natural or violent); concretely, the dead, their place or state (hades); figuratively, pestilence, ruin",
+      "kjv_def": "be dead-ly, death, die-d."
+    },
+    "H1870": {
+      "strong": "H1870",
+      "language": "hebrew",
+      "lemma": "דֶּרֶךְ",
+      "translit": "derek",
+      "gloss": "a road (as trodden); figuratively, a course of life or mode of action, often adverb",
+      "strongs_def": "a road (as trodden); figuratively, a course of life or mode of action, often adverb",
+      "kjv_def": "along, away, because of, by, conversation, custom, east- ward, journey, manner, passenger, through, toward, high- path- way-side, whither-soever."
     },
     "H4941": {
-      "lemma": "מִשְׁפָּט",
-      "translit": "mishpat",
       "strong": "H4941",
       "language": "hebrew",
-      "gloss": "recht, oordeel, gericht (justice, judgment)"
+      "lemma": "מִשְׁפָּט",
+      "translit": "mishpâṭ",
+      "gloss": "properly, a verdict (favorable or unfavorable) pronounced judicially, especially a sentence or formal decree (human or (participant's) divine law, individual or collective), including the act, the place, the suit, the crime, and the penalty; abstractly, justice, including a participant's right or privilege (statutory or customary), or even a style",
+      "strongs_def": "properly, a verdict (favorable or unfavorable) pronounced judicially, especially a sentence or formal decree (human or (participant's) divine law, individual or collective), including the act, the place, the suit, the crime, and the penalty; abstractly, justice, including a participant's right or privilege (statutory or customary), or even a style",
+      "kjv_def": "adversary, ceremony, charge, crime, custom, desert, determination, discretion, disposing, due, fashion, form, to be judged, judgment, just-ice, -ly, manner of law-ful, manner, measure, due order, ordinance, right, sentence, usest, worthy, wrong."
+    },
+    "H2421": {
+      "strong": "H2421",
+      "language": "hebrew",
+      "lemma": "חָיָה",
+      "translit": "châyâh",
+      "gloss": "to live, whether literally or figuratively; causatively, to revive",
+      "strongs_def": "to live, whether literally or figuratively; causatively, to revive",
+      "kjv_def": "keep leave, make alive, certainly, give promise life, let, suffer to live, nourish up, preserve alive, quicken, recover, repair, restore to life, revive, God save alive, life, lives, surely, be whole."
+    },
+    "H5046": {
+      "strong": "H5046",
+      "language": "hebrew",
+      "lemma": "נָגַד",
+      "translit": "nâgad",
+      "gloss": "properly, to front, i.e. stand boldly out opposite; by implication (causatively), to manifest; figuratively, to announce (always by word of mouth to one present); specifically, to expose, predict, explain, praise",
+      "strongs_def": "properly, to front, i.e. stand boldly out opposite; by implication (causatively), to manifest; figuratively, to announce (always by word of mouth to one present); specifically, to expose, predict, explain, praise",
+      "kjv_def": "bewray, certainly, certify, declare-ing, denounce, expound, fully, messenger, plainly, profess, rehearse, report, shew forth, speak, surely, tell, utter."
+    },
+    "H6": {
+      "strong": "H6",
+      "language": "hebrew",
+      "lemma": "אָבַד",
+      "translit": "ʼâbad",
+      "gloss": "properly, to wander away, i.e. lose oneself; by implication to perish (causative, destroy)",
+      "strongs_def": "properly, to wander away, i.e. lose oneself; by implication to perish (causative, destroy)",
+      "kjv_def": "break, destroy-uction, not escape, fail, lose, cause to, make perish, spend, and surely, take, be undone, utterly, be void of, have no way to flee."
+    },
+    "H748": {
+      "strong": "H748",
+      "language": "hebrew",
+      "lemma": "אָרַךְ",
+      "translit": "ʼârak",
+      "gloss": "to be (causative, make) long (literally or figuratively)",
+      "strongs_def": "to be (causative, make) long (literally or figuratively)",
+      "kjv_def": "defer, draw out, lengthen, be, become, make, pro- long, out-, over- live, tarry long."
+    },
+    "H3383": {
+      "strong": "H3383",
+      "language": "hebrew",
+      "lemma": "יַרְדֵּן",
+      "translit": "Yardên",
+      "gloss": "Jarden, the principal river of Palestine",
+      "strongs_def": "Jarden, the principal river of Palestine",
+      "kjv_def": "Jordan."
+    },
+    "H5749": {
+      "strong": "H5749",
+      "language": "hebrew",
+      "lemma": "עוּד",
+      "translit": "ʻûwd",
+      "gloss": "to duplicate or repeat; by implication, to protest, testify (as by reiteration); intensively, to encompass, restore (as a sort of reduplication)",
+      "strongs_def": "to duplicate or repeat; by implication, to protest, testify (as by reiteration); intensively, to encompass, restore (as a sort of reduplication)",
+      "kjv_def": "admonish, charge, earnestly, lift up, protest, call take to record, relieve, rob, solemnly, stand upright, testify, give warning, bear, call to, give, take to witness."
+    },
+    "H977": {
+      "strong": "H977",
+      "language": "hebrew",
+      "lemma": "בָּחַר",
+      "translit": "bâchar",
+      "gloss": "properly, to try, i.e. (by implication) select",
+      "strongs_def": "properly, to try, i.e. (by implication) select",
+      "kjv_def": "acceptable, appoint, choose choice, excellent, join, be rather, require."
+    },
+    "H1692": {
+      "strong": "H1692",
+      "language": "hebrew",
+      "lemma": "דָּבַק",
+      "translit": "dâbaq",
+      "gloss": "properly, to impinge, i.e. cling or adhere; figuratively, to catch by pursuit",
+      "strongs_def": "properly, to impinge, i.e. cling or adhere; figuratively, to catch by pursuit",
+      "kjv_def": "abide fast, cleave fast together, follow close hard after, be joined together, keep fast, overtake, pursue hard, stick, take."
+    },
+    "H753": {
+      "strong": "H753",
+      "language": "hebrew",
+      "lemma": "אֹרֶךְ",
+      "translit": "ʼôrek",
+      "gloss": "length",
+      "strongs_def": "length",
+      "kjv_def": "forever, length, long."
+    },
+    "H4872": {
+      "strong": "H4872",
+      "language": "hebrew",
+      "lemma": "מֹשֶׁה",
+      "translit": "Môsheh",
+      "gloss": "Mosheh, the Israelite lawgiver",
+      "strongs_def": "Mosheh, the Israelite lawgiver",
+      "kjv_def": "Moses."
+    },
+    "H3967": {
+      "strong": "H3967",
+      "language": "hebrew",
+      "lemma": "מֵאָה",
+      "translit": "mêʼâh",
+      "gloss": "a hundred; also as a multiplicative and a fraction",
+      "strongs_def": "a hundred; also as a multiplicative and a fraction",
+      "kjv_def": "hundred-fold, -th, sixscore."
+    },
+    "H6242": {
+      "strong": "H6242",
+      "language": "hebrew",
+      "lemma": "עֶשְׂרִים",
+      "translit": "ʻesrîym",
+      "gloss": "twenty; also (ordinal) twentieth",
+      "strongs_def": "twenty; also (ordinal) twentieth",
+      "kjv_def": "six- score, twenty-ieth."
+    },
+    "H8141": {
+      "strong": "H8141",
+      "language": "hebrew",
+      "lemma": "שָׁנֶה",
+      "translit": "shâneh",
+      "gloss": "a year (as a revolution of time)",
+      "strongs_def": "a year (as a revolution of time)",
+      "kjv_def": "whole age, long, old, year -ly."
+    },
+    "H3201": {
+      "strong": "H3201",
+      "language": "hebrew",
+      "lemma": "יָכֹל",
+      "translit": "yâkôl",
+      "gloss": "to be able, literally (can, could) or morally (may, might)",
+      "strongs_def": "to be able, literally (can, could) or morally (may, might)",
+      "kjv_def": "be able, any at all ways, attain, can away with, -not, could, endure, might, overcome, have power, prevail, still, suffer."
+    },
+    "H8045": {
+      "strong": "H8045",
+      "language": "hebrew",
+      "lemma": "שָׁמַד",
+      "translit": "shâmad",
+      "gloss": "to desolate",
+      "strongs_def": "to desolate",
+      "kjv_def": "destory-uction, bring to nought, overthrow, perish, pluck down, utterly."
+    },
+    "H3091": {
+      "strong": "H3091",
+      "language": "hebrew",
+      "lemma": "יְהוֹשׁוּעַ",
+      "translit": "Yᵉhôwshûwaʻ",
+      "gloss": "Jehoshua (i.e. Joshua), the Jewish leader",
+      "strongs_def": "Jehoshua (i.e. Joshua), the Jewish leader",
+      "kjv_def": "Jehoshua, Jehoshuah, Joshua. Compare H1954 הוֹשֵׁעַ, H3442 יֵשׁוּעַ."
+    },
+    "H5511": {
+      "strong": "H5511",
+      "language": "hebrew",
+      "lemma": "סִיחוֹן",
+      "translit": "Çîychôwn",
+      "gloss": "Sichon, an Amoritish king",
+      "strongs_def": "Sichon, an Amoritish king",
+      "kjv_def": "Sihon."
+    },
+    "H5747": {
+      "strong": "H5747",
+      "language": "hebrew",
+      "lemma": "עוֹג",
+      "translit": "ʻÔwg",
+      "gloss": "Og, a king of Bashan",
+      "strongs_def": "Og, a king of Bashan",
+      "kjv_def": "Og."
+    },
+    "H4428": {
+      "strong": "H4428",
+      "language": "hebrew",
+      "lemma": "מֶלֶךְ",
+      "translit": "melek",
+      "gloss": "a king",
+      "strongs_def": "a king",
+      "kjv_def": "king, royal."
+    },
+    "H567": {
+      "strong": "H567",
+      "language": "hebrew",
+      "lemma": "אֱמֹרִי",
+      "translit": "ʼĔmôrîy",
+      "gloss": "an Emorite, one of the Canaanitish tribes",
+      "strongs_def": "an Emorite, one of the Canaanitish tribes",
+      "kjv_def": "Amorite."
+    },
+    "H2388": {
+      "strong": "H2388",
+      "language": "hebrew",
+      "lemma": "חָזַק",
+      "translit": "châzaq",
+      "gloss": "to fasten upon; hence, to seize, be strong (figuratively, courageous, causatively strengthen, cure, help, repair, fortify), obstinate; to bind, restrain, conquer",
+      "strongs_def": "to fasten upon; hence, to seize, be strong (figuratively, courageous, causatively strengthen, cure, help, repair, fortify), obstinate; to bind, restrain, conquer",
+      "kjv_def": "aid, amend, calker, catch, cleave, confirm, be constant, constrain, continue, be of good take courage-ous, -ly, encourage self, be established, fasten, force, fortify, make hard, harden, help, lay hold fast, lean, maintain, play the man, mend, become wax mighty, prevail, be recovered, repair, retain, seize, be wax sore, strengthen self, be stout, be make, shew, wax strong-er, be sure, take hold, be urgent, behave self valiantly, withstand."
+    },
+    "H553": {
+      "strong": "H553",
+      "language": "hebrew",
+      "lemma": "אָמַץ",
+      "translit": "ʼâmats",
+      "gloss": "to be alert, physically (on foot) or mentally (in courage)",
+      "strongs_def": "to be alert, physically (on foot) or mentally (in courage)",
+      "kjv_def": "confirm, be courageous of good courage, stedfastly minded, strong, stronger, establish, fortify, harden, increase, prevail, strengthen self, make strong obstinate, speed."
+    },
+    "H3372": {
+      "strong": "H3372",
+      "language": "hebrew",
+      "lemma": "יָרֵא",
+      "translit": "yârêʼ",
+      "gloss": "to fear; morally, to revere; caus. to frighten",
+      "strongs_def": "to fear; morally, to revere; caus. to frighten",
+      "kjv_def": "affright, be make afraid, dread-ful, put in fear-ful, -fully, -ing, be had in reverence-end, see, terrible act, -ness, thing."
+    },
+    "H6206": {
+      "strong": "H6206",
+      "language": "hebrew",
+      "lemma": "עָרַץ",
+      "translit": "ʻârats",
+      "gloss": "to awe or (intransitive) to dread; hence, to harass",
+      "strongs_def": "to awe or (intransitive) to dread; hence, to harass",
+      "kjv_def": "be affrighted afraid, dread, feared, terrified, break, dread, fear, oppress, prevail, shake terribly."
+    },
+    "H1980": {
+      "strong": "H1980",
+      "language": "hebrew",
+      "lemma": "הָלַךְ",
+      "translit": "hâlak",
+      "gloss": "to walk (in a great variety of applications, literally and figuratively)",
+      "strongs_def": "to walk (in a great variety of applications, literally and figuratively)",
+      "kjv_def": "all along, apace, behave self, come, on continually, be conversant, depart, be eased, enter, exercise self, follow, forth, forward, get, go about, abroad, along, away, forward, on, out, up and down, greater, grow, be wont to haunt, lead, march, more and more, move self, needs, on, pass away, be at the point, quite, run along, send, speedily, spread, still, surely, tale-bearer, travel-ler, walk abroad, on, to and fro, up and down, to places, wander, wax, way- faring man, be weak, whirl."
+    },
+    "H7503": {
+      "strong": "H7503",
+      "language": "hebrew",
+      "lemma": "רָפָה",
+      "translit": "râphâh",
+      "gloss": "to slacken (in many applications, literal or figurative)",
+      "strongs_def": "to slacken (in many applications, literal or figurative)",
+      "kjv_def": "abate, cease, consume, draw toward evening, fail, be faint, be wax feeble, forsake, idle, leave, let alone go, down, be slack, stay, be still, be slothful, be weak-en. See H7495 רָפָא."
+    },
+    "H7121": {
+      "strong": "H7121",
+      "language": "hebrew",
+      "lemma": "קָרָא",
+      "translit": "qârâʼ",
+      "gloss": "to call out to (i.e. properly, address by name, but used in a wide variety of applications)",
+      "strongs_def": "to call out to (i.e. properly, address by name, but used in a wide variety of applications)",
+      "kjv_def": "bewray self, that are bidden, call for, forth, self, upon, cry unto, be famous, guest, invite, mention, give name, preach, make proclaim-ation, pronounce, publish, read, renowned, say."
+    },
+    "H5869": {
+      "strong": "H5869",
+      "language": "hebrew",
+      "lemma": "עַיִן",
+      "translit": "ʻayin",
+      "gloss": "an eye (literally or figuratively); by analogy, a fountain (as the eye of the landscape)",
+      "strongs_def": "an eye (literally or figuratively); by analogy, a fountain (as the eye of the landscape)",
+      "kjv_def": "affliction, outward appearance, before, think best, colour, conceit, be content, countenance, displease, eye-brow, -d, -sight, face, favour, fountain, furrow from the margin, him, humble, knowledge, look, well, me, open-ly, not please, presence, regard, resemblance, sight, thee, them, think, us, well, you-rselves."
+    },
+    "H5157": {
+      "strong": "H5157",
+      "language": "hebrew",
+      "lemma": "נָחַל",
+      "translit": "nâchal",
+      "gloss": "to inherit (as a (figurative) mode of descent), or (generally) to occupy; causatively, to bequeath, or (generally) distribute, instate",
+      "strongs_def": "to inherit (as a (figurative) mode of descent), or (generally) to occupy; causatively, to bequeath, or (generally) distribute, instate",
+      "kjv_def": "divide, have inheritance, take as a heritage, cause to, give to, make to inherit, distribute for, divide for, for an, by, give for, have, leave for, take for inheritance, have in, cause to, be made to possess-ion."
+    },
+    "H2865": {
+      "strong": "H2865",
+      "language": "hebrew",
+      "lemma": "חָתַת",
+      "translit": "châthath",
+      "gloss": "properly, to prostrate; hence, to break down, either (literally) by violence, or (figuratively) by confusion and fear",
+      "strongs_def": "properly, to prostrate; hence, to break down, either (literally) by violence, or (figuratively) by confusion and fear",
+      "kjv_def": "abolish, affright, be make afraid, amaze, beat down, discourage, cause to dismay, go down, scare, terrify."
+    },
+    "H3548": {
+      "strong": "H3548",
+      "language": "hebrew",
+      "lemma": "כֹּהֵן",
+      "translit": "kôhên",
+      "gloss": "literally one officiating, a priest; also (by courtesy) an acting priest (although a layman)",
+      "strongs_def": "literally one officiating, a priest; also (by courtesy) an acting priest (although a layman)",
+      "kjv_def": "chief ruler, own, priest, prince, principal officer."
+    },
+    "H3878": {
+      "strong": "H3878",
+      "language": "hebrew",
+      "lemma": "לֵוִי",
+      "translit": "Lêvîy",
+      "gloss": "Levi, a son of Jacob",
+      "strongs_def": "Levi, a son of Jacob",
+      "kjv_def": "Levi. See also H3879 לֵוִי, H3881 לֵוִיִּי."
+    },
+    "H727": {
+      "strong": "H727",
+      "language": "hebrew",
+      "lemma": "אָרוֹן",
+      "translit": "ʼârôwn",
+      "gloss": "a box",
+      "strongs_def": "a box",
+      "kjv_def": "ark, chest, coffin."
+    },
+    "H5375": {
+      "strong": "H5375",
+      "language": "hebrew",
+      "lemma": "נָשָׂא",
+      "translit": "nâsâʼ",
+      "gloss": "to lift, in a great variety of applications, literal and figurative, absolute and relative",
+      "strongs_def": "to lift, in a great variety of applications, literal and figurative, absolute and relative",
+      "kjv_def": "accept, advance, arise, able to, armor, suffer to bear-er, up, bring forth, burn, carry away, cast, contain, desire, ease, exact, exalt self, extol, fetch, forgive, furnish, further, give, go on, help, high, hold up, honorable man, lade, lay, lift self up, lofty, marry, magnify, needs, obtain, pardon, raise up, receive, regard, respect, set up, spare, stir up, swear, take away, up, utterly, wear, yield."
+    },
+    "H7093": {
+      "strong": "H7093",
+      "language": "hebrew",
+      "lemma": "קֵץ",
+      "translit": "qêts",
+      "gloss": "an extremity; adverbially (with prepositional prefix) after",
+      "strongs_def": "an extremity; adverbially (with prepositional prefix) after",
+      "kjv_def": "after, utmost border, end, in- finite, process."
+    },
+    "H7651": {
+      "strong": "H7651",
+      "language": "hebrew",
+      "lemma": "שֶׁבַע",
+      "translit": "shebaʻ",
+      "gloss": "seven (as the sacred full one); also (adverbially) seven times; by implication, a week; by extension, an indefinite number",
+      "strongs_def": "seven (as the sacred full one); also (adverbially) seven times; by implication, a week; by extension, an indefinite number",
+      "kjv_def": "by seven-fold,-s, -teen, -teenth, -th, times. Compare H7658 שִׁבְעָנָה."
+    },
+    "H4150": {
+      "strong": "H4150",
+      "language": "hebrew",
+      "lemma": "מוֹעֵד",
+      "translit": "môwʻêd",
+      "gloss": "properly, an appointment, i.e. a fixed time or season; specifically, a festival; conventionally ayear; by implication, an assembly (as convened for a definite purpose); technically the congregation; by extension, the place of meeting; also a signal (as appointed beforehand)",
+      "strongs_def": "properly, an appointment, i.e. a fixed time or season; specifically, a festival; conventionally ayear; by implication, an assembly (as convened for a definite purpose); technically the congregation; by extension, the place of meeting; also a signal (as appointed beforehand)",
+      "kjv_def": "appointed sign, time, place of, solemn assembly, congregation, set, solemn feast, appointed, due season, solemn-ity, synogogue, set time appointed."
+    },
+    "H8059": {
+      "strong": "H8059",
+      "language": "hebrew",
+      "lemma": "שְׁמִטָּה",
+      "translit": "shᵉmiṭṭâh",
+      "gloss": "remission (of debt) or suspension of labor)",
+      "strongs_def": "remission (of debt) or suspension of labor)",
+      "kjv_def": "release."
+    },
+    "H2282": {
+      "strong": "H2282",
+      "language": "hebrew",
+      "lemma": "חַג",
+      "translit": "chag",
+      "gloss": "a festival, or a victim therefor",
+      "strongs_def": "a festival, or a victim therefor",
+      "kjv_def": "solemn feast day, sacrifice, solemnity."
+    },
+    "H5521": {
+      "strong": "H5521",
+      "language": "hebrew",
+      "lemma": "סֻכָּה",
+      "translit": "çukkâh",
+      "gloss": "a hut or lair",
+      "strongs_def": "a hut or lair",
+      "kjv_def": "booth, cottage, covert, pavilion, tabernacle, tent."
+    },
+    "H4725": {
+      "strong": "H4725",
+      "language": "hebrew",
+      "lemma": "מָקוֹם",
+      "translit": "mâqôwm",
+      "gloss": "properly, a standing, i.e. a spot; but used widely of a locality (general or specific); also (figuratively) of a condition (of body or mind)",
+      "strongs_def": "properly, a standing, i.e. a spot; but used widely of a locality (general or specific); also (figuratively) of a condition (of body or mind)",
+      "kjv_def": "country, home, open, place, room, space, whither-soever."
+    },
+    "H241": {
+      "strong": "H241",
+      "language": "hebrew",
+      "lemma": "אֹזֶן",
+      "translit": "ʼôzen",
+      "gloss": "broadness. i.e. (concrete) the ear (from its form in man)",
+      "strongs_def": "broadness. i.e. (concrete) the ear (from its form in man)",
+      "kjv_def": "advertise, audience, displease, ear, hearing, show."
+    },
+    "H6950": {
+      "strong": "H6950",
+      "language": "hebrew",
+      "lemma": "קָהַל",
+      "translit": "qâhal",
+      "gloss": "to convoke",
+      "strongs_def": "to convoke",
+      "kjv_def": "assemble selves together, gather selves together."
+    },
+    "H582": {
+      "strong": "H582",
+      "language": "hebrew",
+      "lemma": "אֱנוֹשׁ",
+      "translit": "ʼĕnôwsh",
+      "gloss": "a man in general (singly or collectively)",
+      "strongs_def": "a man in general (singly or collectively)",
+      "kjv_def": "another, blood- thirsty, certain, chap-man; divers, fellow, in the flower of their age, husband, certain, mortal man, people, person, servant, some of them, stranger, those, their trade. It is often unexpressed in the English versions, especially when used in apposition with another word. Compare H376 אִישׁ."
     },
     "H8179": {
-      "lemma": "שַׁעַר",
-      "translit": "sha'ar",
       "strong": "H8179",
       "language": "hebrew",
-      "gloss": "poort, stadspoort (gate)"
+      "lemma": "שַׁעַר",
+      "translit": "shaʻar",
+      "gloss": "an opening, i.e. door or gate",
+      "strongs_def": "an opening, i.e. door or gate",
+      "kjv_def": "city, door, gate, port -er."
+    },
+    "H3925": {
+      "strong": "H3925",
+      "language": "hebrew",
+      "lemma": "לָמַד",
+      "translit": "lâmad",
+      "gloss": "properly, to goad, i.e. (by implication) to teach (the rod being an Oriental incentive)",
+      "strongs_def": "properly, to goad, i.e. (by implication) to teach (the rod being an Oriental incentive)",
+      "kjv_def": "un- accustomed, diligently, expert, instruct, learn, skilful, teach-er, -ing."
+    },
+    "H7126": {
+      "strong": "H7126",
+      "language": "hebrew",
+      "lemma": "קָרַב",
+      "translit": "qârab",
+      "gloss": "to approach (causatively, bring near) for whatever purpose",
+      "strongs_def": "to approach (causatively, bring near) for whatever purpose",
+      "kjv_def": "cause to approach, cause to bring forth, near, cause to come near, nigh, cause to draw near nigh, go near, be at hand, join, be near, offer, present, produce, make ready, stand, take."
+    },
+    "H4191": {
+      "strong": "H4191",
+      "language": "hebrew",
+      "lemma": "מוּת",
+      "translit": "mûwth",
+      "gloss": "to die (literally or figuratively); causatively, to kill",
+      "strongs_def": "to die (literally or figuratively); causatively, to kill",
+      "kjv_def": "at all, crying, be dead body, man, one, put to, worthy of death, destroy-er, cause to, be like to, must die, kill, necro-mancer, must needs, slay, surely, very suddenly, in no wise."
+    },
+    "H3320": {
+      "strong": "H3320",
+      "language": "hebrew",
+      "lemma": "יָצַב",
+      "translit": "yâtsab",
+      "gloss": "to place (any thing so as to stay); reflexively, to station, offer, continue",
+      "strongs_def": "to place (any thing so as to stay); reflexively, to station, offer, continue",
+      "kjv_def": "present selves, remaining, resort, set selves, be able to, can, with- stand fast, forth, -ing, still, up."
+    },
+    "H168": {
+      "strong": "H168",
+      "language": "hebrew",
+      "lemma": "אֹהֶל",
+      "translit": "ʼôhel",
+      "gloss": "a tent (as clearly conspicuous from a distance)",
+      "strongs_def": "a tent (as clearly conspicuous from a distance)",
+      "kjv_def": "covering, dwelling place, home, tabernacle, tent."
+    },
+    "H5982": {
+      "strong": "H5982",
+      "language": "hebrew",
+      "lemma": "עַמּוּד",
+      "translit": "ʻammûwd",
+      "gloss": "a column (as standing); also a stand, i.e. platform",
+      "strongs_def": "a column (as standing); also a stand, i.e. platform",
+      "kjv_def": "apiece, pillar."
+    },
+    "H6607": {
+      "strong": "H6607",
+      "language": "hebrew",
+      "lemma": "פֶּתַח",
+      "translit": "pethach",
+      "gloss": "an opening (literally), i.e. door (gate) or entrance way",
+      "strongs_def": "an opening (literally), i.e. door (gate) or entrance way",
+      "kjv_def": "door, entering in, entrance -ry, gate, opening, place."
+    },
+    "H6051": {
+      "strong": "H6051",
+      "language": "hebrew",
+      "lemma": "עָנָן",
+      "translit": "ʻânân",
+      "gloss": "a cloud (as covering the sky), i.e. the nimbus or thunder-cloud",
+      "strongs_def": "a cloud (as covering the sky), i.e. the nimbus or thunder-cloud",
+      "kjv_def": "cloud-y."
+    },
+    "H7901": {
+      "strong": "H7901",
+      "language": "hebrew",
+      "lemma": "שָׁכַב",
+      "translit": "shâkab",
+      "gloss": "to lie down (for rest, sexual connection, decease or any other purpose)",
+      "strongs_def": "to lie down (for rest, sexual connection, decease or any other purpose)",
+      "kjv_def": "at all, cast down, lover-lay self down, make to lie down, down to sleep, still with, lodge, ravish, take rest, sleep, stay."
+    },
+    "H5236": {
+      "strong": "H5236",
+      "language": "hebrew",
+      "lemma": "נֵכָר",
+      "translit": "nêkâr",
+      "gloss": "foreign, or (concretely) a foreigner, or (abstractly) heathendom",
+      "strongs_def": "foreign, or (concretely) a foreigner, or (abstractly) heathendom",
+      "kjv_def": "alien, strange -er."
+    },
+    "H6565": {
+      "strong": "H6565",
+      "language": "hebrew",
+      "lemma": "פָּרַר",
+      "translit": "pârar",
+      "gloss": "to break up (usually figuratively), i.e. to violate, frustrate",
+      "strongs_def": "to break up (usually figuratively), i.e. to violate, frustrate",
+      "kjv_def": "any ways, break asunder, cast off, cause to cease, clean, defeat, disannul, disappoint, dissolve, divide, make of none effect, fail, frustrate, bring come to nought, utterly, make void."
+    },
+    "H2181": {
+      "strong": "H2181",
+      "language": "hebrew",
+      "lemma": "זָנָה",
+      "translit": "zânâh",
+      "gloss": "to commit adultery (usually of the female, and less often of simple fornication, rarely of involuntary ravishment); figuratively, to commit idolatry (the Jewish people being regarded as the spouse of Jehovah)",
+      "strongs_def": "to commit adultery (usually of the female, and less often of simple fornication, rarely of involuntary ravishment); figuratively, to commit idolatry (the Jewish people being regarded as the spouse of Jehovah)",
+      "kjv_def": "cause to commit fornication, continually, great, be an, play the harlot, cause to be, play the whore, commit, fall to whoredom, cause to go a-whoring, whorish."
+    },
+    "H398": {
+      "strong": "H398",
+      "language": "hebrew",
+      "lemma": "אָכַל",
+      "translit": "ʼâkal",
+      "gloss": "to eat (literally or figuratively)",
+      "strongs_def": "to eat (literally or figuratively)",
+      "kjv_def": "at all, burn up, consume, devour-er, up, dine, eat-er, up, feed with, food, freely, in...wise-deed, plenty, lay meat, quite."
+    },
+    "H7227": {
+      "strong": "H7227",
+      "language": "hebrew",
+      "lemma": "רַב",
+      "translit": "rab",
+      "gloss": "abundant (in quantity, size, age, number, rank, quality)",
+      "strongs_def": "abundant (in quantity, size, age, number, rank, quality)",
+      "kjv_def": "in abound-undance, -ant, -antly, captain, elder, enough, exceedingly, full, great-ly, man, one, increase, long enough, time, do, have many-ifold, things, a time, ship-master, mighty, more, too, very much, multiply-tude, officer, often-times, plenteous, populous, prince, process of time, suffice-lent."
+    },
+    "H6869": {
+      "strong": "H6869",
+      "language": "hebrew",
+      "lemma": "צָרָה",
+      "translit": "tsârâh",
+      "gloss": "tightness (i.e. figuratively, trouble); transitively, a female rival:",
+      "strongs_def": "tightness (i.e. figuratively, trouble); transitively, a female rival:",
+      "kjv_def": "adversary, adversity, affliction, anguish, distress, tribulation, trouble."
+    },
+    "H4672": {
+      "strong": "H4672",
+      "language": "hebrew",
+      "lemma": "מָצָא",
+      "translit": "mâtsâʼ",
+      "gloss": "properly, to come forth to, i.e. appear or exist; transitively, to attain, i.e. find or acquire; figuratively, to occur, meet or be present",
+      "strongs_def": "properly, to come forth to, i.e. appear or exist; transitively, to attain, i.e. find or acquire; figuratively, to occur, meet or be present",
+      "kjv_def": "be able, befall, being, catch, certainly, cause to come on, to, to hand, deliver, be enough cause to find-ing, occasion, out, get hold upon, have here, be here, hit, be left, light up- on, meet with, occasion serve, be present, ready, speed, suffice, take hold on."
+    },
+    "H7892": {
+      "strong": "H7892",
+      "language": "hebrew",
+      "lemma": "שִׁיר",
+      "translit": "shîyr",
+      "gloss": "a song; abstractly, singing",
+      "strongs_def": "a song; abstractly, singing",
+      "kjv_def": "musical-ick, sing-er, -ing, song."
+    },
+    "H7760": {
+      "strong": "H7760",
+      "language": "hebrew",
+      "lemma": "שׂוּם",
+      "translit": "sûwm",
+      "gloss": "to put (used in a great variety of applications, literal, figurative, inferentially, and elliptically)",
+      "strongs_def": "to put (used in a great variety of applications, literal, figurative, inferentially, and elliptically)",
+      "kjv_def": "any wise, appoint, bring, call a name, care, cast in, change, charge, commit, consider, convey, determine, disguise, dispose, do, get, give, heap up, hold, impute, lay down, up, leave, look, make out, mark, name, on, ordain, order, paint, place, preserve, purpose, put on, regard, rehearse, reward, cause to set on, up, shew, stedfastly, take, tell, tread down, over-turn, wholly, work."
+    },
+    "H5707": {
+      "strong": "H5707",
+      "language": "hebrew",
+      "lemma": "עֵד",
+      "translit": "ʻêd",
+      "gloss": "concretely, a witness; abstractly, testimony; specifically, a recorder, i.e. prince",
+      "strongs_def": "concretely, a witness; abstractly, testimony; specifically, a recorder, i.e. prince",
+      "kjv_def": "witness."
+    },
+    "H2100": {
+      "strong": "H2100",
+      "language": "hebrew",
+      "lemma": "זוּב",
+      "translit": "zûwb",
+      "gloss": "to flow freely (as water), i.e. (specifically) to have a (sexual) flux; figuratively, to waste away; also to overflow",
+      "strongs_def": "to flow freely (as water), i.e. (specifically) to have a (sexual) flux; figuratively, to waste away; also to overflow",
+      "kjv_def": "flow, gush out, have a running issue, pine away, run."
+    },
+    "H2461": {
+      "strong": "H2461",
+      "language": "hebrew",
+      "lemma": "חָלָב",
+      "translit": "châlâb",
+      "gloss": "milk (as the richness of kine)",
+      "strongs_def": "milk (as the richness of kine)",
+      "kjv_def": "cheese, milk, sucking."
+    },
+    "H1706": {
+      "strong": "H1706",
+      "language": "hebrew",
+      "lemma": "דְּבַשׁ",
+      "translit": "dᵉbash",
+      "gloss": "honey (from its stickiness); by analogy, syrup",
+      "strongs_def": "honey (from its stickiness); by analogy, syrup",
+      "kjv_def": "honey-comb."
+    },
+    "H7646": {
+      "strong": "H7646",
+      "language": "hebrew",
+      "lemma": "שָׂבַע",
+      "translit": "sâbaʻ",
+      "gloss": "to sate, i.e. fill to satisfaction (literally or figuratively)",
+      "strongs_def": "to sate, i.e. fill to satisfaction (literally or figuratively)",
+      "kjv_def": "have enough, fill full, self, with, be to the full of, have plenty of, be satiate, satisfy with, suffice, be weary of."
+    },
+    "H1878": {
+      "strong": "H1878",
+      "language": "hebrew",
+      "lemma": "דָּשֵׁן",
+      "translit": "dâshên",
+      "gloss": "to be fat; transitively, to fatten (or regard as fat); specifically to anoint; figuratively, to satisfy;  to remove (fat) ashes (of sacrifices)",
+      "strongs_def": "to be fat; transitively, to fatten (or regard as fat); specifically to anoint; figuratively, to satisfy;  to remove (fat) ashes (of sacrifices)",
+      "kjv_def": "accept, anoint, take away the receive ashes from, make wax fat."
+    },
+    "H5006": {
+      "strong": "H5006",
+      "language": "hebrew",
+      "lemma": "נָאַץ",
+      "translit": "nâʼats",
+      "gloss": "to scorn;",
+      "strongs_def": "to scorn;",
+      "kjv_def": "abhor, give occasion to blaspheme, contemn, despise, flourish, great, provoke."
+    },
+    "H6030": {
+      "strong": "H6030",
+      "language": "hebrew",
+      "lemma": "עָנָה",
+      "translit": "ʻânâh",
+      "gloss": "properly, to eye or (generally) to heed, i.e. pay attention; by implication, to respond; by extension to begin to speak; specifically to sing, shout, testify, announce",
+      "strongs_def": "properly, to eye or (generally) to heed, i.e. pay attention; by implication, to respond; by extension to begin to speak; specifically to sing, shout, testify, announce",
+      "kjv_def": "give account, afflict by mistake for H6031 עָנָה, cause to, give answer, bring low by mistake for H6031 עָנָה, cry, hear, Leannoth, lift up, say, scholar, give a shout, sing together by course, speak, testify, utter, bear witness. See also H1042 בֵּית עֲנוֹת, H1043 בֵּית עֲנָת."
+    },
+    "H7911": {
+      "strong": "H7911",
+      "language": "hebrew",
+      "lemma": "שָׁכַח",
+      "translit": "shâkach",
+      "gloss": "to mislay, i.e. to be oblivious of, from want of memory or attention",
+      "strongs_def": "to mislay, i.e. to be oblivious of, from want of memory or attention",
+      "kjv_def": "at all, cause to forget."
+    },
+    "H3336": {
+      "strong": "H3336",
+      "language": "hebrew",
+      "lemma": "יֵצֶר",
+      "translit": "yêtser",
+      "gloss": "a form; figuratively, conception (i.e. purpose)",
+      "strongs_def": "a form; figuratively, conception (i.e. purpose)",
+      "kjv_def": "frame, thing framed, imagination, mind, work."
+    },
+    "H5126": {
+      "strong": "H5126",
+      "language": "hebrew",
+      "lemma": "נוּן",
+      "translit": "Nûwn",
+      "gloss": "Nun or Non, the father of Joshua",
+      "strongs_def": "Nun or Non, the father of Joshua",
+      "kjv_def": "Non, Nun."
+    },
+    "H3615": {
+      "strong": "H3615",
+      "language": "hebrew",
+      "lemma": "כָּלָה",
+      "translit": "kâlâh",
+      "gloss": "to end, whether intransitive (to cease, be finished, perish) or transitived (to complete, prepare, consume)",
+      "strongs_def": "to end, whether intransitive (to cease, be finished, perish) or transitived (to complete, prepare, consume)",
+      "kjv_def": "accomplish, cease, consume away, determine, destroy utterly, be when... were done, be an end of, expire, cause to fail, faint, finish, fulfil, fully, have, leave off, long, bring to pass, wholly reap, make clean riddance, spend, quite take away, waste."
+    },
+    "H8552": {
+      "strong": "H8552",
+      "language": "hebrew",
+      "lemma": "תָּמַם",
+      "translit": "tâmam",
+      "gloss": "to complete, in a good or a bad sense, literal, or figurative, transitive or intransitive",
+      "strongs_def": "to complete, in a good or a bad sense, literal, or figurative, transitive or intransitive",
+      "kjv_def": "accomplish, cease, be clean pass- ed, consume, have done, come to an, have an, make an end, fail, come to the full, be all gone, be all here, be make perfect, be spent, sum, be shew self upright, be wasted, whole."
+    },
+    "H3881": {
+      "strong": "H3881",
+      "language": "hebrew",
+      "lemma": "לֵוִיִּי",
+      "translit": "Lêvîyîy",
+      "gloss": "a Levite or descendant of Levi",
+      "strongs_def": "a Levite or descendant of Levi",
+      "kjv_def": "Leviite."
+    },
+    "H6654": {
+      "strong": "H6654",
+      "language": "hebrew",
+      "lemma": "צַד",
+      "translit": "tsad",
+      "gloss": "a side; figuratively, an adversary",
+      "strongs_def": "a side; figuratively, an adversary",
+      "kjv_def": "be- side."
+    },
+    "H4805": {
+      "strong": "H4805",
+      "language": "hebrew",
+      "lemma": "מְרִי",
+      "translit": "mᵉrîy",
+      "gloss": "bitterness, i.e. (figuratively) rebellion; concretely, bitter, or rebellious",
+      "strongs_def": "bitterness, i.e. (figuratively) rebellion; concretely, bitter, or rebellious",
+      "kjv_def": "bitter, most rebel-lion, -lious."
+    },
+    "H7186": {
+      "strong": "H7186",
+      "language": "hebrew",
+      "lemma": "קָשֶׁה",
+      "translit": "qâsheh",
+      "gloss": "severe (in various applications)",
+      "strongs_def": "severe (in various applications)",
+      "kjv_def": "churlish, cruel, grievous, hard-hearted, thing, heavy, impudent, obstinate, prevailed, rough-ly, sore, sorrowful, stiffnecked, stubborn, in trouble."
+    },
+    "H6203": {
+      "strong": "H6203",
+      "language": "hebrew",
+      "lemma": "עֹרֶף",
+      "translit": "ʻôreph",
+      "gloss": "the nape or back of the neck (as declining); hence, the back generally (whether literal or figurative)",
+      "strongs_def": "the nape or back of the neck (as declining); hence, the back generally (whether literal or figurative)",
+      "kjv_def": "back stiff- neck-ed."
+    },
+    "H4784": {
+      "strong": "H4784",
+      "language": "hebrew",
+      "lemma": "מָרָה",
+      "translit": "mârâh",
+      "gloss": "to be (causatively, make) bitter (or unpleasant); (figuratively) to rebel (or resist; causatively, to provoke)",
+      "strongs_def": "to be (causatively, make) bitter (or unpleasant); (figuratively) to rebel (or resist; causatively, to provoke)",
+      "kjv_def": "bitter, change, be disobedient, disobey, grievously, provocation, provoke-ing, be rebel against, -lious."
+    },
+    "H7843": {
+      "strong": "H7843",
+      "language": "hebrew",
+      "lemma": "שָׁחַת",
+      "translit": "shâchath",
+      "gloss": "to decay, i.e. (causatively) ruin (literally or figuratively)",
+      "strongs_def": "to decay, i.e. (causatively) ruin (literally or figuratively)",
+      "kjv_def": "batter, cast off, corrupt-er, thing, destroy-er, -uction, lose, mar, perish, spill, spoiler, utterly, waste-r."
+    },
+    "H5493": {
+      "strong": "H5493",
+      "language": "hebrew",
+      "lemma": "סוּר",
+      "translit": "çûwr",
+      "gloss": "to turn off (literal or figurative)",
+      "strongs_def": "to turn off (literal or figurative)",
+      "kjv_def": "be-head, bring, call back, decline, depart, eschew, get you, go aside, grievous, lay away by, leave undone, be past, pluck away, put away, down, rebel, remove to and fro, revolt, be sour, take away, off, turn aside, away, in, withdraw, be without."
+    },
+    "H319": {
+      "strong": "H319",
+      "language": "hebrew",
+      "lemma": "אַחֲרִית",
+      "translit": "ʼachărîyth",
+      "gloss": "the last or end, hence, the future; also posterity",
+      "strongs_def": "the last or end, hence, the future; also posterity",
+      "kjv_def": "last, latter end time, hinder utter -most, length, posterity, remnant, residue, reward."
+    },
+    "H7122": {
+      "strong": "H7122",
+      "language": "hebrew",
+      "lemma": "קָרָא",
+      "translit": "qârâʼ",
+      "gloss": "to encounter, whether accidentally or in a hostile manner",
+      "strongs_def": "to encounter, whether accidentally or in a hostile manner",
+      "kjv_def": "befall, by chance, cause to come upon, fall out, happen, meet."
+    },
+    "H3707": {
+      "strong": "H3707",
+      "language": "hebrew",
+      "lemma": "כַּעַס",
+      "translit": "kaʻaç",
+      "gloss": "to trouble; by implication, to grieve, rage, be indignant",
+      "strongs_def": "to trouble; by implication, to grieve, rage, be indignant",
+      "kjv_def": "be angry, be grieved, take indignation, provoke to anger, unto wrath, have sorrow, vex, be wroth."
+    },
+    "H6951": {
+      "strong": "H6951",
+      "language": "hebrew",
+      "lemma": "קָהָל",
+      "translit": "qâhâl",
+      "gloss": "assemblage (usually concretely)",
+      "strongs_def": "assemblage (usually concretely)",
+      "kjv_def": "assembly, company, congregation, multitude."
     }
   }
 }

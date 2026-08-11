@@ -64,22 +64,9 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
   const openLexicon = (event, lemmaId, strongTag, surfaceText) => {
     const rect = event.currentTarget.getBoundingClientRect();
 
-    let entry = (lemmaId && passageData?.lexicon?.[lemmaId]) ||
+    const entry = (lemmaId && passageData?.lexicon?.[lemmaId]) ||
       (strongTag && passageData?.lexicon?.[strongTag]) ||
       Object.values(passageData?.lexicon || {}).find(e => e.strong === strongTag);
-
-    if (!entry && strongTag) {
-      const isGrk = strongTag.startsWith('G');
-      entry = {
-        strong: strongTag,
-        language: isGrk ? 'greek' : 'hebrew',
-        lemma: surfaceText || (isGrk ? 'Grondwoord' : 'Grondwoord'),
-        translit: strongTag,
-        gloss: isGrk
-          ? `Griekse grondtekst sleutel ${strongTag} (Bekijk in STEP Bible)`
-          : `Hebreeuwse grondtekst sleutel ${strongTag} (Bekijk in STEP Bible)`
-      };
-    }
 
     if (entry) {
       setSelectedEntry(entry);

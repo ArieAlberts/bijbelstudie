@@ -9,6 +9,7 @@ const rootDir = path.resolve(__dirname, '..');
 const passagesFile = path.join(rootDir, 'data', 'passages.json');
 const outputDir = path.join(rootDir, 'public', 'data', 'bible');
 const cacheFile = path.join(rootDir, 'scripts', 'authentic-bible-cache.json');
+const lexiconCacheFile = path.join(rootDir, 'scripts', 'full-lexicon-cache.json');
 
 const BOOK_MAP = {
   Gen: { osis: 'Gen', nl: 'Genesis', en: 'Genesis', testament: 'OT' },
@@ -51,21 +52,6 @@ const CHAPTER_MAX_VERSES = {
   "John.2": 25, "John.6": 71, "John.12": 50, "John.14": 31
 };
 
-const MASTER_LEXICON = {
-  "H8199": { lemma: "שָׁפַט", translit: "shaphat", strong: "H8199", language: "hebrew", gloss: "oordelen, rechtspreken, besturen (to judge, govern)" },
-  "H7860": { lemma: "שֹׁטֵר", translit: "shoter", strong: "H7860", language: "hebrew", gloss: "opziener, ambtman, beambte (officer, official)" },
-  "H5414": { lemma: "נָתַן", translit: "nathan", strong: "H5414", language: "hebrew", gloss: "geven, stellen, beschrikken (to give, set)" },
-  "H8179": { lemma: "שַׁעַר", translit: "sha'ar", strong: "H8179", language: "hebrew", gloss: "poort, stadspoort (gate)" },
-  "H3068": { lemma: "יְהוָה", translit: "YHWH", strong: "H3068", language: "hebrew", gloss: "De HEERE, de Verbondsgod van Israël (the LORD)" },
-  "H430": { lemma: "אֱלֹהִים", translit: "Elohim", strong: "H430", language: "hebrew", gloss: "God (God, Divine Being)" },
-  "H7626": { lemma: "שֵׁבֶט", translit: "shebet", strong: "H7626", language: "hebrew", gloss: "stam, scepter, roede (tribe, rod)" },
-  "H5971": { lemma: "עַם", translit: "am", strong: "H5971", language: "hebrew", gloss: "volk, natie (people, nation)" },
-  "H4941": { lemma: "מִשְׁפָּט", translit: "mishpat", strong: "H4941", language: "hebrew", gloss: "recht, oordeel, gericht (justice, judgment)" },
-  "H6664": { lemma: "צֶדֶק", translit: "tsedeq", strong: "H6664", language: "hebrew", gloss: "gerechtigheid, wat juist en rechtvaardig is (righteousness, justice)" },
-  "G3962": { lemma: "πατήρ", translit: "patēr", strong: "G3962", language: "greek", gloss: "Vader (Father)" },
-  "G4100": { lemma: "πιστεύω", translit: "pisteuō", strong: "G4100", language: "greek", gloss: "geloven, vertrouwen (to believe, trust)" }
-};
-
 function parseOsisRange(osisStr) {
   const parts = osisStr.split('-');
   const startPart = parts[0];
@@ -83,7 +69,7 @@ function parseOsisRange(osisStr) {
   return { book, startCh, startVs, endCh, endVs };
 }
 
-function generatePassageJson(studyId, passage, cachedDb) {
+function generatePassageJson(studyId, passage, cachedDb, fullLexicon) {
   const { osis, role, ref } = passage;
   const range = parseOsisRange(osis);
   const meta = BOOK_MAP[range.book];
@@ -116,10 +102,20 @@ function generatePassageJson(studyId, passage, cachedDb) {
         alignments: found.alignments || { sv: [] }
       });
 
+      // 1. Collect Hebrew/Greek lexicon entries from SV alignments
       if (found.alignments && found.alignments.sv) {
         found.alignments.sv.forEach(align => {
-          if (align.strong && MASTER_LEXICON[align.strong]) {
-            passageLexicon[align.strong] = MASTER_LEXICON[align.strong];
+          if (align.strong && fullLexicon[align.strong]) {
+            passageLexicon[align.strong] = fullLexicon[align.strong];
+          }
+        });
+      }
+
+      // 2. Collect Hebrew/Greek lexicon entries from KJV tokens
+      if (found.kjv && Array.isArray(found.kjv)) {
+        found.kjv.forEach(tok => {
+          if (tok.s && fullLexicon[tok.s]) {
+            passageLexicon[tok.s] = fullLexicon[tok.s];
           }
         });
       }
@@ -156,7 +152,13 @@ function buildAllPassages() {
     process.exit(1);
   }
 
+  if (!fs.existsSync(lexiconCacheFile)) {
+    console.error(`Missing lexicon cache file: ${lexiconCacheFile}`);
+    process.exit(1);
+  }
+
   const cachedDb = JSON.parse(fs.readFileSync(cacheFile, 'utf-8'));
+  const fullLexicon = JSON.parse(fs.readFileSync(lexiconCacheFile, 'utf-8'));
   const manifest = JSON.parse(fs.readFileSync(passagesFile, 'utf-8'));
 
   if (!fs.existsSync(outputDir)) {
@@ -166,14 +168,14 @@ function buildAllPassages() {
   let totalFiles = 0;
   manifest.studies.forEach(study => {
     study.passages.forEach(passage => {
-      const jsonData = generatePassageJson(study.id, passage, cachedDb);
+      const jsonData = generatePassageJson(study.id, passage, cachedDb, fullLexicon);
       const fileName = `${study.id}-${passage.role}.json`;
 
       validateAllVerses(jsonData, fileName);
 
       const filePath = path.join(outputDir, fileName);
       fs.writeFileSync(filePath, JSON.stringify(jsonData, null, 2), 'utf-8');
-      console.log(`✓ Verified Verbatim & Generated ${fileName} (${jsonData.verses.length} verses)`);
+      console.log(`✓ Verified Verbatim & Generated ${fileName} (${jsonData.verses.length} verses, ${Object.keys(jsonData.lexicon).length} lexicon lemmas)`);
       totalFiles++;
     });
   });
@@ -193,10 +195,11 @@ function buildAllPassages() {
       notes: "Default English translation"
     },
     lexicon: {
-      source: "STEPBible/STEPBible-Data",
+      source: "OpenScriptures / STEPBible-Data",
       datasets: ["TBESH", "TBESG"],
       license: "CC BY 4.0",
-      attribution: "Lexicon data provided by STEPBible (CC BY 4.0)"
+      attribution: "Lexicon data provided by OpenScriptures / STEPBible (CC BY 4.0)",
+      entries: Object.keys(fullLexicon).length
     }
   };
 

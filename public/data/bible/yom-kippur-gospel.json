@@ -3478,12 +3478,851 @@
     }
   ],
   "lexicon": {
+    "G1161": {
+      "strong": "G1161",
+      "language": "greek",
+      "lemma": "δέ",
+      "translit": "dé",
+      "gloss": "but, and, etc.",
+      "strongs_def": " but, and, etc.",
+      "kjv_def": "also, and, but, moreover, now often unexpressed in English"
+    },
+    "G3752": {
+      "strong": "G3752",
+      "language": "greek",
+      "lemma": "ὅταν",
+      "translit": "hótan",
+      "gloss": "whenever (implying hypothesis or more or less uncertainty); also causatively (conjunctionally) inasmuch as",
+      "strongs_def": " whenever (implying hypothesis or more or less uncertainty); also causatively (conjunctionally) inasmuch as",
+      "kjv_def": "as long soon as, that, + till, when-soever, while"
+    },
+    "G5207": {
+      "strong": "G5207",
+      "language": "greek",
+      "lemma": "υἱός",
+      "translit": "huiós",
+      "gloss": "a \"son\" (sometimes of animals), used very widely of immediate, remote or figuratively, kinship",
+      "strongs_def": " a \"son\" (sometimes of animals), used very widely of immediate, remote or figuratively, kinship",
+      "kjv_def": "child, foal, son"
+    },
+    "G444": {
+      "strong": "G444",
+      "language": "greek",
+      "lemma": "ἄνθρωπος",
+      "translit": "ánthrōpos",
+      "gloss": "from G3700 (ὀπτάνομαι)); man-faced, i.e. a human being",
+      "strongs_def": " from G3700 (ὀπτάνομαι)); man-faced, i.e. a human being",
+      "kjv_def": "certain, man"
+    },
+    "G2064": {
+      "strong": "G2064",
+      "language": "greek",
+      "lemma": "ἔρχομαι",
+      "translit": "érchomai",
+      "gloss": "to come or go (in a great variety of applications, literally and figuratively)",
+      "strongs_def": " to come or go (in a great variety of applications, literally and figuratively)",
+      "kjv_def": "accompany, appear, bring, come, enter, fall out, go, grow, X light, X next, pass, resort, be set"
+    },
+    "G1722": {
+      "strong": "G1722",
+      "language": "greek",
+      "lemma": "ἐν",
+      "translit": "en",
+      "gloss": "\"in,\" at, (up-)on, by, etc.",
+      "strongs_def": " \"in,\" at, (up-)on, by, etc.",
+      "kjv_def": "about, after, against, + almost, X altogether, among, X as, at, before, between, here-by + all means, for … sake of, + give self wholly to, here-in-to, -wardly, X mightily, because of, up-on, open-ly, X outwardly, one, X quickly, X shortly, speedi-ly, X that, X there-in, -on, through-out, un-to-ward, under, when, where-with, while, with-in"
+    },
+    "G846": {
+      "strong": "G846",
+      "language": "greek",
+      "lemma": "αὐτός",
+      "translit": "autós",
+      "gloss": "the reflexive pronoun self, used (alone or in the comparative G1438 (ἑαυτοῦ)) of the third person , and (with the proper personal pronoun) of the other persons",
+      "strongs_def": " the reflexive pronoun self, used (alone or in the comparative G1438 (ἑαυτοῦ)) of the third person , and (with the proper personal pronoun) of the other persons",
+      "kjv_def": "her, it-self, one, the other, mine own, said, self-, the same, him-, my-, thy- self, your-selves, she, that, their-s, them-selves, there-at, - by, -in, -into, -of, -on, -with, they, these things, this man, those, together, very, which"
+    },
+    "G1391": {
+      "strong": "G1391",
+      "language": "greek",
+      "lemma": "δόξα",
+      "translit": "dóxa",
+      "gloss": "glory (as very apparent), in a wide application (literal or figurative, objective or subjective)",
+      "strongs_def": " glory (as very apparent), in a wide application (literal or figurative, objective or subjective)",
+      "kjv_def": "dignity, glory-ious, honour, praise, worship"
+    },
+    "G2532": {
+      "strong": "G2532",
+      "language": "greek",
+      "lemma": "καί",
+      "translit": "kaí",
+      "gloss": "and, also, even, so then, too, etc.; often used in connection (or composition) with other particles or small words",
+      "strongs_def": " and, also, even, so then, too, etc.; often used in connection (or composition) with other particles or small words",
+      "kjv_def": "and, also, both, but, even, for, if, or, so, that, then, therefore, when, yet"
+    },
+    "G3956": {
+      "strong": "G3956",
+      "language": "greek",
+      "lemma": "πᾶς",
+      "translit": "pâs",
+      "gloss": "all, any, every, the whole",
+      "strongs_def": " all, any, every, the whole",
+      "kjv_def": "all manner of, means, alway-s, any one, X daily, + ever, every one, way, as many as, + no-thing, X thoroughly, whatsoever, whole, whosoever"
+    },
+    "G40": {
+      "strong": "G40",
+      "language": "greek",
+      "lemma": "ἅγιος",
+      "translit": "hágios",
+      "gloss": "sacred (physically, pure, morally blameless or religious, ceremonially, consecrated)",
+      "strongs_def": " sacred (physically, pure, morally blameless or religious, ceremonially, consecrated)",
+      "kjv_def": "most holy one, thing, saint"
+    },
+    "G32": {
+      "strong": "G32",
+      "language": "greek",
+      "lemma": "ἄγγελος",
+      "translit": "ángelos",
+      "gloss": "compare G34 (ἀγέλη)) (to bring tidings); a messenger; especially an \"angel\"; by implication, a pastor",
+      "strongs_def": " compare G34 (ἀγέλη)) (to bring tidings); a messenger; especially an \"angel\"; by implication, a pastor",
+      "kjv_def": "angel, messenger"
+    },
+    "G3326": {
+      "strong": "G3326",
+      "language": "greek",
+      "lemma": "μετά",
+      "translit": "metá",
+      "gloss": "properly, denoting accompaniment; \"amid\" (local or causal); modified variously according to the case (genitive association, or accusative succession) with which it is joined; occupying an intermediate position between G575 (ἀπό) or G1537 (ἐκ) and G1519 (εἰς) or G4314 (πρός); less intimate than G1722 (ἐν) and less close than G4862 (σύν))",
+      "strongs_def": " properly, denoting accompaniment; \"amid\" (local or causal); modified variously according to the case (genitive association, or accusative succession) with which it is joined; occupying an intermediate position between G575 (ἀπό) or G1537 (ἐκ) and G1519 (εἰς) or G4314 (πρός); less intimate than G1722 (ἐν) and less close than G4862 (σύν))",
+      "kjv_def": "after-ward, X that he again, against, among, X and, + follow, hence, hereafter, in, of, up-on, + our, X and setting, since, un-to, + together, when, with + -out"
+    },
+    "G5119": {
+      "strong": "G5119",
+      "language": "greek",
+      "lemma": "τότε",
+      "translit": "tóte",
+      "gloss": "the when, i.e. at the time that (of the past or future, also in consecution)",
+      "strongs_def": " the when, i.e. at the time that (of the past or future, also in consecution)",
+      "kjv_def": "that time, then"
+    },
+    "G2523": {
+      "strong": "G2523",
+      "language": "greek",
+      "lemma": "καθίζω",
+      "translit": "kathízō",
+      "gloss": "to seat down, i.e. set (figuratively, appoint); intransitively, to sit (down); figuratively, to settle (hover, dwell)",
+      "strongs_def": " to seat down, i.e. set (figuratively, appoint); intransitively, to sit (down); figuratively, to settle (hover, dwell)",
+      "kjv_def": "continue, set, sit down, tarry"
+    },
+    "G1909": {
+      "strong": "G1909",
+      "language": "greek",
+      "lemma": "ἐπί",
+      "translit": "epí",
+      "gloss": "properly, meaning superimposition (of time, place, order, etc.), as a relation of distribution (with the genitive case), i.e. over, upon, etc.; of rest (with the dative case) at, on, etc.; of direction (with the accusative case) towards, upon, etc.",
+      "strongs_def": " properly, meaning superimposition (of time, place, order, etc.), as a relation of distribution (with the genitive case), i.e. over, upon, etc.; of rest (with the dative case) at, on, etc.; of direction (with the accusative case) towards, upon, etc.",
+      "kjv_def": "about the times, above, after, against, among, as long as touching, at, beside, X have charge of, be-, where-fore, in a place, as much as, the time of, -to, because of, up-on behalf of, over, by, for the space of, through-out, un-to-ward, with"
+    },
+    "G2362": {
+      "strong": "G2362",
+      "language": "greek",
+      "lemma": "θρόνος",
+      "translit": "thrónos",
+      "gloss": "a stately seat (\"throne\"); by implication, power or (concretely) a potentate",
+      "strongs_def": " a stately seat (\"throne\"); by implication, power or (concretely) a potentate",
+      "kjv_def": "seat, throne"
+    },
+    "G1715": {
+      "strong": "G1715",
+      "language": "greek",
+      "lemma": "ἔμπροσθεν",
+      "translit": "émprosthen",
+      "gloss": "in front of (in place (literally or figuratively) or time)",
+      "strongs_def": " in front of (in place (literally or figuratively) or time)",
+      "kjv_def": "against, at, before, in presence, sight of"
+    },
+    "G1484": {
+      "strong": "G1484",
+      "language": "greek",
+      "lemma": "ἔθνος",
+      "translit": "éthnos",
+      "gloss": "a race (as of the same habit), i.e. a tribe; specially, a foreign (non-Jewish) one (usually, by implication, pagan)",
+      "strongs_def": " a race (as of the same habit), i.e. a tribe; specially, a foreign (non-Jewish) one (usually, by implication, pagan)",
+      "kjv_def": "Gentile, heathen, nation, people"
+    },
+    "G4863": {
+      "strong": "G4863",
+      "language": "greek",
+      "lemma": "συνάγω",
+      "translit": "synágō",
+      "gloss": "to lead together, i.e. collect or convene; specially, to entertain (hospitably)",
+      "strongs_def": " to lead together, i.e. collect or convene; specially, to entertain (hospitably)",
+      "kjv_def": "+ accompany, assemble selves, together, bestow, come together, gather selves together, up, together, lead into, resort, take in"
+    },
+    "G575": {
+      "strong": "G575",
+      "language": "greek",
+      "lemma": "ἀπό",
+      "translit": "apó",
+      "gloss": "\"off,\" i.e. away (from something near), in various senses (of place, time, or relation; literal or figurative)",
+      "strongs_def": " \"off,\" i.e. away (from something near), in various senses (of place, time, or relation; literal or figurative)",
+      "kjv_def": "X here-after, ago, at, because of, before, by the space of, for-th, from, in, out of, off, up-on-ce, since, with"
+    },
+    "G240": {
+      "strong": "G240",
+      "language": "greek",
+      "lemma": "ἀλλήλων",
+      "translit": "allḗlōn",
+      "gloss": "one another",
+      "strongs_def": " one another",
+      "kjv_def": "each other, mutual, one another, the other, them-, your-selves, selves together sometimes with G3326 μετά or G4314 πρός"
+    },
+    "G873": {
+      "strong": "G873",
+      "language": "greek",
+      "lemma": "ἀφορίζω",
+      "translit": "aphorízō",
+      "gloss": "to set off by boundary, i.e. (figuratively) limit, exclude, appoint, etc.",
+      "strongs_def": " to set off by boundary, i.e. (figuratively) limit, exclude, appoint, etc.",
+      "kjv_def": "divide, separate, sever"
+    },
+    "G5618": {
+      "strong": "G5618",
+      "language": "greek",
+      "lemma": "ὥσπερ",
+      "translit": "hṓsper",
+      "gloss": "just as, i.e. exactly like",
+      "strongs_def": " just as, i.e. exactly like",
+      "kjv_def": "even, like as"
+    },
+    "G4166": {
+      "strong": "G4166",
+      "language": "greek",
+      "lemma": "ποιμήν",
+      "translit": "poimḗn",
+      "gloss": "a shepherd (literally or figuratively)",
+      "strongs_def": " a shepherd (literally or figuratively)",
+      "kjv_def": "shepherd, pastor"
+    },
+    "G4263": {
+      "strong": "G4263",
+      "language": "greek",
+      "lemma": "πρόβατον",
+      "translit": "próbaton",
+      "gloss": "something that walks forward (a quadruped), i.e. (specially), a sheep (literally or figuratively)",
+      "strongs_def": " something that walks forward (a quadruped), i.e. (specially), a sheep (literally or figuratively)",
+      "kjv_def": "sheep-fold"
+    },
+    "G2056": {
+      "strong": "G2056",
+      "language": "greek",
+      "lemma": "ἔριφος",
+      "translit": "ériphos",
+      "gloss": "a kid or (genitive case) goat",
+      "strongs_def": " a kid or (genitive case) goat",
+      "kjv_def": "goat, kid"
+    },
+    "G1537": {
+      "strong": "G1537",
+      "language": "greek",
+      "lemma": "ἐκ",
+      "translit": "ek",
+      "gloss": "literal or figurative; direct or remote)",
+      "strongs_def": " literal or figurative; direct or remote)",
+      "kjv_def": "after, among, X are, at, betwixt-yond, by the means of, exceedingly, + abundantly above, for- th, from among, forth, up, + grudgingly, + heartily, X heavenly, X hereby, + very highly, in, …ly, because, by reason of, off from, on, out among from, of, over, since, X thenceforth, through, X unto, X vehemently, with-out"
+    },
+    "G1188": {
+      "strong": "G1188",
+      "language": "greek",
+      "lemma": "δεξιός",
+      "translit": "dexiós",
+      "gloss": "the right side or (feminine) hand (as that which usually takes)",
+      "strongs_def": " the right side or (feminine) hand (as that which usually takes)",
+      "kjv_def": "right hand, side"
+    },
+    "G2476": {
+      "strong": "G2476",
+      "language": "greek",
+      "lemma": "ἵστημι",
+      "translit": "hístēmi",
+      "gloss": "to stand (transitively or intransitively), used in various applications (literally or figuratively)",
+      "strongs_def": " to stand (transitively or intransitively), used in various applications (literally or figuratively)",
+      "kjv_def": "abide, appoint, bring, continue, covenant, establish, hold up, lay, present, set up, stanch, stand by, forth, still, up"
+    },
+    "G2055": {
+      "strong": "G2055",
+      "language": "greek",
+      "lemma": "ἐρίφιον",
+      "translit": "eríphion",
+      "gloss": "a kidling, i.e. (genitive case) goat (symbolically, wicked person)",
+      "strongs_def": " a kidling, i.e. (genitive case) goat (symbolically, wicked person)",
+      "kjv_def": "goat"
+    },
+    "G2176": {
+      "strong": "G2176",
+      "language": "greek",
+      "lemma": "εὐώνυμος",
+      "translit": "euṓnymos",
+      "gloss": "properly, well-named (good-omened), i.e. the left (which was the lucky side among the pagan Greeks); neuter as adverbial, at the left hand",
+      "strongs_def": " properly, well-named (good-omened), i.e. the left (which was the lucky side among the pagan Greeks); neuter as adverbial, at the left hand",
+      "kjv_def": "on the left"
+    },
+    "G3303": {
+      "strong": "G3303",
+      "language": "greek",
+      "lemma": "μέν",
+      "translit": "mén",
+      "gloss": "properly, indicative of affirmation or concession (in fact); usually followed by a contrasted clause with G1161 (δέ) (this one, the former, etc.)",
+      "strongs_def": " properly, indicative of affirmation or concession (in fact); usually followed by a contrasted clause with G1161 (δέ) (this one, the former, etc.)",
+      "kjv_def": "even, indeed, so, some, truly, verily"
+    },
+    "G935": {
+      "strong": "G935",
+      "language": "greek",
+      "lemma": "βασιλεύς",
+      "translit": "basileús",
+      "gloss": "a sovereign (abstractly, relatively, or figuratively)",
+      "strongs_def": " a sovereign (abstractly, relatively, or figuratively)",
+      "kjv_def": "king"
+    },
+    "G2046": {
+      "strong": "G2046",
+      "language": "greek",
+      "lemma": "ἐρέω",
+      "translit": "eréō",
+      "gloss": "an alternate for G2036 (ἔπω) in certain tenses; to utter, i.e. speak or say",
+      "strongs_def": " an alternate for G2036 (ἔπω) in certain tenses; to utter, i.e. speak or say",
+      "kjv_def": "call, say, speak of, tell"
+    },
+    "G1205": {
+      "strong": "G1205",
+      "language": "greek",
+      "lemma": "δεῦτε",
+      "translit": "deûte",
+      "gloss": "come hither!",
+      "strongs_def": " come hither!",
+      "kjv_def": "come, X follow"
+    },
+    "G2127": {
+      "strong": "G2127",
+      "language": "greek",
+      "lemma": "εὐλογέω",
+      "translit": "eulogéō",
+      "gloss": "to speak well of, i.e. (religiously) to bless (thank or invoke a benediction upon, prosper)",
+      "strongs_def": " to speak well of, i.e. (religiously) to bless (thank or invoke a benediction upon, prosper)",
+      "kjv_def": "bless, praise"
+    },
+    "G3450": {
+      "strong": "G3450",
+      "language": "greek",
+      "lemma": "μοῦ",
+      "translit": "moû",
+      "gloss": "of me",
+      "strongs_def": " of me",
+      "kjv_def": "I, me, mine own, my"
+    },
     "G3962": {
-      "lemma": "πατήρ",
-      "translit": "patēr",
       "strong": "G3962",
       "language": "greek",
-      "gloss": "Vader (Father)"
+      "lemma": "πατήρ",
+      "translit": "patḗr",
+      "gloss": "a \"father\" (literally or figuratively, near or more remote)",
+      "strongs_def": " a \"father\" (literally or figuratively, near or more remote)",
+      "kjv_def": "father, parent"
+    },
+    "G2816": {
+      "strong": "G2816",
+      "language": "greek",
+      "lemma": "κληρονομέω",
+      "translit": "klēronoméō",
+      "gloss": "to be an heir to (literally or figuratively)",
+      "strongs_def": " to be an heir to (literally or figuratively)",
+      "kjv_def": "be heir, obtain by inherit-ance"
+    },
+    "G932": {
+      "strong": "G932",
+      "language": "greek",
+      "lemma": "βασιλεία",
+      "translit": "basileía",
+      "gloss": "properly, royalty, i.e. (abstractly) rule, or (concretely) a realm (literally or figuratively)",
+      "strongs_def": " properly, royalty, i.e. (abstractly) rule, or (concretely) a realm (literally or figuratively)",
+      "kjv_def": "kingdom, + reign"
+    },
+    "G5213": {
+      "strong": "G5213",
+      "language": "greek",
+      "lemma": "ὑμῖν",
+      "translit": "hymîn",
+      "gloss": "to (with or by) you",
+      "strongs_def": " to (with or by) you",
+      "kjv_def": "ye, you, your-selves"
+    },
+    "G2090": {
+      "strong": "G2090",
+      "language": "greek",
+      "lemma": "ἑτοιμάζω",
+      "translit": "hetoimázō",
+      "gloss": "to prepare",
+      "strongs_def": " to prepare",
+      "kjv_def": "prepare, provide, make ready"
+    },
+    "G2602": {
+      "strong": "G2602",
+      "language": "greek",
+      "lemma": "καταβολή",
+      "translit": "katabolḗ",
+      "gloss": "a deposition, i.e. founding; figuratively, conception",
+      "strongs_def": " a deposition, i.e. founding; figuratively, conception",
+      "kjv_def": "conceive, foundation"
+    },
+    "G2889": {
+      "strong": "G2889",
+      "language": "greek",
+      "lemma": "κόσμος",
+      "translit": "kósmos",
+      "gloss": "orderly arrangement, i.e. decoration; by implication, the world (in a wide or narrow sense, including its inhabitants, literally or figuratively (morally))",
+      "strongs_def": " orderly arrangement, i.e. decoration; by implication, the world (in a wide or narrow sense, including its inhabitants, literally or figuratively (morally))",
+      "kjv_def": "adorning, world"
+    },
+    "G1063": {
+      "strong": "G1063",
+      "language": "greek",
+      "lemma": "γάρ",
+      "translit": "gár",
+      "gloss": "properly, assigning a reason (used in argument, explanation or intensification; often with other particles)",
+      "strongs_def": " properly, assigning a reason (used in argument, explanation or intensification; often with other particles)",
+      "kjv_def": "and, as, because that, but, even, for, indeed, no doubt, seeing, then, therefore, verily, what, why, yet"
+    },
+    "G3983": {
+      "strong": "G3983",
+      "language": "greek",
+      "lemma": "πεινάω",
+      "translit": "peináō",
+      "gloss": "\"pine\"); to famish (absolutely or comparatively); figuratively, to crave",
+      "strongs_def": " \"pine\"); to famish (absolutely or comparatively); figuratively, to crave",
+      "kjv_def": "be an hungered"
+    },
+    "G3427": {
+      "strong": "G3427",
+      "language": "greek",
+      "lemma": "μοί",
+      "translit": "moí",
+      "gloss": "to me",
+      "strongs_def": " to me",
+      "kjv_def": "I, me, mine, my"
+    },
+    "G5315": {
+      "strong": "G5315",
+      "language": "greek",
+      "lemma": "φάγω",
+      "translit": "phágō",
+      "gloss": "to eat (literally or figuratively)",
+      "strongs_def": " to eat (literally or figuratively)",
+      "kjv_def": "eat, meat"
+    },
+    "G1325": {
+      "strong": "G1325",
+      "language": "greek",
+      "lemma": "δίδωμι",
+      "translit": "dídōmi",
+      "gloss": "to give (used in a very wide application, properly, or by implication, literally or figuratively; greatly modified by the connection)",
+      "strongs_def": " to give (used in a very wide application, properly, or by implication, literally or figuratively; greatly modified by the connection)",
+      "kjv_def": "adventure, bestow, bring forth, commit, deliver up, give, grant, hinder, make, minister, number, offer, have power, put, receive, set, shew, smite + with the hand, strike + with the palm of the hand, suffer, take, utter, yield"
+    },
+    "G1372": {
+      "strong": "G1372",
+      "language": "greek",
+      "lemma": "διψάω",
+      "translit": "dipsáō",
+      "gloss": "to thirst for (literally or figuratively)",
+      "strongs_def": " to thirst for (literally or figuratively)",
+      "kjv_def": "be, be a-thirst-y"
+    },
+    "G3165": {
+      "strong": "G3165",
+      "language": "greek",
+      "lemma": "μέ",
+      "translit": "mé",
+      "gloss": "me",
+      "strongs_def": " me",
+      "kjv_def": "I, me, my"
+    },
+    "G4222": {
+      "strong": "G4222",
+      "language": "greek",
+      "lemma": "ποτίζω",
+      "translit": "potízō",
+      "gloss": "to furnish drink, irrigate",
+      "strongs_def": " to furnish drink, irrigate",
+      "kjv_def": "give make to drink, feed, water"
+    },
+    "G2252": {
+      "strong": "G2252",
+      "language": "greek",
+      "lemma": "ἤμην",
+      "translit": "ḗmēn",
+      "gloss": "I was",
+      "strongs_def": " I was",
+      "kjv_def": "be, was"
+    },
+    "G3581": {
+      "strong": "G3581",
+      "language": "greek",
+      "lemma": "ξένος",
+      "translit": "xénos",
+      "gloss": "foreign (literally, alien, or figuratively, novel); by implication, a guest or (vice-versa) entertainer",
+      "strongs_def": " foreign (literally, alien, or figuratively, novel); by implication, a guest or (vice-versa) entertainer",
+      "kjv_def": "host, strange-r"
+    },
+    "G1131": {
+      "strong": "G1131",
+      "language": "greek",
+      "lemma": "γυμνός",
+      "translit": "gymnós",
+      "gloss": "nude (absolute or relative, literal or figurative)",
+      "strongs_def": " nude (absolute or relative, literal or figurative)",
+      "kjv_def": "naked"
+    },
+    "G4016": {
+      "strong": "G4016",
+      "language": "greek",
+      "lemma": "περιβάλλω",
+      "translit": "peribállō",
+      "gloss": "to throw all around, i.e. invest (with a palisade or with clothing)",
+      "strongs_def": " to throw all around, i.e. invest (with a palisade or with clothing)",
+      "kjv_def": "array, cast about, clothe-d me, put on"
+    },
+    "G770": {
+      "strong": "G770",
+      "language": "greek",
+      "lemma": "ἀσθενέω",
+      "translit": "asthenéō",
+      "gloss": "to be feeble (in any sense)",
+      "strongs_def": " to be feeble (in any sense)",
+      "kjv_def": "be diseased, impotent folk man, be sick, be, be made weak"
+    },
+    "G1980": {
+      "strong": "G1980",
+      "language": "greek",
+      "lemma": "ἐπισκέπτομαι",
+      "translit": "episképtomai",
+      "gloss": "to inspect, i.e. (by implication) to select; by extension, to go to see, relieve",
+      "strongs_def": " to inspect, i.e. (by implication) to select; by extension, to go to see, relieve",
+      "kjv_def": "look out, visit"
+    },
+    "G5438": {
+      "strong": "G5438",
+      "language": "greek",
+      "lemma": "φυλακή",
+      "translit": "phylakḗ",
+      "gloss": "a guarding or (concretely, guard), the act, the person; figuratively, the place, the condition, or (specially), the time (as a division of day or night), literally or figuratively",
+      "strongs_def": " a guarding or (concretely, guard), the act, the person; figuratively, the place, the condition, or (specially), the time (as a division of day or night), literally or figuratively",
+      "kjv_def": "cage, hold, im-prison-ment, ward, watch"
+    },
+    "G4314": {
+      "strong": "G4314",
+      "language": "greek",
+      "lemma": "πρός",
+      "translit": "prós",
+      "gloss": "a preposition of direction; forward to, i.e. toward (with the genitive case, the side of, i.e. pertaining to; with the dative case, by the side of, i.e. near to; usually with the accusative case, the place, time, occasion, or respect, which is the destination of the relation, i.e. whither or for which it is predicated)",
+      "strongs_def": " a preposition of direction; forward to, i.e. toward (with the genitive case, the side of, i.e. pertaining to; with the dative case, by the side of, i.e. near to; usually with the accusative case, the place, time, occasion, or respect, which is the destination of the relation, i.e. whither or for which it is predicated)",
+      "kjv_def": "about, according to , against, among, at, because of, before, between, where-by, for, X at thy house, in, for intent, nigh unto, of, which pertain to, that, to the end that, X together, to you -ward, unto, with-in"
+    },
+    "G1342": {
+      "strong": "G1342",
+      "language": "greek",
+      "lemma": "δίκαιος",
+      "translit": "díkaios",
+      "gloss": "equitable (in character or act); by implication, innocent, holy (absolutely or relatively)",
+      "strongs_def": " equitable (in character or act); by implication, innocent, holy (absolutely or relatively)",
+      "kjv_def": "just, meet, right-eous"
+    },
+    "G611": {
+      "strong": "G611",
+      "language": "greek",
+      "lemma": "ἀποκρίνομαι",
+      "translit": "apokrínomai",
+      "gloss": "to conclude for oneself, i.e. (by implication) to respond; by Hebraism (compare H06030) to begin to speak (where an address is expected)",
+      "strongs_def": " to conclude for oneself, i.e. (by implication) to respond; by Hebraism (compare H06030) to begin to speak (where an address is expected)",
+      "kjv_def": "answer"
+    },
+    "G3004": {
+      "strong": "G3004",
+      "language": "greek",
+      "lemma": "λέγω",
+      "translit": "légō",
+      "gloss": "properly, to \"lay\" forth, i.e. (figuratively) relate (in words (usually of systematic or set discourse; whereas G2036 (ἔπω) and G5346 (φημί) generally refer to an individual expression or speech respectively; while G4483 (ῥέω) is properly to break silence merely, and G2980 (λαλέω) means an extended or random harangue)); by implication, to mean",
+      "strongs_def": " properly, to \"lay\" forth, i.e. (figuratively) relate (in words (usually of systematic or set discourse; whereas G2036 (ἔπω) and G5346 (φημί) generally refer to an individual expression or speech respectively; while G4483 (ῥέω) is properly to break silence merely, and G2980 (λαλέω) means an extended or random harangue)); by implication, to mean",
+      "kjv_def": "ask, bid, boast, call, describe, give out, name, put forth, say-ing, on, shew, speak, tell, utter"
+    },
+    "G2962": {
+      "strong": "G2962",
+      "language": "greek",
+      "lemma": "κύριος",
+      "translit": "kýrios",
+      "gloss": "supreme in authority, i.e. (as noun) controller; by implication, Master (as a respectful title)",
+      "strongs_def": " supreme in authority, i.e. (as noun) controller; by implication, Master (as a respectful title)",
+      "kjv_def": "God, Lord, master, Sir"
+    },
+    "G4219": {
+      "strong": "G4219",
+      "language": "greek",
+      "lemma": "πότε",
+      "translit": "póte",
+      "gloss": "interrogative adverb, at what time",
+      "strongs_def": " interrogative adverb, at what time",
+      "kjv_def": "+ how long, when"
+    },
+    "G4571": {
+      "strong": "G4571",
+      "language": "greek",
+      "lemma": "σέ",
+      "translit": "sé",
+      "gloss": "thee",
+      "strongs_def": " thee",
+      "kjv_def": "thee, thou, X thy house"
+    },
+    "G1492": {
+      "strong": "G1492",
+      "language": "greek",
+      "lemma": "εἴδω",
+      "translit": "eídō",
+      "gloss": "used only in certain past tenses, the others being borrowed from the equivalent G3700 (ὀπτάνομαι) and G3708 (ὁράω); properly, to see (literally or figuratively); by implication, (in the perfect tense only) to know",
+      "strongs_def": " used only in certain past tenses, the others being borrowed from the equivalent G3700 (ὀπτάνομαι) and G3708 (ὁράω); properly, to see (literally or figuratively); by implication, (in the perfect tense only) to know",
+      "kjv_def": "be aware, behold, X can + not tell, consider, have know-ledge, look on, perceive, see, be sure, tell, understand, wish, wot"
+    },
+    "G5142": {
+      "strong": "G5142",
+      "language": "greek",
+      "lemma": "τρέφω",
+      "translit": "tréphō",
+      "gloss": "but perhaps strengthened from the base of G5157 (τροπή) through the idea of convolution); properly, to stiffen, i.e. fatten (by implication, to cherish (with food, etc.), pamper, rear)",
+      "strongs_def": " but perhaps strengthened from the base of G5157 (τροπή) through the idea of convolution); properly, to stiffen, i.e. fatten (by implication, to cherish (with food, etc.), pamper, rear)",
+      "kjv_def": "bring up, feed, nourish"
+    },
+    "G2228": {
+      "strong": "G2228",
+      "language": "greek",
+      "lemma": "ἤ",
+      "translit": "ḗ",
+      "gloss": "disjunctive, or; comparative, than",
+      "strongs_def": " disjunctive, or; comparative, than",
+      "kjv_def": "and, but either, n-either, except it be, n-or else, rather, save, than, that, what, yea"
+    },
+    "G772": {
+      "strong": "G772",
+      "language": "greek",
+      "lemma": "ἀσθενής",
+      "translit": "asthenḗs",
+      "gloss": "strengthless (in various applications, literal, figurative and moral)",
+      "strongs_def": " strengthless (in various applications, literal, figurative and moral)",
+      "kjv_def": "more feeble, impotent, sick, without strength, weak-er, -ness, thing"
+    },
+    "G281": {
+      "strong": "G281",
+      "language": "greek",
+      "lemma": "ἀμήν",
+      "translit": "amḗn",
+      "gloss": "properly, firm, i.e. (figuratively) trustworthy; adverbially, surely (often as interjection, so be it)",
+      "strongs_def": " properly, firm, i.e. (figuratively) trustworthy; adverbially, surely (often as interjection, so be it)",
+      "kjv_def": "amen, verily"
+    },
+    "G3745": {
+      "strong": "G3745",
+      "language": "greek",
+      "lemma": "ὅσος",
+      "translit": "hósos",
+      "gloss": "as (much, great, long, etc.) as",
+      "strongs_def": " as (much, great, long, etc.) as",
+      "kjv_def": "all that, as long, many, much as, how great many, much, in-asmuch as, so many as, that ever, the more, those things, what great, -soever, wheresoever, wherewithsoever, which, X while, who-soever"
+    },
+    "G1520": {
+      "strong": "G1520",
+      "language": "greek",
+      "lemma": "εἷς",
+      "translit": "heîs",
+      "gloss": "one",
+      "strongs_def": " one",
+      "kjv_def": "a-n, -ny, certain, + abundantly, man, one another, only, other, some"
+    },
+    "G5130": {
+      "strong": "G5130",
+      "language": "greek",
+      "lemma": "τούτων",
+      "translit": "toútōn",
+      "gloss": "of (from or concerning) these (persons or things)",
+      "strongs_def": " of (from or concerning) these (persons or things)",
+      "kjv_def": "such, their, these things, they, this sort, those"
+    },
+    "G1646": {
+      "strong": "G1646",
+      "language": "greek",
+      "lemma": "ἐλάχιστος",
+      "translit": "eláchistos",
+      "gloss": "used as equivalent to G3398 (μικρός); least (in size, amount, dignity, etc.)",
+      "strongs_def": " used as equivalent to G3398 (μικρός); least (in size, amount, dignity, etc.)",
+      "kjv_def": "least, very little small, smallest"
+    },
+    "G80": {
+      "strong": "G80",
+      "language": "greek",
+      "lemma": "ἀδελφός",
+      "translit": "adelphós",
+      "gloss": "a brother (literally or figuratively) near or remote (much like G1 (Α))",
+      "strongs_def": " a brother (literally or figuratively) near or remote (much like G1 (Α))",
+      "kjv_def": "brother"
+    },
+    "G4160": {
+      "strong": "G4160",
+      "language": "greek",
+      "lemma": "ποιέω",
+      "translit": "poiéō",
+      "gloss": "to make or do (in a very wide application, more or less direct)",
+      "strongs_def": " to make or do (in a very wide application, more or less direct)",
+      "kjv_def": "abide, + agree, appoint, X avenge, + band together, be, bear, + bewray, bring forth, cast out, cause, commit, + content, continue, deal, + without any delay, would do-ing, execute, exercise, fulfil, gain, give, have, hold, X journeying, keep, + lay wait, + lighten the ship, make, X mean, + none of these things move me, observe, ordain, perform, provide, + have purged, purpose, put, + raising up, X secure, shew, X shoot out, spend, take, tarry, + transgress the law, work, yield"
+    },
+    "G1698": {
+      "strong": "G1698",
+      "language": "greek",
+      "lemma": "ἐμοί",
+      "translit": "emoí",
+      "gloss": "to me",
+      "strongs_def": " to me",
+      "kjv_def": "I, me, mine, my"
+    },
+    "G4198": {
+      "strong": "G4198",
+      "language": "greek",
+      "lemma": "πορεύομαι",
+      "translit": "poreúomai",
+      "gloss": "to traverse, i.e. travel (literally or figuratively; especially to remove (figuratively, die), live, etc.);",
+      "strongs_def": " to traverse, i.e. travel (literally or figuratively; especially to remove (figuratively, die), live, etc.); ",
+      "kjv_def": "--depart, go away, forth, one's way, up, make a, take a journey, walk"
+    },
+    "G1700": {
+      "strong": "G1700",
+      "language": "greek",
+      "lemma": "ἐμοῦ",
+      "translit": "emoû",
+      "gloss": "of me",
+      "strongs_def": " of me",
+      "kjv_def": "me, mine, my"
+    },
+    "G2672": {
+      "strong": "G2672",
+      "language": "greek",
+      "lemma": "καταράομαι",
+      "translit": "kataráomai",
+      "gloss": "to execrate; by analogy, to doom",
+      "strongs_def": " to execrate; by analogy, to doom",
+      "kjv_def": "curse"
+    },
+    "G1519": {
+      "strong": "G1519",
+      "language": "greek",
+      "lemma": "εἰς",
+      "translit": "eis",
+      "gloss": "to or into (indicating the point reached or entered), of place, time, or (figuratively) purpose (result, etc.); also in adverbial phrases",
+      "strongs_def": " to or into (indicating the point reached or entered), of place, time, or (figuratively) purpose (result, etc.); also in adverbial phrases",
+      "kjv_def": "abundant-ly, against, among, as, at, back-ward, before, by, concerning, + continual, + far more exceeding, for intent, purpose, fore, + forth, in among, at, unto, -so much that, -to, to the intent that, + of one mind, + never, of, up-on, + perish, + set at one again, so that, therefore-unto, throughout, til, to be, the end, -ward, here-until-to, …ward, where-fore, with"
+    },
+    "G166": {
+      "strong": "G166",
+      "language": "greek",
+      "lemma": "αἰώνιος",
+      "translit": "aiṓnios",
+      "gloss": "perpetual (also used of past time, or past and future as well)",
+      "strongs_def": " perpetual (also used of past time, or past and future as well)",
+      "kjv_def": "eternal, for ever, everlasting, world began"
+    },
+    "G4442": {
+      "strong": "G4442",
+      "language": "greek",
+      "lemma": "πῦρ",
+      "translit": "pŷr",
+      "gloss": "\"fire\" (literally or figuratively, specially, lightning)",
+      "strongs_def": " \"fire\" (literally or figuratively, specially, lightning)",
+      "kjv_def": "fiery, fire"
+    },
+    "G1228": {
+      "strong": "G1228",
+      "language": "greek",
+      "lemma": "διάβολος",
+      "translit": "diábolos",
+      "gloss": "a traducer; specially, Satan (compare H07854)",
+      "strongs_def": " a traducer; specially, Satan (compare H07854)",
+      "kjv_def": "false accuser, devil, slanderer"
+    },
+    "G3756": {
+      "strong": "G3756",
+      "language": "greek",
+      "lemma": "οὐ",
+      "translit": "ou",
+      "gloss": "the absolute negative (compare G3361 (μή)) adverb; no or not",
+      "strongs_def": " the absolute negative (compare G3361 (μή)) adverb; no or not",
+      "kjv_def": "+ long, nay, neither, never, no X man, none, can-not, + nothing, + special, un-worthy, when, + without, + yet but"
+    },
+    "G4671": {
+      "strong": "G4671",
+      "language": "greek",
+      "lemma": "σοί",
+      "translit": "soí",
+      "gloss": "to thee",
+      "strongs_def": " to thee",
+      "kjv_def": "thee, thine own, thou, thy"
+    },
+    "G1247": {
+      "strong": "G1247",
+      "language": "greek",
+      "lemma": "διακονέω",
+      "translit": "diakonéō",
+      "gloss": "to be an attendant, i.e. wait upon (menially or as a host, friend, or (figuratively) teacher); technically, to act as a Christian deacon",
+      "strongs_def": " to be an attendant, i.e. wait upon (menially or as a host, friend, or (figuratively) teacher); technically, to act as a Christian deacon",
+      "kjv_def": "ad-minister unto, serve, use the office of a deacon"
+    },
+    "G3761": {
+      "strong": "G3761",
+      "language": "greek",
+      "lemma": "οὐδέ",
+      "translit": "oudé",
+      "gloss": "not however, i.e. neither, nor, not even",
+      "strongs_def": " not however, i.e. neither, nor, not even",
+      "kjv_def": "neither indeed, never, no more, nor, not, nor yet, also, even, then not even, so much as, + nothing, so much as"
+    },
+    "G3778": {
+      "strong": "G3778",
+      "language": "greek",
+      "lemma": "οὗτος",
+      "translit": "hoûtos",
+      "gloss": "the he (she or it), i.e. this or that (often with article repeated)",
+      "strongs_def": " the he (she or it), i.e. this or that (often with article repeated)",
+      "kjv_def": "he it was that, hereof, it, she, such as, the same, these, they, this man, same, woman, which, who"
+    },
+    "G565": {
+      "strong": "G565",
+      "language": "greek",
+      "lemma": "ἀπέρχομαι",
+      "translit": "apérchomai",
+      "gloss": "to go off (i.e. depart), aside (i.e. apart) or behind (i.e. follow), literally or figuratively",
+      "strongs_def": " to go off (i.e. depart), aside (i.e. apart) or behind (i.e. follow), literally or figuratively",
+      "kjv_def": "come, depart, go aside, away, back, out, … ways, pass away, be past"
+    },
+    "G2851": {
+      "strong": "G2851",
+      "language": "greek",
+      "lemma": "κόλασις",
+      "translit": "kólasis",
+      "gloss": "penal infliction",
+      "strongs_def": " penal infliction",
+      "kjv_def": "punishment, torment"
+    },
+    "G2222": {
+      "strong": "G2222",
+      "language": "greek",
+      "lemma": "ζωή",
+      "translit": "zōḗ",
+      "gloss": "life (literally or figuratively)",
+      "strongs_def": " life (literally or figuratively)",
+      "kjv_def": "life-time"
     }
   }
 }

@@ -13,12 +13,13 @@
     "notes": "Default English translation"
   },
   "lexicon": {
-    "source": "STEPBible/STEPBible-Data",
+    "source": "OpenScriptures / STEPBible-Data",
     "datasets": [
       "TBESH",
       "TBESG"
     ],
     "license": "CC BY 4.0",
-    "attribution": "Lexicon data provided by STEPBible (CC BY 4.0)"
+    "attribution": "Lexicon data provided by OpenScriptures / STEPBible (CC BY 4.0)",
+    "entries": 14197
   }
 }
