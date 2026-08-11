@@ -1,14 +1,40 @@
-import React, { useEffect, useRef } from 'react';
-import { X, ExternalLink } from 'lucide-react';
+import React, { useState, useEffect, useRef } from 'react';
+import { X, ExternalLink, Move } from 'lucide-react';
 
 export default function LexiconPopover({ entry, targetRect, onClose, lang = 'nl' }) {
   if (!entry) return null;
   const isEn = lang === 'en';
   const popoverRef = useRef(null);
 
+  const [position, setPosition] = useState(null);
+  const [isDragging, setIsDragging] = useState(false);
+  const [dragOffset, setDragOffset] = useState({ x: 0, y: 0 });
+
+  // Compute initial position from targetRect
+  useEffect(() => {
+    if (targetRect) {
+      const popoverWidth = 360;
+      const popoverHeight = 260;
+
+      let top = targetRect.bottom + 8;
+      if (top + popoverHeight > window.innerHeight) {
+        top = Math.max(10, targetRect.top - popoverHeight - 8);
+      }
+
+      let left = targetRect.left - 20;
+      if (left + popoverWidth > window.innerWidth - 20) {
+        left = window.innerWidth - popoverWidth - 20;
+      }
+      if (left < 20) left = 20;
+
+      setPosition({ x: left, y: top });
+    }
+  }, [targetRect]);
+
+  // Outside click & Escape handlers
   useEffect(() => {
     const handleOutsideClick = (e) => {
-      if (popoverRef.current && !popoverRef.current.contains(e.target)) {
+      if (popoverRef.current && !popoverRef.current.contains(e.target) && !isDragging) {
         onClose();
       }
     };
@@ -22,51 +48,101 @@ export default function LexiconPopover({ entry, targetRect, onClose, lang = 'nl'
       document.removeEventListener('mousedown', handleOutsideClick);
       document.removeEventListener('keydown', handleEscape);
     };
-  }, [onClose]);
+  }, [onClose, isDragging]);
+
+  // Dragging event handlers (Mouse & Touch)
+  const handleMouseDown = (e) => {
+    if (e.target.closest('button') || e.target.closest('a')) return;
+    setIsDragging(true);
+    const currentX = position ? position.x : 20;
+    const currentY = position ? position.y : 20;
+    setDragOffset({
+      x: e.clientX - currentX,
+      y: e.clientY - currentY
+    });
+  };
+
+  const handleTouchStart = (e) => {
+    if (e.target.closest('button') || e.target.closest('a') || !e.touches[0]) return;
+    setIsDragging(true);
+    const currentX = position ? position.x : 20;
+    const currentY = position ? position.y : 20;
+    setDragOffset({
+      x: e.touches[0].clientX - currentX,
+      y: e.touches[0].clientY - currentY
+    });
+  };
+
+  useEffect(() => {
+    const handleMouseMove = (e) => {
+      if (!isDragging) return;
+      const newX = Math.max(5, Math.min(window.innerWidth - 80, e.clientX - dragOffset.x));
+      const newY = Math.max(5, Math.min(window.innerHeight - 60, e.clientY - dragOffset.y));
+      setPosition({ x: newX, y: newY });
+    };
+
+    const handleTouchMove = (e) => {
+      if (!isDragging || !e.touches[0]) return;
+      const newX = Math.max(5, Math.min(window.innerWidth - 80, e.touches[0].clientX - dragOffset.x));
+      const newY = Math.max(5, Math.min(window.innerHeight - 60, e.touches[0].clientY - dragOffset.y));
+      setPosition({ x: newX, y: newY });
+    };
+
+    const handleDragEnd = () => {
+      setIsDragging(false);
+    };
+
+    if (isDragging) {
+      window.addEventListener('mousemove', handleMouseMove);
+      window.addEventListener('mouseup', handleDragEnd);
+      window.addEventListener('touchmove', handleTouchMove, { passive: true });
+      window.addEventListener('touchend', handleDragEnd);
+    }
+    return () => {
+      window.removeEventListener('mousemove', handleMouseMove);
+      window.removeEventListener('mouseup', handleDragEnd);
+      window.removeEventListener('touchmove', handleTouchMove);
+      window.removeEventListener('touchend', handleDragEnd);
+    };
+  }, [isDragging, dragOffset]);
 
   const isGreek = entry.language === 'greek' || entry.strong?.startsWith('G');
   const originalVersion = isGreek ? 'OGNT' : 'OHB';
   const mainVersion = isEn ? 'KJV' : 'DutSVV';
   const stepUrl = `https://www.stepbible.org/?q=version=${mainVersion}|version=${originalVersion}|strong=${encodeURIComponent(entry.strong)}&options=HVLGUNMC`;
 
-  // Calculate fixed position right next to the clicked word element
-  let popoverStyle = {};
-  if (targetRect) {
-    const popoverWidth = 360;
-    const popoverHeight = 240;
-
-    let top = targetRect.bottom + 8;
-    if (top + popoverHeight > window.innerHeight) {
-      top = Math.max(10, targetRect.top - popoverHeight - 8);
-    }
-
-    let left = targetRect.left - 20;
-    if (left + popoverWidth > window.innerWidth - 20) {
-      left = window.innerWidth - popoverWidth - 20;
-    }
-    if (left < 20) left = 20;
-
-    popoverStyle = {
-      position: 'fixed',
-      top: `${top}px`,
-      left: `${left}px`,
-      zIndex: 9999
-    };
-  }
+  const popoverStyle = position ? {
+    position: 'fixed',
+    top: `${position.y}px`,
+    left: `${position.x}px`,
+    zIndex: 9999
+  } : {
+    position: 'fixed',
+    top: '100px',
+    left: '20px',
+    zIndex: 9999
+  };
 
   return (
     <div
       ref={popoverRef}
-      className="lexicon-balloon"
+      className={`lexicon-balloon ${isDragging ? 'dragging' : ''}`}
       style={popoverStyle}
       role="dialog"
       aria-labelledby="popover-lemma-title"
     >
       {/* Speech Balloon Pointer Arrow */}
-      <div className="balloon-arrow"></div>
+      {!isDragging && <div className="balloon-arrow"></div>}
 
-      <div className="popover-header">
-        <div className="popover-title-group">
+      <div
+        className="popover-header"
+        onMouseDown={handleMouseDown}
+        onTouchStart={handleTouchStart}
+        style={{ cursor: isDragging ? 'grabbing' : 'grab', userSelect: 'none', touchAction: 'none' }}
+        title={isEn ? "Click/touch and drag to move balloon" : "Sleep om het ballonnetje te verplaatsen"}
+      >
+        <div className="popover-title-group" style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+          <Move size={14} className="drag-handle-icon" style={{ color: 'var(--accent)', cursor: 'grab' }} />
           {entry.lemma && (
             <span
               id="popover-lemma-title"
