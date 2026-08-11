@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Download, Upload, RotateCcw, BookOpen, Printer, FileText } from 'lucide-react';
+import { Download, Upload, RotateCcw, BookOpen, Printer, FileText, FileCode, ChevronDown, ChevronUp } from 'lucide-react';
 import { fetchPassagesIndex } from '../api/bible';
 import { exportStudyToEpub } from '../utils/epub-generator';
 
@@ -39,11 +39,17 @@ export default function WorksheetHero({ lang, onStudyChange }) {
   const isEn = lang === 'en';
   const fileInputRef = useRef(null);
 
+  const [isReadingExpanded, setIsReadingExpanded] = useState(false);
+
   const [studies, setStudies] = useState([
     {
       id: 'shoftim',
       parasha: 'Shoftim',
       label: { nl: 'Sjoftim', en: 'Shoftim' },
+      download_pdf_nl: '/downloads/lezingen/shoftim-nl.pdf',
+      download_docx_nl: '/downloads/lezingen/shoftim-nl.docx',
+      download_pdf_en: '/downloads/lezingen/shoftim-en.pdf',
+      download_docx_en: '/downloads/lezingen/shoftim-en.docx',
       passages: [
         { role: 'parasha', ref: { nl: 'Deuteronomium 16:18–21:9', en: 'Deuteronomy 16:18–21:9' } },
         { role: 'haftara', ref: { nl: 'Jesaja 51:12–52:12', en: 'Isaiah 51:12–52:12' } },
@@ -90,6 +96,7 @@ export default function WorksheetHero({ lang, onStudyChange }) {
 
   const handleStudySelect = (id) => {
     setSelectedStudyId(id);
+    setIsReadingExpanded(false); // Reset to collapsed on study change
     if (onStudyChange) onStudyChange(id);
   };
 
@@ -169,10 +176,10 @@ export default function WorksheetHero({ lang, onStudyChange }) {
               return [importedStudy, ...prev];
             });
             setSelectedStudyId(importedStudy.id);
+            setIsReadingExpanded(false);
             if (onStudyChange) onStudyChange(importedStudy.id);
           }
         } else if (file.name.endsWith('.md')) {
-          // Parse Markdown with optional Frontmatter
           let frontmatter = {};
           let body = fileContent;
           const fmMatch = fileContent.match(/^---\r?\n([\s\S]+?)\r?\n---\r?\n?([\s\S]*)$/);
@@ -199,6 +206,10 @@ export default function WorksheetHero({ lang, onStudyChange }) {
               nl: frontmatter.title_nl || frontmatter.label_nl || parashaName,
               en: frontmatter.title_en || frontmatter.label_en || parashaName
             },
+            download_pdf_nl: frontmatter.download_pdf_nl,
+            download_docx_nl: frontmatter.download_docx_nl,
+            download_pdf_en: frontmatter.download_pdf_en,
+            download_docx_en: frontmatter.download_docx_en,
             passages: frontmatter.passages ? JSON.parse(frontmatter.passages) : currentStudy.passages,
             body_nl: frontmatter.body_nl || body,
             body_en: frontmatter.body_en || body
@@ -214,6 +225,7 @@ export default function WorksheetHero({ lang, onStudyChange }) {
             return [newStudy, ...prev];
           });
           setSelectedStudyId(newStudy.id);
+          setIsReadingExpanded(false);
           if (onStudyChange) onStudyChange(newStudy.id);
         }
       } catch (err) {
@@ -256,6 +268,14 @@ export default function WorksheetHero({ lang, onStudyChange }) {
     : (currentStudy?.body_nl || currentStudy?.body || 'Nederlandse lezing nog niet beschikbaar.');
 
   const formattedHtml = formatBodyHtml(rawContent);
+
+  const pdfUrl = isEn
+    ? (currentStudy?.download_pdf_en || currentStudy?.download_pdf_nl)
+    : (currentStudy?.download_pdf_nl || currentStudy?.download_pdf_en);
+
+  const docxUrl = isEn
+    ? (currentStudy?.download_docx_en || currentStudy?.download_docx_nl)
+    : (currentStudy?.download_docx_nl || currentStudy?.download_docx_en);
 
   return (
     <div className="hero-card">
@@ -301,12 +321,72 @@ export default function WorksheetHero({ lang, onStudyChange }) {
         </select>
       </div>
 
-      {/* Prominent Bible Passage References Card */}
+      {/* Prominent Bible Passage References Card with Top Action Icons */}
       <div className="passages-summary-box">
-        <div className="passages-summary-title">
-          <BookOpen size={16} className="btn-icon" />
-          <span>{isEn ? 'Bible passages for this reading:' : 'Bijbelgedeelten bij deze lezing:'}</span>
+        <div className="passages-summary-header" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '10px', marginBottom: '12px' }}>
+          <div className="passages-summary-title" style={{ margin: 0 }}>
+            <BookOpen size={18} className="btn-icon" />
+            <span>{isEn ? 'Bible passages for this reading:' : 'Bijbelgedeelten bij deze lezing:'}</span>
+          </div>
+
+          {/* Top Download & Export Action Icon Buttons (PDF, Word, EPUB, Print) */}
+          <div className="top-passage-actions" style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+            {pdfUrl ? (
+              <a
+                href={pdfUrl}
+                download
+                className="passage-action-badge"
+                title={isEn ? "Download PDF reading" : "Download PDF-lezing"}
+              >
+                <FileText size={15} />
+                <span>PDF</span>
+              </a>
+            ) : (
+              <button
+                type="button"
+                onClick={handlePrintPDF}
+                className="passage-action-badge"
+                title={isEn ? "Print / Save PDF" : "Afdrukken / Opslaan als PDF"}
+              >
+                <FileText size={15} />
+                <span>PDF</span>
+              </button>
+            )}
+
+            {docxUrl && (
+              <a
+                href={docxUrl}
+                download
+                className="passage-action-badge"
+                title={isEn ? "Download Word (DOCX) reading" : "Download Word (DOCX)-lezing"}
+              >
+                <FileCode size={15} />
+                <span>DOCX</span>
+              </a>
+            )}
+
+            <button
+              type="button"
+              onClick={handleExportEPUB}
+              className="passage-action-badge"
+              title={isEn ? "Download EPUB e-book" : "Download EPUB e-book"}
+            >
+              <BookOpen size={15} />
+              <span>EPUB</span>
+            </button>
+
+            <button
+              type="button"
+              onClick={handlePrintPDF}
+              className="passage-action-badge"
+              title={isEn ? "Print reading" : "Afdrukken"}
+            >
+              <Printer size={15} />
+              <span>{isEn ? 'Print' : 'Druk af'}</span>
+            </button>
+          </div>
         </div>
+
         <div className="passages-summary-grid">
           {currentStudy?.passages?.some(p => p.role === 'parasha') && (
             <div className="passage-item">
@@ -328,32 +408,44 @@ export default function WorksheetHero({ lang, onStudyChange }) {
           )}
         </div>
 
+        {/* Collapsible Published Reading & Commentary Section */}
         <div className="parasha-editorial-body">
-          <h3 className="editorial-body-title">
-            {isEn ? 'Published Reading & Commentary' : 'Gepubliceerde Lezing & Toelichting'}
-          </h3>
-          <div
-            className="editorial-body-content"
-            dangerouslySetInnerHTML={{ __html: formattedHtml }}
-          />
+          <button
+            type="button"
+            className={`editorial-toggle-btn ${isReadingExpanded ? 'expanded' : ''}`}
+            onClick={() => setIsReadingExpanded(!isReadingExpanded)}
+            aria-expanded={isReadingExpanded}
+          >
+            <div className="toggle-btn-left">
+              <BookOpen size={18} className="toggle-btn-icon" />
+              <span className="editorial-body-title" style={{ margin: 0 }}>
+                {isEn ? 'Published Reading & Commentary' : 'Gepubliceerde Lezing & Toelichting'}
+              </span>
+            </div>
+            <div className="toggle-btn-right">
+              <span className="toggle-label-text">
+                {isReadingExpanded
+                  ? (isEn ? 'Collapse ▲' : 'Inklappen ▲')
+                  : (isEn ? 'Read commentary ▶' : 'Lees de gepubliceerde lezing ▶')}
+              </span>
+              {isReadingExpanded ? <ChevronUp size={18} /> : <ChevronDown size={18} />}
+            </div>
+          </button>
+
+          {isReadingExpanded && (
+            <div
+              className="editorial-body-content"
+              dangerouslySetInnerHTML={{ __html: formattedHtml }}
+            />
+          )}
         </div>
       </div>
 
-      {/* Action Buttons: Upload, Print/PDF, EPUB Export, Export JSON, Reset */}
+      {/* Action Buttons: Upload, Export JSON, Reset */}
       <div className="hero-action-buttons">
         <button type="button" className="btn-secondary" onClick={handleTriggerUpload} title={isEn ? "Upload .md or .json study file" : "Upload .md of .json studiebestand"}>
           <Upload className="btn-icon" size={16} />
           <span>{isEn ? 'Upload File (.md/.json)' : 'Upload bestand (.md/.json)'}</span>
-        </button>
-
-        <button type="button" className="btn-secondary" onClick={handlePrintPDF} title={isEn ? "Print or save as PDF" : "Afdrukken of opslaan als PDF"}>
-          <Printer className="btn-icon" size={16} />
-          <span>{isEn ? 'Print / PDF' : 'Druk af / PDF'}</span>
-        </button>
-
-        <button type="button" className="btn-secondary" onClick={handleExportEPUB} title={isEn ? "Download as EPUB e-book" : "Download als EPUB e-book"}>
-          <FileText className="btn-icon" size={16} />
-          <span>{isEn ? 'Export EPUB' : 'Exporteer EPUB'}</span>
         </button>
 
         <button type="button" className="btn-secondary" onClick={handleExportJSON}>

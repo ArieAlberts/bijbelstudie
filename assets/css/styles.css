@@ -155,29 +155,74 @@ body.root-language-body{min-height:100vh;display:grid;place-items:center;padding
 .language-options a:first-child{background:var(--accent);color:white}
 @media(max-width:520px){.language-options{grid-template-columns:1fr}.language-card{padding:30px 22px}}
 
-/* Editorial Published Reading Body Styling */
-.parasha-editorial-body {
-  margin-top: 1.2rem;
-  padding-top: 1rem;
-  border-top: 1px solid rgba(149, 76, 40, 0.2);
-}
-.editorial-body-title {
-  font-family: "Source Serif 4", serif;
-  font-size: 1.2rem;
+/* Top Passage Action Badges (PDF, Word, EPUB, Print) */
+.passage-action-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: var(--white, #ffffff);
+  border: 1px solid var(--line, #dbcec4);
+  color: var(--accent-dark, #6c2c0e);
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 12.5px;
   font-weight: 700;
-  color: #5c2c12;
-  margin: 0 0 0.8rem 0;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+.passage-action-badge:hover {
+  background: var(--soft, #f1eae1);
+  border-color: var(--accent, #954c28);
+  color: var(--accent-dark, #6c2c0e);
+}
+.editorial-toggle-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--white, #ffffff);
+  border: 1px solid var(--line, #dbcec4);
+  border-left: 4px solid var(--accent, #954c28);
+  padding: 12px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  text-align: left;
+  transition: all 0.2s ease;
+}
+.editorial-toggle-btn:hover {
+  background: var(--soft, #f1eae1);
+}
+.editorial-toggle-btn.expanded {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  background: var(--soft, #f1eae1);
+}
+.toggle-btn-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.toggle-btn-right {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--accent-dark, #6c2c0e);
 }
 .editorial-body-content {
   font-family: "Source Serif 4", Georgia, serif;
   font-size: 1.05rem;
   line-height: 1.7;
   color: #2b231d;
-  background: rgba(246, 241, 235, 0.6);
+  background: var(--white, #ffffff);
   padding: 1.2rem 1.4rem;
-  border-radius: 4px;
-  border-left: 4px solid #954c28;
+  border: 1px solid var(--line, #dbcec4);
+  border-top: 0;
+  border-radius: 0 0 6px 6px;
 }
+
 .editorial-body-content h2 {
   font-family: "Source Serif 4", Georgia, serif;
   font-size: 1.3rem;

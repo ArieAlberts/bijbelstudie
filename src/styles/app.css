@@ -929,19 +929,80 @@ button, input, select, textarea {
   border-color: #954c28 !important;
 }
 
-/* Editorial Body Typography */
-.parasha-editorial-body {
-  margin-top: 24px;
-  border-top: 1px solid var(--line);
-  padding-top: 20px;
+/* Top Passage Action Badges (PDF, Word, EPUB, Print) */
+.passage-action-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: var(--white);
+  border: 1px solid var(--line);
+  color: var(--accent-dark);
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 12.5px;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.15s ease;
 }
 
-.editorial-body-title {
-  font-family: "Source Serif 4", Georgia, serif;
-  font-size: 20px;
+.passage-action-badge:hover {
+  background: var(--soft);
+  border-color: var(--accent);
+  color: var(--accent-dark);
+  transform: translateY(-1px);
+}
+
+/* Collapsible Editorial Reading Toggle Button */
+.parasha-editorial-body {
+  margin-top: 20px;
+  border-top: 1px solid var(--line);
+  padding-top: 16px;
+}
+
+.editorial-toggle-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--accent);
+  padding: 12px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  text-align: left;
+  transition: all 0.2s ease;
+}
+
+.editorial-toggle-btn:hover {
+  background: var(--soft);
+  border-color: var(--accent);
+}
+
+.editorial-toggle-btn.expanded {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  background: var(--soft);
+}
+
+.toggle-btn-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.toggle-btn-icon {
+  color: var(--accent);
+}
+
+.toggle-btn-right {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13.5px;
   font-weight: 700;
   color: var(--accent-dark);
-  margin: 0 0 16px;
 }
 
 .editorial-body-content {
@@ -949,7 +1010,56 @@ button, input, select, textarea {
   font-size: 16.5px;
   line-height: 1.75;
   color: #241c15;
+  background: var(--white);
+  padding: 24px 28px;
+  border: 1px solid var(--line);
+  border-top: 0;
+  border-radius: 0 0 6px 6px;
 }
+
+/* Mobile & Phone Screen Responsive Adjustments (Prevents Narrow Columns) */
+@media (max-width: 768px) {
+  .app-container {
+    padding: 16px 12px 60px !important;
+  }
+
+  .hero-card {
+    padding: 20px 14px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .passages-summary-box {
+    padding: 14px 12px !important;
+  }
+
+  .editorial-body-content {
+    padding: 16px 14px !important;
+    font-size: 15px !important;
+  }
+
+  .passages-summary-header {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+
+  .top-passage-actions {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .passage-action-badge {
+    flex: 1;
+    justify-content: center;
+    padding: 6px 8px;
+    font-size: 12px;
+  }
+
+  .toggle-label-text {
+    font-size: 12px;
+  }
+}
+
 
 .editorial-body-content h2 {
   font-family: "Source Serif 4", Georgia, serif;
