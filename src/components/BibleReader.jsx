@@ -301,7 +301,7 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
           entry={selectedEntry}
           targetRect={selectedRect}
           onClose={() => setSelectedEntry(null)}
-          lang={lang}
+          lang={translation === 'kjv' ? 'en' : lang}
         />
       )}
 

@@ -2690,783 +2690,2506 @@
       "language": "greek",
       "lemma": "Ἰησοῦς",
       "translit": "Iēsoûs",
-      "gloss": "Jesus (i.e. Jehoshua), the name of our Lord and two (three) other Israelites",
-      "strongs_def": " Jesus (i.e. Jehoshua), the name of our Lord and two (three) other Israelites",
-      "kjv_def": "Jesus"
+      "gloss_nl": "Jezus; de HEERE is redding",
+      "gloss_en": "Jesus (i.e. Jehoshua), the name of our Lord and two (three) other Israelites",
+      "usage_nl": [
+        "jezus",
+        "jezus'"
+      ],
+      "usage_en": [
+        "jesus",
+        "jesus'"
+      ]
     },
     "G3004": {
       "strong": "G3004",
       "language": "greek",
       "lemma": "λέγω",
       "translit": "légō",
-      "gloss": "properly, to \"lay\" forth, i.e. (figuratively) relate (in words (usually of systematic or set discourse; whereas G2036 (ἔπω) and G5346 (φημί) generally refer to an individual expression or speech respectively; while G4483 (ῥέω) is properly to break silence merely, and G2980 (λαλέω) means an extended or random harangue)); by implication, to mean",
-      "strongs_def": " properly, to \"lay\" forth, i.e. (figuratively) relate (in words (usually of systematic or set discourse; whereas G2036 (ἔπω) and G5346 (φημί) generally refer to an individual expression or speech respectively; while G4483 (ῥέω) is properly to break silence merely, and G2980 (λαλέω) means an extended or random harangue)); by implication, to mean",
-      "kjv_def": "ask, bid, boast, call, describe, give out, name, put forth, say-ing, on, shew, speak, tell, utter"
+      "gloss_nl": null,
+      "gloss_en": "properly, to \"lay\" forth, i.e. (figuratively) relate (in words (usually of systematic or set discourse; whereas G2036 (ἔπω) and G5346 (φημί) generally refer to an individual expression or speech respectively; while G4483 (ῥέω) is properly to break silence merely, and G2980 (λαλέω) means an extended or random harangue)); by implication, to mean",
+      "usage_nl": [
+        "zeide",
+        "zeggende",
+        "zeggen",
+        "gezegd",
+        "gij",
+        "zeg",
+        "ik",
+        "zeiden",
+        "zegt",
+        "zij",
+        "had",
+        "hij"
+      ],
+      "usage_en": [
+        "saith",
+        "saying",
+        "say",
+        "called",
+        "said",
+        "tell",
+        "spake",
+        "telleth",
+        "sayest",
+        "ask",
+        "bid",
+        "boast",
+        "call",
+        "describe",
+        "give out",
+        "name",
+        "put forth",
+        "say-ing",
+        "on",
+        "shew",
+        "speak",
+        "utter"
+      ]
     },
     "G846": {
       "strong": "G846",
       "language": "greek",
       "lemma": "αὐτός",
       "translit": "autós",
-      "gloss": "the reflexive pronoun self, used (alone or in the comparative G1438 (ἑαυτοῦ)) of the third person , and (with the proper personal pronoun) of the other persons",
-      "strongs_def": " the reflexive pronoun self, used (alone or in the comparative G1438 (ἑαυτοῦ)) of the third person , and (with the proper personal pronoun) of the other persons",
-      "kjv_def": "her, it-self, one, the other, mine own, said, self-, the same, him-, my-, thy- self, your-selves, she, that, their-s, them-selves, there-at, - by, -in, -into, -of, -on, -with, they, these things, this man, those, together, very, which"
+      "gloss_nl": null,
+      "gloss_en": "the reflexive pronoun self, used (alone or in the comparative G1438 (ἑαυτοῦ)) of the third person , and (with the proper personal pronoun) of the other persons",
+      "usage_nl": [
+        "hem",
+        "zijn",
+        "hun",
+        "denzelven",
+        "hen",
+        "dezelve",
+        "hij",
+        "hetzelve",
+        "zijner",
+        "zijns",
+        "dat",
+        "ze",
+        "het",
+        "[hem",
+        "hunnen",
+        "haar",
+        "derzelve",
+        "hunlieder",
+        "dengene",
+        "dezen",
+        "zij",
+        "dergenen",
+        "henlieden",
+        "diezelfde",
+        "harer",
+        "dierzelfder",
+        "deze",
+        "dien",
+        "zelf",
+        "dit",
+        "zijnentwil",
+        "zelve"
+      ],
+      "usage_en": [
+        "him",
+        "his",
+        "them",
+        "their",
+        "it",
+        "he",
+        "own",
+        "that",
+        "her",
+        "they",
+        "same",
+        "she",
+        "himself",
+        "miracles",
+        "this",
+        "very",
+        "sake",
+        "it-self",
+        "one",
+        "the other",
+        "mine own",
+        "said",
+        "self-",
+        "the same",
+        "him-",
+        "my-",
+        "thy- self",
+        "your-selves",
+        "their-s",
+        "them-selves",
+        "there-at",
+        "- by",
+        "-in",
+        "-into",
+        "-of",
+        "-on",
+        "-with",
+        "these things",
+        "this man",
+        "those",
+        "together",
+        "which"
+      ]
     },
     "G1510": {
       "strong": "G1510",
       "language": "greek",
       "lemma": "εἰμί",
       "translit": "eimí",
-      "gloss": "I exist (used only when emphatic)",
-      "strongs_def": " I exist (used only when emphatic)",
-      "kjv_def": "am, have been, X it is I, was"
+      "gloss_nl": null,
+      "gloss_en": "I exist (used only when emphatic)",
+      "usage_nl": [
+        "ik",
+        "ben"
+      ],
+      "usage_en": [
+        "i",
+        "am",
+        "is",
+        "been",
+        "have been",
+        "x it is i",
+        "was"
+      ]
     },
     "G5118": {
       "strong": "G5118",
       "language": "greek",
       "lemma": "τοσοῦτος",
       "translit": "tosoûtos",
-      "gloss": "apparently from G3588 (ὁ) and G3739 (ὅς)) and G3778 (οὗτος) (including its variations); so vast as this, i.e. such (in quantity, amount, number of space)",
-      "strongs_def": " apparently from G3588 (ὁ) and G3739 (ὅς)) and G3778 (οὗτος) (including its variations); so vast as this, i.e. such (in quantity, amount, number of space)",
-      "kjv_def": "as large, so great long, many, much, these many"
+      "gloss_nl": null,
+      "gloss_en": "apparently from G3588 (ὁ) and G3739 (ὅς)) and G3778 (οὗτος) (including its variations); so vast as this, i.e. such (in quantity, amount, number of space)",
+      "usage_nl": [
+        "velen",
+        "zovele",
+        "langen"
+      ],
+      "usage_en": [
+        "many",
+        "long",
+        "as large",
+        "so great long",
+        "much",
+        "these many"
+      ]
     },
     "G5550": {
       "strong": "G5550",
       "language": "greek",
       "lemma": "χρόνος",
       "translit": "chrónos",
-      "gloss": "a space of time (in general, and thus properly distinguished from G2540 (καιρός), which designates a fixed or special occasion; and from G165 (αἰών), which denotes a particular period) or interval; by extension, an individual opportunity; by implication, delay",
-      "strongs_def": " a space of time (in general, and thus properly distinguished from G2540 (καιρός), which designates a fixed or special occasion; and from G165 (αἰών), which denotes a particular period) or interval; by extension, an individual opportunity; by implication, delay",
-      "kjv_def": "+ years old, season, space, X often-time-s, a while"
+      "gloss_nl": null,
+      "gloss_en": "a space of time (in general, and thus properly distinguished from G2540 (καιρός), which designates a fixed or special occasion; and from G165 (αἰών), which denotes a particular period) or interval; by extension, an individual opportunity; by implication, delay",
+      "usage_nl": [
+        "tijd"
+      ],
+      "usage_en": [
+        "time",
+        "while",
+        "+ years old",
+        "season",
+        "space",
+        "x often-time-s",
+        "a while"
+      ]
     },
     "G3326": {
       "strong": "G3326",
       "language": "greek",
       "lemma": "μετά",
       "translit": "metá",
-      "gloss": "properly, denoting accompaniment; \"amid\" (local or causal); modified variously according to the case (genitive association, or accusative succession) with which it is joined; occupying an intermediate position between G575 (ἀπό) or G1537 (ἐκ) and G1519 (εἰς) or G4314 (πρός); less intimate than G1722 (ἐν) and less close than G4862 (σύν))",
-      "strongs_def": " properly, denoting accompaniment; \"amid\" (local or causal); modified variously according to the case (genitive association, or accusative succession) with which it is joined; occupying an intermediate position between G575 (ἀπό) or G1537 (ἐκ) and G1519 (εἰς) or G4314 (πρός); less intimate than G1722 (ἐν) and less close than G4862 (σύν))",
-      "kjv_def": "after-ward, X that he again, against, among, X and, + follow, hence, hereafter, in, of, up-on, + our, X and setting, since, un-to, + together, when, with + -out"
+      "gloss_nl": null,
+      "gloss_en": "properly, denoting accompaniment; \"amid\" (local or causal); modified variously according to the case (genitive association, or accusative succession) with which it is joined; occupying an intermediate position between G575 (ἀπό) or G1537 (ἐκ) and G1519 (εἰς) or G4314 (πρός); less intimate than G1722 (ἐν) and less close than G4862 (σύν))",
+      "usage_nl": [
+        "met",
+        "na",
+        "daarna",
+        "onder",
+        "bij"
+      ],
+      "usage_en": [
+        "with",
+        "of",
+        "after",
+        "among",
+        "after-ward",
+        "x that he again",
+        "against",
+        "x and",
+        "+ follow",
+        "hence",
+        "hereafter",
+        "in",
+        "up-on",
+        "+ our",
+        "x and setting",
+        "since",
+        "un-to",
+        "+ together",
+        "when",
+        "with + -out"
+      ]
     },
     "G5216": {
       "strong": "G5216",
       "language": "greek",
       "lemma": "ὑμῶν",
       "translit": "hymōn",
-      "gloss": "of (from or concerning) you",
-      "strongs_def": " of (from or concerning) you",
-      "kjv_def": "ye, you, your own, -selves"
+      "gloss_nl": null,
+      "gloss_en": "of (from or concerning) you",
+      "usage_nl": [
+        "uws",
+        "u",
+        "uw",
+        "ulieden"
+      ],
+      "usage_en": [
+        "your",
+        "you",
+        "ye",
+        "your own",
+        "-selves"
+      ]
     },
     "G2532": {
       "strong": "G2532",
       "language": "greek",
       "lemma": "καί",
       "translit": "kaí",
-      "gloss": "and, also, even, so then, too, etc.; often used in connection (or composition) with other particles or small words",
-      "strongs_def": " and, also, even, so then, too, etc.; often used in connection (or composition) with other particles or small words",
-      "kjv_def": "and, also, both, but, even, for, if, or, so, that, then, therefore, when, yet"
+      "gloss_nl": null,
+      "gloss_en": "and, also, even, so then, too, etc.; often used in connection (or composition) with other particles or small words",
+      "usage_nl": [
+        "en",
+        "ook",
+        "dat",
+        "zo",
+        "[ook",
+        "met",
+        "[alzo"
+      ],
+      "usage_en": [
+        "and",
+        "also",
+        "then",
+        "even",
+        "very",
+        "likewise",
+        "so",
+        "now",
+        "both",
+        "but",
+        "yet",
+        "that",
+        "with",
+        "for",
+        "nor",
+        "if",
+        "or",
+        "therefore",
+        "when"
+      ]
     },
     "G3165": {
       "strong": "G3165",
       "language": "greek",
       "lemma": "μέ",
       "translit": "mé",
-      "gloss": "me",
-      "strongs_def": " me",
-      "kjv_def": "I, me, my"
+      "gloss_nl": null,
+      "gloss_en": "me",
+      "usage_nl": [
+        "ik",
+        "mij"
+      ],
+      "usage_en": [
+        "i",
+        "me",
+        "my"
+      ]
     },
     "G3756": {
       "strong": "G3756",
       "language": "greek",
       "lemma": "οὐ",
       "translit": "ou",
-      "gloss": "the absolute negative (compare G3361 (μή)) adverb; no or not",
-      "strongs_def": " the absolute negative (compare G3361 (μή)) adverb; no or not",
-      "kjv_def": "+ long, nay, neither, never, no X man, none, can-not, + nothing, + special, un-worthy, when, + without, + yet but"
+      "gloss_nl": null,
+      "gloss_en": "the absolute negative (compare G3361 (μή)) adverb; no or not",
+      "usage_nl": [
+        "niet",
+        "geen",
+        "niets"
+      ],
+      "usage_en": [
+        "not",
+        "no",
+        "there",
+        "neither",
+        "cannot",
+        "none",
+        "nothing",
+        "+ long",
+        "nay",
+        "never",
+        "no x man",
+        "can-not",
+        "+ nothing",
+        "+ special",
+        "un-worthy",
+        "when",
+        "+ without",
+        "+ yet but"
+      ]
     },
     "G1097": {
       "strong": "G1097",
       "language": "greek",
       "lemma": "γινώσκω",
       "translit": "ginṓskō",
-      "gloss": "to \"know\" (absolutely) in a great variety of applications and with many implications (as follow, with others not thus clearly expressed)",
-      "strongs_def": " to \"know\" (absolutely) in a great variety of applications and with many implications (as follow, with others not thus clearly expressed)",
-      "kjv_def": "allow, be aware of, feel, have know-ledge, perceived, be resolved, can speak, be sure, understand"
+      "gloss_nl": null,
+      "gloss_en": "to \"know\" (absolutely) in a great variety of applications and with many implications (as follow, with others not thus clearly expressed)",
+      "usage_nl": [
+        "gij",
+        "wetende",
+        "weet",
+        "bekenden",
+        "kende",
+        "wisten",
+        "wist",
+        "bekend",
+        "verstond",
+        "verstonden",
+        "hadt",
+        "hebben",
+        "gekend",
+        "kent",
+        "bekennen",
+        "wete"
+      ],
+      "usage_en": [
+        "can",
+        "perceived",
+        "know",
+        "knew",
+        "is",
+        "of",
+        "sure",
+        "understood",
+        "known",
+        "thou",
+        "knoweth",
+        "allow",
+        "be aware of",
+        "feel",
+        "have know-ledge",
+        "be resolved",
+        "can speak",
+        "be sure",
+        "understand"
+      ]
     },
     "G5376": {
       "strong": "G5376",
       "language": "greek",
       "lemma": "Φίλιππος",
       "translit": "Phílippos",
-      "gloss": "fond of horses; Philippus, the name of four Israelites",
-      "strongs_def": " fond of horses; Philippus, the name of four Israelites",
-      "kjv_def": "Philip"
+      "gloss_nl": null,
+      "gloss_en": "fond of horses; Philippus, the name of four Israelites",
+      "usage_nl": [
+        "filippi",
+        "filippus"
+      ],
+      "usage_en": [
+        "philippi",
+        "philip",
+        "philip's"
+      ]
     },
     "G1691": {
       "strong": "G1691",
       "language": "greek",
       "lemma": "ἐμέ",
       "translit": "emé",
-      "gloss": "me",
-      "strongs_def": " me",
-      "kjv_def": "I, me, my-self"
+      "gloss_nl": null,
+      "gloss_en": "me",
+      "usage_nl": [
+        "mij",
+        "mijnentwil"
+      ],
+      "usage_en": [
+        "me",
+        "i",
+        "my-self"
+      ]
     },
     "G3708": {
       "strong": "G3708",
       "language": "greek",
       "lemma": "ὁράω",
       "translit": "horáō",
-      "gloss": "by extension, to attend to; by Hebraism, to experience; passively, to appear",
-      "strongs_def": " by extension, to attend to; by Hebraism, to experience; passively, to appear",
-      "kjv_def": "behold, perceive, see, take heed"
+      "gloss_nl": null,
+      "gloss_en": "by extension, to attend to; by Hebraism, to experience; passively, to appear",
+      "usage_nl": [
+        "toe",
+        "zagen",
+        "hebt",
+        "heeft",
+        "gezien"
+      ],
+      "usage_en": [
+        "heed",
+        "see",
+        "saw",
+        "ye",
+        "seen",
+        "behold",
+        "perceive",
+        "take heed"
+      ]
     },
     "G3962": {
       "strong": "G3962",
       "language": "greek",
       "lemma": "πατήρ",
       "translit": "patḗr",
-      "gloss": "a \"father\" (literally or figuratively, near or more remote)",
-      "strongs_def": " a \"father\" (literally or figuratively, near or more remote)",
-      "kjv_def": "father, parent"
+      "gloss_nl": null,
+      "gloss_en": "a \"father\" (literally or figuratively, near or more remote)",
+      "usage_nl": [
+        "vader",
+        "vaders"
+      ],
+      "usage_en": [
+        "father",
+        "business",
+        "father's",
+        "fathers",
+        "parent"
+      ]
     },
     "G4459": {
       "strong": "G4459",
       "language": "greek",
       "lemma": "πῶς",
       "translit": "pōs",
-      "gloss": "an interrogative particle of manner; in what way? (sometimes the question is indirect, how?); also as exclamation, how much!",
-      "strongs_def": " an interrogative particle of manner; in what way? (sometimes the question is indirect, how?); also as exclamation, how much!",
-      "kjv_def": "how, after by what manner means, that"
+      "gloss_nl": null,
+      "gloss_en": "an interrogative particle of manner; in what way? (sometimes the question is indirect, how?); also as exclamation, how much!",
+      "usage_nl": [
+        "hoe"
+      ],
+      "usage_en": [
+        "how",
+        "it",
+        "after by what manner means",
+        "that"
+      ]
     },
     "G4771": {
       "strong": "G4771",
       "language": "greek",
       "lemma": "σύ",
       "translit": "sý",
-      "gloss": "thou",
-      "strongs_def": " thou",
-      "kjv_def": "thou"
+      "gloss_nl": null,
+      "gloss_en": "thou",
+      "usage_nl": [
+        "gij"
+      ],
+      "usage_en": [
+        "thou"
+      ]
     },
     "G1166": {
       "strong": "G1166",
       "language": "greek",
       "lemma": "δεικνύω",
       "translit": "deiknýō",
-      "gloss": "to show (literally or figuratively)",
-      "strongs_def": " to show (literally or figuratively)",
-      "kjv_def": "shew"
+      "gloss_nl": null,
+      "gloss_en": "to show (literally or figuratively)",
+      "usage_nl": [
+        "toonde",
+        "vertonen",
+        "gij",
+        "toon"
+      ],
+      "usage_en": [
+        "sheweth",
+        "shew",
+        "thou"
+      ]
     },
     "G2254": {
       "strong": "G2254",
       "language": "greek",
       "lemma": "ἡμῖν",
       "translit": "hēmîn",
-      "gloss": "to (or for, with, by) us",
-      "strongs_def": " to (or for, with, by) us",
-      "kjv_def": "our, for us, we"
+      "gloss_nl": null,
+      "gloss_en": "to (or for, with, by) us",
+      "usage_nl": [
+        "ons"
+      ],
+      "usage_en": [
+        "us",
+        "our",
+        "for us",
+        "we"
+      ]
     },
     "G4100": {
       "strong": "G4100",
       "language": "greek",
       "lemma": "πιστεύω",
       "translit": "pisteúō",
-      "gloss": "to have faith (in, upon, or with respect to, a person or thing), i.e. credit; by implication, to entrust (especially one's spiritual well-being to Christ)",
-      "strongs_def": " to have faith (in, upon, or with respect to, a person or thing), i.e. credit; by implication, to entrust (especially one's spiritual well-being to Christ)",
-      "kjv_def": "believe-r, commit to trust, put in trust with"
+      "gloss_nl": null,
+      "gloss_en": "to have faith (in, upon, or with respect to, a person or thing), i.e. credit; by implication, to entrust (especially one's spiritual well-being to Christ)",
+      "usage_nl": [
+        "geloven",
+        "gelooft",
+        "gij",
+        "geloofd",
+        "geloofden",
+        "betrouwde",
+        "zij",
+        "hebben",
+        "moogt"
+      ],
+      "usage_en": [
+        "believe",
+        "ye",
+        "believed",
+        "did",
+        "commit",
+        "believeth",
+        "thou",
+        "believe-r",
+        "commit to trust",
+        "put in trust with"
+      ]
     },
     "G3754": {
       "strong": "G3754",
       "language": "greek",
       "lemma": "ὅτι",
       "translit": "hóti",
-      "gloss": "demonstrative, that (sometimes redundant); causative, because",
-      "strongs_def": " demonstrative, that (sometimes redundant); causative, because",
-      "kjv_def": "as concerning that, as though, because that, for that, how that, in that, though, why"
+      "gloss_nl": null,
+      "gloss_en": "demonstrative, that (sometimes redundant); causative, because",
+      "usage_nl": [
+        "dat",
+        "omdat",
+        "want",
+        "overmits",
+        "dewijl"
+      ],
+      "usage_en": [
+        "that",
+        "because",
+        "for",
+        "art",
+        "this",
+        "how",
+        "as concerning that",
+        "as though",
+        "because that",
+        "for that",
+        "how that",
+        "in that",
+        "though",
+        "why"
+      ]
     },
     "G1473": {
       "strong": "G1473",
       "language": "greek",
       "lemma": "ἐγώ",
       "translit": "egṓ",
-      "gloss": "I, me",
-      "strongs_def": "",
-      "kjv_def": "I, me"
+      "gloss_nl": null,
+      "gloss_en": "I, me",
+      "usage_nl": [
+        "ik",
+        "die"
+      ],
+      "usage_en": [
+        "i",
+        "me"
+      ]
     },
     "G1722": {
       "strong": "G1722",
       "language": "greek",
       "lemma": "ἐν",
       "translit": "en",
-      "gloss": "\"in,\" at, (up-)on, by, etc.",
-      "strongs_def": " \"in,\" at, (up-)on, by, etc.",
-      "kjv_def": "about, after, against, + almost, X altogether, among, X as, at, before, between, here-by + all means, for … sake of, + give self wholly to, here-in-to, -wardly, X mightily, because of, up-on, open-ly, X outwardly, one, X quickly, X shortly, speedi-ly, X that, X there-in, -on, through-out, un-to-ward, under, when, where-with, while, with-in"
+      "gloss_nl": null,
+      "gloss_en": "\"in,\" at, (up-)on, by, etc.",
+      "usage_nl": [
+        "in",
+        "onder",
+        "bij",
+        "te",
+        "op",
+        "ter",
+        "ten",
+        "daarmede",
+        "door",
+        "als",
+        "tot",
+        "toen",
+        "met",
+        "werd",
+        "aan"
+      ],
+      "usage_en": [
+        "in",
+        "among",
+        "at",
+        "with",
+        "on",
+        "wherein",
+        "thereon",
+        "by",
+        "while",
+        "toward",
+        "as",
+        "about",
+        "within",
+        "baptized",
+        "after",
+        "against",
+        "+ almost",
+        "x altogether",
+        "x as",
+        "before",
+        "between",
+        "here-by + all means",
+        "for … sake of",
+        "+ give self wholly to",
+        "here-in-to",
+        "-wardly",
+        "x mightily",
+        "because of",
+        "up-on",
+        "open-ly",
+        "x outwardly",
+        "one",
+        "x quickly",
+        "x shortly",
+        "speedi-ly",
+        "x that",
+        "x there-in",
+        "-on",
+        "through-out",
+        "un-to-ward",
+        "under",
+        "when",
+        "where-with",
+        "with-in"
+      ]
     },
     "G1698": {
       "strong": "G1698",
       "language": "greek",
       "lemma": "ἐμοί",
       "translit": "emoí",
-      "gloss": "to me",
-      "strongs_def": " to me",
-      "kjv_def": "I, me, mine, my"
+      "gloss_nl": null,
+      "gloss_en": "to me",
+      "usage_nl": [
+        "mij",
+        "ik"
+      ],
+      "usage_en": [
+        "me",
+        "i",
+        "mine",
+        "my"
+      ]
     },
     "G2076": {
       "strong": "G2076",
       "language": "greek",
       "lemma": "ἐστί",
       "translit": "estí",
-      "gloss": "he (she or it) is; also (with neuter plural) they are",
-      "strongs_def": " he (she or it) is; also (with neuter plural) they are",
-      "kjv_def": "are, be-long, call, X can-not, come, consisteth, X dure for a while, + follow, X have, that is to say, make, meaneth, X must needs, + profit, + remaineth, + wrestle"
+      "gloss_nl": null,
+      "gloss_en": "he (she or it) is; also (with neuter plural) they are",
+      "usage_nl": [
+        "was",
+        "is",
+        "zijn",
+        "hij",
+        "het"
+      ],
+      "usage_en": [
+        "was",
+        "is",
+        "be",
+        "are",
+        "he",
+        "should",
+        "am",
+        "be-long",
+        "call",
+        "x can-not",
+        "come",
+        "consisteth",
+        "x dure for a while",
+        "+ follow",
+        "x have",
+        "that is to say",
+        "make",
+        "meaneth",
+        "x must needs",
+        "+ profit",
+        "+ remaineth",
+        "+ wrestle"
+      ]
     },
     "G4487": {
       "strong": "G4487",
       "language": "greek",
       "lemma": "ῥῆμα",
       "translit": "rhēma",
-      "gloss": "an utterance (individually, collectively or specially),; by implication, a matter or topic (especially of narration, command or dispute); with a negative naught whatever",
-      "strongs_def": " an utterance (individually, collectively or specially),; by implication, a matter or topic (especially of narration, command or dispute); with a negative naught whatever",
-      "kjv_def": "+ evil, + nothing, saying, word"
+      "gloss_nl": "gesproken woord; uiting; uitspraak",
+      "gloss_en": "an utterance (individually, collectively or specially),; by implication, a matter or topic (especially of narration, command or dispute); with a negative naught whatever",
+      "usage_nl": [
+        "woord",
+        "woorden",
+        "dingen"
+      ],
+      "usage_en": [
+        "word",
+        "thing",
+        "things",
+        "saying",
+        "sayings",
+        "words",
+        "+ evil",
+        "+ nothing"
+      ]
     },
     "G3739": {
       "strong": "G3739",
       "language": "greek",
       "lemma": "ὅς",
       "translit": "hós",
-      "gloss": "the relatively (sometimes demonstrative) pronoun, who, which, what, that",
-      "strongs_def": " the relatively (sometimes demonstrative) pronoun, who, which, what, that",
-      "kjv_def": "one, an-, the other, some, that, what, which, who-m, -se, etc"
+      "gloss_nl": null,
+      "gloss_en": "the relatively (sometimes demonstrative) pronoun, who, which, what, that",
+      "usage_nl": [
+        "wie",
+        "welken",
+        "die",
+        "welke",
+        "denwelken",
+        "dewelke",
+        "ander",
+        "derden",
+        "dat",
+        "hetwelk",
+        "dien",
+        "hetgeen",
+        "wat",
+        "wiens",
+        "zijn",
+        "daar",
+        "hem"
+      ],
+      "usage_en": [
+        "whatsoever",
+        "whosoever",
+        "whoso",
+        "that",
+        "which",
+        "such",
+        "whom",
+        "when",
+        "one",
+        "another",
+        "whose",
+        "him",
+        "and",
+        "an-",
+        "the other",
+        "some",
+        "what",
+        "who-m",
+        "-se",
+        "etc"
+      ]
     },
     "G5213": {
       "strong": "G5213",
       "language": "greek",
       "lemma": "ὑμῖν",
       "translit": "hymîn",
-      "gloss": "to (with or by) you",
-      "strongs_def": " to (with or by) you",
-      "kjv_def": "ye, you, your-selves"
+      "gloss_nl": null,
+      "gloss_en": "to (with or by) you",
+      "usage_nl": [
+        "u",
+        "ulieden"
+      ],
+      "usage_en": [
+        "you",
+        "ye",
+        "your-selves"
+      ]
     },
     "G2980": {
       "strong": "G2980",
       "language": "greek",
       "lemma": "λαλέω",
       "translit": "laléō",
-      "gloss": "to talk, i.e. utter words",
-      "strongs_def": " to talk, i.e. utter words",
-      "kjv_def": "preach, say, speak after, talk, tell, utter"
+      "gloss_nl": null,
+      "gloss_en": "to talk, i.e. utter words",
+      "usage_nl": [
+        "was",
+        "werd",
+        "sprak",
+        "spreek",
+        "gesproken",
+        "heb",
+        "zal",
+        "ik",
+        "spreken"
+      ],
+      "usage_en": [
+        "told",
+        "spoken",
+        "spake",
+        "speak",
+        "have",
+        "will",
+        "talk",
+        "preach",
+        "say",
+        "speak after",
+        "tell",
+        "utter"
+      ]
     },
     "G575": {
       "strong": "G575",
       "language": "greek",
       "lemma": "ἀπό",
       "translit": "apó",
-      "gloss": "\"off,\" i.e. away (from something near), in various senses (of place, time, or relation; literal or figurative)",
-      "strongs_def": " \"off,\" i.e. away (from something near), in various senses (of place, time, or relation; literal or figurative)",
-      "kjv_def": "X here-after, ago, at, because of, before, by the space of, for-th, from, in, out of, off, up-on-ce, since, with"
+      "gloss_nl": null,
+      "gloss_en": "\"off,\" i.e. away (from something near), in various senses (of place, time, or relation; literal or figurative)",
+      "usage_nl": [
+        "van",
+        "uit"
+      ],
+      "usage_en": [
+        "from",
+        "of",
+        "since",
+        "x here-after",
+        "ago",
+        "at",
+        "because of",
+        "before",
+        "by the space of",
+        "for-th",
+        "in",
+        "out of",
+        "off",
+        "up-on-ce",
+        "with"
+      ]
     },
     "G1683": {
       "strong": "G1683",
       "language": "greek",
       "lemma": "ἐμαυτοῦ",
       "translit": "emautoû",
-      "gloss": "of myself so likewise the dative case , and accusative case",
-      "strongs_def": " of myself so likewise the dative case , and accusative case ",
-      "kjv_def": "me, mine own self, myself"
+      "gloss_nl": null,
+      "gloss_en": "of myself so likewise the dative case , and accusative case",
+      "usage_nl": [
+        "mij",
+        "mijzelven"
+      ],
+      "usage_en": [
+        "me",
+        "myself",
+        "mine own self"
+      ]
     },
     "G1161": {
       "strong": "G1161",
       "language": "greek",
       "lemma": "δέ",
       "translit": "dé",
-      "gloss": "but, and, etc.",
-      "strongs_def": " but, and, etc.",
-      "kjv_def": "also, and, but, moreover, now often unexpressed in English"
+      "gloss_nl": null,
+      "gloss_en": "but, and, etc.",
+      "usage_nl": [
+        "doch",
+        "nu",
+        "en",
+        "dan",
+        "maar"
+      ],
+      "usage_en": [
+        "but",
+        "now",
+        "and",
+        "then",
+        "when",
+        "wherefore",
+        "moreover",
+        "as",
+        "so",
+        "all",
+        "immediately",
+        "while",
+        "afterward",
+        "after",
+        "yea",
+        "also",
+        "now often unexpressed in english"
+      ]
     },
     "G3306": {
       "strong": "G3306",
       "language": "greek",
       "lemma": "μένω",
       "translit": "ménō",
-      "gloss": "to stay (in a given place, state, relation or expectancy)",
-      "strongs_def": " to stay (in a given place, state, relation or expectancy)",
-      "kjv_def": "abide, continue, dwell, endure, be present, remain, stand, tarry for, X thine own"
+      "gloss_nl": null,
+      "gloss_en": "to stay (in a given place, state, relation or expectancy)",
+      "usage_nl": [
+        "bleven",
+        "blijft",
+        "blijve",
+        "blijvende"
+      ],
+      "usage_en": [
+        "continued",
+        "endureth",
+        "dwelleth",
+        "abideth",
+        "should",
+        "abide",
+        "present",
+        "continue",
+        "dwell",
+        "endure",
+        "be present",
+        "remain",
+        "stand",
+        "tarry for",
+        "x thine own"
+      ]
     },
     "G4160": {
       "strong": "G4160",
       "language": "greek",
       "lemma": "ποιέω",
       "translit": "poiéō",
-      "gloss": "to make or do (in a very wide application, more or less direct)",
-      "strongs_def": " to make or do (in a very wide application, more or less direct)",
-      "kjv_def": "abide, + agree, appoint, X avenge, + band together, be, bear, + bewray, bring forth, cast out, cause, commit, + content, continue, deal, + without any delay, would do-ing, execute, exercise, fulfil, gain, give, have, hold, X journeying, keep, + lay wait, + lighten the ship, make, X mean, + none of these things move me, observe, ordain, perform, provide, + have purged, purpose, put, + raising up, X secure, shew, X shoot out, spend, take, tarry, + transgress the law, work, yield"
+      "gloss_nl": null,
+      "gloss_en": "to make or do (in a very wide application, more or less direct)",
+      "usage_nl": [
+        "maken",
+        "doen",
+        "doende",
+        "won",
+        "hebt",
+        "gedaan",
+        "gij",
+        "gemaakt",
+        "zoudt",
+        "doe",
+        "maakt",
+        "brengt",
+        "voort",
+        "voortbrengt",
+        "deed",
+        "doet",
+        "hebbende",
+        "had",
+        "maakten",
+        "bereidden",
+        "hadden"
+      ],
+      "usage_en": [
+        "make",
+        "do",
+        "doing",
+        "made",
+        "done",
+        "did",
+        "ye",
+        "thou",
+        "dealt",
+        "forth",
+        "bringeth",
+        "doest",
+        "shewest",
+        "doeth",
+        "abide",
+        "+ agree",
+        "appoint",
+        "x avenge",
+        "+ band together",
+        "be",
+        "bear",
+        "+ bewray",
+        "bring forth",
+        "cast out",
+        "cause",
+        "commit",
+        "+ content",
+        "continue",
+        "deal",
+        "+ without any delay",
+        "would do-ing",
+        "execute",
+        "exercise",
+        "fulfil",
+        "gain",
+        "give",
+        "have",
+        "hold",
+        "x journeying",
+        "keep",
+        "+ lay wait",
+        "+ lighten the ship",
+        "x mean",
+        "+ none of these things move me",
+        "observe",
+        "ordain",
+        "perform",
+        "provide",
+        "+ have purged",
+        "purpose",
+        "put",
+        "+ raising up",
+        "x secure",
+        "shew",
+        "x shoot out",
+        "spend",
+        "take",
+        "tarry",
+        "+ transgress the law",
+        "work",
+        "yield"
+      ]
     },
     "G2041": {
       "strong": "G2041",
       "language": "greek",
       "lemma": "ἔργον",
       "translit": "érgon",
-      "gloss": "toil (as an effort or occupation); by implication, an act",
-      "strongs_def": " toil (as an effort or occupation); by implication, an act",
-      "kjv_def": "deed, doing, labour, work"
+      "gloss_nl": null,
+      "gloss_en": "toil (as an effort or occupation); by implication, an act",
+      "usage_nl": [
+        "werken",
+        "werk"
+      ],
+      "usage_en": [
+        "works",
+        "work",
+        "works'",
+        "deed",
+        "doing",
+        "labour"
+      ]
     },
     "G3427": {
       "strong": "G3427",
       "language": "greek",
       "lemma": "μοί",
       "translit": "moí",
-      "gloss": "to me",
-      "strongs_def": " to me",
-      "kjv_def": "I, me, mine, my"
+      "gloss_nl": null,
+      "gloss_en": "to me",
+      "usage_nl": [
+        "mij"
+      ],
+      "usage_en": [
+        "me",
+        "i",
+        "mine",
+        "my"
+      ]
     },
     "G1490": {
       "strong": "G1490",
       "language": "greek",
       "lemma": "εἰ δὲ μή(γε)",
       "translit": "ei dè mḗ(ge)",
-      "gloss": "but if not",
-      "strongs_def": " but if not",
-      "kjv_def": "or else, if not, otherwise, otherwise"
+      "gloss_nl": null,
+      "gloss_en": "but if not",
+      "usage_nl": [
+        "anderszins",
+        "niet"
+      ],
+      "usage_en": [
+        "not",
+        "else",
+        "or else",
+        "if not",
+        "otherwise"
+      ]
     },
     "G1223": {
       "strong": "G1223",
       "language": "greek",
       "lemma": "διά",
       "translit": "diá",
-      "gloss": "through (in very wide applications, local, causal, or occasional)",
-      "strongs_def": " through (in very wide applications, local, causal, or occasional)",
-      "kjv_def": "after, always, among, at, to avoid, because of that, briefly, by, for cause … fore, from, in, by occasion of, of, by reason of, for sake, that, thereby, therefore, X though, through-out, to, wherefore, with -in"
+      "gloss_nl": null,
+      "gloss_en": "through (in very wide applications, local, causal, or occasional)",
+      "usage_nl": [
+        "door",
+        "altijd",
+        "daarom",
+        "om",
+        "omdat"
+      ],
+      "usage_en": [
+        "of",
+        "by",
+        "whom",
+        "always",
+        "therefore",
+        "for",
+        "because",
+        "through",
+        "reason",
+        "cause",
+        "after",
+        "among",
+        "at",
+        "to avoid",
+        "because of that",
+        "briefly",
+        "for cause … fore",
+        "from",
+        "in",
+        "by occasion of",
+        "by reason of",
+        "for sake",
+        "that",
+        "thereby",
+        "x though",
+        "through-out",
+        "to",
+        "wherefore",
+        "with -in"
+      ]
     },
     "G281": {
       "strong": "G281",
       "language": "greek",
       "lemma": "ἀμήν",
       "translit": "amḗn",
-      "gloss": "properly, firm, i.e. (figuratively) trustworthy; adverbially, surely (often as interjection, so be it)",
-      "strongs_def": " properly, firm, i.e. (figuratively) trustworthy; adverbially, surely (often as interjection, so be it)",
-      "kjv_def": "amen, verily"
+      "gloss_nl": null,
+      "gloss_en": "properly, firm, i.e. (figuratively) trustworthy; adverbially, surely (often as interjection, so be it)",
+      "usage_nl": [
+        "voorwaar"
+      ],
+      "usage_en": [
+        "verily",
+        "amen"
+      ]
     },
     "G1519": {
       "strong": "G1519",
       "language": "greek",
       "lemma": "εἰς",
       "translit": "eis",
-      "gloss": "to or into (indicating the point reached or entered), of place, time, or (figuratively) purpose (result, etc.); also in adverbial phrases",
-      "strongs_def": " to or into (indicating the point reached or entered), of place, time, or (figuratively) purpose (result, etc.); also in adverbial phrases",
-      "kjv_def": "abundant-ly, against, among, as, at, back-ward, before, by, concerning, + continual, + far more exceeding, for intent, purpose, fore, + forth, in among, at, unto, -so much that, -to, to the intent that, + of one mind, + never, of, up-on, + perish, + set at one again, so that, therefore-unto, throughout, til, to be, the end, -ward, here-until-to, …ward, where-fore, with"
+      "gloss_nl": null,
+      "gloss_en": "to or into (indicating the point reached or entered), of place, time, or (figuratively) purpose (result, etc.); also in adverbial phrases",
+      "usage_nl": [
+        "in",
+        "naar",
+        "op",
+        "te",
+        "tot",
+        "tegen",
+        "aan",
+        "zij",
+        "binnen",
+        "onder",
+        "daar",
+        "terug",
+        "tegemoet"
+      ],
+      "usage_en": [
+        "into",
+        "in",
+        "throughout",
+        "to",
+        "unto",
+        "against",
+        "at",
+        "for",
+        "made",
+        "on",
+        "among",
+        "toward",
+        "whither",
+        "whereinto",
+        "back",
+        "abundant-ly",
+        "as",
+        "back-ward",
+        "before",
+        "by",
+        "concerning",
+        "+ continual",
+        "+ far more exceeding",
+        "for intent",
+        "purpose",
+        "fore",
+        "+ forth",
+        "in among",
+        "-so much that",
+        "-to",
+        "to the intent that",
+        "+ of one mind",
+        "+ never",
+        "of",
+        "up-on",
+        "+ perish",
+        "+ set at one again",
+        "so that",
+        "therefore-unto",
+        "til",
+        "to be",
+        "the end",
+        "-ward",
+        "here-until-to",
+        "…ward",
+        "where-fore",
+        "with"
+      ]
     },
     "G2548": {
       "strong": "G2548",
       "language": "greek",
       "lemma": "κἀκεῖνος",
       "translit": "kakeînos",
-      "gloss": "likewise that (or those)",
-      "strongs_def": " likewise that (or those)",
-      "kjv_def": "and him other, them, even he, him also, them also, and they"
+      "gloss_nl": null,
+      "gloss_en": "likewise that (or those)",
+      "usage_nl": [
+        "dezelve",
+        "ook"
+      ],
+      "usage_en": [
+        "he",
+        "also",
+        "and him other",
+        "them",
+        "even he",
+        "him also",
+        "them also",
+        "and they"
+      ]
     },
     "G3187": {
       "strong": "G3187",
       "language": "greek",
       "lemma": "μείζων",
       "translit": "meízōn",
-      "gloss": "larger (literally or figuratively, specially, in age)",
-      "strongs_def": " larger (literally or figuratively, specially, in age)",
-      "kjv_def": "elder, greater-est, more"
+      "gloss_nl": null,
+      "gloss_en": "larger (literally or figuratively, specially, in age)",
+      "usage_nl": [
+        "meeste",
+        "meerder",
+        "dan"
+      ],
+      "usage_en": [
+        "greatest",
+        "than",
+        "elder",
+        "greater-est",
+        "more"
+      ]
     },
     "G5130": {
       "strong": "G5130",
       "language": "greek",
       "lemma": "τούτων",
       "translit": "toútōn",
-      "gloss": "of (from or concerning) these (persons or things)",
-      "strongs_def": " of (from or concerning) these (persons or things)",
-      "kjv_def": "such, their, these things, they, this sort, those"
+      "gloss_nl": null,
+      "gloss_en": "of (from or concerning) these (persons or things)",
+      "usage_nl": [
+        "deze"
+      ],
+      "usage_en": [
+        "these",
+        "such",
+        "their",
+        "these things",
+        "they",
+        "this sort",
+        "those"
+      ]
     },
     "G4198": {
       "strong": "G4198",
       "language": "greek",
       "lemma": "πορεύομαι",
       "translit": "poreúomai",
-      "gloss": "to traverse, i.e. travel (literally or figuratively; especially to remove (figuratively, die), live, etc.);",
-      "strongs_def": " to traverse, i.e. travel (literally or figuratively; especially to remove (figuratively, die), live, etc.); ",
-      "kjv_def": "--depart, go away, forth, one's way, up, make a, take a journey, walk"
+      "gloss_nl": null,
+      "gloss_en": "to traverse, i.e. travel (literally or figuratively; especially to remove (figuratively, die), live, etc.);",
+      "usage_nl": [
+        "heengaande",
+        "vertrok",
+        "gaat",
+        "heen",
+        "weg",
+        "gingen",
+        "reisden",
+        "zijn"
+      ],
+      "usage_en": [
+        "goeth",
+        "departed",
+        "ye",
+        "went",
+        "depart",
+        "go",
+        "--depart",
+        "go away",
+        "forth",
+        "one's way",
+        "up",
+        "make a",
+        "take a journey",
+        "walk"
+      ]
     },
     "G4314": {
       "strong": "G4314",
       "language": "greek",
       "lemma": "πρός",
       "translit": "prós",
-      "gloss": "a preposition of direction; forward to, i.e. toward (with the genitive case, the side of, i.e. pertaining to; with the dative case, by the side of, i.e. near to; usually with the accusative case, the place, time, occasion, or respect, which is the destination of the relation, i.e. whither or for which it is predicated)",
-      "strongs_def": " a preposition of direction; forward to, i.e. toward (with the genitive case, the side of, i.e. pertaining to; with the dative case, by the side of, i.e. near to; usually with the accusative case, the place, time, occasion, or respect, which is the destination of the relation, i.e. whither or for which it is predicated)",
-      "kjv_def": "about, according to , against, among, at, because of, before, between, where-by, for, X at thy house, in, for intent, nigh unto, of, which pertain to, that, to the end that, X together, to you -ward, unto, with-in"
+      "gloss_nl": null,
+      "gloss_en": "a preposition of direction; forward to, i.e. toward (with the genitive case, the side of, i.e. pertaining to; with the dative case, by the side of, i.e. near to; usually with the accusative case, the place, time, occasion, or respect, which is the destination of the relation, i.e. whither or for which it is predicated)",
+      "usage_nl": [
+        "aan",
+        "tot",
+        "bij",
+        "onder",
+        "hun"
+      ],
+      "usage_en": [
+        "against",
+        "them",
+        "unto",
+        "at",
+        "by",
+        "to",
+        "with",
+        "among",
+        "about",
+        "according to",
+        "because of",
+        "before",
+        "between",
+        "where-by",
+        "for",
+        "x at thy house",
+        "in",
+        "for intent",
+        "nigh unto",
+        "of",
+        "which pertain to",
+        "that",
+        "to the end that",
+        "x together",
+        "to you -ward",
+        "with-in"
+      ]
     },
     "G3450": {
       "strong": "G3450",
       "language": "greek",
       "lemma": "μοῦ",
       "translit": "moû",
-      "gloss": "of me",
-      "strongs_def": " of me",
-      "kjv_def": "I, me, mine own, my"
+      "gloss_nl": null,
+      "gloss_en": "of me",
+      "usage_nl": [
+        "mij",
+        "mijn",
+        "mijns",
+        "ik",
+        "mijner"
+      ],
+      "usage_en": [
+        "me",
+        "my",
+        "mine",
+        "i",
+        "mine own"
+      ]
     },
     "G302": {
       "strong": "G302",
       "language": "greek",
       "lemma": "ἄν",
       "translit": "án",
-      "gloss": "what-, where-, wither-, who-soever",
-      "strongs_def": "",
-      "kjv_def": "what-, where-, wither-, who-soever"
+      "gloss_nl": null,
+      "gloss_en": "what-, where-, wither-, who-soever",
+      "usage_nl": [
+        "worden",
+        "hebben",
+        "zou",
+        "zo"
+      ],
+      "usage_en": [
+        "till",
+        "should",
+        "would",
+        "soever",
+        "told",
+        "what-",
+        "where-",
+        "wither-",
+        "who-soever"
+      ]
     },
     "G3748": {
       "strong": "G3748",
       "language": "greek",
       "lemma": "ὅστις",
       "translit": "hóstis",
-      "gloss": "which some, i.e. any that; also (definite) which same",
-      "strongs_def": " which some, i.e. any that; also (definite) which same",
-      "kjv_def": "X and they, such as, they that, in that they, what-soever, whereas ye, they which, who-soever"
+      "gloss_nl": null,
+      "gloss_en": "which some, i.e. any that; also (definite) which same",
+      "usage_nl": [
+        "dewelke",
+        "wie",
+        "wat",
+        "welke",
+        "die"
+      ],
+      "usage_en": [
+        "which",
+        "whosoever",
+        "that",
+        "they",
+        "whatsoever",
+        "x and they",
+        "such as",
+        "they that",
+        "in that they",
+        "what-soever",
+        "whereas ye",
+        "they which",
+        "who-soever"
+      ]
     },
     "G154": {
       "strong": "G154",
       "language": "greek",
       "lemma": "αἰτέω",
       "translit": "aitéō",
-      "gloss": "to ask (in genitive case)",
-      "strongs_def": " to ask (in genitive case)",
-      "kjv_def": "ask, beg, call for, crave, desire, require"
+      "gloss_nl": null,
+      "gloss_en": "to ask (in genitive case)",
+      "usage_nl": [
+        "begeren",
+        "begeert",
+        "zult"
+      ],
+      "usage_en": [
+        "ask",
+        "desire",
+        "beg",
+        "call for",
+        "crave",
+        "require"
+      ]
     },
     "G3686": {
       "strong": "G3686",
       "language": "greek",
       "lemma": "ὄνομα",
       "translit": "ónoma",
-      "gloss": "a \"name\" (literally or figuratively) (authority, character)",
-      "strongs_def": " a \"name\" (literally or figuratively) (authority, character)",
-      "kjv_def": "called, + sur-name-d"
+      "gloss_nl": null,
+      "gloss_en": "a \"name\" (literally or figuratively) (authority, character)",
+      "usage_nl": [
+        "naam",
+        "naams"
+      ],
+      "usage_en": [
+        "name",
+        "sake",
+        "called",
+        "+ sur-name-d"
+      ]
     },
     "G5124": {
       "strong": "G5124",
       "language": "greek",
       "lemma": "τοῦτο",
       "translit": "toûto",
-      "gloss": "that thing",
-      "strongs_def": " that thing",
-      "kjv_def": "here -unto, it, partly, self-same, so, that intent, the same, there-fore, -unto, this, thus, where-fore"
+      "gloss_nl": null,
+      "gloss_en": "that thing",
+      "usage_nl": [
+        "dit",
+        "dat",
+        "het",
+        "deze",
+        "daarom",
+        "hierom"
+      ],
+      "usage_en": [
+        "this",
+        "therefore",
+        "that",
+        "here -unto",
+        "it",
+        "partly",
+        "self-same",
+        "so",
+        "that intent",
+        "the same",
+        "there-fore",
+        "-unto",
+        "thus",
+        "where-fore"
+      ]
     },
     "G2443": {
       "strong": "G2443",
       "language": "greek",
       "lemma": "ἵνα",
       "translit": "hína",
-      "gloss": "compare G3588 (ὁ)); in order that (denoting the purpose or the result)",
-      "strongs_def": " compare G3588 (ὁ)); in order that (denoting the purpose or the result)",
-      "kjv_def": "albeit, because, to the intent that, lest, so as, so that, for to"
+      "gloss_nl": null,
+      "gloss_en": "compare G3588 (ὁ)); in order that (denoting the purpose or the result)",
+      "usage_nl": [
+        "dat",
+        "opdat"
+      ],
+      "usage_en": [
+        "that",
+        "to",
+        "albeit",
+        "because",
+        "to the intent that",
+        "lest",
+        "so as",
+        "so that",
+        "for to"
+      ]
     },
     "G5207": {
       "strong": "G5207",
       "language": "greek",
       "lemma": "υἱός",
       "translit": "huiós",
-      "gloss": "a \"son\" (sometimes of animals), used very widely of immediate, remote or figuratively, kinship",
-      "strongs_def": " a \"son\" (sometimes of animals), used very widely of immediate, remote or figuratively, kinship",
-      "kjv_def": "child, foal, son"
+      "gloss_nl": null,
+      "gloss_en": "a \"son\" (sometimes of animals), used very widely of immediate, remote or figuratively, kinship",
+      "usage_nl": [
+        "zoon",
+        "zoons",
+        "kinderen"
+      ],
+      "usage_en": [
+        "son",
+        "children",
+        "child",
+        "foal"
+      ]
     },
     "G1392": {
       "strong": "G1392",
       "language": "greek",
       "lemma": "δοξάζω",
       "translit": "doxázō",
-      "gloss": "to render (or esteem) glorious (in a wide application)",
-      "strongs_def": " to render (or esteem) glorious (in a wide application)",
-      "kjv_def": "make glorify-ious, full of have glory, honour, magnify"
+      "gloss_nl": null,
+      "gloss_en": "to render (or esteem) glorious (in a wide application)",
+      "usage_nl": [
+        "verheerlijkende",
+        "was",
+        "worden",
+        "verheerlijk",
+        "verheerlijkt",
+        "verheerlijken",
+        "worde"
+      ],
+      "usage_en": [
+        "glorifying",
+        "glorified",
+        "glorify",
+        "have",
+        "make glorify-ious",
+        "full of have glory",
+        "honour",
+        "magnify"
+      ]
     },
     "G1437": {
       "strong": "G1437",
       "language": "greek",
       "lemma": "ἐάν",
       "translit": "eán",
-      "gloss": "a conditional particle; in case that, provided, etc.; often used in connection with other particles to denote indefiniteness or uncertainty",
-      "strongs_def": " a conditional particle; in case that, provided, etc.; often used in connection with other particles to denote indefiniteness or uncertainty",
-      "kjv_def": "before, but, except, and if, if so, what-, whither-soever, though, when -soever, whether or, to whom, who-so-ever"
+      "gloss_nl": null,
+      "gloss_en": "a conditional particle; in case that, provided, etc.; often used in connection with other particles to denote indefiniteness or uncertainty",
+      "usage_nl": [
+        "indien",
+        "wat",
+        "zo",
+        "die",
+        "alwaar",
+        "wanneer"
+      ],
+      "usage_en": [
+        "if",
+        "so",
+        "wheresoever",
+        "before",
+        "but",
+        "except",
+        "and if",
+        "if so",
+        "what-",
+        "whither-soever",
+        "though",
+        "when -soever",
+        "whether or",
+        "to whom",
+        "who-so-ever"
+      ]
     },
     "G5100": {
       "strong": "G5100",
       "language": "greek",
       "lemma": "τὶς",
       "translit": "tìs",
-      "gloss": "some or any person or object",
-      "strongs_def": " some or any person or object",
-      "kjv_def": "a kind of, any man, thing, thing at all, certain thing, divers, he every man, one X thing, ought, + partly, some man, -body, - thing, -what, + that no-thing, what-soever, X wherewith, whom-soever, whose-soever"
+      "gloss_nl": null,
+      "gloss_en": "some or any person or object",
+      "usage_nl": [
+        "sommigen",
+        "enig",
+        "iets",
+        "iemand",
+        "een",
+        "niets",
+        "mens",
+        "sommige"
+      ],
+      "usage_en": [
+        "some",
+        "man",
+        "thing",
+        "them",
+        "any",
+        "a",
+        "certain",
+        "a kind of",
+        "any man",
+        "thing at all",
+        "certain thing",
+        "divers",
+        "he every man",
+        "one x thing",
+        "ought",
+        "+ partly",
+        "some man",
+        "-body",
+        "- thing",
+        "-what",
+        "+ that no-thing",
+        "what-soever",
+        "x wherewith",
+        "whom-soever",
+        "whose-soever"
+      ]
     },
     "G25": {
       "strong": "G25",
       "language": "greek",
       "lemma": "ἀγαπάω",
       "translit": "agapáō",
-      "gloss": "to love (in a social or moral sense)",
-      "strongs_def": " to love (in a social or moral sense)",
-      "kjv_def": "be-love-ed"
+      "gloss_nl": null,
+      "gloss_en": "to love (in a social or moral sense)",
+      "usage_nl": [
+        "lief",
+        "liefhebt",
+        "liefheeft",
+        "worden",
+        "liefhebben",
+        "liefhadt",
+        "liefheb"
+      ],
+      "usage_en": [
+        "loved",
+        "love",
+        "loveth",
+        "be-love-ed"
+      ]
     },
     "G5083": {
       "strong": "G5083",
       "language": "greek",
       "lemma": "τηρέω",
       "translit": "tēréō",
-      "gloss": "perhaps akin to G2334 (θεωρέω)); to guard (from loss or injury, properly, by keeping the eye upon; and thus differing from G5442 (φυλάσσω), which is properly to prevent escaping; and from G2892 (κουστωδία), which implies a fortress or full military lines of apparatus), i.e. to note (a prophecy; figuratively, to fulfil a command); by implication, to detain (in custody; figuratively, to maintain); by extension, to withhold (for personal ends; figuratively, to keep unmarried); by extension, to withhold (for personal ends; figuratively, to keep unmarried)",
-      "strongs_def": " perhaps akin to G2334 (θεωρέω)); to guard (from loss or injury, properly, by keeping the eye upon; and thus differing from G5442 (φυλάσσω), which is properly to prevent escaping; and from G2892 (κουστωδία), which implies a fortress or full military lines of apparatus), i.e. to note (a prophecy; figuratively, to fulfil a command); by implication, to detain (in custody; figuratively, to maintain); by extension, to withhold (for personal ends; figuratively, to keep unmarried); by extension, to withhold (for personal ends; figuratively, to keep unmarried)",
-      "kjv_def": "hold fast, keep- er, pre-, re-serve, watch"
+      "gloss_nl": null,
+      "gloss_en": "perhaps akin to G2334 (θεωρέω)); to guard (from loss or injury, properly, by keeping the eye upon; and thus differing from G5442 (φυλάσσω), which is properly to prevent escaping; and from G2892 (κουστωδία), which implies a fortress or full military lines of apparatus), i.e. to note (a prophecy; figuratively, to fulfil a command); by implication, to detain (in custody; figuratively, to maintain); by extension, to withhold (for personal ends; figuratively, to keep unmarried); by extension, to withhold (for personal ends; figuratively, to keep unmarried)",
+      "usage_nl": [
+        "bewaard",
+        "bewaart",
+        "bewaren"
+      ],
+      "usage_en": [
+        "kept",
+        "keep",
+        "keepeth",
+        "hold fast",
+        "keep- er",
+        "pre-",
+        "re-serve",
+        "watch"
+      ]
     },
     "G1699": {
       "strong": "G1699",
       "language": "greek",
       "lemma": "ἐμός",
       "translit": "emós",
-      "gloss": "my",
-      "strongs_def": " my",
-      "kjv_def": "of me, mine own, my"
+      "gloss_nl": null,
+      "gloss_en": "my",
+      "usage_nl": [
+        "mijn",
+        "mijne"
+      ],
+      "usage_en": [
+        "my",
+        "own",
+        "mine",
+        "of me",
+        "mine own"
+      ]
     },
     "G1785": {
       "strong": "G1785",
       "language": "greek",
       "lemma": "ἐντολή",
       "translit": "entolḗ",
-      "gloss": "injunction, i.e. an authoritative prescription",
-      "strongs_def": " injunction, i.e. an authoritative prescription",
-      "kjv_def": "commandment, precept"
+      "gloss_nl": null,
+      "gloss_en": "injunction, i.e. an authoritative prescription",
+      "usage_nl": [
+        "gebod",
+        "geboden"
+      ],
+      "usage_en": [
+        "commandment",
+        "commandments",
+        "precept"
+      ]
     },
     "G2065": {
       "strong": "G2065",
       "language": "greek",
       "lemma": "ἐρωτάω",
       "translit": "erōtáō",
-      "gloss": "to interrogate; by implication, to request",
-      "strongs_def": " to interrogate; by implication, to request",
-      "kjv_def": "ask, beseech, desire, intreat, pray"
+      "gloss_nl": null,
+      "gloss_en": "to interrogate; by implication, to request",
+      "usage_nl": [
+        "hij",
+        "baden",
+        "bidden"
+      ],
+      "usage_en": [
+        "asked",
+        "desired",
+        "pray",
+        "ask",
+        "beseech",
+        "desire",
+        "intreat"
+      ]
     },
     "G243": {
       "strong": "G243",
       "language": "greek",
       "lemma": "ἄλλος",
       "translit": "állos",
-      "gloss": "\"else,\" i.e. different (in many applications)",
-      "strongs_def": " \"else,\" i.e. different (in many applications)",
-      "kjv_def": "more, one another, an-, some an-other-s, -wise"
+      "gloss_nl": null,
+      "gloss_en": "\"else,\" i.e. different (in many applications)",
+      "usage_nl": [
+        "andere",
+        "anderen",
+        "ander"
+      ],
+      "usage_en": [
+        "other",
+        "some",
+        "more",
+        "others",
+        "another",
+        "one another",
+        "an-",
+        "some an-other-s",
+        "-wise"
+      ]
     },
     "G3875": {
       "strong": "G3875",
       "language": "greek",
       "lemma": "παράκλητος",
       "translit": "paráklētos",
-      "gloss": "an intercessor, consoler",
-      "strongs_def": "an intercessor, consoler",
-      "kjv_def": "advocate, comforter"
+      "gloss_nl": null,
+      "gloss_en": "an intercessor, consoler",
+      "usage_nl": [
+        "trooster"
+      ],
+      "usage_en": [
+        "comforter",
+        "advocate"
+      ]
     },
     "G1325": {
       "strong": "G1325",
       "language": "greek",
       "lemma": "δίδωμι",
       "translit": "dídōmi",
-      "gloss": "to give (used in a very wide application, properly, or by implication, literally or figuratively; greatly modified by the connection)",
-      "strongs_def": " to give (used in a very wide application, properly, or by implication, literally or figuratively; greatly modified by the connection)",
-      "kjv_def": "adventure, bestow, bring forth, commit, deliver up, give, grant, hinder, make, minister, number, offer, have power, put, receive, set, shew, smite + with the hand, strike + with the palm of the hand, suffer, take, utter, yield"
+      "gloss_nl": null,
+      "gloss_en": "to give (used in a very wide application, properly, or by implication, literally or figuratively; greatly modified by the connection)",
+      "usage_nl": [
+        "geven",
+        "worden",
+        "doen",
+        "geeft",
+        "hij",
+        "gegeven",
+        "heeft",
+        "gaven",
+        "zal",
+        "gaf",
+        "geef",
+        "ik"
+      ],
+      "usage_en": [
+        "give",
+        "given",
+        "shew",
+        "shall",
+        "gave",
+        "offer",
+        "giveth",
+        "adventure",
+        "bestow",
+        "bring forth",
+        "commit",
+        "deliver up",
+        "grant",
+        "hinder",
+        "make",
+        "minister",
+        "number",
+        "have power",
+        "put",
+        "receive",
+        "set",
+        "smite + with the hand",
+        "strike + with the palm of the hand",
+        "suffer",
+        "take",
+        "utter",
+        "yield"
+      ]
     },
     "G165": {
       "strong": "G165",
       "language": "greek",
       "lemma": "αἰών",
       "translit": "aiṓn",
-      "gloss": "properly, an age; by extension, perpetuity (also past); by implication, the world; specially (Jewish) a Messianic period (present or future)",
-      "strongs_def": " properly, an age; by extension, perpetuity (also past); by implication, the world; specially (Jewish) a Messianic period (present or future)",
-      "kjv_def": "age, course, eternal, for ever-more, n-ever, beginning of the , while the world began, without end"
+      "gloss_nl": null,
+      "gloss_en": "properly, an age; by extension, perpetuity (also past); by implication, the world; specially (Jewish) a Messianic period (present or future)",
+      "usage_nl": [
+        "wereld",
+        "eeuwigheid"
+      ],
+      "usage_en": [
+        "world",
+        "ever",
+        "age",
+        "course",
+        "eternal",
+        "for ever-more",
+        "n-ever",
+        "beginning of the",
+        "while the world began",
+        "without end"
+      ]
     },
     "G4151": {
       "strong": "G4151",
       "language": "greek",
       "lemma": "πνεῦμα",
       "translit": "pneûma",
-      "gloss": "a current of air, i.e. breath (blast) or a breeze; by analogy or figuratively, a spirit, i.e. (human) the rational soul, (by implication) vital principle, mental disposition, etc., or (superhuman) an angel, demon, or (divine) God, Christ's spirit, the Holy Spirit",
-      "strongs_def": " a current of air, i.e. breath (blast) or a breeze; by analogy or figuratively, a spirit, i.e. (human) the rational soul, (by implication) vital principle, mental disposition, etc., or (superhuman) an angel, demon, or (divine) God, Christ's spirit, the Holy Spirit",
-      "kjv_def": "ghost, life, spirit-ual, -ually, mind"
+      "gloss_nl": "geest; Geest van God; adem",
+      "gloss_en": "a current of air, i.e. breath (blast) or a breeze; by analogy or figuratively, a spirit, i.e. (human) the rational soul, (by implication) vital principle, mental disposition, etc., or (superhuman) an angel, demon, or (divine) God, Christ's spirit, the Holy Spirit",
+      "usage_nl": [
+        "geest"
+      ],
+      "usage_en": [
+        "spirit",
+        "ghost",
+        "life",
+        "spirit-ual",
+        "-ually",
+        "mind"
+      ]
     },
     "G225": {
       "strong": "G225",
       "language": "greek",
       "lemma": "ἀλήθεια",
       "translit": "alḗtheia",
-      "gloss": "truth",
-      "strongs_def": " truth",
-      "kjv_def": "true, X truly, truth, verity"
+      "gloss_nl": "waarheid; werkelijkheid",
+      "gloss_en": "truth",
+      "usage_nl": [
+        "waarheid"
+      ],
+      "usage_en": [
+        "truth",
+        "true",
+        "x truly",
+        "verity"
+      ]
     },
     "G2889": {
       "strong": "G2889",
       "language": "greek",
       "lemma": "κόσμος",
       "translit": "kósmos",
-      "gloss": "orderly arrangement, i.e. decoration; by implication, the world (in a wide or narrow sense, including its inhabitants, literally or figuratively (morally))",
-      "strongs_def": " orderly arrangement, i.e. decoration; by implication, the world (in a wide or narrow sense, including its inhabitants, literally or figuratively (morally))",
-      "kjv_def": "adorning, world"
+      "gloss_nl": null,
+      "gloss_en": "orderly arrangement, i.e. decoration; by implication, the world (in a wide or narrow sense, including its inhabitants, literally or figuratively (morally))",
+      "usage_nl": [
+        "wereld"
+      ],
+      "usage_en": [
+        "world",
+        "adorning"
+      ]
     },
     "G1410": {
       "strong": "G1410",
       "language": "greek",
       "lemma": "δύναμαι",
       "translit": "dýnamai",
-      "gloss": "to be able or possible",
-      "strongs_def": " to be able or possible",
-      "kjv_def": "be able, can do, + -not, could, may, might, be possible, be of power"
+      "gloss_nl": null,
+      "gloss_en": "to be able or possible",
+      "usage_nl": [
+        "gij",
+        "kan",
+        "zij",
+        "wij"
+      ],
+      "usage_en": [
+        "ye",
+        "able",
+        "can",
+        "could",
+        "we",
+        "be able",
+        "can do",
+        "+ -not",
+        "may",
+        "might",
+        "be possible",
+        "be of power"
+      ]
     },
     "G2983": {
       "strong": "G2983",
       "language": "greek",
       "lemma": "λαμβάνω",
       "translit": "lambánō",
-      "gloss": "while G138 (αἱρέομαι) is more violent, to seize or remove))",
-      "strongs_def": " while G138 (αἱρέομαι) is more violent, to seize or remove))",
-      "kjv_def": "accept, + be amazed, assay, attain, bring, X when I call, catch, come on X unto, + forget, have, hold, obtain, receive X after, take away, up"
+      "gloss_nl": null,
+      "gloss_en": "while G138 (αἱρέομαι) is more violent, to seize or remove))",
+      "usage_nl": [
+        "nemen",
+        "hebben",
+        "hebt",
+        "opnaamt",
+        "namen",
+        "nemende",
+        "had",
+        "zult",
+        "neme",
+        "nam",
+        "genomen",
+        "hebbende",
+        "ontvangt",
+        "ontvangen"
+      ],
+      "usage_en": [
+        "take",
+        "taken",
+        "brought",
+        "up",
+        "took",
+        "received",
+        "receive",
+        "receiveth",
+        "accept",
+        "+ be amazed",
+        "assay",
+        "attain",
+        "bring",
+        "x when i call",
+        "catch",
+        "come on x unto",
+        "+ forget",
+        "have",
+        "hold",
+        "obtain",
+        "receive x after",
+        "take away"
+      ]
     },
     "G2334": {
       "strong": "G2334",
       "language": "greek",
       "lemma": "θεωρέω",
       "translit": "theōréō",
-      "gloss": "to be a spectator of, i.e. discern, (literally, figuratively (experience) or intensively (acknowledge))",
-      "strongs_def": " to be a spectator of, i.e. discern, (literally, figuratively (experience) or intensively (acknowledge))",
-      "kjv_def": "behold, consider, look on, perceive, see"
+      "gloss_nl": null,
+      "gloss_en": "to be a spectator of, i.e. discern, (literally, figuratively (experience) or intensively (acknowledge))",
+      "usage_nl": [
+        "ziende",
+        "zij",
+        "aanschouwt",
+        "zaagt",
+        "gij",
+        "ziet",
+        "zien"
+      ],
+      "usage_en": [
+        "saw",
+        "see",
+        "seeth",
+        "ye",
+        "behold",
+        "consider",
+        "look on",
+        "perceive"
+      ]
     },
     "G3761": {
       "strong": "G3761",
       "language": "greek",
       "lemma": "οὐδέ",
       "translit": "oudé",
-      "gloss": "not however, i.e. neither, nor, not even",
-      "strongs_def": " not however, i.e. neither, nor, not even",
-      "kjv_def": "neither indeed, never, no more, nor, not, nor yet, also, even, then not even, so much as, + nothing, so much as"
+      "gloss_nl": null,
+      "gloss_en": "not however, i.e. neither, nor, not even",
+      "usage_nl": [
+        "en",
+        "niet",
+        "noch",
+        "ook"
+      ],
+      "usage_en": [
+        "neither",
+        "no",
+        "not",
+        "nor",
+        "neither indeed",
+        "never",
+        "no more",
+        "nor yet",
+        "also",
+        "even",
+        "then not even",
+        "so much as",
+        "+ nothing"
+      ]
     },
     "G5210": {
       "strong": "G5210",
       "language": "greek",
       "lemma": "ὑμεῖς",
       "translit": "hymeîs",
-      "gloss": "you (as subjective of verb)",
-      "strongs_def": " you (as subjective of verb)",
-      "kjv_def": "ye yourselves, you"
+      "gloss_nl": null,
+      "gloss_en": "you (as subjective of verb)",
+      "usage_nl": [
+        "gij",
+        "gijlieden"
+      ],
+      "usage_en": [
+        "ye",
+        "ye yourselves",
+        "you"
+      ]
     },
     "G3844": {
       "strong": "G3844",
       "language": "greek",
       "lemma": "παρά",
       "translit": "pará",
-      "gloss": "properly, near; i.e. (with genitive case) from beside (literally or figuratively), (with dative case) at (or in) the vicinity of (objectively or subjectively), (with accusative case) to the proximity with (local (especially beyond or opposed to) or causal (on account of)",
-      "strongs_def": " properly, near; i.e. (with genitive case) from beside (literally or figuratively), (with dative case) at (or in) the vicinity of (objectively or subjectively), (with accusative case) to the proximity with (local (especially beyond or opposed to) or causal (on account of)",
-      "kjv_def": "above, against, among, at, before, by, contrary to, X friend, from, + give such things as they, + that she had, X his, in, more than, nigh unto, out of, past, save, side…by, in the sight of, than, there-fore, with"
+      "gloss_nl": null,
+      "gloss_en": "properly, near; i.e. (with genitive case) from beside (literally or figuratively), (with dative case) at (or in) the vicinity of (objectively or subjectively), (with accusative case) to the proximity with (local (especially beyond or opposed to) or causal (on account of)",
+      "usage_nl": [
+        "aan",
+        "van",
+        "bij",
+        "dan",
+        "is"
+      ],
+      "usage_en": [
+        "by",
+        "of",
+        "from",
+        "with",
+        "than",
+        "is",
+        "above",
+        "against",
+        "among",
+        "at",
+        "before",
+        "contrary to",
+        "x friend",
+        "+ give such things as they",
+        "+ that she had",
+        "x his",
+        "in",
+        "more than",
+        "nigh unto",
+        "out of",
+        "past",
+        "save",
+        "side…by",
+        "in the sight of",
+        "there-fore"
+      ]
     },
     "G2071": {
       "strong": "G2071",
       "language": "greek",
       "lemma": "ἔσομαι",
       "translit": "ésomai",
-      "gloss": "will be",
-      "strongs_def": " will be",
-      "kjv_def": "shall should be have, shall come to pass, X may have, X fall, what would follow, X live long, X sojourn"
+      "gloss_nl": null,
+      "gloss_en": "will be",
+      "usage_nl": [
+        "zijn",
+        "geschieden",
+        "wezen",
+        "worden",
+        "zal",
+        "geworden",
+        "zullen"
+      ],
+      "usage_en": [
+        "be",
+        "shall",
+        "have",
+        "shall should be have",
+        "shall come to pass",
+        "x may have",
+        "x fall",
+        "what would follow",
+        "x live long",
+        "x sojourn"
+      ]
     },
     "G5209": {
       "strong": "G5209",
       "language": "greek",
       "lemma": "ὑμᾶς",
       "translit": "hymâs",
-      "gloss": "you (as the objective of a verb or preposition)",
-      "strongs_def": " you (as the objective of a verb or preposition)",
-      "kjv_def": "ye, you + -ward, your + own"
+      "gloss_nl": null,
+      "gloss_en": "you (as the objective of a verb or preposition)",
+      "usage_nl": [
+        "u",
+        "ulieden",
+        "uwentwil"
+      ],
+      "usage_en": [
+        "you",
+        "sakes",
+        "your",
+        "ye",
+        "you + -ward",
+        "your + own"
+      ]
     },
     "G3737": {
       "strong": "G3737",
       "language": "greek",
       "lemma": "ὀρφανός",
       "translit": "orphanós",
-      "gloss": "bereaved (\"orphan\"), i.e. parentless",
-      "strongs_def": " bereaved (\"orphan\"), i.e. parentless",
-      "kjv_def": "comfortless, fatherless"
+      "gloss_nl": null,
+      "gloss_en": "bereaved (\"orphan\"), i.e. parentless",
+      "usage_nl": [
+        "wezen"
+      ],
+      "usage_en": [
+        "comfortless",
+        "fatherless"
+      ]
     },
     "G863": {
       "strong": "G863",
       "language": "greek",
       "lemma": "ἀφίημι",
       "translit": "aphíēmi",
-      "gloss": "an intensive form of , to go); to send forth, in various applications (as follow)",
-      "strongs_def": " an intensive form of , to go); to send forth, in various applications (as follow)",
-      "kjv_def": "cry, forgive, forsake, lay aside, leave, let alone, be, go, have, omit, put send away, remit, suffer, yield up"
+      "gloss_nl": null,
+      "gloss_en": "an intensive form of , to go); to send forth, in various applications (as follow)",
+      "usage_nl": [
+        "liet",
+        "af",
+        "verlatende",
+        "laten",
+        "vergeven",
+        "kwijtgescholden",
+        "vergeeft",
+        "worden",
+        "lieten",
+        "gaan",
+        "toe",
+        "vergeve",
+        "zal",
+        "van",
+        "ik"
+      ],
+      "usage_en": [
+        "leaveth",
+        "left",
+        "he",
+        "leave",
+        "forgive",
+        "forgave",
+        "shall",
+        "let",
+        "go",
+        "would",
+        "suffer",
+        "do",
+        "will",
+        "alone",
+        "cry",
+        "forsake",
+        "lay aside",
+        "let alone",
+        "be",
+        "have",
+        "omit",
+        "put send away",
+        "remit",
+        "yield up"
+      ]
     },
     "G2064": {
       "strong": "G2064",
       "language": "greek",
       "lemma": "ἔρχομαι",
       "translit": "érchomai",
-      "gloss": "to come or go (in a great variety of applications, literally and figuratively)",
-      "strongs_def": " to come or go (in a great variety of applications, literally and figuratively)",
-      "kjv_def": "accompany, appear, bring, come, enter, fall out, go, grow, X light, X next, pass, resort, be set"
+      "gloss_nl": null,
+      "gloss_en": "to come or go (in a great variety of applications, literally and figuratively)",
+      "usage_nl": [
+        "komen",
+        "waren",
+        "was",
+        "komt",
+        "gekomen",
+        "komende",
+        "kwam",
+        "zal",
+        "zou",
+        "kwamen",
+        "hij",
+        "zijnde",
+        "zij",
+        "ik",
+        "kom"
+      ],
+      "usage_en": [
+        "came",
+        "come",
+        "coming",
+        "cometh",
+        "went",
+        "was",
+        "i",
+        "there",
+        "accompany",
+        "appear",
+        "bring",
+        "enter",
+        "fall out",
+        "go",
+        "grow",
+        "x light",
+        "x next",
+        "pass",
+        "resort",
+        "be set"
+      ]
     },
     "G2089": {
       "strong": "G2089",
       "language": "greek",
       "lemma": "ἔτι",
       "translit": "éti",
-      "gloss": "\"yet,\" still (of time or degree)",
-      "strongs_def": " \"yet,\" still (of time or degree)",
-      "kjv_def": "after that, also, ever, any further, t-henceforth more, hereafter, any longer, any more-one, now, still, yet"
+      "gloss_nl": null,
+      "gloss_en": "\"yet,\" still (of time or degree)",
+      "usage_nl": [
+        "nog",
+        "meer"
+      ],
+      "usage_en": [
+        "more",
+        "yet",
+        "after that",
+        "also",
+        "ever",
+        "any further",
+        "t-henceforth more",
+        "hereafter",
+        "any longer",
+        "any more-one",
+        "now",
+        "still"
+      ]
     },
     "G3397": {
       "strong": "G3397",
       "language": "greek",
       "lemma": "μικρόν",
       "translit": "mikrón",
-      "gloss": "a small space of time or degree",
-      "strongs_def": " a small space of time or degree",
-      "kjv_def": "a little while"
+      "gloss_nl": null,
+      "gloss_en": "a small space of time or degree",
+      "usage_nl": [
+        "kleinen"
+      ],
+      "usage_en": [
+        "while",
+        "a little while"
+      ]
     },
     "G3765": {
       "strong": "G3765",
       "language": "greek",
       "lemma": "οὐκέτι",
       "translit": "oukéti",
-      "gloss": "not yet, no longer",
-      "strongs_def": " not yet, no longer",
-      "kjv_def": "after that not, not any more, henceforth hereafter not, no longer more, not as yet now, now no more not, yet not"
+      "gloss_nl": null,
+      "gloss_en": "not yet, no longer",
+      "usage_nl": [
+        "meer",
+        "niet"
+      ],
+      "usage_en": [
+        "more",
+        "hereafter",
+        "not",
+        "after that not",
+        "not any more",
+        "henceforth hereafter not",
+        "no longer more",
+        "not as yet now",
+        "now no more not",
+        "yet not"
+      ]
     },
     "G2198": {
       "strong": "G2198",
       "language": "greek",
       "lemma": "ζάω",
       "translit": "záō",
-      "gloss": "to live (literally or figuratively)",
-      "strongs_def": " to live (literally or figuratively)",
-      "kjv_def": "life-time, a-live-ly, quick"
+      "gloss_nl": null,
+      "gloss_en": "to live (literally or figuratively)",
+      "usage_nl": [
+        "leven",
+        "levenden",
+        "geleefd",
+        "levende",
+        "leve",
+        "leef"
+      ],
+      "usage_en": [
+        "shall",
+        "live",
+        "living",
+        "lived",
+        "life-time",
+        "a-live-ly",
+        "quick"
+      ]
     },
     "G1565": {
       "strong": "G1565",
       "language": "greek",
       "lemma": "ἐκεῖνος",
       "translit": "ekeînos",
-      "gloss": "that one (or (neuter) thing); often intensified by the article prefixed",
-      "strongs_def": " that one (or (neuter) thing); often intensified by the article prefixed",
-      "kjv_def": "he, it, the other same, selfsame, that same, very, X their, X them, they, this, those"
+      "gloss_nl": null,
+      "gloss_en": "that one (or (neuter) thing); often intensified by the article prefixed",
+      "usage_nl": [
+        "dierzelfder",
+        "dien",
+        "dezen",
+        "dezelve",
+        "die",
+        "dier",
+        "dit",
+        "diezelfde",
+        "hij",
+        "dat"
+      ],
+      "usage_en": [
+        "same",
+        "by",
+        "that",
+        "those",
+        "this",
+        "he",
+        "whom",
+        "it",
+        "the other same",
+        "selfsame",
+        "that same",
+        "very",
+        "x their",
+        "x them",
+        "they"
+      ]
     },
     "G2250": {
       "strong": "G2250",
       "language": "greek",
       "lemma": "ἡμέρα",
       "translit": "hēméra",
-      "gloss": "day, i.e. (literally) the time space between dawn and dark, or the whole 24 hours (but several days were usually reckoned by the Jews as inclusive of the parts of both extremes); figuratively, a period (always defined more or less clearly by the context)",
-      "strongs_def": " day, i.e. (literally) the time space between dawn and dark, or the whole 24 hours (but several days were usually reckoned by the Jews as inclusive of the parts of both extremes); figuratively, a period (always defined more or less clearly by the context)",
-      "kjv_def": "age, + alway, mid-day by day, -ly, + for ever, judgment, day time, while, years"
+      "gloss_nl": null,
+      "gloss_en": "day, i.e. (literally) the time space between dawn and dark, or the whole 24 hours (but several days were usually reckoned by the Jews as inclusive of the parts of both extremes); figuratively, a period (always defined more or less clearly by the context)",
+      "usage_nl": [
+        "dagen",
+        "dage",
+        "dag",
+        "ouderdom",
+        "dagreize"
+      ],
+      "usage_en": [
+        "days",
+        "day",
+        "age",
+        "day's",
+        "+ alway",
+        "mid-day by day",
+        "-ly",
+        "+ for ever",
+        "judgment",
+        "day time",
+        "while",
+        "years"
+      ]
     },
     "G2504": {
       "strong": "G2504",
       "language": "greek",
       "lemma": "κἀγώ",
       "translit": "kagṓ",
-      "gloss": "so also the dative case , and accusative case and (or also, even, etc.) I, (to) me",
-      "strongs_def": " so also the dative case , and accusative case and (or also, even, etc.) I, (to) me",
-      "kjv_def": "and, even, even so, so I also, in like wise, both me, me also"
+      "gloss_nl": null,
+      "gloss_en": "so also the dative case , and accusative case and (or also, even, etc.) I, (to) me",
+      "usage_nl": [
+        "ook",
+        "ik"
+      ],
+      "usage_en": [
+        "also",
+        "i",
+        "and",
+        "even",
+        "even so",
+        "so i also",
+        "in like wise",
+        "both me",
+        "me also"
+      ]
     }
   }
 }

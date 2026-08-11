@@ -9,12 +9,13 @@ export default function LexiconPopover({ entry, targetRect, onClose, lang = 'nl'
   const [position, setPosition] = useState(null);
   const [isDragging, setIsDragging] = useState(false);
   const [dragOffset, setDragOffset] = useState({ x: 0, y: 0 });
+  const [showEnglishSource, setShowEnglishSource] = useState(false);
 
   // Compute initial position from targetRect
   useEffect(() => {
     if (targetRect) {
       const popoverWidth = 360;
-      const popoverHeight = 260;
+      const popoverHeight = 280;
 
       let top = targetRect.bottom + 8;
       if (top + popoverHeight > window.innerHeight) {
@@ -123,6 +124,13 @@ export default function LexiconPopover({ entry, targetRect, onClose, lang = 'nl'
     zIndex: 9999
   };
 
+  // Extract localized gloss & usage
+  const dutchGloss = entry.gloss_nl || (lang === 'nl' && !entry.gloss_nl ? null : entry.gloss);
+  const englishGloss = entry.gloss_en || entry.strongs_def || entry.gloss;
+
+  const usageNlList = (entry.usage_nl && entry.usage_nl.length > 0) ? entry.usage_nl.join(', ') : null;
+  const usageEnList = (entry.usage_en && entry.usage_en.length > 0) ? entry.usage_en.join(', ') : (entry.kjv_def || null);
+
   return (
     <div
       ref={popoverRef}
@@ -171,15 +179,71 @@ export default function LexiconPopover({ entry, targetRect, onClose, lang = 'nl'
       </div>
 
       <div className="popover-body">
+        {/* Main Meaning / Gloss Section */}
         <div>
           <div className="popover-label">{isEn ? 'Meaning / Gloss' : 'Betekenis / Woordverklaring'}</div>
-          <div className="popover-gloss">{entry.gloss || (isEn ? 'Ground-word definition' : 'Grondwoord betekenis')}</div>
+          {isEn ? (
+            <div className="popover-gloss">{englishGloss || 'Ground-word definition'}</div>
+          ) : (
+            <div>
+              {dutchGloss ? (
+                <div className="popover-gloss">{dutchGloss}</div>
+              ) : (
+                <div className="popover-gloss" style={{ color: '#8c7b70', fontStyle: 'italic' }}>
+                  Nederlandse woordverklaring nog niet beschikbaar
+                </div>
+              )}
+
+              {/* Optional English Source Definition Toggle for Dutch Site */}
+              {englishGloss && (
+                <div style={{ marginTop: '4px' }}>
+                  <button
+                    type="button"
+                    onClick={() => setShowEnglishSource(!showEnglishSource)}
+                    style={{
+                      background: 'none',
+                      border: 'none',
+                      color: '#76685c',
+                      fontSize: '0.78rem',
+                      cursor: 'pointer',
+                      textDecoration: 'underline',
+                      padding: '2px 0'
+                    }}
+                  >
+                    {showEnglishSource ? '▲ Verberg Engelse brondefinitie' : '▼ Toon Engelse brondefinitie'}
+                  </button>
+                  {showEnglishSource && (
+                    <div style={{
+                      marginTop: '4px',
+                      padding: '6px 10px',
+                      background: 'rgba(0, 0, 0, 0.04)',
+                      borderRadius: '4px',
+                      fontSize: '0.8rem',
+                      color: '#52453c',
+                      fontStyle: 'italic',
+                      lineHeight: '1.3'
+                    }}>
+                      <strong>Engelse Strong-definitie:</strong> {englishGloss}
+                    </div>
+                  )}
+                </div>
+              )}
+            </div>
+          )}
         </div>
 
-        {entry.kjv_def && entry.kjv_def !== entry.gloss && (
-          <div className="popover-usage">
-            <div className="popover-sublabel">{isEn ? 'Usage / Translations' : 'Voorkomen / Vertalingen'}</div>
-            <div className="popover-subtext">{entry.kjv_def}</div>
+        {/* Usage / Renderings Section: Strictly separated for NL vs EN */}
+        {!isEn && usageNlList && (
+          <div className="popover-usage" style={{ marginTop: '8px' }}>
+            <div className="popover-sublabel">Weergaven in de Statenvertaling</div>
+            <div className="popover-subtext">{usageNlList}</div>
+          </div>
+        )}
+
+        {isEn && usageEnList && (
+          <div className="popover-usage" style={{ marginTop: '8px' }}>
+            <div className="popover-sublabel">Usage in the KJV</div>
+            <div className="popover-subtext">{usageEnList}</div>
           </div>
         )}
 
@@ -212,10 +276,11 @@ export default function LexiconPopover({ entry, targetRect, onClose, lang = 'nl'
           <blockquote>
             {isEn
               ? 'Context Warning: Ground-word meanings offer linguistic nuance; they do not replace the verse in its textual context.'
-              : 'Contextwaarschuwing: Grondwoorden geven taalkundige verdieping; zij vervangen de Bijbeltekst in zijn verband niet.'}
+              : 'Een lexicon geeft mogelijke betekenissen van een woord. Welke betekenis hier past wordt bepaald door vorm, zinsverband en context.'}
           </blockquote>
         </div>
       </div>
     </div>
   );
 }
+
