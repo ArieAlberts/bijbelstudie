@@ -15,15 +15,15 @@
       "kjv": [
         {
           "t": "And",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "leaving",
-          "s": null
+          "s": "G2641"
         },
         {
           "t": "Nazareth,",
-          "s": null
+          "s": "G3478"
         },
         {
           "t": "he",
@@ -31,7 +31,7 @@
         },
         {
           "t": "came",
-          "s": null
+          "s": "G2064"
         },
         {
           "t": "and",
@@ -39,19 +39,19 @@
         },
         {
           "t": "dwelt",
-          "s": null
+          "s": "G2730"
         },
         {
           "t": "in",
-          "s": null
+          "s": "G1519"
         },
         {
           "t": "Capernaum,",
-          "s": null
+          "s": "G2584"
         },
         {
           "t": "which",
-          "s": null
+          "s": "G3588"
         },
         {
           "t": "is",
@@ -71,11 +71,11 @@
         },
         {
           "t": "coast,",
-          "s": null
+          "s": "G3864"
         },
         {
           "t": "in",
-          "s": null
+          "s": "G1722"
         },
         {
           "t": "the",
@@ -83,7 +83,7 @@
         },
         {
           "t": "borders",
-          "s": null
+          "s": "G3725"
         },
         {
           "t": "of",
@@ -91,15 +91,15 @@
         },
         {
           "t": "Zabulon",
-          "s": null
+          "s": "G2194"
         },
         {
           "t": "and",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "Nephthalim:",
-          "s": null
+          "s": "G3508"
         }
       ],
       "alignments": {
@@ -205,7 +205,7 @@
       "kjv": [
         {
           "t": "That",
-          "s": null
+          "s": "G2443"
         },
         {
           "t": "it",
@@ -221,11 +221,11 @@
         },
         {
           "t": "fulfilled",
-          "s": null
+          "s": "G4137"
         },
         {
           "t": "which",
-          "s": null
+          "s": "G3588"
         },
         {
           "t": "was",
@@ -233,15 +233,15 @@
         },
         {
           "t": "spoken",
-          "s": null
+          "s": "G4483"
         },
         {
           "t": "by",
-          "s": null
+          "s": "G1223"
         },
         {
           "t": "Esaias",
-          "s": null
+          "s": "G2268"
         },
         {
           "t": "the",
@@ -249,11 +249,11 @@
         },
         {
           "t": "prophet,",
-          "s": null
+          "s": "G4396"
         },
         {
           "t": "saying,",
-          "s": null
+          "s": "G3004"
         }
       ],
       "alignments": {
@@ -328,7 +328,7 @@
         },
         {
           "t": "land",
-          "s": null
+          "s": "G1093"
         },
         {
           "t": "of",
@@ -336,11 +336,11 @@
         },
         {
           "t": "Zabulon,",
-          "s": null
+          "s": "G2194"
         },
         {
           "t": "and",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "the",
@@ -348,7 +348,7 @@
         },
         {
           "t": "land",
-          "s": null
+          "s": "G1093"
         },
         {
           "t": "of",
@@ -356,7 +356,7 @@
         },
         {
           "t": "Nephthalim,",
-          "s": null
+          "s": "G3508"
         },
         {
           "t": "by",
@@ -368,7 +368,7 @@
         },
         {
           "t": "way",
-          "s": null
+          "s": "G3598"
         },
         {
           "t": "of",
@@ -380,19 +380,19 @@
         },
         {
           "t": "sea,",
-          "s": null
+          "s": "G2281"
         },
         {
           "t": "beyond",
-          "s": null
+          "s": "G4008"
         },
         {
           "t": "Jordan,",
-          "s": null
+          "s": "G2446"
         },
         {
           "t": "Galilee",
-          "s": null
+          "s": "G1056"
         },
         {
           "t": "of",
@@ -404,7 +404,7 @@
         },
         {
           "t": "Gentiles;",
-          "s": null
+          "s": "G1484"
         }
       ],
       "alignments": {
@@ -500,39 +500,39 @@
         },
         {
           "t": "people",
-          "s": null
+          "s": "G2992"
         },
         {
           "t": "which",
-          "s": null
+          "s": "G3588"
         },
         {
           "t": "sat",
-          "s": null
+          "s": "G2521"
         },
         {
           "t": "in",
-          "s": null
+          "s": "G1722"
         },
         {
           "t": "darkness",
-          "s": null
+          "s": "G4655"
         },
         {
           "t": "saw",
-          "s": null
+          "s": "G1492"
         },
         {
           "t": "great",
-          "s": null
+          "s": "G3173"
         },
         {
           "t": "light;",
-          "s": null
+          "s": "G5457"
         },
         {
           "t": "and",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "to",
@@ -544,15 +544,15 @@
         },
         {
           "t": "which",
-          "s": null
+          "s": "G3588"
         },
         {
           "t": "sat",
-          "s": null
+          "s": "G2521"
         },
         {
           "t": "in",
-          "s": null
+          "s": "G1722"
         },
         {
           "t": "the",
@@ -560,15 +560,15 @@
         },
         {
           "t": "region",
-          "s": null
+          "s": "G5561"
         },
         {
           "t": "and",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "shadow",
-          "s": null
+          "s": "G4639"
         },
         {
           "t": "of",
@@ -576,11 +576,11 @@
         },
         {
           "t": "death",
-          "s": null
+          "s": "G2288"
         },
         {
           "t": "light",
-          "s": null
+          "s": "G5457"
         },
         {
           "t": "is",
@@ -592,11 +592,11 @@
         },
         {
           "t": "up",
-          "s": null
+          "s": "G393"
         },
         {
           "t": ".",
-          "s": null
+          "s": "G846"
         }
       ],
       "alignments": {
@@ -744,7 +744,7 @@
       "kjv": [
         {
           "t": "From",
-          "s": null
+          "s": "G575"
         },
         {
           "t": "that",
@@ -752,15 +752,15 @@
         },
         {
           "t": "time",
-          "s": null
+          "s": "G5119"
         },
         {
           "t": "Jesus",
-          "s": null
+          "s": "G2424"
         },
         {
           "t": "began",
-          "s": null
+          "s": "G756"
         },
         {
           "t": "to",
@@ -768,11 +768,11 @@
         },
         {
           "t": "preach,",
-          "s": null
+          "s": "G2784"
         },
         {
           "t": "and",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "to",
@@ -780,15 +780,15 @@
         },
         {
           "t": "say,",
-          "s": null
+          "s": "G3004"
         },
         {
           "t": "Repent:",
-          "s": null
+          "s": "G3340"
         },
         {
           "t": "for",
-          "s": null
+          "s": "G1063"
         },
         {
           "t": "the",
@@ -796,7 +796,7 @@
         },
         {
           "t": "kingdom",
-          "s": null
+          "s": "G932"
         },
         {
           "t": "of",
@@ -804,7 +804,7 @@
         },
         {
           "t": "heaven",
-          "s": null
+          "s": "G3772"
         },
         {
           "t": "is",
@@ -816,7 +816,7 @@
         },
         {
           "t": "hand.",
-          "s": null
+          "s": "G1448"
         }
       ],
       "alignments": {
@@ -915,19 +915,19 @@
       "kjv": [
         {
           "t": "And",
-          "s": null
+          "s": "G1161"
         },
         {
           "t": "Jesus,",
-          "s": null
+          "s": "G2424"
         },
         {
           "t": "walking",
-          "s": null
+          "s": "G4043"
         },
         {
           "t": "by",
-          "s": null
+          "s": "G3844"
         },
         {
           "t": "the",
@@ -935,7 +935,7 @@
         },
         {
           "t": "sea",
-          "s": null
+          "s": "G2281"
         },
         {
           "t": "of",
@@ -943,51 +943,51 @@
         },
         {
           "t": "Galilee,",
-          "s": null
+          "s": "G1056"
         },
         {
           "t": "saw",
-          "s": null
+          "s": "G1492"
         },
         {
           "t": "two",
-          "s": null
+          "s": "G1417"
         },
         {
           "t": "brethren,",
-          "s": null
+          "s": "G80"
         },
         {
           "t": "Simon",
-          "s": null
+          "s": "G4613"
         },
         {
           "t": "called",
-          "s": null
+          "s": "G3004"
         },
         {
           "t": "Peter,",
-          "s": null
+          "s": "G4074"
         },
         {
           "t": "and",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "Andrew",
-          "s": null
+          "s": "G406"
         },
         {
           "t": "his",
-          "s": null
+          "s": "G846"
         },
         {
           "t": "brother,",
-          "s": null
+          "s": "G80"
         },
         {
           "t": "casting",
-          "s": null
+          "s": "G906"
         },
         {
           "t": "a",
@@ -995,11 +995,11 @@
         },
         {
           "t": "net",
-          "s": null
+          "s": "G293"
         },
         {
           "t": "into",
-          "s": null
+          "s": "G1519"
         },
         {
           "t": "the",
@@ -1007,11 +1007,11 @@
         },
         {
           "t": "sea:",
-          "s": null
+          "s": "G2281"
         },
         {
           "t": "for",
-          "s": null
+          "s": "G1063"
         },
         {
           "t": "they",
@@ -1019,11 +1019,11 @@
         },
         {
           "t": "were",
-          "s": null
+          "s": "G2258"
         },
         {
           "t": "fishers.",
-          "s": null
+          "s": "G231"
         }
       ],
       "alignments": {
@@ -1199,7 +1199,7 @@
       "kjv": [
         {
           "t": "And",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "he",
@@ -1207,7 +1207,7 @@
         },
         {
           "t": "saith",
-          "s": null
+          "s": "G3004"
         },
         {
           "t": "unto",
@@ -1215,19 +1215,23 @@
         },
         {
           "t": "them,",
-          "s": null
+          "s": "G846"
         },
         {
           "t": "Follow",
-          "s": null
+          "s": "G1205"
+        },
+        {
+          "t": "",
+          "s": "G3694"
         },
         {
           "t": "me,",
-          "s": null
+          "s": "G3450"
         },
         {
           "t": "and",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "I",
@@ -1239,15 +1243,15 @@
         },
         {
           "t": "make",
-          "s": null
+          "s": "G4160"
         },
         {
           "t": "you",
-          "s": null
+          "s": "G5209"
         },
         {
           "t": "fishers",
-          "s": null
+          "s": "G231"
         },
         {
           "t": "of",
@@ -1255,7 +1259,7 @@
         },
         {
           "t": "men.",
-          "s": null
+          "s": "G444"
         }
       ],
       "alignments": {
@@ -1347,7 +1351,7 @@
       "kjv": [
         {
           "t": "And",
-          "s": null
+          "s": "G1161"
         },
         {
           "t": "they",
@@ -1355,11 +1359,11 @@
         },
         {
           "t": "straightway",
-          "s": null
+          "s": "G2112"
         },
         {
           "t": "left",
-          "s": null
+          "s": "G863"
         },
         {
           "t": "their",
@@ -1367,7 +1371,7 @@
         },
         {
           "t": "nets,",
-          "s": null
+          "s": "G1350"
         },
         {
           "t": "and",
@@ -1375,11 +1379,11 @@
         },
         {
           "t": "followed",
-          "s": null
+          "s": "G190"
         },
         {
           "t": "him.",
-          "s": null
+          "s": "G846"
         }
       ],
       "alignments": {
@@ -1436,7 +1440,7 @@
       "kjv": [
         {
           "t": "And",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "going",
@@ -1444,7 +1448,7 @@
         },
         {
           "t": "on",
-          "s": null
+          "s": "G4260"
         },
         {
           "t": "from",
@@ -1452,7 +1456,7 @@
         },
         {
           "t": "thence,",
-          "s": null
+          "s": "G1564"
         },
         {
           "t": "he",
@@ -1460,23 +1464,23 @@
         },
         {
           "t": "saw",
-          "s": null
+          "s": "G1492"
         },
         {
           "t": "other",
-          "s": null
+          "s": "G243"
         },
         {
           "t": "two",
-          "s": null
+          "s": "G1417"
         },
         {
           "t": "brethren,",
-          "s": null
+          "s": "G80"
         },
         {
           "t": "James",
-          "s": null
+          "s": "G2385"
         },
         {
           "t": "the",
@@ -1488,31 +1492,31 @@
         },
         {
           "t": "of",
-          "s": null
+          "s": "G3588"
         },
         {
           "t": "Zebedee,",
-          "s": null
+          "s": "G2199"
         },
         {
           "t": "and",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "John",
-          "s": null
+          "s": "G2491"
         },
         {
           "t": "his",
-          "s": null
+          "s": "G846"
         },
         {
           "t": "brother,",
-          "s": null
+          "s": "G80"
         },
         {
           "t": "in",
-          "s": null
+          "s": "G1722"
         },
         {
           "t": "a",
@@ -1520,39 +1524,39 @@
         },
         {
           "t": "ship",
-          "s": null
+          "s": "G4143"
         },
         {
           "t": "with",
-          "s": null
+          "s": "G3326"
         },
         {
           "t": "Zebedee",
-          "s": null
+          "s": "G2199"
         },
         {
           "t": "their",
-          "s": null
+          "s": "G846"
         },
         {
           "t": "father,",
-          "s": null
+          "s": "G3962"
         },
         {
           "t": "mending",
-          "s": null
+          "s": "G2675"
         },
         {
           "t": "their",
-          "s": null
+          "s": "G846"
         },
         {
           "t": "nets;",
-          "s": null
+          "s": "G1350"
         },
         {
           "t": "and",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "he",
@@ -1560,11 +1564,11 @@
         },
         {
           "t": "called",
-          "s": null
+          "s": "G2564"
         },
         {
           "t": "them.",
-          "s": null
+          "s": "G846"
         }
       ],
       "alignments": {
@@ -1761,7 +1765,7 @@
       "kjv": [
         {
           "t": "And",
-          "s": null
+          "s": "G1161"
         },
         {
           "t": "they",
@@ -1769,11 +1773,11 @@
         },
         {
           "t": "immediately",
-          "s": null
+          "s": "G2112"
         },
         {
           "t": "left",
-          "s": null
+          "s": "G863"
         },
         {
           "t": "the",
@@ -1781,19 +1785,19 @@
         },
         {
           "t": "ship",
-          "s": null
+          "s": "G4143"
         },
         {
           "t": "and",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "their",
-          "s": null
+          "s": "G846"
         },
         {
           "t": "father,",
-          "s": null
+          "s": "G3962"
         },
         {
           "t": "and",
@@ -1801,11 +1805,11 @@
         },
         {
           "t": "followed",
-          "s": null
+          "s": "G190"
         },
         {
           "t": "him.",
-          "s": null
+          "s": "G846"
         }
       ],
       "alignments": {
@@ -1883,11 +1887,11 @@
       "kjv": [
         {
           "t": "And",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "Jesus",
-          "s": null
+          "s": "G2424"
         },
         {
           "t": "went",
@@ -1895,39 +1899,39 @@
         },
         {
           "t": "about",
-          "s": null
+          "s": "G4013"
         },
         {
           "t": "all",
-          "s": null
+          "s": "G3650"
         },
         {
           "t": "Galilee,",
-          "s": null
+          "s": "G1056"
         },
         {
           "t": "teaching",
-          "s": null
+          "s": "G1321"
         },
         {
           "t": "in",
-          "s": null
+          "s": "G1722"
         },
         {
           "t": "their",
-          "s": null
+          "s": "G846"
         },
         {
           "t": "synagogues,",
-          "s": null
+          "s": "G4864"
         },
         {
           "t": "and",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "preaching",
-          "s": null
+          "s": "G2784"
         },
         {
           "t": "the",
@@ -1935,7 +1939,7 @@
         },
         {
           "t": "gospel",
-          "s": null
+          "s": "G2098"
         },
         {
           "t": "of",
@@ -1947,19 +1951,19 @@
         },
         {
           "t": "kingdom,",
-          "s": null
+          "s": "G932"
         },
         {
           "t": "and",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "healing",
-          "s": null
+          "s": "G2323"
         },
         {
           "t": "all",
-          "s": null
+          "s": "G3956"
         },
         {
           "t": "manner",
@@ -1971,15 +1975,15 @@
         },
         {
           "t": "sickness",
-          "s": null
+          "s": "G3554"
         },
         {
           "t": "and",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "all",
-          "s": null
+          "s": "G3956"
         },
         {
           "t": "manner",
@@ -1991,11 +1995,11 @@
         },
         {
           "t": "disease",
-          "s": null
+          "s": "G3119"
         },
         {
           "t": "among",
-          "s": null
+          "s": "G1722"
         },
         {
           "t": "the",
@@ -2003,7 +2007,7 @@
         },
         {
           "t": "people.",
-          "s": null
+          "s": "G2992"
         }
       ],
       "alignments": {
@@ -2172,35 +2176,35 @@
       "kjv": [
         {
           "t": "And",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "his",
-          "s": null
+          "s": "G846"
         },
         {
           "t": "fame",
-          "s": null
+          "s": "G189"
         },
         {
           "t": "went",
-          "s": null
+          "s": "G565"
         },
         {
           "t": "throughout",
-          "s": null
+          "s": "G1519"
         },
         {
           "t": "all",
-          "s": null
+          "s": "G3650"
         },
         {
           "t": "Syria:",
-          "s": null
+          "s": "G4947"
         },
         {
           "t": "and",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "they",
@@ -2208,7 +2212,7 @@
         },
         {
           "t": "brought",
-          "s": null
+          "s": "G4374"
         },
         {
           "t": "unto",
@@ -2216,19 +2220,19 @@
         },
         {
           "t": "him",
-          "s": null
+          "s": "G846"
         },
         {
           "t": "all",
-          "s": null
+          "s": "G3956"
         },
         {
           "t": "sick",
-          "s": null
+          "s": "G2560"
         },
         {
           "t": "people",
-          "s": null
+          "s": "G2192"
         },
         {
           "t": "that",
@@ -2244,27 +2248,27 @@
         },
         {
           "t": "with",
-          "s": null
+          "s": "G4912"
         },
         {
           "t": "divers",
-          "s": null
+          "s": "G4164"
         },
         {
           "t": "diseases",
-          "s": null
+          "s": "G3554"
         },
         {
           "t": "and",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "torments,",
-          "s": null
+          "s": "G931"
         },
         {
           "t": "and",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "those",
@@ -2288,11 +2292,11 @@
         },
         {
           "t": "devils,",
-          "s": null
+          "s": "G1139"
         },
         {
           "t": "and",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "those",
@@ -2308,11 +2312,11 @@
         },
         {
           "t": "lunatick,",
-          "s": null
+          "s": "G4583"
         },
         {
           "t": "and",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "those",
@@ -2332,11 +2336,11 @@
         },
         {
           "t": "palsy;",
-          "s": null
+          "s": "G3885"
         },
         {
           "t": "and",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "he",
@@ -2344,11 +2348,11 @@
         },
         {
           "t": "healed",
-          "s": null
+          "s": "G2323"
         },
         {
           "t": "them.",
-          "s": null
+          "s": "G846"
         }
       ],
       "alignments": {

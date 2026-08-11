@@ -19,19 +19,19 @@
         },
         {
           "t": "things",
-          "s": null
+          "s": "G5023"
         },
         {
           "t": "said",
-          "s": null
+          "s": "G2036"
         },
         {
           "t": "Esaias,",
-          "s": null
+          "s": "G2268"
         },
         {
           "t": "when",
-          "s": null
+          "s": "G3753"
         },
         {
           "t": "he",
@@ -39,31 +39,31 @@
         },
         {
           "t": "saw",
-          "s": null
+          "s": "G1492"
         },
         {
           "t": "his",
-          "s": null
+          "s": "G846"
         },
         {
           "t": "glory,",
-          "s": null
+          "s": "G1391"
         },
         {
           "t": "and",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "spake",
-          "s": null
+          "s": "G2980"
         },
         {
           "t": "of",
-          "s": null
+          "s": "G4012"
         },
         {
           "t": "him.",
-          "s": null
+          "s": "G846"
         }
       ],
       "alignments": {
@@ -155,11 +155,15 @@
       "kjv": [
         {
           "t": "Nevertheless",
-          "s": null
+          "s": "G3676"
+        },
+        {
+          "t": "",
+          "s": "G3305"
         },
         {
           "t": "among",
-          "s": null
+          "s": "G1537"
         },
         {
           "t": "the",
@@ -171,35 +175,35 @@
         },
         {
           "t": "rulers",
-          "s": null
+          "s": "G758"
         },
         {
           "t": "also",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "many",
-          "s": null
+          "s": "G4183"
         },
         {
           "t": "believed",
-          "s": null
+          "s": "G4100"
         },
         {
           "t": "on",
-          "s": null
+          "s": "G1519"
         },
         {
           "t": "him;",
-          "s": null
+          "s": "G846"
         },
         {
           "t": "but",
-          "s": null
+          "s": "G235"
         },
         {
           "t": "because",
-          "s": null
+          "s": "G1223"
         },
         {
           "t": "of",
@@ -211,7 +215,7 @@
         },
         {
           "t": "Pharisees",
-          "s": null
+          "s": "G5330"
         },
         {
           "t": "they",
@@ -219,15 +223,15 @@
         },
         {
           "t": "did",
-          "s": null
+          "s": "G3670"
         },
         {
           "t": "not",
-          "s": null
+          "s": "G3756"
         },
         {
           "t": "confess",
-          "s": null
+          "s": "G3670"
         },
         {
           "t": "him,",
@@ -235,7 +239,7 @@
         },
         {
           "t": "lest",
-          "s": null
+          "s": "G3363"
         },
         {
           "t": "they",
@@ -247,7 +251,7 @@
         },
         {
           "t": "be",
-          "s": null
+          "s": "G1096"
         },
         {
           "t": "put",
@@ -267,7 +271,7 @@
         },
         {
           "t": "synagogue:",
-          "s": null
+          "s": "G656"
         }
       ],
       "alignments": {
@@ -401,7 +405,7 @@
       "kjv": [
         {
           "t": "For",
-          "s": null
+          "s": "G1063"
         },
         {
           "t": "they",
@@ -409,7 +413,7 @@
         },
         {
           "t": "loved",
-          "s": null
+          "s": "G25"
         },
         {
           "t": "the",
@@ -417,7 +421,7 @@
         },
         {
           "t": "praise",
-          "s": null
+          "s": "G1391"
         },
         {
           "t": "of",
@@ -425,15 +429,15 @@
         },
         {
           "t": "men",
-          "s": null
+          "s": "G444"
         },
         {
           "t": "more",
-          "s": null
+          "s": "G3123"
         },
         {
           "t": "than",
-          "s": null
+          "s": "G2260"
         },
         {
           "t": "the",
@@ -441,7 +445,7 @@
         },
         {
           "t": "praise",
-          "s": null
+          "s": "G1391"
         },
         {
           "t": "of",
@@ -449,7 +453,7 @@
         },
         {
           "t": "God.",
-          "s": null
+          "s": "G2316"
         }
       ],
       "alignments": {
@@ -519,20 +523,24 @@
       "sv": "En Jezus riep, en zeide: Die in Mij gelooft, gelooft in Mij niet, maar in Dengene, Die Mij gezonden heeft.",
       "kjv": [
         {
+          "t": "",
+          "s": "G1161"
+        },
+        {
           "t": "Jesus",
-          "s": null
+          "s": "G2424"
         },
         {
           "t": "cried",
-          "s": null
+          "s": "G2896"
         },
         {
           "t": "and",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "said,",
-          "s": null
+          "s": "G2036"
         },
         {
           "t": "He",
@@ -544,39 +552,39 @@
         },
         {
           "t": "believeth",
-          "s": null
+          "s": "G4100"
         },
         {
           "t": "on",
-          "s": null
+          "s": "G1519"
         },
         {
           "t": "me,",
-          "s": null
+          "s": "G1691"
         },
         {
           "t": "believeth",
-          "s": null
+          "s": "G4100"
         },
         {
           "t": "not",
-          "s": null
+          "s": "G3756"
         },
         {
           "t": "on",
-          "s": null
+          "s": "G1519"
         },
         {
           "t": "me,",
-          "s": null
+          "s": "G1691"
         },
         {
           "t": "but",
-          "s": null
+          "s": "G235"
         },
         {
           "t": "on",
-          "s": null
+          "s": "G1519"
         },
         {
           "t": "him",
@@ -588,11 +596,11 @@
         },
         {
           "t": "sent",
-          "s": null
+          "s": "G3992"
         },
         {
           "t": "me.",
-          "s": null
+          "s": "G3165"
         }
       ],
       "alignments": {
@@ -719,7 +727,7 @@
       "kjv": [
         {
           "t": "And",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "he",
@@ -731,15 +739,15 @@
         },
         {
           "t": "seeth",
-          "s": null
+          "s": "G2334"
         },
         {
           "t": "me",
-          "s": null
+          "s": "G1691"
         },
         {
           "t": "seeth",
-          "s": null
+          "s": "G2334"
         },
         {
           "t": "him",
@@ -751,11 +759,11 @@
         },
         {
           "t": "sent",
-          "s": null
+          "s": "G3992"
         },
         {
           "t": "me.",
-          "s": null
+          "s": "G3165"
         }
       ],
       "alignments": {
@@ -812,7 +820,7 @@
       "kjv": [
         {
           "t": "I",
-          "s": null
+          "s": "G1473"
         },
         {
           "t": "am",
@@ -820,7 +828,7 @@
         },
         {
           "t": "come",
-          "s": null
+          "s": "G2064"
         },
         {
           "t": "a",
@@ -828,11 +836,11 @@
         },
         {
           "t": "light",
-          "s": null
+          "s": "G5457"
         },
         {
           "t": "into",
-          "s": null
+          "s": "G1519"
         },
         {
           "t": "the",
@@ -840,47 +848,47 @@
         },
         {
           "t": "world,",
-          "s": null
+          "s": "G2889"
         },
         {
           "t": "that",
-          "s": null
+          "s": "G3363"
         },
         {
           "t": "whosoever",
-          "s": null
+          "s": "G3956"
         },
         {
           "t": "believeth",
-          "s": null
+          "s": "G4100"
         },
         {
           "t": "on",
-          "s": null
+          "s": "G1519"
         },
         {
           "t": "me",
-          "s": null
+          "s": "G1691"
         },
         {
           "t": "should",
-          "s": null
+          "s": "G3306"
         },
         {
           "t": "not",
-          "s": null
+          "s": "G3363"
         },
         {
           "t": "abide",
-          "s": null
+          "s": "G3306"
         },
         {
           "t": "in",
-          "s": null
+          "s": "G1722"
         },
         {
           "t": "darkness.",
-          "s": null
+          "s": "G4653"
         }
       ],
       "alignments": {
@@ -993,11 +1001,11 @@
       "kjv": [
         {
           "t": "And",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "if",
-          "s": null
+          "s": "G3362"
         },
         {
           "t": "any",
@@ -1005,51 +1013,51 @@
         },
         {
           "t": "man",
-          "s": null
+          "s": "G5100"
         },
         {
           "t": "hear",
-          "s": null
+          "s": "G191"
         },
         {
           "t": "my",
-          "s": null
+          "s": "G3450"
         },
         {
           "t": "words,",
-          "s": null
+          "s": "G4487"
         },
         {
           "t": "and",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "believe",
-          "s": null
+          "s": "G4100"
         },
         {
           "t": "not,",
-          "s": null
+          "s": "G3362"
         },
         {
           "t": "I",
-          "s": null
+          "s": "G1473"
         },
         {
           "t": "judge",
-          "s": null
+          "s": "G2919"
         },
         {
           "t": "him",
-          "s": null
+          "s": "G846"
         },
         {
           "t": "not:",
-          "s": null
+          "s": "G3756"
         },
         {
           "t": "for",
-          "s": null
+          "s": "G1063"
         },
         {
           "t": "I",
@@ -1057,19 +1065,19 @@
         },
         {
           "t": "came",
-          "s": null
+          "s": "G2064"
         },
         {
           "t": "not",
-          "s": null
+          "s": "G3756"
         },
         {
           "t": "to",
-          "s": null
+          "s": "G2443"
         },
         {
           "t": "judge",
-          "s": null
+          "s": "G2919"
         },
         {
           "t": "the",
@@ -1077,19 +1085,19 @@
         },
         {
           "t": "world,",
-          "s": null
+          "s": "G2889"
         },
         {
           "t": "but",
-          "s": null
+          "s": "G235"
         },
         {
           "t": "to",
-          "s": null
+          "s": "G2443"
         },
         {
           "t": "save",
-          "s": null
+          "s": "G4982"
         },
         {
           "t": "the",
@@ -1097,7 +1105,7 @@
         },
         {
           "t": "world.",
-          "s": null
+          "s": "G2889"
         }
       ],
       "alignments": {
@@ -1281,35 +1289,35 @@
         },
         {
           "t": "rejecteth",
-          "s": null
+          "s": "G114"
         },
         {
           "t": "me,",
-          "s": null
+          "s": "G1691"
         },
         {
           "t": "and",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "receiveth",
-          "s": null
+          "s": "G2983"
         },
         {
           "t": "not",
-          "s": null
+          "s": "G3361"
         },
         {
           "t": "my",
-          "s": null
+          "s": "G3450"
         },
         {
           "t": "words,",
-          "s": null
+          "s": "G4487"
         },
         {
           "t": "hath",
-          "s": null
+          "s": "G2192"
         },
         {
           "t": "one",
@@ -1321,11 +1329,11 @@
         },
         {
           "t": "judgeth",
-          "s": null
+          "s": "G2919"
         },
         {
           "t": "him:",
-          "s": null
+          "s": "G846"
         },
         {
           "t": "the",
@@ -1333,11 +1341,11 @@
         },
         {
           "t": "word",
-          "s": null
+          "s": "G3056"
         },
         {
           "t": "that",
-          "s": null
+          "s": "G3739"
         },
         {
           "t": "I",
@@ -1349,7 +1357,7 @@
         },
         {
           "t": "spoken,",
-          "s": null
+          "s": "G2980"
         },
         {
           "t": "the",
@@ -1357,7 +1365,7 @@
         },
         {
           "t": "same",
-          "s": null
+          "s": "G1565"
         },
         {
           "t": "shall",
@@ -1365,15 +1373,15 @@
         },
         {
           "t": "judge",
-          "s": null
+          "s": "G2919"
         },
         {
           "t": "him",
-          "s": null
+          "s": "G846"
         },
         {
           "t": "in",
-          "s": null
+          "s": "G1722"
         },
         {
           "t": "the",
@@ -1381,11 +1389,11 @@
         },
         {
           "t": "last",
-          "s": null
+          "s": "G2078"
         },
         {
           "t": "day.",
-          "s": null
+          "s": "G2250"
         }
       ],
       "alignments": {
@@ -1533,35 +1541,35 @@
       "kjv": [
         {
           "t": "For",
-          "s": null
+          "s": "G3754"
         },
         {
           "t": "I",
-          "s": null
+          "s": "G1473"
         },
         {
           "t": "have",
-          "s": null
+          "s": "G2980"
         },
         {
           "t": "not",
-          "s": null
+          "s": "G3756"
         },
         {
           "t": "spoken",
-          "s": null
+          "s": "G2980"
         },
         {
           "t": "of",
-          "s": null
+          "s": "G1537"
         },
         {
           "t": "myself;",
-          "s": null
+          "s": "G1683"
         },
         {
           "t": "but",
-          "s": null
+          "s": "G235"
         },
         {
           "t": "the",
@@ -1569,7 +1577,7 @@
         },
         {
           "t": "Father",
-          "s": null
+          "s": "G3962"
         },
         {
           "t": "which",
@@ -1577,23 +1585,23 @@
         },
         {
           "t": "sent",
-          "s": null
+          "s": "G3992"
         },
         {
           "t": "me,",
-          "s": null
+          "s": "G3165"
         },
         {
           "t": "he",
-          "s": null
+          "s": "G846"
         },
         {
           "t": "gave",
-          "s": null
+          "s": "G1325"
         },
         {
           "t": "me",
-          "s": null
+          "s": "G3427"
         },
         {
           "t": "a",
@@ -1601,11 +1609,11 @@
         },
         {
           "t": "commandment,",
-          "s": null
+          "s": "G1785"
         },
         {
           "t": "what",
-          "s": null
+          "s": "G5101"
         },
         {
           "t": "I",
@@ -1617,15 +1625,15 @@
         },
         {
           "t": "say,",
-          "s": null
+          "s": "G2036"
         },
         {
           "t": "and",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "what",
-          "s": null
+          "s": "G5101"
         },
         {
           "t": "I",
@@ -1637,7 +1645,7 @@
         },
         {
           "t": "speak.",
-          "s": null
+          "s": "G2980"
         }
       ],
       "alignments": {
@@ -1778,7 +1786,7 @@
       "kjv": [
         {
           "t": "And",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "I",
@@ -1786,47 +1794,47 @@
         },
         {
           "t": "know",
-          "s": null
+          "s": "G1492"
         },
         {
           "t": "that",
-          "s": null
+          "s": "G3754"
         },
         {
           "t": "his",
-          "s": null
+          "s": "G846"
         },
         {
           "t": "commandment",
-          "s": null
+          "s": "G1785"
         },
         {
           "t": "is",
-          "s": null
+          "s": "G2076"
         },
         {
           "t": "life",
-          "s": null
+          "s": "G2222"
         },
         {
           "t": "everlasting:",
-          "s": null
+          "s": "G166"
         },
         {
           "t": "whatsoever",
-          "s": null
+          "s": "G3739"
         },
         {
           "t": "I",
-          "s": null
+          "s": "G1473"
         },
         {
           "t": "speak",
-          "s": null
+          "s": "G2980"
         },
         {
           "t": "therefore,",
-          "s": null
+          "s": "G3767"
         },
         {
           "t": "even",
@@ -1834,7 +1842,7 @@
         },
         {
           "t": "as",
-          "s": null
+          "s": "G2531"
         },
         {
           "t": "the",
@@ -1842,11 +1850,11 @@
         },
         {
           "t": "Father",
-          "s": null
+          "s": "G3962"
         },
         {
           "t": "said",
-          "s": null
+          "s": "G2046"
         },
         {
           "t": "unto",
@@ -1854,11 +1862,11 @@
         },
         {
           "t": "me,",
-          "s": null
+          "s": "G3427"
         },
         {
           "t": "so",
-          "s": null
+          "s": "G3779"
         },
         {
           "t": "I",
@@ -1866,7 +1874,7 @@
         },
         {
           "t": "speak.",
-          "s": null
+          "s": "G2980"
         }
       ],
       "alignments": {

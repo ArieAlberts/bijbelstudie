@@ -15,7 +15,7 @@
       "kjv": [
         {
           "t": "And",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "the",
@@ -23,15 +23,15 @@
         },
         {
           "t": "Jews'",
-          "s": null
+          "s": "G2453"
         },
         {
           "t": "passover",
-          "s": null
+          "s": "G3957"
         },
         {
           "t": "was",
-          "s": null
+          "s": "G2258"
         },
         {
           "t": "at",
@@ -39,15 +39,15 @@
         },
         {
           "t": "hand,",
-          "s": null
+          "s": "G1451"
         },
         {
           "t": "and",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "Jesus",
-          "s": null
+          "s": "G2424"
         },
         {
           "t": "went",
@@ -55,15 +55,15 @@
         },
         {
           "t": "up",
-          "s": null
+          "s": "G305"
         },
         {
           "t": "to",
-          "s": null
+          "s": "G1519"
         },
         {
           "t": "Jerusalem,",
-          "s": null
+          "s": "G2414"
         }
       ],
       "alignments": {
@@ -148,15 +148,15 @@
       "kjv": [
         {
           "t": "And",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "found",
-          "s": null
+          "s": "G2147"
         },
         {
           "t": "in",
-          "s": null
+          "s": "G1722"
         },
         {
           "t": "the",
@@ -164,7 +164,7 @@
         },
         {
           "t": "temple",
-          "s": null
+          "s": "G2411"
         },
         {
           "t": "those",
@@ -176,31 +176,31 @@
         },
         {
           "t": "sold",
-          "s": null
+          "s": "G4453"
         },
         {
           "t": "oxen",
-          "s": null
+          "s": "G1016"
         },
         {
           "t": "and",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "sheep",
-          "s": null
+          "s": "G4263"
         },
         {
           "t": "and",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "doves,",
-          "s": null
+          "s": "G4058"
         },
         {
           "t": "and",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "the",
@@ -216,11 +216,11 @@
         },
         {
           "t": "money",
-          "s": null
+          "s": "G2773"
         },
         {
           "t": "sitting:",
-          "s": null
+          "s": "G2521"
         }
       ],
       "alignments": {
@@ -326,7 +326,7 @@
       "kjv": [
         {
           "t": "And",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "when",
@@ -342,7 +342,7 @@
         },
         {
           "t": "made",
-          "s": null
+          "s": "G4160"
         },
         {
           "t": "a",
@@ -350,11 +350,11 @@
         },
         {
           "t": "scourge",
-          "s": null
+          "s": "G5416"
         },
         {
           "t": "of",
-          "s": null
+          "s": "G1537"
         },
         {
           "t": "small",
@@ -362,7 +362,7 @@
         },
         {
           "t": "cords,",
-          "s": null
+          "s": "G4979"
         },
         {
           "t": "he",
@@ -370,7 +370,7 @@
         },
         {
           "t": "drove",
-          "s": null
+          "s": "G1544"
         },
         {
           "t": "them",
@@ -378,7 +378,7 @@
         },
         {
           "t": "all",
-          "s": null
+          "s": "G3956"
         },
         {
           "t": "out",
@@ -386,7 +386,7 @@
         },
         {
           "t": "of",
-          "s": null
+          "s": "G1537"
         },
         {
           "t": "the",
@@ -394,11 +394,11 @@
         },
         {
           "t": "temple,",
-          "s": null
+          "s": "G2411"
         },
         {
           "t": "and",
-          "s": null
+          "s": "G5037"
         },
         {
           "t": "the",
@@ -406,11 +406,11 @@
         },
         {
           "t": "sheep,",
-          "s": null
+          "s": "G4263"
         },
         {
           "t": "and",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "the",
@@ -418,11 +418,11 @@
         },
         {
           "t": "oxen;",
-          "s": null
+          "s": "G1016"
         },
         {
           "t": "and",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "poured",
@@ -430,7 +430,7 @@
         },
         {
           "t": "out",
-          "s": null
+          "s": "G1632"
         },
         {
           "t": "the",
@@ -438,19 +438,19 @@
         },
         {
           "t": "changers'",
-          "s": null
+          "s": "G2855"
         },
         {
           "t": "money,",
-          "s": null
+          "s": "G2772"
         },
         {
           "t": "and",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "overthrew",
-          "s": null
+          "s": "G390"
         },
         {
           "t": "the",
@@ -458,7 +458,7 @@
         },
         {
           "t": "tables;",
-          "s": null
+          "s": "G5132"
         }
       ],
       "alignments": {
@@ -620,11 +620,11 @@
       "kjv": [
         {
           "t": "And",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "said",
-          "s": null
+          "s": "G2036"
         },
         {
           "t": "unto",
@@ -640,15 +640,15 @@
         },
         {
           "t": "sold",
-          "s": null
+          "s": "G4453"
         },
         {
           "t": "doves,",
-          "s": null
+          "s": "G4058"
         },
         {
           "t": "Take",
-          "s": null
+          "s": "G142"
         },
         {
           "t": "these",
@@ -656,31 +656,31 @@
         },
         {
           "t": "things",
-          "s": null
+          "s": "G5023"
         },
         {
           "t": "hence;",
-          "s": null
+          "s": "G1782"
         },
         {
           "t": "make",
-          "s": null
+          "s": "G4160"
         },
         {
           "t": "not",
-          "s": null
+          "s": "G3361"
         },
         {
           "t": "my",
-          "s": null
+          "s": "G3450"
         },
         {
           "t": "Father's",
-          "s": null
+          "s": "G3962"
         },
         {
           "t": "house",
-          "s": null
+          "s": "G3624"
         },
         {
           "t": "an",
@@ -688,7 +688,7 @@
         },
         {
           "t": "house",
-          "s": null
+          "s": "G3624"
         },
         {
           "t": "of",
@@ -696,7 +696,7 @@
         },
         {
           "t": "merchandise.",
-          "s": null
+          "s": "G1712"
         }
       ],
       "alignments": {
@@ -809,23 +809,23 @@
       "kjv": [
         {
           "t": "And",
-          "s": null
+          "s": "G1161"
         },
         {
           "t": "his",
-          "s": null
+          "s": "G846"
         },
         {
           "t": "disciples",
-          "s": null
+          "s": "G3101"
         },
         {
           "t": "remembered",
-          "s": null
+          "s": "G3415"
         },
         {
           "t": "that",
-          "s": null
+          "s": "G3754"
         },
         {
           "t": "it",
@@ -833,11 +833,11 @@
         },
         {
           "t": "was",
-          "s": null
+          "s": "G2076"
         },
         {
           "t": "written,",
-          "s": null
+          "s": "G1125"
         },
         {
           "t": "The",
@@ -845,7 +845,7 @@
         },
         {
           "t": "zeal",
-          "s": null
+          "s": "G2205"
         },
         {
           "t": "of",
@@ -853,11 +853,11 @@
         },
         {
           "t": "thine",
-          "s": null
+          "s": "G4675"
         },
         {
           "t": "house",
-          "s": null
+          "s": "G3624"
         },
         {
           "t": "hath",
@@ -865,15 +865,15 @@
         },
         {
           "t": "eaten",
-          "s": null
+          "s": "G2719"
         },
         {
           "t": "me",
-          "s": null
+          "s": "G3165"
         },
         {
           "t": "up.",
-          "s": null
+          "s": "G2719"
         }
       ],
       "alignments": {
@@ -972,11 +972,11 @@
       "kjv": [
         {
           "t": "Then",
-          "s": null
+          "s": "G3767"
         },
         {
           "t": "answered",
-          "s": null
+          "s": "G611"
         },
         {
           "t": "the",
@@ -984,15 +984,15 @@
         },
         {
           "t": "Jews",
-          "s": null
+          "s": "G2453"
         },
         {
           "t": "and",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "said",
-          "s": null
+          "s": "G2036"
         },
         {
           "t": "unto",
@@ -1000,15 +1000,15 @@
         },
         {
           "t": "him,",
-          "s": null
+          "s": "G846"
         },
         {
           "t": "What",
-          "s": null
+          "s": "G5101"
         },
         {
           "t": "sign",
-          "s": null
+          "s": "G4592"
         },
         {
           "t": "shewest",
@@ -1016,7 +1016,7 @@
         },
         {
           "t": "thou",
-          "s": null
+          "s": "G1166"
         },
         {
           "t": "unto",
@@ -1024,7 +1024,7 @@
         },
         {
           "t": "us,",
-          "s": null
+          "s": "G2254"
         },
         {
           "t": "seeing",
@@ -1032,7 +1032,7 @@
         },
         {
           "t": "that",
-          "s": null
+          "s": "G3754"
         },
         {
           "t": "thou",
@@ -1040,7 +1040,7 @@
         },
         {
           "t": "doest",
-          "s": null
+          "s": "G4160"
         },
         {
           "t": "these",
@@ -1048,7 +1048,7 @@
         },
         {
           "t": "things?",
-          "s": null
+          "s": "G5023"
         }
       ],
       "alignments": {
@@ -1154,19 +1154,19 @@
       "kjv": [
         {
           "t": "Jesus",
-          "s": null
+          "s": "G2424"
         },
         {
           "t": "answered",
-          "s": null
+          "s": "G611"
         },
         {
           "t": "and",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "said",
-          "s": null
+          "s": "G2036"
         },
         {
           "t": "unto",
@@ -1174,35 +1174,35 @@
         },
         {
           "t": "them,",
-          "s": null
+          "s": "G846"
         },
         {
           "t": "Destroy",
-          "s": null
+          "s": "G3089"
         },
         {
           "t": "this",
-          "s": null
+          "s": "G5126"
         },
         {
           "t": "temple,",
-          "s": null
+          "s": "G3485"
         },
         {
           "t": "and",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "in",
-          "s": null
+          "s": "G1722"
         },
         {
           "t": "three",
-          "s": null
+          "s": "G5140"
         },
         {
           "t": "days",
-          "s": null
+          "s": "G2250"
         },
         {
           "t": "I",
@@ -1214,15 +1214,15 @@
         },
         {
           "t": "raise",
-          "s": null
+          "s": "G1453"
         },
         {
           "t": "it",
-          "s": null
+          "s": "G846"
         },
         {
           "t": "up.",
-          "s": null
+          "s": "G1453"
         }
       ],
       "alignments": {
@@ -1335,11 +1335,11 @@
       "kjv": [
         {
           "t": "Then",
-          "s": null
+          "s": "G3767"
         },
         {
           "t": "said",
-          "s": null
+          "s": "G2036"
         },
         {
           "t": "the",
@@ -1347,35 +1347,35 @@
         },
         {
           "t": "Jews,",
-          "s": null
+          "s": "G2453"
         },
         {
           "t": "Forty",
-          "s": null
+          "s": "G5062"
         },
         {
           "t": "and",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "six",
-          "s": null
+          "s": "G1803"
         },
         {
           "t": "years",
-          "s": null
+          "s": "G2094"
         },
         {
           "t": "was",
-          "s": null
+          "s": "G3618"
         },
         {
           "t": "this",
-          "s": null
+          "s": "G3778"
         },
         {
           "t": "temple",
-          "s": null
+          "s": "G3485"
         },
         {
           "t": "in",
@@ -1383,43 +1383,43 @@
         },
         {
           "t": "building,",
-          "s": null
+          "s": "G3618"
         },
         {
           "t": "and",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "wilt",
-          "s": null
+          "s": "G1453"
         },
         {
           "t": "thou",
-          "s": null
+          "s": "G4771"
         },
         {
           "t": "rear",
-          "s": null
+          "s": "G1453"
         },
         {
           "t": "it",
-          "s": null
+          "s": "G846"
         },
         {
           "t": "up",
-          "s": null
+          "s": "G1453"
         },
         {
           "t": "in",
-          "s": null
+          "s": "G1722"
         },
         {
           "t": "three",
-          "s": null
+          "s": "G5140"
         },
         {
           "t": "days?",
-          "s": null
+          "s": "G2250"
         }
       ],
       "alignments": {
@@ -1553,19 +1553,19 @@
       "kjv": [
         {
           "t": "But",
-          "s": null
+          "s": "G1161"
         },
         {
           "t": "he",
-          "s": null
+          "s": "G1565"
         },
         {
           "t": "spake",
-          "s": null
+          "s": "G3004"
         },
         {
           "t": "of",
-          "s": null
+          "s": "G4012"
         },
         {
           "t": "the",
@@ -1573,7 +1573,7 @@
         },
         {
           "t": "temple",
-          "s": null
+          "s": "G3485"
         },
         {
           "t": "of",
@@ -1581,11 +1581,11 @@
         },
         {
           "t": "his",
-          "s": null
+          "s": "G846"
         },
         {
           "t": "body.",
-          "s": null
+          "s": "G4983"
         }
       ],
       "alignments": {
@@ -1649,11 +1649,11 @@
       "kjv": [
         {
           "t": "When",
-          "s": null
+          "s": "G3753"
         },
         {
           "t": "therefore",
-          "s": null
+          "s": "G3767"
         },
         {
           "t": "he",
@@ -1665,11 +1665,11 @@
         },
         {
           "t": "risen",
-          "s": null
+          "s": "G1453"
         },
         {
           "t": "from",
-          "s": null
+          "s": "G1537"
         },
         {
           "t": "the",
@@ -1677,23 +1677,23 @@
         },
         {
           "t": "dead,",
-          "s": null
+          "s": "G3498"
         },
         {
           "t": "his",
-          "s": null
+          "s": "G846"
         },
         {
           "t": "disciples",
-          "s": null
+          "s": "G3101"
         },
         {
           "t": "remembered",
-          "s": null
+          "s": "G3415"
         },
         {
           "t": "that",
-          "s": null
+          "s": "G3754"
         },
         {
           "t": "he",
@@ -1705,11 +1705,11 @@
         },
         {
           "t": "said",
-          "s": null
+          "s": "G3004"
         },
         {
           "t": "this",
-          "s": null
+          "s": "G5124"
         },
         {
           "t": "unto",
@@ -1717,11 +1717,11 @@
         },
         {
           "t": "them;",
-          "s": null
+          "s": "G846"
         },
         {
           "t": "and",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "they",
@@ -1729,7 +1729,7 @@
         },
         {
           "t": "believed",
-          "s": null
+          "s": "G4100"
         },
         {
           "t": "the",
@@ -1737,11 +1737,11 @@
         },
         {
           "t": "scripture,",
-          "s": null
+          "s": "G1124"
         },
         {
           "t": "and",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "the",
@@ -1749,15 +1749,15 @@
         },
         {
           "t": "word",
-          "s": null
+          "s": "G3056"
         },
         {
           "t": "which",
-          "s": null
+          "s": "G3739"
         },
         {
           "t": "Jesus",
-          "s": null
+          "s": "G2424"
         },
         {
           "t": "had",
@@ -1765,7 +1765,7 @@
         },
         {
           "t": "said.",
-          "s": null
+          "s": "G2036"
         }
       ],
       "alignments": {

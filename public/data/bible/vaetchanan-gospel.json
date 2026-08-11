@@ -15,19 +15,19 @@
       "kjv": [
         {
           "t": "Annas",
-          "s": null
+          "s": "G452"
         },
         {
           "t": "and",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "Caiaphas",
-          "s": null
+          "s": "G2533"
         },
         {
           "t": "being",
-          "s": null
+          "s": "G1909"
         },
         {
           "t": "the",
@@ -39,7 +39,7 @@
         },
         {
           "t": "priests,",
-          "s": null
+          "s": "G749"
         },
         {
           "t": "the",
@@ -47,7 +47,7 @@
         },
         {
           "t": "word",
-          "s": null
+          "s": "G4487"
         },
         {
           "t": "of",
@@ -55,19 +55,19 @@
         },
         {
           "t": "God",
-          "s": null
+          "s": "G2316"
         },
         {
           "t": "came",
-          "s": null
+          "s": "G1096"
         },
         {
           "t": "unto",
-          "s": null
+          "s": "G1909"
         },
         {
           "t": "John",
-          "s": null
+          "s": "G2491"
         },
         {
           "t": "the",
@@ -75,7 +75,7 @@
         },
         {
           "t": "son",
-          "s": null
+          "s": "G5207"
         },
         {
           "t": "of",
@@ -83,11 +83,11 @@
         },
         {
           "t": "Zacharias",
-          "s": null
+          "s": "G2197"
         },
         {
           "t": "in",
-          "s": null
+          "s": "G1722"
         },
         {
           "t": "the",
@@ -95,7 +95,7 @@
         },
         {
           "t": "wilderness.",
-          "s": null
+          "s": "G2048"
         }
       ],
       "alignments": {
@@ -208,7 +208,7 @@
       "kjv": [
         {
           "t": "And",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "he",
@@ -216,15 +216,15 @@
         },
         {
           "t": "came",
-          "s": null
+          "s": "G2064"
         },
         {
           "t": "into",
-          "s": null
+          "s": "G1519"
         },
         {
           "t": "all",
-          "s": null
+          "s": "G3956"
         },
         {
           "t": "the",
@@ -236,15 +236,15 @@
         },
         {
           "t": "about",
-          "s": null
+          "s": "G4066"
         },
         {
           "t": "Jordan,",
-          "s": null
+          "s": "G2446"
         },
         {
           "t": "preaching",
-          "s": null
+          "s": "G2784"
         },
         {
           "t": "the",
@@ -252,7 +252,7 @@
         },
         {
           "t": "baptism",
-          "s": null
+          "s": "G908"
         },
         {
           "t": "of",
@@ -260,11 +260,11 @@
         },
         {
           "t": "repentance",
-          "s": null
+          "s": "G3341"
         },
         {
           "t": "for",
-          "s": null
+          "s": "G1519"
         },
         {
           "t": "the",
@@ -272,7 +272,7 @@
         },
         {
           "t": "remission",
-          "s": null
+          "s": "G859"
         },
         {
           "t": "of",
@@ -280,7 +280,7 @@
         },
         {
           "t": "sins;",
-          "s": null
+          "s": "G266"
         }
       ],
       "alignments": {
@@ -379,7 +379,7 @@
       "kjv": [
         {
           "t": "As",
-          "s": null
+          "s": "G5613"
         },
         {
           "t": "it",
@@ -391,11 +391,11 @@
         },
         {
           "t": "written",
-          "s": null
+          "s": "G1125"
         },
         {
           "t": "in",
-          "s": null
+          "s": "G1722"
         },
         {
           "t": "the",
@@ -403,7 +403,7 @@
         },
         {
           "t": "book",
-          "s": null
+          "s": "G976"
         },
         {
           "t": "of",
@@ -415,7 +415,7 @@
         },
         {
           "t": "words",
-          "s": null
+          "s": "G3056"
         },
         {
           "t": "of",
@@ -423,7 +423,7 @@
         },
         {
           "t": "Esaias",
-          "s": null
+          "s": "G2268"
         },
         {
           "t": "the",
@@ -431,11 +431,11 @@
         },
         {
           "t": "prophet,",
-          "s": null
+          "s": "G4396"
         },
         {
           "t": "saying,",
-          "s": null
+          "s": "G3004"
         },
         {
           "t": "The",
@@ -443,7 +443,7 @@
         },
         {
           "t": "voice",
-          "s": null
+          "s": "G5456"
         },
         {
           "t": "of",
@@ -455,11 +455,11 @@
         },
         {
           "t": "crying",
-          "s": null
+          "s": "G994"
         },
         {
           "t": "in",
-          "s": null
+          "s": "G1722"
         },
         {
           "t": "the",
@@ -467,7 +467,7 @@
         },
         {
           "t": "wilderness,",
-          "s": null
+          "s": "G2048"
         },
         {
           "t": "Prepare",
@@ -475,7 +475,7 @@
         },
         {
           "t": "ye",
-          "s": null
+          "s": "G2090"
         },
         {
           "t": "the",
@@ -483,7 +483,7 @@
         },
         {
           "t": "way",
-          "s": null
+          "s": "G3598"
         },
         {
           "t": "of",
@@ -495,23 +495,23 @@
         },
         {
           "t": "Lord,",
-          "s": null
+          "s": "G2962"
         },
         {
           "t": "make",
-          "s": null
+          "s": "G4160"
         },
         {
           "t": "his",
-          "s": null
+          "s": "G846"
         },
         {
           "t": "paths",
-          "s": null
+          "s": "G5147"
         },
         {
           "t": "straight.",
-          "s": null
+          "s": "G2117"
         }
       ],
       "alignments": {
@@ -659,11 +659,11 @@
       "kjv": [
         {
           "t": "Every",
-          "s": null
+          "s": "G3956"
         },
         {
           "t": "valley",
-          "s": null
+          "s": "G5327"
         },
         {
           "t": "shall",
@@ -671,31 +671,31 @@
         },
         {
           "t": "be",
-          "s": null
+          "s": "G2071"
         },
         {
           "t": "filled,",
-          "s": null
+          "s": "G4137"
         },
         {
           "t": "and",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "every",
-          "s": null
+          "s": "G3956"
         },
         {
           "t": "mountain",
-          "s": null
+          "s": "G3735"
         },
         {
           "t": "and",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "hill",
-          "s": null
+          "s": "G1015"
         },
         {
           "t": "shall",
@@ -711,11 +711,11 @@
         },
         {
           "t": "low;",
-          "s": null
+          "s": "G5013"
         },
         {
           "t": "and",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "the",
@@ -723,7 +723,7 @@
         },
         {
           "t": "crooked",
-          "s": null
+          "s": "G4646"
         },
         {
           "t": "shall",
@@ -735,15 +735,15 @@
         },
         {
           "t": "made",
-          "s": null
+          "s": "G1519"
         },
         {
           "t": "straight,",
-          "s": null
+          "s": "G2117"
         },
         {
           "t": "and",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "the",
@@ -751,11 +751,11 @@
         },
         {
           "t": "rough",
-          "s": null
+          "s": "G5138"
         },
         {
           "t": "ways",
-          "s": null
+          "s": "G3598"
         },
         {
           "t": "shall",
@@ -767,11 +767,11 @@
         },
         {
           "t": "made",
-          "s": null
+          "s": "G1519"
         },
         {
           "t": "smooth;",
-          "s": null
+          "s": "G3006"
         }
       ],
       "alignments": {
@@ -919,15 +919,15 @@
       "kjv": [
         {
           "t": "And",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "all",
-          "s": null
+          "s": "G3956"
         },
         {
           "t": "flesh",
-          "s": null
+          "s": "G4561"
         },
         {
           "t": "shall",
@@ -935,7 +935,7 @@
         },
         {
           "t": "see",
-          "s": null
+          "s": "G3700"
         },
         {
           "t": "the",
@@ -943,7 +943,7 @@
         },
         {
           "t": "salvation",
-          "s": null
+          "s": "G4992"
         },
         {
           "t": "of",
@@ -951,7 +951,7 @@
         },
         {
           "t": "God.",
-          "s": null
+          "s": "G2316"
         }
       ],
       "alignments": {
@@ -1008,11 +1008,11 @@
       "kjv": [
         {
           "t": "Then",
-          "s": null
+          "s": "G3767"
         },
         {
           "t": "said",
-          "s": null
+          "s": "G3004"
         },
         {
           "t": "he",
@@ -1028,7 +1028,7 @@
         },
         {
           "t": "multitude",
-          "s": null
+          "s": "G3793"
         },
         {
           "t": "that",
@@ -1040,7 +1040,7 @@
         },
         {
           "t": "forth",
-          "s": null
+          "s": "G1607"
         },
         {
           "t": "to",
@@ -1052,15 +1052,15 @@
         },
         {
           "t": "baptized",
-          "s": null
+          "s": "G907"
         },
         {
           "t": "of",
-          "s": null
+          "s": "G5259"
         },
         {
           "t": "him,",
-          "s": null
+          "s": "G846"
         },
         {
           "t": "O",
@@ -1068,7 +1068,7 @@
         },
         {
           "t": "generation",
-          "s": null
+          "s": "G1081"
         },
         {
           "t": "of",
@@ -1076,11 +1076,11 @@
         },
         {
           "t": "vipers,",
-          "s": null
+          "s": "G2191"
         },
         {
           "t": "who",
-          "s": null
+          "s": "G5101"
         },
         {
           "t": "hath",
@@ -1088,11 +1088,11 @@
         },
         {
           "t": "warned",
-          "s": null
+          "s": "G5263"
         },
         {
           "t": "you",
-          "s": null
+          "s": "G5213"
         },
         {
           "t": "to",
@@ -1100,11 +1100,11 @@
         },
         {
           "t": "flee",
-          "s": null
+          "s": "G5343"
         },
         {
           "t": "from",
-          "s": null
+          "s": "G575"
         },
         {
           "t": "the",
@@ -1112,7 +1112,7 @@
         },
         {
           "t": "wrath",
-          "s": null
+          "s": "G3709"
         },
         {
           "t": "to",
@@ -1120,7 +1120,7 @@
         },
         {
           "t": "come?",
-          "s": null
+          "s": "G3195"
         }
       ],
       "alignments": {
@@ -1244,19 +1244,19 @@
         },
         {
           "t": "forth",
-          "s": null
+          "s": "G4160"
         },
         {
           "t": "therefore",
-          "s": null
+          "s": "G3767"
         },
         {
           "t": "fruits",
-          "s": null
+          "s": "G2590"
         },
         {
           "t": "worthy",
-          "s": null
+          "s": "G514"
         },
         {
           "t": "of",
@@ -1264,19 +1264,19 @@
         },
         {
           "t": "repentance,",
-          "s": null
+          "s": "G3341"
         },
         {
           "t": "and",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "begin",
-          "s": null
+          "s": "G756"
         },
         {
           "t": "not",
-          "s": null
+          "s": "G3361"
         },
         {
           "t": "to",
@@ -1284,15 +1284,15 @@
         },
         {
           "t": "say",
-          "s": null
+          "s": "G3004"
         },
         {
           "t": "within",
-          "s": null
+          "s": "G1722"
         },
         {
           "t": "yourselves,",
-          "s": null
+          "s": "G1438"
         },
         {
           "t": "We",
@@ -1300,11 +1300,11 @@
         },
         {
           "t": "have",
-          "s": null
+          "s": "G2192"
         },
         {
           "t": "Abraham",
-          "s": null
+          "s": "G11"
         },
         {
           "t": "to",
@@ -1316,11 +1316,11 @@
         },
         {
           "t": "father:",
-          "s": null
+          "s": "G3962"
         },
         {
           "t": "for",
-          "s": null
+          "s": "G1063"
         },
         {
           "t": "I",
@@ -1328,7 +1328,7 @@
         },
         {
           "t": "say",
-          "s": null
+          "s": "G3004"
         },
         {
           "t": "unto",
@@ -1336,15 +1336,15 @@
         },
         {
           "t": "you,",
-          "s": null
+          "s": "G5213"
         },
         {
           "t": "That",
-          "s": null
+          "s": "G3754"
         },
         {
           "t": "God",
-          "s": null
+          "s": "G2316"
         },
         {
           "t": "is",
@@ -1352,19 +1352,19 @@
         },
         {
           "t": "able",
-          "s": null
+          "s": "G1410"
         },
         {
           "t": "of",
-          "s": null
+          "s": "G1537"
         },
         {
           "t": "these",
-          "s": null
+          "s": "G5130"
         },
         {
           "t": "stones",
-          "s": null
+          "s": "G3037"
         },
         {
           "t": "to",
@@ -1376,11 +1376,11 @@
         },
         {
           "t": "up",
-          "s": null
+          "s": "G1453"
         },
         {
           "t": "children",
-          "s": null
+          "s": "G5043"
         },
         {
           "t": "unto",
@@ -1388,27 +1388,7 @@
         },
         {
           "t": "Abraham.",
-          "s": null
-        },
-        {
-          "t": "<sup>worthy",
-          "s": null
-        },
-        {
-          "t": "of:",
-          "s": null
-        },
-        {
-          "t": "or,",
-          "s": null
-        },
-        {
-          "t": "meet",
-          "s": null
-        },
-        {
-          "t": "for</sup>",
-          "s": null
+          "s": "G11"
         }
       ],
       "alignments": {
@@ -1612,15 +1592,15 @@
       "kjv": [
         {
           "t": "And",
-          "s": null
+          "s": "G1161"
         },
         {
           "t": "now",
-          "s": null
+          "s": "G2235"
         },
         {
           "t": "also",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "the",
@@ -1628,7 +1608,7 @@
         },
         {
           "t": "axe",
-          "s": null
+          "s": "G513"
         },
         {
           "t": "is",
@@ -1636,11 +1616,11 @@
         },
         {
           "t": "laid",
-          "s": null
+          "s": "G2749"
         },
         {
           "t": "unto",
-          "s": null
+          "s": "G4314"
         },
         {
           "t": "the",
@@ -1648,7 +1628,7 @@
         },
         {
           "t": "root",
-          "s": null
+          "s": "G4491"
         },
         {
           "t": "of",
@@ -1660,19 +1640,19 @@
         },
         {
           "t": "trees:",
-          "s": null
+          "s": "G1186"
         },
         {
           "t": "every",
-          "s": null
+          "s": "G3956"
         },
         {
           "t": "tree",
-          "s": null
+          "s": "G1186"
         },
         {
           "t": "therefore",
-          "s": null
+          "s": "G3767"
         },
         {
           "t": "which",
@@ -1680,23 +1660,23 @@
         },
         {
           "t": "bringeth",
-          "s": null
+          "s": "G4160"
         },
         {
           "t": "not",
-          "s": null
+          "s": "G3361"
         },
         {
           "t": "forth",
-          "s": null
+          "s": "G4160"
         },
         {
           "t": "good",
-          "s": null
+          "s": "G2570"
         },
         {
           "t": "fruit",
-          "s": null
+          "s": "G2590"
         },
         {
           "t": "is",
@@ -1708,19 +1688,19 @@
         },
         {
           "t": "down,",
-          "s": null
+          "s": "G1581"
         },
         {
           "t": "and",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "cast",
-          "s": null
+          "s": "G906"
         },
         {
           "t": "into",
-          "s": null
+          "s": "G1519"
         },
         {
           "t": "the",
@@ -1728,7 +1708,7 @@
         },
         {
           "t": "fire.",
-          "s": null
+          "s": "G4442"
         }
       ],
       "alignments": {
@@ -1883,7 +1863,7 @@
       "kjv": [
         {
           "t": "And",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "the",
@@ -1891,23 +1871,23 @@
         },
         {
           "t": "people",
-          "s": null
+          "s": "G3793"
         },
         {
           "t": "asked",
-          "s": null
+          "s": "G1905"
         },
         {
           "t": "him,",
-          "s": null
+          "s": "G846"
         },
         {
           "t": "saying,",
-          "s": null
+          "s": "G3004"
         },
         {
           "t": "What",
-          "s": null
+          "s": "G5101"
         },
         {
           "t": "shall",
@@ -1919,11 +1899,11 @@
         },
         {
           "t": "do",
-          "s": null
+          "s": "G4160"
         },
         {
           "t": "then?",
-          "s": null
+          "s": "G3767"
         }
       ],
       "alignments": {
@@ -1998,15 +1978,15 @@
         },
         {
           "t": "answereth",
-          "s": null
+          "s": "G611"
         },
         {
           "t": "and",
-          "s": null
+          "s": "G1161"
         },
         {
           "t": "saith",
-          "s": null
+          "s": "G3004"
         },
         {
           "t": "unto",
@@ -2014,7 +1994,7 @@
         },
         {
           "t": "them,",
-          "s": null
+          "s": "G846"
         },
         {
           "t": "He",
@@ -2026,15 +2006,15 @@
         },
         {
           "t": "hath",
-          "s": null
+          "s": "G2192"
         },
         {
           "t": "two",
-          "s": null
+          "s": "G1417"
         },
         {
           "t": "coats,",
-          "s": null
+          "s": "G5509"
         },
         {
           "t": "let",
@@ -2046,7 +2026,7 @@
         },
         {
           "t": "impart",
-          "s": null
+          "s": "G3330"
         },
         {
           "t": "to",
@@ -2062,15 +2042,15 @@
         },
         {
           "t": "hath",
-          "s": null
+          "s": "G2192"
         },
         {
           "t": "none;",
-          "s": null
+          "s": "G3361"
         },
         {
           "t": "and",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "he",
@@ -2082,11 +2062,11 @@
         },
         {
           "t": "hath",
-          "s": null
+          "s": "G2192"
         },
         {
           "t": "meat,",
-          "s": null
+          "s": "G1033"
         },
         {
           "t": "let",
@@ -2098,11 +2078,11 @@
         },
         {
           "t": "do",
-          "s": null
+          "s": "G4160"
         },
         {
           "t": "likewise.",
-          "s": null
+          "s": "G3668"
         }
       ],
       "alignments": {
@@ -2222,19 +2202,19 @@
       "kjv": [
         {
           "t": "Then",
-          "s": null
+          "s": "G1161"
         },
         {
           "t": "came",
-          "s": null
+          "s": "G2064"
         },
         {
           "t": "also",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "publicans",
-          "s": null
+          "s": "G5057"
         },
         {
           "t": "to",
@@ -2246,31 +2226,31 @@
         },
         {
           "t": "baptized,",
-          "s": null
+          "s": "G907"
         },
         {
           "t": "and",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "said",
-          "s": null
+          "s": "G2036"
         },
         {
           "t": "unto",
-          "s": null
+          "s": "G4314"
         },
         {
           "t": "him,",
-          "s": null
+          "s": "G846"
         },
         {
           "t": "Master,",
-          "s": null
+          "s": "G1320"
         },
         {
           "t": "what",
-          "s": null
+          "s": "G5101"
         },
         {
           "t": "shall",
@@ -2282,7 +2262,7 @@
         },
         {
           "t": "do?",
-          "s": null
+          "s": "G4160"
         }
       ],
       "alignments": {
@@ -2381,7 +2361,7 @@
       "kjv": [
         {
           "t": "And",
-          "s": null
+          "s": "G1161"
         },
         {
           "t": "he",
@@ -2389,31 +2369,31 @@
         },
         {
           "t": "said",
-          "s": null
+          "s": "G2036"
         },
         {
           "t": "unto",
-          "s": null
+          "s": "G4314"
         },
         {
           "t": "them,",
-          "s": null
+          "s": "G846"
         },
         {
           "t": "Exact",
-          "s": null
+          "s": "G4238"
         },
         {
           "t": "no",
-          "s": null
+          "s": "G3367"
         },
         {
           "t": "more",
-          "s": null
+          "s": "G4119"
         },
         {
           "t": "than",
-          "s": null
+          "s": "G3844"
         },
         {
           "t": "that",
@@ -2429,11 +2409,11 @@
         },
         {
           "t": "appointed",
-          "s": null
+          "s": "G1299"
         },
         {
           "t": "you.",
-          "s": null
+          "s": "G5213"
         }
       ],
       "alignments": {
@@ -2518,7 +2498,7 @@
       "kjv": [
         {
           "t": "And",
-          "s": null
+          "s": "G1161"
         },
         {
           "t": "the",
@@ -2526,15 +2506,15 @@
         },
         {
           "t": "soldiers",
-          "s": null
+          "s": "G4754"
         },
         {
           "t": "likewise",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "demanded",
-          "s": null
+          "s": "G1905"
         },
         {
           "t": "of",
@@ -2542,19 +2522,19 @@
         },
         {
           "t": "him,",
-          "s": null
+          "s": "G846"
         },
         {
           "t": "saying,",
-          "s": null
+          "s": "G3004"
         },
         {
           "t": "And",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "what",
-          "s": null
+          "s": "G5101"
         },
         {
           "t": "shall",
@@ -2562,15 +2542,15 @@
         },
         {
           "t": "we",
-          "s": null
+          "s": "G2249"
         },
         {
           "t": "do?",
-          "s": null
+          "s": "G4160"
         },
         {
           "t": "And",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "he",
@@ -2578,15 +2558,15 @@
         },
         {
           "t": "said",
-          "s": null
+          "s": "G2036"
         },
         {
           "t": "unto",
-          "s": null
+          "s": "G4314"
         },
         {
           "t": "them,",
-          "s": null
+          "s": "G846"
         },
         {
           "t": "Do",
@@ -2594,7 +2574,7 @@
         },
         {
           "t": "violence",
-          "s": null
+          "s": "G1286"
         },
         {
           "t": "to",
@@ -2606,11 +2586,11 @@
         },
         {
           "t": "man,",
-          "s": null
+          "s": "G3367"
         },
         {
           "t": "neither",
-          "s": null
+          "s": "G3366"
         },
         {
           "t": "accuse",
@@ -2622,11 +2602,11 @@
         },
         {
           "t": "falsely;",
-          "s": null
+          "s": "G4811"
         },
         {
           "t": "and",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "be",
@@ -2634,7 +2614,7 @@
         },
         {
           "t": "content",
-          "s": null
+          "s": "G714"
         },
         {
           "t": "with",
@@ -2642,55 +2622,11 @@
         },
         {
           "t": "your",
-          "s": null
+          "s": "G5216"
         },
         {
           "t": "wages.",
-          "s": null
-        },
-        {
-          "t": "<sup>Do",
-          "s": null
-        },
-        {
-          "t": "violence:",
-          "s": null
-        },
-        {
-          "t": "or,",
-          "s": null
-        },
-        {
-          "t": "Put",
-          "s": null
-        },
-        {
-          "t": "no",
-          "s": null
-        },
-        {
-          "t": "man",
-          "s": null
-        },
-        {
-          "t": "in",
-          "s": null
-        },
-        {
-          "t": "fear</sup>",
-          "s": null
-        },
-        {
-          "t": "<sup>wages:",
-          "s": null
-        },
-        {
-          "t": "or,",
-          "s": null
-        },
-        {
-          "t": "allowance</sup>",
-          "s": null
+          "s": "G3800"
         }
       ],
       "alignments": {
@@ -2880,7 +2816,7 @@
       "kjv": [
         {
           "t": "And",
-          "s": null
+          "s": "G1161"
         },
         {
           "t": "as",
@@ -2892,7 +2828,7 @@
         },
         {
           "t": "people",
-          "s": null
+          "s": "G2992"
         },
         {
           "t": "were",
@@ -2904,11 +2840,11 @@
         },
         {
           "t": "expectation,",
-          "s": null
+          "s": "G4328"
         },
         {
           "t": "and",
-          "s": null
+          "s": "G2532"
         },
         {
           "t": "all",
@@ -2916,43 +2852,43 @@
         },
         {
           "t": "men",
-          "s": null
+          "s": "G3956"
         },
         {
           "t": "mused",
-          "s": null
+          "s": "G1260"
         },
         {
           "t": "in",
-          "s": null
+          "s": "G1722"
         },
         {
           "t": "their",
-          "s": null
+          "s": "G846"
         },
         {
           "t": "hearts",
-          "s": null
+          "s": "G2588"
         },
         {
           "t": "of",
-          "s": null
+          "s": "G4012"
         },
         {
           "t": "John,",
-          "s": null
+          "s": "G2491"
         },
         {
           "t": "whether",
-          "s": null
+          "s": "G3379"
         },
         {
           "t": "he",
-          "s": null
+          "s": "G846"
         },
         {
           "t": "were",
-          "s": null
+          "s": "G1498"
         },
         {
           "t": "the",
@@ -2960,7 +2896,7 @@
         },
         {
           "t": "Christ,",
-          "s": null
+          "s": "G5547"
         },
         {
           "t": "or",
@@ -2968,47 +2904,7 @@
         },
         {
           "t": "not;",
-          "s": null
-        },
-        {
-          "t": "<sup>in",
-          "s": null
-        },
-        {
-          "t": "expectation:",
-          "s": null
-        },
-        {
-          "t": "or,",
-          "s": null
-        },
-        {
-          "t": "in",
-          "s": null
-        },
-        {
-          "t": "suspense</sup>",
-          "s": null
-        },
-        {
-          "t": "<sup>mused:",
-          "s": null
-        },
-        {
-          "t": "or,",
-          "s": null
-        },
-        {
-          "t": "reasoned,",
-          "s": null
-        },
-        {
-          "t": "or,",
-          "s": null
-        },
-        {
-          "t": "debated</sup>",
-          "s": null
+          "s": "G3379"
         }
       ],
       "alignments": {

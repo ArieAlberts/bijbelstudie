@@ -84,14 +84,35 @@ function parseSvAlignments(rawText, testament) {
   return alignments;
 }
 
-function parseKjvTokens(rawText) {
-  const cleanText = cleanSvText(rawText);
-  const words = cleanText.split(' ');
-  return words.map(w => ({ t: w, s: null }));
+function parseKjvTokens(rawText, testament) {
+  // Remove <sup>...</sup> footnotes from KJV text
+  const cleanText = rawText.replace(/<sup>[\s\S]*?<\/sup>/gi, '').trim();
+  const prefix = testament === 'NT' ? 'G' : 'H';
+  const tokens = [];
+
+  const words = cleanText.split(/\s+/);
+  
+  for (const wordStr of words) {
+    if (!wordStr) continue;
+    const match = wordStr.match(/^([^\s<]+)(?:<S>(\d+)<\/S>)?$/);
+    if (match) {
+      const surface = match[1];
+      const strongNum = match[2];
+      const strongTag = strongNum ? `${prefix}${strongNum}` : null;
+      tokens.push({ t: surface, s: strongTag });
+    } else {
+      const cleanWord = wordStr.replace(/<S>\d+<\/S>/g, '');
+      const tagMatch = wordStr.match(/<S>(\d+)<\/S>/);
+      const strongTag = tagMatch ? `${prefix}${tagMatch[1]}` : null;
+      tokens.push({ t: cleanWord, s: strongTag });
+    }
+  }
+
+  return tokens;
 }
 
 async function fetchAll() {
-  console.log("Fetching authentic verbatim Bible data from Bolls.life API for all parashot including Pinchas...");
+  console.log("Fetching authentic verbatim Bible data with Strong's tags for DSV and KJV...");
   const svDb = {};
   const kjvDb = {};
 
@@ -99,6 +120,7 @@ async function fetchAll() {
     const bookId = BOOK_IDS[item.book];
     if (!bookId) continue;
     const ch = item.ch;
+    const testament = (item.book === 'John' || item.book === 'Matt' || item.book === 'Mark' || item.book === 'Luke') ? 'NT' : 'OT';
     console.log(`Fetching ${item.book} ${ch}...`);
 
     try {
@@ -108,7 +130,6 @@ async function fetchAll() {
         dataSv.forEach(v => {
           const key = `${item.book}.${ch}.${v.verse}`;
           const cleanText = cleanSvText(v.text);
-          const testament = (item.book === 'John' || item.book === 'Matt' || item.book === 'Mark' || item.book === 'Luke') ? 'NT' : 'OT';
           const alignments = parseSvAlignments(v.text, testament);
           svDb[key] = {
             sv: cleanText,
@@ -126,7 +147,7 @@ async function fetchAll() {
         const dataKjv = await resKjv.json();
         dataKjv.forEach(v => {
           const key = `${item.book}.${ch}.${v.verse}`;
-          const tokens = parseKjvTokens(v.text);
+          const tokens = parseKjvTokens(v.text, testament);
           kjvDb[key] = {
             kjv: tokens
           };
@@ -150,7 +171,7 @@ async function fetchAll() {
 
   const outPath = path.join(rootDir, 'scripts', 'authentic-bible-cache.json');
   fs.writeFileSync(outPath, JSON.stringify(combined, null, 2), 'utf-8');
-  console.log(`✓ Successfully downloaded and cached ${Object.keys(combined).length} authentic verbatim verses to ${outPath}!`);
+  console.log(`✓ Successfully downloaded and cached ${Object.keys(combined).length} authentic verbatim verses with KJV Strong's tagging to ${outPath}!`);
 }
 
 fetchAll();
