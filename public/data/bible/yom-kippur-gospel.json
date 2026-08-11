@@ -3508,6 +3508,7 @@
         "afterward",
         "after",
         "yea",
+        "even",
         "also",
         "now often unexpressed in english"
       ]
@@ -3568,7 +3569,8 @@
         "man",
         "men",
         "certain",
-        "shepherds"
+        "shepherds",
+        "nobleman"
       ]
     },
     "G2064": {
@@ -3592,6 +3594,7 @@
         "hij",
         "zijnde",
         "zij",
+        "kome",
         "ik",
         "kom"
       ],
@@ -3640,6 +3643,7 @@
         "toen",
         "met",
         "werd",
+        "daarin",
         "aan"
       ],
       "usage_en": [
@@ -3657,6 +3661,8 @@
         "about",
         "within",
         "baptized",
+        "when",
+        "therein",
         "after",
         "against",
         "+ almost",
@@ -3684,7 +3690,6 @@
         "through-out",
         "un-to-ward",
         "under",
-        "when",
         "where-with",
         "with-in"
       ]
@@ -3744,6 +3749,7 @@
         "same",
         "she",
         "himself",
+        "thereof",
         "miracles",
         "this",
         "very",
@@ -3809,6 +3815,7 @@
         "dat",
         "zo",
         "[ook",
+        "dan",
         "met",
         "[alzo"
       ],
@@ -3825,6 +3832,7 @@
         "but",
         "yet",
         "that",
+        "which",
         "with",
         "for",
         "nor",
@@ -3981,7 +3989,8 @@
       "usage_nl": [
         "zitten",
         "heeft",
-        "zat"
+        "zat",
+        "gezeten"
       ],
       "usage_en": [
         "sit",
@@ -4011,6 +4020,7 @@
         "boven",
         "daarbij",
         "tot",
+        "waarop",
         "naar",
         "daarop",
         "van"
@@ -4154,12 +4164,15 @@
       "gloss_en": "\"off,\" i.e. away (from something near), in various senses (of place, time, or relation; literal or figurative)",
       "usage_nl": [
         "van",
-        "uit"
+        "uit",
+        "vanwege",
+        "voor"
       ],
       "usage_en": [
         "from",
         "of",
         "since",
+        "for",
         "x here-after",
         "ago",
         "at",
@@ -4471,6 +4484,7 @@
         "zeggen",
         "ik",
         "is",
+        "gij",
         "gezegd",
         "heeft"
       ],
@@ -4767,10 +4781,11 @@
         "gegeven",
         "heeft",
         "gaven",
+        "ik",
+        "had",
         "zal",
         "gaf",
-        "geef",
-        "ik"
+        "geef"
       ],
       "usage_en": [
         "give",
@@ -4779,6 +4794,9 @@
         "shall",
         "gave",
         "offer",
+        "delivered",
+        "gavest",
+        "thou",
         "giveth",
         "adventure",
         "bestow",
@@ -4911,10 +4929,14 @@
       "gloss_nl": null,
       "gloss_en": "to throw all around, i.e. invest (with a palisade or with clothing)",
       "usage_nl": [
-        "gekleed"
+        "gekleed",
+        "rondom",
+        "opwerpen"
       ],
       "usage_en": [
         "clothed",
+        "cast",
+        "about",
         "array",
         "cast about",
         "clothe-d me",
@@ -5123,6 +5145,7 @@
       "usage_en": [
         "lord",
         "lord's",
+        "owners",
         "sir",
         "god",
         "master"
@@ -5182,6 +5205,7 @@
         "hadden",
         "zoude",
         "gij",
+        "hij",
         "wisten",
         "hebbende",
         "hebt",
@@ -5201,6 +5225,7 @@
         "seen",
         "should",
         "ye",
+        "beheld",
         "knew",
         "be aware",
         "behold",
@@ -5390,6 +5415,7 @@
       ],
       "usage_en": [
         "least",
+        "little",
         "very little small",
         "smallest"
       ]
@@ -5433,6 +5459,8 @@
         "voort",
         "voortbrengt",
         "deed",
+        "gewonnen",
+        "zouden",
         "doet",
         "hebbende",
         "had",
@@ -5452,6 +5480,7 @@
         "dealt",
         "forth",
         "bringeth",
+        "gained",
         "doest",
         "shewest",
         "doeth",
@@ -5537,6 +5566,8 @@
         "weg",
         "gingen",
         "reisden",
+        "reisde",
+        "hij",
         "zijn"
       ],
       "usage_en": [
@@ -5607,6 +5638,7 @@
         "aan",
         "zij",
         "binnen",
+        "nabij",
         "onder",
         "daar",
         "terug",
@@ -5825,7 +5857,8 @@
         "die",
         "dit",
         "dezen",
-        "zij"
+        "zij",
+        "hij"
       ],
       "usage_en": [
         "these",
@@ -5862,6 +5895,7 @@
         "heengegaan",
         "gaan",
         "waren",
+        "zijnde",
         "vertrok",
         "gingen",
         "gaat",

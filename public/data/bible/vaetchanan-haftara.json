@@ -4975,6 +4975,7 @@
         "heart",
         "midst",
         "comfortably",
+        "mind",
         "care for",
         "consent",
         "considered",
@@ -5394,7 +5395,8 @@
         "hale",
         "worden",
         "is",
-        "wegnemen"
+        "wegnemen",
+        "aannemen"
       ],
       "usage_en": [
         "took",
@@ -5464,17 +5466,18 @@
         "stem",
         "stemme",
         "geruis",
-        "stilte"
+        "stilte",
+        "gerucht"
       ],
       "usage_en": [
         "voice",
         "aloud",
         "sound",
+        "lightness",
         "bleating",
         "crackling",
         "cry out",
         "fame",
-        "lightness",
         "lowing",
         "noise",
         "hold peace",
@@ -5524,7 +5527,8 @@
         "afwenden",
         "gewend",
         "wenden",
-        "bereidt"
+        "bereidt",
+        "toe"
       ],
       "usage_en": [
         "turn",
@@ -5624,13 +5628,15 @@
         "velden",
         "veld",
         "velds",
-        "wildernis"
+        "wildernis",
+        "wildernissen"
       ],
       "usage_en": [
         "plains",
         "plain",
         "champaign",
         "desert",
+        "deserts",
         "arabah",
         "evening",
         "heaven",
@@ -5813,7 +5819,8 @@
       "gloss_nl": null,
       "gloss_en": "a hillock",
       "usage_nl": [
-        "heuvelen"
+        "heuvelen",
+        "heuvel"
       ],
       "usage_en": [
         "hills",
@@ -5927,7 +5934,8 @@
       "gloss_en": "properly, weight, but only figuratively in a good sense, splendor or copiousness",
       "usage_nl": [
         "heerlijkheid",
-        "ere"
+        "ere",
+        "eer"
       ],
       "usage_en": [
         "glory",
@@ -6066,7 +6074,8 @@
         "vertonen",
         "aan",
         "zullen",
-        "aanschouw"
+        "aanschouw",
+        "gijlieden"
       ],
       "usage_en": [
         "saw",
@@ -6275,11 +6284,13 @@
       "gloss_en": "to be ashamed, confused or disappointed; also (as failing) to dry up (as water) or wither (as herbage)",
       "usage_nl": [
         "verdort",
-        "verdorren"
+        "verdorren",
+        "beschaamd"
       ],
       "usage_en": [
         "withereth",
         "wither",
+        "ashamed",
         "be ashamed",
         "clean",
         "be confounded",
@@ -6375,14 +6386,15 @@
       "gloss_en": "firmly; figuratively, surely; also (advers.) but",
       "usage_nl": [
         "voorwaar",
-        "gewisselijk"
+        "gewisselijk",
+        "waarlijk"
       ],
       "usage_en": [
         "surely",
+        "truly",
         "but",
         "certainly",
         "nevertheless",
-        "truly",
         "verily."
       ]
     },
@@ -6614,6 +6626,7 @@
         "lasting",
         "eternal",
         "never",
+        "time",
         "alway-s",
         "ancient time",
         "any more",
@@ -6715,7 +6728,8 @@
         "ga",
         "opvaren",
         "gij",
-        "heeft"
+        "heeft",
+        "opvoerde"
       ],
       "usage_en": [
         "fell",
@@ -6915,7 +6929,8 @@
         "dingen",
         "vreze",
         "vreselijken",
-        "gevreesd"
+        "gevreesd",
+        "vreesde"
       ],
       "usage_en": [
         "fear",
@@ -7092,6 +7107,7 @@
         "comest",
         "up",
         "cometh",
+        "entered",
         "apply",
         "attain",
         "be",
@@ -7273,7 +7289,8 @@
         "tegenover",
         "aangezichten",
         "henen",
-        "aangezichts"
+        "aangezichts",
+        "toorn"
       ],
       "usage_en": [
         "before",
@@ -7300,9 +7317,9 @@
         "against",
         "for",
         "faces",
+        "anger",
         "accept",
         "a-be- fore-time",
-        "anger",
         "as long as",
         "battle",
         "because of",
@@ -7385,11 +7402,14 @@
         "hebben",
         "weiden",
         "herder",
-        "herders"
+        "herders",
+        "afgeweid"
       ],
       "usage_en": [
         "shepherd",
         "feed",
+        "pastors",
+        "broken",
         "break",
         "companion",
         "keep company with",
@@ -7517,7 +7537,8 @@
       "usage_nl": [
         "water",
         "wateren",
-        "twistwater"
+        "twistwater",
+        "waters"
       ],
       "usage_en": [
         "water",
@@ -7706,11 +7727,13 @@
       "usage_nl": [
         "onderhield",
         "heb",
-        "begrepen"
+        "begrepen",
+        "houden"
       ],
       "usage_en": [
         "fed",
         "comprehended",
+        "hold",
         "be able to",
         "can abide",
         "bear",
@@ -8022,7 +8045,8 @@
         "geven",
         "gelet",
         "verstaan",
-        "let"
+        "let",
+        "merkt"
       ],
       "usage_en": [
         "understanding",
@@ -8073,7 +8097,8 @@
         "zou",
         "leert",
         "zult",
-        "leerde"
+        "leerde",
+        "hebt"
       ],
       "usage_en": [
         "teach",
@@ -8981,6 +9006,8 @@
         "wood",
         "tree",
         "helve",
+        "stock",
+        "stocks",
         "carpenter",
         "gallows",
         "pine",
@@ -8988,7 +9015,6 @@
         "staff",
         "stalk",
         "stick",
-        "stock",
         "timber",
         "wood."
       ]
@@ -9216,6 +9242,7 @@
         "obeyeth",
         "publisheth",
         "proclaimed",
+        "obeyed",
         "attentively",
         "call gather together",
         "certainly",
@@ -9392,6 +9419,7 @@
         "bleef",
         "moge",
         "neder",
+        "gezeten",
         "worden"
       ],
       "usage_en": [
@@ -9414,6 +9442,7 @@
         "tarry",
         "set",
         "inhabited",
+        "inhabitant",
         "make to abide-ing",
         "continue",
         "cause to",
@@ -9646,7 +9675,8 @@
         "hij",
         "acht",
         "maakt",
-        "zwijgt"
+        "zwijgt",
+        "verheven"
       ],
       "usage_en": [
         "gave",
@@ -9685,6 +9715,7 @@
         "grant",
         "bringeth",
         "direct",
+        "yelled",
         "apply",
         "ascribe",
         "assign",
@@ -9762,11 +9793,13 @@
         "rechter",
         "doet",
         "recht",
-        "richters"
+        "richters",
+        "rechten"
       ],
       "usage_en": [
         "judges",
         "judge",
+        "plead",
         "avenge",
         "that condemn",
         "contend",
@@ -9774,7 +9807,6 @@
         "execute judgment",
         "be a judge-ment",
         "needs",
-        "plead",
         "reason",
         "rule."
       ]
@@ -9862,6 +9894,7 @@
         "dressed",
         "maker",
         "accomplish",
+        "procured",
         "advance",
         "appoint",
         "apt",
@@ -9963,7 +9996,8 @@
         "bezaaien",
         "hebben",
         "gezaaid",
-        "zaaier"
+        "zaaier",
+        "onbezaaid"
       ],
       "usage_en": [
         "sowedst",
@@ -10357,7 +10391,8 @@
         "naam",
         "namen",
         "name",
-        "zal"
+        "zal",
+        "naams"
       ],
       "usage_en": [
         "name",

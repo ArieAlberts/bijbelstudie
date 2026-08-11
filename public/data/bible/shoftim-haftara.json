@@ -5051,7 +5051,8 @@
         "dingen",
         "vreze",
         "vreselijken",
-        "gevreesd"
+        "gevreesd",
+        "vreesde"
       ],
       "usage_en": [
         "fear",
@@ -5358,7 +5359,8 @@
         "hij",
         "acht",
         "maakt",
-        "zwijgt"
+        "zwijgt",
+        "verheven"
       ],
       "usage_en": [
         "gave",
@@ -5397,6 +5399,7 @@
         "grant",
         "bringeth",
         "direct",
+        "yelled",
         "apply",
         "ascribe",
         "assign",
@@ -5590,6 +5593,7 @@
         "dressed",
         "maker",
         "accomplish",
+        "procured",
         "advance",
         "appoint",
         "apt",
@@ -5934,7 +5938,8 @@
         "tegenover",
         "aangezichten",
         "henen",
-        "aangezichts"
+        "aangezichts",
+        "toorn"
       ],
       "usage_en": [
         "before",
@@ -5961,9 +5966,9 @@
         "against",
         "for",
         "faces",
+        "anger",
         "accept",
         "a-be- fore-time",
-        "anger",
         "as long as",
         "battle",
         "because of",
@@ -6204,6 +6209,7 @@
         "utterly",
         "corrupters",
         "waster",
+        "destroying",
         "batter",
         "cast off",
         "corrupt-er",
@@ -6227,11 +6233,13 @@
       "gloss_en": "to tip over (for the purpose of spilling or pouring out), i.e. (figuratively) depopulate; by implication, to imprison or conquer; (reflexive) to lie down (for coitus)",
       "usage_nl": [
         "gevangene",
-        "voorttrekt"
+        "voorttrekt",
+        "om"
       ],
       "usage_en": [
         "exile",
         "travelling",
+        "wanderest",
         "captive exile",
         "cause to wander-er."
       ]
@@ -6550,7 +6558,8 @@
         "naam",
         "namen",
         "name",
-        "zal"
+        "zal",
+        "naams"
       ],
       "usage_en": [
         "name",
@@ -6595,7 +6604,8 @@
         "gij",
         "gelegd",
         "beschikken",
-        "stelde"
+        "stelde",
+        "steldet"
       ],
       "usage_en": [
         "make",
@@ -6845,13 +6855,15 @@
         "bedekt",
         "bedekken",
         "bedek",
-        "dekt"
+        "dekt",
+        "overdekt"
       ],
       "usage_en": [
         "cover",
         "conceal",
         "coverest",
         "covered",
+        "covereth",
         "clad self",
         "close",
         "clothe",
@@ -7969,6 +7981,7 @@
         "obeyeth",
         "publisheth",
         "proclaimed",
+        "obeyed",
         "attentively",
         "call gather together",
         "certainly",
@@ -8090,7 +8103,8 @@
         "hebt",
         "twisten",
         "twistzaak",
-        "zal"
+        "zal",
+        "gij"
       ],
       "usage_en": [
         "strive",
@@ -8137,7 +8151,8 @@
         "hale",
         "worden",
         "is",
-        "wegnemen"
+        "wegnemen",
+        "aannemen"
       ],
       "usage_en": [
         "took",
@@ -8279,6 +8294,7 @@
         "heart",
         "himself",
         "man",
+        "herself",
         "appetite",
         "beast",
         "body",
@@ -8383,7 +8399,9 @@
         "was",
         "voorbij",
         "gingen",
-        "ging"
+        "ging",
+        "doorging",
+        "dienen"
       ],
       "usage_en": [
         "pass",
@@ -8754,6 +8772,7 @@
         "comest",
         "up",
         "cometh",
+        "entered",
         "apply",
         "attain",
         "be",
@@ -8878,6 +8897,7 @@
         "bleef",
         "moge",
         "neder",
+        "gezeten",
         "worden"
       ],
       "usage_en": [
@@ -8900,6 +8920,7 @@
         "tarry",
         "set",
         "inhabited",
+        "inhabitant",
         "make to abide-ing",
         "continue",
         "cause to",
@@ -9292,9 +9313,9 @@
       ],
       "usage_en": [
         "assyrian",
+        "assyria",
         "asshur",
         "assur",
-        "assyria",
         "assyrians. see h838 אָשֻׁר."
       ]
     },
@@ -9882,17 +9903,18 @@
         "stem",
         "stemme",
         "geruis",
-        "stilte"
+        "stilte",
+        "gerucht"
       ],
       "usage_en": [
         "voice",
         "aloud",
         "sound",
+        "lightness",
         "bleating",
         "crackling",
         "cry out",
         "fame",
-        "lightness",
         "lowing",
         "noise",
         "hold peace",
@@ -10171,7 +10193,8 @@
         "vertonen",
         "aan",
         "zullen",
-        "aanschouw"
+        "aanschouw",
+        "gijlieden"
       ],
       "usage_en": [
         "saw",
@@ -10269,7 +10292,10 @@
         "zich",
         "wederkeert",
         "opmaakt",
-        "afkeert"
+        "afkeert",
+        "afgekeerd",
+        "u",
+        "bekeerd"
       ],
       "usage_en": [
         "returned",
@@ -10855,7 +10881,11 @@
         "wandelt",
         "henengaan",
         "zij",
-        "leidde"
+        "leidde",
+        "nawandeldet",
+        "nagewandeld",
+        "leidt",
+        "nawandelen"
       ],
       "usage_en": [
         "departed",
@@ -10877,6 +10907,8 @@
         "now",
         "come",
         "on",
+        "wentest",
+        "walked",
         "again",
         "away",
         "bear",
@@ -10933,7 +10965,10 @@
         "henentrekken",
         "heeft",
         "gaan",
-        "komen"
+        "komen",
+        "ga",
+        "en",
+        "nagewandeld"
       ],
       "usage_en": [
         "went",
@@ -10945,6 +10980,9 @@
         "on",
         "walking",
         "come",
+        "walked",
+        "gone",
+        "up",
         "all along",
         "apace",
         "behave self",

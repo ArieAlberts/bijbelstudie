@@ -2557,7 +2557,8 @@
         "gij",
         "gelegd",
         "beschikken",
-        "stelde"
+        "stelde",
+        "steldet"
       ],
       "usage_en": [
         "make",
@@ -2819,11 +2820,13 @@
       "usage_nl": [
         "geleerden",
         "worden",
-        "zijn"
+        "zijn",
+        "gewend"
       ],
       "usage_en": [
         "learned",
         "taught",
+        "used",
         "accustomed",
         "disciple",
         "used."
@@ -3068,7 +3071,8 @@
         "dingen",
         "vreze",
         "vreselijken",
-        "gevreesd"
+        "gevreesd",
+        "vreesde"
       ],
       "usage_en": [
         "fear",
@@ -3663,6 +3667,7 @@
         "utterly",
         "corrupters",
         "waster",
+        "destroying",
         "batter",
         "cast off",
         "corrupt-er",
@@ -3739,7 +3744,8 @@
       "usage_nl": [
         "maken",
         "gelukken",
-        "zijn"
+        "zijn",
+        "gedijen"
       ],
       "usage_en": [
         "prosper",
@@ -4072,7 +4078,11 @@
         "wandelt",
         "henengaan",
         "zij",
-        "leidde"
+        "leidde",
+        "nawandeldet",
+        "nagewandeld",
+        "leidt",
+        "nawandelen"
       ],
       "usage_en": [
         "departed",
@@ -4094,6 +4104,8 @@
         "now",
         "come",
         "on",
+        "wentest",
+        "walked",
         "again",
         "away",
         "bear",
@@ -4136,7 +4148,8 @@
       "usage_nl": [
         "water",
         "wateren",
-        "twistwater"
+        "twistwater",
+        "waters"
       ],
       "usage_en": [
         "water",
@@ -4220,7 +4233,10 @@
         "hij",
         "spijzen",
         "eter",
-        "spijzigen"
+        "spijzigen",
+        "opaten",
+        "verteerd",
+        "opgegeten"
       ],
       "usage_en": [
         "eat",
@@ -4488,6 +4504,7 @@
         "obeyeth",
         "publisheth",
         "proclaimed",
+        "obeyed",
         "attentively",
         "call gather together",
         "certainly",
@@ -4609,6 +4626,7 @@
         "heart",
         "himself",
         "man",
+        "herself",
         "appetite",
         "beast",
         "body",
@@ -4816,6 +4834,7 @@
         "lasting",
         "eternal",
         "never",
+        "time",
         "alway-s",
         "ancient time",
         "any more",
@@ -5082,7 +5101,8 @@
         "hij",
         "acht",
         "maakt",
-        "zwijgt"
+        "zwijgt",
+        "verheven"
       ],
       "usage_en": [
         "gave",
@@ -5121,6 +5141,7 @@
         "grant",
         "bringeth",
         "direct",
+        "yelled",
         "apply",
         "ascribe",
         "assign",

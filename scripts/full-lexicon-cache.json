@@ -2216,7 +2216,8 @@
     "gloss_en": "{affection (in a good or a bad sense)}",
     "usage_nl": [
       "liefhad",
-      "liefde"
+      "liefde",
+      "boelering"
     ],
     "usage_en": [
       "loved",
@@ -2519,6 +2520,7 @@
     ],
     "usage_en": [
       "because",
+      "causes",
       "be- cause",
       "concerning",
       "sake."
@@ -2577,6 +2579,7 @@
     "usage_en": [
       "after",
       "desire",
+      "pleasure",
       "lust after",
       "pleasure."
     ]
@@ -3287,10 +3290,12 @@
     "gloss_nl": null,
     "gloss_en": "to go away, hence, to disappear",
     "usage_nl": [
-      "weggegaan"
+      "weggegaan",
+      "gij"
     ],
     "usage_en": [
       "gone",
+      "about",
       "fail",
       "gad about",
       "go to and fro but in ezekiel 27:19 the word is rendered by many 'from uzal",
@@ -4355,7 +4360,10 @@
       "doodslager",
       "achterwaarts",
       "nawandelt",
-      "nahoereren"
+      "nahoereren",
+      "[naar",
+      "die",
+      "naar"
     ],
     "usage_en": [
       "after",
@@ -4368,6 +4376,7 @@
       "again",
       "behind",
       "him",
+      "me",
       "after that",
       "-ward",
       "at",
@@ -5735,7 +5744,10 @@
       "hij",
       "spijzen",
       "eter",
-      "spijzigen"
+      "spijzigen",
+      "opaten",
+      "verteerd",
+      "opgegeten"
     ],
     "usage_en": [
       "eat",
@@ -5835,14 +5847,15 @@
     "gloss_en": "firmly; figuratively, surely; also (advers.) but",
     "usage_nl": [
       "voorwaar",
-      "gewisselijk"
+      "gewisselijk",
+      "waarlijk"
     ],
     "usage_en": [
       "surely",
+      "truly",
       "but",
       "certainly",
       "nevertheless",
-      "truly",
       "verily."
     ]
   },
@@ -6432,13 +6445,15 @@
     "translit": "ʼallûwph",
     "gloss_nl": null,
     "gloss_en": "familiar; a friend, also gentle; hence, a bullock (as being tame; applied, although masculine, to a cow); and so, a chieftain (as notable, like neat cattle)",
-    "usage_nl": [],
+    "usage_nl": [
+      "leidsman"
+    ],
     "usage_en": [
+      "guide",
       "captain",
       "duke",
       "chief friend",
       "governor",
-      "guide",
       "ox."
     ]
   },
@@ -8320,15 +8335,16 @@
     "gloss_en": "stability; (figuratively) certainty, truth, trustworthiness",
     "usage_nl": [
       "waarheid",
-      "waarachtig"
+      "waarachtig",
+      "getrouw"
     ],
     "usage_en": [
       "truth",
       "true",
+      "right",
       "assured-ly",
       "establishment",
       "faithful",
-      "right",
       "sure",
       "true -ly",
       "-th",
@@ -10716,6 +10732,7 @@
     ],
     "usage_en": [
       "lion's",
+      "lion",
       "young lion",
       "pierce from the margin."
     ]
@@ -11654,9 +11671,9 @@
     ],
     "usage_en": [
       "assyrian",
+      "assyria",
       "asshur",
       "assur",
-      "assyria",
       "assyrians. see h838 אָשֻׁר."
     ]
   },
@@ -11810,8 +11827,11 @@
     "translit": "ʼâsham",
     "gloss_nl": null,
     "gloss_en": "to be guilty; by implication to be punished or perish",
-    "usage_nl": [],
+    "usage_nl": [
+      "gehouden"
+    ],
     "usage_en": [
+      "offend",
       "certainly",
       "be-come",
       "made desolate",
@@ -12425,10 +12445,12 @@
     "gloss_en": "to arrive",
     "usage_nl": [
       "aangekomen",
-      "hij"
+      "hij",
+      "komen"
     ],
     "usage_en": [
       "came",
+      "come",
       "be-",
       "things to come upon",
       "bring."
@@ -12697,8 +12719,11 @@
     "translit": "bôʼr",
     "gloss_nl": null,
     "gloss_en": "a cistern",
-    "usage_nl": [],
+    "usage_nl": [
+      "bakken"
+    ],
     "usage_en": [
+      "cisterns",
       "cistern."
     ]
   },
@@ -12964,8 +12989,14 @@
     "translit": "bâgad",
     "gloss_nl": null,
     "gloss_en": "to cover (with a garment); figuratively, to act covertly; by implication, to pillage",
-    "usage_nl": [],
+    "usage_nl": [
+      "trouweloze",
+      "trouwelooslijk",
+      "gehandeld"
+    ],
     "usage_en": [
+      "treacherous",
+      "treacherously",
       "deal deceitfully treacherously",
       "unfaithfully",
       "offend",
@@ -13025,8 +13056,11 @@
     "translit": "bâgôwd",
     "gloss_nl": null,
     "gloss_en": "treacherous",
-    "usage_nl": [],
+    "usage_nl": [
+      "trouweloze"
+    ],
     "usage_en": [
+      "treacherous",
       "treacherous."
     ]
   },
@@ -13580,6 +13614,7 @@
       "comest",
       "up",
       "cometh",
+      "entered",
       "apply",
       "attain",
       "be",
@@ -13872,7 +13907,8 @@
     "gloss_nl": null,
     "gloss_en": "properly, to pale, i.e. by implication to be ashamed; also (by implication) to be disappointed or delayed",
     "usage_nl": [
-      "worden"
+      "worden",
+      "zijt"
     ],
     "usage_en": [
       "ashamed",
@@ -13921,10 +13957,12 @@
     "gloss_nl": null,
     "gloss_en": "plunder",
     "usage_nl": [
-      "roof"
+      "roof",
+      "geworden"
     ],
     "usage_en": [
       "prey",
+      "spoiled",
       "booty",
       "spoil-ed."
     ]
@@ -14495,7 +14533,8 @@
       "geven",
       "gelet",
       "verstaan",
-      "let"
+      "let",
+      "merkt"
     ],
     "usage_en": [
       "understanding",
@@ -14673,6 +14712,7 @@
       "households",
       "home",
       "contain",
+      "homeborn",
       "court",
       "daughter",
       "door",
@@ -14681,7 +14721,6 @@
       "forth of",
       "great as would contain",
       "hangings",
-      "homeborn",
       "winter house-hold",
       "inside-ward",
       "palace",
@@ -15474,7 +15513,8 @@
     "gloss_nl": null,
     "gloss_en": "a weeping; by analogy, a dripping",
     "usage_nl": [
-      "wenens"
+      "wenens",
+      "geween"
     ],
     "usage_en": [
       "weeping",
@@ -15574,8 +15614,11 @@
     "translit": "bikrâh",
     "gloss_nl": null,
     "gloss_en": "a young she-camel",
-    "usage_nl": [],
+    "usage_nl": [
+      "kemelin"
+    ],
     "usage_en": [
+      "dromedary",
       "dromedary."
     ]
   },
@@ -16939,7 +16982,8 @@
       "man",
       "worden",
       "trouwt",
-      "trouwen"
+      "trouwen",
+      "getrouwd"
     ],
     "usage_en": [
       "husband",
@@ -18679,8 +18723,11 @@
     "translit": "bôrîyth",
     "gloss_nl": null,
     "gloss_en": "vegetable alkali",
-    "usage_nl": [],
+    "usage_nl": [
+      "zeep"
+    ],
     "usage_en": [
+      "soap",
       "sope."
     ]
   },
@@ -19203,7 +19250,8 @@
     "gloss_nl": null,
     "gloss_en": "shame (the feeling and the condition, as well as its cause); by implication (specifically) an idol",
     "usage_nl": [
-      "schaamte"
+      "schaamte",
+      "wordt"
     ],
     "usage_en": [
       "shame",
@@ -20193,7 +20241,8 @@
     "gloss_nl": null,
     "gloss_en": "a hillock",
     "usage_nl": [
-      "heuvelen"
+      "heuvelen",
+      "heuvel"
     ],
     "usage_en": [
       "hills",
@@ -23576,6 +23625,7 @@
     ],
     "usage_en": [
       "aloud",
+      "throat",
       "mouth",
       "neck",
       "throat."
@@ -26755,7 +26805,8 @@
     "gloss_nl": null,
     "gloss_en": "knowledge",
     "usage_nl": [
-      "wetenschappen"
+      "wetenschappen",
+      "wetenschap"
     ],
     "usage_en": [
       "knowledge",
@@ -27475,8 +27526,11 @@
     "translit": "hâbal",
     "gloss_nl": null,
     "gloss_en": "to be vain in act, word, or expectation; specifically to lead astray",
-    "usage_nl": [],
+    "usage_nl": [
+      "geworden"
+    ],
     "usage_en": [
+      "vain",
       "be become",
       "make vain."
     ]
@@ -28788,7 +28842,10 @@
       "henentrekken",
       "heeft",
       "gaan",
-      "komen"
+      "komen",
+      "ga",
+      "en",
+      "nagewandeld"
     ],
     "usage_en": [
       "went",
@@ -28800,6 +28857,9 @@
       "on",
       "walking",
       "come",
+      "walked",
+      "gone",
+      "up",
       "all along",
       "apace",
       "behave self",
@@ -29098,9 +29158,9 @@
     "usage_en": [
       "abundance",
       "sounding",
+      "multitude",
       "company",
       "many",
-      "multitude",
       "multiply",
       "noise",
       "riches",
@@ -31801,13 +31861,17 @@
       "hoereren",
       "hoererende",
       "geworden",
-      "bedrijft"
+      "bedrijft",
+      "gehoereerd",
+      "hoerenvoorhoofd",
+      "hoereerde"
     ],
     "usage_en": [
       "whoredom",
       "whore",
       "whoring",
       "harlot",
+      "whore's",
       "cause to commit fornication",
       "continually",
       "great",
@@ -31852,8 +31916,13 @@
     "translit": "zᵉnûwth",
     "gloss_nl": null,
     "gloss_en": "adultery, i.e. (figuratively) infidelity, idolatry",
-    "usage_nl": [],
+    "usage_nl": [
+      "hoererijen",
+      "hoererij"
+    ],
     "usage_en": [
+      "whoredoms",
+      "whoredom",
       "whoredom."
     ]
   },
@@ -32535,7 +32604,8 @@
       "bezaaien",
       "hebben",
       "gezaaid",
-      "zaaier"
+      "zaaier",
+      "onbezaaid"
     ],
     "usage_en": [
       "sowedst",
@@ -37014,11 +37084,13 @@
     "translit": "chemdâh",
     "gloss_nl": null,
     "gloss_en": "delight",
-    "usage_nl": [],
+    "usage_nl": [
+      "gewenste"
+    ],
     "usage_en": [
+      "pleasant",
       "desire",
       "goodly",
-      "pleasant",
       "precious."
     ]
   },
@@ -38144,14 +38216,20 @@
     "gloss_en": "to soil, especially in a moral sense",
     "usage_nl": [
       "ontheiligen",
-      "ontheiligt"
+      "ontheiligt",
+      "grotelijks",
+      "worden",
+      "ontheiligd",
+      "ontheiligde"
     ],
     "usage_en": [
       "pollute",
       "defileth",
+      "greatly",
+      "polluted",
+      "defiled",
       "corrupt",
       "defile",
-      "greatly",
       "profane."
     ]
   },
@@ -38338,15 +38416,16 @@
     "gloss_en": "properly, kind, i.e. (religiously) pious (a saint)",
     "usage_nl": [
       "gunstgenoot",
-      "gunstgenoten"
+      "gunstgenoten",
+      "goedertieren"
     ],
     "usage_en": [
       "holy",
       "saints",
+      "merciful",
       "godly man",
       "good",
       "holy one",
-      "merciful",
       "saint",
       "un- godly."
     ]
@@ -39083,7 +39162,8 @@
       "uitgehouwen",
       "hebt",
       "zult",
-      "zijt"
+      "zijt",
+      "houwen"
     ],
     "usage_en": [
       "digged",
@@ -39091,6 +39171,7 @@
       "dig",
       "hewn",
       "cut",
+      "out",
       "divide",
       "grave",
       "hew out",
@@ -39760,7 +39841,8 @@
       "droog",
       "hebt",
       "gans",
-      "worden"
+      "worden",
+      "woest"
     ],
     "usage_en": [
       "waste",
@@ -39768,6 +39850,7 @@
       "dried",
       "utterly",
       "wasted",
+      "desolate",
       "decay",
       "be desolate",
       "destroy-er",
@@ -42865,13 +42948,16 @@
       "worden",
       "verontreinigt",
       "verontreinigen",
-      "geworden"
+      "geworden",
+      "gij",
+      "verontreinigd"
     ],
     "usage_en": [
       "unclean",
       "uncleanness",
       "defile",
       "defiled",
+      "polluted",
       "defile self",
       "pollute self",
       "be make",
@@ -43542,8 +43628,11 @@
     "translit": "Yôʼshîyâh",
     "gloss_nl": null,
     "gloss_en": "Joshijah, the name of two Israelites",
-    "usage_nl": [],
+    "usage_nl": [
+      "josia"
+    ],
     "usage_en": [
+      "josiah",
       "josiah."
     ]
   },
@@ -43865,11 +43954,13 @@
     "gloss_en": "to be ashamed, confused or disappointed; also (as failing) to dry up (as water) or wither (as herbage)",
     "usage_nl": [
       "verdort",
-      "verdorren"
+      "verdorren",
+      "beschaamd"
     ],
     "usage_en": [
       "withereth",
       "wither",
+      "ashamed",
       "be ashamed",
       "clean",
       "be confounded",
@@ -46513,8 +46604,11 @@
     "translit": "yâchêph",
     "gloss_nl": null,
     "gloss_en": "unsandalled",
-    "usage_nl": [],
+    "usage_nl": [
+      "ontschoeiing"
+    ],
     "usage_en": [
+      "unshod",
       "barefoot",
       "being unshod."
     ]
@@ -46629,7 +46723,8 @@
       "weldoen",
       "goede",
       "hebben",
-      "doen"
+      "doen",
+      "gij"
     ],
     "usage_en": [
       "well",
@@ -46639,6 +46734,7 @@
       "diligent",
       "very",
       "give",
+      "trimmest",
       "be accepted",
       "amend",
       "use aright",
@@ -46775,11 +46871,13 @@
     "gloss_en": "to be right (i.e. correct); reciprocal, to argue; causatively, to decide, justify or convict",
     "usage_nl": [
       "berispte",
-      "rechten"
+      "rechten",
+      "straffen"
     ],
     "usage_en": [
       "reproved",
       "together",
+      "reprove",
       "appoint",
       "argue",
       "chasten",
@@ -46840,7 +46938,8 @@
       "kon",
       "vermogen",
       "niet",
-      "kan"
+      "kan",
+      "overhand"
     ],
     "usage_en": [
       "able",
@@ -46850,6 +46949,7 @@
       "canst",
       "cannot",
       "with",
+      "couldest",
       "be able",
       "any at all ways",
       "attain",
@@ -47081,7 +47181,11 @@
       "wandelt",
       "henengaan",
       "zij",
-      "leidde"
+      "leidde",
+      "nawandeldet",
+      "nagewandeld",
+      "leidt",
+      "nawandelen"
     ],
     "usage_en": [
       "departed",
@@ -47103,6 +47207,8 @@
       "now",
       "come",
       "on",
+      "wentest",
+      "walked",
       "again",
       "away",
       "bear",
@@ -47455,10 +47561,12 @@
     "gloss_nl": null,
     "gloss_en": "to exchange; by implication, to change places",
     "usage_nl": [
-      "roemen"
+      "roemen",
+      "veranderd"
     ],
     "usage_en": [
       "boast",
+      "changed",
       "boast selves",
       "change."
     ]
@@ -47830,9 +47938,9 @@
       "chasteneth",
       "chastened",
       "chastise",
+      "correct",
       "bind",
       "chasten",
-      "correct",
       "punish",
       "reform",
       "reprove",
@@ -48098,7 +48206,9 @@
     "gloss_nl": null,
     "gloss_en": "properly, to ascend; figuratively, to be valuable (objectively; useful, subjectively; benefited)",
     "usage_nl": [
-      "zullen"
+      "zullen",
+      "doen",
+      "doet"
     ],
     "usage_en": [
       "profit",
@@ -48238,6 +48348,7 @@
     "usage_en": [
       "fainteth",
       "faint",
+      "weary",
       "cause to fly",
       "be weary self."
     ]
@@ -49134,8 +49245,11 @@
     "translit": "yâtsath",
     "gloss_nl": null,
     "gloss_en": "to burn or set on fire; figuratively, to desolate",
-    "usage_nl": [],
+    "usage_nl": [
+      "verbrand"
+    ],
     "usage_en": [
+      "burned",
       "burn up",
       "be desolate",
       "set on fire fire",
@@ -49569,7 +49683,8 @@
       "dingen",
       "vreze",
       "vreselijken",
-      "gevreesd"
+      "gevreesd",
+      "vreesde"
     ],
     "usage_en": [
       "fear",
@@ -50481,6 +50596,7 @@
       "bleef",
       "moge",
       "neder",
+      "gezeten",
       "worden"
     ],
     "usage_en": [
@@ -50503,6 +50619,7 @@
       "tarry",
       "set",
       "inhabited",
+      "inhabitant",
       "make to abide-ing",
       "continue",
       "cause to",
@@ -51061,7 +51178,8 @@
       "verlost",
       "heiland",
       "beschikt",
-      "behouden"
+      "behouden",
+      "verlos"
     ],
     "usage_en": [
       "save",
@@ -51876,7 +51994,8 @@
     "gloss_en": "properly, weight, but only figuratively in a good sense, splendor or copiousness",
     "usage_nl": [
       "heerlijkheid",
-      "ere"
+      "ere",
+      "eer"
     ],
     "usage_en": [
       "glory",
@@ -51971,7 +52090,8 @@
     "gloss_nl": null,
     "gloss_en": "to trample; hence, to wash (properly, by stamping with the feet), whether literal (including the fulling process) or figurative",
     "usage_nl": [
-      "wassen"
+      "wassen",
+      "u"
     ],
     "usage_en": [
       "wash",
@@ -52435,11 +52555,13 @@
     "usage_nl": [
       "onderhield",
       "heb",
-      "begrepen"
+      "begrepen",
+      "houden"
     ],
     "usage_en": [
       "fed",
       "comprehended",
+      "hold",
       "be able to",
       "can abide",
       "bear",
@@ -53531,8 +53653,11 @@
     "translit": "kᵉlûwlâh",
     "gloss_nl": null,
     "gloss_en": "bridehood (only in the plural)",
-    "usage_nl": [],
+    "usage_nl": [
+      "ondertrouw"
+    ],
     "usage_en": [
+      "espousals",
       "espousal."
     ]
   },
@@ -53754,10 +53879,12 @@
     "gloss_en": "properly, to wound; but only figuratively, to taunt or insult",
     "usage_nl": [
       "schande",
-      "schaamrood"
+      "schaamrood",
+      "worden"
     ],
     "usage_en": [
       "confounded",
+      "ashamed",
       "be make ashamed",
       "blush",
       "be confounded",
@@ -54257,13 +54384,15 @@
       "gevleugelden",
       "hoeken",
       "slippe",
-      "vleugelen"
+      "vleugelen",
+      "zomen"
     ],
     "usage_en": [
       "winged",
       "quarters",
       "skirt",
       "wings",
+      "skirts",
       "bird",
       "border",
       "corner",
@@ -54361,7 +54490,8 @@
     "gloss_nl": null,
     "gloss_en": "properly, covered, i.e. a throne (as canopied)",
     "usage_nl": [
-      "stoel"
+      "stoel",
+      "troon"
     ],
     "usage_en": [
       "throne",
@@ -54395,13 +54525,15 @@
       "bedekt",
       "bedekken",
       "bedek",
-      "dekt"
+      "dekt",
+      "overdekt"
     ],
     "usage_en": [
       "cover",
       "conceal",
       "coverest",
       "covered",
+      "covereth",
       "clad self",
       "close",
       "clothe",
@@ -54906,8 +55038,11 @@
     "translit": "kᵉphîyr",
     "gloss_nl": null,
     "gloss_en": "a village (as covered in by walls); also a young lion (perhaps as covered with a mane)",
-    "usage_nl": [],
+    "usage_nl": [
+      "leeuwen"
+    ],
     "usage_en": [
+      "lions",
       "young lion",
       "village. compare h3723 כָּפָר."
     ]
@@ -55373,6 +55508,7 @@
     "usage_nl": [],
     "usage_en": [
       "divorcement",
+      "divorce",
       "divorce-ment."
     ]
   },
@@ -55521,10 +55657,12 @@
     "gloss_nl": null,
     "gloss_en": "a planted field (garden, orchard, vineyard or park); by implication, garden produce",
     "usage_nl": [
-      "aren"
+      "aren",
+      "vruchtbaar"
     ],
     "usage_en": [
       "ears",
+      "plentiful",
       "full green ears of corn",
       "fruitful field place",
       "plentiful field."
@@ -56063,7 +56201,9 @@
     "translit": "Kittîy",
     "gloss_nl": null,
     "gloss_en": "a Kittite or Cypriote; hence, an islander in general, i.e. the Greeks or Romans on the shores opposite Palestine",
-    "usage_nl": [],
+    "usage_nl": [
+      "chitteers"
+    ],
     "usage_en": [
       "chittim",
       "kittim."
@@ -56127,8 +56267,11 @@
     "translit": "kâtham",
     "gloss_nl": null,
     "gloss_en": "properly, to carve or engrave, i.e. (by implication) to inscribe indelibly",
-    "usage_nl": [],
+    "usage_nl": [
+      "getekend"
+    ],
     "usage_en": [
+      "marked",
       "mark."
     ]
   },
@@ -56476,6 +56619,7 @@
       "heart",
       "midst",
       "comfortably",
+      "mind",
       "care for",
       "consent",
       "considered",
@@ -58017,7 +58161,8 @@
       "zou",
       "leert",
       "zult",
-      "leerde"
+      "leerde",
+      "hebt"
     ],
     "usage_en": [
       "teach",
@@ -58069,11 +58214,13 @@
     "usage_nl": [
       "geleerden",
       "worden",
-      "zijn"
+      "zijn",
+      "gewend"
     ],
     "usage_en": [
       "learned",
       "taught",
+      "used",
       "accustomed",
       "disciple",
       "used."
@@ -58340,7 +58487,8 @@
       "hale",
       "worden",
       "is",
-      "wegnemen"
+      "wegnemen",
+      "aannemen"
     ],
     "usage_en": [
       "took",
@@ -58638,6 +58786,7 @@
       "mightily",
       "might",
       "greatly",
+      "much",
       "especially",
       "exceeding-ly",
       "far",
@@ -58922,6 +59071,7 @@
     "usage_en": [
       "refuseth",
       "refuse",
+      "refusedst",
       "utterly."
     ]
   },
@@ -58957,10 +59107,12 @@
     "gloss_nl": null,
     "gloss_en": "to spurn; also (intransitively) to disappear",
     "usage_nl": [
-      "geweest"
+      "geweest",
+      "verworpen"
     ],
     "usage_en": [
       "refused",
+      "rejected",
       "abhor",
       "cast away off",
       "contemn",
@@ -59006,8 +59158,11 @@
     "translit": "maʼphêlᵉyâh",
     "gloss_nl": null,
     "gloss_en": "opaqueness",
-    "usage_nl": [],
+    "usage_nl": [
+      "donkerheid"
+    ],
     "usage_en": [
+      "darkness",
       "darkness."
     ]
   },
@@ -59252,8 +59407,11 @@
     "translit": "mibṭâch",
     "gloss_nl": null,
     "gloss_en": "properly, a refuge, i.e. (objective) security, or (subjective) assurance",
-    "usage_nl": [],
+    "usage_nl": [
+      "vertrouwen"
+    ],
     "usage_en": [
+      "confidences",
       "confidence",
       "hope",
       "sure",
@@ -60063,8 +60221,11 @@
     "translit": "maddûwaʻ",
     "gloss_nl": null,
     "gloss_en": "what (is) known?; i.e. (by implication) (adverbially) why?",
-    "usage_nl": [],
+    "usage_nl": [
+      "waarom"
+    ],
     "usage_en": [
+      "why",
       "how",
       "wherefore",
       "why."
@@ -61206,14 +61367,15 @@
     "gloss_nl": null,
     "gloss_en": "properly, chastisement; figuratively, reproof, warning or instruction; also restraint",
     "usage_nl": [
-      "onderwijzing"
+      "onderwijzing",
+      "tucht"
     ],
     "usage_en": [
       "chastisement",
+      "correction",
       "bond",
       "chastening-eth",
       "check",
-      "correction",
       "discipline",
       "doctrine",
       "instruction",
@@ -61555,8 +61717,11 @@
     "translit": "mûwr",
     "gloss_nl": null,
     "gloss_en": "to alter; by implication, to barter, to dispose of",
-    "usage_nl": [],
+    "usage_nl": [
+      "veranderd"
+    ],
     "usage_en": [
+      "changed",
       "at all",
       "ex- change",
       "remove."
@@ -63249,8 +63414,11 @@
     "translit": "machtereth",
     "gloss_nl": null,
     "gloss_en": "a burglary; figuratively, unexpected examination",
-    "usage_nl": [],
+    "usage_nl": [
+      "opgraven"
+    ],
     "usage_en": [
+      "search",
       "breaking up",
       "secret search."
     ]
@@ -63723,7 +63891,8 @@
     "usage_nl": [
       "water",
       "wateren",
-      "twistwater"
+      "twistwater",
+      "waters"
     ],
     "usage_en": [
       "water",
@@ -66420,8 +66589,13 @@
     "translit": "mânaʻ",
     "gloss_nl": null,
     "gloss_en": "to debar (negatively or positively) from benefit or injury",
-    "usage_nl": [],
+    "usage_nl": [
+      "bedwing",
+      "ingehouden"
+    ],
     "usage_en": [
+      "withhold",
+      "withholden",
       "deny",
       "keep back",
       "refrain",
@@ -69059,8 +69233,8 @@
     "gloss_en": "the forehead (as open and prominent)",
     "usage_nl": [],
     "usage_en": [
-      "brow",
       "forehead",
+      "brow",
       "impudent."
     ]
   },
@@ -69478,7 +69652,9 @@
     "translit": "mâqôwr",
     "gloss_nl": null,
     "gloss_en": "properly, something dug, i.e. a (general) source (of water, even when naturally flowing; also of tears, blood (by euphemism, of the female pudenda); figuratively, of happiness, wisdom, progeny)",
-    "usage_nl": [],
+    "usage_nl": [
+      "springader"
+    ],
     "usage_en": [
       "fountain",
       "issue",
@@ -69826,10 +70002,12 @@
     "gloss_nl": null,
     "gloss_en": "bitter (literally or figuratively); also (as noun) bitterness, or (adverbially) bitterly",
     "usage_nl": [
-      "bitterlijk"
+      "bitterlijk",
+      "bitter"
     ],
     "usage_en": [
       "bitterness",
+      "bitter",
       "angry",
       "bitter-ly",
       "-ness",
@@ -71549,8 +71727,12 @@
     "translit": "mᵉshûwbâh",
     "gloss_nl": null,
     "gloss_en": "apostasy",
-    "usage_nl": [],
+    "usage_nl": [
+      "afkeringen",
+      "afgekeerde"
+    ],
     "usage_en": [
+      "backslidings",
       "backsliding",
       "turning away."
     ]
@@ -73316,7 +73498,9 @@
     "gloss_en": "to commit adultery; figuratively, to apostatize",
     "usage_nl": [
       "doen",
-      "overspelig"
+      "overspelig",
+      "had",
+      "overspel"
     ],
     "usage_en": [
       "adultery",
@@ -75774,7 +75958,8 @@
       "uitdelen",
       "delen",
       "uitdeelde",
-      "beerven"
+      "beerven",
+      "heb"
     ],
     "usage_en": [
       "inherit",
@@ -76467,8 +76652,12 @@
     "translit": "nâṭar",
     "gloss_nl": null,
     "gloss_en": "to guard; figuratively, to cherish (anger)",
-    "usage_nl": [],
+    "usage_nl": [
+      "behouden"
+    ],
     "usage_en": [
+      "reserve",
+      "keep",
       "bear grudge",
       "keep-er",
       "reserve."
@@ -77046,6 +77235,7 @@
       "alien",
       "foreigner",
       "stranger",
+      "strange",
       "outlandish",
       "strange-r",
       "woman."
@@ -77929,8 +78119,11 @@
     "translit": "Nôph",
     "gloss_nl": null,
     "gloss_en": "Noph, the capital of Upper Egypt",
-    "usage_nl": [],
+    "usage_nl": [
+      "nof"
+    ],
     "usage_en": [
+      "noph",
       "noph."
     ]
   },
@@ -78244,6 +78437,7 @@
       "heart",
       "himself",
       "man",
+      "herself",
       "appetite",
       "beast",
       "body",
@@ -78508,13 +78702,14 @@
     "gloss_nl": null,
     "gloss_en": "properly, a goal, i.e. the bright object at adistance travelled towards; hence (figuratively), splendor, or (subjectively) truthfulness, or (objectively) confidence; but usually (adverbially), continually (i.e. to the most distant point of view)",
     "usage_nl": [
-      "geduriglijk"
+      "geduriglijk",
+      "gestadig"
     ],
     "usage_en": [
       "always",
+      "end",
       "alway-s",
       "constantly",
-      "end",
       "n- evermore",
       "perpetual",
       "strength",
@@ -78834,10 +79029,12 @@
     "gloss_nl": null,
     "gloss_en": "to be (or make) clean (literally or figuratively); by implication (in an adverse sense) to be bare, i.e. extirpated",
     "usage_nl": [
-      "houden"
+      "houden",
+      "onschuldig"
     ],
     "usage_en": [
       "guiltless",
+      "innocent",
       "acquit at all",
       "altogether",
       "be blameless",
@@ -78889,12 +79086,14 @@
     "usage_nl": [
       "onschuldig",
       "onschuldigen",
-      "zijn"
+      "zijn",
+      "onschuldige"
     ],
     "usage_en": [
       "guiltless",
       "innocent",
       "free",
+      "innocents",
       "blameless",
       "clean",
       "clear",
@@ -79908,7 +80107,8 @@
       "hij",
       "acht",
       "maakt",
-      "zwijgt"
+      "zwijgt",
+      "verheven"
     ],
     "usage_en": [
       "gave",
@@ -79947,6 +80147,7 @@
       "grant",
       "bringeth",
       "direct",
+      "yelled",
       "apply",
       "ascribe",
       "assign",
@@ -80124,13 +80325,14 @@
     "gloss_en": "to tear off",
     "usage_nl": [
       "gescheurde",
-      "verscheurt"
+      "verscheurt",
+      "had"
     ],
     "usage_en": [
       "broken",
       "break",
-      "break off",
       "burst",
+      "break off",
       "draw away",
       "lift up",
       "pluck away",
@@ -80190,8 +80392,11 @@
     "translit": "nether",
     "gloss_nl": null,
     "gloss_en": "mineral potash (so called from effervescing with acid)",
-    "usage_nl": [],
+    "usage_nl": [
+      "salpeter"
+    ],
     "usage_en": [
+      "nitre",
       "nitre."
     ]
   },
@@ -81199,8 +81404,11 @@
     "translit": "çûwr",
     "gloss_nl": null,
     "gloss_en": "turned off, i.e. deteriorated",
-    "usage_nl": [],
+    "usage_nl": [
+      "ranken"
+    ],
     "usage_en": [
+      "plant",
       "degenerate."
     ]
   },
@@ -83843,7 +84051,9 @@
       "was",
       "voorbij",
       "gingen",
-      "ging"
+      "ging",
+      "doorging",
+      "dienen"
     ],
     "usage_en": [
       "pass",
@@ -84551,10 +84761,12 @@
     "gloss_nl": null,
     "gloss_en": "finery; generally an outfit; specifically, a headstall",
     "usage_nl": [
-      "sieraad"
+      "sieraad",
+      "versiersel"
     ],
     "usage_en": [
       "ornament",
+      "ornaments",
       "excellent",
       "mouth",
       "ornament."
@@ -85068,8 +85280,11 @@
     "translit": "ʻâvâh",
     "gloss_nl": null,
     "gloss_en": "to crook, literally or figuratively",
-    "usage_nl": [],
+    "usage_nl": [
+      "verkeerd"
+    ],
     "usage_en": [
+      "perverted",
       "do amiss",
       "bow down",
       "make crooked",
@@ -85313,6 +85528,7 @@
       "lasting",
       "eternal",
       "never",
+      "time",
       "alway-s",
       "ancient time",
       "any more",
@@ -87587,7 +87803,8 @@
       "ga",
       "opvaren",
       "gij",
-      "heeft"
+      "heeft",
+      "opvoerde"
     ],
     "usage_en": [
       "fell",
@@ -90011,6 +90228,8 @@
       "wood",
       "tree",
       "helve",
+      "stock",
+      "stocks",
       "carpenter",
       "gallows",
       "pine",
@@ -90018,7 +90237,6 @@
       "staff",
       "stalk",
       "stick",
-      "stock",
       "timber",
       "wood."
     ]
@@ -91091,13 +91309,15 @@
       "velden",
       "veld",
       "velds",
-      "wildernis"
+      "wildernis",
+      "wildernissen"
     ],
     "usage_en": [
       "plains",
       "plain",
       "champaign",
       "desert",
+      "deserts",
       "arabah",
       "evening",
       "heaven",
@@ -91136,8 +91356,11 @@
     "translit": "ʻĂrâbîy",
     "gloss_nl": null,
     "gloss_en": "an Arabian or inhabitant of Arab (i.e. Arabia)",
-    "usage_nl": [],
+    "usage_nl": [
+      "arabier"
+    ],
     "usage_en": [
+      "arabian",
       "arabian."
     ]
   },
@@ -91730,6 +91953,7 @@
     "usage_en": [
       "stiffnecked",
       "neck",
+      "back",
       "back stiff- neck-ed."
     ]
   },
@@ -91957,6 +92181,7 @@
       "dressed",
       "maker",
       "accomplish",
+      "procured",
       "advance",
       "appoint",
       "apt",
@@ -92639,6 +92864,7 @@
       "time",
       "times",
       "season",
+      "when",
       "after",
       "al- ways",
       "certain",
@@ -93872,8 +94098,11 @@
     "translit": "pâzar",
     "gloss_nl": null,
     "gloss_en": "to scatter, whether in enmity or bounty",
-    "usage_nl": [],
+    "usage_nl": [
+      "hebt"
+    ],
     "usage_en": [
+      "scattered",
       "disperse",
       "scatter abroad."
     ]
@@ -93951,8 +94180,11 @@
     "translit": "pachdâh",
     "gloss_nl": null,
     "gloss_en": "alarm (i.e. awe)",
-    "usage_nl": [],
+    "usage_nl": [
+      "vreze"
+    ],
     "usage_en": [
+      "fear",
       "fear."
     ]
   },
@@ -95192,7 +95424,8 @@
       "afwenden",
       "gewend",
       "wenden",
-      "bereidt"
+      "bereidt",
+      "toe"
     ],
     "usage_en": [
       "turn",
@@ -95273,7 +95506,8 @@
       "tegenover",
       "aangezichten",
       "henen",
-      "aangezichts"
+      "aangezichts",
+      "toorn"
     ],
     "usage_en": [
       "before",
@@ -95300,9 +95534,9 @@
       "against",
       "for",
       "faces",
+      "anger",
       "accept",
       "a-be- fore-time",
-      "anger",
       "as long as",
       "battle",
       "because of",
@@ -96017,7 +96251,8 @@
       "ontbreekt",
       "bezoek",
       "bestellen",
-      "besteld"
+      "besteld",
+      "bezoeken"
     ],
     "usage_en": [
       "visited",
@@ -96027,6 +96262,7 @@
       "lacketh",
       "visiting",
       "make",
+      "visit",
       "appoint",
       "at all",
       "avenge",
@@ -96056,7 +96292,6 @@
       "set over",
       "sum",
       "surely",
-      "visit",
       "want."
     ]
   },
@@ -96281,8 +96516,11 @@
     "translit": "pereʼ",
     "gloss_nl": null,
     "gloss_en": "the onager",
-    "usage_nl": [],
+    "usage_nl": [
+      "woudezelin"
+    ],
     "usage_en": [
+      "ass",
       "wild ass."
     ]
   },
@@ -96396,10 +96634,12 @@
     "gloss_nl": null,
     "gloss_en": "to bear fruit (literally or figuratively)",
     "usage_nl": [
-      "drage"
+      "drage",
+      "zijn"
     ],
     "usage_en": [
       "beareth",
+      "increased",
       "bear",
       "bring forth fruit",
       "be",
@@ -97522,11 +97762,13 @@
     "gloss_en": "to break away (from just authority), i.e. trespass, apostatize, quarrel",
     "usage_nl": [
       "overtreden",
-      "overtreders"
+      "overtreders",
+      "overtraden"
     ],
     "usage_en": [
       "rebelled",
       "transgressors",
+      "transgressed",
       "offend",
       "rebel",
       "revolt",
@@ -98368,13 +98610,14 @@
     "gloss_nl": null,
     "gloss_en": "splendor (as conspicuous); also a gazelle (as beautiful)",
     "usage_nl": [
-      "ree"
+      "ree",
+      "sierlijke"
     ],
     "usage_en": [
       "roebuck",
+      "goodly",
       "beautiful-ty",
       "glorious -ry",
-      "goodly",
       "pleasant",
       "roe-buck."
     ]
@@ -98640,11 +98883,13 @@
     "gloss_en": "to be (causatively, make) right (in a moral or forensic sense)",
     "usage_nl": [
       "spreken",
-      "rechtvaardigt"
+      "rechtvaardigt",
+      "gerechtvaardigd"
     ],
     "usage_en": [
       "justify",
       "justifieth",
+      "justified",
       "cleanse",
       "clear self",
       "be",
@@ -99544,10 +99789,12 @@
     "translit": "tsîyâh",
     "gloss_nl": null,
     "gloss_en": "aridity; concretely, a desert",
-    "usage_nl": [],
+    "usage_nl": [
+      "dorheid"
+    ],
     "usage_en": [
-      "barren",
       "drought",
+      "barren",
       "dry land",
       "place",
       "solitary place",
@@ -99822,7 +100069,8 @@
     "usage_nl": [
       "maken",
       "gelukken",
-      "zijn"
+      "zijn",
+      "gedijen"
     ],
     "usage_en": [
       "prosper",
@@ -100013,8 +100261,11 @@
     "translit": "tsalmâveth",
     "gloss_nl": null,
     "gloss_en": "shade of death, i.e. the grave (figuratively, calamity)",
-    "usage_nl": [],
+    "usage_nl": [
+      "doods"
+    ],
     "usage_en": [
+      "death",
       "shadow of death."
     ]
   },
@@ -100237,8 +100488,11 @@
     "translit": "tsimʼâh",
     "gloss_nl": null,
     "gloss_en": "thirst (figuratively, of libidinousnes)",
-    "usage_nl": [],
+    "usage_nl": [
+      "dorst"
+    ],
     "usage_en": [
+      "thirst",
       "thirst."
     ]
   },
@@ -100738,11 +100992,13 @@
     "gloss_en": "to tip over (for the purpose of spilling or pouring out), i.e. (figuratively) depopulate; by implication, to imprison or conquer; (reflexive) to lie down (for coitus)",
     "usage_nl": [
       "gevangene",
-      "voorttrekt"
+      "voorttrekt",
+      "om"
     ],
     "usage_en": [
       "exile",
       "travelling",
+      "wanderest",
       "captive exile",
       "cause to wander-er."
     ]
@@ -102975,10 +103231,12 @@
     "gloss_en": "to bind together (perhaps by twisting), i.e. collect; (figuratively) to expect",
     "usage_nl": [
       "verwachten",
-      "wachten"
+      "wachten",
+      "worden"
     ],
     "usage_en": [
       "wait",
+      "gathered",
       "gather together",
       "look",
       "patiently",
@@ -103024,17 +103282,18 @@
       "stem",
       "stemme",
       "geruis",
-      "stilte"
+      "stilte",
+      "gerucht"
     ],
     "usage_en": [
       "voice",
       "aloud",
       "sound",
+      "lightness",
       "bleating",
       "crackling",
       "cry out",
       "fame",
-      "lightness",
       "lowing",
       "noise",
       "hold peace",
@@ -104021,8 +104280,11 @@
     "translit": "qal",
     "gloss_nl": null,
     "gloss_en": "light; (by implication) rapid (also adverbial)",
-    "usage_nl": [],
+    "usage_nl": [
+      "snelle"
+    ],
     "usage_en": [
+      "swift",
       "light",
       "swift-ly."
     ]
@@ -106616,7 +106878,9 @@
     "translit": "qishshur",
     "gloss_nl": null,
     "gloss_en": "an (ornamental) girdle (for women)",
-    "usage_nl": [],
+    "usage_nl": [
+      "bindselen"
+    ],
     "usage_en": [
       "attire",
       "headband."
@@ -106702,7 +106966,8 @@
       "vertonen",
       "aan",
       "zullen",
-      "aanschouw"
+      "aanschouw",
+      "gijlieden"
     ],
     "usage_en": [
       "saw",
@@ -107405,6 +107670,7 @@
       "increaseth",
       "increased",
       "abundantly",
+      "much",
       "bring in abundance -antly",
       "archer by mistake for h7232 רָבַב",
       "be in authority",
@@ -107524,7 +107790,8 @@
     "gloss_nl": null,
     "gloss_en": "a rain (as an accumulation of drops)",
     "usage_nl": [
-      "druppelen"
+      "druppelen",
+      "regendruppelen"
     ],
     "usage_en": [
       "showers",
@@ -108396,8 +108663,11 @@
     "translit": "rûwd",
     "gloss_nl": null,
     "gloss_en": "to tramp about, i.e. ramble (free or disconsolate)",
-    "usage_nl": [],
+    "usage_nl": [
+      "heren"
+    ],
     "usage_en": [
+      "lords",
       "have the dominion",
       "be lord",
       "mourn",
@@ -109598,7 +109868,8 @@
       "hebt",
       "twisten",
       "twistzaak",
-      "zal"
+      "zal",
+      "gij"
     ],
     "usage_en": [
       "strive",
@@ -110675,7 +110946,12 @@
       "kwaad",
       "kwade",
       "boze",
-      "kwaden"
+      "kwaden",
+      "boosheden",
+      "boosheid",
+      "kwaads",
+      "booste",
+      "boos"
     ],
     "usage_en": [
       "evil",
@@ -110688,6 +110964,9 @@
       "wicked",
       "evils",
       "mischiefs",
+      "trouble",
+      "ones",
+      "things",
       "adversity",
       "affliction",
       "bad",
@@ -110711,7 +110990,6 @@
       "not please",
       "sad-ly",
       "sorrow",
-      "trouble",
       "vex",
       "wicked-ly",
       "-ness",
@@ -110745,16 +111023,18 @@
     "usage_nl": [
       "naaste",
       "naasten",
-      "vriend"
+      "vriend",
+      "boeleerders"
     ],
     "usage_en": [
       "neighbour",
       "neighbour's",
       "friend",
       "brother",
+      "lovers",
+      "husband",
       "companion",
       "fellow",
-      "husband",
       "lover",
       "an- other."
     ]
@@ -110894,11 +111174,14 @@
       "hebben",
       "weiden",
       "herder",
-      "herders"
+      "herders",
+      "afgeweid"
     ],
     "usage_en": [
       "shepherd",
       "feed",
+      "pastors",
+      "broken",
       "break",
       "companion",
       "keep company with",
@@ -112626,8 +112909,11 @@
     "translit": "shâʼag",
     "gloss_nl": null,
     "gloss_en": "to rumble or moan",
-    "usage_nl": [],
+    "usage_nl": [
+      "gebruld"
+    ],
     "usage_en": [
+      "roared",
       "mightily",
       "roar."
     ]
@@ -112961,8 +113247,11 @@
     "translit": "shâʼaph",
     "gloss_nl": null,
     "gloss_en": "to inhale eagerly; figuratively, to cover; by implication, to be angry; also to hasten",
-    "usage_nl": [],
+    "usage_nl": [
+      "zij"
+    ],
     "usage_en": [
+      "up",
       "desire earnestly",
       "devour",
       "haste",
@@ -113939,7 +114228,9 @@
       "brak",
       "hebt",
       "brekende",
-      "gebrokenen"
+      "gebrokenen",
+      "gebroken",
+      "verbroken"
     ],
     "usage_en": [
       "broken",
@@ -114386,8 +114677,11 @@
     "translit": "shâgal",
     "gloss_nl": null,
     "gloss_en": "to copulate with",
-    "usage_nl": [],
+    "usage_nl": [
+      "beslapen"
+    ],
     "usage_en": [
+      "lien",
       "lie with",
       "ravish."
     ]
@@ -114819,7 +115113,8 @@
     "usage_nl": [
       "ijdellijk",
       "valse",
-      "vergeefs"
+      "vergeefs",
+      "tevergeefs"
     ],
     "usage_en": [
       "vain",
@@ -114882,7 +115177,10 @@
       "zich",
       "wederkeert",
       "opmaakt",
-      "afkeert"
+      "afkeert",
+      "afgekeerd",
+      "u",
+      "bekeerd"
     ],
     "usage_en": [
       "returned",
@@ -114990,7 +115288,8 @@
     "gloss_nl": null,
     "gloss_en": "apostate, i.e. idolatrous",
     "usage_nl": [
-      "afkerig"
+      "afkerig",
+      "afkerige"
     ],
     "usage_en": [
       "frowardly",
@@ -115238,8 +115537,11 @@
     "translit": "shûwchâh",
     "gloss_nl": null,
     "gloss_en": "a chasm",
-    "usage_nl": [],
+    "usage_nl": [
+      "kuilen"
+    ],
     "usage_en": [
+      "pits",
       "ditch",
       "pit."
     ]
@@ -115465,7 +115767,8 @@
       "gij",
       "gelegd",
       "beschikken",
-      "stelde"
+      "stelde",
+      "steldet"
     ],
     "usage_en": [
       "make",
@@ -116705,6 +117008,7 @@
       "utterly",
       "corrupters",
       "waster",
+      "destroying",
       "batter",
       "cast off",
       "corrupt-er",
@@ -117280,8 +117584,11 @@
     "translit": "Shîychôwr",
     "gloss_nl": null,
     "gloss_en": "Shichor, a stream of Egypt",
-    "usage_nl": [],
+    "usage_nl": [
+      "sihor"
+    ],
     "usage_en": [
+      "sihor",
       "shihor",
       "sihor."
     ]
@@ -117450,10 +117757,13 @@
     "gloss_nl": null,
     "gloss_en": "to place (in a very wide application)",
     "usage_nl": [
-      "gezet"
+      "gezet",
+      "zetten"
     ],
     "usage_en": [
       "set",
+      "made",
+      "put",
       "apply",
       "appoint",
       "array",
@@ -117814,12 +118124,14 @@
     "usage_nl": [
       "handelt",
       "vernemen",
-      "handelen"
+      "handelen",
+      "verstand"
     ],
     "usage_en": [
       "prosper",
       "understood",
       "prudently",
+      "understanding",
       "consider",
       "expert",
       "instruct",
@@ -118654,7 +118966,9 @@
       "zendt",
       "loslaat",
       "uitsteken",
-      "gezonden"
+      "gezonden",
+      "verlaat",
+      "verlaten"
     ],
     "usage_en": [
       "away",
@@ -119617,7 +119931,8 @@
       "naam",
       "namen",
       "name",
-      "zal"
+      "zal",
+      "naams"
     ],
     "usage_en": [
       "name",
@@ -119813,12 +120128,13 @@
     "gloss_nl": null,
     "gloss_en": "ruin; by implication, consternation",
     "usage_nl": [
-      "schrik"
+      "schrik",
+      "verwoesting"
     ],
     "usage_en": [
       "astonishment",
-      "desolate-ion",
       "waste",
+      "desolate-ion",
       "wonderful thing."
     ]
   },
@@ -120236,7 +120552,8 @@
       "eenzame",
       "verstoringen",
       "waren",
-      "mij"
+      "mij",
+      "u"
     ],
     "usage_en": [
       "desolate",
@@ -120244,6 +120561,7 @@
       "astonied",
       "desolations",
       "wondered",
+      "astonished",
       "make amazed",
       "be astonied",
       "be an astonish-ment",
@@ -120467,6 +120785,7 @@
       "obeyeth",
       "publisheth",
       "proclaimed",
+      "obeyed",
       "attentively",
       "call gather together",
       "certainly",
@@ -121255,10 +121574,12 @@
     "gloss_nl": null,
     "gloss_en": "to fold, i.e. duplicate (literally or figuratively); by implication, to transmute (transitive or intransitive)",
     "usage_nl": [
-      "male"
+      "male",
+      "veranderende"
     ],
     "usage_en": [
       "time",
+      "change",
       "do speak",
       "strike again",
       "alter",
@@ -121841,10 +122162,12 @@
     "gloss_nl": null,
     "gloss_en": "to storm; by implication, to shiver, i.e. fear",
     "usage_nl": [
-      "hebben"
+      "hebben",
+      "verschrikt"
     ],
     "usage_en": [
       "feared",
+      "afraid",
       "be horribly afraid",
       "fear",
       "hurl as a storm",
@@ -122193,11 +122516,13 @@
       "rechter",
       "doet",
       "recht",
-      "richters"
+      "richters",
+      "rechten"
     ],
     "usage_en": [
       "judges",
       "judge",
+      "plead",
       "avenge",
       "that condemn",
       "contend",
@@ -122205,7 +122530,6 @@
       "execute judgment",
       "be a judge-ment",
       "needs",
-      "plead",
       "reason",
       "rule."
     ]
@@ -123196,17 +123520,20 @@
     "gloss_en": "an untruth; by implication, a sham (often adverbial)",
     "usage_nl": [
       "vals",
-      "valsheid"
+      "valsheid",
+      "valselijk",
+      "tevergeefs"
     ],
     "usage_en": [
       "false",
       "falsely",
       "falsehood",
+      "feignedly",
+      "vain",
       "without a cause",
       "deceit-ful",
       "false-hood",
       "-ly",
-      "feignedly",
       "liar",
       "lie",
       "lying",
@@ -123760,8 +124087,11 @@
     "translit": "sârak",
     "gloss_nl": null,
     "gloss_en": "to interlace",
-    "usage_nl": [],
+    "usage_nl": [
+      "verdraait"
+    ],
     "usage_en": [
+      "traversing",
       "traverse."
     ]
   },
@@ -123948,8 +124278,11 @@
     "translit": "sôrêq",
     "gloss_nl": null,
     "gloss_en": "a vine stock (properly, one yielding purple grapes, the richest variety)",
-    "usage_nl": [],
+    "usage_nl": [
+      "wijnstok"
+    ],
     "usage_en": [
+      "vine",
       "choice-st",
       "noble wine. compare h8291 שָׂרוּק."
     ]
@@ -124812,8 +125145,11 @@
     "translit": "taʼănâh",
     "gloss_nl": null,
     "gloss_en": "an opportunity or (subjectively) purpose",
-    "usage_nl": [],
+    "usage_nl": [
+      "ontmoeting"
+    ],
     "usage_en": [
+      "occasion",
       "occasion."
     ]
   },
@@ -124927,7 +125263,8 @@
     "usage_nl": [
       "inkomen",
       "inkomst",
-      "inkomsten"
+      "inkomsten",
+      "inkomste"
     ],
     "usage_en": [
       "fruit",
@@ -126016,8 +126353,11 @@
     "translit": "tachănûwn",
     "gloss_nl": null,
     "gloss_en": "earnest prayer",
-    "usage_nl": [],
+    "usage_nl": [
+      "smekingen"
+    ],
     "usage_en": [
+      "supplications",
       "intreaty",
       "supplication."
     ]
@@ -126044,7 +126384,9 @@
     "translit": "Tachpanchêç",
     "gloss_nl": null,
     "gloss_en": "Tachpanches, Techaphneches or Tachpenes, a place in Egypt",
-    "usage_nl": [],
+    "usage_nl": [
+      "tachpanhes"
+    ],
     "usage_en": [
       "tahapanes",
       "tahpanhes",
@@ -126140,6 +126482,7 @@
     "usage_en": [
       "beneath",
       "whereas",
+      "under",
       "as",
       "flat",
       "in-stead",
@@ -126147,7 +126490,6 @@
       "room",
       "for...sake",
       "stead of",
-      "under",
       "unto",
       "when...was mine",
       "where- fore",
@@ -128001,14 +128343,15 @@
       "grijpen",
       "gegrepen",
       "grijpt",
-      "grepen"
+      "grepen",
+      "handelden"
     ],
     "usage_en": [
       "took",
       "take",
       "hold",
-      "catch",
       "handle",
+      "catch",
       "lay",
       "take hold on",
       "over",
@@ -128787,12 +129130,14 @@
     "translit": "tᵉshûwʻâh",
     "gloss_nl": null,
     "gloss_en": "rescue (literal or figurative, persons, national or spiritual)",
-    "usage_nl": [],
+    "usage_nl": [
+      "heil"
+    ],
     "usage_en": [
+      "salvation",
       "deliverance",
       "help",
       "safety",
-      "salvation",
       "victory."
     ]
   },
@@ -128921,7 +129266,9 @@
     "translit": "tetraplóos",
     "gloss_nl": null,
     "gloss_en": "quadruple",
-    "usage_nl": [],
+    "usage_nl": [
+      "vierdubbel"
+    ],
     "usage_en": [
       "fourfold"
     ]
@@ -129094,7 +129441,8 @@
       "geweest",
       "was",
       "zich",
-      "wezen"
+      "wezen",
+      "leerde"
     ],
     "usage_en": [
       "were",
@@ -129102,6 +129450,7 @@
       "was",
       "marvelled",
       "be",
+      "taught",
       "+ agree",
       "x have + charge of",
       "hold",
@@ -129599,8 +129948,11 @@
     "translit": "pántothen",
     "gloss_nl": null,
     "gloss_en": "from (i.e. on) all sides",
-    "usage_nl": [],
+    "usage_nl": [
+      "zijden"
+    ],
     "usage_en": [
+      "side",
       "on every side",
       "round about"
     ]
@@ -130453,8 +130805,12 @@
     "translit": "diagongýzō",
     "gloss_nl": null,
     "gloss_en": "to complain throughout a crowd",
-    "usage_nl": [],
+    "usage_nl": [
+      "murmureerden"
+    ],
     "usage_en": [
+      "they",
+      "murmured",
       "murmur"
     ]
   },
@@ -131902,11 +132258,13 @@
     "translit": "episkopḗ",
     "gloss_nl": null,
     "gloss_en": "inspection (for relief); by implication, superintendence; specially, the Christian \"episcopate\"",
-    "usage_nl": [],
+    "usage_nl": [
+      "bezoeking"
+    ],
     "usage_en": [
+      "visitation",
       "the office of a \"bishop\"",
-      "bishoprick",
-      "visitation"
+      "bishoprick"
     ]
   },
   "G1243": {
@@ -132551,7 +132909,8 @@
       "man",
       "men",
       "certain",
-      "shepherds"
+      "shepherds",
+      "nobleman"
     ]
   },
   "G2947": {
@@ -132630,10 +132989,12 @@
     "gloss_nl": null,
     "gloss_en": "to \"practise\", i.e. perform repeatedly or habitually (thus differing from G4160 (ποιέω), which properly refers to a single act); by implication, to execute, accomplish, etc.; specially, to collect (dues), fare (personally)",
     "usage_nl": [
-      "eist"
+      "eist",
+      "eisen"
     ],
     "usage_en": [
       "exact",
+      "required",
       "commit",
       "deeds",
       "do",
@@ -133074,10 +133435,13 @@
     "translit": "basileúō",
     "gloss_nl": null,
     "gloss_en": "to rule (literally or figuratively)",
-    "usage_nl": [],
+    "usage_nl": [
+      "zij",
+      "zijn"
+    ],
     "usage_en": [
-      "king",
-      "reign"
+      "reign",
+      "king"
     ]
   },
   "G165": {
@@ -133304,8 +133668,11 @@
     "translit": "anablépō",
     "gloss_nl": null,
     "gloss_en": "to look up; by implication, to recover sight",
-    "usage_nl": [],
+    "usage_nl": [
+      "ziende"
+    ],
     "usage_en": [
+      "up",
       "look up",
       "see",
       "receive sight"
@@ -133460,6 +133827,7 @@
     "gloss_nl": null,
     "gloss_en": "to emit a sound (animal, human or instrumental); by implication, to address in words or by name, also in imitation",
     "usage_nl": [
+      "worden",
       "riep",
       "geroepen"
     ],
@@ -133819,6 +134187,8 @@
       "zouden",
       "zeggen",
       "zegt",
+      "hebbende",
+      "zeggende",
       "zij",
       "gezegd",
       "hij",
@@ -133835,6 +134205,9 @@
       "say",
       "ye",
       "saith",
+      "commanded",
+      "spoken",
+      "saying",
       "they",
       "he",
       "answer",
@@ -134044,9 +134417,9 @@
     "usage_en": [
       "all",
       "things",
+      "whole",
       "all things",
-      "every one",
-      "whole"
+      "every one"
     ]
   },
   "G398": {
@@ -134056,8 +134429,11 @@
     "translit": "anaphaínō",
     "gloss_nl": null,
     "gloss_en": "to show, i.e. (reflexively) appear, or (passively) to have pointed out",
-    "usage_nl": [],
+    "usage_nl": [
+      "openbaar"
+    ],
     "usage_en": [
+      "appear",
       "should appear",
       "discover"
     ]
@@ -134278,6 +134654,7 @@
       "enig",
       "iets",
       "iemand",
+      "zeker",
       "een",
       "niets",
       "mens",
@@ -134289,8 +134666,8 @@
       "thing",
       "them",
       "any",
-      "a",
       "certain",
+      "a",
       "a kind of",
       "any man",
       "thing at all",
@@ -135244,11 +135621,11 @@
     "usage_en": [
       "i",
       "am",
+      "was",
       "is",
       "been",
       "have been",
-      "x it is i",
-      "was"
+      "x it is i"
     ]
   },
   "G3363": {
@@ -135795,10 +136172,13 @@
     "gloss_en": "to be a fig-informer (reporter of the law forbidding the exportation of figs from Greece), \"sycophant\", i.e. (genitive and by extension) to defraud (exact unlawfully, extort)",
     "usage_nl": [
       "ontvreemdt",
-      "bedrog"
+      "bedrog",
+      "heb"
     ],
     "usage_en": [
       "falsely",
+      "taken",
+      "accusation",
       "accuse falsely",
       "take by false accusation"
     ]
@@ -135823,8 +136203,12 @@
     "translit": "mnâ",
     "gloss_nl": null,
     "gloss_en": "a mna (i.e. mina), a certain weight",
-    "usage_nl": [],
+    "usage_nl": [
+      "ponden",
+      "pond"
+    ],
     "usage_en": [
+      "pounds",
       "pound"
     ]
   },
@@ -135980,6 +136364,7 @@
       "ging",
       "op",
       "waren",
+      "hij",
       "opvaren"
     ],
     "usage_en": [
@@ -137372,8 +137757,11 @@
     "translit": "paragínomai",
     "gloss_nl": null,
     "gloss_en": "to become near, i.e. approach (have arrived); by implication, to appear publicly",
-    "usage_nl": [],
+    "usage_nl": [
+      "kwam"
+    ],
     "usage_en": [
+      "came",
       "come",
       "go",
       "be present"
@@ -137693,8 +138081,11 @@
     "translit": "protréchō",
     "gloss_nl": null,
     "gloss_en": "to run forward, i.e. outstrip, precede",
-    "usage_nl": [],
+    "usage_nl": [
+      "vooruitlopende"
+    ],
     "usage_en": [
+      "ran",
       "outrun",
       "run before"
     ]
@@ -138394,6 +138785,7 @@
       "hadden",
       "zoude",
       "gij",
+      "hij",
       "wisten",
       "hebbende",
       "hebt",
@@ -138413,6 +138805,7 @@
       "seen",
       "should",
       "ye",
+      "beheld",
       "knew",
       "be aware",
       "behold",
@@ -138879,9 +139272,9 @@
     ],
     "usage_en": [
       "husband",
+      "man",
       "men",
       "fellow",
-      "man",
       "sir"
     ]
   },
@@ -139435,6 +139828,7 @@
       "woord",
       "met",
       "om",
+      "vanwege",
       "daarover",
       "voor"
     ],
@@ -139770,12 +140164,15 @@
     "usage_nl": [
       "ons",
       "heengaan",
-      "gaan"
+      "gaan",
+      "door",
+      "voorbijgaan"
     ],
     "usage_en": [
       "us",
       "go",
       "through",
+      "pass",
       "come",
       "depart",
       "go about",
@@ -140064,12 +140461,12 @@
       "nemende",
       "had",
       "zult",
+      "ontvangen",
       "neme",
       "nam",
       "genomen",
       "hebbende",
-      "ontvangt",
-      "ontvangen"
+      "ontvangt"
     ],
     "usage_en": [
       "take",
@@ -140262,14 +140659,15 @@
       "zoekende",
       "gezocht",
       "hebt",
+      "zocht",
       "zoekt"
     ],
     "usage_en": [
       "seeketh",
       "sought",
       "seeking",
-      "for",
       "seek",
+      "for",
       "be go about",
       "desire",
       "endeavour",
@@ -140326,7 +140724,9 @@
     "translit": "Hierichṓ",
     "gloss_nl": null,
     "gloss_en": "Jericho, a place in Palestine",
-    "usage_nl": [],
+    "usage_nl": [
+      "jericho"
+    ],
     "usage_en": [
       "jericho"
     ]
@@ -140339,10 +140739,12 @@
     "gloss_nl": null,
     "gloss_en": "foremost (in time, place, order or importance)",
     "usage_nl": [
-      "eerste"
+      "eerste",
+      "oversten"
     ],
     "usage_en": [
       "first",
+      "chief",
       "before",
       "beginning",
       "best",
@@ -140909,9 +141311,9 @@
     ],
     "usage_en": [
       "this",
+      "him",
       "here-by",
       "-in",
-      "him",
       "one",
       "the same",
       "there-in"
@@ -141113,7 +141515,8 @@
     "gloss_nl": null,
     "gloss_en": "to place additionally, i.e. lay beside, annex, repeat",
     "usage_nl": [
-      "toegedaan"
+      "toegedaan",
+      "daarbij"
     ],
     "usage_en": [
       "added",
@@ -141651,6 +142054,8 @@
       "voort",
       "voortbrengt",
       "deed",
+      "gewonnen",
+      "zouden",
       "doet",
       "hebbende",
       "had",
@@ -141670,6 +142075,7 @@
       "dealt",
       "forth",
       "bringeth",
+      "gained",
       "doest",
       "shewest",
       "doeth",
@@ -142097,6 +142503,7 @@
       "heengegaan",
       "gaan",
       "waren",
+      "zijnde",
       "vertrok",
       "gingen",
       "gaat",
@@ -142128,11 +142535,15 @@
     "gloss_en": "to make near, i.e. (reflexively) approach",
     "usage_nl": [
       "gekomen",
-      "genaakten"
+      "genaakten",
+      "was",
+      "genaakte",
+      "kwam"
     ],
     "usage_en": [
       "hand",
       "nigh",
+      "near",
       "approach",
       "be at hand",
       "come draw near",
@@ -142392,7 +142803,9 @@
     "translit": "hḗmisy",
     "gloss_nl": null,
     "gloss_en": "(as noun) half",
-    "usage_nl": [],
+    "usage_nl": [
+      "helft"
+    ],
     "usage_en": [
       "half"
     ]
@@ -143689,7 +144102,9 @@
     "translit": "elaía",
     "gloss_nl": null,
     "gloss_en": "an olive (the tree or the fruit)",
-    "usage_nl": [],
+    "usage_nl": [
+      "olijfberg"
+    ],
     "usage_en": [
       "olives",
       "olive berry",
@@ -143999,6 +144414,7 @@
       "vreesden",
       "wij",
       "vreest",
+      "vreesde",
       "bevreesd",
       "zijt",
       "vrees"
@@ -144120,7 +144536,8 @@
     "usage_nl": [
       "volk",
       "volke",
-      "volken"
+      "volken",
+      "volks"
     ],
     "usage_en": [
       "people"
@@ -144387,11 +144804,13 @@
     "usage_nl": [
       "weder",
       "wederkeerden",
-      "wederom"
+      "wederom",
+      "keren"
     ],
     "usage_en": [
       "returned",
       "again",
+      "return",
       "come again",
       "return again",
       "back again",
@@ -144931,10 +145350,12 @@
     "gloss_en": "to be \"cheer\"ful, i.e. calmly happy or well-off; impersonally, especially as salutation (on meeting or parting), be well",
     "usage_nl": [
       "verblijdt",
+      "blijdschap",
       "verblijden"
     ],
     "usage_en": [
       "rejoiceth",
+      "joyfully",
       "rejoice",
       "farewell",
       "be glad",
@@ -146755,8 +147176,11 @@
     "translit": "sykomōraía",
     "gloss_nl": null,
     "gloss_en": "the \"sycamore\"-fig tree",
-    "usage_nl": [],
+    "usage_nl": [
+      "vijgeboom"
+    ],
     "usage_en": [
+      "tree",
       "sycamore tree"
     ]
   },
@@ -146810,11 +147234,13 @@
     "gloss_en": "a \"name\" (literally or figuratively) (authority, character)",
     "usage_nl": [
       "naam",
-      "naams"
+      "naams",
+      "name"
     ],
     "usage_en": [
       "name",
       "sake",
+      "named",
       "called",
       "+ sur-name-d"
     ]
@@ -147322,10 +147748,12 @@
     "translit": "hamartōlós",
     "gloss_nl": null,
     "gloss_en": "sinful, i.e. a sinner",
-    "usage_nl": [],
+    "usage_nl": [
+      "zondigen"
+    ],
     "usage_en": [
-      "sinful",
-      "sinner"
+      "sinner",
+      "sinful"
     ]
   },
   "G3612": {
@@ -147393,6 +147821,7 @@
     "gloss_en": "and at least (or even, indeed)",
     "usage_nl": [],
     "usage_en": [
+      "least",
       "and",
       "at least"
     ]
@@ -148445,7 +148874,8 @@
       "wegnam",
       "neemt",
       "worden",
-      "opgeheven"
+      "opgeheven",
+      "weg"
     ],
     "usage_en": [
       "bear",
@@ -149285,11 +149715,13 @@
     "gloss_en": "to harvest",
     "usage_nl": [
       "maaiende",
-      "maai"
+      "maai",
+      "maait"
     ],
     "usage_en": [
       "reaping",
-      "reap"
+      "reap",
+      "reapest"
     ]
   },
   "G1221": {
@@ -150530,12 +150962,13 @@
       "zijn",
       "zijt",
       "geschiedde",
+      "geschied",
+      "wees",
       "er",
       "geworden",
       "komende",
       "kwam",
       "gekomen",
-      "geschied",
       "het"
     ],
     "usage_en": [
@@ -150550,6 +150983,7 @@
       "fulfilled",
       "come",
       "came",
+      "been",
       "drawing",
       "thou",
       "thundered",
@@ -150603,7 +151037,8 @@
     "gloss_en": "a tone (articulate, bestial or artificial); by implication, an address (for any purpose), saying or language",
     "usage_nl": [
       "geluid",
-      "stem"
+      "stem",
+      "stemme"
     ],
     "usage_en": [
       "sound",
@@ -150920,10 +151355,12 @@
     "gloss_nl": null,
     "gloss_en": "to enter (literally or figuratively)",
     "usage_nl": [
-      "komt"
+      "komt",
+      "inkomende"
     ],
     "usage_en": [
       "entered",
+      "entering",
       "come enter in",
       "go into"
     ]
@@ -151079,8 +151516,11 @@
     "translit": "apókeimai",
     "gloss_nl": null,
     "gloss_en": "to be reserved; figuratively, to await",
-    "usage_nl": [],
+    "usage_nl": [
+      "weggelegd"
+    ],
     "usage_en": [
+      "up",
       "be appointed",
       "be laid up"
     ]
@@ -151094,10 +151534,12 @@
     "gloss_en": "compare the base of G1166 (δεικνύω)) of the same meaning; to think; by implication, to seem (truthfully or uncertainly)",
     "usage_nl": [
       "dunkt",
-      "meent"
+      "meent",
+      "meenden"
     ],
     "usage_en": [
       "think",
+      "thought",
       "be accounted",
       "of own please-ure",
       "be of reputation",
@@ -151546,11 +151988,13 @@
     "translit": "sōtēría",
     "gloss_nl": null,
     "gloss_en": "rescue or safety (physically or morally)",
-    "usage_nl": [],
+    "usage_nl": [
+      "zaligheid"
+    ],
     "usage_en": [
+      "salvation",
       "deliver",
       "health",
-      "salvation",
       "save",
       "saving"
     ]
@@ -151891,6 +152335,7 @@
     "gloss_en": "(towards or of) this",
     "usage_nl": [
       "deze",
+      "dezen",
       "dit"
     ],
     "usage_en": [
@@ -152777,7 +153222,8 @@
     "gloss_en": "directly opposite",
     "usage_nl": [
       "tegen",
-      "over"
+      "over",
+      "tegenover"
     ],
     "usage_en": [
       "against",
@@ -152795,6 +153241,7 @@
     "usage_nl": [
       "weg",
       "heen",
+      "henen",
       "voeren",
       "weggaan",
       "heengaat",
@@ -152805,6 +153252,7 @@
       "thee",
       "go",
       "way",
+      "ye",
       "went",
       "away",
       "goeth",
@@ -153373,10 +153821,14 @@
     "gloss_nl": null,
     "gloss_en": "to throw all around, i.e. invest (with a palisade or with clothing)",
     "usage_nl": [
-      "gekleed"
+      "gekleed",
+      "rondom",
+      "opwerpen"
     ],
     "usage_en": [
       "clothed",
+      "cast",
+      "about",
       "array",
       "cast about",
       "clothe-d me",
@@ -153527,6 +153979,7 @@
       "hij",
       "zijnde",
       "zij",
+      "kome",
       "ik",
       "kom"
     ],
@@ -154081,6 +154534,7 @@
       "dat",
       "zo",
       "[ook",
+      "dan",
       "met",
       "[alzo"
     ],
@@ -154097,6 +154551,7 @@
       "but",
       "yet",
       "that",
+      "which",
       "with",
       "for",
       "nor",
@@ -155262,6 +155717,8 @@
       "wordt",
       "genaamd",
       "was",
+      "geheten",
+      "hebbende",
       "genood"
     ],
     "usage_en": [
@@ -156821,8 +157278,12 @@
     "translit": "perikyklóō",
     "gloss_nl": null,
     "gloss_en": "to encircle all around, i.e. blockade completely",
-    "usage_nl": [],
+    "usage_nl": [
+      "omsingelen"
+    ],
     "usage_en": [
+      "compass",
+      "round",
       "compass round"
     ]
   },
@@ -157153,10 +157614,12 @@
     "translit": "presbeía",
     "gloss_nl": null,
     "gloss_en": "seniority (eldership), i.e. (by implication) an embassy (concretely, ambassadors)",
-    "usage_nl": [],
+    "usage_nl": [
+      "gezanten"
+    ],
     "usage_en": [
-      "ambassage",
-      "message"
+      "message",
+      "ambassage"
     ]
   },
   "G1549": {
@@ -157575,7 +158038,9 @@
     "translit": "ploúsios",
     "gloss_nl": null,
     "gloss_en": "wealthy; figuratively, abounding with",
-    "usage_nl": [],
+    "usage_nl": [
+      "rijk"
+    ],
     "usage_en": [
       "rich"
     ]
@@ -157681,8 +158146,11 @@
     "translit": "architelṓnēs",
     "gloss_nl": null,
     "gloss_en": "a principle tax-gatherer",
-    "usage_nl": [],
+    "usage_nl": [
+      "tollenaren"
+    ],
     "usage_en": [
+      "publicans",
       "chief among the publicans"
     ]
   },
@@ -158271,11 +158739,11 @@
     "usage_en": [
       "great",
       "sore",
+      "loud",
       "+ fear exceedingly",
       "great-est",
       "high",
       "large",
-      "loud",
       "mighty",
       "+ be sore afraid",
       "strong",
@@ -158649,11 +159117,16 @@
     "gloss_en": "to place (in the widest application, literally and figuratively; properly, in a passive or horizontal posture, and thus different from G2476 (ἵστημι), which properly denotes an upright and active position, while G2749 (κεῖμαι) is properly reflexive and utterly prostrate)",
     "usage_nl": [
       "zetten",
+      "hebt",
+      "heb",
       "zet",
       "op"
     ],
     "usage_en": [
       "appoint",
+      "layedst",
+      "down",
+      "laid",
       "forth",
       "+ advise",
       "bow",
@@ -158662,7 +159135,6 @@
       "give",
       "x kneel down",
       "lay aside",
-      "down",
       "up",
       "make",
       "ordain",
@@ -159312,6 +159784,7 @@
       "toen",
       "met",
       "werd",
+      "daarin",
       "aan"
     ],
     "usage_en": [
@@ -159329,6 +159802,8 @@
       "about",
       "within",
       "baptized",
+      "when",
+      "therein",
       "after",
       "against",
       "+ almost",
@@ -159356,7 +159831,6 @@
       "through-out",
       "un-to-ward",
       "under",
-      "when",
       "where-with",
       "with-in"
     ]
@@ -159411,8 +159885,11 @@
     "translit": "prosergázomai",
     "gloss_nl": null,
     "gloss_en": "to work additionally, i.e. (by implication) acquire besides",
-    "usage_nl": [],
+    "usage_nl": [
+      "gewonnen"
+    ],
     "usage_en": [
+      "gained",
       "gain"
     ]
   },
@@ -159728,6 +160205,9 @@
       "hij",
       "zal",
       "zenden",
+      "zonden",
+      "uitzond",
+      "waren",
       "heeft"
     ],
     "usage_en": [
@@ -160324,8 +160804,11 @@
     "translit": "antí",
     "gloss_nl": null,
     "gloss_en": "opposite, i.e. instead or because of (rarely in addition to)",
-    "usage_nl": [],
+    "usage_nl": [
+      "daarom"
+    ],
     "usage_en": [
+      "because",
       "for",
       "in the room of"
     ]
@@ -160438,6 +160921,7 @@
       "boven",
       "daarbij",
       "tot",
+      "waarop",
       "naar",
       "daarop",
       "van"
@@ -162119,10 +162603,12 @@
     "gloss_nl": null,
     "gloss_en": "to stand beside, i.e. (transitively) to exhibit, proffer, (specially), recommend, (figuratively) substantiate; or (intransitively) to be at hand (or ready), aid",
     "usage_nl": [
-      "voorstelden"
+      "voorstelden",
+      "stonden"
     ],
     "usage_en": [
       "present",
+      "by",
       "assist",
       "bring before",
       "command",
@@ -162132,7 +162618,6 @@
       "provide",
       "shew",
       "stand before",
-      "by",
       "here",
       "up",
       "with",
@@ -162948,11 +163433,13 @@
     "gloss_en": "(an-, the) other or different",
     "usage_nl": [
       "anderen",
-      "andere"
+      "andere",
+      "ander"
     ],
     "usage_en": [
       "others",
       "other",
+      "another",
       "altered",
       "else",
       "next day",
@@ -163042,10 +163529,11 @@
       "gegeven",
       "heeft",
       "gaven",
+      "ik",
+      "had",
       "zal",
       "gaf",
-      "geef",
-      "ik"
+      "geef"
     ],
     "usage_en": [
       "give",
@@ -163054,6 +163542,9 @@
       "shall",
       "gave",
       "offer",
+      "delivered",
+      "gavest",
+      "thou",
       "giveth",
       "adventure",
       "bestow",
@@ -163707,7 +164198,10 @@
     "translit": "kataspháttō",
     "gloss_nl": null,
     "gloss_en": "to kill down, i.e. slaughter",
-    "usage_nl": [],
+    "usage_nl": [
+      "slaat",
+      "dood"
+    ],
     "usage_en": [
       "slay"
     ]
@@ -163731,8 +164225,11 @@
     "translit": "klaíō",
     "gloss_nl": null,
     "gloss_en": "to sob, i.e. wail aloud (whereas 1145 is rather to cry silently)",
-    "usage_nl": [],
+    "usage_nl": [
+      "hij"
+    ],
     "usage_en": [
+      "wept",
       "bewail",
       "weep"
     ]
@@ -164833,7 +165330,8 @@
     "usage_nl": [
       "berg",
       "bergen",
-      "olijfberg"
+      "olijfberg",
+      "olijfbergs"
     ],
     "usage_en": [
       "mountain",
@@ -165091,7 +165589,8 @@
     "gloss_nl": null,
     "gloss_en": "a dwelling (more or less extensive, literal or figurative); by implication, a family (more or less related, literally or figuratively)",
     "usage_nl": [
-      "huis"
+      "huis",
+      "huize"
     ],
     "usage_en": [
       "house",
@@ -165528,7 +166027,9 @@
     "translit": "chárax",
     "gloss_nl": null,
     "gloss_en": "akin to G1125 (γράφω) through the idea of scratching); a stake, i.e. (by implication) a palisade or rampart (military mound for circumvallation in a siege)",
-    "usage_nl": [],
+    "usage_nl": [
+      "begraving"
+    ],
     "usage_en": [
       "trench"
     ]
@@ -165544,6 +166045,8 @@
       "zichzelven",
       "uzelven",
       "zich",
+      "zijn",
+      "hun",
       "u",
       "elkander"
     ],
@@ -165552,6 +166055,8 @@
       "yourselves",
       "himself",
       "them",
+      "his",
+      "their",
       "you",
       "alone",
       "her own",
@@ -166148,6 +166653,7 @@
     ],
     "usage_en": [
       "least",
+      "little",
       "very little small",
       "smallest"
     ]
@@ -166379,8 +166885,11 @@
     "translit": "polítēs",
     "gloss_nl": null,
     "gloss_en": "a townsman",
-    "usage_nl": [],
+    "usage_nl": [
+      "burgers"
+    ],
     "usage_en": [
+      "citizens",
       "citizen"
     ]
   },
@@ -166547,6 +167056,7 @@
       "wil",
       "willen",
       "wilde",
+      "gewild",
       "wilden",
       "gewilliglijk",
       "wilt"
@@ -166554,6 +167064,7 @@
     "usage_en": [
       "will",
       "would",
+      "have",
       "willingly",
       "desire",
       "be disposed forward",
@@ -166914,9 +167425,9 @@
     "usage_en": [
       "people",
       "multitude",
+      "press",
       "company",
-      "number of people",
-      "press"
+      "number of people"
     ]
   },
   "G4226": {
@@ -167170,12 +167681,15 @@
       "betalen",
       "worden",
       "betaal",
-      "hebben"
+      "hebben",
+      "ik",
+      "weder"
     ],
     "usage_en": [
       "reward",
       "pay",
       "made",
+      "restore",
       "deliver again",
       "give again",
       "re-pay-ment be made",
@@ -167183,7 +167697,6 @@
       "recompense",
       "render",
       "requite",
-      "restore",
       "sell",
       "yield"
     ]
@@ -167308,6 +167821,7 @@
       "aan",
       "zij",
       "binnen",
+      "nabij",
       "onder",
       "daar",
       "terug",
@@ -167403,6 +167917,7 @@
     "usage_nl": [
       "gehaat",
       "haten",
+      "haatten",
       "haat"
     ],
     "usage_en": [
@@ -167967,13 +168482,15 @@
       "zult",
       "toekomenden",
       "zou",
+      "worden",
       "zouden"
     ],
     "usage_en": [
       "shall",
       "come",
-      "would",
+      "was",
       "should",
+      "would",
       "wilt",
       "about",
       "after that",
@@ -169010,8 +169527,11 @@
     "translit": "deúteros",
     "gloss_nl": null,
     "gloss_en": "(ordinal) second (in time, place, or rank; also adverb)",
-    "usage_nl": [],
+    "usage_nl": [
+      "tweede"
+    ],
     "usage_en": [
+      "second",
       "afterward",
       "again",
       "second-arily",
@@ -169178,8 +169698,11 @@
     "translit": "kathóti",
     "gloss_nl": null,
     "gloss_en": "and G3739 (ὅς) and G5100 (τὶς); according to which certain thing, i.e. as far (or inasmuch) as",
-    "usage_nl": [],
+    "usage_nl": [
+      "nademaal"
+    ],
     "usage_en": [
+      "as",
       "according",
       "forasmuch as",
       "because that"
@@ -169334,13 +169857,15 @@
       "worden",
       "hebben",
       "zou",
-      "zo"
+      "zo",
+      "mogen"
     ],
     "usage_en": [
       "till",
       "should",
       "would",
       "soever",
+      "might",
       "told",
       "what-",
       "where-",
@@ -169520,7 +170045,9 @@
     "gloss_nl": null,
     "gloss_en": "to \"speed\" (\"study\"), i.e. urge on (diligently or earnestly); by implication, to await eagerly",
     "usage_nl": [
-      "haast"
+      "haast",
+      "u",
+      "zich"
     ],
     "usage_en": [
       "haste",
@@ -171497,8 +172024,12 @@
     "translit": "epirrhíptō",
     "gloss_nl": null,
     "gloss_en": "to throw upon (literally or figuratively)",
-    "usage_nl": [],
+    "usage_nl": [
+      "hebbende"
+    ],
     "usage_en": [
+      "cast",
+      "and",
       "cast upon"
     ]
   },
@@ -171863,8 +172394,12 @@
     "translit": "ekkrémamai",
     "gloss_nl": null,
     "gloss_en": "to hang upon the lips of a speaker, i.e. listen closely",
-    "usage_nl": [],
+    "usage_nl": [
+      "hing",
+      "aan"
+    ],
     "usage_en": [
+      "attentive",
       "be very attentive"
     ]
   },
@@ -171887,7 +172422,9 @@
     "translit": "hypostrṓnnymi",
     "gloss_nl": null,
     "gloss_en": "to strew underneath (the feet as a carpet)",
-    "usage_nl": [],
+    "usage_nl": [
+      "zij"
+    ],
     "usage_en": [
       "spread"
     ]
@@ -171899,10 +172436,12 @@
     "translit": "hēmâs",
     "gloss_nl": null,
     "gloss_en": "us",
-    "usage_nl": [],
+    "usage_nl": [
+      "ons"
+    ],
     "usage_en": [
-      "our",
       "us",
+      "our",
       "we"
     ]
   },
@@ -172628,6 +173167,7 @@
       "wat",
       "wiens",
       "zijn",
+      "wien",
       "daar",
       "hem"
     ],
@@ -172768,7 +173308,8 @@
     "usage_nl": [
       "zitten",
       "heeft",
-      "zat"
+      "zat",
+      "gezeten"
     ],
     "usage_en": [
       "sit",
@@ -172869,6 +173410,7 @@
       "zeggen",
       "ik",
       "is",
+      "gij",
       "gezegd",
       "heeft"
     ],
@@ -173017,6 +173559,7 @@
       "afterward",
       "after",
       "yea",
+      "even",
       "also",
       "now often unexpressed in english"
     ]
@@ -173227,12 +173770,14 @@
     "translit": "epánō",
     "gloss_nl": null,
     "gloss_en": "up above, i.e. over or on (of place, amount, rank, etc.)",
-    "usage_nl": [],
+    "usage_nl": [
+      "over"
+    ],
     "usage_en": [
+      "over",
       "above",
       "more than",
-      "up-on",
-      "over"
+      "up-on"
     ]
   },
   "G4774": {
@@ -173555,6 +174100,7 @@
       "hielden",
       "van",
       "hebben",
+      "heb",
       "hebbe",
       "gij",
       "gijlieden"
@@ -174031,10 +174577,12 @@
     "translit": "soudárion",
     "gloss_nl": null,
     "gloss_en": "a sudarium (sweat-cloth), i.e. towel (for wiping the perspiration from the face, or binding the face of a corpse)",
-    "usage_nl": [],
+    "usage_nl": [
+      "zweetdoek"
+    ],
     "usage_en": [
-      "handkerchief",
-      "napkin"
+      "napkin",
+      "handkerchief"
     ]
   },
   "G5267": {
@@ -174231,7 +174779,8 @@
     "gloss_nl": null,
     "gloss_en": "to praise (God)",
     "usage_nl": [
-      "prijzende"
+      "prijzende",
+      "loven"
     ],
     "usage_en": [
       "praising",
@@ -174782,7 +175331,8 @@
       "begonnen",
       "begon",
       "beginnen",
-      "begint"
+      "begint",
+      "hij"
     ],
     "usage_en": [
       "began",
@@ -175707,6 +176257,7 @@
     "usage_en": [
       "lord",
       "lord's",
+      "owners",
       "sir",
       "god",
       "master"
@@ -176413,12 +176964,14 @@
       "u",
       "uw",
       "uws",
-      "eigen"
+      "eigen",
+      "uwer"
     ],
     "usage_en": [
       "thee",
       "thy",
       "thine",
+      "own",
       "x home",
       "thine own",
       "thou"
@@ -176545,7 +177098,9 @@
     "translit": "gé",
     "gloss_nl": null,
     "gloss_en": "and besides, doubtless, at least, yet",
-    "usage_nl": [],
+    "usage_nl": [
+      "nog"
+    ],
     "usage_en": [
       "and besides",
       "doubtless",
@@ -177780,8 +178335,11 @@
     "translit": "epanérchomai",
     "gloss_nl": null,
     "gloss_en": "to come up on, i.e. return",
-    "usage_nl": [],
+    "usage_nl": [
+      "wederkwam"
+    ],
     "usage_en": [
+      "returned",
       "come again",
       "return"
     ]
@@ -178090,10 +178648,12 @@
     "gloss_en": "properly, to \"croak\" (as a raven) or scream, i.e. (genitive case) to call aloud (shriek, exclaim, intreat)",
     "usage_nl": [
       "riepen",
+      "zullen",
       "riep"
     ],
     "usage_en": [
       "cried",
+      "out",
       "cry out"
     ]
   },
@@ -178326,14 +178886,15 @@
     "usage_nl": [
       "gij",
       "kan",
+      "kon",
       "zij",
       "wij"
     ],
     "usage_en": [
       "ye",
       "able",
-      "can",
       "could",
+      "can",
       "we",
       "be able",
       "can do",
@@ -178597,10 +179158,12 @@
     "translit": "parachrēma",
     "gloss_nl": null,
     "gloss_en": "at the thing itself, i.e. instantly",
-    "usage_nl": [],
+    "usage_nl": [
+      "terstond"
+    ],
     "usage_en": [
-      "forthwith",
       "immediately",
+      "forthwith",
       "presently",
       "straightway",
       "soon"
@@ -179563,7 +180126,8 @@
     "gloss_nl": null,
     "gloss_en": "maturity (in years or size)",
     "usage_nl": [
-      "grootte"
+      "grootte",
+      "persoon"
     ],
     "usage_en": [
       "stature",
@@ -179868,7 +180432,9 @@
     "translit": "eugenḗs",
     "gloss_nl": null,
     "gloss_en": "well born, i.e. (literally) high in rank, or (figuratively) generous",
-    "usage_nl": [],
+    "usage_nl": [
+      "welgeboren"
+    ],
     "usage_en": [
       "more noble",
       "nobleman"
@@ -180230,8 +180796,12 @@
     "translit": "edaphízō",
     "gloss_nl": null,
     "gloss_en": "to raze",
-    "usage_nl": [],
+    "usage_nl": [
+      "nederwerpen"
+    ],
     "usage_en": [
+      "lay",
+      "ground",
       "lay even with the ground"
     ]
   },
@@ -181068,12 +181638,15 @@
     "gloss_en": "\"off,\" i.e. away (from something near), in various senses (of place, time, or relation; literal or figurative)",
     "usage_nl": [
       "van",
-      "uit"
+      "uit",
+      "vanwege",
+      "voor"
     ],
     "usage_en": [
       "from",
       "of",
       "since",
+      "for",
       "x here-after",
       "ago",
       "at",
@@ -181494,14 +182067,15 @@
     "gloss_en": "to interrogate; by implication, to request",
     "usage_nl": [
       "hij",
+      "vraagt",
       "baden",
       "bidden"
     ],
     "usage_en": [
       "asked",
+      "ask",
       "desired",
       "pray",
-      "ask",
       "beseech",
       "desire",
       "intreat"
@@ -181771,6 +182345,7 @@
     "gloss_nl": null,
     "gloss_en": "this (person, as objective of verb or preposition)",
     "usage_nl": [
+      "deze",
       "dezen",
       "dit"
     ],
@@ -182148,11 +182723,13 @@
     "gloss_nl": null,
     "gloss_en": "to loosen down (disintegrate), i.e. (by implication) to demolish (literally or figuratively); specially (compare G2646 (κατάλυμα)) to halt for the night",
     "usage_nl": [
-      "worden"
+      "worden",
+      "herbergen"
     ],
     "usage_en": [
       "shall",
       "down",
+      "guest",
       "destroy",
       "dissolve",
       "be guest",
@@ -182414,6 +182991,7 @@
     ],
     "usage_en": [
       "done",
+      "well",
       "good",
       "well done"
     ]
@@ -182635,6 +183213,7 @@
       "ontbonden",
       "ontbindt",
       "ontbinden",
+      "gij",
       "breekt"
     ],
     "usage_en": [
@@ -182642,6 +183221,7 @@
       "loosed",
       "loosing",
       "unloose",
+      "ye",
       "destroy",
       "break up",
       "dissolve",
@@ -183092,10 +183672,10 @@
     "gloss_nl": null,
     "gloss_en": "by implication, to try, condemn, punish",
     "usage_nl": [
+      "oordelen",
       "oordeel",
       "oordele",
-      "oordeelt",
-      "oordelen"
+      "oordeelt"
     ],
     "usage_en": [
       "judge",
@@ -183165,7 +183745,8 @@
     "gloss_nl": null,
     "gloss_en": "small (in size, quantity, number or (figuratively) dignity)",
     "usage_nl": [
-      "kleinen"
+      "kleinen",
+      "klein"
     ],
     "usage_en": [
       "ones",
@@ -183774,7 +184355,9 @@
     "translit": "austērós",
     "gloss_nl": null,
     "gloss_en": "rough (properly as a gale), i.e. (figuratively) severe",
-    "usage_nl": [],
+    "usage_nl": [
+      "straf"
+    ],
     "usage_en": [
       "austere"
     ]
@@ -185199,7 +185782,8 @@
       "die",
       "dit",
       "dezen",
-      "zij"
+      "zij",
+      "hij"
     ],
     "usage_en": [
       "these",
@@ -185769,7 +186353,8 @@
     "gloss_nl": null,
     "gloss_en": "a table or stool (as being four-legged), usually for food (figuratively, a meal); also a counter for money (figuratively, a broker's office for loans at interest)",
     "usage_nl": [
-      "tafelen"
+      "tafelen",
+      "bank"
     ],
     "usage_en": [
       "tables",
@@ -186432,6 +187017,7 @@
       "dier",
       "dit",
       "diezelfde",
+      "deze",
       "hij",
       "dat"
     ],
@@ -188090,8 +188676,11 @@
     "translit": "hypodéchomai",
     "gloss_nl": null,
     "gloss_en": "to admit under one's roof, i.e. entertain hospitably",
-    "usage_nl": [],
+    "usage_nl": [
+      "ontving"
+    ],
     "usage_en": [
+      "received",
       "receive"
     ]
   },
@@ -188161,8 +188750,13 @@
     "translit": "epibibázō",
     "gloss_nl": null,
     "gloss_en": "to cause to mount (an animal)",
-    "usage_nl": [],
+    "usage_nl": [
+      "zij",
+      "daarop"
+    ],
     "usage_en": [
+      "set",
+      "thereon",
       "set on"
     ]
   },
@@ -188221,8 +188815,11 @@
     "translit": "echthrós",
     "gloss_nl": null,
     "gloss_en": "hateful (passively, odious, or actively, hostile); usually as a noun, an adversary (especially Satan)",
-    "usage_nl": [],
+    "usage_nl": [
+      "vijanden"
+    ],
     "usage_en": [
+      "enemies",
       "enemy",
       "foe"
     ]
@@ -188622,7 +189219,8 @@
     "gloss_nl": null,
     "gloss_en": "to tax upon, i.e. censure or admonish; by implication, forbid",
     "usage_nl": [
-      "bestraffen"
+      "bestraffen",
+      "bestraf"
     ],
     "usage_en": [
       "rebuke",
@@ -189229,7 +189827,9 @@
     "translit": "makrós",
     "gloss_nl": null,
     "gloss_en": "long (in place (distant) or time (neuter plural))",
-    "usage_nl": [],
+    "usage_nl": [
+      "ver"
+    ],
     "usage_en": [
       "far",
       "long"
@@ -189627,6 +190227,7 @@
       "van",
       "bij",
       "dan",
+      "tot",
       "is"
     ],
     "usage_en": [
@@ -189981,18 +190582,19 @@
     "gloss_nl": null,
     "gloss_en": "to stay (in a given place, state, relation or expectancy)",
     "usage_nl": [
+      "blijven",
       "bleven",
       "blijft",
       "blijve",
       "blijvende"
     ],
     "usage_en": [
+      "abide",
       "continued",
       "endureth",
       "dwelleth",
       "abideth",
       "should",
-      "abide",
       "present",
       "continue",
       "dwell",
@@ -190284,8 +190886,11 @@
     "translit": "diapragmateúomai",
     "gloss_nl": null,
     "gloss_en": "to thoroughly occupy oneself, i.e. (transitively and by implication) to earn in business",
-    "usage_nl": [],
+    "usage_nl": [
+      "had"
+    ],
     "usage_en": [
+      "trading",
       "gain by trading"
     ]
   },
@@ -190829,14 +191434,15 @@
       "dat",
       "omdat",
       "want",
-      "overmits",
-      "dewijl"
+      "dewijl",
+      "overmits"
     ],
     "usage_en": [
       "that",
       "because",
       "for",
       "art",
+      "if",
       "this",
       "how",
       "as concerning that",
@@ -191269,6 +191875,7 @@
       "wie",
       "welk",
       "waarom",
+      "iegelijk",
       "wien"
     ],
     "usage_en": [
@@ -191277,6 +191884,8 @@
       "what",
       "who",
       "how",
+      "much",
+      "man",
       "every man",
       "how much",
       "+ no-ne",
@@ -192067,8 +192676,11 @@
     "translit": "Zakchaîos",
     "gloss_nl": null,
     "gloss_en": "Zacchæus, an Israelite",
-    "usage_nl": [],
+    "usage_nl": [
+      "zacheus"
+    ],
     "usage_en": [
+      "zacchaeus",
       "zacchæus"
     ]
   },
@@ -192575,8 +193187,11 @@
     "translit": "ísthi",
     "gloss_nl": null,
     "gloss_en": "be thou",
-    "usage_nl": [],
+    "usage_nl": [
+      "macht"
+    ],
     "usage_en": [
+      "authority",
       "+ agree",
       "be",
       "x give thyself wholly to"
@@ -193025,10 +193640,13 @@
     "gloss_nl": null,
     "gloss_en": "to hold together, i.e. to compress (the ears, with a crowd or siege) or arrest (a prisoner); figuratively, to compel, perplex, afflict, preoccupy",
     "usage_nl": [
-      "zijnde"
+      "zijnde",
+      "benauwen"
     ],
     "usage_en": [
       "with",
+      "keep",
+      "in",
       "constrain",
       "hold",
       "keep in",
@@ -194222,7 +194840,9 @@
     "translit": "katábasis",
     "gloss_nl": null,
     "gloss_en": "a declivity",
-    "usage_nl": [],
+    "usage_nl": [
+      "afgang"
+    ],
     "usage_en": [
       "descent"
     ]
@@ -194378,12 +194998,14 @@
     "usage_nl": [
       "dingen",
       "deze",
-      "dezen",
-      "dit"
+      "dat",
+      "dit",
+      "dezen"
     ],
     "usage_en": [
       "things",
       "these",
+      "thus",
       "they",
       "+ afterward",
       "follow",
@@ -194395,8 +195017,7 @@
       "that",
       "then",
       "this",
-      "those",
-      "thus"
+      "those"
     ]
   },
   "G1397": {
@@ -194478,12 +195099,14 @@
     "gloss_en": "if any",
     "usage_nl": [
       "iemand",
-      "iets"
+      "iets",
+      "indien"
     ],
     "usage_en": [
       "any",
       "if",
       "ought",
+      "thing",
       "he that",
       "if a-ny man's thing",
       "from any",
@@ -194656,6 +195279,8 @@
       "weg",
       "gingen",
       "reisden",
+      "reisde",
+      "hij",
       "zijn"
     ],
     "usage_en": [
@@ -196710,6 +197335,7 @@
     "usage_en": [
       "find",
       "found",
+      "could",
       "get",
       "obtain",
       "perceive",
@@ -196727,6 +197353,7 @@
       "niemand",
       "geen",
       "niet",
+      "ooit",
       "gans"
     ],
     "usage_en": [
@@ -196822,11 +197449,13 @@
     "translit": "toútous",
     "gloss_nl": null,
     "gloss_en": "these (persons, as objective of verb or preposition)",
-    "usage_nl": [],
+    "usage_nl": [
+      "die"
+    ],
     "usage_en": [
+      "these",
       "such",
       "them",
-      "these",
       "this"
     ]
   },
@@ -197398,6 +198027,7 @@
       "was",
       "ga",
       "zouden",
+      "doden",
       "vergaat",
       "verlieze"
     ],
@@ -197811,12 +198441,14 @@
     "usage_nl": [
       "krachten",
       "kracht",
-      "vermogen"
+      "vermogen",
+      "daden"
     ],
     "usage_en": [
       "powers",
       "power",
       "ability",
+      "works",
       "abundance",
       "meaning",
       "might-ily",
@@ -198691,8 +199323,11 @@
     "translit": "siōpáō",
     "gloss_nl": null,
     "gloss_en": "properly, muteness, i.e. involuntary stillness, or inability to speak; and thus differing from G4602 (σιγή), which is rather a voluntary refusal or indisposition to speak, although the terms are often used synonymously); to be dumb (but not deaf also, like 2974 properly); figuratively, to be calm (as quiet water)",
-    "usage_nl": [],
+    "usage_nl": [
+      "zwijgen"
+    ],
     "usage_en": [
+      "peace",
       "dumb",
       "hold peace"
     ]
@@ -199248,6 +199883,7 @@
       "same",
       "she",
       "himself",
+      "thereof",
       "miracles",
       "this",
       "very",
@@ -200457,10 +201093,12 @@
     "gloss_nl": null,
     "gloss_en": "a town (properly, with walls, of greater or less size)",
     "usage_nl": [
-      "stad"
+      "stad",
+      "steden"
     ],
     "usage_en": [
-      "city"
+      "city",
+      "cities"
     ]
   },
   "G892": {
@@ -200744,7 +201382,9 @@
     "translit": "pragmateúomai",
     "gloss_nl": null,
     "gloss_en": "to busy oneself with, i.e. to trade",
-    "usage_nl": [],
+    "usage_nl": [
+      "handeling"
+    ],
     "usage_en": [
       "occupy"
     ]
@@ -200801,7 +201441,8 @@
       "gingen",
       "in",
       "kwam",
-      "zijnde"
+      "zijnde",
+      "ingegaan"
     ],
     "usage_en": [
       "shall",
@@ -200811,6 +201452,7 @@
       "in",
       "thou",
       "went",
+      "gone",
       "x arise",
       "come in",
       "enter in-to",
@@ -202418,7 +203060,8 @@
       "in",
       "tegen",
       "voor",
-      "alle"
+      "alle",
+      "dagelijks"
     ],
     "usage_en": [
       "according",
@@ -202428,6 +203071,7 @@
       "after",
       "before",
       "every",
+      "daily",
       "about",
       "according as to",
       "when they were x alone",
@@ -202829,6 +203473,9 @@
       "bekenden",
       "kende",
       "wisten",
+      "mocht",
+      "bekendet",
+      "hebt",
       "wist",
       "bekend",
       "verstond",
@@ -202847,9 +203494,10 @@
       "knew",
       "is",
       "of",
+      "known",
+      "knewest",
       "sure",
       "understood",
-      "known",
       "thou",
       "knoweth",
       "allow",
@@ -203368,6 +204016,9 @@
       "hast",
       "sown",
       "sowed",
+      "didst",
+      "sow",
+      "did",
       "sow- er",
       "receive seed"
     ]

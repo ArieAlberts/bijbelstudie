@@ -20874,13 +20874,15 @@
         "velden",
         "veld",
         "velds",
-        "wildernis"
+        "wildernis",
+        "wildernissen"
       ],
       "usage_en": [
         "plains",
         "plain",
         "champaign",
         "desert",
+        "deserts",
         "arabah",
         "evening",
         "heaven",
@@ -21508,7 +21510,10 @@
         "doodslager",
         "achterwaarts",
         "nawandelt",
-        "nahoereren"
+        "nahoereren",
+        "[naar",
+        "die",
+        "naar"
       ],
       "usage_en": [
         "after",
@@ -21521,6 +21526,7 @@
         "again",
         "behind",
         "him",
+        "me",
         "after that",
         "-ward",
         "at",
@@ -21714,6 +21720,7 @@
         "bleef",
         "moge",
         "neder",
+        "gezeten",
         "worden"
       ],
       "usage_en": [
@@ -21736,6 +21743,7 @@
         "tarry",
         "set",
         "inhabited",
+        "inhabitant",
         "make to abide-ing",
         "continue",
         "cause to",
@@ -22127,7 +22135,8 @@
         "afwenden",
         "gewend",
         "wenden",
-        "bereidt"
+        "bereidt",
+        "toe"
       ],
       "usage_en": [
         "turn",
@@ -22280,6 +22289,7 @@
         "comest",
         "up",
         "cometh",
+        "entered",
         "apply",
         "attain",
         "be",
@@ -22569,7 +22579,8 @@
         "vertonen",
         "aan",
         "zullen",
-        "aanschouw"
+        "aanschouw",
+        "gijlieden"
       ],
       "usage_en": [
         "saw",
@@ -22683,7 +22694,8 @@
         "hij",
         "acht",
         "maakt",
-        "zwijgt"
+        "zwijgt",
+        "verheven"
       ],
       "usage_en": [
         "gave",
@@ -22722,6 +22734,7 @@
         "grant",
         "bringeth",
         "direct",
+        "yelled",
         "apply",
         "ascribe",
         "assign",
@@ -22807,7 +22820,8 @@
         "tegenover",
         "aangezichten",
         "henen",
-        "aangezichts"
+        "aangezichts",
+        "toorn"
       ],
       "usage_en": [
         "before",
@@ -22834,9 +22848,9 @@
         "against",
         "for",
         "faces",
+        "anger",
         "accept",
         "a-be- fore-time",
-        "anger",
         "as long as",
         "battle",
         "because of",
@@ -23095,6 +23109,7 @@
         "time",
         "times",
         "season",
+        "when",
         "after",
         "al- ways",
         "certain",
@@ -23150,7 +23165,8 @@
         "kon",
         "vermogen",
         "niet",
-        "kan"
+        "kan",
+        "overhand"
       ],
       "usage_en": [
         "able",
@@ -23160,6 +23176,7 @@
         "canst",
         "cannot",
         "with",
+        "couldest",
         "be able",
         "any at all ways",
         "attain",
@@ -23319,6 +23336,7 @@
         "increaseth",
         "increased",
         "abundantly",
+        "much",
         "bring in abundance -antly",
         "archer by mistake for h7232 רָבַב",
         "be in authority",
@@ -23710,7 +23728,8 @@
         "geven",
         "gelet",
         "verstaan",
-        "let"
+        "let",
+        "merkt"
       ],
       "usage_en": [
         "understanding",
@@ -24010,7 +24029,8 @@
         "gij",
         "gelegd",
         "beschikken",
-        "stelde"
+        "stelde",
+        "steldet"
       ],
       "usage_en": [
         "make",
@@ -24262,6 +24282,7 @@
         "dressed",
         "maker",
         "accomplish",
+        "procured",
         "advance",
         "appoint",
         "apt",
@@ -24357,7 +24378,8 @@
         "hale",
         "worden",
         "is",
-        "wegnemen"
+        "wegnemen",
+        "aannemen"
       ],
       "usage_en": [
         "took",
@@ -24507,11 +24529,13 @@
         "rechter",
         "doet",
         "recht",
-        "richters"
+        "richters",
+        "rechten"
       ],
       "usage_en": [
         "judges",
         "judge",
+        "plead",
         "avenge",
         "that condemn",
         "contend",
@@ -24519,7 +24543,6 @@
         "execute judgment",
         "be a judge-ment",
         "needs",
-        "plead",
         "reason",
         "rule."
       ]
@@ -24582,6 +24605,7 @@
         "obeyeth",
         "publisheth",
         "proclaimed",
+        "obeyed",
         "attentively",
         "call gather together",
         "certainly",
@@ -25021,7 +25045,11 @@
         "wandelt",
         "henengaan",
         "zij",
-        "leidde"
+        "leidde",
+        "nawandeldet",
+        "nagewandeld",
+        "leidt",
+        "nawandelen"
       ],
       "usage_en": [
         "departed",
@@ -25043,6 +25071,8 @@
         "now",
         "come",
         "on",
+        "wentest",
+        "walked",
         "again",
         "away",
         "bear",
@@ -25093,7 +25123,8 @@
         "dingen",
         "vreze",
         "vreselijken",
-        "gevreesd"
+        "gevreesd",
+        "vreesde"
       ],
       "usage_en": [
         "fear",
@@ -25156,7 +25187,8 @@
         "ga",
         "opvaren",
         "gij",
-        "heeft"
+        "heeft",
+        "opvoerde"
       ],
       "usage_en": [
         "fell",
@@ -25279,7 +25311,9 @@
         "zendt",
         "loslaat",
         "uitsteken",
-        "gezonden"
+        "gezonden",
+        "verlaat",
+        "verlaten"
       ],
       "usage_en": [
         "away",
@@ -25377,7 +25411,10 @@
         "zich",
         "wederkeert",
         "opmaakt",
-        "afkeert"
+        "afkeert",
+        "afgekeerd",
+        "u",
+        "bekeerd"
       ],
       "usage_en": [
         "returned",
@@ -25518,7 +25555,8 @@
         "weldoen",
         "goede",
         "hebben",
-        "doen"
+        "doen",
+        "gij"
       ],
       "usage_en": [
         "well",
@@ -25528,6 +25566,7 @@
         "diligent",
         "very",
         "give",
+        "trimmest",
         "be accepted",
         "amend",
         "use aright",
@@ -26440,7 +26479,10 @@
         "henentrekken",
         "heeft",
         "gaan",
-        "komen"
+        "komen",
+        "ga",
+        "en",
+        "nagewandeld"
       ],
       "usage_en": [
         "went",
@@ -26452,6 +26494,9 @@
         "on",
         "walking",
         "come",
+        "walked",
+        "gone",
+        "up",
         "all along",
         "apace",
         "behave self",
@@ -26729,17 +26774,18 @@
         "stem",
         "stemme",
         "geruis",
-        "stilte"
+        "stilte",
+        "gerucht"
       ],
       "usage_en": [
         "voice",
         "aloud",
         "sound",
+        "lightness",
         "bleating",
         "crackling",
         "cry out",
         "fame",
-        "lightness",
         "lowing",
         "noise",
         "hold peace",
@@ -26790,7 +26836,12 @@
         "kwaad",
         "kwade",
         "boze",
-        "kwaden"
+        "kwaden",
+        "boosheden",
+        "boosheid",
+        "kwaads",
+        "booste",
+        "boos"
       ],
       "usage_en": [
         "evil",
@@ -26803,6 +26854,9 @@
         "wicked",
         "evils",
         "mischiefs",
+        "trouble",
+        "ones",
+        "things",
         "adversity",
         "affliction",
         "bad",
@@ -26826,7 +26880,6 @@
         "not please",
         "sad-ly",
         "sorrow",
-        "trouble",
         "vex",
         "wicked-ly",
         "-ness",
@@ -27293,7 +27346,8 @@
         "uitdelen",
         "delen",
         "uitdeelde",
-        "beerven"
+        "beerven",
+        "heb"
       ],
       "usage_en": [
         "inherit",
@@ -27346,10 +27400,12 @@
       "gloss_nl": null,
       "gloss_en": "plunder",
       "usage_nl": [
-        "roof"
+        "roof",
+        "geworden"
       ],
       "usage_en": [
         "prey",
+        "spoiled",
         "booty",
         "spoil-ed."
       ]
@@ -27909,7 +27965,9 @@
         "was",
         "voorbij",
         "gingen",
-        "ging"
+        "ging",
+        "doorging",
+        "dienen"
       ],
       "usage_en": [
         "pass",
@@ -28047,6 +28105,7 @@
         "mightily",
         "might",
         "greatly",
+        "much",
         "especially",
         "exceeding-ly",
         "far",
@@ -28332,7 +28391,10 @@
         "hij",
         "spijzen",
         "eter",
-        "spijzigen"
+        "spijzigen",
+        "opaten",
+        "verteerd",
+        "opgegeten"
       ],
       "usage_en": [
         "eat",
@@ -28371,7 +28433,8 @@
       "usage_nl": [
         "water",
         "wateren",
-        "twistwater"
+        "twistwater",
+        "waters"
       ],
       "usage_en": [
         "water",
@@ -30625,7 +30688,8 @@
         "naam",
         "namen",
         "name",
-        "zal"
+        "zal",
+        "naams"
       ],
       "usage_en": [
         "name",

@@ -6411,7 +6411,8 @@
         "droog",
         "hebt",
         "gans",
-        "worden"
+        "worden",
+        "woest"
       ],
       "usage_en": [
         "waste",
@@ -6419,6 +6420,7 @@
         "dried",
         "utterly",
         "wasted",
+        "desolate",
         "decay",
         "be desolate",
         "destroy-er",
@@ -6762,7 +6764,8 @@
         "vertonen",
         "aan",
         "zullen",
-        "aanschouw"
+        "aanschouw",
+        "gijlieden"
       ],
       "usage_en": [
         "saw",
@@ -6935,6 +6938,7 @@
         "comest",
         "up",
         "cometh",
+        "entered",
         "apply",
         "attain",
         "be",
@@ -7055,10 +7059,12 @@
       "gloss_nl": null,
       "gloss_en": "finery; generally an outfit; specifically, a headstall",
       "usage_nl": [
-        "sieraad"
+        "sieraad",
+        "versiersel"
       ],
       "usage_en": [
         "ornament",
+        "ornaments",
         "excellent",
         "mouth",
         "ornament."
@@ -7172,7 +7178,8 @@
         "eenzame",
         "verstoringen",
         "waren",
-        "mij"
+        "mij",
+        "u"
       ],
       "usage_en": [
         "desolate",
@@ -7180,6 +7187,7 @@
         "astonied",
         "desolations",
         "wondered",
+        "astonished",
         "make amazed",
         "be astonied",
         "be an astonish-ment",
@@ -7295,6 +7303,7 @@
         "bleef",
         "moge",
         "neder",
+        "gezeten",
         "worden"
       ],
       "usage_en": [
@@ -7317,6 +7326,7 @@
         "tarry",
         "set",
         "inhabited",
+        "inhabitant",
         "make to abide-ing",
         "continue",
         "cause to",
@@ -8532,7 +8542,8 @@
       "gloss_nl": null,
       "gloss_en": "properly, to pale, i.e. by implication to be ashamed; also (by implication) to be disappointed or delayed",
       "usage_nl": [
-        "worden"
+        "worden",
+        "zijt"
       ],
       "usage_en": [
         "ashamed",
@@ -8558,10 +8569,12 @@
       "gloss_en": "to bind together (perhaps by twisting), i.e. collect; (figuratively) to expect",
       "usage_nl": [
         "verwachten",
-        "wachten"
+        "wachten",
+        "worden"
       ],
       "usage_en": [
         "wait",
+        "gathered",
         "gather together",
         "look",
         "patiently",
@@ -8644,7 +8657,8 @@
         "hale",
         "worden",
         "is",
-        "wegnemen"
+        "wegnemen",
+        "aannemen"
       ],
       "usage_en": [
         "took",
@@ -8794,7 +8808,8 @@
         "hebt",
         "twisten",
         "twistzaak",
-        "zal"
+        "zal",
+        "gij"
       ],
       "usage_en": [
         "strive",
@@ -8826,7 +8841,8 @@
         "verlost",
         "heiland",
         "beschikt",
-        "behouden"
+        "behouden",
+        "verlos"
       ],
       "usage_en": [
         "save",
@@ -8900,7 +8916,10 @@
         "hij",
         "spijzen",
         "eter",
-        "spijzigen"
+        "spijzigen",
+        "opaten",
+        "verteerd",
+        "opgegeten"
       ],
       "usage_en": [
         "eat",
@@ -9148,7 +9167,9 @@
         "zendt",
         "loslaat",
         "uitsteken",
-        "gezonden"
+        "gezonden",
+        "verlaat",
+        "verlaten"
       ],
       "usage_en": [
         "away",
@@ -9284,6 +9305,7 @@
       "usage_nl": [],
       "usage_en": [
         "divorcement",
+        "divorce",
         "divorce-ment."
       ]
     },
@@ -9657,7 +9679,8 @@
         "gij",
         "gelegd",
         "beschikken",
-        "stelde"
+        "stelde",
+        "steldet"
       ],
       "usage_en": [
         "make",
@@ -9801,7 +9824,8 @@
       "usage_nl": [
         "water",
         "wateren",
-        "twistwater"
+        "twistwater",
+        "waters"
       ],
       "usage_en": [
         "water",
@@ -9986,11 +10010,13 @@
       "usage_nl": [
         "geleerden",
         "worden",
-        "zijn"
+        "zijn",
+        "gewend"
       ],
       "usage_en": [
         "learned",
         "taught",
+        "used",
         "accustomed",
         "disciple",
         "used."
@@ -10052,7 +10078,8 @@
         "hij",
         "acht",
         "maakt",
-        "zwijgt"
+        "zwijgt",
+        "verheven"
       ],
       "usage_en": [
         "gave",
@@ -10091,6 +10118,7 @@
         "grant",
         "bringeth",
         "direct",
+        "yelled",
         "apply",
         "ascribe",
         "assign",
@@ -10410,6 +10438,7 @@
         "obeyeth",
         "publisheth",
         "proclaimed",
+        "obeyed",
         "attentively",
         "call gather together",
         "certainly",
@@ -10686,7 +10715,8 @@
         "tegenover",
         "aangezichten",
         "henen",
-        "aangezichts"
+        "aangezichts",
+        "toorn"
       ],
       "usage_en": [
         "before",
@@ -10713,9 +10743,9 @@
         "against",
         "for",
         "faces",
+        "anger",
         "accept",
         "a-be- fore-time",
-        "anger",
         "as long as",
         "battle",
         "because of",
@@ -10863,10 +10893,12 @@
       "gloss_en": "properly, to wound; but only figuratively, to taunt or insult",
       "usage_nl": [
         "schande",
-        "schaamrood"
+        "schaamrood",
+        "worden"
       ],
       "usage_en": [
         "confounded",
+        "ashamed",
         "be make ashamed",
         "blush",
         "be confounded",
@@ -10936,11 +10968,13 @@
       "gloss_en": "to be (causatively, make) right (in a moral or forensic sense)",
       "usage_nl": [
         "spreken",
-        "rechtvaardigt"
+        "rechtvaardigt",
+        "gerechtvaardigd"
       ],
       "usage_en": [
         "justify",
         "justifieth",
+        "justified",
         "cleanse",
         "clear self",
         "be",
@@ -11250,17 +11284,18 @@
         "stem",
         "stemme",
         "geruis",
-        "stilte"
+        "stilte",
+        "gerucht"
       ],
       "usage_en": [
         "voice",
         "aloud",
         "sound",
+        "lightness",
         "bleating",
         "crackling",
         "cry out",
         "fame",
-        "lightness",
         "lowing",
         "noise",
         "hold peace",
@@ -11338,7 +11373,10 @@
         "henentrekken",
         "heeft",
         "gaan",
-        "komen"
+        "komen",
+        "ga",
+        "en",
+        "nagewandeld"
       ],
       "usage_en": [
         "went",
@@ -11350,6 +11388,9 @@
         "on",
         "walking",
         "come",
+        "walked",
+        "gone",
+        "up",
         "all along",
         "apace",
         "behave self",
@@ -11452,7 +11493,8 @@
         "naam",
         "namen",
         "name",
-        "zal"
+        "zal",
+        "naams"
       ],
       "usage_en": [
         "name",
@@ -11623,7 +11665,11 @@
         "wandelt",
         "henengaan",
         "zij",
-        "leidde"
+        "leidde",
+        "nawandeldet",
+        "nagewandeld",
+        "leidt",
+        "nawandelen"
       ],
       "usage_en": [
         "departed",
@@ -11645,6 +11691,8 @@
         "now",
         "come",
         "on",
+        "wentest",
+        "walked",
         "again",
         "away",
         "bear",
@@ -11941,7 +11989,8 @@
         "uitgehouwen",
         "hebt",
         "zult",
-        "zijt"
+        "zijt",
+        "houwen"
       ],
       "usage_en": [
         "digged",
@@ -11949,6 +11998,7 @@
         "dig",
         "hewn",
         "cut",
+        "out",
         "divide",
         "grave",
         "hew out",
@@ -12238,6 +12288,7 @@
         "increaseth",
         "increased",
         "abundantly",
+        "much",
         "bring in abundance -antly",
         "archer by mistake for h7232 רָבַב",
         "be in authority",
@@ -12332,13 +12383,15 @@
         "velden",
         "veld",
         "velds",
-        "wildernis"
+        "wildernis",
+        "wildernissen"
       ],
       "usage_en": [
         "plains",
         "plain",
         "champaign",
         "desert",
+        "deserts",
         "arabah",
         "evening",
         "heaven",

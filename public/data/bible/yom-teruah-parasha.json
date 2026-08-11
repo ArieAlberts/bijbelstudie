@@ -6300,7 +6300,8 @@
         "ontbreekt",
         "bezoek",
         "bestellen",
-        "besteld"
+        "besteld",
+        "bezoeken"
       ],
       "usage_en": [
         "visited",
@@ -6310,6 +6311,7 @@
         "lacketh",
         "visiting",
         "make",
+        "visit",
         "appoint",
         "at all",
         "avenge",
@@ -6339,7 +6341,6 @@
         "set over",
         "sum",
         "surely",
-        "visit",
         "want."
       ]
     },
@@ -6590,6 +6591,7 @@
         "dressed",
         "maker",
         "accomplish",
+        "procured",
         "advance",
         "appoint",
         "apt",
@@ -7052,7 +7054,8 @@
         "naam",
         "namen",
         "name",
-        "zal"
+        "zal",
+        "naams"
       ],
       "usage_en": [
         "name",
@@ -7416,6 +7419,7 @@
         "obeyeth",
         "publisheth",
         "proclaimed",
+        "obeyed",
         "attentively",
         "call gather together",
         "certainly",
@@ -7783,7 +7787,8 @@
         "vertonen",
         "aan",
         "zullen",
-        "aanschouw"
+        "aanschouw",
+        "gijlieden"
       ],
       "usage_en": [
         "saw",
@@ -8246,6 +8251,7 @@
         "mightily",
         "might",
         "greatly",
+        "much",
         "especially",
         "exceeding-ly",
         "far",
@@ -8405,6 +8411,7 @@
       ],
       "usage_en": [
         "because",
+        "causes",
         "be- cause",
         "concerning",
         "sake."
@@ -8523,17 +8530,18 @@
         "stem",
         "stemme",
         "geruis",
-        "stilte"
+        "stilte",
+        "gerucht"
       ],
       "usage_en": [
         "voice",
         "aloud",
         "sound",
+        "lightness",
         "bleating",
         "crackling",
         "cry out",
         "fame",
-        "lightness",
         "lowing",
         "noise",
         "hold peace",
@@ -8653,7 +8661,8 @@
         "gij",
         "gelegd",
         "beschikken",
-        "stelde"
+        "stelde",
+        "steldet"
       ],
       "usage_en": [
         "make",
@@ -8825,7 +8834,8 @@
         "hale",
         "worden",
         "is",
-        "wegnemen"
+        "wegnemen",
+        "aannemen"
       ],
       "usage_en": [
         "took",
@@ -8910,7 +8920,8 @@
       "usage_nl": [
         "water",
         "wateren",
-        "twistwater"
+        "twistwater",
+        "waters"
       ],
       "usage_en": [
         "water",
@@ -8979,7 +8990,8 @@
         "hij",
         "acht",
         "maakt",
-        "zwijgt"
+        "zwijgt",
+        "verheven"
       ],
       "usage_en": [
         "gave",
@@ -9018,6 +9030,7 @@
         "grant",
         "bringeth",
         "direct",
+        "yelled",
         "apply",
         "ascribe",
         "assign",
@@ -9130,7 +9143,9 @@
         "zendt",
         "loslaat",
         "uitsteken",
-        "gezonden"
+        "gezonden",
+        "verlaat",
+        "verlaten"
       ],
       "usage_en": [
         "away",
@@ -9202,7 +9217,11 @@
         "wandelt",
         "henengaan",
         "zij",
-        "leidde"
+        "leidde",
+        "nawandeldet",
+        "nagewandeld",
+        "leidt",
+        "nawandelen"
       ],
       "usage_en": [
         "departed",
@@ -9224,6 +9243,8 @@
         "now",
         "come",
         "on",
+        "wentest",
+        "walked",
         "again",
         "away",
         "bear",
@@ -9449,6 +9470,7 @@
       "usage_en": [
         "beneath",
         "whereas",
+        "under",
         "as",
         "flat",
         "in-stead",
@@ -9456,7 +9478,6 @@
         "room",
         "for...sake",
         "stead of",
-        "under",
         "unto",
         "when...was mine",
         "where- fore",
@@ -9565,6 +9586,7 @@
         "bleef",
         "moge",
         "neder",
+        "gezeten",
         "worden"
       ],
       "usage_en": [
@@ -9587,6 +9609,7 @@
         "tarry",
         "set",
         "inhabited",
+        "inhabitant",
         "make to abide-ing",
         "continue",
         "cause to",
@@ -9954,7 +9977,8 @@
         "dingen",
         "vreze",
         "vreselijken",
-        "gevreesd"
+        "gevreesd",
+        "vreesde"
       ],
       "usage_en": [
         "fear",
@@ -10481,6 +10505,7 @@
         "increaseth",
         "increased",
         "abundantly",
+        "much",
         "bring in abundance -antly",
         "archer by mistake for h7232 רָבַב",
         "be in authority",
@@ -10666,6 +10691,7 @@
         "time",
         "times",
         "season",
+        "when",
         "after",
         "al- ways",
         "certain",
@@ -11072,11 +11098,13 @@
       "gloss_en": "to be right (i.e. correct); reciprocal, to argue; causatively, to decide, justify or convict",
       "usage_nl": [
         "berispte",
-        "rechten"
+        "rechten",
+        "straffen"
       ],
       "usage_en": [
         "reproved",
         "together",
+        "reprove",
         "appoint",
         "argue",
         "chasten",
@@ -11756,7 +11784,10 @@
         "zich",
         "wederkeert",
         "opmaakt",
-        "afkeert"
+        "afkeert",
+        "afgekeerd",
+        "u",
+        "bekeerd"
       ],
       "usage_en": [
         "returned",
@@ -11932,6 +11963,7 @@
         "lasting",
         "eternal",
         "never",
+        "time",
         "alway-s",
         "ancient time",
         "any more",

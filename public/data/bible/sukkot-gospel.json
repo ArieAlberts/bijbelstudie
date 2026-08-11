@@ -3839,6 +3839,7 @@
         "afterward",
         "after",
         "yea",
+        "even",
         "also",
         "now often unexpressed in english"
       ]
@@ -3864,12 +3865,13 @@
         "zijn",
         "zijt",
         "geschiedde",
+        "geschied",
+        "wees",
         "er",
         "geworden",
         "komende",
         "kwam",
         "gekomen",
-        "geschied",
         "het"
       ],
       "usage_en": [
@@ -3884,6 +3886,7 @@
         "fulfilled",
         "come",
         "came",
+        "been",
         "drawing",
         "thou",
         "thundered",
@@ -3950,6 +3953,7 @@
         "toen",
         "met",
         "werd",
+        "daarin",
         "aan"
       ],
       "usage_en": [
@@ -3967,6 +3971,8 @@
         "about",
         "within",
         "baptized",
+        "when",
+        "therein",
         "after",
         "against",
         "+ almost",
@@ -3994,7 +4000,6 @@
         "through-out",
         "un-to-ward",
         "under",
-        "when",
         "where-with",
         "with-in"
       ]
@@ -4015,6 +4020,7 @@
         "dier",
         "dit",
         "diezelfde",
+        "deze",
         "hij",
         "dat"
       ],
@@ -4124,6 +4130,7 @@
         "van",
         "bij",
         "dan",
+        "tot",
         "is"
       ],
       "usage_en": [
@@ -4270,7 +4277,8 @@
         "die",
         "dit",
         "dezen",
-        "zij"
+        "zij",
+        "hij"
       ],
       "usage_en": [
         "these",
@@ -4299,10 +4307,12 @@
       "gloss_nl": null,
       "gloss_en": "foremost (in time, place, order or importance)",
       "usage_nl": [
-        "eerste"
+        "eerste",
+        "oversten"
       ],
       "usage_en": [
         "first",
+        "chief",
         "before",
         "beginning",
         "best",
@@ -4381,6 +4391,7 @@
         "dat",
         "zo",
         "[ook",
+        "dan",
         "met",
         "[alzo"
       ],
@@ -4397,6 +4408,7 @@
         "but",
         "yet",
         "that",
+        "which",
         "with",
         "for",
         "nor",
@@ -4421,6 +4433,8 @@
         "weg",
         "gingen",
         "reisden",
+        "reisde",
+        "hij",
         "zijn"
       ],
       "usage_en": [
@@ -4478,6 +4492,7 @@
         "aan",
         "zij",
         "binnen",
+        "nabij",
         "onder",
         "daar",
         "terug",
@@ -4572,10 +4587,12 @@
       "gloss_nl": null,
       "gloss_en": "a town (properly, with walls, of greater or less size)",
       "usage_nl": [
-        "stad"
+        "stad",
+        "steden"
       ],
       "usage_en": [
-        "city"
+        "city",
+        "cities"
       ]
     },
     "G2501": {
@@ -4603,6 +4620,7 @@
         "ging",
         "op",
         "waren",
+        "hij",
         "opvaren"
       ],
       "usage_en": [
@@ -4625,12 +4643,15 @@
       "gloss_en": "\"off,\" i.e. away (from something near), in various senses (of place, time, or relation; literal or figurative)",
       "usage_nl": [
         "van",
-        "uit"
+        "uit",
+        "vanwege",
+        "voor"
       ],
       "usage_en": [
         "from",
         "of",
         "since",
+        "for",
         "x here-after",
         "ago",
         "at",
@@ -4817,6 +4838,8 @@
         "wordt",
         "genaamd",
         "was",
+        "geheten",
+        "hebbende",
         "genood"
       ],
       "usage_en": [
@@ -4882,7 +4905,8 @@
       "gloss_nl": null,
       "gloss_en": "a dwelling (more or less extensive, literal or figurative); by implication, a family (more or less related, literally or figuratively)",
       "usage_nl": [
-        "huis"
+        "huis",
+        "huize"
       ],
       "usage_en": [
         "house",
@@ -4983,6 +5007,7 @@
         "same",
         "she",
         "himself",
+        "thereof",
         "miracles",
         "this",
         "very",
@@ -5334,7 +5359,8 @@
         "geweest",
         "was",
         "zich",
-        "wezen"
+        "wezen",
+        "leerde"
       ],
       "usage_en": [
         "were",
@@ -5342,6 +5368,7 @@
         "was",
         "marvelled",
         "be",
+        "taught",
         "+ agree",
         "x have + charge of",
         "hold",
@@ -5478,6 +5505,7 @@
         "boven",
         "daarbij",
         "tot",
+        "waarop",
         "naar",
         "daarop",
         "van"
@@ -5604,6 +5632,7 @@
       "usage_en": [
         "lord",
         "lord's",
+        "owners",
         "sir",
         "god",
         "master"
@@ -5682,6 +5711,7 @@
         "vreesden",
         "wij",
         "vreest",
+        "vreesde",
         "bevreesd",
         "zijt",
         "vrees"
@@ -5710,11 +5740,11 @@
       "usage_en": [
         "great",
         "sore",
+        "loud",
         "+ fear exceedingly",
         "great-est",
         "high",
         "large",
-        "loud",
         "mighty",
         "+ be sore afraid",
         "strong",
@@ -5754,6 +5784,8 @@
         "zouden",
         "zeggen",
         "zegt",
+        "hebbende",
+        "zeggende",
         "zij",
         "gezegd",
         "hij",
@@ -5770,6 +5802,9 @@
         "say",
         "ye",
         "saith",
+        "commanded",
+        "spoken",
+        "saying",
         "they",
         "he",
         "answer",
@@ -5911,7 +5946,8 @@
       "usage_nl": [
         "volk",
         "volke",
-        "volken"
+        "volken",
+        "volks"
       ],
       "usage_en": [
         "people"
@@ -5957,14 +5993,15 @@
         "dat",
         "omdat",
         "want",
-        "overmits",
-        "dewijl"
+        "dewijl",
+        "overmits"
       ],
       "usage_en": [
         "that",
         "because",
         "for",
         "art",
+        "if",
         "this",
         "how",
         "as concerning that",
@@ -6029,6 +6066,7 @@
         "wat",
         "wiens",
         "zijn",
+        "wien",
         "daar",
         "hem"
       ],
@@ -6195,6 +6233,7 @@
       "usage_en": [
         "find",
         "found",
+        "could",
         "get",
         "obtain",
         "perceive",
@@ -6291,7 +6330,8 @@
       "gloss_nl": null,
       "gloss_en": "to praise (God)",
       "usage_nl": [
-        "prijzende"
+        "prijzende",
+        "loven"
       ],
       "usage_en": [
         "praising",
@@ -6433,7 +6473,8 @@
         "man",
         "men",
         "certain",
-        "shepherds"
+        "shepherds",
+        "nobleman"
       ]
     },
     "G2107": {
@@ -6504,6 +6545,7 @@
         "heengegaan",
         "gaan",
         "waren",
+        "zijnde",
         "vertrok",
         "gingen",
         "gaat",
@@ -6623,12 +6665,15 @@
       "usage_nl": [
         "ons",
         "heengaan",
-        "gaan"
+        "gaan",
+        "door",
+        "voorbijgaan"
       ],
       "usage_en": [
         "us",
         "go",
         "through",
+        "pass",
         "come",
         "depart",
         "go about",
@@ -6712,6 +6757,7 @@
         "hadden",
         "zoude",
         "gij",
+        "hij",
         "wisten",
         "hebbende",
         "hebt",
@@ -6731,6 +6777,7 @@
         "seen",
         "should",
         "ye",
+        "beheld",
         "knew",
         "be aware",
         "behold",
@@ -6857,6 +6904,7 @@
         "hij",
         "zijnde",
         "zij",
+        "kome",
         "ik",
         "kom"
       ],
@@ -6891,7 +6939,9 @@
       "gloss_nl": null,
       "gloss_en": "to \"speed\" (\"study\"), i.e. urge on (diligently or earnestly); by implication, to await eagerly",
       "usage_nl": [
-        "haast"
+        "haast",
+        "u",
+        "zich"
       ],
       "usage_en": [
         "haste",
@@ -6962,6 +7012,7 @@
         "woord",
         "met",
         "om",
+        "vanwege",
         "daarover",
         "voor"
       ],
@@ -7164,12 +7215,14 @@
       "usage_nl": [
         "dingen",
         "deze",
-        "dezen",
-        "dit"
+        "dat",
+        "dit",
+        "dezen"
       ],
       "usage_en": [
         "things",
         "these",
+        "thus",
         "they",
         "+ afterward",
         "follow",
@@ -7181,8 +7234,7 @@
         "that",
         "then",
         "this",
-        "those",
-        "thus"
+        "those"
       ]
     },
     "G4820": {

@@ -5215,7 +5215,8 @@
         "afwenden",
         "gewend",
         "wenden",
-        "bereidt"
+        "bereidt",
+        "toe"
       ],
       "usage_en": [
         "turn",
@@ -5563,7 +5564,8 @@
         "naam",
         "namen",
         "name",
-        "zal"
+        "zal",
+        "naams"
       ],
       "usage_en": [
         "name",
@@ -5743,6 +5745,7 @@
         "heart",
         "midst",
         "comfortably",
+        "mind",
         "care for",
         "consent",
         "considered",
@@ -5813,6 +5816,7 @@
         "lasting",
         "eternal",
         "never",
+        "time",
         "alway-s",
         "ancient time",
         "any more",
@@ -5840,7 +5844,8 @@
         "hebt",
         "twisten",
         "twistzaak",
-        "zal"
+        "zal",
+        "gij"
       ],
       "usage_en": [
         "strive",
@@ -5866,13 +5871,14 @@
       "gloss_nl": null,
       "gloss_en": "properly, a goal, i.e. the bright object at adistance travelled towards; hence (figuratively), splendor, or (subjectively) truthfulness, or (objectively) confidence; but usually (adverbially), continually (i.e. to the most distant point of view)",
       "usage_nl": [
-        "geduriglijk"
+        "geduriglijk",
+        "gestadig"
       ],
       "usage_en": [
         "always",
+        "end",
         "alway-s",
         "constantly",
-        "end",
         "n- evermore",
         "perpetual",
         "strength",
@@ -5929,7 +5935,8 @@
         "tegenover",
         "aangezichten",
         "henen",
-        "aangezichts"
+        "aangezichts",
+        "toorn"
       ],
       "usage_en": [
         "before",
@@ -5956,9 +5963,9 @@
         "against",
         "for",
         "faces",
+        "anger",
         "accept",
         "a-be- fore-time",
-        "anger",
         "as long as",
         "battle",
         "because of",
@@ -6138,6 +6145,7 @@
         "dressed",
         "maker",
         "accomplish",
+        "procured",
         "advance",
         "appoint",
         "apt",
@@ -6371,7 +6379,11 @@
         "wandelt",
         "henengaan",
         "zij",
-        "leidde"
+        "leidde",
+        "nawandeldet",
+        "nagewandeld",
+        "leidt",
+        "nawandelen"
       ],
       "usage_en": [
         "departed",
@@ -6393,6 +6405,8 @@
         "now",
         "come",
         "on",
+        "wentest",
+        "walked",
         "again",
         "away",
         "bear",
@@ -6433,7 +6447,8 @@
       "gloss_nl": null,
       "gloss_en": "apostate, i.e. idolatrous",
       "usage_nl": [
-        "afkerig"
+        "afkerig",
+        "afkerige"
       ],
       "usage_en": [
         "frowardly",
@@ -6479,7 +6494,8 @@
         "vertonen",
         "aan",
         "zullen",
-        "aanschouw"
+        "aanschouw",
+        "gijlieden"
       ],
       "usage_en": [
         "saw",
@@ -6932,7 +6948,8 @@
         "kon",
         "vermogen",
         "niet",
-        "kan"
+        "kan",
+        "overhand"
       ],
       "usage_en": [
         "able",
@@ -6942,6 +6959,7 @@
         "canst",
         "cannot",
         "with",
+        "couldest",
         "be able",
         "any at all ways",
         "attain",
@@ -6993,7 +7011,8 @@
       "usage_nl": [
         "water",
         "wateren",
-        "twistwater"
+        "twistwater",
+        "waters"
       ],
       "usage_en": [
         "water",
@@ -7148,6 +7167,7 @@
       ],
       "usage_en": [
         "aloud",
+        "throat",
         "mouth",
         "neck",
         "throat."
@@ -7189,17 +7209,18 @@
         "stem",
         "stemme",
         "geruis",
-        "stilte"
+        "stilte",
+        "gerucht"
       ],
       "usage_en": [
         "voice",
         "aloud",
         "sound",
+        "lightness",
         "bleating",
         "crackling",
         "cry out",
         "fame",
-        "lightness",
         "lowing",
         "noise",
         "hold peace",
@@ -7315,6 +7336,7 @@
         "households",
         "home",
         "contain",
+        "homeborn",
         "court",
         "daughter",
         "door",
@@ -7323,7 +7345,6 @@
         "forth of",
         "great as would contain",
         "hangings",
-        "homeborn",
         "winter house-hold",
         "inside-ward",
         "palace",
@@ -7877,6 +7898,7 @@
         "heart",
         "himself",
         "man",
+        "herself",
         "appetite",
         "beast",
         "body",
@@ -8295,6 +8317,7 @@
         "obeyeth",
         "publisheth",
         "proclaimed",
+        "obeyed",
         "attentively",
         "call gather together",
         "certainly",
@@ -8744,7 +8767,9 @@
         "zendt",
         "loslaat",
         "uitsteken",
-        "gezonden"
+        "gezonden",
+        "verlaat",
+        "verlaten"
       ],
       "usage_en": [
         "away",
@@ -8812,13 +8837,14 @@
       "gloss_en": "to tear off",
       "usage_nl": [
         "gescheurde",
-        "verscheurt"
+        "verscheurt",
+        "had"
       ],
       "usage_en": [
         "broken",
         "break",
-        "break off",
         "burst",
+        "break off",
         "draw away",
         "lift up",
         "pluck away",
@@ -9015,6 +9041,7 @@
         "comest",
         "up",
         "cometh",
+        "entered",
         "apply",
         "attain",
         "be",
@@ -9091,13 +9118,15 @@
         "bedekt",
         "bedekken",
         "bedek",
-        "dekt"
+        "dekt",
+        "overdekt"
       ],
       "usage_en": [
         "cover",
         "conceal",
         "coverest",
         "covered",
+        "covereth",
         "clad self",
         "close",
         "clothe",
@@ -9308,7 +9337,10 @@
         "henentrekken",
         "heeft",
         "gaan",
-        "komen"
+        "komen",
+        "ga",
+        "en",
+        "nagewandeld"
       ],
       "usage_en": [
         "went",
@@ -9320,6 +9352,9 @@
         "on",
         "walking",
         "come",
+        "walked",
+        "gone",
+        "up",
         "all along",
         "apace",
         "behave self",
@@ -9377,7 +9412,8 @@
       "gloss_en": "properly, weight, but only figuratively in a good sense, splendor or copiousness",
       "usage_nl": [
         "heerlijkheid",
-        "ere"
+        "ere",
+        "eer"
       ],
       "usage_en": [
         "glory",
@@ -10295,7 +10331,10 @@
         "zich",
         "wederkeert",
         "opmaakt",
-        "afkeert"
+        "afkeert",
+        "afgekeerd",
+        "u",
+        "bekeerd"
       ],
       "usage_en": [
         "returned",
@@ -10431,6 +10470,7 @@
         "bleef",
         "moge",
         "neder",
+        "gezeten",
         "worden"
       ],
       "usage_en": [
@@ -10453,6 +10493,7 @@
         "tarry",
         "set",
         "inhabited",
+        "inhabitant",
         "make to abide-ing",
         "continue",
         "cause to",
@@ -10878,7 +10919,10 @@
         "hij",
         "spijzen",
         "eter",
-        "spijzigen"
+        "spijzigen",
+        "opaten",
+        "verteerd",
+        "opgegeten"
       ],
       "usage_en": [
         "eat",

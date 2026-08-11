@@ -7936,7 +7936,10 @@
         "doodslager",
         "achterwaarts",
         "nawandelt",
-        "nahoereren"
+        "nahoereren",
+        "[naar",
+        "die",
+        "naar"
       ],
       "usage_en": [
         "after",
@@ -7949,6 +7952,7 @@
         "again",
         "behind",
         "him",
+        "me",
         "after that",
         "-ward",
         "at",
@@ -8207,7 +8211,8 @@
         "tegenover",
         "aangezichten",
         "henen",
-        "aangezichts"
+        "aangezichts",
+        "toorn"
       ],
       "usage_en": [
         "before",
@@ -8234,9 +8239,9 @@
         "against",
         "for",
         "faces",
+        "anger",
         "accept",
         "a-be- fore-time",
-        "anger",
         "as long as",
         "battle",
         "because of",
@@ -8475,6 +8480,7 @@
         "time",
         "times",
         "season",
+        "when",
         "after",
         "al- ways",
         "certain",
@@ -8575,6 +8581,7 @@
         "comest",
         "up",
         "cometh",
+        "entered",
         "apply",
         "attain",
         "be",
@@ -8679,6 +8686,7 @@
         "households",
         "home",
         "contain",
+        "homeborn",
         "court",
         "daughter",
         "door",
@@ -8687,7 +8695,6 @@
         "forth of",
         "great as would contain",
         "hangings",
-        "homeborn",
         "winter house-hold",
         "inside-ward",
         "palace",
@@ -8786,7 +8793,8 @@
         "vertonen",
         "aan",
         "zullen",
-        "aanschouw"
+        "aanschouw",
+        "gijlieden"
       ],
       "usage_en": [
         "saw",
@@ -9261,7 +9269,8 @@
       "usage_nl": [
         "water",
         "wateren",
-        "twistwater"
+        "twistwater",
+        "waters"
       ],
       "usage_en": [
         "water",
@@ -9361,7 +9370,8 @@
         "hale",
         "worden",
         "is",
-        "wegnemen"
+        "wegnemen",
+        "aannemen"
       ],
       "usage_en": [
         "took",
@@ -9756,7 +9766,8 @@
         "hij",
         "acht",
         "maakt",
-        "zwijgt"
+        "zwijgt",
+        "verheven"
       ],
       "usage_en": [
         "gave",
@@ -9795,6 +9806,7 @@
         "grant",
         "bringeth",
         "direct",
+        "yelled",
         "apply",
         "ascribe",
         "assign",
@@ -9913,7 +9925,8 @@
         "ga",
         "opvaren",
         "gij",
-        "heeft"
+        "heeft",
+        "opvoerde"
       ],
       "usage_en": [
         "fell",
@@ -10059,6 +10072,7 @@
         "dressed",
         "maker",
         "accomplish",
+        "procured",
         "advance",
         "appoint",
         "apt",
@@ -10222,7 +10236,9 @@
         "zendt",
         "loslaat",
         "uitsteken",
-        "gezonden"
+        "gezonden",
+        "verlaat",
+        "verlaten"
       ],
       "usage_en": [
         "away",
@@ -10471,13 +10487,15 @@
         "bedekt",
         "bedekken",
         "bedek",
-        "dekt"
+        "dekt",
+        "overdekt"
       ],
       "usage_en": [
         "cover",
         "conceal",
         "coverest",
         "covered",
+        "covereth",
         "clad self",
         "close",
         "clothe",
@@ -11694,7 +11712,8 @@
       "gloss_nl": null,
       "gloss_en": "to trample; hence, to wash (properly, by stamping with the feet), whether literal (including the fulling process) or figurative",
       "usage_nl": [
-        "wassen"
+        "wassen",
+        "u"
       ],
       "usage_en": [
         "wash",
@@ -11833,6 +11852,7 @@
         "lasting",
         "eternal",
         "never",
+        "time",
         "alway-s",
         "ancient time",
         "any more",
@@ -11960,6 +11980,7 @@
         "heart",
         "himself",
         "man",
+        "herself",
         "appetite",
         "beast",
         "body",

@@ -3202,6 +3202,7 @@
         "same",
         "she",
         "himself",
+        "thereof",
         "miracles",
         "this",
         "very",
@@ -3249,6 +3250,8 @@
         "zouden",
         "zeggen",
         "zegt",
+        "hebbende",
+        "zeggende",
         "zij",
         "gezegd",
         "hij",
@@ -3265,6 +3268,9 @@
         "say",
         "ye",
         "saith",
+        "commanded",
+        "spoken",
+        "saying",
         "they",
         "he",
         "answer",
@@ -3292,6 +3298,7 @@
       "usage_en": [
         "lord",
         "lord's",
+        "owners",
         "sir",
         "god",
         "master"
@@ -3367,6 +3374,7 @@
         "aan",
         "zij",
         "binnen",
+        "nabij",
         "onder",
         "daar",
         "terug",
@@ -3470,6 +3478,7 @@
         "dat",
         "zo",
         "[ook",
+        "dan",
         "met",
         "[alzo"
       ],
@@ -3486,6 +3495,7 @@
         "but",
         "yet",
         "that",
+        "which",
         "with",
         "for",
         "nor",
@@ -3879,7 +3889,8 @@
         "man",
         "men",
         "certain",
-        "shepherds"
+        "shepherds",
+        "nobleman"
       ]
     },
     "G935": {
@@ -3919,6 +3930,7 @@
         "wat",
         "wiens",
         "zijn",
+        "wien",
         "daar",
         "hem"
       ],
@@ -4074,6 +4086,7 @@
         "wil",
         "willen",
         "wilde",
+        "gewild",
         "wilden",
         "gewilliglijk",
         "wilt"
@@ -4081,6 +4094,7 @@
       "usage_en": [
         "will",
         "would",
+        "have",
         "willingly",
         "desire",
         "be disposed forward",
@@ -4157,6 +4171,7 @@
         "afterward",
         "after",
         "yea",
+        "even",
         "also",
         "now often unexpressed in english"
       ]
@@ -4172,7 +4187,8 @@
         "begonnen",
         "begon",
         "beginnen",
-        "begint"
+        "begint",
+        "hij"
       ],
       "usage_en": [
         "began",
@@ -4328,6 +4344,7 @@
         "hielden",
         "van",
         "hebben",
+        "heb",
         "hebbe",
         "gij",
         "gijlieden"
@@ -4386,12 +4403,15 @@
         "betalen",
         "worden",
         "betaal",
-        "hebben"
+        "hebben",
+        "ik",
+        "weder"
       ],
       "usage_en": [
         "reward",
         "pay",
         "made",
+        "restore",
         "deliver again",
         "give again",
         "re-pay-ment be made",
@@ -4399,7 +4419,6 @@
         "recompense",
         "render",
         "requite",
-        "restore",
         "sell",
         "yield"
       ]
@@ -4653,6 +4672,7 @@
         "boven",
         "daarbij",
         "tot",
+        "waarop",
         "naar",
         "daarop",
         "van"
@@ -4730,6 +4750,7 @@
         "dier",
         "dit",
         "diezelfde",
+        "deze",
         "hij",
         "dat"
       ],
@@ -4858,6 +4879,7 @@
       "usage_en": [
         "find",
         "found",
+        "could",
         "get",
         "obtain",
         "perceive",
@@ -5081,6 +5103,7 @@
         "heengegaan",
         "gaan",
         "waren",
+        "zijnde",
         "vertrok",
         "gingen",
         "gaat",
@@ -5181,6 +5204,7 @@
         "hadden",
         "zoude",
         "gij",
+        "hij",
         "wisten",
         "hebbende",
         "hebt",
@@ -5200,6 +5224,7 @@
         "seen",
         "should",
         "ye",
+        "beheld",
         "knew",
         "be aware",
         "behold",
@@ -5235,12 +5260,13 @@
         "zijn",
         "zijt",
         "geschiedde",
+        "geschied",
+        "wees",
         "er",
         "geworden",
         "komende",
         "kwam",
         "gekomen",
-        "geschied",
         "het"
       ],
       "usage_en": [
@@ -5255,6 +5281,7 @@
         "fulfilled",
         "come",
         "came",
+        "been",
         "drawing",
         "thou",
         "thundered",
@@ -5356,6 +5383,7 @@
         "hij",
         "zijnde",
         "zij",
+        "kome",
         "ik",
         "kom"
       ],
@@ -5566,12 +5594,14 @@
         "u",
         "uw",
         "uws",
-        "eigen"
+        "eigen",
+        "uwer"
       ],
       "usage_en": [
         "thee",
         "thy",
         "thine",
+        "own",
         "x home",
         "thine own",
         "thou"
@@ -5794,6 +5824,8 @@
         "voort",
         "voortbrengt",
         "deed",
+        "gewonnen",
+        "zouden",
         "doet",
         "hebbende",
         "had",
@@ -5813,6 +5845,7 @@
         "dealt",
         "forth",
         "bringeth",
+        "gained",
         "doest",
         "shewest",
         "doeth",
@@ -5907,12 +5940,15 @@
       "gloss_en": "\"off,\" i.e. away (from something near), in various senses (of place, time, or relation; literal or figurative)",
       "usage_nl": [
         "van",
-        "uit"
+        "uit",
+        "vanwege",
+        "voor"
       ],
       "usage_en": [
         "from",
         "of",
         "since",
+        "for",
         "x here-after",
         "ago",
         "at",

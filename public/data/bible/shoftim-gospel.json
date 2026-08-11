@@ -2802,6 +2802,7 @@
         "same",
         "she",
         "himself",
+        "thereof",
         "miracles",
         "this",
         "very",
@@ -2847,11 +2848,11 @@
       "usage_en": [
         "i",
         "am",
+        "was",
         "is",
         "been",
         "have been",
-        "x it is i",
-        "was"
+        "x it is i"
       ]
     },
     "G5118": {
@@ -2966,6 +2967,7 @@
         "dat",
         "zo",
         "[ook",
+        "dan",
         "met",
         "[alzo"
       ],
@@ -2982,6 +2984,7 @@
         "but",
         "yet",
         "that",
+        "which",
         "with",
         "for",
         "nor",
@@ -3055,6 +3058,9 @@
         "bekenden",
         "kende",
         "wisten",
+        "mocht",
+        "bekendet",
+        "hebt",
         "wist",
         "bekend",
         "verstond",
@@ -3073,9 +3079,10 @@
         "knew",
         "is",
         "of",
+        "known",
+        "knewest",
         "sure",
         "understood",
-        "known",
         "thou",
         "knoweth",
         "allow",
@@ -3275,14 +3282,15 @@
         "dat",
         "omdat",
         "want",
-        "overmits",
-        "dewijl"
+        "dewijl",
+        "overmits"
       ],
       "usage_en": [
         "that",
         "because",
         "for",
         "art",
+        "if",
         "this",
         "how",
         "as concerning that",
@@ -3333,6 +3341,7 @@
         "toen",
         "met",
         "werd",
+        "daarin",
         "aan"
       ],
       "usage_en": [
@@ -3350,6 +3359,8 @@
         "about",
         "within",
         "baptized",
+        "when",
+        "therein",
         "after",
         "against",
         "+ almost",
@@ -3377,7 +3388,6 @@
         "through-out",
         "un-to-ward",
         "under",
-        "when",
         "where-with",
         "with-in"
       ]
@@ -3485,6 +3495,7 @@
         "wat",
         "wiens",
         "zijn",
+        "wien",
         "daar",
         "hem"
       ],
@@ -3570,12 +3581,15 @@
       "gloss_en": "\"off,\" i.e. away (from something near), in various senses (of place, time, or relation; literal or figurative)",
       "usage_nl": [
         "van",
-        "uit"
+        "uit",
+        "vanwege",
+        "voor"
       ],
       "usage_en": [
         "from",
         "of",
         "since",
+        "for",
         "x here-after",
         "ago",
         "at",
@@ -3637,6 +3651,7 @@
         "afterward",
         "after",
         "yea",
+        "even",
         "also",
         "now often unexpressed in english"
       ]
@@ -3649,18 +3664,19 @@
       "gloss_nl": null,
       "gloss_en": "to stay (in a given place, state, relation or expectancy)",
       "usage_nl": [
+        "blijven",
         "bleven",
         "blijft",
         "blijve",
         "blijvende"
       ],
       "usage_en": [
+        "abide",
         "continued",
         "endureth",
         "dwelleth",
         "abideth",
         "should",
-        "abide",
         "present",
         "continue",
         "dwell",
@@ -3695,6 +3711,8 @@
         "voort",
         "voortbrengt",
         "deed",
+        "gewonnen",
+        "zouden",
         "doet",
         "hebbende",
         "had",
@@ -3714,6 +3732,7 @@
         "dealt",
         "forth",
         "bringeth",
+        "gained",
         "doest",
         "shewest",
         "doeth",
@@ -3900,6 +3919,7 @@
         "aan",
         "zij",
         "binnen",
+        "nabij",
         "onder",
         "daar",
         "terug",
@@ -4032,6 +4052,8 @@
         "weg",
         "gingen",
         "reisden",
+        "reisde",
+        "hij",
         "zijn"
       ],
       "usage_en": [
@@ -4127,13 +4149,15 @@
         "worden",
         "hebben",
         "zou",
-        "zo"
+        "zo",
+        "mogen"
       ],
       "usage_en": [
         "till",
         "should",
         "would",
         "soever",
+        "might",
         "told",
         "what-",
         "where-",
@@ -4201,11 +4225,13 @@
       "gloss_en": "a \"name\" (literally or figuratively) (authority, character)",
       "usage_nl": [
         "naam",
-        "naams"
+        "naams",
+        "name"
       ],
       "usage_en": [
         "name",
         "sake",
+        "named",
         "called",
         "+ sur-name-d"
       ]
@@ -4356,6 +4382,7 @@
         "enig",
         "iets",
         "iemand",
+        "zeker",
         "een",
         "niets",
         "mens",
@@ -4367,8 +4394,8 @@
         "thing",
         "them",
         "any",
-        "a",
         "certain",
+        "a",
         "a kind of",
         "any man",
         "thing at all",
@@ -4480,14 +4507,15 @@
       "gloss_en": "to interrogate; by implication, to request",
       "usage_nl": [
         "hij",
+        "vraagt",
         "baden",
         "bidden"
       ],
       "usage_en": [
         "asked",
+        "ask",
         "desired",
         "pray",
-        "ask",
         "beseech",
         "desire",
         "intreat"
@@ -4548,10 +4576,11 @@
         "gegeven",
         "heeft",
         "gaven",
+        "ik",
+        "had",
         "zal",
         "gaf",
-        "geef",
-        "ik"
+        "geef"
       ],
       "usage_en": [
         "give",
@@ -4560,6 +4589,9 @@
         "shall",
         "gave",
         "offer",
+        "delivered",
+        "gavest",
+        "thou",
         "giveth",
         "adventure",
         "bestow",
@@ -4668,14 +4700,15 @@
       "usage_nl": [
         "gij",
         "kan",
+        "kon",
         "zij",
         "wij"
       ],
       "usage_en": [
         "ye",
         "able",
-        "can",
         "could",
+        "can",
         "we",
         "be able",
         "can do",
@@ -4702,12 +4735,12 @@
         "nemende",
         "had",
         "zult",
+        "ontvangen",
         "neme",
         "nam",
         "genomen",
         "hebbende",
-        "ontvangt",
-        "ontvangen"
+        "ontvangt"
       ],
       "usage_en": [
         "take",
@@ -4819,6 +4852,7 @@
         "van",
         "bij",
         "dan",
+        "tot",
         "is"
       ],
       "usage_en": [
@@ -4986,6 +5020,7 @@
         "hij",
         "zijnde",
         "zij",
+        "kome",
         "ik",
         "kom"
       ],
@@ -5118,6 +5153,7 @@
         "dier",
         "dit",
         "diezelfde",
+        "deze",
         "hij",
         "dat"
       ],

@@ -15678,7 +15678,8 @@
         "tegenover",
         "aangezichten",
         "henen",
-        "aangezichts"
+        "aangezichts",
+        "toorn"
       ],
       "usage_en": [
         "before",
@@ -15705,9 +15706,9 @@
         "against",
         "for",
         "faces",
+        "anger",
         "accept",
         "a-be- fore-time",
-        "anger",
         "as long as",
         "battle",
         "because of",
@@ -16199,6 +16200,8 @@
         "wood",
         "tree",
         "helve",
+        "stock",
+        "stocks",
         "carpenter",
         "gallows",
         "pine",
@@ -16206,7 +16209,6 @@
         "staff",
         "stalk",
         "stick",
-        "stock",
         "timber",
         "wood."
       ]
@@ -16221,7 +16223,8 @@
       "usage_nl": [
         "water",
         "wateren",
-        "twistwater"
+        "twistwater",
+        "waters"
       ],
       "usage_en": [
         "water",
@@ -16272,7 +16275,9 @@
         "was",
         "voorbij",
         "gingen",
-        "ging"
+        "ging",
+        "doorging",
+        "dienen"
       ],
       "usage_en": [
         "pass",
@@ -17003,6 +17008,7 @@
         "bleef",
         "moge",
         "neder",
+        "gezeten",
         "worden"
       ],
       "usage_en": [
@@ -17025,6 +17031,7 @@
         "tarry",
         "set",
         "inhabited",
+        "inhabitant",
         "make to abide-ing",
         "continue",
         "cause to",
@@ -17130,7 +17137,8 @@
         "vertonen",
         "aan",
         "zullen",
-        "aanschouw"
+        "aanschouw",
+        "gijlieden"
       ],
       "usage_en": [
         "saw",
@@ -17354,7 +17362,8 @@
         "afwenden",
         "gewend",
         "wenden",
-        "bereidt"
+        "bereidt",
+        "toe"
       ],
       "usage_en": [
         "turn",
@@ -17419,7 +17428,11 @@
         "wandelt",
         "henengaan",
         "zij",
-        "leidde"
+        "leidde",
+        "nawandeldet",
+        "nagewandeld",
+        "leidt",
+        "nawandelen"
       ],
       "usage_en": [
         "departed",
@@ -17441,6 +17454,8 @@
         "now",
         "come",
         "on",
+        "wentest",
+        "walked",
         "again",
         "away",
         "bear",
@@ -17586,10 +17601,12 @@
       "gloss_nl": null,
       "gloss_en": "to bear fruit (literally or figuratively)",
       "usage_nl": [
-        "drage"
+        "drage",
+        "zijn"
       ],
       "usage_en": [
         "beareth",
+        "increased",
         "bear",
         "bring forth fruit",
         "be",
@@ -17779,6 +17796,7 @@
         "obeyeth",
         "publisheth",
         "proclaimed",
+        "obeyed",
         "attentively",
         "call gather together",
         "certainly",
@@ -18046,6 +18064,7 @@
         "heart",
         "midst",
         "comfortably",
+        "mind",
         "care for",
         "consent",
         "considered",
@@ -18340,7 +18359,8 @@
         "naam",
         "namen",
         "name",
-        "zal"
+        "zal",
+        "naams"
       ],
       "usage_en": [
         "name",
@@ -18410,7 +18430,12 @@
         "kwaad",
         "kwade",
         "boze",
-        "kwaden"
+        "kwaden",
+        "boosheden",
+        "boosheid",
+        "kwaads",
+        "booste",
+        "boos"
       ],
       "usage_en": [
         "evil",
@@ -18423,6 +18448,9 @@
         "wicked",
         "evils",
         "mischiefs",
+        "trouble",
+        "ones",
+        "things",
         "adversity",
         "affliction",
         "bad",
@@ -18446,7 +18474,6 @@
         "not please",
         "sad-ly",
         "sorrow",
-        "trouble",
         "vex",
         "wicked-ly",
         "-ness",
@@ -18658,7 +18685,10 @@
         "doodslager",
         "achterwaarts",
         "nawandelt",
-        "nahoereren"
+        "nahoereren",
+        "[naar",
+        "die",
+        "naar"
       ],
       "usage_en": [
         "after",
@@ -18671,6 +18701,7 @@
         "again",
         "behind",
         "him",
+        "me",
         "after that",
         "-ward",
         "at",
@@ -18711,6 +18742,7 @@
         "alien",
         "foreigner",
         "stranger",
+        "strange",
         "outlandish",
         "strange-r",
         "woman."
@@ -18822,6 +18854,7 @@
         "comest",
         "up",
         "cometh",
+        "entered",
         "apply",
         "attain",
         "be",
@@ -19008,7 +19041,8 @@
         "bezaaien",
         "hebben",
         "gezaaid",
-        "zaaier"
+        "zaaier",
+        "onbezaaid"
       ],
       "usage_en": [
         "sowedst",
@@ -19102,7 +19136,8 @@
         "ga",
         "opvaren",
         "gij",
-        "heeft"
+        "heeft",
+        "opvoerde"
       ],
       "usage_en": [
         "fell",
@@ -19388,6 +19423,7 @@
         "dressed",
         "maker",
         "accomplish",
+        "procured",
         "advance",
         "appoint",
         "apt",
@@ -20023,6 +20059,7 @@
         "lasting",
         "eternal",
         "never",
+        "time",
         "alway-s",
         "ancient time",
         "any more",
@@ -20114,7 +20151,8 @@
         "hij",
         "acht",
         "maakt",
-        "zwijgt"
+        "zwijgt",
+        "verheven"
       ],
       "usage_en": [
         "gave",
@@ -20153,6 +20191,7 @@
         "grant",
         "bringeth",
         "direct",
+        "yelled",
         "apply",
         "ascribe",
         "assign",
@@ -20256,7 +20295,10 @@
         "zich",
         "wederkeert",
         "opmaakt",
-        "afkeert"
+        "afkeert",
+        "afgekeerd",
+        "u",
+        "bekeerd"
       ],
       "usage_en": [
         "returned",
@@ -20408,17 +20450,18 @@
         "stem",
         "stemme",
         "geruis",
-        "stilte"
+        "stilte",
+        "gerucht"
       ],
       "usage_en": [
         "voice",
         "aloud",
         "sound",
+        "lightness",
         "bleating",
         "crackling",
         "cry out",
         "fame",
-        "lightness",
         "lowing",
         "noise",
         "hold peace",
@@ -20512,6 +20555,7 @@
         "heart",
         "himself",
         "man",
+        "herself",
         "appetite",
         "beast",
         "body",
@@ -20704,7 +20748,8 @@
         "hale",
         "worden",
         "is",
-        "wegnemen"
+        "wegnemen",
+        "aannemen"
       ],
       "usage_en": [
         "took",
@@ -20816,7 +20861,8 @@
         "weldoen",
         "goede",
         "hebben",
-        "doen"
+        "doen",
+        "gij"
       ],
       "usage_en": [
         "well",
@@ -20826,6 +20872,7 @@
         "diligent",
         "very",
         "give",
+        "trimmest",
         "be accepted",
         "amend",
         "use aright",
@@ -20898,6 +20945,7 @@
         "increaseth",
         "increased",
         "abundantly",
+        "much",
         "bring in abundance -antly",
         "archer by mistake for h7232 רָבַב",
         "be in authority",
@@ -21680,6 +21728,7 @@
         "mightily",
         "might",
         "greatly",
+        "much",
         "especially",
         "exceeding-ly",
         "far",
@@ -22276,7 +22325,8 @@
         "kon",
         "vermogen",
         "niet",
-        "kan"
+        "kan",
+        "overhand"
       ],
       "usage_en": [
         "able",
@@ -22286,6 +22336,7 @@
         "canst",
         "cannot",
         "with",
+        "couldest",
         "be able",
         "any at all ways",
         "attain",
@@ -22542,7 +22593,8 @@
         "dingen",
         "vreze",
         "vreselijken",
-        "gevreesd"
+        "gevreesd",
+        "vreesde"
       ],
       "usage_en": [
         "fear",
@@ -22614,7 +22666,10 @@
         "henentrekken",
         "heeft",
         "gaan",
-        "komen"
+        "komen",
+        "ga",
+        "en",
+        "nagewandeld"
       ],
       "usage_en": [
         "went",
@@ -22626,6 +22681,9 @@
         "on",
         "walking",
         "come",
+        "walked",
+        "gone",
+        "up",
         "all along",
         "apace",
         "behave self",
@@ -22846,7 +22904,8 @@
         "uitdelen",
         "delen",
         "uitdeelde",
-        "beerven"
+        "beerven",
+        "heb"
       ],
       "usage_en": [
         "inherit",
@@ -23327,7 +23386,8 @@
         "zou",
         "leert",
         "zult",
-        "leerde"
+        "leerde",
+        "hebt"
       ],
       "usage_en": [
         "teach",
@@ -23676,13 +23736,17 @@
         "hoereren",
         "hoererende",
         "geworden",
-        "bedrijft"
+        "bedrijft",
+        "gehoereerd",
+        "hoerenvoorhoofd",
+        "hoereerde"
       ],
       "usage_en": [
         "whoredom",
         "whore",
         "whoring",
         "harlot",
+        "whore's",
         "cause to commit fornication",
         "continually",
         "great",
@@ -23728,7 +23792,10 @@
         "hij",
         "spijzen",
         "eter",
-        "spijzigen"
+        "spijzigen",
+        "opaten",
+        "verteerd",
+        "opgegeten"
       ],
       "usage_en": [
         "eat",
@@ -23955,7 +24022,8 @@
         "gij",
         "gelegd",
         "beschikken",
-        "stelde"
+        "stelde",
+        "steldet"
       ],
       "usage_en": [
         "make",
@@ -24463,6 +24531,7 @@
       "usage_en": [
         "stiffnecked",
         "neck",
+        "back",
         "back stiff- neck-ed."
       ]
     },
@@ -24518,6 +24587,7 @@
         "utterly",
         "corrupters",
         "waster",
+        "destroying",
         "batter",
         "cast off",
         "corrupt-er",

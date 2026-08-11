@@ -2564,6 +2564,7 @@
         "dat",
         "zo",
         "[ook",
+        "dan",
         "met",
         "[alzo"
       ],
@@ -2580,6 +2581,7 @@
         "but",
         "yet",
         "that",
+        "which",
         "with",
         "for",
         "nor",
@@ -2643,6 +2645,7 @@
         "hij",
         "zijnde",
         "zij",
+        "kome",
         "ik",
         "kom"
       ],
@@ -2702,6 +2705,7 @@
         "aan",
         "zij",
         "binnen",
+        "nabij",
         "onder",
         "daar",
         "terug",
@@ -2808,6 +2812,7 @@
         "toen",
         "met",
         "werd",
+        "daarin",
         "aan"
       ],
       "usage_en": [
@@ -2825,6 +2830,8 @@
         "about",
         "within",
         "baptized",
+        "when",
+        "therein",
         "after",
         "against",
         "+ almost",
@@ -2852,7 +2859,6 @@
         "through-out",
         "un-to-ward",
         "under",
-        "when",
         "where-with",
         "with-in"
       ]
@@ -3254,7 +3260,8 @@
       "usage_nl": [
         "volk",
         "volke",
-        "volken"
+        "volken",
+        "volks"
       ],
       "usage_en": [
         "people"
@@ -3309,11 +3316,11 @@
       "usage_en": [
         "great",
         "sore",
+        "loud",
         "+ fear exceedingly",
         "great-est",
         "high",
         "large",
-        "loud",
         "mighty",
         "+ be sore afraid",
         "strong",
@@ -3358,6 +3365,7 @@
         "hadden",
         "zoude",
         "gij",
+        "hij",
         "wisten",
         "hebbende",
         "hebt",
@@ -3377,6 +3385,7 @@
         "seen",
         "should",
         "ye",
+        "beheld",
         "knew",
         "be aware",
         "behold",
@@ -3498,6 +3507,7 @@
         "same",
         "she",
         "himself",
+        "thereof",
         "miracles",
         "this",
         "very",
@@ -3557,12 +3567,15 @@
       "gloss_en": "\"off,\" i.e. away (from something near), in various senses (of place, time, or relation; literal or figurative)",
       "usage_nl": [
         "van",
-        "uit"
+        "uit",
+        "vanwege",
+        "voor"
       ],
       "usage_en": [
         "from",
         "of",
         "since",
+        "for",
         "x here-after",
         "ago",
         "at",
@@ -3624,7 +3637,8 @@
         "begonnen",
         "begon",
         "beginnen",
-        "begint"
+        "begint",
+        "hij"
       ],
       "usage_en": [
         "began",
@@ -3743,11 +3757,15 @@
       "gloss_en": "to make near, i.e. (reflexively) approach",
       "usage_nl": [
         "gekomen",
-        "genaakten"
+        "genaakten",
+        "was",
+        "genaakte",
+        "kwam"
       ],
       "usage_en": [
         "hand",
         "nigh",
+        "near",
         "approach",
         "be at hand",
         "come draw near",
@@ -3785,6 +3803,7 @@
         "afterward",
         "after",
         "yea",
+        "even",
         "also",
         "now often unexpressed in english"
       ]
@@ -3824,6 +3843,7 @@
         "van",
         "bij",
         "dan",
+        "tot",
         "is"
       ],
       "usage_en": [
@@ -3993,7 +4013,8 @@
         "geweest",
         "was",
         "zich",
-        "wezen"
+        "wezen",
+        "leerde"
       ],
       "usage_en": [
         "were",
@@ -4001,6 +4022,7 @@
         "was",
         "marvelled",
         "be",
+        "taught",
         "+ agree",
         "x have + charge of",
         "hold",
@@ -4122,7 +4144,8 @@
         "man",
         "men",
         "certain",
-        "shepherds"
+        "shepherds",
+        "nobleman"
       ]
     },
     "G4160": {
@@ -4148,6 +4171,8 @@
         "voort",
         "voortbrengt",
         "deed",
+        "gewonnen",
+        "zouden",
         "doet",
         "hebbende",
         "had",
@@ -4167,6 +4192,7 @@
         "dealt",
         "forth",
         "bringeth",
+        "gained",
         "doest",
         "shewest",
         "doeth",
@@ -4534,6 +4560,8 @@
         "wordt",
         "genaamd",
         "was",
+        "geheten",
+        "hebbende",
         "genood"
       ],
       "usage_en": [
@@ -4766,6 +4794,7 @@
         "heengegaan",
         "gaan",
         "waren",
+        "zijnde",
         "vertrok",
         "gingen",
         "gaat",
@@ -4863,6 +4892,7 @@
         "hielden",
         "van",
         "hebben",
+        "heb",
         "hebbe",
         "gij",
         "gijlieden"
@@ -4947,10 +4977,13 @@
       "gloss_nl": null,
       "gloss_en": "to hold together, i.e. to compress (the ears, with a crowd or siege) or arrest (a prisoner); figuratively, to compel, perplex, afflict, preoccupy",
       "usage_nl": [
-        "zijnde"
+        "zijnde",
+        "benauwen"
       ],
       "usage_en": [
         "with",
+        "keep",
+        "in",
         "constrain",
         "hold",
         "keep in",

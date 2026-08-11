@@ -9297,6 +9297,7 @@
         "obeyeth",
         "publisheth",
         "proclaimed",
+        "obeyed",
         "attentively",
         "call gather together",
         "certainly",
@@ -9539,7 +9540,8 @@
       "gloss_nl": null,
       "gloss_en": "a rain (as an accumulation of drops)",
       "usage_nl": [
-        "druppelen"
+        "druppelen",
+        "regendruppelen"
       ],
       "usage_en": [
         "showers",
@@ -9572,7 +9574,8 @@
         "naam",
         "namen",
         "name",
-        "zal"
+        "zal",
+        "naams"
       ],
       "usage_en": [
         "name",
@@ -10028,6 +10031,7 @@
         "utterly",
         "corrupters",
         "waster",
+        "destroying",
         "batter",
         "cast off",
         "corrupt-er",
@@ -10438,6 +10442,7 @@
         "dressed",
         "maker",
         "accomplish",
+        "procured",
         "advance",
         "appoint",
         "apt",
@@ -10700,6 +10705,7 @@
         "lasting",
         "eternal",
         "never",
+        "time",
         "alway-s",
         "ancient time",
         "any more",
@@ -10733,7 +10739,8 @@
         "geven",
         "gelet",
         "verstaan",
-        "let"
+        "let",
+        "merkt"
       ],
       "usage_en": [
         "understanding",
@@ -11056,7 +11063,8 @@
         "uitdelen",
         "delen",
         "uitdeelde",
-        "beerven"
+        "beerven",
+        "heb"
       ],
       "usage_en": [
         "inherit",
@@ -11718,13 +11726,15 @@
         "gevleugelden",
         "hoeken",
         "slippe",
-        "vleugelen"
+        "vleugelen",
+        "zomen"
       ],
       "usage_en": [
         "winged",
         "quarters",
         "skirt",
         "wings",
+        "skirts",
         "bird",
         "border",
         "corner",
@@ -11793,7 +11803,8 @@
         "hale",
         "worden",
         "is",
-        "wegnemen"
+        "wegnemen",
+        "aannemen"
       ],
       "usage_en": [
         "took",
@@ -12087,7 +12098,10 @@
         "hij",
         "spijzen",
         "eter",
-        "spijzigen"
+        "spijzigen",
+        "opaten",
+        "verteerd",
+        "opgegeten"
       ],
       "usage_en": [
         "eat",
@@ -13123,6 +13137,7 @@
         "comest",
         "up",
         "cometh",
+        "entered",
         "apply",
         "attain",
         "be",
@@ -13179,10 +13194,12 @@
       "gloss_nl": null,
       "gloss_en": "to storm; by implication, to shiver, i.e. fear",
       "usage_nl": [
-        "hebben"
+        "hebben",
+        "verschrikt"
       ],
       "usage_en": [
         "feared",
+        "afraid",
         "be horribly afraid",
         "fear",
         "hurl as a storm",
@@ -13372,7 +13389,8 @@
         "vertonen",
         "aan",
         "zullen",
-        "aanschouw"
+        "aanschouw",
+        "gijlieden"
       ],
       "usage_en": [
         "saw",
@@ -13538,7 +13556,8 @@
         "tegenover",
         "aangezichten",
         "henen",
-        "aangezichts"
+        "aangezichts",
+        "toorn"
       ],
       "usage_en": [
         "before",
@@ -13565,9 +13584,9 @@
         "against",
         "for",
         "faces",
+        "anger",
         "accept",
         "a-be- fore-time",
-        "anger",
         "as long as",
         "battle",
         "because of",
@@ -13987,7 +14006,12 @@
         "kwaad",
         "kwade",
         "boze",
-        "kwaden"
+        "kwaden",
+        "boosheden",
+        "boosheid",
+        "kwaads",
+        "booste",
+        "boos"
       ],
       "usage_en": [
         "evil",
@@ -14000,6 +14024,9 @@
         "wicked",
         "evils",
         "mischiefs",
+        "trouble",
+        "ones",
+        "things",
         "adversity",
         "affliction",
         "bad",
@@ -14023,7 +14050,6 @@
         "not please",
         "sad-ly",
         "sorrow",
-        "trouble",
         "vex",
         "wicked-ly",
         "-ness",
@@ -14310,7 +14336,9 @@
         "zendt",
         "loslaat",
         "uitsteken",
-        "gezonden"
+        "gezonden",
+        "verlaat",
+        "verlaten"
       ],
       "usage_en": [
         "away",
@@ -15221,12 +15249,14 @@
       "usage_nl": [
         "handelt",
         "vernemen",
-        "handelen"
+        "handelen",
+        "verstand"
       ],
       "usage_en": [
         "prosper",
         "understood",
         "prudently",
+        "understanding",
         "consider",
         "expert",
         "instruct",
@@ -15844,6 +15874,7 @@
         "time",
         "times",
         "season",
+        "when",
         "after",
         "al- ways",
         "certain",
@@ -16052,10 +16083,12 @@
       "gloss_nl": null,
       "gloss_en": "to go away, hence, to disappear",
       "usage_nl": [
-        "weggegaan"
+        "weggegaan",
+        "gij"
       ],
       "usage_en": [
         "gone",
+        "about",
         "fail",
         "gad about",
         "go to and fro but in ezekiel 27:19 the word is rendered by many 'from uzal",
@@ -16689,7 +16722,10 @@
         "zich",
         "wederkeert",
         "opmaakt",
-        "afkeert"
+        "afkeert",
+        "afgekeerd",
+        "u",
+        "bekeerd"
       ],
       "usage_en": [
         "returned",
@@ -17354,7 +17390,8 @@
         "gij",
         "gelegd",
         "beschikken",
-        "stelde"
+        "stelde",
+        "steldet"
       ],
       "usage_en": [
         "make",
@@ -17708,7 +17745,9 @@
         "was",
         "voorbij",
         "gingen",
-        "ging"
+        "ging",
+        "doorging",
+        "dienen"
       ],
       "usage_en": [
         "pass",
@@ -17905,7 +17944,8 @@
         "ga",
         "opvaren",
         "gij",
-        "heeft"
+        "heeft",
+        "opvoerde"
       ],
       "usage_en": [
         "fell",
@@ -18117,7 +18157,8 @@
         "hij",
         "acht",
         "maakt",
-        "zwijgt"
+        "zwijgt",
+        "verheven"
       ],
       "usage_en": [
         "gave",
@@ -18156,6 +18197,7 @@
         "grant",
         "bringeth",
         "direct",
+        "yelled",
         "apply",
         "ascribe",
         "assign",
@@ -18391,7 +18433,8 @@
       "usage_nl": [
         "water",
         "wateren",
-        "twistwater"
+        "twistwater",
+        "waters"
       ],
       "usage_en": [
         "water",

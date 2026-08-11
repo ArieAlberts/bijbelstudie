@@ -3,7 +3,7 @@
   "role": "gospel",
   "osis": "Luke.3.2-Luke.3.15",
   "ref": {
-    "nl": "Lukas 3:2–15",
+    "nl": "Lucas 3:2–15",
     "en": "Luke 3:2–15"
   },
   "testament": "NT",
@@ -3055,6 +3055,7 @@
         "boven",
         "daarbij",
         "tot",
+        "waarop",
         "naar",
         "daarop",
         "van"
@@ -3143,6 +3144,7 @@
         "dat",
         "zo",
         "[ook",
+        "dan",
         "met",
         "[alzo"
       ],
@@ -3159,6 +3161,7 @@
         "but",
         "yet",
         "that",
+        "which",
         "with",
         "for",
         "nor",
@@ -3203,12 +3206,13 @@
         "zijn",
         "zijt",
         "geschiedde",
+        "geschied",
+        "wees",
         "er",
         "geworden",
         "komende",
         "kwam",
         "gekomen",
-        "geschied",
         "het"
       ],
       "usage_en": [
@@ -3223,6 +3227,7 @@
         "fulfilled",
         "come",
         "came",
+        "been",
         "drawing",
         "thou",
         "thundered",
@@ -3377,6 +3382,7 @@
         "toen",
         "met",
         "werd",
+        "daarin",
         "aan"
       ],
       "usage_en": [
@@ -3394,6 +3400,8 @@
         "about",
         "within",
         "baptized",
+        "when",
+        "therein",
         "after",
         "against",
         "+ almost",
@@ -3421,7 +3429,6 @@
         "through-out",
         "un-to-ward",
         "under",
-        "when",
         "where-with",
         "with-in"
       ]
@@ -3464,6 +3471,7 @@
         "hij",
         "zijnde",
         "zij",
+        "kome",
         "ik",
         "kom"
       ],
@@ -3507,6 +3515,7 @@
         "aan",
         "zij",
         "binnen",
+        "nabij",
         "onder",
         "daar",
         "terug",
@@ -3918,7 +3927,8 @@
       "gloss_en": "a tone (articulate, bestial or artificial); by implication, an address (for any purpose), saying or language",
       "usage_nl": [
         "geluid",
-        "stem"
+        "stem",
+        "stemme"
       ],
       "usage_en": [
         "sound",
@@ -3997,6 +4007,7 @@
       "usage_en": [
         "lord",
         "lord's",
+        "owners",
         "sir",
         "god",
         "master"
@@ -4025,6 +4036,8 @@
         "voort",
         "voortbrengt",
         "deed",
+        "gewonnen",
+        "zouden",
         "doet",
         "hebbende",
         "had",
@@ -4044,6 +4057,7 @@
         "dealt",
         "forth",
         "bringeth",
+        "gained",
         "doest",
         "shewest",
         "doeth",
@@ -4151,6 +4165,7 @@
         "same",
         "she",
         "himself",
+        "thereof",
         "miracles",
         "this",
         "very",
@@ -4270,7 +4285,8 @@
       "usage_nl": [
         "berg",
         "bergen",
-        "olijfberg"
+        "olijfberg",
+        "olijfbergs"
       ],
       "usage_en": [
         "mountain",
@@ -4475,9 +4491,9 @@
       "usage_en": [
         "people",
         "multitude",
+        "press",
         "company",
-        "number of people",
-        "press"
+        "number of people"
       ]
     },
     "G1607": {
@@ -4573,6 +4589,7 @@
         "wie",
         "welk",
         "waarom",
+        "iegelijk",
         "wien"
       ],
       "usage_en": [
@@ -4581,6 +4598,8 @@
         "what",
         "who",
         "how",
+        "much",
+        "man",
         "every man",
         "how much",
         "+ no-ne",
@@ -4656,12 +4675,15 @@
       "gloss_en": "\"off,\" i.e. away (from something near), in various senses (of place, time, or relation; literal or figurative)",
       "usage_nl": [
         "van",
-        "uit"
+        "uit",
+        "vanwege",
+        "voor"
       ],
       "usage_en": [
         "from",
         "of",
         "since",
+        "for",
         "x here-after",
         "ago",
         "at",
@@ -4688,13 +4710,15 @@
         "zult",
         "toekomenden",
         "zou",
+        "worden",
         "zouden"
       ],
       "usage_en": [
         "shall",
         "come",
-        "would",
+        "was",
         "should",
+        "would",
         "wilt",
         "about",
         "after that",
@@ -4793,7 +4817,8 @@
         "begonnen",
         "begon",
         "beginnen",
-        "begint"
+        "begint",
+        "hij"
       ],
       "usage_en": [
         "began",
@@ -4845,6 +4870,8 @@
         "zichzelven",
         "uzelven",
         "zich",
+        "zijn",
+        "hun",
         "u",
         "elkander"
       ],
@@ -4853,6 +4880,8 @@
         "yourselves",
         "himself",
         "them",
+        "his",
+        "their",
         "you",
         "alone",
         "her own",
@@ -4890,6 +4919,7 @@
         "hielden",
         "van",
         "hebben",
+        "heb",
         "hebbe",
         "gij",
         "gijlieden"
@@ -5008,14 +5038,15 @@
         "dat",
         "omdat",
         "want",
-        "overmits",
-        "dewijl"
+        "dewijl",
+        "overmits"
       ],
       "usage_en": [
         "that",
         "because",
         "for",
         "art",
+        "if",
         "this",
         "how",
         "as concerning that",
@@ -5150,14 +5181,15 @@
       "usage_nl": [
         "gij",
         "kan",
+        "kon",
         "zij",
         "wij"
       ],
       "usage_en": [
         "ye",
         "able",
-        "can",
         "could",
+        "can",
         "we",
         "be able",
         "can do",
@@ -5235,6 +5267,7 @@
         "afterward",
         "after",
         "yea",
+        "even",
         "also",
         "now often unexpressed in english"
       ]
@@ -5626,6 +5659,8 @@
         "zouden",
         "zeggen",
         "zegt",
+        "hebbende",
+        "zeggende",
         "zij",
         "gezegd",
         "hij",
@@ -5642,6 +5677,9 @@
         "say",
         "ye",
         "saith",
+        "commanded",
+        "spoken",
+        "saying",
         "they",
         "he",
         "answer",
@@ -5679,10 +5717,12 @@
       "gloss_nl": null,
       "gloss_en": "to \"practise\", i.e. perform repeatedly or habitually (thus differing from G4160 (ποιέω), which properly refers to a single act); by implication, to execute, accomplish, etc.; specially, to collect (dues), fare (personally)",
       "usage_nl": [
-        "eist"
+        "eist",
+        "eisen"
       ],
       "usage_en": [
         "exact",
+        "required",
         "commit",
         "deeds",
         "do",
@@ -5751,6 +5791,7 @@
         "van",
         "bij",
         "dan",
+        "tot",
         "is"
       ],
       "usage_en": [
@@ -5877,10 +5918,13 @@
       "gloss_en": "to be a fig-informer (reporter of the law forbidding the exportation of figs from Greece), \"sycophant\", i.e. (genitive and by extension) to defraud (exact unlawfully, extort)",
       "usage_nl": [
         "ontvreemdt",
-        "bedrog"
+        "bedrog",
+        "heb"
       ],
       "usage_en": [
         "falsely",
+        "taken",
+        "accusation",
         "accuse falsely",
         "take by false accusation"
       ]
@@ -5956,7 +6000,8 @@
       "usage_nl": [
         "volk",
         "volke",
-        "volken"
+        "volken",
+        "volks"
       ],
       "usage_en": [
         "people"
@@ -6038,6 +6083,7 @@
         "woord",
         "met",
         "om",
+        "vanwege",
         "daarover",
         "voor"
       ],

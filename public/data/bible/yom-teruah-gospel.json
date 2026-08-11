@@ -1913,6 +1913,7 @@
         "afterward",
         "after",
         "yea",
+        "even",
         "also",
         "now often unexpressed in english"
       ]
@@ -2011,6 +2012,7 @@
         "dier",
         "dit",
         "diezelfde",
+        "deze",
         "hij",
         "dat"
       ],
@@ -2104,6 +2106,7 @@
         "dat",
         "zo",
         "[ook",
+        "dan",
         "met",
         "[alzo"
       ],
@@ -2120,6 +2123,7 @@
         "but",
         "yet",
         "that",
+        "which",
         "with",
         "for",
         "nor",
@@ -2198,6 +2202,7 @@
         "same",
         "she",
         "himself",
+        "thereof",
         "miracles",
         "this",
         "very",
@@ -2292,10 +2297,11 @@
         "gegeven",
         "heeft",
         "gaven",
+        "ik",
+        "had",
         "zal",
         "gaf",
-        "geef",
-        "ik"
+        "geef"
       ],
       "usage_en": [
         "give",
@@ -2304,6 +2310,9 @@
         "shall",
         "gave",
         "offer",
+        "delivered",
+        "gavest",
+        "thou",
         "giveth",
         "adventure",
         "bestow",
@@ -2351,12 +2360,15 @@
       "gloss_en": "\"off,\" i.e. away (from something near), in various senses (of place, time, or relation; literal or figurative)",
       "usage_nl": [
         "van",
-        "uit"
+        "uit",
+        "vanwege",
+        "voor"
       ],
       "usage_en": [
         "from",
         "of",
         "since",
+        "for",
         "x here-after",
         "ago",
         "at",
@@ -2421,12 +2433,14 @@
       "usage_nl": [
         "krachten",
         "kracht",
-        "vermogen"
+        "vermogen",
+        "daden"
       ],
       "usage_en": [
         "powers",
         "power",
         "ability",
+        "works",
         "abundance",
         "meaning",
         "might-ily",
@@ -2498,6 +2512,7 @@
         "toen",
         "met",
         "werd",
+        "daarin",
         "aan"
       ],
       "usage_en": [
@@ -2515,6 +2530,8 @@
         "about",
         "within",
         "baptized",
+        "when",
+        "therein",
         "after",
         "against",
         "+ almost",
@@ -2542,7 +2559,6 @@
         "through-out",
         "un-to-ward",
         "under",
-        "when",
         "where-with",
         "with-in"
       ]
@@ -2624,7 +2640,8 @@
         "man",
         "men",
         "certain",
-        "shepherds"
+        "shepherds",
+        "nobleman"
       ]
     },
     "G3956": {
@@ -2766,6 +2783,7 @@
         "hij",
         "zijnde",
         "zij",
+        "kome",
         "ik",
         "kom"
       ],
@@ -2811,6 +2829,7 @@
         "boven",
         "daarbij",
         "tot",
+        "waarop",
         "naar",
         "daarop",
         "van"
@@ -2957,6 +2976,9 @@
         "hij",
         "zal",
         "zenden",
+        "zonden",
+        "uitzond",
+        "waren",
         "heeft"
       ],
       "usage_en": [
@@ -2998,11 +3020,11 @@
       "usage_en": [
         "great",
         "sore",
+        "loud",
         "+ fear exceedingly",
         "great-est",
         "high",
         "large",
-        "loud",
         "mighty",
         "+ be sore afraid",
         "strong",
@@ -3018,7 +3040,8 @@
       "gloss_en": "a tone (articulate, bestial or artificial); by implication, an address (for any purpose), saying or language",
       "usage_nl": [
         "geluid",
-        "stem"
+        "stem",
+        "stemme"
       ],
       "usage_en": [
         "sound",
@@ -3327,12 +3350,13 @@
         "zijn",
         "zijt",
         "geschiedde",
+        "geschied",
+        "wees",
         "er",
         "geworden",
         "komende",
         "kwam",
         "gekomen",
-        "geschied",
         "het"
       ],
       "usage_en": [
@@ -3347,6 +3371,7 @@
         "fulfilled",
         "come",
         "came",
+        "been",
         "drawing",
         "thou",
         "thundered",
@@ -3435,6 +3460,9 @@
         "bekenden",
         "kende",
         "wisten",
+        "mocht",
+        "bekendet",
+        "hebt",
         "wist",
         "bekend",
         "verstond",
@@ -3453,9 +3481,10 @@
         "knew",
         "is",
         "of",
+        "known",
+        "knewest",
         "sure",
         "understood",
-        "known",
         "thou",
         "knoweth",
         "allow",
@@ -3479,14 +3508,15 @@
         "dat",
         "omdat",
         "want",
-        "overmits",
-        "dewijl"
+        "dewijl",
+        "overmits"
       ],
       "usage_en": [
         "that",
         "because",
         "for",
         "art",
+        "if",
         "this",
         "how",
         "as concerning that",
@@ -3588,12 +3618,14 @@
       "usage_nl": [
         "dingen",
         "deze",
-        "dezen",
-        "dit"
+        "dat",
+        "dit",
+        "dezen"
       ],
       "usage_en": [
         "things",
         "these",
+        "thus",
         "they",
         "+ afterward",
         "follow",
@@ -3605,8 +3637,7 @@
         "that",
         "then",
         "this",
-        "those",
-        "thus"
+        "those"
       ]
     },
     "G1492": {
@@ -3631,6 +3662,7 @@
         "hadden",
         "zoude",
         "gij",
+        "hij",
         "wisten",
         "hebbende",
         "hebt",
@@ -3650,6 +3682,7 @@
         "seen",
         "should",
         "ye",
+        "beheld",
         "knew",
         "be aware",
         "behold",
@@ -3809,7 +3842,8 @@
         "die",
         "dit",
         "dezen",
-        "zij"
+        "zij",
+        "hij"
       ],
       "usage_en": [
         "these",
@@ -3909,13 +3943,15 @@
         "worden",
         "hebben",
         "zou",
-        "zo"
+        "zo",
+        "mogen"
       ],
       "usage_en": [
         "till",
         "should",
         "would",
         "soever",
+        "might",
         "told",
         "what-",
         "where-",
@@ -4004,6 +4040,7 @@
         "woord",
         "met",
         "om",
+        "vanwege",
         "daarover",
         "voor"
       ],
@@ -4066,6 +4103,7 @@
         "niemand",
         "geen",
         "niet",
+        "ooit",
         "gans"
       ],
       "usage_en": [

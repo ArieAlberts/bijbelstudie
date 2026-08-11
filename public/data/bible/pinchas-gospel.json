@@ -1928,6 +1928,7 @@
         "dat",
         "zo",
         "[ook",
+        "dan",
         "met",
         "[alzo"
       ],
@@ -1944,6 +1945,7 @@
         "but",
         "yet",
         "that",
+        "which",
         "with",
         "for",
         "nor",
@@ -1997,7 +1999,8 @@
         "geweest",
         "was",
         "zich",
-        "wezen"
+        "wezen",
+        "leerde"
       ],
       "usage_en": [
         "were",
@@ -2005,6 +2008,7 @@
         "was",
         "marvelled",
         "be",
+        "taught",
         "+ agree",
         "x have + charge of",
         "hold",
@@ -2061,6 +2065,7 @@
         "ging",
         "op",
         "waren",
+        "hij",
         "opvaren"
       ],
       "usage_en": [
@@ -2091,6 +2096,7 @@
         "aan",
         "zij",
         "binnen",
+        "nabij",
         "onder",
         "daar",
         "terug",
@@ -2179,6 +2185,7 @@
       "usage_en": [
         "find",
         "found",
+        "could",
         "get",
         "obtain",
         "perceive",
@@ -2207,6 +2214,7 @@
         "toen",
         "met",
         "werd",
+        "daarin",
         "aan"
       ],
       "usage_en": [
@@ -2224,6 +2232,8 @@
         "about",
         "within",
         "baptized",
+        "when",
+        "therein",
         "after",
         "against",
         "+ almost",
@@ -2251,7 +2261,6 @@
         "through-out",
         "un-to-ward",
         "under",
-        "when",
         "where-with",
         "with-in"
       ]
@@ -2480,6 +2489,8 @@
         "voort",
         "voortbrengt",
         "deed",
+        "gewonnen",
+        "zouden",
         "doet",
         "hebbende",
         "had",
@@ -2499,6 +2510,7 @@
         "dealt",
         "forth",
         "bringeth",
+        "gained",
         "doest",
         "shewest",
         "doeth",
@@ -2729,7 +2741,8 @@
       "gloss_nl": null,
       "gloss_en": "a table or stool (as being four-legged), usually for food (figuratively, a meal); also a counter for money (figuratively, a broker's office for loans at interest)",
       "usage_nl": [
-        "tafelen"
+        "tafelen",
+        "bank"
       ],
       "usage_en": [
         "tables",
@@ -2754,6 +2767,8 @@
         "zouden",
         "zeggen",
         "zegt",
+        "hebbende",
+        "zeggende",
         "zij",
         "gezegd",
         "hij",
@@ -2770,6 +2785,9 @@
         "say",
         "ye",
         "saith",
+        "commanded",
+        "spoken",
+        "saying",
         "they",
         "he",
         "answer",
@@ -2795,7 +2813,8 @@
         "wegnam",
         "neemt",
         "worden",
-        "opgeheven"
+        "opgeheven",
+        "weg"
       ],
       "usage_en": [
         "bear",
@@ -2825,12 +2844,14 @@
       "usage_nl": [
         "dingen",
         "deze",
-        "dezen",
-        "dit"
+        "dat",
+        "dit",
+        "dezen"
       ],
       "usage_en": [
         "things",
         "these",
+        "thus",
         "they",
         "+ afterward",
         "follow",
@@ -2842,8 +2863,7 @@
         "that",
         "then",
         "this",
-        "those",
-        "thus"
+        "those"
       ]
     },
     "G1782": {
@@ -2903,7 +2923,8 @@
       "gloss_nl": null,
       "gloss_en": "a dwelling (more or less extensive, literal or figurative); by implication, a family (more or less related, literally or figuratively)",
       "usage_nl": [
-        "huis"
+        "huis",
+        "huize"
       ],
       "usage_en": [
         "house",
@@ -2997,6 +3018,7 @@
         "afterward",
         "after",
         "yea",
+        "even",
         "also",
         "now often unexpressed in english"
       ]
@@ -3056,6 +3078,7 @@
         "same",
         "she",
         "himself",
+        "thereof",
         "miracles",
         "this",
         "very",
@@ -3132,14 +3155,15 @@
         "dat",
         "omdat",
         "want",
-        "overmits",
-        "dewijl"
+        "dewijl",
+        "overmits"
       ],
       "usage_en": [
         "that",
         "because",
         "for",
         "art",
+        "if",
         "this",
         "how",
         "as concerning that",
@@ -3241,12 +3265,14 @@
         "u",
         "uw",
         "uws",
-        "eigen"
+        "eigen",
+        "uwer"
       ],
       "usage_en": [
         "thee",
         "thy",
         "thine",
+        "own",
         "x home",
         "thine own",
         "thou"
@@ -3344,6 +3370,7 @@
         "wie",
         "welk",
         "waarom",
+        "iegelijk",
         "wien"
       ],
       "usage_en": [
@@ -3352,6 +3379,8 @@
         "what",
         "who",
         "how",
+        "much",
+        "man",
         "every man",
         "how much",
         "+ no-ne",
@@ -3437,6 +3466,7 @@
         "ontbonden",
         "ontbindt",
         "ontbinden",
+        "gij",
         "breekt"
       ],
       "usage_en": [
@@ -3444,6 +3474,7 @@
         "loosed",
         "loosing",
         "unloose",
+        "ye",
         "destroy",
         "break up",
         "dissolve",
@@ -3460,6 +3491,7 @@
       "gloss_nl": null,
       "gloss_en": "this (person, as objective of verb or preposition)",
       "usage_nl": [
+        "deze",
         "dezen",
         "dit"
       ],
@@ -3623,7 +3655,8 @@
         "die",
         "dit",
         "dezen",
-        "zij"
+        "zij",
+        "hij"
       ],
       "usage_en": [
         "these",
@@ -3696,6 +3729,7 @@
         "dier",
         "dit",
         "diezelfde",
+        "deze",
         "hij",
         "dat"
       ],
@@ -3776,6 +3810,7 @@
         "woord",
         "met",
         "om",
+        "vanwege",
         "daarover",
         "voor"
       ],
@@ -4002,6 +4037,7 @@
         "wat",
         "wiens",
         "zijn",
+        "wien",
         "daar",
         "hem"
       ],

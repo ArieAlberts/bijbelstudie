@@ -5952,6 +5952,7 @@
         "comest",
         "up",
         "cometh",
+        "entered",
         "apply",
         "attain",
         "be",
@@ -6378,6 +6379,7 @@
         "households",
         "home",
         "contain",
+        "homeborn",
         "court",
         "daughter",
         "door",
@@ -6386,7 +6388,6 @@
         "forth of",
         "great as would contain",
         "hangings",
-        "homeborn",
         "winter house-hold",
         "inside-ward",
         "palace",
@@ -6848,8 +6849,11 @@
       "translit": "shâgal",
       "gloss_nl": null,
       "gloss_en": "to copulate with",
-      "usage_nl": [],
+      "usage_nl": [
+        "beslapen"
+      ],
       "usage_en": [
+        "lien",
         "lie with",
         "ravish."
       ]
@@ -7345,6 +7349,7 @@
         "mightily",
         "might",
         "greatly",
+        "much",
         "especially",
         "exceeding-ly",
         "far",
@@ -7520,7 +7525,8 @@
         "tegenover",
         "aangezichten",
         "henen",
-        "aangezichts"
+        "aangezichts",
+        "toorn"
       ],
       "usage_en": [
         "before",
@@ -7547,9 +7553,9 @@
         "against",
         "for",
         "faces",
+        "anger",
         "accept",
         "a-be- fore-time",
-        "anger",
         "as long as",
         "battle",
         "because of",
@@ -8222,6 +8228,7 @@
         "time",
         "times",
         "season",
+        "when",
         "after",
         "al- ways",
         "certain",
@@ -8317,7 +8324,8 @@
       "usage_nl": [
         "water",
         "wateren",
-        "twistwater"
+        "twistwater",
+        "waters"
       ],
       "usage_en": [
         "water",
@@ -8455,7 +8463,8 @@
         "naam",
         "namen",
         "name",
-        "zal"
+        "zal",
+        "naams"
       ],
       "usage_en": [
         "name",
@@ -8478,13 +8487,15 @@
         "velden",
         "veld",
         "velds",
-        "wildernis"
+        "wildernis",
+        "wildernissen"
       ],
       "usage_en": [
         "plains",
         "plain",
         "champaign",
         "desert",
+        "deserts",
         "arabah",
         "evening",
         "heaven",
@@ -8634,6 +8645,7 @@
         "bleef",
         "moge",
         "neder",
+        "gezeten",
         "worden"
       ],
       "usage_en": [
@@ -8656,6 +8668,7 @@
         "tarry",
         "set",
         "inhabited",
+        "inhabitant",
         "make to abide-ing",
         "continue",
         "cause to",
@@ -8698,6 +8711,7 @@
       "usage_en": [
         "beneath",
         "whereas",
+        "under",
         "as",
         "flat",
         "in-stead",
@@ -8705,7 +8719,6 @@
         "room",
         "for...sake",
         "stead of",
-        "under",
         "unto",
         "when...was mine",
         "where- fore",
@@ -9399,16 +9412,18 @@
       "usage_nl": [
         "naaste",
         "naasten",
-        "vriend"
+        "vriend",
+        "boeleerders"
       ],
       "usage_en": [
         "neighbour",
         "neighbour's",
         "friend",
         "brother",
+        "lovers",
+        "husband",
         "companion",
         "fellow",
-        "husband",
         "lover",
         "an- other."
       ]
@@ -9622,7 +9637,8 @@
         "ga",
         "opvaren",
         "gij",
-        "heeft"
+        "heeft",
+        "opvoerde"
       ],
       "usage_en": [
         "fell",
@@ -10531,7 +10547,8 @@
         "hale",
         "worden",
         "is",
-        "wegnemen"
+        "wegnemen",
+        "aannemen"
       ],
       "usage_en": [
         "took",

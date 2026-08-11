@@ -5013,6 +5013,7 @@
         "heart",
         "himself",
         "man",
+        "herself",
         "appetite",
         "beast",
         "body",
@@ -5886,7 +5887,8 @@
         "vertonen",
         "aan",
         "zullen",
-        "aanschouw"
+        "aanschouw",
+        "gijlieden"
       ],
       "usage_en": [
         "saw",
@@ -5972,7 +5974,8 @@
       "gloss_en": "properly, weight, but only figuratively in a good sense, splendor or copiousness",
       "usage_nl": [
         "heerlijkheid",
-        "ere"
+        "ere",
+        "eer"
       ],
       "usage_en": [
         "glory",
@@ -6153,7 +6156,8 @@
         "naam",
         "namen",
         "name",
-        "zal"
+        "zal",
+        "naams"
       ],
       "usage_en": [
         "name",
@@ -6540,7 +6544,8 @@
         "man",
         "worden",
         "trouwt",
-        "trouwen"
+        "trouwen",
+        "getrouwd"
       ],
       "usage_en": [
         "husband",
@@ -6825,7 +6830,8 @@
         "ontbreekt",
         "bezoek",
         "bestellen",
-        "besteld"
+        "besteld",
+        "bezoeken"
       ],
       "usage_en": [
         "visited",
@@ -6835,6 +6841,7 @@
         "lacketh",
         "visiting",
         "make",
+        "visit",
         "appoint",
         "at all",
         "avenge",
@@ -6864,7 +6871,6 @@
         "set over",
         "sum",
         "surely",
-        "visit",
         "want."
       ]
     },
@@ -7107,7 +7113,8 @@
         "hij",
         "acht",
         "maakt",
-        "zwijgt"
+        "zwijgt",
+        "verheven"
       ],
       "usage_en": [
         "gave",
@@ -7146,6 +7153,7 @@
         "grant",
         "bringeth",
         "direct",
+        "yelled",
         "apply",
         "ascribe",
         "assign",
@@ -7294,7 +7302,8 @@
         "gij",
         "gelegd",
         "beschikken",
-        "stelde"
+        "stelde",
+        "steldet"
       ],
       "usage_en": [
         "make",
@@ -7738,7 +7747,10 @@
         "hij",
         "spijzen",
         "eter",
-        "spijzigen"
+        "spijzigen",
+        "opaten",
+        "verteerd",
+        "opgegeten"
       ],
       "usage_en": [
         "eat",
@@ -7915,7 +7927,9 @@
         "was",
         "voorbij",
         "gingen",
-        "ging"
+        "ging",
+        "doorging",
+        "dienen"
       ],
       "usage_en": [
         "pass",
@@ -8029,7 +8043,8 @@
         "afwenden",
         "gewend",
         "wenden",
-        "bereidt"
+        "bereidt",
+        "toe"
       ],
       "usage_en": [
         "turn",
@@ -8357,6 +8372,7 @@
         "obeyeth",
         "publisheth",
         "proclaimed",
+        "obeyed",
         "attentively",
         "call gather together",
         "certainly",
@@ -8529,6 +8545,7 @@
         "comest",
         "up",
         "cometh",
+        "entered",
         "apply",
         "attain",
         "be",
@@ -8639,7 +8656,8 @@
         "tegenover",
         "aangezichten",
         "henen",
-        "aangezichts"
+        "aangezichts",
+        "toorn"
       ],
       "usage_en": [
         "before",
@@ -8666,9 +8684,9 @@
         "against",
         "for",
         "faces",
+        "anger",
         "accept",
         "a-be- fore-time",
-        "anger",
         "as long as",
         "battle",
         "because of",
@@ -8921,11 +8939,13 @@
       "gloss_en": "to tip over (for the purpose of spilling or pouring out), i.e. (figuratively) depopulate; by implication, to imprison or conquer; (reflexive) to lie down (for coitus)",
       "usage_nl": [
         "gevangene",
-        "voorttrekt"
+        "voorttrekt",
+        "om"
       ],
       "usage_en": [
         "exile",
         "travelling",
+        "wanderest",
         "captive exile",
         "cause to wander-er."
       ]
@@ -9133,7 +9153,8 @@
         "verlost",
         "heiland",
         "beschikt",
-        "behouden"
+        "behouden",
+        "verlos"
       ],
       "usage_en": [
         "save",
@@ -9476,6 +9497,7 @@
         "heart",
         "midst",
         "comfortably",
+        "mind",
         "care for",
         "consent",
         "considered",
@@ -9584,7 +9606,8 @@
         "eenzame",
         "verstoringen",
         "waren",
-        "mij"
+        "mij",
+        "u"
       ],
       "usage_en": [
         "desolate",
@@ -9592,6 +9615,7 @@
         "astonied",
         "desolations",
         "wondered",
+        "astonished",
         "make amazed",
         "be astonied",
         "be an astonish-ment",
@@ -9844,6 +9868,7 @@
         "households",
         "home",
         "contain",
+        "homeborn",
         "court",
         "daughter",
         "door",
@@ -9852,7 +9877,6 @@
         "forth of",
         "great as would contain",
         "hangings",
-        "homeborn",
         "winter house-hold",
         "inside-ward",
         "palace",
@@ -10018,7 +10042,8 @@
       "gloss_en": "{affection (in a good or a bad sense)}",
       "usage_nl": [
         "liefhad",
-        "liefde"
+        "liefde",
+        "boelering"
       ],
       "usage_en": [
         "loved",
@@ -10191,6 +10216,7 @@
         "lasting",
         "eternal",
         "never",
+        "time",
         "alway-s",
         "ancient time",
         "any more",

@@ -4770,6 +4770,7 @@
         "comest",
         "up",
         "cometh",
+        "entered",
         "apply",
         "attain",
         "be",
@@ -4827,7 +4828,8 @@
       "gloss_en": "properly, weight, but only figuratively in a good sense, splendor or copiousness",
       "usage_nl": [
         "heerlijkheid",
-        "ere"
+        "ere",
+        "eer"
       ],
       "usage_en": [
         "glory",
@@ -4940,13 +4942,15 @@
         "bedekt",
         "bedekken",
         "bedek",
-        "dekt"
+        "dekt",
+        "overdekt"
       ],
       "usage_en": [
         "cover",
         "conceal",
         "coverest",
         "covered",
+        "covereth",
         "clad self",
         "close",
         "clothe",
@@ -5028,7 +5032,8 @@
         "vertonen",
         "aan",
         "zullen",
-        "aanschouw"
+        "aanschouw",
+        "gijlieden"
       ],
       "usage_en": [
         "saw",
@@ -5132,7 +5137,10 @@
         "henentrekken",
         "heeft",
         "gaan",
-        "komen"
+        "komen",
+        "ga",
+        "en",
+        "nagewandeld"
       ],
       "usage_en": [
         "went",
@@ -5144,6 +5152,9 @@
         "on",
         "walking",
         "come",
+        "walked",
+        "gone",
+        "up",
         "all along",
         "apace",
         "behave self",
@@ -5759,9 +5770,9 @@
       "usage_en": [
         "abundance",
         "sounding",
+        "multitude",
         "company",
         "many",
-        "multitude",
         "multiply",
         "noise",
         "riches",
@@ -5887,7 +5898,8 @@
         "dingen",
         "vreze",
         "vreselijken",
-        "gevreesd"
+        "gevreesd",
+        "vreesde"
       ],
       "usage_en": [
         "fear",
@@ -6261,7 +6273,8 @@
         "ga",
         "opvaren",
         "gij",
-        "heeft"
+        "heeft",
+        "opvoerde"
       ],
       "usage_en": [
         "fell",
@@ -6367,6 +6380,7 @@
         "households",
         "home",
         "contain",
+        "homeborn",
         "court",
         "daughter",
         "door",
@@ -6375,7 +6389,6 @@
         "forth of",
         "great as would contain",
         "hangings",
-        "homeborn",
         "winter house-hold",
         "inside-ward",
         "palace",
@@ -6545,10 +6558,12 @@
       "gloss_en": "to bind together (perhaps by twisting), i.e. collect; (figuratively) to expect",
       "usage_nl": [
         "verwachten",
-        "wachten"
+        "wachten",
+        "worden"
       ],
       "usage_en": [
         "wait",
+        "gathered",
         "gather together",
         "look",
         "patiently",
@@ -6651,7 +6666,8 @@
         "naam",
         "namen",
         "name",
-        "zal"
+        "zal",
+        "naams"
       ],
       "usage_en": [
         "name",
@@ -7226,7 +7242,8 @@
         "droog",
         "hebt",
         "gans",
-        "worden"
+        "worden",
+        "woest"
       ],
       "usage_en": [
         "waste",
@@ -7234,6 +7251,7 @@
         "dried",
         "utterly",
         "wasted",
+        "desolate",
         "decay",
         "be desolate",
         "destroy-er",
@@ -7746,6 +7764,7 @@
       "usage_en": [
         "beneath",
         "whereas",
+        "under",
         "as",
         "flat",
         "in-stead",
@@ -7753,7 +7772,6 @@
         "room",
         "for...sake",
         "stead of",
-        "under",
         "unto",
         "when...was mine",
         "where- fore",
@@ -7861,7 +7879,9 @@
         "was",
         "voorbij",
         "gingen",
-        "ging"
+        "ging",
+        "doorging",
+        "dienen"
       ],
       "usage_en": [
         "pass",
@@ -7968,7 +7988,8 @@
         "gij",
         "gelegd",
         "beschikken",
-        "stelde"
+        "stelde",
+        "steldet"
       ],
       "usage_en": [
         "make",
@@ -8054,6 +8075,7 @@
         "lasting",
         "eternal",
         "never",
+        "time",
         "alway-s",
         "ancient time",
         "any more",
@@ -8319,7 +8341,8 @@
         "verlost",
         "heiland",
         "beschikt",
-        "behouden"
+        "behouden",
+        "verlos"
       ],
       "usage_en": [
         "save",
@@ -8463,6 +8486,8 @@
         "wood",
         "tree",
         "helve",
+        "stock",
+        "stocks",
         "carpenter",
         "gallows",
         "pine",
@@ -8470,7 +8495,6 @@
         "staff",
         "stalk",
         "stick",
-        "stock",
         "timber",
         "wood."
       ]
@@ -8692,6 +8716,7 @@
         "obeyeth",
         "publisheth",
         "proclaimed",
+        "obeyed",
         "attentively",
         "call gather together",
         "certainly",
@@ -9436,6 +9461,7 @@
         "time",
         "times",
         "season",
+        "when",
         "after",
         "al- ways",
         "certain",

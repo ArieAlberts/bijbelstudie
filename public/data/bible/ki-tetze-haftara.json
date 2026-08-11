@@ -2428,7 +2428,8 @@
         "eenzame",
         "verstoringen",
         "waren",
-        "mij"
+        "mij",
+        "u"
       ],
       "usage_en": [
         "desolate",
@@ -2436,6 +2437,7 @@
         "astonied",
         "desolations",
         "wondered",
+        "astonished",
         "make amazed",
         "be astonied",
         "be an astonish-ment",
@@ -2528,7 +2530,8 @@
         "man",
         "worden",
         "trouwt",
-        "trouwen"
+        "trouwen",
+        "getrouwd"
       ],
       "usage_en": [
         "husband",
@@ -3200,6 +3203,7 @@
         "bleef",
         "moge",
         "neder",
+        "gezeten",
         "worden"
       ],
       "usage_en": [
@@ -3222,6 +3226,7 @@
         "tarry",
         "set",
         "inhabited",
+        "inhabitant",
         "make to abide-ing",
         "continue",
         "cause to",
@@ -3266,7 +3271,8 @@
         "dingen",
         "vreze",
         "vreselijken",
-        "gevreesd"
+        "gevreesd",
+        "vreesde"
       ],
       "usage_en": [
         "fear",
@@ -3297,7 +3303,8 @@
       "gloss_nl": null,
       "gloss_en": "properly, to pale, i.e. by implication to be ashamed; also (by implication) to be disappointed or delayed",
       "usage_nl": [
-        "worden"
+        "worden",
+        "zijt"
       ],
       "usage_en": [
         "ashamed",
@@ -3323,10 +3330,12 @@
       "gloss_en": "properly, to wound; but only figuratively, to taunt or insult",
       "usage_nl": [
         "schande",
-        "schaamrood"
+        "schaamrood",
+        "worden"
       ],
       "usage_en": [
         "confounded",
+        "ashamed",
         "be make ashamed",
         "blush",
         "be confounded",
@@ -3365,7 +3374,8 @@
       "gloss_nl": null,
       "gloss_en": "shame (the feeling and the condition, as well as its cause); by implication (specifically) an idol",
       "usage_nl": [
-        "schaamte"
+        "schaamte",
+        "wordt"
       ],
       "usage_en": [
         "shame",
@@ -3573,6 +3583,7 @@
         "dressed",
         "maker",
         "accomplish",
+        "procured",
         "advance",
         "appoint",
         "apt",
@@ -3684,7 +3695,8 @@
         "naam",
         "namen",
         "name",
-        "zal"
+        "zal",
+        "naams"
       ],
       "usage_en": [
         "name",
@@ -4050,10 +4062,12 @@
       "gloss_nl": null,
       "gloss_en": "to spurn; also (intransitively) to disappear",
       "usage_nl": [
-        "geweest"
+        "geweest",
+        "verworpen"
       ],
       "usage_en": [
         "refused",
+        "rejected",
         "abhor",
         "cast away off",
         "contemn",
@@ -4263,7 +4277,8 @@
         "tegenover",
         "aangezichten",
         "henen",
-        "aangezichts"
+        "aangezichts",
+        "toorn"
       ],
       "usage_en": [
         "before",
@@ -4290,9 +4305,9 @@
         "against",
         "for",
         "faces",
+        "anger",
         "accept",
         "a-be- fore-time",
-        "anger",
         "as long as",
         "battle",
         "because of",
@@ -4400,6 +4415,7 @@
         "lasting",
         "eternal",
         "never",
+        "time",
         "alway-s",
         "ancient time",
         "any more",
@@ -4489,7 +4505,8 @@
       "usage_nl": [
         "water",
         "wateren",
-        "twistwater"
+        "twistwater",
+        "waters"
       ],
       "usage_en": [
         "water",
@@ -4592,7 +4609,9 @@
         "was",
         "voorbij",
         "gingen",
-        "ging"
+        "ging",
+        "doorging",
+        "dienen"
       ],
       "usage_en": [
         "pass",
@@ -4761,7 +4780,8 @@
       "gloss_nl": null,
       "gloss_en": "a hillock",
       "usage_nl": [
-        "heuvelen"
+        "heuvelen",
+        "heuvel"
       ],
       "usage_en": [
         "hills",

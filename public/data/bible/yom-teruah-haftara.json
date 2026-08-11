@@ -8608,7 +8608,8 @@
         "naam",
         "namen",
         "name",
-        "zal"
+        "zal",
+        "naams"
       ],
       "usage_en": [
         "name",
@@ -9051,7 +9052,8 @@
         "ga",
         "opvaren",
         "gij",
-        "heeft"
+        "heeft",
+        "opvoerde"
       ],
       "usage_en": [
         "fell",
@@ -9498,7 +9500,8 @@
         "hij",
         "acht",
         "maakt",
-        "zwijgt"
+        "zwijgt",
+        "verheven"
       ],
       "usage_en": [
         "gave",
@@ -9537,6 +9540,7 @@
         "grant",
         "bringeth",
         "direct",
+        "yelled",
         "apply",
         "ascribe",
         "assign",
@@ -10153,6 +10157,7 @@
         "dressed",
         "maker",
         "accomplish",
+        "procured",
         "advance",
         "appoint",
         "apt",
@@ -10298,6 +10303,7 @@
         "households",
         "home",
         "contain",
+        "homeborn",
         "court",
         "daughter",
         "door",
@@ -10306,7 +10312,6 @@
         "forth of",
         "great as would contain",
         "hangings",
-        "homeborn",
         "winter house-hold",
         "inside-ward",
         "palace",
@@ -10383,7 +10388,10 @@
         "hij",
         "spijzen",
         "eter",
-        "spijzigen"
+        "spijzigen",
+        "opaten",
+        "verteerd",
+        "opgegeten"
       ],
       "usage_en": [
         "eat",
@@ -10804,7 +10812,10 @@
         "doodslager",
         "achterwaarts",
         "nawandelt",
-        "nahoereren"
+        "nahoereren",
+        "[naar",
+        "die",
+        "naar"
       ],
       "usage_en": [
         "after",
@@ -10817,6 +10828,7 @@
         "again",
         "behind",
         "him",
+        "me",
         "after that",
         "-ward",
         "at",
@@ -10913,6 +10925,7 @@
         "bleef",
         "moge",
         "neder",
+        "gezeten",
         "worden"
       ],
       "usage_en": [
@@ -10935,6 +10948,7 @@
         "tarry",
         "set",
         "inhabited",
+        "inhabitant",
         "make to abide-ing",
         "continue",
         "cause to",
@@ -11026,7 +11040,8 @@
       "gloss_nl": null,
       "gloss_en": "properly, covered, i.e. a throne (as canopied)",
       "usage_nl": [
-        "stoel"
+        "stoel",
+        "troon"
       ],
       "usage_en": [
         "throne",
@@ -11077,10 +11092,12 @@
       "gloss_nl": null,
       "gloss_en": "bitter (literally or figuratively); also (as noun) bitterness, or (adverbially) bitterly",
       "usage_nl": [
-        "bitterlijk"
+        "bitterlijk",
+        "bitter"
       ],
       "usage_en": [
         "bitterness",
+        "bitter",
         "angry",
         "bitter-ly",
         "-ness",
@@ -11125,6 +11142,7 @@
         "heart",
         "himself",
         "man",
+        "herself",
         "appetite",
         "beast",
         "body",
@@ -11311,7 +11329,8 @@
         "vertonen",
         "aan",
         "zullen",
-        "aanschouw"
+        "aanschouw",
+        "gijlieden"
       ],
       "usage_en": [
         "saw",
@@ -11683,6 +11702,7 @@
         "increaseth",
         "increased",
         "abundantly",
+        "much",
         "bring in abundance -antly",
         "archer by mistake for h7232 רָבַב",
         "be in authority",
@@ -11744,7 +11764,8 @@
         "tegenover",
         "aangezichten",
         "henen",
-        "aangezichts"
+        "aangezichts",
+        "toorn"
       ],
       "usage_en": [
         "before",
@@ -11771,9 +11792,9 @@
         "against",
         "for",
         "faces",
+        "anger",
         "accept",
         "a-be- fore-time",
-        "anger",
         "as long as",
         "battle",
         "because of",
@@ -12023,6 +12044,7 @@
         "heart",
         "midst",
         "comfortably",
+        "mind",
         "care for",
         "consent",
         "considered",
@@ -12150,17 +12172,18 @@
         "stem",
         "stemme",
         "geruis",
-        "stilte"
+        "stilte",
+        "gerucht"
       ],
       "usage_en": [
         "voice",
         "aloud",
         "sound",
+        "lightness",
         "bleating",
         "crackling",
         "cry out",
         "fame",
-        "lightness",
         "lowing",
         "noise",
         "hold peace",
@@ -12230,6 +12253,7 @@
         "obeyeth",
         "publisheth",
         "proclaimed",
+        "obeyed",
         "attentively",
         "call gather together",
         "certainly",
@@ -12874,7 +12898,11 @@
         "wandelt",
         "henengaan",
         "zij",
-        "leidde"
+        "leidde",
+        "nawandeldet",
+        "nagewandeld",
+        "leidt",
+        "nawandelen"
       ],
       "usage_en": [
         "departed",
@@ -12896,6 +12924,8 @@
         "now",
         "come",
         "on",
+        "wentest",
+        "walked",
         "again",
         "away",
         "bear",
@@ -13448,7 +13478,10 @@
         "zich",
         "wederkeert",
         "opmaakt",
-        "afkeert"
+        "afkeert",
+        "afgekeerd",
+        "u",
+        "bekeerd"
       ],
       "usage_en": [
         "returned",
@@ -13632,6 +13665,7 @@
         "comest",
         "up",
         "cometh",
+        "entered",
         "apply",
         "attain",
         "be",
@@ -14099,6 +14133,7 @@
         "lasting",
         "eternal",
         "never",
+        "time",
         "alway-s",
         "ancient time",
         "any more",
@@ -15030,7 +15065,8 @@
       "gloss_nl": null,
       "gloss_en": "knowledge",
       "usage_nl": [
-        "wetenschappen"
+        "wetenschappen",
+        "wetenschap"
       ],
       "usage_en": [
         "knowledge",
@@ -15864,7 +15900,8 @@
       "gloss_en": "properly, weight, but only figuratively in a good sense, splendor or copiousness",
       "usage_nl": [
         "heerlijkheid",
-        "ere"
+        "ere",
+        "eer"
       ],
       "usage_en": [
         "glory",
@@ -15887,7 +15924,8 @@
         "uitdelen",
         "delen",
         "uitdeelde",
-        "beerven"
+        "beerven",
+        "heb"
       ],
       "usage_en": [
         "inherit",
@@ -15985,10 +16023,13 @@
       "gloss_nl": null,
       "gloss_en": "to place (in a very wide application)",
       "usage_nl": [
-        "gezet"
+        "gezet",
+        "zetten"
       ],
       "usage_en": [
         "set",
+        "made",
+        "put",
         "apply",
         "appoint",
         "array",
@@ -16048,15 +16089,16 @@
       "gloss_en": "properly, kind, i.e. (religiously) pious (a saint)",
       "usage_nl": [
         "gunstgenoot",
-        "gunstgenoten"
+        "gunstgenoten",
+        "goedertieren"
       ],
       "usage_en": [
         "holy",
         "saints",
+        "merciful",
         "godly man",
         "good",
         "holy one",
-        "merciful",
         "saint",
         "un- godly."
       ]
@@ -16187,7 +16229,8 @@
         "hebt",
         "twisten",
         "twistzaak",
-        "zal"
+        "zal",
+        "gij"
       ],
       "usage_en": [
         "strive",

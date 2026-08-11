@@ -37,12 +37,14 @@ const CHAPTER_CONFIG = [
   { book: 'Isa', ch: 51 }, { book: 'Isa', ch: 52 }, { book: 'Isa', ch: 54 }, { book: 'Isa', ch: 55 },
   { book: 'Isa', ch: 57 }, { book: 'Isa', ch: 58 }, { book: 'Isa', ch: 60 }, { book: 'Isa', ch: 61 },
   { book: 'Isa', ch: 62 }, { book: 'Isa', ch: 63 },
+  // Jeremiah
+  { book: 'Jer', ch: 2 }, { book: 'Jer', ch: 3 },
   // Zechariah
   { book: 'Zech', ch: 14 },
-  // Gospels (including John 2 for Pinchas)
+  // Gospels
   { book: 'Matt', ch: 4 }, { book: 'Matt', ch: 16 }, { book: 'Matt', ch: 18 }, { book: 'Matt', ch: 24 }, { book: 'Matt', ch: 25 },
   { book: 'Mark', ch: 11 },
-  { book: 'Luke', ch: 2 }, { book: 'Luke', ch: 3 },
+  { book: 'Luke', ch: 2 }, { book: 'Luke', ch: 3 }, { book: 'Luke', ch: 19 },
   { book: 'John', ch: 2 }, { book: 'John', ch: 6 }, { book: 'John', ch: 12 }, { book: 'John', ch: 14 }
 ];
 

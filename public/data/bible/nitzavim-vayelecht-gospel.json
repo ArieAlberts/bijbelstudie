@@ -2020,12 +2020,14 @@
       "usage_nl": [
         "dingen",
         "deze",
-        "dezen",
-        "dit"
+        "dat",
+        "dit",
+        "dezen"
       ],
       "usage_en": [
         "things",
         "these",
+        "thus",
         "they",
         "+ afterward",
         "follow",
@@ -2037,8 +2039,7 @@
         "that",
         "then",
         "this",
-        "those",
-        "thus"
+        "those"
       ]
     },
     "G2036": {
@@ -2057,6 +2058,8 @@
         "zouden",
         "zeggen",
         "zegt",
+        "hebbende",
+        "zeggende",
         "zij",
         "gezegd",
         "hij",
@@ -2073,6 +2076,9 @@
         "say",
         "ye",
         "saith",
+        "commanded",
+        "spoken",
+        "saying",
         "they",
         "he",
         "answer",
@@ -2173,6 +2179,7 @@
         "same",
         "she",
         "himself",
+        "thereof",
         "miracles",
         "this",
         "very",
@@ -2247,6 +2254,7 @@
         "hadden",
         "zoude",
         "gij",
+        "hij",
         "wisten",
         "hebbende",
         "hebt",
@@ -2266,6 +2274,7 @@
         "seen",
         "should",
         "ye",
+        "beheld",
         "knew",
         "be aware",
         "behold",
@@ -2293,6 +2302,7 @@
         "dat",
         "zo",
         "[ook",
+        "dan",
         "met",
         "[alzo"
       ],
@@ -2309,6 +2319,7 @@
         "but",
         "yet",
         "that",
+        "which",
         "with",
         "for",
         "nor",
@@ -2331,6 +2342,7 @@
         "woord",
         "met",
         "om",
+        "vanwege",
         "daarover",
         "voor"
       ],
@@ -2570,6 +2582,7 @@
         "aan",
         "zij",
         "binnen",
+        "nabij",
         "onder",
         "daar",
         "terug",
@@ -2856,12 +2869,13 @@
         "zijn",
         "zijt",
         "geschiedde",
+        "geschied",
+        "wees",
         "er",
         "geworden",
         "komende",
         "kwam",
         "gekomen",
-        "geschied",
         "het"
       ],
       "usage_en": [
@@ -2876,6 +2890,7 @@
         "fulfilled",
         "come",
         "came",
+        "been",
         "drawing",
         "thou",
         "thundered",
@@ -3002,7 +3017,8 @@
         "man",
         "men",
         "certain",
-        "shepherds"
+        "shepherds",
+        "nobleman"
       ]
     },
     "G25": {
@@ -3110,6 +3126,7 @@
         "afterward",
         "after",
         "yea",
+        "even",
         "also",
         "now often unexpressed in english"
       ]
@@ -3139,10 +3156,12 @@
       "gloss_en": "properly, to \"croak\" (as a raven) or scream, i.e. (genitive case) to call aloud (shriek, exclaim, intreat)",
       "usage_nl": [
         "riepen",
+        "zullen",
         "riep"
       ],
       "usage_en": [
         "cried",
+        "out",
         "cry out"
       ]
     },
@@ -3292,6 +3311,7 @@
         "hij",
         "zijnde",
         "zij",
+        "kome",
         "ik",
         "kom"
       ],
@@ -3384,6 +3404,7 @@
         "toen",
         "met",
         "werd",
+        "daarin",
         "aan"
       ],
       "usage_en": [
@@ -3401,6 +3422,8 @@
         "about",
         "within",
         "baptized",
+        "when",
+        "therein",
         "after",
         "against",
         "+ almost",
@@ -3428,7 +3451,6 @@
         "through-out",
         "un-to-ward",
         "under",
-        "when",
         "where-with",
         "with-in"
       ]
@@ -3458,18 +3480,19 @@
       "gloss_nl": null,
       "gloss_en": "to stay (in a given place, state, relation or expectancy)",
       "usage_nl": [
+        "blijven",
         "bleven",
         "blijft",
         "blijve",
         "blijvende"
       ],
       "usage_en": [
+        "abide",
         "continued",
         "endureth",
         "dwelleth",
         "abideth",
         "should",
-        "abide",
         "present",
         "continue",
         "dwell",
@@ -3514,6 +3537,7 @@
         "enig",
         "iets",
         "iemand",
+        "zeker",
         "een",
         "niets",
         "mens",
@@ -3525,8 +3549,8 @@
         "thing",
         "them",
         "any",
-        "a",
         "certain",
+        "a",
         "a kind of",
         "any man",
         "thing at all",
@@ -3630,10 +3654,10 @@
       "gloss_nl": null,
       "gloss_en": "by implication, to try, condemn, punish",
       "usage_nl": [
+        "oordelen",
         "oordeel",
         "oordele",
-        "oordeelt",
-        "oordelen"
+        "oordeelt"
       ],
       "usage_en": [
         "judge",
@@ -3712,12 +3736,12 @@
         "nemende",
         "had",
         "zult",
+        "ontvangen",
         "neme",
         "nam",
         "genomen",
         "hebbende",
-        "ontvangt",
-        "ontvangen"
+        "ontvangt"
       ],
       "usage_en": [
         "take",
@@ -3761,6 +3785,7 @@
         "hielden",
         "van",
         "hebben",
+        "heb",
         "hebbe",
         "gij",
         "gijlieden"
@@ -3876,6 +3901,7 @@
         "wat",
         "wiens",
         "zijn",
+        "wien",
         "daar",
         "hem"
       ],
@@ -3918,6 +3944,7 @@
         "dier",
         "dit",
         "diezelfde",
+        "deze",
         "hij",
         "dat"
       ],
@@ -3998,14 +4025,15 @@
         "dat",
         "omdat",
         "want",
-        "overmits",
-        "dewijl"
+        "dewijl",
+        "overmits"
       ],
       "usage_en": [
         "that",
         "because",
         "for",
         "art",
+        "if",
         "this",
         "how",
         "as concerning that",
@@ -4104,10 +4132,11 @@
         "gegeven",
         "heeft",
         "gaven",
+        "ik",
+        "had",
         "zal",
         "gaf",
-        "geef",
-        "ik"
+        "geef"
       ],
       "usage_en": [
         "give",
@@ -4116,6 +4145,9 @@
         "shall",
         "gave",
         "offer",
+        "delivered",
+        "gavest",
+        "thou",
         "giveth",
         "adventure",
         "bestow",
@@ -4151,6 +4183,7 @@
         "wie",
         "welk",
         "waarom",
+        "iegelijk",
         "wien"
       ],
       "usage_en": [
@@ -4159,6 +4192,8 @@
         "what",
         "who",
         "how",
+        "much",
+        "man",
         "every man",
         "how much",
         "+ no-ne",
@@ -4332,6 +4367,7 @@
         "zeggen",
         "ik",
         "is",
+        "gij",
         "gezegd",
         "heeft"
       ],

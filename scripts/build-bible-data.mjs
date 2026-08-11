@@ -22,6 +22,7 @@ const BOOK_MAP = {
   '1Kgs': { osis: '1Kgs', nl: '1 Koningen', en: '1 Kings', testament: 'OT' },
   '2Kgs': { osis: '2Kgs', nl: '2 Koningen', en: '2 Kings', testament: 'OT' },
   Isa: { osis: 'Isa', nl: 'Jesaja', en: 'Isaiah', testament: 'OT' },
+  Jer: { osis: 'Jer', nl: 'Jeremia', en: 'Jeremiah', testament: 'OT' },
   Zech: { osis: 'Zech', nl: 'Zacharia', en: 'Zechariah', testament: 'OT' },
   Matt: { osis: 'Matt', nl: 'Mattheüs', en: 'Matthew', testament: 'NT' },
   Mark: { osis: 'Mark', nl: 'Markus', en: 'Mark', testament: 'NT' },
@@ -45,10 +46,11 @@ const CHAPTER_MAX_VERSES = {
   "Isa.1": 31, "Isa.40": 31, "Isa.49": 26, "Isa.50": 11, "Isa.51": 23, "Isa.52": 15,
   "Isa.54": 17, "Isa.55": 13, "Isa.57": 21, "Isa.58": 14, "Isa.60": 22, "Isa.61": 11,
   "Isa.62": 12, "Isa.63": 19,
+  "Jer.2": 37, "Jer.3": 25,
   "Zech.14": 21,
   "Matt.4": 25, "Matt.16": 28, "Matt.18": 35, "Matt.24": 51, "Matt.25": 46,
   "Mark.11": 33,
-  "Luke.2": 52, "Luke.3": 38,
+  "Luke.2": 52, "Luke.3": 38, "Luke.19": 48,
   "John.2": 25, "John.6": 71, "John.12": 50, "John.14": 31
 };
 
