@@ -4601,6 +4601,11 @@
             "status": "verified"
           }
         ]
+      },
+      "notes": {
+        "kjv": [
+          "that thou: Heb. if thou shalt lie unto me"
+        ]
       }
     },
     {
@@ -5789,6 +5794,11 @@
             "status": "verified"
           }
         ]
+      },
+      "notes": {
+        "kjv": [
+          "Beersheba: that is, The well of the oath"
+        ]
       }
     },
     {
@@ -6152,6 +6162,11 @@
             "strong": "H7121",
             "status": "verified"
           }
+        ]
+      },
+      "notes": {
+        "kjv": [
+          "grove: or, tree"
         ]
       }
     },

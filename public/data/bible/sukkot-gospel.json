@@ -204,6 +204,11 @@
             "status": "verified"
           }
         ]
+      },
+      "notes": {
+        "kjv": [
+          "taxed: or, enrolled"
+        ]
       }
     },
     {
@@ -1465,6 +1470,11 @@
             "strong": "G4167",
             "status": "verified"
           }
+        ]
+      },
+      "notes": {
+        "kjv": [
+          "watch: or, the night watches"
         ]
       }
     },
@@ -2942,6 +2952,11 @@
             "strong": "G1107",
             "status": "verified"
           }
+        ]
+      },
+      "notes": {
+        "kjv": [
+          "the shepherds: Gr. the men the shepherds"
         ]
       }
     },

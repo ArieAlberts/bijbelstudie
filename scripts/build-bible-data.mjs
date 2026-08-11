@@ -94,13 +94,17 @@ function generatePassageJson(studyId, passage, cachedDb, fullLexicon) {
         throw new Error(`[CRITICAL ERROR] Missing authentic verse data for '${verseKey}'!`);
       }
       
-      verses.push({
+      const verseObj = {
         osis: verseKey,
         ref: `${c}:${v}`,
         sv: found.sv,
         kjv: found.kjv,
         alignments: found.alignments || { sv: [] }
-      });
+      };
+      if (found.notes) {
+        verseObj.notes = found.notes;
+      }
+      verses.push(verseObj);
 
       // 1. Collect Hebrew/Greek lexicon entries from SV alignments
       if (found.alignments && found.alignments.sv) {

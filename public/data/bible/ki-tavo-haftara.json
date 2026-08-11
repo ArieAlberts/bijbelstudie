@@ -134,6 +134,11 @@
             "status": "verified"
           }
         ]
+      },
+      "notes": {
+        "kjv": [
+          "shine: or, be enlightened; for thy light cometh"
+        ]
       }
     },
     {
@@ -891,6 +896,12 @@
             "strong": "H935",
             "status": "verified"
           }
+        ]
+      },
+      "notes": {
+        "kjv": [
+          "abundance: or, noise of the sea shall be turned toward thee",
+          "forces: or, wealth"
         ]
       }
     },
@@ -2219,6 +2230,11 @@
             "strong": "H5090",
             "status": "verified"
           }
+        ]
+      },
+      "notes": {
+        "kjv": [
+          "forces: or, wealth"
         ]
       }
     },

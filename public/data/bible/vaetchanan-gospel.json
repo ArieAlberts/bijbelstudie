@@ -1583,6 +1583,11 @@
             "status": "verified"
           }
         ]
+      },
+      "notes": {
+        "kjv": [
+          "worthy of: or, meet for"
+        ]
       }
     },
     {
@@ -2807,6 +2812,12 @@
             "status": "verified"
           }
         ]
+      },
+      "notes": {
+        "kjv": [
+          "Do violence: or, Put no man in fear",
+          "wages: or, allowance"
+        ]
       }
     },
     {
@@ -3014,6 +3025,12 @@
             "strong": "G1498",
             "status": "verified"
           }
+        ]
+      },
+      "notes": {
+        "kjv": [
+          "in expectation: or, in suspense",
+          "mused: or, reasoned, or, debated"
         ]
       }
     }

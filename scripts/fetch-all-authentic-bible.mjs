@@ -48,11 +48,34 @@ const CHAPTER_CONFIG = [
 
 const sleep = (ms) => new Promise(res => setTimeout(res, ms));
 
+function extractNotesAndCleanText(rawText) {
+  const notes = [];
+  let cleanText = rawText.replace(/<sup>([\s\S]*?)<\/sup>/gi, (_, noteContent) => {
+    const plainNote = noteContent.replace(/<[^>]+>/g, '').trim();
+    if (plainNote) {
+      notes.push(plainNote);
+    }
+    return '';
+  });
+
+  cleanText = cleanText.replace(/<f>([\s\S]*?)<\/f>/gi, (_, noteContent) => {
+    const plainNote = noteContent.replace(/<[^>]+>/g, '').trim();
+    if (plainNote) {
+      notes.push(plainNote);
+    }
+    return '';
+  });
+
+  return { cleanText, notes };
+}
+
 function cleanSvText(rawText) {
-  return rawText.replace(/<S>\d+<\/S>/g, '').replace(/\s+/g, ' ').trim();
+  const { cleanText } = extractNotesAndCleanText(rawText);
+  return cleanText.replace(/<S>\d+<\/S>/g, '').replace(/\s+/g, ' ').trim();
 }
 
 function parseSvAlignments(rawText, testament) {
+  const { cleanText: rawWithoutNotes } = extractNotesAndCleanText(rawText);
   const prefix = testament === 'NT' ? 'G' : 'H';
   const alignments = [];
   
@@ -61,7 +84,7 @@ function parseSvAlignments(rawText, testament) {
   let cleanOffset = 0;
   const cleanFull = cleanSvText(rawText);
 
-  while ((match = regex.exec(rawText)) !== null) {
+  while ((match = regex.exec(rawWithoutNotes)) !== null) {
     const word = match[1].replace(/[.,;:!?()]/g, '');
     const strongNum = match[2];
     const strongTag = `${prefix}${strongNum}`;
@@ -85,8 +108,7 @@ function parseSvAlignments(rawText, testament) {
 }
 
 function parseKjvTokens(rawText, testament) {
-  // Remove <sup>...</sup> footnotes from KJV text
-  const cleanText = rawText.replace(/<sup>[\s\S]*?<\/sup>/gi, '').trim();
+  const { cleanText, notes } = extractNotesAndCleanText(rawText);
   const prefix = testament === 'NT' ? 'G' : 'H';
   const tokens = [];
 
@@ -108,11 +130,11 @@ function parseKjvTokens(rawText, testament) {
     }
   }
 
-  return tokens;
+  return { tokens, notes };
 }
 
 async function fetchAll() {
-  console.log("Fetching authentic verbatim Bible data with Strong's tags for DSV and KJV...");
+  console.log("Fetching authentic verbatim Bible data with separated footnotes for DSV and KJV...");
   const svDb = {};
   const kjvDb = {};
 
@@ -129,11 +151,13 @@ async function fetchAll() {
         const dataSv = await resSv.json();
         dataSv.forEach(v => {
           const key = `${item.book}.${ch}.${v.verse}`;
+          const { notes } = extractNotesAndCleanText(v.text);
           const cleanText = cleanSvText(v.text);
           const alignments = parseSvAlignments(v.text, testament);
           svDb[key] = {
             sv: cleanText,
-            alignments: { sv: alignments }
+            alignments: { sv: alignments },
+            notes: notes
           };
         });
       }
@@ -147,9 +171,10 @@ async function fetchAll() {
         const dataKjv = await resKjv.json();
         dataKjv.forEach(v => {
           const key = `${item.book}.${ch}.${v.verse}`;
-          const tokens = parseKjvTokens(v.text, testament);
+          const { tokens, notes } = parseKjvTokens(v.text, testament);
           kjvDb[key] = {
-            kjv: tokens
+            kjv: tokens,
+            notes: notes
           };
         });
       }
@@ -162,16 +187,24 @@ async function fetchAll() {
 
   const combined = {};
   Object.keys(svDb).forEach(key => {
+    const notesSv = svDb[key].notes || [];
+    const notesKjv = (kjvDb[key] && kjvDb[key].notes) || [];
+    
+    const notesObj = {};
+    if (notesSv.length) notesObj.sv = notesSv;
+    if (notesKjv.length) notesObj.kjv = notesKjv;
+
     combined[key] = {
       sv: svDb[key].sv,
       alignments: svDb[key].alignments,
-      kjv: kjvDb[key] ? kjvDb[key].kjv : [{ t: svDb[key].sv, s: null }]
+      kjv: kjvDb[key] ? kjvDb[key].kjv : [{ t: svDb[key].sv, s: null }],
+      notes: Object.keys(notesObj).length ? notesObj : undefined
     };
   });
 
   const outPath = path.join(rootDir, 'scripts', 'authentic-bible-cache.json');
   fs.writeFileSync(outPath, JSON.stringify(combined, null, 2), 'utf-8');
-  console.log(`✓ Successfully downloaded and cached ${Object.keys(combined).length} authentic verbatim verses with KJV Strong's tagging to ${outPath}!`);
+  console.log(`✓ Successfully downloaded and cached ${Object.keys(combined).length} authentic verbatim verses with separated footnotes to ${outPath}!`);
 }
 
 fetchAll();

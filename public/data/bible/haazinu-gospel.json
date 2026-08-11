@@ -729,6 +729,11 @@
             "status": "verified"
           }
         ]
+      },
+      "notes": {
+        "kjv": [
+          "talents: a talent is 750.ounces of silver, which after five shillings the ounce is 187.li. 10.s."
+        ]
       }
     },
     {
@@ -1188,6 +1193,11 @@
             "strong": "G591",
             "status": "verified"
           }
+        ]
+      },
+      "notes": {
+        "kjv": [
+          "worshipped him: or, besought him"
         ]
       }
     },
@@ -1664,6 +1674,11 @@
             "strong": "G3784",
             "status": "verified"
           }
+        ]
+      },
+      "notes": {
+        "kjv": [
+          "pence: the Roman penny is the eighth part of an ounce, which after five shillings the ounce is seven pence halfpenny; about fourteen cents"
         ]
       }
     },
