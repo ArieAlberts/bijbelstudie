@@ -928,3 +928,147 @@ button, input, select, textarea {
   background: #ede2d5 !important;
   border-color: #954c28 !important;
 }
+
+/* Editorial Body Typography */
+.parasha-editorial-body {
+  margin-top: 24px;
+  border-top: 1px solid var(--line);
+  padding-top: 20px;
+}
+
+.editorial-body-title {
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--accent-dark);
+  margin: 0 0 16px;
+}
+
+.editorial-body-content {
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: 16.5px;
+  line-height: 1.75;
+  color: #241c15;
+}
+
+.editorial-body-content h2 {
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: 21px;
+  font-weight: 700;
+  color: var(--accent-dark);
+  margin-top: 28px;
+  margin-bottom: 12px;
+  border-bottom: 1px dashed var(--line);
+  padding-bottom: 6px;
+}
+
+.editorial-body-content h3 {
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--ink);
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.editorial-body-content p {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.editorial-body-content blockquote {
+  margin: 20px 0;
+  padding: 14px 20px;
+  background: var(--white);
+  border-left: 4px solid var(--accent);
+  border-radius: 0 6px 6px 0;
+  box-shadow: 0 2px 8px var(--shadow);
+  font-style: italic;
+  color: #433327;
+}
+
+.editorial-body-content blockquote p {
+  margin: 0;
+}
+
+.editorial-body-content em {
+  font-style: italic;
+  color: #523f31;
+}
+
+.editorial-body-content strong {
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.editorial-body-content ul,
+.editorial-body-content ol {
+  margin-bottom: 16px;
+  padding-left: 24px;
+}
+
+.editorial-body-content li {
+  margin-bottom: 6px;
+}
+
+/* Print Styles */
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-size: 12pt;
+    line-height: 1.5;
+  }
+
+  .site-navbar,
+  .hero-action-buttons,
+  .hamburger-btn,
+  .mobile-overlay,
+  .draggable-step-window,
+  .draggable-step-minimized,
+  .mode-toggle-switch,
+  .popover-close-btn,
+  .btn-secondary,
+  .app-footer,
+  nav,
+  button {
+    display: none !important;
+  }
+
+  .app-container,
+  .hero-card,
+  .passages-summary-box,
+  .bible-reader-card {
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: 100% !important;
+  }
+
+  #werkblad, #worksheet {
+    display: block !important;
+  }
+
+  #react-bible-reader-root {
+    position: static !important;
+    margin-top: 24px !important;
+  }
+
+  .editorial-body-content h2 {
+    page-break-after: avoid;
+    break-after: avoid;
+    color: #000000 !important;
+  }
+
+  .editorial-body-content blockquote {
+    background: #fdfdfd !important;
+    border-left: 3pt solid #333333 !important;
+    page-break-inside: avoid;
+  }
+
+  h1, h2, h3 {
+    page-break-after: avoid;
+  }
+}
+
