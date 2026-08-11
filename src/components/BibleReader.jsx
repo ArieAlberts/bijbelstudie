@@ -6,7 +6,7 @@ import { fetchBiblePassage } from '../api/bible';
 export default function BibleReader({ studyId = 'shoftim', initialSection = 'parasha', lang = 'nl', onSectionChange }) {
   const isEn = lang === 'en';
   const [section, setSection] = useState(initialSection);
-  const [showStepWindow, setShowStepWindow] = useState(true);
+  const [showStepWindow, setShowStepWindow] = useState(false);
   const translation = isEn ? 'kjv' : 'sv';
 
   const [passageData, setPassageData] = useState(null);
@@ -182,9 +182,9 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
               type="button"
               className={`mode-btn ${showStepWindow ? 'active' : ''}`}
               onClick={() => setShowStepWindow(!showStepWindow)}
-              title={isEn ? "Toggle Movable STEP Bible Frame Window" : "Open / Sluit Zwevend STEP Bible Venster"}
+              title={isEn ? "Open / Close STEP Bible Window" : "Open / Sluit zwevend STEP Bijbel venster"}
             >
-              📖 STEP Bible {showStepWindow ? (isEn ? '(Actief)' : '(Actief)') : (isEn ? '(Open)' : '(Open)')}
+              📖 STEP Bible {showStepWindow ? (isEn ? '(Open)' : '(Open)') : (isEn ? '(Openen)' : '(Openen)')}
             </button>
           </div>
         </div>
