@@ -10,17 +10,27 @@ Een interactief digitaal hulpmiddel voor zelfstandige, gestructureerde en corrig
 
 **Zelf de parasja lezen** ondersteunt lezers om de Hebreeuwse Bijbeltekst (Tora en Tanach) in haar eigen opbouw, context en structuur te onderzoeken voordat secundaire verklaringsmodellen of dogma's worden toegepast. 
 
-Het project biedt een interactief digitaal werkblad met 11 stappen, de volledige online handleiding (18 hoofdstukken), een methode-uitleg, contactmogelijkheden en meertalige ondersteuning.
+Het project biedt een interactief digitaal werkblad met 11 stappen, de volledige online handleiding (18 hoofdstukken), een meertalige Bijbellezer met Hebreeuwse/Griekse grondtekst en TBESH/TBESG lexicon, contactmogelijkheden en een browser-gebaseerd CMS dashboard.
 
 ---
 
 ## ✨ Belangrijkste Functionaliteiten
 
 - 📜 **Alle 54 Parasjot**: Selecteer elke wekelijkse lezing uit Genesis, Exodus, Leviticus, Numeri en Deuteronomium.
+- 🌍 **Strikte Taalisolatie (NL / EN)**:
+  - `/nl/`: 100% Nederlands met Statenvertaling (SV) en DutSVV in STEP Bible.
+  - `/en/`: 100% English with King James Version (KJV) and KJV in STEP Bible.
+  - Geen taallek: ontbrekende vertalingen tonen duidelijke taalspecifieke meldingen in plaats van mixed-language fallbacks.
+  - Taalwisseling behoudt zoekparameters en vertaalt URL-hashes (`#werkblad` ↔ `#worksheet`, `#methode` ↔ `#method`).
+- 🔤 **TBESH & TBESG Grondtekst & Lexicon**:
+  - Geïntegreerde grondtekst-popover met `HEB · TBESH` (Hebreeuws/Aramees) en `GRK · TBESG` (Grieks) badges.
+  - Hebreeuwse lemmata in RTL-schrift, fonetische transliteraties, Strong's nummers, kernglossen en vertaalaanwijzingen (`kjv_def`).
+  - Directe STEP Bible diep-links per grondwoord (`q=strong=H...` / `q=strong=G...`).
+- 🛠️ **Beheermodule / Decap CMS (`/admin/`)**:
+  - Visuele browser-gebaseerde beheermodule op `/admin/` (gekoppeld met Netlify Identity & Git Gateway).
+  - Bestanden in `content/parasjot/*.md` worden ook automatisch verwerkt door `scripts/build-passages-index.mjs` en GitHub Actions pipeline.
 - ✍️ **11-Stappen Werkblad**: Voortgangsindicator, notitievelden per stap en vinkjes voor voltooide stappen.
 - 💾 **JSON Backup & Restore**: Exporteer al je gemaakte aantekeningen naar een `.json` bestand en laad ze eenvoudig weer in op elk gewenst apparaat.
-- 🍔 **Responsive Hamburger Menu**: Modern, mobielvriendelijk geanimeerd navigatiemenu gebouwd met React.js en glassmorphic styling.
-- 🌍 **Tweetalig (NL / EN)**: Volledige ondersteuning voor Nederlands en Engels.
 - 📚 **Volledige Online Handleiding**: 18 verdiepende hoofdstukken, bronnen, voorbeelden en een Hebreeuwse woordenlijst.
 
 ---
@@ -29,8 +39,9 @@ Het project biedt een interactief digitaal werkblad met 11 stappen, de volledige
 
 - **Frontend**: [React.js](https://react.dev/) (React 19) + [Vite](https://vitejs.dev/)
 - **Pictogrammen**: [Lucide React](https://lucide.dev/)
-- **Styling**: Vanilla CSS met harmonische warm-perkamenten OKLCH kleurentokens (`#954c28` warm terracotta, `#f8f4ef` perkament papier)
-- **Deployment**: [Netlify](https://www.netlify.com/) met `_redirects` en `netlify.toml`
+- **CMS & Content**: Decap CMS + Markdown / YAML via `js-yaml`
+- **Lexicon Datasets**: OpenScriptures / STEPBible datasets `TBESH` & `TBESG` (CC BY 4.0)
+- **Deployment & CI/CD**: Netlify + GitHub Actions (`.github/workflows/deploy.yml` & `content-pipeline.yml`)
 
 ---
 
@@ -69,6 +80,6 @@ npm run build
 
 ---
 
-## 📄 Licentie
+## 📄 Licentie & Bronvermelding
 
-Dit project is gepubliceerd onder de MIT Licentie.
+Dit project is gepubliceerd onder de MIT Licentie. Lexicongrondwoorden en gegevens van STEPBible / OpenScriptures zijn verwerkt onder de Creative Commons Attribution 4.0 International (CC BY 4.0) licentie.
