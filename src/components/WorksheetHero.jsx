@@ -198,7 +198,7 @@ export default function WorksheetHero({ lang, onStudyChange }) {
           </h3>
           <div className="editorial-body-content">
             {isEn
-              ? (currentStudy?.body_en || (currentStudy?.body_nl ? 'English reading not yet available.' : (currentStudy?.body || 'English reading not yet available.')))
+              ? (currentStudy?.body_en || 'English reading not yet available.')
               : (currentStudy?.body_nl || currentStudy?.body || 'Nederlandse lezing nog niet beschikbaar.')}
           </div>
         </div>

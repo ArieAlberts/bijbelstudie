@@ -96,7 +96,7 @@ export default function LexiconPopover({ entry, targetRect, onClose, lang = 'nl'
 
       <div className="popover-body">
         <div>
-          <div className="popover-label">{isEn ? 'Meaning / Gloss' : 'Betekenis / Gloss'}</div>
+          <div className="popover-label">{isEn ? 'Meaning / Gloss' : 'Betekenis / Woordverklaring'}</div>
           <div className="popover-gloss">{entry.gloss || (isEn ? 'Ground-word definition' : 'Grondwoord betekenis')}</div>
         </div>
 
