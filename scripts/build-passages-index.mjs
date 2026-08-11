@@ -8,6 +8,7 @@ const rootDir = path.resolve(__dirname, '..');
 
 const contentDir = path.join(rootDir, 'content', 'parasjot');
 const outputFile = path.join(rootDir, 'data', 'passages.json');
+const publicOutputFile = path.join(rootDir, 'public', 'data', 'passages.json');
 
 function parseYamlFrontmatter(fileContent) {
   const match = fileContent.match(/^---\r?\n([\s\S]+?)\r?\n---/);
@@ -99,8 +100,15 @@ function buildPassagesManifest() {
     fs.mkdirSync(dataDir, { recursive: true });
   }
 
-  fs.writeFileSync(outputFile, JSON.stringify(manifest, null, 2), 'utf-8');
-  console.log(`Successfully generated ${outputFile} with ${studies.length} studies.`);
+  const publicDataDir = path.dirname(publicOutputFile);
+  if (!fs.existsSync(publicDataDir)) {
+    fs.mkdirSync(publicDataDir, { recursive: true });
+  }
+
+  const jsonString = JSON.stringify(manifest, null, 2);
+  fs.writeFileSync(outputFile, jsonString, 'utf-8');
+  fs.writeFileSync(publicOutputFile, jsonString, 'utf-8');
+  console.log(`Successfully generated ${outputFile} and ${publicOutputFile} with ${studies.length} studies.`);
 }
 
 buildPassagesManifest();
