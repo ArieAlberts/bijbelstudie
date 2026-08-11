@@ -4,10 +4,11 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --host",
+    "dev": "node scripts/copy-static-assets.mjs && vite --host",
     "build:passages": "node scripts/build-passages-index.mjs",
+    "build:assets": "node scripts/copy-static-assets.mjs",
     "build:bible": "node scripts/build-bible-data.mjs",
-    "build": "npm run build:passages && npm run build:bible && vite build",
+    "build": "npm run build:passages && npm run build:assets && npm run build:bible && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
