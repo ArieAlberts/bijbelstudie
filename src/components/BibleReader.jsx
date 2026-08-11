@@ -56,7 +56,7 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
     const osis = passageData?.osis || 'Deut.16.18-Deut.21.9';
     const isNt = passageData?.testament === 'NT' || osis.startsWith('John') || osis.startsWith('Matt') || osis.startsWith('Mark') || osis.startsWith('Luke');
     const originalVersion = isNt ? 'OGNT' : 'OHB';
-    const mainVersion = isEn ? 'KJV' : 'DutSVV';
+    const mainVersion = isEn ? 'BSB' : 'DutSVV';
 
     return `https://www.stepbible.org/?q=version=${mainVersion}|version=${originalVersion}|reference=${encodeURIComponent(osis)}&options=HVLGUNMC`;
   };
