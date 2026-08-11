@@ -56,6 +56,7 @@ function parseFrontmatter(fileContent, fileName) {
 
   // Attach Markdown body text if present
   if (markdownBody) {
+    if (!parsed.body_nl) parsed.body_nl = markdownBody;
     parsed.body = markdownBody;
   }
 

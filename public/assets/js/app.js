@@ -114,8 +114,10 @@
  function setRoute(route) {
   state.route = route;
   save();
-  $('#week-route').hidden = route !== 'week';
-  $('#quick-route').hidden = route !== 'quick';
+  const weekRouteEl = $('#week-route');
+  if (weekRouteEl) weekRouteEl.hidden = route !== 'week';
+  const quickRouteEl = $('#quick-route');
+  if (quickRouteEl) quickRouteEl.hidden = route !== 'quick';
   $('#route-week')?.classList.toggle('active', route === 'week');
   $('#route-quick')?.classList.toggle('active', route === 'quick');
   $('#route-week')?.setAttribute('aria-pressed', String(route === 'week'));

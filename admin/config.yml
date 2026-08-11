@@ -1,0 +1,44 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "public/assets/uploads"
+public_folder: "../assets/uploads"
+
+collections:
+  - name: "parasjot"
+    label: "Parasjot & Lezingen"
+    folder: "content/parasjot"
+    create: true
+    slug: "{{id}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "ID / Slug", name: "id", widget: "string", hint: "Bijv. shoftim, ekev, devarim" }
+      - { label: "Parasja Naam", name: "parasha", widget: "string", hint: "Bijv. Shoftim, Ekev" }
+      - label: "Labels"
+        name: "label"
+        widget: "object"
+        fields:
+          - { label: "Naam (NL)", name: "nl", widget: "string" }
+          - { label: "Name (EN)", name: "en", widget: "string" }
+      - { label: "Status", name: "status", widget: "select", options: ["published", "draft"], default: "published" }
+      - { label: "Is Wekelijkse Parasja (Current)", name: "current", widget: "boolean", default: false }
+      - { label: "Publicatiedatum", name: "published_at", widget: "datetime", format: "YYYY-MM-DD", dateFormat: "YYYY-MM-DD", timeFormat: false }
+      - label: "Bijbelgedeelten (Passages)"
+        name: "passages"
+        widget: "list"
+        fields:
+          - { label: "Rol", name: "role", widget: "select", options: ["parasha", "haftara", "gospel"] }
+          - label: "Referentie"
+            name: "ref"
+            widget: "object"
+            fields:
+              - { label: "Tekst (NL)", name: "nl", widget: "string", hint: "Bijv. Deuteronomium 16:18–21:9" }
+              - { label: "Text (EN)", name: "en", widget: "string", hint: "Bijv. Deuteronomy 16:18–21:9" }
+          - { label: "OSIS Range", name: "osis", widget: "string", hint: "Bijv. Deut.16.18-Deut.21.9" }
+      - { label: "Titel (NL)", name: "title_nl", widget: "string", required: false }
+      - { label: "Title (EN)", name: "title_en", widget: "string", required: false }
+      - { label: "Samenvatting (NL)", name: "summary_nl", widget: "text", required: false }
+      - { label: "Summary (EN)", name: "summary_en", widget: "text", required: false }
+      - { label: "Gepubliceerde Lezing & Toelichting (Body)", name: "body", widget: "markdown", required: false }

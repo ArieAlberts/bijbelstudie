@@ -16,11 +16,11 @@ export default function Handbook({ lang }) {
           {lang === 'nl' ? 'Inhoudsopgave & Hoofdstukken' : 'Table of Contents & Chapters'}
         </h3>
         <ul style={{ paddingLeft: '20px', margin: 0, lineHeight: 1.8 }}>
-          <li><strong>Hoofdstuk 1:</strong> {lang === 'nl' ? 'Het doel van de Torastudie' : 'The Goal of Torah Study'}</li>
-          <li><strong>Hoofdstuk 2:</strong> {lang === 'nl' ? 'Hoe lees je met het werkblad?' : 'How to Read with the Worksheet'}</li>
-          <li><strong>Hoofdstuk 3:</strong> {lang === 'nl' ? 'Het herkennen van chiasmen en parallelstructuren' : 'Recognizing Chiasms and Parallel Structures'}</li>
-          <li><strong>Hoofdstuk 4:</strong> {lang === 'nl' ? 'Hebreeuwse sleutelwoorden in hun context' : 'Hebrew Keywords in Context'}</li>
-          <li><strong>Hoofdstuk 5:</strong> {lang === 'nl' ? 'De Haftara-koppeling begrijpen' : 'Understanding the Haftarah Link'}</li>
+          <li><strong>{lang === 'nl' ? 'Hoofdstuk 1:' : 'Chapter 1:'}</strong> {lang === 'nl' ? 'Het doel van de Torastudie' : 'The Goal of Torah Study'}</li>
+          <li><strong>{lang === 'nl' ? 'Hoofdstuk 2:' : 'Chapter 2:'}</strong> {lang === 'nl' ? 'Hoe lees je met het werkblad?' : 'How to Read with the Worksheet'}</li>
+          <li><strong>{lang === 'nl' ? 'Hoofdstuk 3:' : 'Chapter 3:'}</strong> {lang === 'nl' ? 'Het herkennen van chiasmen en parallelstructuren' : 'Recognizing Chiasms and Parallel Structures'}</li>
+          <li><strong>{lang === 'nl' ? 'Hoofdstuk 4:' : 'Chapter 4:'}</strong> {lang === 'nl' ? 'Hebreeuwse sleutelwoorden in hun context' : 'Hebrew Keywords in Context'}</li>
+          <li><strong>{lang === 'nl' ? 'Hoofdstuk 5:' : 'Chapter 5:'}</strong> {lang === 'nl' ? 'De Haftara-koppeling begrijpen' : 'Understanding the Haftarah Link'}</li>
         </ul>
       </div>
     </div>

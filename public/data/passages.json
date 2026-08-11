@@ -48,6 +48,7 @@
       "title_en": "Devarim Reading",
       "summary_nl": "Wekelijkse lezing van Devarim.",
       "summary_en": "Weekly reading of Devarim.",
+      "body_nl": "De wekelijkse lezing van Devarim.",
       "body": "De wekelijkse lezing van Devarim."
     },
     {
@@ -91,6 +92,7 @@
       "title_en": "Ekev Reading",
       "summary_nl": "Wekelijkse lezing van Ekev.",
       "summary_en": "Weekly reading of Ekev.",
+      "body_nl": "De wekelijkse lezing van Ekev.",
       "body": "De wekelijkse lezing van Ekev."
     },
     {
@@ -126,6 +128,7 @@
       "title_en": "Ha'azinu Reading",
       "summary_nl": "Wekelijkse lezing van Ha'azinu.",
       "summary_en": "Weekly reading of Ha'azinu.",
+      "body_nl": "De wekelijkse lezing van Ha'azinu.",
       "body": "De wekelijkse lezing van Ha'azinu."
     },
     {
@@ -169,6 +172,7 @@
       "title_en": "Ki Tavo Reading",
       "summary_nl": "Wekelijkse lezing van Ki Tavo.",
       "summary_en": "Weekly reading of Ki Tavo.",
+      "body_nl": "De wekelijkse lezing van Ki Tavo.",
       "body": "De wekelijkse lezing van Ki Tavo."
     },
     {
@@ -212,6 +216,7 @@
       "title_en": "Ki Tetze Reading",
       "summary_nl": "Wekelijkse lezing van Ki Tetze.",
       "summary_en": "Weekly reading of Ki Tetze.",
+      "body_nl": "De wekelijkse lezing van Ki Tetze.",
       "body": "De wekelijkse lezing van Ki Tetze."
     },
     {
@@ -247,6 +252,7 @@
       "title_en": "Mattot / Massei Reading",
       "summary_nl": "Wekelijkse lezing van Mattot / Massei.",
       "summary_en": "Weekly reading of Mattot / Massei.",
+      "body_nl": "De wekelijkse lezing van Mattot / Massei.",
       "body": "De wekelijkse lezing van Mattot / Massei."
     },
     {
@@ -290,6 +296,7 @@
       "title_en": "Nitzavim / Vayelecht Reading",
       "summary_nl": "Wekelijkse lezing van Nitzavim / Vayelecht.",
       "summary_en": "Weekly reading of Nitzavim / Vayelecht.",
+      "body_nl": "De wekelijkse lezing van Nitzavim / Vayelecht.",
       "body": "De wekelijkse lezing van Nitzavim / Vayelecht."
     },
     {
@@ -333,6 +340,7 @@
       "title_en": "Pinchas Reading",
       "summary_nl": "Over de ijver van Pinechas, het verbond van vrede, de telling van het volk en de dochters van Tzelofchad.",
       "summary_en": "On the zeal of Phinehas, the covenant of peace, the census of Israel, and the daughters of Zelophehad.",
+      "body_nl": "De HEERE sprak tot Mozes: Pinechas, de zoon van Eleazar, de zoon van Aäron, de priester, heeft Mijn grimmigheid van de kinderen Israëls afgewend...",
       "body": "De HEERE sprak tot Mozes: Pinechas, de zoon van Eleazar, de zoon van Aäron, de priester, heeft Mijn grimmigheid van de kinderen Israëls afgewend..."
     },
     {
@@ -376,6 +384,7 @@
       "title_en": "Re'eh Reading",
       "summary_nl": "Wekelijkse lezing van Re'eh.",
       "summary_en": "Weekly reading of Re'eh.",
+      "body_nl": "De wekelijkse lezing van Re'eh.",
       "body": "De wekelijkse lezing van Re'eh."
     },
     {
@@ -419,6 +428,7 @@
       "title_en": "Shoftim Reading",
       "summary_nl": "Wekelijkse lezing van Shoftim.",
       "summary_en": "Weekly reading of Shoftim.",
+      "body_nl": "De wekelijkse lezing van Shoftim.",
       "body": "De wekelijkse lezing van Shoftim."
     },
     {
@@ -462,6 +472,7 @@
       "title_en": "Sukkot Reading",
       "summary_nl": "Wekelijkse lezing van Sukkot.",
       "summary_en": "Weekly reading of Sukkot.",
+      "body_nl": "De wekelijkse lezing van Sukkot.",
       "body": "De wekelijkse lezing van Sukkot."
     },
     {
@@ -505,6 +516,7 @@
       "title_en": "Va'etchanan Reading",
       "summary_nl": "Wekelijkse lezing van Va'etchanan.",
       "summary_en": "Weekly reading of Va'etchanan.",
+      "body_nl": "De wekelijkse lezing van Va'etchanan.",
       "body": "De wekelijkse lezing van Va'etchanan."
     },
     {
@@ -548,6 +560,7 @@
       "title_en": "Yom Kippur Reading",
       "summary_nl": "Wekelijkse lezing van Yom Kippur.",
       "summary_en": "Weekly reading of Yom Kippur.",
+      "body_nl": "De wekelijkse lezing van Yom Kippur.",
       "body": "De wekelijkse lezing van Yom Kippur."
     },
     {
@@ -591,6 +604,7 @@
       "title_en": "Yom Teruah Reading",
       "summary_nl": "Wekelijkse lezing van Yom Teruah.",
       "summary_en": "Weekly reading of Yom Teruah.",
+      "body_nl": "De wekelijkse lezing van Yom Teruah.",
       "body": "De wekelijkse lezing van Yom Teruah."
     }
   ]

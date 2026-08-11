@@ -868,3 +868,63 @@ button, input, select, textarea {
   color: var(--muted);
   margin-top: 60px;
 }
+
+/* Lexicon Popover Badges & Extended Definition Styles */
+.popover-badge {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: 3px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.popover-badge.hebrew {
+  background: #e8dbce;
+  color: #723b1c;
+}
+
+.popover-badge.greek {
+  background: #dce5ef;
+  color: #1e4570;
+}
+
+.popover-lemma.rtl {
+  direction: rtl;
+  font-family: "SBL Hebrew", "David", "Times New Roman", serif;
+  font-size: 1.25rem;
+}
+
+.popover-lemma.ltr {
+  direction: ltr;
+  font-family: "Source Serif 4", "Georgia", serif;
+  font-size: 1.15rem;
+}
+
+.popover-usage {
+  margin-top: 8px;
+  padding: 6px 10px;
+  background: var(--soft, #f7f2eb);
+  border-left: 2px solid var(--accent, #954c28);
+  border-radius: 3px;
+}
+
+.popover-sublabel {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--muted, #766d65);
+  margin-bottom: 2px;
+}
+
+.popover-subtext {
+  font-size: 0.82rem;
+  color: var(--ink, #261d16);
+  line-height: 1.4;
+}
+
+.popover-step-btn:hover {
+  background: #ede2d5 !important;
+  border-color: #954c28 !important;
+}

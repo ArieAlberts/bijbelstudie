@@ -64,7 +64,10 @@ export default function WorksheetHero({ lang, onStudyChange }) {
     if (!studyItem || !studyItem.passages) return '';
     const p = studyItem.passages.find(x => x.role === roleName);
     if (!p || !p.ref) return '';
-    return p.ref[lang] || p.ref.nl || '';
+    if (isEn) {
+      return p.ref.en || 'Translation not available';
+    }
+    return p.ref.nl || 'Vertaling niet beschikbaar';
   };
 
   const safeGetStorage = (key) => {
@@ -148,7 +151,9 @@ export default function WorksheetHero({ lang, onStudyChange }) {
           className="parasja-selector-select"
         >
           {studies.map((s) => {
-            const name = s.label[lang] || s.label.nl || s.parasha;
+            const name = isEn
+              ? (s.label?.en || s.parasha || 'Translation not available')
+              : (s.label?.nl || s.parasha || 'Vertaling niet beschikbaar');
             const torahRef = getPassageRef(s, 'parasha');
             const labelText = torahRef ? `${name} (${torahRef})` : name;
             return (
@@ -164,33 +169,39 @@ export default function WorksheetHero({ lang, onStudyChange }) {
       <div className="passages-summary-box">
         <div className="passages-summary-title">
           <BookOpen size={16} className="btn-icon" />
-          <span>{isEn ? 'Bijbelgedeelten bij deze lezing:' : 'Bijbelgedeelten bij deze lezing:'}</span>
+          <span>{isEn ? 'Bible passages for this reading:' : 'Bijbelgedeelten bij deze lezing:'}</span>
         </div>
         <div className="passages-summary-grid">
-          <div className="passage-item">
-            <span className="passage-role">{isEn ? 'Torah / Parashah:' : 'Torah / Parasja:'}</span>
-            <span className="passage-ref-text">{getPassageRef(currentStudy, 'parasha')}</span>
-          </div>
-          <div className="passage-item">
-            <span className="passage-role">Haftara:</span>
-            <span className="passage-ref-text">{getPassageRef(currentStudy, 'haftara')}</span>
-          </div>
-          <div className="passage-item">
-            <span className="passage-role">{isEn ? 'Gospel:' : 'Evangelie:'}</span>
-            <span className="passage-ref-text">{getPassageRef(currentStudy, 'gospel')}</span>
-          </div>
+          {currentStudy?.passages?.some(p => p.role === 'parasha') && (
+            <div className="passage-item">
+              <span className="passage-role">{isEn ? 'Torah / Parashah:' : 'Torah / Parasja:'}</span>
+              <span className="passage-ref-text">{getPassageRef(currentStudy, 'parasha')}</span>
+            </div>
+          )}
+          {currentStudy?.passages?.some(p => p.role === 'haftara') && (
+            <div className="passage-item">
+              <span className="passage-role">Haftara:</span>
+              <span className="passage-ref-text">{getPassageRef(currentStudy, 'haftara')}</span>
+            </div>
+          )}
+          {currentStudy?.passages?.some(p => p.role === 'gospel') && (
+            <div className="passage-item">
+              <span className="passage-role">{isEn ? 'Gospel:' : 'Evangelie:'}</span>
+              <span className="passage-ref-text">{getPassageRef(currentStudy, 'gospel')}</span>
+            </div>
+          )}
         </div>
 
-        {currentStudy?.body && (
-          <div className="parasha-editorial-body">
-            <h3 className="editorial-body-title">
-              {isEn ? 'Published Reading & Commentary' : 'Gepubliceerde Lezing & Toelichting'}
-            </h3>
-            <div className="editorial-body-content">
-              {currentStudy.body}
-            </div>
+        <div className="parasha-editorial-body">
+          <h3 className="editorial-body-title">
+            {isEn ? 'Published Reading & Commentary' : 'Gepubliceerde Lezing & Toelichting'}
+          </h3>
+          <div className="editorial-body-content">
+            {isEn
+              ? (currentStudy?.body_en || (currentStudy?.body_nl ? 'English reading not yet available.' : (currentStudy?.body || 'English reading not yet available.')))
+              : (currentStudy?.body_nl || currentStudy?.body || 'Nederlandse lezing nog niet beschikbaar.')}
           </div>
-        )}
+        </div>
       </div>
 
       {/* Action Buttons: Export, Import, Reset */}
@@ -202,7 +213,7 @@ export default function WorksheetHero({ lang, onStudyChange }) {
 
         <button type="button" className="btn-secondary" onClick={handleImportJSON}>
           <Upload className="btn-icon" size={16} />
-          <span>{isEn ? 'Importeer (JSON)' : 'Importeer (JSON)'}</span>
+          <span>{isEn ? 'Import (JSON)' : 'Importeer (JSON)'}</span>
         </button>
 
         <button type="button" className="btn-secondary btn-reset" onClick={handleReset}>

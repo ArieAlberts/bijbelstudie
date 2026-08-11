@@ -53,15 +53,41 @@ function HeaderApp() {
     return () => window.removeEventListener('hashchange', handleHashChange);
   }, [path]);
 
+  const translateHash = (hash, targetLang) => {
+    if (!hash) return '';
+    const cleanHash = hash.startsWith('#') ? hash.slice(1) : hash;
+    const nlToEn = {
+      'werkblad': 'worksheet',
+      'methode': 'method',
+      'uitleg': 'method',
+      'voorbeeld': 'example',
+      'bijlagen': 'appendices'
+    };
+    const enToNl = {
+      'worksheet': 'werkblad',
+      'method': 'methode',
+      'explanation': 'uitleg',
+      'example': 'voorbeeld',
+      'appendices': 'bijlagen'
+    };
+    if (targetLang === 'en') {
+      const mapped = nlToEn[cleanHash];
+      return '#' + (mapped || cleanHash);
+    } else {
+      const mapped = enToNl[cleanHash];
+      return '#' + (mapped || cleanHash);
+    }
+  };
+
   const handleViewChange = (view) => {
     setCurrentView(view);
 
     if (view === 'worksheet') {
       applyView('worksheet', true);
-      window.history.pushState(null, '', '#werkblad');
+      window.history.pushState(null, '', lang === 'nl' ? '#werkblad' : '#worksheet');
     } else if (view === 'method') {
       applyView('method', true);
-      window.history.pushState(null, '', '#methode');
+      window.history.pushState(null, '', lang === 'nl' ? '#methode' : '#method');
     } else if (view === 'handbook') {
       window.location.href = lang === 'nl' ? '../nl/handleiding.html' : '../en/handbook.html';
     } else if (view === 'contact') {
@@ -71,16 +97,25 @@ function HeaderApp() {
 
   const handleLangToggle = (newLang) => {
     setLang(newLang);
+    const search = window.location.search;
+    const targetHash = translateHash(window.location.hash, newLang);
+
     if (newLang === 'en') {
-      if (path.includes('handleiding')) window.location.href = '../en/handbook.html';
-      else if (path.includes('contact')) window.location.href = '../en/contact.html';
-      else if (path.includes('privacy')) window.location.href = '../en/privacy.html';
-      else window.location.href = '../en/index.html' + window.location.hash;
+      if (path.includes('handleiding')) window.location.href = '../en/handbook.html' + search + targetHash;
+      else if (path.includes('contact')) window.location.href = '../en/contact.html' + search + targetHash;
+      else if (path.includes('privacy')) window.location.href = '../en/privacy.html' + search + targetHash;
+      else if (path.includes('lezer')) window.location.href = '../en/reader.html' + search + targetHash;
+      else if (path.includes('bedankt')) window.location.href = '../en/thanks.html' + search + targetHash;
+      else if (path.includes('feedback')) window.location.href = '../en/feedback.html' + search + targetHash;
+      else window.location.href = '../en/index.html' + search + targetHash;
     } else {
-      if (path.includes('handbook')) window.location.href = '../nl/handleiding.html';
-      else if (path.includes('contact')) window.location.href = '../nl/contact.html';
-      else if (path.includes('privacy')) window.location.href = '../nl/privacy.html';
-      else window.location.href = '../nl/index.html' + window.location.hash;
+      if (path.includes('handbook')) window.location.href = '../nl/handleiding.html' + search + targetHash;
+      else if (path.includes('contact')) window.location.href = '../nl/contact.html' + search + targetHash;
+      else if (path.includes('privacy')) window.location.href = '../nl/privacy.html' + search + targetHash;
+      else if (path.includes('reader')) window.location.href = '../nl/lezer.html' + search + targetHash;
+      else if (path.includes('thanks')) window.location.href = '../nl/bedankt.html' + search + targetHash;
+      else if (path.includes('feedback')) window.location.href = '../nl/feedback.html' + search + targetHash;
+      else window.location.href = '../nl/index.html' + search + targetHash;
     }
   };
 

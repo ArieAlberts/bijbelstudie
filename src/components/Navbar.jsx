@@ -73,7 +73,7 @@ export default function Navbar({ activeView, setActiveView, lang, setLang }) {
             {labels.worksheet}
           </a>
           <a
-            href={lang === 'nl' ? '../nl/index.html#methode' : '../en/index.html#methode'}
+            href={lang === 'nl' ? '../nl/index.html#methode' : '../en/index.html#method'}
             className={`nav-link ${activeView === 'method' ? 'active' : ''}`}
             onClick={() => handleNav('method')}
           >
@@ -125,7 +125,7 @@ export default function Navbar({ activeView, setActiveView, lang, setLang }) {
             <span>{labels.worksheet}</span>
           </a>
           <a
-            href={lang === 'nl' ? '../nl/index.html#methode' : '../en/index.html#methode'}
+            href={lang === 'nl' ? '../nl/index.html#methode' : '../en/index.html#method'}
             className={`nav-link ${activeView === 'method' ? 'active' : ''}`}
             onClick={() => handleNav('method')}
           >

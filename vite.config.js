@@ -27,7 +27,8 @@ export default defineConfig({
         en_handbook: resolve(__dirname, 'en/handbook.html'),
         en_contact: resolve(__dirname, 'en/contact.html'),
         en_privacy: resolve(__dirname, 'en/privacy.html'),
-        en_thanks: resolve(__dirname, 'en/thanks.html')
+        en_thanks: resolve(__dirname, 'en/thanks.html'),
+        admin: resolve(__dirname, 'admin/index.html')
       }
     }
   }

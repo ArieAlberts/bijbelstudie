@@ -18,7 +18,11 @@ if (navContainer) {
       setActiveView={() => {}}
       lang={isEnglish ? 'en' : 'nl'}
       setLang={(newLang) => {
-        window.location.href = newLang === 'en' ? '../en/reader.html' : '../nl/lezer.html';
+        const search = window.location.search;
+        const hash = window.location.hash;
+        window.location.href = newLang === 'en'
+          ? '../en/reader.html' + search + hash
+          : '../nl/lezer.html' + search + hash;
       }}
     />
   );

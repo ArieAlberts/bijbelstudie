@@ -148,7 +148,7 @@
     const id = card.dataset.step || card.dataset.quickStep;
     const title = card.querySelector('.step-title')?.textContent.trim() || `${copy.stepWord} ${id}`;
     const type = card.dataset.quickStep ? 'quick-step' : 'step';
-    const manualHref = card.querySelector('.step-help')?.getAttribute('href') || 'handleiding.html';
+    const manualHref = card.querySelector('.step-help')?.getAttribute('href') || (lang === 'en' ? 'handbook.html' : 'handleiding.html');
     card.append(createStepWidget({ type, id, title, manualHref }));
   });
 

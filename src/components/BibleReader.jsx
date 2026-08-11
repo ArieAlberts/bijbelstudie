@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import LexiconPopover from './LexiconPopover';
 import DraggableStepWindow from './DraggableStepWindow';
-import { fetchBiblePassage } from '../api/bible';
+import { fetchBiblePassage, fetchPassagesIndex } from '../api/bible';
 
 export default function BibleReader({ studyId = 'shoftim', initialSection = 'parasha', lang = 'nl', onSectionChange }) {
   const isEn = lang === 'en';
@@ -19,9 +19,30 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
   const [selectedEntry, setSelectedEntry] = useState(null);
   const [selectedRect, setSelectedRect] = useState(null);
 
+  const [availableRoles, setAvailableRoles] = useState(['parasha', 'haftara', 'gospel']);
+
   useEffect(() => {
     setSection(initialSection);
   }, [initialSection]);
+
+  useEffect(() => {
+    fetchPassagesIndex()
+      .then((data) => {
+        if (data.studies) {
+          const studyItem = data.studies.find((s) => s.id === studyId);
+          if (studyItem && studyItem.passages) {
+            const roles = studyItem.passages.map((p) => p.role);
+            setAvailableRoles(roles);
+            if (!roles.includes(section)) {
+              const fallbackSec = roles[0] || 'parasha';
+              setSection(fallbackSec);
+              if (onSectionChange) onSectionChange(fallbackSec);
+            }
+          }
+        }
+      })
+      .catch(() => {});
+  }, [studyId]);
 
   useEffect(() => {
     let isMounted = true;
@@ -60,7 +81,7 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
     const osis = passageData?.osis || 'Deut.16.18-Deut.21.9';
     const isNt = passageData?.testament === 'NT' || osis.startsWith('John') || osis.startsWith('Matt') || osis.startsWith('Mark') || osis.startsWith('Luke');
     const originalVersion = isNt ? 'OGNT' : 'OHB';
-    const mainVersion = isEn ? 'BSB' : 'DutSVV';
+    const mainVersion = isEn ? 'KJV' : 'DutSVV';
 
     return `https://www.stepbible.org/?q=version=${mainVersion}|version=${originalVersion}|reference=${encodeURIComponent(osis)}&options=HVLGUNMC`;
   };
@@ -139,33 +160,47 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
     );
   };
 
+  const getLocalizedRefTitle = () => {
+    if (!passageData || !passageData.ref) return '';
+    if (isEn) {
+      return passageData.ref.en || 'Translation not available';
+    }
+    return passageData.ref.nl || 'Vertaling niet beschikbaar';
+  };
+
   return (
     <div className="bible-reader-wrapper">
       {/* Detached Section Navigation Bar */}
       <div className="reader-standalone-nav">
         <div className="nav-row">
           <nav aria-label={isEn ? "Passage sections" : "Bijbelsecties"} className="section-tabs">
-            <button
-              type="button"
-              className={`section-tab ${section === 'parasha' ? 'active' : ''}`}
-              onClick={() => handleSectionSelect('parasha')}
-            >
-              {isEn ? 'Parashah' : 'Torah'}
-            </button>
-            <button
-              type="button"
-              className={`section-tab ${section === 'haftara' ? 'active' : ''}`}
-              onClick={() => handleSectionSelect('haftara')}
-            >
-              Haftara
-            </button>
-            <button
-              type="button"
-              className={`section-tab ${section === 'gospel' ? 'active' : ''}`}
-              onClick={() => handleSectionSelect('gospel')}
-            >
-              {isEn ? 'Gospel' : 'Evangelie'}
-            </button>
+            {availableRoles.includes('parasha') && (
+              <button
+                type="button"
+                className={`section-tab ${section === 'parasha' ? 'active' : ''}`}
+                onClick={() => handleSectionSelect('parasha')}
+              >
+                {isEn ? 'Parashah' : 'Torah'}
+              </button>
+            )}
+            {availableRoles.includes('haftara') && (
+              <button
+                type="button"
+                className={`section-tab ${section === 'haftara' ? 'active' : ''}`}
+                onClick={() => handleSectionSelect('haftara')}
+              >
+                Haftara
+              </button>
+            )}
+            {availableRoles.includes('gospel') && (
+              <button
+                type="button"
+                className={`section-tab ${section === 'gospel' ? 'active' : ''}`}
+                onClick={() => handleSectionSelect('gospel')}
+              >
+                {isEn ? 'Gospel' : 'Evangelie'}
+              </button>
+            )}
           </nav>
 
           <div className="nav-right-controls" style={{ display: 'flex', gap: '8px', alignItems: 'center' }}>
@@ -240,7 +275,7 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
         {!loading && !error && passageData && (
           <>
             <div className="passage-meta-header">
-              <h2 className="passage-title">{passageData.ref ? (passageData.ref[lang] || passageData.ref.nl) : ''}</h2>
+              <h2 className="passage-title">{getLocalizedRefTitle()}</h2>
               <div className="passage-subtitle">
                 {translation === 'sv' ? 'Statenvertaling (SV)' : 'King James Version (KJV)'}
               </div>
@@ -273,7 +308,7 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
       {/* Floating Movable/Draggable STEP Bible Frame Window */}
       {showStepWindow && (
         <DraggableStepWindow
-          passageRef={passageData?.ref ? (passageData.ref[lang] || passageData.ref.nl) : ''}
+          passageRef={getLocalizedRefTitle()}
           iframeUrl={getStepIframeUrl()}
           onClose={() => setShowStepWindow(false)}
           lang={lang}
