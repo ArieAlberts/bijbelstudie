@@ -180,6 +180,17 @@ export default function WorksheetHero({ lang, onStudyChange }) {
             <span className="passage-ref-text">{getPassageRef(currentStudy, 'gospel')}</span>
           </div>
         </div>
+
+        {currentStudy?.body && (
+          <div className="parasha-editorial-body">
+            <h3 className="editorial-body-title">
+              {isEn ? 'Published Reading & Commentary' : 'Gepubliceerde Lezing & Toelichting'}
+            </h3>
+            <div className="editorial-body-content">
+              {currentStudy.body}
+            </div>
+          </div>
+        )}
       </div>
 
       {/* Action Buttons: Export, Import, Reset */}

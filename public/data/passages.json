@@ -47,7 +47,8 @@
       "title_nl": "Lezing Devarim",
       "title_en": "Devarim Reading",
       "summary_nl": "Wekelijkse lezing van Devarim.",
-      "summary_en": "Weekly reading of Devarim."
+      "summary_en": "Weekly reading of Devarim.",
+      "body": "De wekelijkse lezing van Devarim."
     },
     {
       "passages": [
@@ -89,7 +90,8 @@
       "title_nl": "Lezing Ekev",
       "title_en": "Ekev Reading",
       "summary_nl": "Wekelijkse lezing van Ekev.",
-      "summary_en": "Weekly reading of Ekev."
+      "summary_en": "Weekly reading of Ekev.",
+      "body": "De wekelijkse lezing van Ekev."
     },
     {
       "passages": [
@@ -123,7 +125,8 @@
       "title_nl": "Lezing Haazinu",
       "title_en": "Haazinu Reading",
       "summary_nl": "Wekelijkse lezing van Haazinu.",
-      "summary_en": "Weekly reading of Haazinu."
+      "summary_en": "Weekly reading of Haazinu.",
+      "body": "De wekelijkse lezing van Ha'azinu."
     },
     {
       "passages": [
@@ -165,7 +168,8 @@
       "title_nl": "Lezing Ki Tavo",
       "title_en": "Ki Tavo Reading",
       "summary_nl": "Wekelijkse lezing van Ki Tavo.",
-      "summary_en": "Weekly reading of Ki Tavo."
+      "summary_en": "Weekly reading of Ki Tavo.",
+      "body": "De wekelijkse lezing van Ki Tavo."
     },
     {
       "passages": [
@@ -207,7 +211,8 @@
       "title_nl": "Lezing Ki Tetze",
       "title_en": "Ki Tetze Reading",
       "summary_nl": "Wekelijkse lezing van Ki Tetze.",
-      "summary_en": "Weekly reading of Ki Tetze."
+      "summary_en": "Weekly reading of Ki Tetze.",
+      "body": "De wekelijkse lezing van Ki Tetze."
     },
     {
       "passages": [
@@ -241,7 +246,8 @@
       "title_nl": "Lezing Mattot / Massei",
       "title_en": "Mattot / Massei Reading",
       "summary_nl": "Wekelijkse lezing van Mattot / Massei.",
-      "summary_en": "Weekly reading of Mattot / Massei."
+      "summary_en": "Weekly reading of Mattot / Massei.",
+      "body": "De wekelijkse lezing van Mattot / Massei."
     },
     {
       "passages": [
@@ -283,7 +289,8 @@
       "title_nl": "Lezing Nitzavim / Vayelecht",
       "title_en": "Nitzavim / Vayelecht Reading",
       "summary_nl": "Wekelijkse lezing van Nitzavim / Vayelecht.",
-      "summary_en": "Weekly reading of Nitzavim / Vayelecht."
+      "summary_en": "Weekly reading of Nitzavim / Vayelecht.",
+      "body": "De wekelijkse lezing van Nitzavim / Vayelecht."
     },
     {
       "passages": [
@@ -325,7 +332,8 @@
       "title_nl": "Lezing Pinchas",
       "title_en": "Pinchas Reading",
       "summary_nl": "Over de ijver van Pinechas, het verbond van vrede, de telling van het volk en de dochters van Tzelofchad.",
-      "summary_en": "On the zeal of Phinehas, the covenant of peace, the census of Israel, and the daughters of Zelophehad."
+      "summary_en": "On the zeal of Phinehas, the covenant of peace, the census of Israel, and the daughters of Zelophehad.",
+      "body": "De HEERE sprak tot Mozes: Pinechas, de zoon van Eleazar, de zoon van Aäron, de priester, heeft Mijn grimmigheid van de kinderen Israëls afgewend..."
     },
     {
       "passages": [
@@ -367,7 +375,8 @@
       "title_nl": "Lezing Reeh",
       "title_en": "Reeh Reading",
       "summary_nl": "Wekelijkse lezing van Reeh.",
-      "summary_en": "Weekly reading of Reeh."
+      "summary_en": "Weekly reading of Reeh.",
+      "body": "De wekelijkse lezing van Re'eh."
     },
     {
       "passages": [
@@ -409,7 +418,8 @@
       "title_nl": "Lezing Shoftim",
       "title_en": "Shoftim Reading",
       "summary_nl": "Wekelijkse lezing van Shoftim.",
-      "summary_en": "Weekly reading of Shoftim."
+      "summary_en": "Weekly reading of Shoftim.",
+      "body": "De wekelijkse lezing van Shoftim."
     },
     {
       "passages": [
@@ -451,7 +461,8 @@
       "title_nl": "Lezing Sukkot",
       "title_en": "Sukkot Reading",
       "summary_nl": "Wekelijkse lezing van Sukkot.",
-      "summary_en": "Weekly reading of Sukkot."
+      "summary_en": "Weekly reading of Sukkot.",
+      "body": "De wekelijkse lezing van Sukkot."
     },
     {
       "passages": [
@@ -493,7 +504,8 @@
       "title_nl": "Lezing Vaetchanan",
       "title_en": "Vaetchanan Reading",
       "summary_nl": "Wekelijkse lezing van Vaetchanan.",
-      "summary_en": "Weekly reading of Vaetchanan."
+      "summary_en": "Weekly reading of Vaetchanan.",
+      "body": "De wekelijkse lezing van Va'etchanan."
     },
     {
       "passages": [
@@ -535,7 +547,8 @@
       "title_nl": "Lezing Yom Kippur",
       "title_en": "Yom Kippur Reading",
       "summary_nl": "Wekelijkse lezing van Yom Kippur.",
-      "summary_en": "Weekly reading of Yom Kippur."
+      "summary_en": "Weekly reading of Yom Kippur.",
+      "body": "De wekelijkse lezing van Yom Kippur."
     },
     {
       "passages": [
@@ -577,7 +590,8 @@
       "title_nl": "Lezing Yom Teruah",
       "title_en": "Yom Teruah Reading",
       "summary_nl": "Wekelijkse lezing van Yom Teruah.",
-      "summary_en": "Weekly reading of Yom Teruah."
+      "summary_en": "Weekly reading of Yom Teruah.",
+      "body": "De wekelijkse lezing van Yom Teruah."
     }
   ]
 }

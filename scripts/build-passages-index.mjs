@@ -14,7 +14,10 @@ function parseYamlFrontmatter(fileContent) {
   const match = fileContent.match(/^---\r?\n([\s\S]+?)\r?\n---/);
   if (!match) return null;
   const yamlText = match[1];
-  
+
+  const bodyMatch = fileContent.match(/^---\r?\n[\s\S]+?\r?\n---\r?\n([\s\S]*)$/);
+  const markdownBody = bodyMatch ? bodyMatch[1].trim() : '';
+
   const obj = {
     passages: [],
     label: {},
@@ -61,6 +64,10 @@ function parseYamlFrontmatter(fileContent) {
         currentPassage.ref.en = line.split(':').slice(1).join(':').trim().replace(/['"]/g, '');
       }
     }
+  }
+
+  if (markdownBody) {
+    obj.body = markdownBody;
   }
 
   return obj;
