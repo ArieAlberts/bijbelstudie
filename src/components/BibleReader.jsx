@@ -7,7 +7,11 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
   const isEn = lang === 'en';
   const [section, setSection] = useState(initialSection);
   const [showStepWindow, setShowStepWindow] = useState(false);
-  const translation = isEn ? 'kjv' : 'sv';
+  const [translation, setTranslation] = useState(isEn ? 'kjv' : 'sv');
+
+  useEffect(() => {
+    setTranslation(isEn ? 'kjv' : 'sv');
+  }, [lang, isEn]);
 
   const [passageData, setPassageData] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -164,15 +168,57 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
             </button>
           </nav>
 
-          <div className="mode-toggle-switch">
-            <button
-              type="button"
-              className={`mode-btn ${showStepWindow ? 'active' : ''}`}
-              onClick={() => setShowStepWindow(!showStepWindow)}
-              title={isEn ? "Open / Close STEP Bible Window" : "Open / Sluit zwevend STEP Bijbel venster"}
-            >
-              📖 STEP Bible {showStepWindow ? (isEn ? '(Open)' : '(Open)') : (isEn ? '(Openen)' : '(Openen)')}
-            </button>
+          <div className="nav-right-controls" style={{ display: 'flex', gap: '8px', alignItems: 'center' }}>
+            {/* Translation Toggle Switch: SV vs KJV */}
+            <div className="translation-toggle" style={{ display: 'inline-flex', background: 'var(--color-bg-secondary, #f6f1eb)', borderRadius: '4px', padding: '2px', border: '1px solid var(--color-border, #dbcec4)' }}>
+              <button
+                type="button"
+                className={`trans-btn ${translation === 'sv' ? 'active' : ''}`}
+                onClick={() => setTranslation('sv')}
+                title="Statenvertaling (SV 1637/1888)"
+                style={{
+                  padding: '4px 10px',
+                  fontSize: '0.85rem',
+                  fontWeight: 600,
+                  border: 'none',
+                  borderRadius: '3px',
+                  cursor: 'pointer',
+                  background: translation === 'sv' ? '#954c28' : 'transparent',
+                  color: translation === 'sv' ? '#fff' : 'var(--color-text, #261d16)'
+                }}
+              >
+                SV (NL)
+              </button>
+              <button
+                type="button"
+                className={`trans-btn ${translation === 'kjv' ? 'active' : ''}`}
+                onClick={() => setTranslation('kjv')}
+                title="King James Version (KJV 1769)"
+                style={{
+                  padding: '4px 10px',
+                  fontSize: '0.85rem',
+                  fontWeight: 600,
+                  border: 'none',
+                  borderRadius: '3px',
+                  cursor: 'pointer',
+                  background: translation === 'kjv' ? '#954c28' : 'transparent',
+                  color: translation === 'kjv' ? '#fff' : 'var(--color-text, #261d16)'
+                }}
+              >
+                KJV (EN)
+              </button>
+            </div>
+
+            <div className="mode-toggle-switch">
+              <button
+                type="button"
+                className={`mode-btn ${showStepWindow ? 'active' : ''}`}
+                onClick={() => setShowStepWindow(!showStepWindow)}
+                title={isEn ? "Open / Close STEP Bible Window" : "Open / Sluit zwevend STEP Bijbel venster"}
+              >
+                📖 STEP Bible {showStepWindow ? (isEn ? '(Open)' : '(Open)') : (isEn ? '(Openen)' : '(Openen)')}
+              </button>
+            </div>
           </div>
         </div>
       </div>
