@@ -286,6 +286,15 @@ export default function WorksheetHero({ lang, onStudyChange, autoExpandReading }
     ? (currentStudy?.download_docx_en || currentStudy?.download_docx_nl)
     : (currentStudy?.download_docx_nl || currentStudy?.download_docx_en);
 
+  const handleOpenBiblePassage = (role) => {
+    window.dispatchEvent(new CustomEvent('open-bible-section', { detail: { section: role } }));
+
+    const readerEl = document.getElementById('react-bible-reader-root') || document.getElementById('bible-reader');
+    if (readerEl) {
+      readerEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
+
   return (
     <div className="hero-card standalone-reading-view" style={{ width: '100%', maxWidth: '100%' }}>
       {/* Hidden File Input for Single File Upload (.md / .json) */}
@@ -330,25 +339,41 @@ export default function WorksheetHero({ lang, onStudyChange, autoExpandReading }
               </select>
             </div>
 
-            {/* Quick Passage Badges */}
+            {/* Quick Passage Badges - Clickable to open Bible Reader */}
             <div style={{ display: 'inline-flex', gap: '8px', flexWrap: 'wrap', alignItems: 'center' }}>
               {currentStudy?.passages?.some(p => p.role === 'parasha') && (
-                <span className="passage-badge-chip" title="Torah / Parasja">
+                <button
+                  type="button"
+                  className="passage-badge-chip interactive-chip"
+                  onClick={() => handleOpenBiblePassage('parasha')}
+                  title={isEn ? "Open Torah / Parashah in Bible Reader" : "Open Torah / Parasja in Bijbelreader"}
+                >
                   <strong>Tora:</strong> {getPassageRef(currentStudy, 'parasha')}
-                </span>
+                </button>
               )}
               {currentStudy?.passages?.some(p => p.role === 'haftara') && (
-                <span className="passage-badge-chip" title="Haftara">
+                <button
+                  type="button"
+                  className="passage-badge-chip interactive-chip"
+                  onClick={() => handleOpenBiblePassage('haftara')}
+                  title={isEn ? "Open Haftarah in Bible Reader" : "Open Haftara in Bijbelreader"}
+                >
                   <strong>Haftara:</strong> {getPassageRef(currentStudy, 'haftara')}
-                </span>
+                </button>
               )}
               {currentStudy?.passages?.some(p => p.role === 'gospel') && (
-                <span className="passage-badge-chip" title="Evangelie">
+                <button
+                  type="button"
+                  className="passage-badge-chip interactive-chip"
+                  onClick={() => handleOpenBiblePassage('gospel')}
+                  title={isEn ? "Open Gospel in Bible Reader" : "Open Evangelie in Bijbelreader"}
+                >
                   <strong>Evangelie:</strong> {getPassageRef(currentStudy, 'gospel')}
-                </span>
+                </button>
               )}
             </div>
           </div>
+
 
           {/* Right: Download Actions & Upload Button */}
           <div className="editorial-download-actions" style={{ display: 'flex', gap: '8px', flexWrap: 'wrap', alignItems: 'center' }}>

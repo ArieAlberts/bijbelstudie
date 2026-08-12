@@ -1190,6 +1190,23 @@ button, input, select, textarea {
   color: var(--accent-dark);
 }
 
+.passage-badge-chip.interactive-chip {
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: inherit;
+}
+
+.passage-badge-chip.interactive-chip:hover {
+  background: var(--accent);
+  color: #ffffff;
+  border-color: var(--accent);
+}
+
+.passage-badge-chip.interactive-chip:hover strong {
+  color: #ffffff;
+}
+
+
 
 .intro-question-box {
   margin: 24px 0;
