@@ -6,12 +6,15 @@
   "scripts": {
     "dev": "node scripts/copy-static-assets.mjs && vite --host",
     "build:passages": "node scripts/build-passages-index.mjs",
+    "build:epub": "node scripts/build-epubs.mjs",
     "build:assets": "node scripts/copy-static-assets.mjs",
     "build:bible": "node scripts/build-bible-data.mjs",
-    "build": "npm run build:passages && npm run build:assets && npm run build:bible && vite build",
+    "build": "npm run build:passages && npm run build:epub && npm run build:assets && npm run build:bible && vite build",
     "preview": "vite preview"
+
   },
   "dependencies": {
+    "isomorphic-dompurify": "^2.36.0",
     "jszip": "^3.10.1",
     "lucide-react": "^0.474.0",
     "react": "^19.0.0",

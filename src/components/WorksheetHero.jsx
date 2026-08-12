@@ -2,8 +2,10 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Download, Upload, RotateCcw, BookOpen, Printer, FileText, FileCode, ChevronDown, ChevronUp, HelpCircle, X } from 'lucide-react';
 import { fetchPassagesIndex } from '../api/bible';
 import { exportStudyToEpub } from '../utils/epub-generator';
+import { sanitizeHtml } from '../utils/sanitizer';
 
 function formatBodyHtml(rawText) {
+
   if (!rawText) return '';
 
   // If text already contains HTML structure tags, return directly
@@ -273,19 +275,39 @@ export default function WorksheetHero({ lang, onStudyChange, autoExpandReading }
     }
   };
 
-  const rawContent = isEn
-    ? (currentStudy?.body_en || 'English reading not yet available.')
-    : (currentStudy?.body_nl || currentStudy?.body || 'Nederlandse lezing nog niet beschikbaar.');
+  const displayTitle = isEn
+    ? (currentStudy?.title_en || currentStudy?.label?.en || currentStudy?.parasha)
+    : (currentStudy?.title_nl || currentStudy?.label?.nl || currentStudy?.parasha);
 
-  const formattedHtml = formatBodyHtml(rawContent);
+  const displaySummary = isEn
+    ? currentStudy?.summary_en
+    : currentStudy?.summary_nl;
+
+  const hasBody = isEn
+    ? Boolean(currentStudy?.body_en && currentStudy.body_en.trim().length > 0)
+    : Boolean((currentStudy?.body_nl || currentStudy?.body) && (currentStudy?.body_nl || currentStudy?.body).trim().length > 0);
+
+  const rawBodyText = isEn
+    ? (hasBody ? currentStudy?.body_en : '')
+    : (currentStudy?.body_nl || currentStudy?.body || '');
+
+  const sanitizedBodyHtml = hasBody ? sanitizeHtml(formatBodyHtml(rawBodyText)) : '';
 
   const pdfUrl = isEn
-    ? (currentStudy?.download_pdf_en || currentStudy?.download_pdf_nl)
-    : (currentStudy?.download_pdf_nl || currentStudy?.download_pdf_en);
+    ? currentStudy?.download_pdf_en
+    : currentStudy?.download_pdf_nl;
 
   const docxUrl = isEn
-    ? (currentStudy?.download_docx_en || currentStudy?.download_docx_nl)
-    : (currentStudy?.download_docx_nl || currentStudy?.download_docx_en);
+    ? currentStudy?.download_docx_en
+    : currentStudy?.download_docx_nl;
+
+  const epubUrl = hasBody
+    ? `../downloads/epub/${selectedStudyId}-${isEn ? 'en' : 'nl'}.epub`
+    : null;
+
+  const handlePrint = () => {
+    window.print();
+  };
 
   const handleOpenBiblePassage = (role) => {
     window.dispatchEvent(new CustomEvent('open-bible-section', { detail: { section: role } }));
@@ -376,18 +398,13 @@ export default function WorksheetHero({ lang, onStudyChange, autoExpandReading }
           </div>
 
 
-          {/* Right: Download Actions & Collapse Toggle */}
-          <div className="editorial-download-actions" style={{ display: 'flex', gap: '8px', flexWrap: 'wrap', alignItems: 'center' }}>
-            {pdfUrl ? (
+          {/* Right: Download Actions, EPUB, Print & Collapse Toggle */}
+          <div className="editorial-download-actions reading-actions" style={{ display: 'flex', gap: '8px', flexWrap: 'wrap', alignItems: 'center' }}>
+            {pdfUrl && (
               <a href={pdfUrl} download className="passage-action-badge" title={isEn ? "Download PDF" : "Download PDF-lezing"}>
                 <FileText size={15} />
                 <span>PDF</span>
               </a>
-            ) : (
-              <button type="button" onClick={handlePrintPDF} className="passage-action-badge" title="PDF">
-                <FileText size={15} />
-                <span>PDF</span>
-              </button>
             )}
 
             {docxUrl && (
@@ -397,18 +414,21 @@ export default function WorksheetHero({ lang, onStudyChange, autoExpandReading }
               </a>
             )}
 
-            <button type="button" onClick={handleExportEPUB} className="passage-action-badge" title="EPUB">
-              <BookOpen size={15} />
-              <span>EPUB</span>
-            </button>
+            {/* EPUB Link: Rendered ONLY if a body exists for the current language */}
+            {epubUrl && (
+              <a href={epubUrl} download className="passage-action-badge" title={isEn ? "Download EPUB" : "Download EPUB-bestand"}>
+                <BookOpen size={15} />
+                <span>EPUB</span>
+              </a>
+            )}
 
-            <button type="button" onClick={handlePrintPDF} className="passage-action-badge" title={isEn ? "Print" : "Afdrukken"}>
+            {/* Print / Save as PDF Button */}
+            <button type="button" onClick={handlePrint} className="passage-action-badge" title={isEn ? "Print / save as PDF" : "Print / opslaan als PDF"}>
               <Printer size={15} />
-              <span>{isEn ? 'Print' : 'Druk af'}</span>
+              <span>{isEn ? 'Print / save as PDF' : 'Print / opslaan als PDF'}</span>
             </button>
 
             {/* Collapse / Expand Toggle Button */}
-
             <button
               type="button"
               className="btn-secondary"
@@ -436,9 +456,7 @@ export default function WorksheetHero({ lang, onStudyChange, autoExpandReading }
           <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
             <BookOpen className="section-header-icon" size={28} />
             <h2 style={{ fontSize: '28px', margin: 0 }}>
-              {isEn
-                ? (currentStudy?.label?.en || currentStudy?.parasha || 'Published Reading & Commentary')
-                : (currentStudy?.label?.nl || currentStudy?.parasha || 'Gepubliceerde Lezing & Toelichting')}
+              {displayTitle || (isEn ? 'Published Reading & Commentary' : 'Gepubliceerde Lezing & Toelichting')}
             </h2>
           </div>
 
@@ -448,19 +466,39 @@ export default function WorksheetHero({ lang, onStudyChange, autoExpandReading }
           </div>
         </div>
 
-
-        {/* Complete Published Reading Commentary Text — Collapsable */}
+        {/* Complete Published Reading Commentary Article — Collapsable */}
         {isReadingExpanded && (
-          <div
-            className="section-content-text editorial-body-content"
-            style={{ width: '100%', maxWidth: '100%' }}
-            dangerouslySetInnerHTML={{ __html: formattedHtml }}
-          />
+          <article className="reading-publication" style={{ width: '100%', maxWidth: '100%' }}>
+            {displayTitle && (
+              <h1 className="reading-title" style={{ fontSize: '30px', fontFamily: '"Source Serif 4", Georgia, serif', fontWeight: 700, margin: '0 0 16px', color: 'var(--ink)' }}>
+                {displayTitle}
+              </h1>
+            )}
+
+            {hasBody && displaySummary && (
+              <div className="reading-summary" style={{ fontStyle: 'italic', background: 'var(--soft)', padding: '16px 20px', marginBottom: '24px', borderLeft: '4px solid var(--accent)', borderRadius: '4px', fontSize: '17px', color: 'var(--ink)' }}>
+                <p style={{ margin: 0 }}>{displaySummary}</p>
+              </div>
+            )}
+
+            {hasBody ? (
+              <div
+                className="section-content-text editorial-body-content reading-body"
+                style={{ width: '100%', maxWidth: '100%' }}
+                dangerouslySetInnerHTML={{ __html: sanitizedBodyHtml }}
+              />
+            ) : (
+              <div className="no-body-notice" style={{ padding: '24px', background: 'var(--soft)', borderRadius: '6px', fontSize: '16px', color: 'var(--muted)', fontStyle: 'italic' }}>
+                {isEn ? 'English reading not yet available.' : 'Nederlandse lezing nog niet beschikbaar.'}
+              </div>
+            )}
+          </article>
         )}
       </div>
     </div>
   );
 }
+
 
 
 
