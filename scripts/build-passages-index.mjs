@@ -17,7 +17,7 @@ const publicOutputFile = path.join(rootDir, 'public', 'data', 'passages.json');
 function parseFrontmatter(fileContent, fileName) {
   const match = fileContent.match(/^---\r?\n([\s\S]+?)\r?\n---\r?\n?([\s\S]*)$/);
   if (!match) {
-    throw new Error(`[CMS SCHEMA ERROR] File '${fileName}' missing valid YAML frontmatter delimiters ('---').`);
+    return null;
   }
 
   const yamlStr = match[1];

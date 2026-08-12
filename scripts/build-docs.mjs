@@ -85,7 +85,6 @@ function buildHtmlDocument({ title, docTypeTitle, summary, bodyHtml, passages, l
       margin: 0 auto;
     }
 
-    /* ── Title page ─────────────────────────────────── */
     .title-page {
       margin-bottom: 36px;
       padding-bottom: 28px;
@@ -125,7 +124,6 @@ function buildHtmlDocument({ title, docTypeTitle, summary, bodyHtml, passages, l
       line-height: 1.6;
     }
 
-    /* ── Body content ───────────────────────────────── */
     h2 {
       font-family: 'Inter', sans-serif;
       font-size: 21px;
@@ -160,7 +158,6 @@ function buildHtmlDocument({ title, docTypeTitle, summary, bodyHtml, passages, l
     ul, ol { margin: 12px 0 12px 24px; }
     li { margin-bottom: 6px; }
 
-    /* ── Footer ─────────────────────────────────────── */
     .footer {
       margin-top: 48px;
       padding-top: 16px;
@@ -189,6 +186,104 @@ function buildHtmlDocument({ title, docTypeTitle, summary, bodyHtml, passages, l
 </html>`;
 }
 
+// ── Clean HTML snippet for DOCX (NO <head> or <style> tags) ───────────
+function buildCleanDocxHtml({ title, docTypeTitle, summary, bodyHtml, passages, lang }) {
+  const isEn = lang === 'en';
+  const passageLabels = {
+    parasha: isEn ? 'Torah' : 'Tora',
+    haftara: isEn ? 'Haftarah' : 'Haftara',
+    gospel: isEn ? 'Gospel' : 'Evangelie',
+  };
+
+  const passagesText = (passages || [])
+    .map(p => {
+      const ref = p.ref ? (isEn ? p.ref.en : p.ref.nl) : '';
+      const label = passageLabels[p.role] || p.role;
+      return ref ? `<strong>${label}:</strong> ${ref}` : '';
+    })
+    .filter(Boolean)
+    .join(' &nbsp;·&nbsp; ');
+
+  return `
+    <p><font color="#8b6914"><strong>${docTypeTitle.toUpperCase()}</strong></font></p>
+    <h1>${title}</h1>
+    ${passagesText ? `<p><font color="#555555">${passagesText}</font></p>` : ''}
+    ${summary ? `<p><em>${summary}</em></p>` : ''}
+    <hr />
+    ${bodyHtml}
+  `;
+}
+
+// ── Clean RTF Document Generator ─────────────────────────────────────
+function buildRtfDocument({ title, docTypeTitle, summary, bodyHtml, passages, lang }) {
+  const isEn = lang === 'en';
+  const passageLabels = {
+    parasha: isEn ? 'Torah' : 'Tora',
+    haftara: isEn ? 'Haftarah' : 'Haftara',
+    gospel: isEn ? 'Gospel' : 'Evangelie',
+  };
+
+  const passagesText = (passages || [])
+    .map(p => {
+      const ref = p.ref ? (isEn ? p.ref.en : p.ref.nl) : '';
+      const label = passageLabels[p.role] || p.role;
+      return ref ? `${label}: ${ref}` : '';
+    })
+    .filter(Boolean)
+    .join(' | ');
+
+  function decodeEntities(str) {
+    if (!str) return '';
+    return str
+      .replace(/&nbsp;/g, ' ')
+      .replace(/&rsquo;/g, "'")
+      .replace(/&lsquo;/g, "'")
+      .replace(/&rdquo;/g, '"')
+      .replace(/&ldquo;/g, '"')
+      .replace(/&ndash;/g, '-')
+      .replace(/&mdash;/g, '--')
+      .replace(/&amp;/g, '&')
+      .replace(/&lt;/g, '<')
+      .replace(/&gt;/g, '>');
+  }
+
+  function escapeRtfUnicode(str) {
+    if (!str) return '';
+    return str.replace(/[\u0080-\uffff]/g, (ch) => {
+      const code = ch.charCodeAt(0);
+      return `\\u${code > 32767 ? code - 65536 : code}?`;
+    });
+  }
+
+  let body = bodyHtml
+    .replace(/<h1[^>]*>(.*?)<\/h1>/gi, '\n\\par\\b\\fs32 $1\\b0\\fs24\\par\n')
+    .replace(/<h2[^>]*>(.*?)<\/h2>/gi, '\n\\par\\b\\fs28 $1\\b0\\fs24\\par\n')
+    .replace(/<h3[^>]*>(.*?)<\/h3>/gi, '\n\\par\\b\\fs24 $1\\b0\\fs24\\par\n')
+    .replace(/<p[^>]*>(.*?)<\/p>/gi, '\n\\par $1\\par\n')
+    .replace(/<blockquote[^>]*>(.*?)<\/blockquote>/gi, '\n\\par\\li360\\i $1\\i0\\li0\\par\n')
+    .replace(/<strong[^>]*>(.*?)<\/strong>/gi, '\\b $1\\b0 ')
+    .replace(/<em[^>]*>(.*?)<\/em>/gi, '\\i $1\\i0 ')
+    .replace(/<br\s*\/?>/gi, '\\line ')
+    .replace(/<[^>]+>/g, '');
+
+  body = decodeEntities(body);
+  body = escapeRtfUnicode(body);
+
+  let header = `{\\rtf1\\ansi\\ansicpg1252\\deff0{\\fonttbl{\\f0\\froman\\fcharset0 Georgia;}{\\f1\\fswiss\\fcharset0 Arial;}}\n\\viewkind4\\uc1 `;
+  header += `\\f1\\fs20\\b ${docTypeTitle.toUpperCase()}\\b0\\par\n`;
+  header += `\\f1\\fs32\\b ${escapeRtfUnicode(title)}\\b0\\fs24\\par\n`;
+  if (passagesText) {
+    header += `\\f1\\fs20 ${escapeRtfUnicode(passagesText)}\\par\n`;
+  }
+  if (summary) {
+    header += `\\f0\\fs22\\i ${escapeRtfUnicode(summary)}\\i0\\par\n`;
+  }
+  header += `\\par\\f0\\fs24 `;
+
+  const footer = `\n\\par\\par\\f1\\fs18 zelfdeparasjalezen.netlify.app -- Arie Alberts\\par\n}`;
+  return header + body + footer;
+}
+
 // ── Generate PDF via Puppeteer ────────────────────────────────────────
 async function generatePdf(browser, htmlContent, outputPath) {
   const page = await browser.newPage();
@@ -203,10 +298,10 @@ async function generatePdf(browser, htmlContent, outputPath) {
   await page.close();
 }
 
-// ── Generate DOCX via html-to-docx ───────────────────────────────────
-async function generateDocx(htmlContent, outputPath) {
+// ── Generate DOCX via html-to-docx (using clean HTML snippet) ──────
+async function generateDocx(cleanHtml, outputPath) {
   const HTMLtoDOCX = (await import('html-to-docx')).default;
-  const buffer = await HTMLtoDOCX(htmlContent, null, {
+  const buffer = await HTMLtoDOCX(cleanHtml, null, {
     table: { row: { cantSplit: true } },
     footer: true,
     pageNumber: true,
@@ -215,6 +310,11 @@ async function generateDocx(htmlContent, outputPath) {
     margins: { top: 1440, bottom: 1440, left: 1296, right: 1296 }, // twips; 1440 = 1 inch
   });
   fs.writeFileSync(outputPath, Buffer.from(buffer));
+}
+
+// ── Generate RTF ─────────────────────────────────────────────────────
+function generateRtf(rtfString, outputPath) {
+  fs.writeFileSync(outputPath, rtfString, 'utf-8');
 }
 
 // ── Main build function ──────────────────────────────────────────────
@@ -275,10 +375,11 @@ async function buildDocs() {
         const passages = parsed.passages || [];
 
         const htmlDoc = buildHtmlDocument({ title, docTypeTitle, summary, bodyHtml, passages, lang });
+        const cleanDocxHtml = buildCleanDocxHtml({ title, docTypeTitle, summary, bodyHtml, passages, lang });
+        const rtfDoc = buildRtfDocument({ title, docTypeTitle, summary, bodyHtml, passages, lang });
 
         const outDir = path.join(rootDir, 'public', 'downloads', docType.dir);
 
-        // Initialize tracking set for this directory
         if (!validFiles.has(docType.dir)) validFiles.set(docType.dir, new Set());
 
         // ── PDF ──
@@ -299,12 +400,24 @@ async function buildDocs() {
         const docxFilename = getDocFilename(id, lang, docType, 'docx');
         const docxPath = path.join(outDir, docxFilename);
         try {
-          await generateDocx(htmlDoc, docxPath);
+          await generateDocx(cleanDocxHtml, docxPath);
           validFiles.get(docType.dir).add(docxFilename);
           generatedCount++;
           console.log(`  ✓ ${docType.dir}/${docxFilename}`);
         } catch (err) {
           console.error(`  ✗ DOCX error for ${docxFilename}:`, err.message);
+        }
+
+        // ── RTF ──
+        const rtfFilename = getDocFilename(id, lang, docType, 'rtf');
+        const rtfPath = path.join(outDir, rtfFilename);
+        try {
+          generateRtf(rtfDoc, rtfPath);
+          validFiles.get(docType.dir).add(rtfFilename);
+          generatedCount++;
+          console.log(`  ✓ ${docType.dir}/${rtfFilename}`);
+        } catch (err) {
+          console.error(`  ✗ RTF error for ${rtfFilename}:`, err.message);
         }
       }
     }
@@ -314,7 +427,7 @@ async function buildDocs() {
   for (const docType of DOC_TYPES) {
     const dir = path.join(rootDir, 'public', 'downloads', docType.dir);
     if (!fs.existsSync(dir)) continue;
-    const existing = fs.readdirSync(dir).filter(f => f.endsWith('.pdf') || f.endsWith('.docx'));
+    const existing = fs.readdirSync(dir).filter(f => f.endsWith('.pdf') || f.endsWith('.docx') || f.endsWith('.rtf'));
     const valid = validFiles.get(docType.dir) || new Set();
     for (const file of existing) {
       if (!valid.has(file)) {

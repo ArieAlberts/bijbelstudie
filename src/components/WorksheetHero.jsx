@@ -321,10 +321,13 @@ export default function WorksheetHero({ lang, onStudyChange, autoExpandReading }
 
   const pdfUrl = getDownloadUrl(`/downloads/lezingen/${curId}-${docLabel('lezing', curLang)}-${curLang}.pdf`);
   const docxUrl = getDownloadUrl(`/downloads/lezingen/${curId}-${docLabel('lezing', curLang)}-${curLang}.docx`);
+  const rtfUrl = getDownloadUrl(`/downloads/lezingen/${curId}-${docLabel('lezing', curLang)}-${curLang}.rtf`);
   const studyPdfUrl = getDownloadUrl(`/downloads/studiebladen/${curId}-${docLabel('studieblad', curLang)}-${curLang}.pdf`);
   const studyDocxUrl = getDownloadUrl(`/downloads/studiebladen/${curId}-${docLabel('studieblad', curLang)}-${curLang}.docx`);
+  const studyRtfUrl = getDownloadUrl(`/downloads/studiebladen/${curId}-${docLabel('studieblad', curLang)}-${curLang}.rtf`);
   const worksheetPdfUrl = getDownloadUrl(`/downloads/werkbladen/${curId}-${docLabel('werkblad', curLang)}-${curLang}.pdf`);
   const worksheetDocxUrl = getDownloadUrl(`/downloads/werkbladen/${curId}-${docLabel('werkblad', curLang)}-${curLang}.docx`);
+  const worksheetRtfUrl = getDownloadUrl(`/downloads/werkbladen/${curId}-${docLabel('werkblad', curLang)}-${curLang}.rtf`);
   const epubUrlRaw = `/downloads/epub/${selectedStudyId}-${curLang}.epub`;
   const epubUrl = hasBody ? getDownloadUrl(epubUrlRaw) : null;
 
@@ -448,37 +451,58 @@ export default function WorksheetHero({ lang, onStudyChange, autoExpandReading }
             )}
 
             {docxUrl && (
-              <a href={docxUrl} download className="passage-action-badge" title="DOCX">
+              <a href={docxUrl} download className="passage-action-badge" title="DOCX (Microsoft Word)">
                 <FileCode size={15} />
                 <span>DOCX</span>
+              </a>
+            )}
+
+            {rtfUrl && (
+              <a href={rtfUrl} download className="passage-action-badge" title={isEn ? "RTF (Rich Text Format)" : "RTF (Rich Text)"}>
+                <FileText size={15} />
+                <span>RTF</span>
               </a>
             )}
 
             {studyPdfUrl && (
               <a href={studyPdfUrl} download className="passage-action-badge" title={isEn ? "Download Study Sheet PDF" : "Download Studieblad PDF"}>
                 <FileText size={15} />
-                <span>{isEn ? 'Study Sheet' : 'Studieblad'}</span>
+                <span>{isEn ? 'Study Sheet (PDF)' : 'Studieblad (PDF)'}</span>
               </a>
             )}
 
             {studyDocxUrl && (
               <a href={studyDocxUrl} download className="passage-action-badge" title={isEn ? "Download Study Sheet DOCX" : "Download Studieblad DOCX"}>
                 <FileCode size={15} />
-                <span>{isEn ? 'Study Sheet DOCX' : 'Studieblad DOCX'}</span>
+                <span>{isEn ? 'Study Sheet (DOCX)' : 'Studieblad (DOCX)'}</span>
+              </a>
+            )}
+
+            {studyRtfUrl && (
+              <a href={studyRtfUrl} download className="passage-action-badge" title={isEn ? "Download Study Sheet RTF" : "Download Studieblad RTF"}>
+                <FileText size={15} />
+                <span>{isEn ? 'Study Sheet (RTF)' : 'Studieblad (RTF)'}</span>
               </a>
             )}
 
             {worksheetPdfUrl && (
               <a href={worksheetPdfUrl} download className="passage-action-badge" title={isEn ? "Download Worksheet PDF" : "Download Werkblad PDF"}>
                 <FileText size={15} />
-                <span>{isEn ? 'Worksheet' : 'Werkblad'}</span>
+                <span>{isEn ? 'Worksheet (PDF)' : 'Werkblad (PDF)'}</span>
               </a>
             )}
 
             {worksheetDocxUrl && (
               <a href={worksheetDocxUrl} download className="passage-action-badge" title={isEn ? "Download Worksheet DOCX" : "Download Werkblad DOCX"}>
                 <FileCode size={15} />
-                <span>{isEn ? 'Worksheet DOCX' : 'Werkblad DOCX'}</span>
+                <span>{isEn ? 'Worksheet (DOCX)' : 'Werkblad (DOCX)'}</span>
+              </a>
+            )}
+
+            {worksheetRtfUrl && (
+              <a href={worksheetRtfUrl} download className="passage-action-badge" title={isEn ? "Download Worksheet RTF" : "Download Werkblad RTF"}>
+                <FileText size={15} />
+                <span>{isEn ? 'Worksheet (RTF)' : 'Werkblad (RTF)'}</span>
               </a>
             )}
 
