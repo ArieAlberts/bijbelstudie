@@ -104,20 +104,21 @@ function HeaderApp() {
 
   const handleViewChange = (view) => {
     setCurrentView(view);
+    window.dispatchEvent(new CustomEvent('view-changed', { detail: { view } }));
 
-    if (view === 'intro') {
+    if (view === 'intro' || view === 'wat-is-de-parasja') {
       applyView('intro', true);
-      window.history.pushState(null, '', lang === 'nl' ? '#wat-is-de-parasja' : '#wat-is-de-parasja');
+      window.location.hash = '#wat-is-de-parasja';
     } else if (view === 'waarom-deze-website') {
       applyView('waarom-deze-website', true);
-      window.history.pushState(null, '', lang === 'nl' ? '#waarom-deze-website' : '#waarom-deze-website');
+      window.location.hash = '#waarom-deze-website';
     } else if (view === 'worksheet') {
       setAutoExpandReading(true);
       applyView('worksheet', true);
-      window.history.pushState(null, '', lang === 'nl' ? '#werkblad' : '#worksheet');
+      window.location.hash = lang === 'nl' ? '#werkblad' : '#worksheet';
     } else if (view === 'method') {
       applyView('method', true);
-      window.history.pushState(null, '', lang === 'nl' ? '#methode' : '#method');
+      window.location.hash = lang === 'nl' ? '#methode' : '#method';
     } else if (view === 'handbook') {
       window.location.href = lang === 'nl' ? '../nl/handleiding.html' : '../en/handbook.html';
     } else if (view === 'contact') {
@@ -168,16 +169,31 @@ if (navContainer) {
 // Mount Parasha Intro Landing
 function IntroWrapper() {
   const isEnglish = document.documentElement.lang === 'en';
-  const [introMode, setIntroMode] = useState(
+  const getModeFromHash = () => (
     window.location.hash === '#waarom-deze-website' ? 'waarom-deze-website' : 'wat-is-de-parasja'
   );
 
+  const [introMode, setIntroMode] = useState(getModeFromHash());
+
   useEffect(() => {
-    const handleHashChange = () => {
-      setIntroMode(window.location.hash === '#waarom-deze-website' ? 'waarom-deze-website' : 'wat-is-de-parasja');
+    const handleHashOrViewChange = (e) => {
+      if (e?.detail?.view) {
+        if (e.detail.view === 'waarom-deze-website') {
+          setIntroMode('waarom-deze-website');
+        } else if (e.detail.view === 'intro' || e.detail.view === 'wat-is-de-parasja') {
+          setIntroMode('wat-is-de-parasja');
+        }
+      } else {
+        setIntroMode(getModeFromHash());
+      }
     };
-    window.addEventListener('hashchange', handleHashChange);
-    return () => window.removeEventListener('hashchange', handleHashChange);
+
+    window.addEventListener('hashchange', handleHashOrViewChange);
+    window.addEventListener('view-changed', handleHashOrViewChange);
+    return () => {
+      window.removeEventListener('hashchange', handleHashOrViewChange);
+      window.removeEventListener('view-changed', handleHashOrViewChange);
+    };
   }, []);
 
   return (
@@ -191,6 +207,7 @@ function IntroWrapper() {
     />
   );
 }
+
 
 
 const introContainer = document.getElementById('react-intro-root');
