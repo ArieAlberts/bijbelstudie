@@ -156,12 +156,14 @@ function HeroWrapper() {
   return (
     <WorksheetHero
       lang={isEnglish ? 'en' : 'nl'}
+      autoExpandReading={true}
       onStudyChange={(id) => {
         window.dispatchEvent(new CustomEvent('study-changed', { detail: { studyId: id } }));
       }}
     />
   );
 }
+
 
 const heroContainer = document.getElementById('react-worksheet-hero-root');
 if (heroContainer) {

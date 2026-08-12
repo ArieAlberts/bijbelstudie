@@ -39,14 +39,13 @@ export default function WorksheetHero({ lang, onStudyChange, autoExpandReading }
   const isEn = lang === 'en';
   const fileInputRef = useRef(null);
 
-  const [isReadingExpanded, setIsReadingExpanded] = useState(false);
+  const [isReadingExpanded, setIsReadingExpanded] = useState(true);
   const [showUploadInfo, setShowUploadInfo] = useState(false);
 
   useEffect(() => {
-    if (autoExpandReading) {
-      setIsReadingExpanded(true);
-    }
+    setIsReadingExpanded(true);
   }, [autoExpandReading]);
+
 
 
   const [studies, setStudies] = useState([
