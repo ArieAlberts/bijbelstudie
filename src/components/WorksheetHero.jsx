@@ -362,87 +362,86 @@ export default function WorksheetHero({ lang, onStudyChange, autoExpandReading }
       </div>
 
 
-      {/* Standalone Published Reading & Commentary Card (Same clean layout as Wat is de parasja) */}
+      {/* Standalone Published Reading & Commentary Card (100% same layout as Wat is de parasja) */}
       <div className="intro-section-card parasha-editorial-card" style={{ marginTop: '24px' }}>
-        <div className={`editorial-header-bar ${isReadingExpanded ? 'expanded' : ''}`}>
-          <button
-            type="button"
-            className="editorial-toggle-btn"
-            onClick={() => setIsReadingExpanded(!isReadingExpanded)}
-            aria-expanded={isReadingExpanded}
-          >
-            <div className="toggle-btn-left">
-              <BookOpen size={20} className="toggle-btn-icon" style={{ color: 'var(--accent)' }} />
-              <span className="editorial-body-title" style={{ margin: 0, fontSize: '22px', fontWeight: 700 }}>
-                {isEn ? 'Published Reading & Commentary' : 'Gepubliceerde Lezing & Toelichting'}
-              </span>
-            </div>
-            <div className="toggle-btn-right">
-              <span className="toggle-label-text">
-                {isReadingExpanded
-                  ? (isEn ? 'Collapse ▲' : 'Inklappen ▲')
-                  : (isEn ? 'Read commentary ▶' : 'Lees de gepubliceerde lezing ▶')}
-              </span>
-              {isReadingExpanded ? <ChevronUp size={18} /> : <ChevronDown size={18} />}
-            </div>
-          </button>
+        <div className="editorial-card-header" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '16px', paddingBottom: '16px', borderBottom: '1px solid var(--line)' }}>
+          <div className="section-header" style={{ margin: 0 }}>
+            <BookOpen className="section-header-icon" size={26} />
+            <h2>{isEn ? 'Published Reading & Commentary' : 'Gepubliceerde Lezing & Toelichting'}</h2>
+          </div>
 
-          {/* Action Badges attached directly to Gepubliceerde Lezing */}
-          <div className="editorial-download-actions" onClick={(e) => e.stopPropagation()}>
-            {pdfUrl ? (
-              <a
-                href={pdfUrl}
-                download
+          <div style={{ display: 'flex', alignItems: 'center', gap: '12px', flexWrap: 'wrap' }}>
+            {/* Download Action Badges */}
+            <div className="editorial-download-actions" style={{ display: 'flex', gap: '8px', flexWrap: 'wrap' }}>
+              {pdfUrl ? (
+                <a
+                  href={pdfUrl}
+                  download
+                  className="passage-action-badge"
+                  title={isEn ? "Download PDF reading" : "Download PDF-lezing"}
+                >
+                  <FileText size={15} />
+                  <span>PDF</span>
+                </a>
+              ) : (
+                <button
+                  type="button"
+                  onClick={handlePrintPDF}
+                  className="passage-action-badge"
+                  title={isEn ? "Print / Save PDF" : "Afdrukken / Opslaan als PDF"}
+                >
+                  <FileText size={15} />
+                  <span>PDF</span>
+                </button>
+              )}
+
+              {docxUrl && (
+                <a
+                  href={docxUrl}
+                  download
+                  className="passage-action-badge"
+                  title={isEn ? "Download Word (DOCX) reading" : "Download Word (DOCX)-lezing"}
+                >
+                  <FileCode size={15} />
+                  <span>DOCX</span>
+                </a>
+              )}
+
+              <button
+                type="button"
+                onClick={handleExportEPUB}
                 className="passage-action-badge"
-                title={isEn ? "Download PDF reading" : "Download PDF-lezing"}
-                onClick={(e) => e.stopPropagation()}
+                title={isEn ? "Download EPUB e-book" : "Download EPUB e-book"}
               >
-                <FileText size={15} />
-                <span>PDF</span>
-              </a>
-            ) : (
+                <BookOpen size={15} />
+                <span>EPUB</span>
+              </button>
+
               <button
                 type="button"
                 onClick={handlePrintPDF}
                 className="passage-action-badge"
-                title={isEn ? "Print / Save PDF" : "Afdrukken / Opslaan als PDF"}
+                title={isEn ? "Print reading" : "Afdrukken"}
               >
-                <FileText size={15} />
-                <span>PDF</span>
+                <Printer size={15} />
+                <span>{isEn ? 'Print' : 'Druk af'}</span>
               </button>
-            )}
+            </div>
 
-            {docxUrl && (
-              <a
-                href={docxUrl}
-                download
-                className="passage-action-badge"
-                title={isEn ? "Download Word (DOCX) reading" : "Download Word (DOCX)-lezing"}
-                onClick={(e) => e.stopPropagation()}
-              >
-                <FileCode size={15} />
-                <span>DOCX</span>
-              </a>
-            )}
-
+            {/* Collapse / Expand Toggle Button */}
             <button
               type="button"
-              onClick={handleExportEPUB}
-              className="passage-action-badge"
-              title={isEn ? "Download EPUB e-book" : "Download EPUB e-book"}
+              className="btn-secondary"
+              onClick={() => setIsReadingExpanded(!isReadingExpanded)}
+              aria-expanded={isReadingExpanded}
+              style={{ display: 'inline-flex', alignItems: 'center', gap: '6px', padding: '8px 14px', fontSize: '14px', fontWeight: 600 }}
             >
-              <BookOpen size={15} />
-              <span>EPUB</span>
-            </button>
-
-            <button
-              type="button"
-              onClick={handlePrintPDF}
-              className="passage-action-badge"
-              title={isEn ? "Print reading" : "Afdrukken"}
-            >
-              <Printer size={15} />
-              <span>{isEn ? 'Print' : 'Druk af'}</span>
+              <span>
+                {isReadingExpanded
+                  ? (isEn ? 'Inklappen ▲' : 'Inklappen ▲')
+                  : (isEn ? 'Lees lezing ▶' : 'Lees lezing ▶')}
+              </span>
+              {isReadingExpanded ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
             </button>
           </div>
         </div>
@@ -450,11 +449,12 @@ export default function WorksheetHero({ lang, onStudyChange, autoExpandReading }
         {isReadingExpanded && (
           <div
             className="section-content-text editorial-body-content"
-            style={{ marginTop: '20px' }}
+            style={{ marginTop: '24px' }}
             dangerouslySetInnerHTML={{ __html: formattedHtml }}
           />
         )}
       </div>
+
 
 
       {/* Action Buttons: Upload, Export JSON, Reset */}
