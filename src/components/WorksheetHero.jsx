@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Download, Upload, RotateCcw, BookOpen, Printer, FileText, FileCode, ChevronDown, ChevronUp } from 'lucide-react';
+import { Download, Upload, RotateCcw, BookOpen, Printer, FileText, FileCode, ChevronDown, ChevronUp, HelpCircle, X } from 'lucide-react';
 import { fetchPassagesIndex } from '../api/bible';
 import { exportStudyToEpub } from '../utils/epub-generator';
 
@@ -40,6 +40,7 @@ export default function WorksheetHero({ lang, onStudyChange }) {
   const fileInputRef = useRef(null);
 
   const [isReadingExpanded, setIsReadingExpanded] = useState(false);
+  const [showUploadInfo, setShowUploadInfo] = useState(false);
 
   const [studies, setStudies] = useState([
     {
@@ -448,11 +449,83 @@ export default function WorksheetHero({ lang, onStudyChange }) {
       </div>
 
       {/* Action Buttons: Upload, Export JSON, Reset */}
-      <div className="hero-action-buttons">
-        <button type="button" className="btn-secondary" onClick={handleTriggerUpload} title={isEn ? "Upload .md or .json study file" : "Upload .md of .json studiebestand"}>
-          <Upload className="btn-icon" size={16} />
-          <span>{isEn ? 'Upload File (.md/.json)' : 'Upload bestand (.md/.json)'}</span>
-        </button>
+      <div className="hero-action-buttons" style={{ position: 'relative' }}>
+        <div style={{ display: 'inline-flex', alignItems: 'center', gap: '4px' }}>
+          <button type="button" className="btn-secondary" onClick={handleTriggerUpload} title={isEn ? "Upload .md or .json study file" : "Upload .md of .json studiebestand"}>
+            <Upload className="btn-icon" size={16} />
+            <span>{isEn ? 'Upload File (.md/.json)' : 'Upload bestand (.md/.json)'}</span>
+          </button>
+          
+          {/* Info Help Icon for Upload Explanation */}
+          <button
+            type="button"
+            className="upload-info-btn"
+            onClick={() => setShowUploadInfo(!showUploadInfo)}
+            title={isEn ? "Where is this button for?" : "Waar is deze knop voor?"}
+            style={{
+              border: 0,
+              background: 'transparent',
+              cursor: 'pointer',
+              color: 'var(--accent, #954c28)',
+              padding: '6px',
+              borderRadius: '50%',
+              display: 'inline-flex',
+              alignItems: 'center',
+              justifyContent: 'center'
+            }}
+          >
+            <HelpCircle size={18} />
+          </button>
+        </div>
+
+        {/* Speech Balloon Popover Explanation */}
+        {showUploadInfo && (
+          <div className="upload-info-balloon" style={{
+            position: 'absolute',
+            bottom: '100%',
+            left: '0',
+            marginBottom: '10px',
+            width: 'min(380px, 90vw)',
+            background: 'var(--white, #fffdfa)',
+            border: '1px solid var(--line, #dbcec4)',
+            borderLeft: '4px solid var(--accent, #954c28)',
+            borderRadius: '8px',
+            padding: '16px 18px',
+            boxShadow: '0 12px 36px rgba(0, 0, 0, 0.18)',
+            zIndex: 100,
+            fontSize: '13.5px',
+            lineHeight: '1.5'
+          }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '8px' }}>
+              <div style={{ fontWeight: 700, color: 'var(--accent-dark, #6c2c0e)', fontSize: '14.5px' }}>
+                💡 {isEn ? 'What is this button for?' : 'Waar is deze knop voor?'}
+              </div>
+              <button
+                type="button"
+                onClick={() => setShowUploadInfo(false)}
+                style={{ border: 0, background: 'transparent', cursor: 'pointer', color: 'var(--muted, #615248)' }}
+              >
+                <X size={16} />
+              </button>
+            </div>
+            <p style={{ margin: 0, color: 'var(--ink, #261d16)' }}>
+              {isEn
+                ? 'Use this button to load a local study file (.md or .json) directly in your browser. This stays 100% private on your own device and is NEVER stored on the server or shared publicly.'
+                : 'Met deze knop kun je een lokaal studiebestand (.md of .json) inladen op je eigen computer of telefoon. Dit gebeurt 100% lokaal in je eigen browser — het wordt NIET openbaar gemaakt en NIET op onze server opgeslagen.'}
+            </p>
+            <div style={{
+              position: 'absolute',
+              bottom: '-7px',
+              left: '24px',
+              width: '12px',
+              height: '12px',
+              background: 'var(--white, #fffdfa)',
+              borderRight: '1px solid var(--line, #dbcec4)',
+              borderBottom: '1px solid var(--line, #dbcec4)',
+              transform: 'rotate(45deg)'
+            }} />
+          </div>
+        )}
 
         <button type="button" className="btn-secondary" onClick={handleExportJSON}>
           <Download className="btn-icon" size={16} />
