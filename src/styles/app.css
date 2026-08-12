@@ -718,14 +718,16 @@ button, input, select, textarea {
 
 /* Hero Section */
 .hero-card {
+  width: 100%;
   max-width: 100%;
-  margin: 0 0 28px;
-  padding: 36px 28px;
-  background: var(--white);
-  border: 1px solid var(--line);
-  border-radius: 6px;
-  box-shadow: 0 12px 40px var(--shadow);
+  margin: 0 0 24px;
+  padding: 0;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
 }
+
 
 .hero-eyebrow {
   font-size: 13px;

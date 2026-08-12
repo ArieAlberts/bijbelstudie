@@ -288,78 +288,81 @@ export default function WorksheetHero({ lang, onStudyChange, autoExpandReading }
 
   return (
     <div className="hero-card">
-      <div className="hero-eyebrow">{isEn ? 'The weekly parashah' : 'De wekelijkse parasja'}</div>
-      <h1 className="hero-title">{isEn ? 'Read and explore the parashah' : 'Lees en onderzoek de parasja'}</h1>
-      <p className="hero-subtitle">
-        {isEn
-          ? 'Choose the parashah and take time to read the text for yourself. The questions help you stay attentive to the text. The method and handbook are available when you need further explanation.'
-          : 'Kies de parasja en neem de tijd om de tekst zelf te lezen. De vragen helpen je aandachtig bij de tekst te blijven. De methode en handleiding zijn beschikbaar wanneer je extra uitleg nodig hebt.'}
-      </p>
+      <div className="intro-section-card hero-header-card">
+        <div className="hero-eyebrow">{isEn ? 'The weekly parashah' : 'De wekelijkse parasja'}</div>
+        <h1 className="hero-title">{isEn ? 'Read and explore the parashah' : 'Lees en onderzoek de parasja'}</h1>
+        <p className="hero-subtitle">
+          {isEn
+            ? 'Choose the parashah and take time to read the text for yourself. The questions help you stay attentive to the text. The method and handbook are available when you need further explanation.'
+            : 'Kies de parasja en neem de tijd om de tekst zelf te lezen. De vragen helpen je aandachtig bij de tekst te blijven. De methode en handleiding zijn beschikbaar wanneer je extra uitleg nodig hebt.'}
+        </p>
 
-      {/* Hidden File Input for Single File Upload (.md / .json) */}
-      <input
-        type="file"
-        ref={fileInputRef}
-        onChange={handleFileUpload}
-        accept=".md,.json"
-        style={{ display: 'none' }}
-      />
+        {/* Hidden File Input for Single File Upload (.md / .json) */}
+        <input
+          type="file"
+          ref={fileInputRef}
+          onChange={handleFileUpload}
+          accept=".md,.json"
+          style={{ display: 'none' }}
+        />
 
-      {/* Parasja Selector Dropdown with Torah Reference */}
-      <div className="parasja-selector-container">
-        <label className="parasja-selector-label">
-          {isEn ? 'Select a parashah:' : 'Selecteer een parasja:'}
-        </label>
-        <select
-          value={selectedStudyId}
-          onChange={(e) => handleStudySelect(e.target.value)}
-          className="parasja-selector-select"
-        >
-          {studies.map((s) => {
-            const name = isEn
-              ? (s.label?.en || s.parasha || 'Translation not available')
-              : (s.label?.nl || s.parasha || 'Vertaling niet beschikbaar');
-            const torahRef = getPassageRef(s, 'parasha');
-            const labelText = torahRef ? `${name} (${torahRef})` : name;
-            return (
-              <option key={s.id} value={s.id}>
-                {labelText}
-              </option>
-            );
-          })}
-        </select>
-      </div>
+        {/* Parasja Selector Dropdown with Torah Reference */}
+        <div className="parasja-selector-container">
+          <label className="parasja-selector-label">
+            {isEn ? 'Select a parashah:' : 'Selecteer een parasja:'}
+          </label>
+          <select
+            value={selectedStudyId}
+            onChange={(e) => handleStudySelect(e.target.value)}
+            className="parasja-selector-select"
+          >
+            {studies.map((s) => {
+              const name = isEn
+                ? (s.label?.en || s.parasha || 'Translation not available')
+                : (s.label?.nl || s.parasha || 'Vertaling niet beschikbaar');
+              const torahRef = getPassageRef(s, 'parasha');
+              const labelText = torahRef ? `${name} (${torahRef})` : name;
+              return (
+                <option key={s.id} value={s.id}>
+                  {labelText}
+                </option>
+              );
+            })}
+          </select>
+        </div>
 
-      {/* Prominent Bible Passage References Card */}
-      <div className="passages-summary-box">
-        <div className="passages-summary-header" style={{ marginBottom: '12px' }}>
-          <div className="passages-summary-title" style={{ margin: 0 }}>
-            <BookOpen size={18} className="btn-icon" />
-            <span>{isEn ? 'Bible passages for this reading:' : 'Bijbelgedeelten bij deze lezing:'}</span>
+        {/* Prominent Bible Passage References Card */}
+        <div className="passages-summary-box" style={{ marginTop: '20px', marginBottom: 0 }}>
+          <div className="passages-summary-header" style={{ marginBottom: '12px' }}>
+            <div className="passages-summary-title" style={{ margin: 0 }}>
+              <BookOpen size={18} className="btn-icon" />
+              <span>{isEn ? 'Bible passages for this reading:' : 'Bijbelgedeelten bij deze lezing:'}</span>
+            </div>
+          </div>
+
+          <div className="passages-summary-grid">
+            {currentStudy?.passages?.some(p => p.role === 'parasha') && (
+              <div className="passage-item">
+                <span className="passage-role">{isEn ? 'Torah / Parashah:' : 'Torah / Parasja:'}</span>
+                <span className="passage-ref-text">{getPassageRef(currentStudy, 'parasha')}</span>
+              </div>
+            )}
+            {currentStudy?.passages?.some(p => p.role === 'haftara') && (
+              <div className="passage-item">
+                <span className="passage-role">Haftara:</span>
+                <span className="passage-ref-text">{getPassageRef(currentStudy, 'haftara')}</span>
+              </div>
+            )}
+            {currentStudy?.passages?.some(p => p.role === 'gospel') && (
+              <div className="passage-item">
+                <span className="passage-role">{isEn ? 'Gospel:' : 'Evangelie:'}</span>
+                <span className="passage-ref-text">{getPassageRef(currentStudy, 'gospel')}</span>
+              </div>
+            )}
           </div>
         </div>
-
-        <div className="passages-summary-grid">
-          {currentStudy?.passages?.some(p => p.role === 'parasha') && (
-            <div className="passage-item">
-              <span className="passage-role">{isEn ? 'Torah / Parashah:' : 'Torah / Parasja:'}</span>
-              <span className="passage-ref-text">{getPassageRef(currentStudy, 'parasha')}</span>
-            </div>
-          )}
-          {currentStudy?.passages?.some(p => p.role === 'haftara') && (
-            <div className="passage-item">
-              <span className="passage-role">Haftara:</span>
-              <span className="passage-ref-text">{getPassageRef(currentStudy, 'haftara')}</span>
-            </div>
-          )}
-          {currentStudy?.passages?.some(p => p.role === 'gospel') && (
-            <div className="passage-item">
-              <span className="passage-role">{isEn ? 'Gospel:' : 'Evangelie:'}</span>
-              <span className="passage-ref-text">{getPassageRef(currentStudy, 'gospel')}</span>
-            </div>
-          )}
-        </div>
       </div>
+
 
 
       {/* Standalone Published Reading & Commentary Card (100% same layout as Wat is de parasja) */}
