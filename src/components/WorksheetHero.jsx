@@ -36,8 +36,9 @@ function formatBodyHtml(rawText) {
 }
 
 export default function WorksheetHero({ lang, onStudyChange, autoExpandReading }) {
-  const isEn = lang === 'en';
+  const isEn = lang === 'en' || (typeof document !== 'undefined' && document.documentElement.lang === 'en') || (typeof window !== 'undefined' && (window.location.pathname.includes('/en/') || window.location.href.includes('/en/')));
   const fileInputRef = useRef(null);
+
 
   const [isReadingExpanded, setIsReadingExpanded] = useState(true);
   const [showUploadInfo, setShowUploadInfo] = useState(false);

@@ -217,7 +217,7 @@ if (introContainer) {
 
 // Mount Worksheet Hero (Top)
 function HeroWrapper() {
-  const isEnglish = document.documentElement.lang === 'en';
+  const isEnglish = document.documentElement.lang === 'en' || window.location.pathname.includes('/en/');
   return (
     <WorksheetHero
       lang={isEnglish ? 'en' : 'nl'}
@@ -228,6 +228,7 @@ function HeroWrapper() {
     />
   );
 }
+
 
 const heroContainer = document.getElementById('react-worksheet-hero-root');
 if (heroContainer) {
