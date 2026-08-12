@@ -186,34 +186,6 @@ function buildHtmlDocument({ title, docTypeTitle, summary, bodyHtml, passages, l
 </html>`;
 }
 
-// ── Clean HTML snippet for DOCX (NO <head> or <style> tags) ───────────
-function buildCleanDocxHtml({ title, docTypeTitle, summary, bodyHtml, passages, lang }) {
-  const isEn = lang === 'en';
-  const passageLabels = {
-    parasha: isEn ? 'Torah' : 'Tora',
-    haftara: isEn ? 'Haftarah' : 'Haftara',
-    gospel: isEn ? 'Gospel' : 'Evangelie',
-  };
-
-  const passagesText = (passages || [])
-    .map(p => {
-      const ref = p.ref ? (isEn ? p.ref.en : p.ref.nl) : '';
-      const label = passageLabels[p.role] || p.role;
-      return ref ? `<strong>${label}:</strong> ${ref}` : '';
-    })
-    .filter(Boolean)
-    .join(' &nbsp;·&nbsp; ');
-
-  return `
-    <p><font color="#8b6914"><strong>${docTypeTitle.toUpperCase()}</strong></font></p>
-    <h1>${title}</h1>
-    ${passagesText ? `<p><font color="#555555">${passagesText}</font></p>` : ''}
-    ${summary ? `<p><em>${summary}</em></p>` : ''}
-    <hr />
-    ${bodyHtml}
-  `;
-}
-
 // ── Clean RTF Document Generator ─────────────────────────────────────
 function buildRtfDocument({ title, docTypeTitle, summary, bodyHtml, passages, lang }) {
   const isEn = lang === 'en';
@@ -298,20 +270,6 @@ async function generatePdf(browser, htmlContent, outputPath) {
   await page.close();
 }
 
-// ── Generate DOCX via html-to-docx (using clean HTML snippet) ──────
-async function generateDocx(cleanHtml, outputPath) {
-  const HTMLtoDOCX = (await import('html-to-docx')).default;
-  const buffer = await HTMLtoDOCX(cleanHtml, null, {
-    table: { row: { cantSplit: true } },
-    footer: true,
-    pageNumber: true,
-    font: 'Georgia',
-    fontSize: 24,    // half-points; 24 = 12pt
-    margins: { top: 1440, bottom: 1440, left: 1296, right: 1296 }, // twips; 1440 = 1 inch
-  });
-  fs.writeFileSync(outputPath, Buffer.from(buffer));
-}
-
 // ── Generate RTF ─────────────────────────────────────────────────────
 function generateRtf(rtfString, outputPath) {
   fs.writeFileSync(outputPath, rtfString, 'utf-8');
@@ -375,7 +333,6 @@ async function buildDocs() {
         const passages = parsed.passages || [];
 
         const htmlDoc = buildHtmlDocument({ title, docTypeTitle, summary, bodyHtml, passages, lang });
-        const cleanDocxHtml = buildCleanDocxHtml({ title, docTypeTitle, summary, bodyHtml, passages, lang });
         const rtfDoc = buildRtfDocument({ title, docTypeTitle, summary, bodyHtml, passages, lang });
 
         const outDir = path.join(rootDir, 'public', 'downloads', docType.dir);
@@ -396,18 +353,6 @@ async function buildDocs() {
           }
         }
 
-        // ── DOCX ──
-        const docxFilename = getDocFilename(id, lang, docType, 'docx');
-        const docxPath = path.join(outDir, docxFilename);
-        try {
-          await generateDocx(cleanDocxHtml, docxPath);
-          validFiles.get(docType.dir).add(docxFilename);
-          generatedCount++;
-          console.log(`  ✓ ${docType.dir}/${docxFilename}`);
-        } catch (err) {
-          console.error(`  ✗ DOCX error for ${docxFilename}:`, err.message);
-        }
-
         // ── RTF ──
         const rtfFilename = getDocFilename(id, lang, docType, 'rtf');
         const rtfPath = path.join(outDir, rtfFilename);
@@ -423,7 +368,7 @@ async function buildDocs() {
     }
   }
 
-  // ── Clean stale files ──────────────────────────────────────────────
+  // ── Clean stale files (including any old docx files) ───────────────
   for (const docType of DOC_TYPES) {
     const dir = path.join(rootDir, 'public', 'downloads', docType.dir);
     if (!fs.existsSync(dir)) continue;
