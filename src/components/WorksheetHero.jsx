@@ -410,29 +410,60 @@ export default function WorksheetHero({ lang, onStudyChange, autoExpandReading }
               <Upload size={15} />
               <span>Upload</span>
             </button>
+
+            {/* Collapse / Expand Toggle Button */}
+            <button
+              type="button"
+              className="btn-secondary"
+              onClick={() => setIsReadingExpanded(!isReadingExpanded)}
+              aria-expanded={isReadingExpanded}
+              style={{ display: 'inline-flex', alignItems: 'center', gap: '6px', padding: '6px 14px', fontSize: '13.5px', fontWeight: 600 }}
+            >
+              <span>
+                {isReadingExpanded
+                  ? (isEn ? 'Inklappen ▲' : 'Inklappen ▲')
+                  : (isEn ? 'Lees lezing ▶' : 'Lees lezing ▶')}
+              </span>
+              {isReadingExpanded ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
+            </button>
           </div>
         </div>
 
-        {/* Reading Section Header */}
-        <div className="section-header" style={{ marginBottom: '24px' }}>
-          <BookOpen className="section-header-icon" size={28} />
-          <h2 style={{ fontSize: '28px', margin: 0 }}>
-            {isEn
-              ? (currentStudy?.label?.en || currentStudy?.parasha || 'Published Reading & Commentary')
-              : (currentStudy?.label?.nl || currentStudy?.parasha || 'Gepubliceerde Lezing & Toelichting')}
-          </h2>
+        {/* Reading Section Header (Clickable to collapse/expand) */}
+        <div
+          className="section-header"
+          style={{ marginBottom: '24px', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'space-between', userSelect: 'none' }}
+          onClick={() => setIsReadingExpanded(!isReadingExpanded)}
+          title={isReadingExpanded ? (isEn ? "Click to collapse" : "Klik om in te klappen") : (isEn ? "Click to expand" : "Klik om te openen")}
+        >
+          <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+            <BookOpen className="section-header-icon" size={28} />
+            <h2 style={{ fontSize: '28px', margin: 0 }}>
+              {isEn
+                ? (currentStudy?.label?.en || currentStudy?.parasha || 'Published Reading & Commentary')
+                : (currentStudy?.label?.nl || currentStudy?.parasha || 'Gepubliceerde Lezing & Toelichting')}
+            </h2>
+          </div>
+
+          <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '14px', fontWeight: 600, color: 'var(--accent-dark)' }}>
+            <span>{isReadingExpanded ? (isEn ? 'Inklappen' : 'Inklappen') : (isEn ? 'Lees lezing' : 'Lees lezing')}</span>
+            {isReadingExpanded ? <ChevronUp size={20} /> : <ChevronDown size={20} />}
+          </div>
         </div>
 
-        {/* Complete Published Reading Commentary Text — 100% Full Screen Width */}
-        <div
-          className="section-content-text editorial-body-content"
-          style={{ width: '100%', maxWidth: '100%' }}
-          dangerouslySetInnerHTML={{ __html: formattedHtml }}
-        />
+        {/* Complete Published Reading Commentary Text — Collapsable */}
+        {isReadingExpanded && (
+          <div
+            className="section-content-text editorial-body-content"
+            style={{ width: '100%', maxWidth: '100%' }}
+            dangerouslySetInnerHTML={{ __html: formattedHtml }}
+          />
+        )}
       </div>
     </div>
   );
 }
+
 
 
 
