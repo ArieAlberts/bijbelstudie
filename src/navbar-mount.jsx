@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom/client';
 import Navbar from './components/Navbar';
+import ParashaIntroLanding from './components/ParashaIntroLanding';
 import WorksheetHero from './components/WorksheetHero';
 import BibleReader from './components/BibleReader';
 import './styles/app.css';
@@ -26,22 +27,37 @@ function HeaderApp() {
   const [autoExpandReading, setAutoExpandReading] = useState(false);
 
   const applyView = (view, scroll = true) => {
-    if (typeof window.setView === 'function') {
-      window.setView(view, scroll);
-    } else {
-      setTimeout(() => {
-        if (typeof window.setView === 'function') {
-          window.setView(view, scroll);
-        }
-      }, 50);
+    const isIntro = view === 'intro' || view === 'wat-is-de-parasja' || view === 'waarom-deze-website';
+    const isWorksheet = view === 'worksheet';
+    const isMethod = view === 'method';
+
+    const introEl = document.getElementById('react-intro-root');
+    const heroEl = document.getElementById('react-worksheet-hero-root');
+    const readerEl = document.getElementById('react-bible-reader-root');
+    const werkbladContainer = document.getElementById('werkblad') || document.getElementById('worksheet');
+
+    if (introEl) introEl.hidden = !isIntro;
+    if (heroEl) heroEl.hidden = !isWorksheet;
+    if (readerEl) readerEl.hidden = !isWorksheet;
+    if (werkbladContainer) werkbladContainer.hidden = !isWorksheet;
+
+    const methodEls = document.querySelectorAll('.method-view');
+    methodEls.forEach(el => el.hidden = !isMethod);
+
+    if (scroll) {
+      if (isIntro) {
+        (document.querySelector('#wat-is-de-parasja') || document.querySelector('#waarom-deze-website') || introEl)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      } else if (isWorksheet) {
+        (heroEl || werkbladContainer)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      } else if (isMethod) {
+        (document.querySelector('#methode') || document.querySelector('#uitleg'))?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
     }
   };
 
   useEffect(() => {
     const initialView = determineViewFromHash();
-    if (initialView === 'worksheet' || initialView === 'method' || initialView === 'intro' || initialView === 'waarom-deze-website') {
-      applyView(initialView, false);
-    }
+    applyView(initialView, false);
 
     const handleHashChange = () => {
       const view = determineViewFromHash();
@@ -109,7 +125,6 @@ function HeaderApp() {
     }
   };
 
-
   const handleLangToggle = (newLang) => {
     setLang(newLang);
     const search = window.location.search;
@@ -150,6 +165,29 @@ if (navContainer) {
   ReactDOM.createRoot(navContainer).render(<HeaderApp />);
 }
 
+// Mount Parasha Intro Landing
+function IntroWrapper() {
+  const isEnglish = document.documentElement.lang === 'en';
+  return (
+    <ParashaIntroLanding
+      lang={isEnglish ? 'en' : 'nl'}
+      onGoToParasha={() => {
+        const werkbladUrl = isEnglish ? '#worksheet' : '#werkblad';
+        window.location.hash = werkbladUrl;
+      }}
+      onGoToMethod={() => {
+        const methodUrl = isEnglish ? '#method' : '#methode';
+        window.location.hash = methodUrl;
+      }}
+    />
+  );
+}
+
+const introContainer = document.getElementById('react-intro-root');
+if (introContainer) {
+  ReactDOM.createRoot(introContainer).render(<IntroWrapper />);
+}
+
 // Mount Worksheet Hero (Top)
 function HeroWrapper() {
   const isEnglish = document.documentElement.lang === 'en';
@@ -163,7 +201,6 @@ function HeroWrapper() {
     />
   );
 }
-
 
 const heroContainer = document.getElementById('react-worksheet-hero-root');
 if (heroContainer) {
