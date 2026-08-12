@@ -124,15 +124,33 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
   const openLexicon = (event, lemmaId, strongTag, surfaceText) => {
     const rect = event.currentTarget.getBoundingClientRect();
 
-    const entry = (lemmaId && passageData?.lexicon?.[lemmaId]) ||
+    let entry = (lemmaId && passageData?.lexicon?.[lemmaId]) ||
       (strongTag && passageData?.lexicon?.[strongTag]) ||
-      Object.values(passageData?.lexicon || {}).find(e => e.strong === strongTag);
+      Object.values(passageData?.lexicon || {}).find(e => e.strong === strongTag || e.strong === lemmaId);
+
+    if (!entry && (strongTag || lemmaId)) {
+      const strongCode = strongTag || lemmaId;
+      const isNt = strongCode.startsWith('G') || passageData?.testament === 'NT';
+      const langLabel = isNt ? 'Grieks' : 'Hebreeuws';
+
+      entry = {
+        strong: strongCode,
+        lemma: surfaceText || strongCode,
+        transliteration: strongCode,
+        translation: surfaceText ? `${surfaceText}` : strongCode,
+        definition: isEn
+          ? `Strong's ${langLabel} concordance entry ${strongCode} for '${surfaceText || ''}'. Click to view full STEP Bible entry.`
+          : `Strong's ${langLabel} concordantie-item ${strongCode} voor '${surfaceText || ''}'. Klik voor de volledige uitgewerkte lezing in STEP Bible.`,
+        stepUrl: `https://www.stepbible.org/?q=version=DutSVV|version=${isNt ? 'OGNT' : 'OHB'}|strong=${strongCode}`
+      };
+    }
 
     if (entry) {
       setSelectedEntry(entry);
       setSelectedRect(rect);
     }
   };
+
 
   const renderSvVerse = (verse) => {
     const text = verse.sv || '';

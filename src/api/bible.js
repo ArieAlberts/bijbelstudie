@@ -64,6 +64,65 @@ export async function fetchPassagesIndex() {
 }
 
 /**
+ * Parses raw text containing Strong's numbers (either <S>1234</S> or word1234 format)
+ * and extracts clean surface text with exact alignments for interactive lexicon popovers.
+ */
+function parseStrongVerse(rawHtmlText, testament = 'OT') {
+  if (!rawHtmlText) return { cleanText: '', alignments: [] };
+
+  const prefix = testament === 'NT' ? 'G' : 'H';
+  let text = rawHtmlText;
+
+  // Convert raw "bevelen6490" or "HEEREN3068" format into <S>6490</S> if missing tags
+  text = text.replace(/([a-zA-Z\u00C0-\u024F]+)(\d{3,5})/g, '$1<S>$2</S>');
+  text = text.replace(/\[\d{3}:\d+\]\s*/g, ''); // Remove verse number prefixes like [019:9]
+
+  const tokens = text.split(/(\s+)/);
+  let cleanTextParts = [];
+  const alignments = [];
+  let currentOffset = 0;
+
+  tokens.forEach(tok => {
+    if (!tok) return;
+    if (/^\s+$/.test(tok)) {
+      cleanTextParts.push(tok);
+      currentOffset += tok.length;
+      return;
+    }
+
+    const sMatches = [...tok.matchAll(/<S>(\d+)<\/S>/g)];
+    const cleanWord = tok.replace(/<[^>]+>/g, '').trim();
+
+    if (cleanWord) {
+      const charStart = currentOffset;
+      const charEnd = currentOffset + cleanWord.length;
+
+      cleanTextParts.push(cleanWord);
+      currentOffset += cleanWord.length;
+
+      if (sMatches.length > 0) {
+        const strongNum = sMatches[0][1];
+        const strongCode = `${prefix}${strongNum}`;
+        const cleanSurface = cleanWord.replace(/[.,;:!?()'"]/g, '');
+
+        alignments.push({
+          surface: cleanSurface || cleanWord,
+          charStart,
+          charEnd,
+          strong: strongCode,
+          lemmaId: strongCode
+        });
+      }
+    }
+  });
+
+  return {
+    cleanText: cleanTextParts.join(''),
+    alignments
+  };
+}
+
+/**
  * Dynamic Full Bible Reference Lookup API
  * Fetches ANY passage from all 66 books of the Bible.
  *
@@ -83,7 +142,7 @@ export async function fetchBiblePassageByRef(refStr, lang = 'nl') {
     throw new Error(`Unsupported book: ${bookOsis}`);
   }
 
-  const cacheKey = `bible-cache-${bookOsis}-${chapter}`;
+  const cacheKey = `bible-cache-v2-${bookOsis}-${chapter}`;
   let chapterData = null;
 
   // 1. Try browser localStorage cache first
@@ -105,28 +164,28 @@ export async function fetchBiblePassageByRef(refStr, lang = 'nl') {
     const versesMap = {};
 
     dsvJson.forEach(v => {
-      const cleanSv = v.text.replace(/<[^>]+>/g, '').replace(/<S>\d+<\/S>/g, '').trim();
+      const { cleanText, alignments } = parseStrongVerse(v.text, bookMeta.testament);
       versesMap[v.verse] = {
         osis: `${bookOsis}.${chapter}.${v.verse}`,
         ref: `${chapter}:${v.verse}`,
-        sv: cleanSv,
+        sv: cleanText,
         kjv: [],
-        alignments: { sv: [] }
+        alignments: { sv: alignments }
       };
     });
 
     kjvJson.forEach(v => {
-      const cleanKjv = v.text.replace(/<[^>]+>/g, '').trim();
+      const { cleanText, alignments } = parseStrongVerse(v.text, bookMeta.testament);
       if (!versesMap[v.verse]) {
         versesMap[v.verse] = {
           osis: `${bookOsis}.${chapter}.${v.verse}`,
           ref: `${chapter}:${v.verse}`,
-          sv: cleanKjv,
+          sv: cleanText,
           kjv: [],
-          alignments: { sv: [] }
+          alignments: { sv: alignments }
         };
       }
-      versesMap[v.verse].kjv = [{ t: cleanKjv, s: null }];
+      versesMap[v.verse].kjv = [{ t: cleanText, s: null }];
     });
 
     chapterData = Object.values(versesMap);
