@@ -168,20 +168,30 @@ if (navContainer) {
 // Mount Parasha Intro Landing
 function IntroWrapper() {
   const isEnglish = document.documentElement.lang === 'en';
+  const [introMode, setIntroMode] = useState(
+    window.location.hash === '#waarom-deze-website' ? 'waarom-deze-website' : 'wat-is-de-parasja'
+  );
+
+  useEffect(() => {
+    const handleHashChange = () => {
+      setIntroMode(window.location.hash === '#waarom-deze-website' ? 'waarom-deze-website' : 'wat-is-de-parasja');
+    };
+    window.addEventListener('hashchange', handleHashChange);
+    return () => window.removeEventListener('hashchange', handleHashChange);
+  }, []);
+
   return (
     <ParashaIntroLanding
       lang={isEnglish ? 'en' : 'nl'}
+      mode={introMode}
       onGoToParasha={() => {
         const werkbladUrl = isEnglish ? '#worksheet' : '#werkblad';
         window.location.hash = werkbladUrl;
       }}
-      onGoToMethod={() => {
-        const methodUrl = isEnglish ? '#method' : '#methode';
-        window.location.hash = methodUrl;
-      }}
     />
   );
 }
+
 
 const introContainer = document.getElementById('react-intro-root');
 if (introContainer) {

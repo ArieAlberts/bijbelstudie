@@ -1,37 +1,77 @@
 import React from 'react';
 import { BookOpen, Compass, CheckCircle2, Book, FileText, ArrowRight } from 'lucide-react';
 
-export default function ParashaIntroLanding({ lang, onGoToParasha, onGoToMethod }) {
+export default function ParashaIntroLanding({ lang, mode = 'wat-is-de-parasja', onGoToParasha }) {
   const isEn = lang === 'en';
 
+  if (mode === 'waarom-deze-website') {
+    return (
+      <div className="parasha-intro-landing">
+        <section id="waarom-deze-website" className="intro-section-card">
+          <div className="section-header">
+            <Compass className="section-header-icon" size={26} />
+            <h2>{isEn ? 'Why this Website & Features' : 'Waarom deze website?'}</h2>
+          </div>
+
+          <p className="section-lead-text">
+            {isEn
+              ? 'This website was created to support you in studying the Bible text attentively for yourself. Everything is focused on active reading, reflection, and quiet listening.'
+              : 'Deze website is gemaakt om je te ondersteunen bij het aandachtig zelf onderzoeken van de Bijbeltekst. Alles is gericht op actief lezen, reflectie en rustig luisteren.'}
+          </p>
+
+          <div className="feature-grid">
+            <div className="feature-card">
+              <div className="feature-icon-wrapper">
+                <CheckCircle2 size={22} />
+              </div>
+              <h3>{isEn ? '11-Step Study Worksheet' : '11-Stappen Interactief Werkblad'}</h3>
+              <p>
+                {isEn
+                  ? 'Walk through the text step by step: observe words, identify key themes, note personal questions, and write down insights.'
+                  : 'Loop stapsgewijs door de tekst: observeer woorden, herken hoofdthema’s, noteer persoonlijke vragen en leg inzichten vast.'}
+              </p>
+            </div>
+
+            <div className="feature-card">
+              <div className="feature-icon-wrapper">
+                <Book size={22} />
+              </div>
+              <h3>{isEn ? 'Hebrew & Greek Lexicon Reader' : 'Meertalige Grondtekst Lezer'}</h3>
+              <p>
+                {isEn
+                  ? 'Access the original Hebrew (OT) and Greek (NT) text with verse-by-verse lexicons, lemma translations, and direct STEP Bible integration.'
+                  : 'Raadpleeg de originele Hebreeuwse en Griekse grondtekst met woord-voor-woord lexicon, lemmata en directe STEP Bible integratie.'}
+              </p>
+            </div>
+
+            <div className="feature-card">
+              <div className="feature-icon-wrapper">
+                <FileText size={22} />
+              </div>
+              <h3>{isEn ? 'Published Commentary & Export' : 'Gepubliceerde Lezingen & Export'}</h3>
+              <p>
+                {isEn
+                  ? 'Read the weekly commentary by Arie Alberts and download readings in PDF, Word (DOCX), EPUB e-book, or print format.'
+                  : 'Lees de wekelijkse lezing en toelichting door Arie Alberts en download lezingen in PDF, Word (DOCX), EPUB e-book of druk af.'}
+              </p>
+            </div>
+          </div>
+
+          <div className="intro-bottom-cta">
+            <h3>{isEn ? 'Ready to explore the weekly portion?' : 'Klaar om de wekelijkse lezing te onderzoeken?'}</h3>
+            <button type="button" className="btn-primary-large" onClick={onGoToParasha}>
+              <span>{isEn ? 'Go to the Weekly Parashah ▶' : 'Ga naar de wekelijkse parasja ▶'}</span>
+              <ArrowRight size={18} />
+            </button>
+          </div>
+        </section>
+      </div>
+    );
+  }
+
+  // Default: mode === 'wat-is-de-parasja' (renders ONLY "Wat is de parasja?")
   return (
     <div className="parasha-intro-landing">
-      {/* Hero Welcome Section */}
-      <section className="intro-hero-card">
-        <div className="hero-eyebrow">{isEn ? 'Welcome to Bijbelstudie Parasja' : 'Welkom bij Bijbelstudie Parasja'}</div>
-        <h1 className="intro-hero-title">
-          {isEn
-            ? 'Read the Torah in the rhythm of the weekly parashah'
-            : 'Meelezen in het ritme van de wekelijkse parasja'}
-        </h1>
-        <p className="intro-hero-subtitle">
-          {isEn
-            ? 'Explore the Word step by step, with an interactive study sheet, interlinear original Hebrew/Greek text, and published commentaries.'
-            : 'Onderzoek het Woord stap voor stap, met een interactief werkblad, Hebreeuwse en Griekse grondtekst en gepubliceerde lezingen.'}
-        </p>
-
-        <div className="intro-cta-row">
-          <button type="button" className="btn-primary-large" onClick={onGoToParasha}>
-            <BookOpen size={20} className="btn-icon" />
-            <span>{isEn ? 'Read the weekly parashah ▶' : 'Lees de wekelijkse parasja ▶'}</span>
-          </button>
-          <a href="#waarom-deze-website" className="btn-secondary-large">
-            <span>{isEn ? 'Why this website?' : 'Waarom deze website?'}</span>
-          </a>
-        </div>
-      </section>
-
-      {/* Section 1: Wat is de parasja? */}
       <section id="wat-is-de-parasja" className="intro-section-card">
         <div className="section-header">
           <BookOpen className="section-header-icon" size={26} />
@@ -114,64 +154,12 @@ export default function ParashaIntroLanding({ lang, onGoToParasha, onGoToMethod 
             </p>
           </div>
         </div>
-      </section>
-
-      {/* Section 2: Waarom deze website & Functionaliteiten */}
-      <section id="waarom-deze-website" className="intro-section-card">
-        <div className="section-header">
-          <Compass className="section-header-icon" size={26} />
-          <h2>{isEn ? 'Why this Website & Features' : 'Waarom deze Website & Functionaliteiten'}</h2>
-        </div>
-
-        <p className="section-lead-text">
-          {isEn
-            ? 'This website was created to support you in studying the Bible text attentively for yourself. Everything is focused on active reading, reflection, and quiet listening.'
-            : 'Deze website is gemaakt om je te ondersteunen bij het aandachtig zelf onderzoeken van de Bijbeltekst. Alles is gericht op actief lezen, reflectie en rustig luisteren.'}
-        </p>
-
-        <div className="feature-grid">
-          <div className="feature-card">
-            <div className="feature-icon-wrapper">
-              <CheckCircle2 size={22} />
-            </div>
-            <h3>{isEn ? '11-Step Study Worksheet' : '11-Stappen Interactief Werkblad'}</h3>
-            <p>
-              {isEn
-                ? 'Walk through the text step by step: observe words, identify key themes, note personal questions, and write down insights.'
-                : 'Loop stapsgewijs door de tekst: observeer woorden, herken hoofdthema’s, noteer persoonlijke vragen en leg inzichten vast.'}
-            </p>
-          </div>
-
-          <div className="feature-card">
-            <div className="feature-icon-wrapper">
-              <Book size={22} />
-            </div>
-            <h3>{isEn ? 'Hebrew & Greek Lexicon Reader' : 'Meertalige Grondtekst Lezer'}</h3>
-            <p>
-              {isEn
-                ? 'Access the original Hebrew (OT) and Greek (NT) text with verse-by-verse lexicons, lemma translations, and direct STEP Bible integration.'
-                : 'Raadpleeg de originele Hebreeuwse en Griekse grondtekst met woord-voor-woord lexicon, lemmata en directe STEP Bible integratie.'}
-            </p>
-          </div>
-
-          <div className="feature-card">
-            <div className="feature-icon-wrapper">
-              <FileText size={22} />
-            </div>
-            <h3>{isEn ? 'Published Commentary & Export' : 'Gepubliceerde Lezingen & Export'}</h3>
-            <p>
-              {isEn
-                ? 'Read the weekly commentary by Arie Alberts and download readings in PDF, Word (DOCX), EPUB e-book, or print format.'
-                : 'Lees de wekelijkse lezing en toelichting door Arie Alberts en download lezingen in PDF, Word (DOCX), EPUB e-book of druk af.'}
-            </p>
-          </div>
-        </div>
 
         <div className="intro-bottom-cta">
-          <h3>{isEn ? 'Ready to explore the weekly portion?' : 'Klaar om de wekelijkse lezing te onderzoeken?'}</h3>
+          <h3>{isEn ? 'Ready to read the parashah?' : 'Klaar om de parasja te lezen?'}</h3>
           <button type="button" className="btn-primary-large" onClick={onGoToParasha}>
-            <span>{isEn ? 'Go to the Weekly Parashah' : 'Ga naar de Wekelijkse Parasja'}</span>
-            <ArrowRight size={18} />
+            <BookOpen size={18} className="btn-icon" />
+            <span>{isEn ? 'Read the weekly parashah ▶' : 'Lees de wekelijkse parasja ▶'}</span>
           </button>
         </div>
       </section>

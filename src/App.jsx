@@ -53,10 +53,11 @@ export default function App() {
         {(activeView === 'intro' || activeView === 'wat-is-de-parasja' || activeView === 'waarom-deze-website') && (
           <ParashaIntroLanding
             lang={lang}
+            mode={activeView === 'waarom-deze-website' ? 'waarom-deze-website' : 'wat-is-de-parasja'}
             onGoToParasha={() => handleSelectView('worksheet')}
-            onGoToMethod={() => handleSelectView('method')}
           />
         )}
+
         {activeView === 'worksheet' && (
           <WorksheetHero lang={lang} autoExpandReading={autoExpandReading} />
         )}
