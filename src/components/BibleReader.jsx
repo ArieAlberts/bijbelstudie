@@ -101,7 +101,7 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
         setLoading(false);
       })
       .catch(err => {
-        setError(err.message || (isEn ? 'Could not find requested Bible passage.' : 'Bijbelgedeelte niet gevonden. Probeer bijv. "Johannes 3:16" of "Jesaja 53".'));
+        setError(err.message || (isEn ? 'Could not find requested Bible passage. E.g., try "John 3:16" or "Isaiah 53".' : 'Bijbelgedeelte niet gevonden. Probeer bijv. "Johannes 3:16" of "Jesaja 53".'));
         setLoading(false);
       });
   };
@@ -204,6 +204,7 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
                   type="button"
                   className="token-btn"
                   onClick={(e) => openLexicon(e, lemmaId, tok.s, tok.t)}
+                  title={`${tok.t} → ${tok.s}`}
                 >
                   {tok.t}
                 </button>{' '}
@@ -268,7 +269,7 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
                 type="button"
                 className={`trans-btn ${translation === 'sv' ? 'active' : ''}`}
                 onClick={() => setTranslation('sv')}
-                title="Statenvertaling (SV 1637/1888)"
+                title={isEn ? "Statenvertaling (SV 1637/1888) - Dutch" : "Statenvertaling (SV 1637/1888)"}
                 style={{
                   padding: '4px 10px',
                   fontSize: '0.85rem',
@@ -276,7 +277,7 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
                   border: 'none',
                   borderRadius: '3px',
                   cursor: 'pointer',
-                  background: translation === 'sv' ? '#954c28' : 'transparent',
+                  background: translation === 'sv' ? 'var(--accent-dark)' : 'transparent',
                   color: translation === 'sv' ? '#fff' : 'var(--color-text, #261d16)'
                 }}
               >
@@ -286,7 +287,7 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
                 type="button"
                 className={`trans-btn ${translation === 'kjv' ? 'active' : ''}`}
                 onClick={() => setTranslation('kjv')}
-                title="King James Version (KJV 1769)"
+                title={isEn ? "King James Version (KJV 1769)" : "King James Version (KJV 1769) - Engels"}
                 style={{
                   padding: '4px 10px',
                   fontSize: '0.85rem',
@@ -294,7 +295,7 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
                   border: 'none',
                   borderRadius: '3px',
                   cursor: 'pointer',
-                  background: translation === 'kjv' ? '#954c28' : 'transparent',
+                  background: translation === 'kjv' ? 'var(--accent-dark)' : 'transparent',
                   color: translation === 'kjv' ? '#fff' : 'var(--color-text, #261d16)'
                 }}
               >
@@ -309,7 +310,7 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
                 onClick={() => setShowStepWindow(!showStepWindow)}
                 title={isEn ? "Open / Close STEP Bible Window" : "Open / Sluit zwevend STEP Bijbel venster"}
               >
-                📖 STEP Bible {showStepWindow ? (isEn ? '(Open)' : '(Open)') : (isEn ? '(Openen)' : '(Openen)')}
+                📖 STEP Bible {showStepWindow ? (isEn ? '(Close)' : '(Sluiten)') : (isEn ? '(Open)' : '(Openen)')}
               </button>
             </div>
           </div>

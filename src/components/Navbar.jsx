@@ -144,7 +144,7 @@ export default function Navbar({ activeView, setActiveView, lang, setLang }) {
       </div>
 
       {/* Mobile Drawer Overlay */}
-      <div className={`mobile-overlay ${isOpen ? 'open' : ''}`} onClick={closeMenu}>
+      <div className={`mobile-overlay ${isOpen ? 'open' : ''}`} onClick={closeMenu} inert={!isOpen ? "" : undefined}>
         <div id="mobile-navigation-drawer" className="mobile-drawer" onClick={(e) => e.stopPropagation()}>
           <a
             href={lang === 'nl' ? '../nl/index.html#wat-is-de-parasja' : '../en/index.html#wat-is-de-parasja'}

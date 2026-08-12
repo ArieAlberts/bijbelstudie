@@ -25,4 +25,3 @@ summary_nl: "Wekelijkse lezing van Ha'azinu."
 summary_en: "Weekly reading of Ha'azinu."
 ---
 
-De wekelijkse lezing van Ha'azinu.

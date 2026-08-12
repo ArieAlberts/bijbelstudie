@@ -30,4 +30,3 @@ summary_nl: "Wekelijkse lezing van Yom Kippur."
 summary_en: "Weekly reading of Yom Kippur."
 ---
 
-De wekelijkse lezing van Yom Kippur.

@@ -30,4 +30,3 @@ summary_nl: "Wekelijkse lezing van Ki Tavo."
 summary_en: "Weekly reading of Ki Tavo."
 ---
 
-De wekelijkse lezing van Ki Tavo.

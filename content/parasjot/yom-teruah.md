@@ -30,4 +30,3 @@ summary_nl: "Wekelijkse lezing van Yom Teruah."
 summary_en: "Weekly reading of Yom Teruah."
 ---
 
-De wekelijkse lezing van Yom Teruah.

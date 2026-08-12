@@ -1,129 +1,764 @@
 {
-  "H3068": "HEERE; de Eeuwige; de Eigennaam van God (JHWH / Yahweh)",
-  "H430": "God; de Almachtige; rechters (in juridische context)",
-  "H776": "land; aarde; gebied; de wereld",
-  "H1121": "zoon; afstammeling; kind; lid van een groep",
-  "H559": "zeggen; spreken; bevelen; beweren",
-  "H6440": "aangezicht; voorzijde; tegenwoordigheid; gelaat",
-  "H935": "komen; ingaan; brengen; arriveren; binnengaan",
-  "H3117": "dag; tijd; periode; dageraad; levenstijd",
-  "H8085": "horen; luisteren; gehoorzamen; verhoren",
-  "H7200": "zien; aanschouwen; merken; beleven; inzien",
-  "H8034": "naam; faam; gedachtenis; reputatie",
-  "H3045": "kennen; weten; begrijpen; ervaren; erkennen",
-  "H3478": "Israël; hij die strijdt met God",
-  "H5971": "volk; natie; gemeenschap; inwoners",
-  "H3027": "hand; macht; kracht; zijde; heerschappij",
-  "H7121": "roepen; noemen; verkondigen; uitnodigen; bijeenroepen",
-  "H5414": "geven; stellen; maken; toewijzen; overleveren",
-  "H1696": "spreken; zeggen; verkondigen; toespreken",
-  "H1697": "woord; zaak; ding; bevel; gebeurtenis; boodschap",
-  "H6213": "maken; doen; volbrengen; handelen; bereiden",
-  "H3318": "uitgaan; voortkomen; leiden uit; verschijnen",
-  "H5375": "dragen; heffen; vergeven; opnemen; optillen",
-  "H5869": "oog; bron; aanzien; inzicht; oogopslag",
-  "H4325": "water; wateren; rivier; stroom",
-  "H3427": "wonen; zitten; verblijven; gevestigd zijn",
-  "H3947": "nemen; grijpen; aanvaarden; halen; ontvangen",
-  "H1471": "volk; natie; heidenen; vreemde volkeren",
-  "H398": "eten; verteren; nuttigen; verslinden",
-  "H5315": "ziel; leven; levend wezen; adem; begeerte",
-  "H6965": "opstaan; standhouden; oprichten; verschijnen; opkomen",
-  "H8199": "oordelen; rechtspreken; uitspraak doen; besturen",
-  "H6664": "gerechtigheid; recht; eerlijkheid; rechtvaardigheid",
-  "H6663": "rechtvaardig zijn; vrijspreken; recht doen geschieden",
-  "H6662": "rechtvaardige; wie juist en getrouw handelt",
-  "H7563": "goddeloze; boosdoener; schuldige",
-  "H8451": "wet; onderwijzing; torah; richtlijn",
-  "H4687": "gebod; voorschrift; bevel",
-  "H2706": "inzetting; verordening; vaste regel",
-  "H4941": "oordeel; recht; rechtspraak; verordening; rechtszaak",
-  "H1285": "verbond; overeenkomst; plechtige belofte",
-  "H6944": "heiligheid; afgezonderdheid; gewijd ding",
-  "H6918": "heilige; afgezonderde; gewijde",
-  "H3548": "priester; dienaar van het heiligdom",
-  "H5030": "profeet; verkondiger van Gods boodschap",
-  "H4428": "koning; vorst; alleenheerser",
-  "H4438": "koninkrijk; heerschappij; koninklijke waardigheid",
-  "H1004": "huis; woning; familie; geslacht; tempel",
-  "H4725": "plaats; oord; heilige plek; verblijf",
-  "H8064": "hemel; hemelen; luchtruim",
-  "H7307": "geest; wind; adem; gezindheid",
-  "H3820": "hart; verstand; innerlijk; wil",
-  "H3824": "hart; gemoed; verstand; gedachten",
-  "H2587": "genadig; barmhartig; mededogend",
-  "H2617": "goedertierenheid; trouwe liefde; genade; verbondstrouw",
-  "H5769": "eeuwigheid; voor altijd; voortdurend",
-  "H7965": "vrede; welzijn; heil; compleetheid; gezondheid",
-  "H530": "geloofszekerheid; getrouwheid; waarheid; vastheid",
-  "H571": "waarheid; betrouwbaarheid; getrouwheid",
-  "H8605": "gebed; smeking; voorbede",
-  "H8057": "vreugde; blijdschap; vrolijkheid",
-  "H251": "broeder; verwant; medemens",
-  "H1": "vader; voorvader; stamvader",
-  "H517": "moeder; stammoeder",
-  "H1320": "vlees; lichaam; mensheid",
-  "H1818": "bloed; levenskracht; bloedschuld",
-  "H2416": "levend; levende; leven",
-  "H2416b": "leven; levensduur",
-  "H4191": "sterven; ter dood gebracht worden; vergaan",
-  "H4194": "dood; dodenrijk",
-  "H7725": "terugkeren; omkeren; bekeren; herstellen",
-  "H3467": "verlossen; redden; helpen; zegevieren",
-  "H3444": "redding; verlossing; heil; victorie",
-  "H1350": "lossen; vrijkopen; beschermen als bloedverwant",
-  "H1353": "lossing; recht van vrijkopen",
-  "H6308": "vrijkopen; verlossen uit slavernij",
-  "H4940": "geslacht; familie; stam; clan",
-  "H7626": "stam; scepter; roede",
-  "H8179": "poort; ingang; stadspoort; gerechtsplaats",
-  "H4150": "gezette tijd; feesttijd; ontmoetingsplaats",
-  "H4745": "oproep; heilige bijeenkomst; samenkomst",
-  "H7716": "schaap; kleinvee; lam",
-  "H1241": "rund; runderen; vee",
-  "H5930": "brandoffer; offer dat geheel opgaat",
-  "H2077": "slachtoffer; maaltijdoffer",
-  "H2076": "offeren; een slachtoffer brengen",
-  "H4057": "woestijn; wildernis; veeland",
-  "H5511": "Sichon; koning der Amorieten",
-  "H5747": "Og; koning van Basan",
-  "H6307": "Pinchas; Pinehas",
-  "H4872": "Moses; Mozes",
-  "H1732": "David; de geliefde",
-  "H175": "Aäron; Aaron",
-  "H3063": "Juda; lofprijs",
-  "G2424": "Jezus; de HEERE is redding",
-  "G2316": "God; de Allerhoogste God",
-  "G2962": "Heer; Meester; Gebieder; de HEERE",
-  "G5547": "Christus; de Gezalfde; Messias",
-  "G4102": "geloof; vertrouwen; getrouwheid; overtuiging",
-  "G26": "liefde; onvoorwaardelijke genegenheid; agape",
-  "G5485": "genade; gunst; onverdiende goedheid",
-  "G1577": "gemeente; kerk; bijeenroeping van gelovigen",
-  "G2098": "evangelie; goede boodschap; heilsboodschap",
-  "G652": "apostel; afgezant; gezondene",
-  "G1320": "meester; leraar",
-  "G3101": "discipel; leerling; volgeling",
-  "G4151": "geest; Geest van God; adem",
-  "G444": "mens; mensheid",
-  "G1060": "geboren worden; verwekt worden",
-  "G2222": "leven; goddelijk leven; bestaan",
-  "G2479": "kracht; macht; vermogen",
-  "G1411": "kracht; wonderkracht; dynamis",
-  "G1849": "gezag; volmacht; bevoegdheid",
-  "G1343": "gerechtigheid; rechtvaardigheid",
-  "G1344": "rechtvaardigen; vrijspreken",
-  "G1515": "vrede; rust; harmonie",
-  "G1680": "hoop; verwachting",
-  "G5479": "vreugde; blijdschap",
-  "G4893": "geweten; innerlijk besef",
-  "G225": "waarheid; werkelijkheid",
-  "G3056": "woord; boodschap; rede; het Woord",
-  "G4487": "gesproken woord; uiting; uitspraak",
-  "G932": "koninkrijk; heerschappij van God",
-  "G4678": "wijsheid; inzicht",
-  "G1108": "kennis; inzicht",
-  "G3341": "bekering; verandering van gezindheid",
-  "G859": "vergeving; kwijtschelding van zonden",
-  "G2643": "verzoening; herstel van gemeenschap"
+  "H3068": {
+    "gloss_nl": "HEERE; de Eeuwige; de Eigennaam van God (JHWH / Yahweh)",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H430": {
+    "gloss_nl": "God; de Almachtige; rechters (in juridische context)",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H776": {
+    "gloss_nl": "land; aarde; gebied; de wereld",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H1121": {
+    "gloss_nl": "zoon; afstammeling; kind; lid van een groep",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H559": {
+    "gloss_nl": "zeggen; spreken; bevelen; beweren",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H6440": {
+    "gloss_nl": "aangezicht; voorzijde; tegenwoordigheid; gelaat",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H935": {
+    "gloss_nl": "komen; ingaan; brengen; arriveren; binnengaan",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H3117": {
+    "gloss_nl": "dag; tijd; periode; dageraad; levenstijd",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H8085": {
+    "gloss_nl": "horen; luisteren; gehoorzamen; verhoren",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H7200": {
+    "gloss_nl": "zien; aanschouwen; merken; beleven; inzien",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H8034": {
+    "gloss_nl": "naam; faam; gedachtenis; reputatie",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H3045": {
+    "gloss_nl": "kennen; weten; begrijpen; ervaren; erkennen",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H3478": {
+    "gloss_nl": "Israël; hij die strijdt met God",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H5971": {
+    "gloss_nl": "volk; natie; gemeenschap; inwoners",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H3027": {
+    "gloss_nl": "hand; macht; kracht; zijde; heerschappij",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H7121": {
+    "gloss_nl": "roepen; noemen; verkondigen; uitnodigen; bijeenroepen",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H5414": {
+    "gloss_nl": "geven; stellen; maken; toewijzen; overleveren",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H1696": {
+    "gloss_nl": "spreken; zeggen; verkondigen; toespreken",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H1697": {
+    "gloss_nl": "woord; zaak; ding; bevel; gebeurtenis; boodschap",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H6213": {
+    "gloss_nl": "maken; doen; volbrengen; handelen; bereiden",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H3318": {
+    "gloss_nl": "uitgaan; voortkomen; leiden uit; verschijnen",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H5375": {
+    "gloss_nl": "dragen; heffen; vergeven; opnemen; optillen",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H5869": {
+    "gloss_nl": "oog; bron; aanzien; inzicht; oogopslag",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H4325": {
+    "gloss_nl": "water; wateren; rivier; stroom",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H3427": {
+    "gloss_nl": "wonen; zitten; verblijven; gevestigd zijn",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H3947": {
+    "gloss_nl": "nemen; grijpen; aanvaarden; halen; ontvangen",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H1471": {
+    "gloss_nl": "volk; natie; heidenen; vreemde volkeren",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H398": {
+    "gloss_nl": "eten; verteren; nuttigen; verslinden",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H5315": {
+    "gloss_nl": "ziel; leven; levend wezen; adem; begeerte",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H6965": {
+    "gloss_nl": "opstaan; standhouden; oprichten; verschijnen; opkomen",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H8199": {
+    "gloss_nl": "oordelen; rechtspreken; uitspraak doen; besturen",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H6664": {
+    "gloss_nl": "gerechtigheid; recht; eerlijkheid; rechtvaardigheid",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H6663": {
+    "gloss_nl": "rechtvaardig zijn; vrijspreken; recht doen geschieden",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H6662": {
+    "gloss_nl": "rechtvaardige; wie juist en getrouw handelt",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H7563": {
+    "gloss_nl": "goddeloze; boosdoener; schuldige",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H8451": {
+    "gloss_nl": "wet; onderwijzing; torah; richtlijn",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H4687": {
+    "gloss_nl": "gebod; voorschrift; bevel",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H2706": {
+    "gloss_nl": "inzetting; verordening; vaste regel",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H4941": {
+    "gloss_nl": "oordeel; recht; rechtspraak; verordening; rechtszaak",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H1285": {
+    "gloss_nl": "verbond; overeenkomst; plechtige belofte",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H6944": {
+    "gloss_nl": "heiligheid; afgezonderdheid; gewijd ding",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H6918": {
+    "gloss_nl": "heilige; afgezonderde; gewijde",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H3548": {
+    "gloss_nl": "priester; dienaar van het heiligdom",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H5030": {
+    "gloss_nl": "profeet; verkondiger van Gods boodschap",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H4428": {
+    "gloss_nl": "koning; vorst; alleenheerser",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H4438": {
+    "gloss_nl": "koninkrijk; heerschappij; koninklijke waardigheid",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H1004": {
+    "gloss_nl": "huis; woning; familie; geslacht; tempel",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H4725": {
+    "gloss_nl": "plaats; oord; heilige plek; verblijf",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H8064": {
+    "gloss_nl": "hemel; hemelen; luchtruim",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H7307": {
+    "gloss_nl": "geest; wind; adem; gezindheid",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H3820": {
+    "gloss_nl": "hart; verstand; innerlijk; wil",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H3824": {
+    "gloss_nl": "hart; gemoed; verstand; gedachten",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H2587": {
+    "gloss_nl": "genadig; barmhartig; mededogend",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H2617": {
+    "gloss_nl": "goedertierenheid; trouwe liefde; genade; verbondstrouw",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H5769": {
+    "gloss_nl": "eeuwigheid; voor altijd; voortdurend",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H7965": {
+    "gloss_nl": "vrede; welzijn; heil; compleetheid; gezondheid",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H530": {
+    "gloss_nl": "geloofszekerheid; getrouwheid; waarheid; vastheid",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H571": {
+    "gloss_nl": "waarheid; betrouwbaarheid; getrouwheid",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H8605": {
+    "gloss_nl": "gebed; smeking; voorbede",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H8057": {
+    "gloss_nl": "vreugde; blijdschap; vrolijkheid",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H251": {
+    "gloss_nl": "broeder; verwant; medemens",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H1": {
+    "gloss_nl": "vader; voorvader; stamvader",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H517": {
+    "gloss_nl": "moeder; stammoeder",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H1320": {
+    "gloss_nl": "vlees; lichaam; mensheid",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H1818": {
+    "gloss_nl": "bloed; levenskracht; bloedschuld",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H2416": {
+    "gloss_nl": "levend; levende; leven",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H2416b": {
+    "gloss_nl": "leven; levensduur",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H4191": {
+    "gloss_nl": "sterven; ter dood gebracht worden; vergaan",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H4194": {
+    "gloss_nl": "dood; dodenrijk",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H7725": {
+    "gloss_nl": "terugkeren; omkeren; bekeren; herstellen",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H3467": {
+    "gloss_nl": "verlossen; redden; helpen; zegevieren",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H3444": {
+    "gloss_nl": "redding; verlossing; heil; victorie",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H1350": {
+    "gloss_nl": "lossen; vrijkopen; beschermen als bloedverwant",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H1353": {
+    "gloss_nl": "lossing; recht van vrijkopen",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H6308": {
+    "gloss_nl": "vrijkopen; verlossen uit slavernij",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H4940": {
+    "gloss_nl": "geslacht; familie; stam; clan",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H7626": {
+    "gloss_nl": "stam; scepter; roede",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H8179": {
+    "gloss_nl": "poort; ingang; stadspoort; gerechtsplaats",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H4150": {
+    "gloss_nl": "gezette tijd; feesttijd; ontmoetingsplaats",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H4745": {
+    "gloss_nl": "oproep; heilige bijeenkomst; samenkomst",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H7716": {
+    "gloss_nl": "schaap; kleinvee; lam",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H1241": {
+    "gloss_nl": "rund; runderen; vee",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H5930": {
+    "gloss_nl": "brandoffer; offer dat geheel opgaat",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H2077": {
+    "gloss_nl": "slachtoffer; maaltijdoffer",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H2076": {
+    "gloss_nl": "offeren; een slachtoffer brengen",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H4057": {
+    "gloss_nl": "woestijn; wildernis; veeland",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H5511": {
+    "gloss_nl": "Sichon; koning der Amorieten",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H5747": {
+    "gloss_nl": "Og; koning van Basan",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H6307": {
+    "gloss_nl": "Pinchas; Pinehas",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H4872": {
+    "gloss_nl": "Moses; Mozes",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H1732": {
+    "gloss_nl": "David; de geliefde",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H175": {
+    "gloss_nl": "Aäron; Aaron",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "H3063": {
+    "gloss_nl": "Juda; lofprijs",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "G2424": {
+    "gloss_nl": "Jezus; de HEERE is redding",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "G2316": {
+    "gloss_nl": "God; de Allerhoogste God",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "G2962": {
+    "gloss_nl": "Heer; Meester; Gebieder; de HEERE",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "G5547": {
+    "gloss_nl": "Christus; de Gezalfde; Messias",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "G4102": {
+    "gloss_nl": "geloof; vertrouwen; getrouwheid; overtuiging",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "G26": {
+    "gloss_nl": "liefde; onvoorwaardelijke genegenheid; agape",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "G5485": {
+    "gloss_nl": "genade; gunst; onverdiende goedheid",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "G1577": {
+    "gloss_nl": "gemeente; kerk; bijeenroeping van gelovigen",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "G2098": {
+    "gloss_nl": "evangelie; goede boodschap; heilsboodschap",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "G652": {
+    "gloss_nl": "apostel; afgezant; gezondene",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "G1320": {
+    "gloss_nl": "meester; leraar",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "G3101": {
+    "gloss_nl": "discipel; leerling; volgeling",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "G4151": {
+    "gloss_nl": "geest; Geest van God; adem",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "G444": {
+    "gloss_nl": "mens; mensheid",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "G1060": {
+    "gloss_nl": "geboren worden; verwekt worden",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "G2222": {
+    "gloss_nl": "leven; goddelijk leven; bestaan",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "G2479": {
+    "gloss_nl": "kracht; macht; vermogen",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "G1411": {
+    "gloss_nl": "kracht; wonderkracht; dynamis",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "G1849": {
+    "gloss_nl": "gezag; volmacht; bevoegdheid",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "G1343": {
+    "gloss_nl": "gerechtigheid; rechtvaardigheid",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "G1344": {
+    "gloss_nl": "rechtvaardigen; vrijspreken",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "G1515": {
+    "gloss_nl": "vrede; rust; harmonie",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "G1680": {
+    "gloss_nl": "hoop; verwachting",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "G5479": {
+    "gloss_nl": "vreugde; blijdschap",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "G4893": {
+    "gloss_nl": "geweten; innerlijk besef",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "G225": {
+    "gloss_nl": "waarheid; werkelijkheid",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "G3056": {
+    "gloss_nl": "woord; boodschap; rede; het Woord",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "G4487": {
+    "gloss_nl": "gesproken woord; uiting; uitspraak",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "G932": {
+    "gloss_nl": "koninkrijk; heerschappij van God",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "G4678": {
+    "gloss_nl": "wijsheid; inzicht",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "G1108": {
+    "gloss_nl": "kennis; inzicht",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "G3341": {
+    "gloss_nl": "bekering; verandering van gezindheid",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "G859": {
+    "gloss_nl": "vergeving; kwijtschelding van zonden",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  },
+  "G2643": {
+    "gloss_nl": "verzoening; herstel van gemeenschap",
+    "translation_status": "translated",
+    "translation_source": "translation-of-openscriptures-strongs",
+    "review_status": "unreviewed"
+  }
 }

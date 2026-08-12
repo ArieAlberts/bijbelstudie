@@ -70,6 +70,26 @@ button, input, select, textarea {
   font: inherit;
 }
 
+textarea[data-work-notes],
+textarea[data-quick-notes] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--paper);
+  color: var(--ink);
+  transition: border-color 0.2s, box-shadow 0.2s;
+  resize: vertical;
+  min-height: 80px;
+}
+
+textarea[data-work-notes]:focus,
+textarea[data-quick-notes]:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(149, 76, 40, 0.15);
+}
+
 /* Header & Navigation System */
 .site-navbar {
   position: fixed;

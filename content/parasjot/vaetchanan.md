@@ -171,15 +171,7 @@ body_nl: |
 
 body_en: ""
 
-download_pdf_nl: "/downloads/lezingen/vaetchanan-nl.pdf"
-download_docx_nl: "/downloads/lezingen/vaetchanan-nl.docx"
-download_pdf_en: ""
-download_docx_en: ""
 
-download_study_pdf_nl: "/downloads/studiebladen/vaetchanan-nl.pdf"
-download_study_docx_nl: "/downloads/studiebladen/vaetchanan-nl.docx"
-download_study_pdf_en: ""
-download_study_docx_en: ""
 
 passages:
   - role: parasha

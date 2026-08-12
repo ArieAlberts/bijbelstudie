@@ -167,9 +167,10 @@ function buildAllPassages() {
   const fullLexicon = JSON.parse(fs.readFileSync(lexiconCacheFile, 'utf-8'));
   const manifest = JSON.parse(fs.readFileSync(passagesFile, 'utf-8'));
 
-  if (!fs.existsSync(outputDir)) {
-    fs.mkdirSync(outputDir, { recursive: true });
+  if (fs.existsSync(outputDir)) {
+    fs.rmSync(outputDir, { recursive: true, force: true });
   }
+  fs.mkdirSync(outputDir, { recursive: true });
 
   let totalFiles = 0;
   manifest.studies.forEach(study => {
@@ -201,10 +202,10 @@ function buildAllPassages() {
       notes: "Default English translation"
     },
     lexicon: {
-      source: "OpenScriptures / STEPBible-Data",
-      datasets: ["TBESH", "TBESG"],
-      license: "CC BY 4.0",
-      attribution: "Lexicon data provided by OpenScriptures / STEPBible (CC BY 4.0)",
+      source: "OpenScriptures Strong's Dictionary",
+      datasets: ["OpenScriptures Strong's Hebrew Dictionary", "OpenScriptures Strong's Greek Dictionary"],
+      license: "Public Domain / CC BY 4.0",
+      attribution: "Lexicon data provided by OpenScriptures",
       entries: Object.keys(fullLexicon).length
     }
   };

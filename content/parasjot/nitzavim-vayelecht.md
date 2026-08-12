@@ -30,4 +30,3 @@ summary_nl: "Wekelijkse lezing van Nitzavim / Vayelecht."
 summary_en: "Weekly reading of Nitzavim / Vayelecht."
 ---
 
-De wekelijkse lezing van Nitzavim / Vayelecht.

@@ -30,4 +30,3 @@ summary_nl: "Wekelijkse lezing van Sukkot."
 summary_en: "Weekly reading of Sukkot."
 ---
 
-De wekelijkse lezing van Sukkot.

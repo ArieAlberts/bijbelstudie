@@ -44,6 +44,14 @@ export default function WorksheetHero({ lang, onStudyChange, autoExpandReading }
 
   const [isReadingExpanded, setIsReadingExpanded] = useState(true);
   const [showUploadInfo, setShowUploadInfo] = useState(false);
+  const [availableDownloads, setAvailableDownloads] = useState({});
+
+  useEffect(() => {
+    fetch('/data/downloads.json')
+      .then(res => res.json())
+      .then(data => setAvailableDownloads(data))
+      .catch(() => {});
+  }, []);
 
   useEffect(() => {
     setIsReadingExpanded(true);
@@ -293,17 +301,32 @@ export default function WorksheetHero({ lang, onStudyChange, autoExpandReading }
 
   const sanitizedBodyHtml = hasBody ? sanitizeHtml(formatBodyHtml(rawBodyText)) : '';
 
-  const pdfUrl = isEn
-    ? currentStudy?.download_pdf_en
-    : currentStudy?.download_pdf_nl;
+  const getDownloadUrl = (url) => {
+    if (!url) return null;
+    const normalized = url.startsWith('/') ? url : `/${url}`;
+    return availableDownloads[normalized] ? normalized : null;
+  };
 
-  const docxUrl = isEn
-    ? currentStudy?.download_docx_en
-    : currentStudy?.download_docx_nl;
+  // Convention-based document paths — matches build-docs.mjs naming
+  const docLabel = (type, lang) => {
+    const labels = {
+      lezing: { nl: 'lezing', en: 'reading' },
+      studieblad: { nl: 'studieblad', en: 'study-sheet' },
+      werkblad: { nl: 'werkblad', en: 'worksheet' },
+    };
+    return labels[type]?.[lang] || type;
+  };
+  const curLang = isEn ? 'en' : 'nl';
+  const curId = currentStudy?.id || selectedStudyId;
 
-  const epubUrl = hasBody
-    ? `../downloads/epub/${selectedStudyId}-${isEn ? 'en' : 'nl'}.epub`
-    : null;
+  const pdfUrl = getDownloadUrl(`/downloads/lezingen/${curId}-${docLabel('lezing', curLang)}-${curLang}.pdf`);
+  const docxUrl = getDownloadUrl(`/downloads/lezingen/${curId}-${docLabel('lezing', curLang)}-${curLang}.docx`);
+  const studyPdfUrl = getDownloadUrl(`/downloads/studiebladen/${curId}-${docLabel('studieblad', curLang)}-${curLang}.pdf`);
+  const studyDocxUrl = getDownloadUrl(`/downloads/studiebladen/${curId}-${docLabel('studieblad', curLang)}-${curLang}.docx`);
+  const worksheetPdfUrl = getDownloadUrl(`/downloads/werkbladen/${curId}-${docLabel('werkblad', curLang)}-${curLang}.pdf`);
+  const worksheetDocxUrl = getDownloadUrl(`/downloads/werkbladen/${curId}-${docLabel('werkblad', curLang)}-${curLang}.docx`);
+  const epubUrlRaw = `/downloads/epub/${selectedStudyId}-${curLang}.epub`;
+  const epubUrl = hasBody ? getDownloadUrl(epubUrlRaw) : null;
 
   const handlePrint = () => {
     window.print();
@@ -431,6 +454,34 @@ export default function WorksheetHero({ lang, onStudyChange, autoExpandReading }
               </a>
             )}
 
+            {studyPdfUrl && (
+              <a href={studyPdfUrl} download className="passage-action-badge" title={isEn ? "Download Study Sheet PDF" : "Download Studieblad PDF"}>
+                <FileText size={15} />
+                <span>{isEn ? 'Study Sheet' : 'Studieblad'}</span>
+              </a>
+            )}
+
+            {studyDocxUrl && (
+              <a href={studyDocxUrl} download className="passage-action-badge" title={isEn ? "Download Study Sheet DOCX" : "Download Studieblad DOCX"}>
+                <FileCode size={15} />
+                <span>{isEn ? 'Study Sheet DOCX' : 'Studieblad DOCX'}</span>
+              </a>
+            )}
+
+            {worksheetPdfUrl && (
+              <a href={worksheetPdfUrl} download className="passage-action-badge" title={isEn ? "Download Worksheet PDF" : "Download Werkblad PDF"}>
+                <FileText size={15} />
+                <span>{isEn ? 'Worksheet' : 'Werkblad'}</span>
+              </a>
+            )}
+
+            {worksheetDocxUrl && (
+              <a href={worksheetDocxUrl} download className="passage-action-badge" title={isEn ? "Download Worksheet DOCX" : "Download Werkblad DOCX"}>
+                <FileCode size={15} />
+                <span>{isEn ? 'Worksheet DOCX' : 'Werkblad DOCX'}</span>
+              </a>
+            )}
+
             {/* EPUB Link: Rendered ONLY if a body exists for the current language */}
             {epubUrl && (
               <a href={epubUrl} download className="passage-action-badge" title={isEn ? "Download EPUB" : "Download EPUB-bestand"}>
@@ -442,7 +493,7 @@ export default function WorksheetHero({ lang, onStudyChange, autoExpandReading }
             {/* Print / Save as PDF Button */}
             <button type="button" onClick={handlePrint} className="passage-action-badge" title={isEn ? "Print / save as PDF" : "Print / opslaan als PDF"}>
               <Printer size={15} />
-              <span>{isEn ? 'Print' : 'Druk af'}</span>
+              <span>{isEn ? 'Print / save as PDF' : 'Print / opslaan als PDF'}</span>
             </button>
 
             {/* Collapse / Expand Toggle Button */}

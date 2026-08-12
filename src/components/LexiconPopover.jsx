@@ -164,8 +164,8 @@ export default function LexiconPopover({ entry, targetRect, onClose, lang = 'nl'
             <span className="popover-translit">({entry.translit})</span>
           )}
           <span className="popover-strong">{entry.strong}</span>
-          <span className={`popover-badge ${isGreek ? 'greek' : 'hebrew'}`}>
-            {isGreek ? 'GRK · TBESG' : 'HEB · TBESH'}
+          <span className={`popover-badge ${isGreek ? 'greek' : 'hebrew'}`} title={isGreek ? "OpenScriptures Strong's Greek Dictionary" : "OpenScriptures Strong's Hebrew Dictionary"}>
+            {isGreek ? 'GRK · OSGD' : 'HEB · OSHD'}
           </span>
         </div>
         <button
@@ -186,7 +186,9 @@ export default function LexiconPopover({ entry, targetRect, onClose, lang = 'nl'
             <div className="popover-gloss">{englishGloss || 'Ground-word definition'}</div>
           ) : (
             <div>
-              <div className="popover-gloss">{dutchGloss || 'Woordverklaring uit grondtekstlexicon'}</div>
+              <div className={`popover-gloss ${dutchGloss === 'Nederlandse vertaling nog niet beschikbaar' ? 'text-muted' : ''}`}>
+                {dutchGloss || 'Woordverklaring uit grondtekstlexicon'}
+              </div>
               {entry.definition_nl && (
                 <div style={{ marginTop: '6px', fontSize: '0.85rem', color: '#4a3d33', lineHeight: '1.4' }}>
                   {entry.definition_nl}

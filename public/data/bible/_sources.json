@@ -13,13 +13,13 @@
     "notes": "Default English translation"
   },
   "lexicon": {
-    "source": "OpenScriptures / STEPBible-Data",
+    "source": "OpenScriptures Strong's Dictionary",
     "datasets": [
-      "TBESH",
-      "TBESG"
+      "OpenScriptures Strong's Hebrew Dictionary",
+      "OpenScriptures Strong's Greek Dictionary"
     ],
-    "license": "CC BY 4.0",
-    "attribution": "Lexicon data provided by OpenScriptures / STEPBible (CC BY 4.0)",
+    "license": "Public Domain / CC BY 4.0",
+    "attribution": "Lexicon data provided by OpenScriptures",
     "entries": 14197
   }
 }

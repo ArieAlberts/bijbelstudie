@@ -30,4 +30,3 @@ summary_nl: "Wekelijkse lezing van Ki Tetze."
 summary_en: "Weekly reading of Ki Tetze."
 ---
 
-De wekelijkse lezing van Ki Tetze.

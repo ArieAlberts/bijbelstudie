@@ -124,15 +124,7 @@ body_nl: |
 
 body_en: ""
 
-download_pdf_nl: "/downloads/lezingen/mattot-masei-nl.pdf"
-download_docx_nl: "/downloads/lezingen/mattot-masei-nl.docx"
-download_pdf_en: ""
-download_docx_en: ""
 
-download_study_pdf_nl: "/downloads/studiebladen/mattot-masei-nl.pdf"
-download_study_docx_nl: "/downloads/studiebladen/mattot-masei-nl.docx"
-download_study_pdf_en: ""
-download_study_docx_en: ""
 
 passages:
   - role: parasha
