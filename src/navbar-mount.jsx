@@ -45,7 +45,15 @@ function HeaderApp() {
     methodEls.forEach(el => el.hidden = !isMethod);
 
     if (scroll) {
-      if (isIntro || isWorksheet) {
+      if (isIntro) {
+        const hash = window.location.hash.replace('#', '');
+        const targetEl = document.getElementById(hash) || document.querySelector('.parasha-intro-landing') || introEl;
+        if (targetEl) {
+          targetEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        } else {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+      } else if (isWorksheet) {
         window.scrollTo({ top: 0, behavior: 'smooth' });
       } else if (isMethod) {
         (document.querySelector('#methode') || document.querySelector('#uitleg'))?.scrollIntoView({ behavior: 'smooth', block: 'start' });

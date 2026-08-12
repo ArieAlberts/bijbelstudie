@@ -33,11 +33,29 @@ html {
 
 body {
   margin: 0;
+  padding-top: 75px;
   background: var(--paper);
   font-family: "Work Sans", system-ui, -apple-system, sans-serif;
   color: var(--ink);
   line-height: 1.6;
 }
+
+:target,
+[id],
+.view-panel,
+.parasha-intro-landing,
+.intro-section-card,
+.hero-card,
+.standalone-reading-view,
+.method-view,
+#wat-is-de-parasja,
+#waarom-deze-website,
+#methode,
+#uitleg,
+#werkblad {
+  scroll-margin-top: 90px;
+}
+
 
 a {
   color: var(--accent-dark);
