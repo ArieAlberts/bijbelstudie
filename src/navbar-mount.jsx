@@ -45,15 +45,14 @@ function HeaderApp() {
     methodEls.forEach(el => el.hidden = !isMethod);
 
     if (scroll) {
-      if (isIntro) {
-        (document.querySelector('#wat-is-de-parasja') || document.querySelector('#waarom-deze-website') || introEl)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      } else if (isWorksheet) {
-        (heroEl || werkbladContainer)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      if (isIntro || isWorksheet) {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
       } else if (isMethod) {
         (document.querySelector('#methode') || document.querySelector('#uitleg'))?.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }
     }
   };
+
 
   useEffect(() => {
     const initialView = determineViewFromHash();

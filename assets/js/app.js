@@ -55,14 +55,15 @@
    });
    if (scroll) {
     if (worksheet) {
-     document.querySelector('.worksheet-view')?.scrollIntoView({ behavior: scrollBehavior(), block: 'start' });
+     window.scrollTo({ top: 0, behavior: scrollBehavior() });
     } else if (method) {
      (document.querySelector('#methode') || document.querySelector('#uitleg'))?.scrollIntoView({ behavior: scrollBehavior(), block: 'start' });
     } else {
-     (document.querySelector('#wat-is-de-parasja') || document.querySelector('#waarom-deze-website') || document.querySelector('.parasha-intro-landing'))?.scrollIntoView({ behavior: scrollBehavior(), block: 'start' });
+     window.scrollTo({ top: 0, behavior: scrollBehavior() });
     }
    }
   }
+
 
  window.setView = setView;
 
