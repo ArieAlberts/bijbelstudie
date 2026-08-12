@@ -1322,26 +1322,55 @@ button, input, select, textarea {
   color: var(--accent-dark);
 }
 
-/* Mobile & Phone Screen Responsive Adjustments (Prevents Narrow Columns) */
+/* Mobile & Phone Screen Responsive Adjustments (Prevents Narrow Columns & Wasted Margins) */
 
 @media (max-width: 768px) {
   .app-container {
-    padding: 16px 12px 60px !important;
+    padding: 12px 6px 60px !important;
+    width: 100% !important;
+    max-width: 100% !important;
   }
 
   .hero-card {
+    padding: 0 !important;
+    margin-bottom: 16px !important;
+    border: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+
+  .intro-section-card,
+  .parasha-editorial-card {
     padding: 20px 14px !important;
-    margin-bottom: 20px !important;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .editorial-body-content {
+    padding: 0 !important;
+    font-size: 16px !important;
+    line-height: 1.75 !important;
+    width: 100% !important;
+  }
+
+  .reading-control-bar {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 12px !important;
+  }
+
+  .parasja-selector-select {
+    width: 100% !important;
+    max-width: 100% !important;
   }
 
   .passages-summary-box {
     padding: 14px 12px !important;
   }
 
-  .editorial-body-content {
-    padding: 16px 14px !important;
-    font-size: 15px !important;
-  }
 
   .passages-summary-header {
     flex-direction: column !important;
