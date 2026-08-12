@@ -125,7 +125,7 @@ export default function LexiconPopover({ entry, targetRect, onClose, lang = 'nl'
   };
 
   // Extract localized gloss & usage
-  const dutchGloss = entry.gloss_nl || (lang === 'nl' && !entry.gloss_nl ? null : entry.gloss);
+  const dutchGloss = entry.gloss_nl || entry.translation || entry.definition_nl || entry.gloss;
   const englishGloss = entry.gloss_en || entry.strongs_def || entry.gloss;
 
   const usageNlList = (entry.usage_nl && entry.usage_nl.length > 0) ? entry.usage_nl.join(', ') : null;
@@ -186,13 +186,13 @@ export default function LexiconPopover({ entry, targetRect, onClose, lang = 'nl'
             <div className="popover-gloss">{englishGloss || 'Ground-word definition'}</div>
           ) : (
             <div>
-              {dutchGloss ? (
-                <div className="popover-gloss">{dutchGloss}</div>
-              ) : (
-                <div className="popover-gloss" style={{ color: '#8c7b70', fontStyle: 'italic' }}>
-                  Nederlandse woordverklaring nog niet beschikbaar
+              <div className="popover-gloss">{dutchGloss || 'Woordverklaring uit grondtekstlexicon'}</div>
+              {entry.definition_nl && (
+                <div style={{ marginTop: '6px', fontSize: '0.85rem', color: '#4a3d33', lineHeight: '1.4' }}>
+                  {entry.definition_nl}
                 </div>
               )}
+
 
               {/* Optional English Source Definition Toggle for Dutch Site */}
               {englishGloss && (

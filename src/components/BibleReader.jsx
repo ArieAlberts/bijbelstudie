@@ -2,7 +2,9 @@ import React, { useState, useEffect } from 'react';
 import LexiconPopover from './LexiconPopover';
 import DraggableStepWindow from './DraggableStepWindow';
 import { fetchBiblePassage, fetchPassagesIndex, fetchBiblePassageByRef } from '../api/bible';
+import { getDutchLexiconEntry } from '../utils/strongs-dictionary-nl';
 import { Search, RotateCcw } from 'lucide-react';
+
 
 export default function BibleReader({ studyId = 'shoftim', initialSection = 'parasha', lang = 'nl', onSectionChange }) {
   const isEn = lang === 'en';
@@ -122,27 +124,25 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
   };
 
   const openLexicon = (event, lemmaId, strongTag, surfaceText) => {
+
     const rect = event.currentTarget.getBoundingClientRect();
 
     let entry = (lemmaId && passageData?.lexicon?.[lemmaId]) ||
       (strongTag && passageData?.lexicon?.[strongTag]) ||
       Object.values(passageData?.lexicon || {}).find(e => e.strong === strongTag || e.strong === lemmaId);
 
-    if (!entry && (strongTag || lemmaId)) {
-      const strongCode = strongTag || lemmaId;
-      const isNt = strongCode.startsWith('G') || passageData?.testament === 'NT';
-      const langLabel = isNt ? 'Grieks' : 'Hebreeuws';
+    const strongCode = strongTag || lemmaId;
+    const dutchEntry = getDutchLexiconEntry(strongCode, surfaceText);
 
+    if (entry) {
       entry = {
-        strong: strongCode,
-        lemma: surfaceText || strongCode,
-        transliteration: strongCode,
-        translation: surfaceText ? `${surfaceText}` : strongCode,
-        definition: isEn
-          ? `Strong's ${langLabel} concordance entry ${strongCode} for '${surfaceText || ''}'. Click to view full STEP Bible entry.`
-          : `Strong's ${langLabel} concordantie-item ${strongCode} voor '${surfaceText || ''}'. Klik voor de volledige uitgewerkte lezing in STEP Bible.`,
-        stepUrl: `https://www.stepbible.org/?q=version=DutSVV|version=${isNt ? 'OGNT' : 'OHB'}|strong=${strongCode}`
+        ...entry,
+        gloss_nl: entry.gloss_nl || dutchEntry?.gloss_nl || entry.translation || entry.gloss,
+        usage_nl: entry.usage_nl || dutchEntry?.usage_nl || [],
+        definition_nl: entry.definition_nl || dutchEntry?.definition_nl || entry.definition
       };
+    } else if (dutchEntry) {
+      entry = dutchEntry;
     }
 
     if (entry) {
@@ -150,6 +150,7 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
       setSelectedRect(rect);
     }
   };
+
 
 
   const renderSvVerse = (verse) => {
