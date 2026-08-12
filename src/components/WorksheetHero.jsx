@@ -35,12 +35,19 @@ function formatBodyHtml(rawText) {
     .join('\n');
 }
 
-export default function WorksheetHero({ lang, onStudyChange }) {
+export default function WorksheetHero({ lang, onStudyChange, autoExpandReading }) {
   const isEn = lang === 'en';
   const fileInputRef = useRef(null);
 
   const [isReadingExpanded, setIsReadingExpanded] = useState(false);
   const [showUploadInfo, setShowUploadInfo] = useState(false);
+
+  useEffect(() => {
+    if (autoExpandReading) {
+      setIsReadingExpanded(true);
+    }
+  }, [autoExpandReading]);
+
 
   const [studies, setStudies] = useState([
     {

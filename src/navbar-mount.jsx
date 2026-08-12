@@ -11,17 +11,19 @@ function HeaderApp() {
 
   const determineViewFromHash = () => {
     const hash = window.location.hash;
-    if (['#methode', '#uitleg', '#voorbeeld', '#bijlagen'].includes(hash)) {
-      return 'method';
-    }
+    if (['#wat-is-de-parasja', '#intro'].includes(hash)) return 'intro';
+    if (hash === '#waarom-deze-website') return 'waarom-deze-website';
+    if (['#methode', '#uitleg', '#voorbeeld', '#bijlagen'].includes(hash)) return 'method';
     if (path.includes('handleiding') || path.includes('handbook')) return 'handbook';
     if (path.includes('contact')) return 'contact';
     if (path.includes('privacy')) return 'privacy';
-    return 'worksheet';
+    if (hash === '#werkblad' || hash === '#worksheet') return 'worksheet';
+    return 'intro';
   };
 
   const [lang, setLang] = useState(isEnglish ? 'en' : 'nl');
   const [currentView, setCurrentView] = useState(determineViewFromHash());
+  const [autoExpandReading, setAutoExpandReading] = useState(false);
 
   const applyView = (view, scroll = true) => {
     if (typeof window.setView === 'function') {
@@ -37,16 +39,17 @@ function HeaderApp() {
 
   useEffect(() => {
     const initialView = determineViewFromHash();
-    if (initialView === 'worksheet' || initialView === 'method') {
+    if (initialView === 'worksheet' || initialView === 'method' || initialView === 'intro' || initialView === 'waarom-deze-website') {
       applyView(initialView, false);
     }
 
     const handleHashChange = () => {
       const view = determineViewFromHash();
       setCurrentView(view);
-      if (view === 'worksheet' || view === 'method') {
-        applyView(view, true);
+      if (view === 'worksheet') {
+        setAutoExpandReading(true);
       }
+      applyView(view, true);
     };
 
     window.addEventListener('hashchange', handleHashChange);
@@ -57,6 +60,8 @@ function HeaderApp() {
     if (!hash) return '';
     const cleanHash = hash.startsWith('#') ? hash.slice(1) : hash;
     const nlToEn = {
+      'wat-is-de-parasja': 'wat-is-de-parasja',
+      'waarom-deze-website': 'waarom-deze-website',
       'werkblad': 'worksheet',
       'methode': 'method',
       'uitleg': 'method',
@@ -64,6 +69,8 @@ function HeaderApp() {
       'bijlagen': 'appendices'
     };
     const enToNl = {
+      'wat-is-de-parasja': 'wat-is-de-parasja',
+      'waarom-deze-website': 'waarom-deze-website',
       'worksheet': 'werkblad',
       'method': 'methode',
       'explanation': 'uitleg',
@@ -82,7 +89,14 @@ function HeaderApp() {
   const handleViewChange = (view) => {
     setCurrentView(view);
 
-    if (view === 'worksheet') {
+    if (view === 'intro') {
+      applyView('intro', true);
+      window.history.pushState(null, '', lang === 'nl' ? '#wat-is-de-parasja' : '#wat-is-de-parasja');
+    } else if (view === 'waarom-deze-website') {
+      applyView('waarom-deze-website', true);
+      window.history.pushState(null, '', lang === 'nl' ? '#waarom-deze-website' : '#waarom-deze-website');
+    } else if (view === 'worksheet') {
+      setAutoExpandReading(true);
       applyView('worksheet', true);
       window.history.pushState(null, '', lang === 'nl' ? '#werkblad' : '#worksheet');
     } else if (view === 'method') {
@@ -94,6 +108,7 @@ function HeaderApp() {
       window.location.href = lang === 'nl' ? '../nl/contact.html' : '../en/contact.html';
     }
   };
+
 
   const handleLangToggle = (newLang) => {
     setLang(newLang);
