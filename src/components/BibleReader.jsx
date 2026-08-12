@@ -237,7 +237,7 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
                 className={`section-tab ${!isCustomLookup && section === 'parasha' ? 'active' : ''}`}
                 onClick={() => handleSectionSelect('parasha')}
               >
-                {isEn ? 'Parashah' : 'Torah'}
+                {isEn ? 'Torah' : 'Tora'}
               </button>
             )}
             {availableRoles.includes('haftara') && (
@@ -246,7 +246,7 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
                 className={`section-tab ${!isCustomLookup && section === 'haftara' ? 'active' : ''}`}
                 onClick={() => handleSectionSelect('haftara')}
               >
-                Haftara
+                {isEn ? 'Haftarah' : 'Haftara'}
               </button>
             )}
             {availableRoles.includes('gospel') && (
@@ -258,6 +258,7 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
                 {isEn ? 'Gospel' : 'Evangelie'}
               </button>
             )}
+
           </nav>
 
           <div className="nav-right-controls" style={{ display: 'flex', gap: '8px', alignItems: 'center', flexWrap: 'wrap' }}>

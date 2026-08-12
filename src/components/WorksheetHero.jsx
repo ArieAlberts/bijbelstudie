@@ -348,7 +348,7 @@ export default function WorksheetHero({ lang, onStudyChange, autoExpandReading }
                   onClick={() => handleOpenBiblePassage('parasha')}
                   title={isEn ? "Open Torah / Parashah in Bible Reader" : "Open Torah / Parasja in Bijbelreader"}
                 >
-                  <strong>Tora:</strong> {getPassageRef(currentStudy, 'parasha')}
+                  <strong>{isEn ? 'Torah:' : 'Tora:'}</strong> {getPassageRef(currentStudy, 'parasha')}
                 </button>
               )}
               {currentStudy?.passages?.some(p => p.role === 'haftara') && (
@@ -358,7 +358,7 @@ export default function WorksheetHero({ lang, onStudyChange, autoExpandReading }
                   onClick={() => handleOpenBiblePassage('haftara')}
                   title={isEn ? "Open Haftarah in Bible Reader" : "Open Haftara in Bijbelreader"}
                 >
-                  <strong>Haftara:</strong> {getPassageRef(currentStudy, 'haftara')}
+                  <strong>{isEn ? 'Haftarah:' : 'Haftara:'}</strong> {getPassageRef(currentStudy, 'haftara')}
                 </button>
               )}
               {currentStudy?.passages?.some(p => p.role === 'gospel') && (
@@ -368,14 +368,14 @@ export default function WorksheetHero({ lang, onStudyChange, autoExpandReading }
                   onClick={() => handleOpenBiblePassage('gospel')}
                   title={isEn ? "Open Gospel in Bible Reader" : "Open Evangelie in Bijbelreader"}
                 >
-                  <strong>Evangelie:</strong> {getPassageRef(currentStudy, 'gospel')}
+                  <strong>{isEn ? 'Gospel:' : 'Evangelie:'}</strong> {getPassageRef(currentStudy, 'gospel')}
                 </button>
               )}
             </div>
           </div>
 
 
-          {/* Right: Download Actions & Upload Button */}
+          {/* Right: Download Actions & Collapse Toggle */}
           <div className="editorial-download-actions" style={{ display: 'flex', gap: '8px', flexWrap: 'wrap', alignItems: 'center' }}>
             {pdfUrl ? (
               <a href={pdfUrl} download className="passage-action-badge" title={isEn ? "Download PDF" : "Download PDF-lezing"}>
@@ -401,7 +401,7 @@ export default function WorksheetHero({ lang, onStudyChange, autoExpandReading }
               <span>EPUB</span>
             </button>
 
-            <button type="button" onClick={handlePrintPDF} className="passage-action-badge" title="Afdrukken">
+            <button type="button" onClick={handlePrintPDF} className="passage-action-badge" title={isEn ? "Print" : "Afdrukken"}>
               <Printer size={15} />
               <span>{isEn ? 'Print' : 'Druk af'}</span>
             </button>
@@ -417,8 +417,8 @@ export default function WorksheetHero({ lang, onStudyChange, autoExpandReading }
             >
               <span>
                 {isReadingExpanded
-                  ? (isEn ? 'Inklappen ▲' : 'Inklappen ▲')
-                  : (isEn ? 'Lees lezing ▶' : 'Lees lezing ▶')}
+                  ? (isEn ? 'Collapse ▲' : 'Inklappen ▲')
+                  : (isEn ? 'Read commentary ▶' : 'Lees lezing ▶')}
               </span>
               {isReadingExpanded ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
             </button>
@@ -442,10 +442,11 @@ export default function WorksheetHero({ lang, onStudyChange, autoExpandReading }
           </div>
 
           <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '14px', fontWeight: 600, color: 'var(--accent-dark)' }}>
-            <span>{isReadingExpanded ? (isEn ? 'Inklappen' : 'Inklappen') : (isEn ? 'Lees lezing' : 'Lees lezing')}</span>
+            <span>{isReadingExpanded ? (isEn ? 'Collapse' : 'Inklappen') : (isEn ? 'Read commentary' : 'Lees lezing')}</span>
             {isReadingExpanded ? <ChevronUp size={20} /> : <ChevronDown size={20} />}
           </div>
         </div>
+
 
         {/* Complete Published Reading Commentary Text — Collapsable */}
         {isReadingExpanded && (
