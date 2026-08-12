@@ -1,5 +1,5 @@
 import React from 'react';
-import { BookOpen, Compass, CheckCircle2, FileText, Download, Sparkles, ArrowRight } from 'lucide-react';
+import { BookOpen, Compass, CheckCircle2, Book, FileText, ArrowRight } from 'lucide-react';
 
 export default function ParashaIntroLanding({ lang, onGoToParasha, onGoToMethod }) {
   const isEn = lang === 'en';
@@ -34,37 +34,92 @@ export default function ParashaIntroLanding({ lang, onGoToParasha, onGoToMethod 
       {/* Section 1: Wat is de parasja? */}
       <section id="wat-is-de-parasja" className="intro-section-card">
         <div className="section-header">
-          <BookOpen className="section-header-icon" size={24} />
-          <h2>{isEn ? 'What is a Parashah?' : 'Wat is de Parasja?'}</h2>
+          <BookOpen className="section-header-icon" size={26} />
+          <h2>{isEn ? 'What is a Parashah?' : 'Wat is de parasja?'}</h2>
         </div>
 
         <div className="section-content-text">
           <p>
-            {isEn
-              ? 'A parashah is a weekly portion from the Torah. The five books of Moses are divided into fixed reading portions, one for each week of the year, so that the entire Torah is read through in the course of one year. Each parashah carries a name derived from one of the first words of that portion — thus the beginning of Genesis is named Bereshit ("in the beginning").'
-              : 'Een parasja is een weekgedeelte uit de Tora. De vijf boeken van Mozes zijn verdeeld in vaste leesporties, één voor elke week van het jaar, zodat de hele Tora in de loop van één jaar wordt doorgelezen. Elke parasja draagt een naam die ontleend is aan een van de eerste woorden van dat gedeelte — zo heet het begin van Genesis Beresjiet ("in het begin").'}
+            Een <strong>parasja</strong> is een weekgedeelte uit de Tora. De vijf boeken van Mozes zijn verdeeld in vaste leesgedeelten, zodat in de loop van het jaar de hele Tora wordt doorgelezen. Elke parasja draagt een naam die meestal ontleend is aan een van de eerste woorden van het gedeelte. Zo heet het eerste gedeelte van Genesis <em>Beresjiet</em>: “in het begin”.
           </p>
 
           <p>
-            {isEn
-              ? 'In total there are fifty-four parashot. Because not every year counts the same number of weeks, some portions are sometimes combined so that the cycle finishes precisely on Simchat Torah, after which it immediately begins anew. On the Sabbath, the parashah is read, often together with a matching portion from the Prophets, the haftarah.'
-              : 'In totaal zijn er vierenvijftig parasjot. Omdat niet elk jaar evenveel weken telt, worden sommige gedeelten soms samengevoegd, zodat de cyclus precies rond is en wordt afgesloten op Simchat Tora, waarna hij meteen weer opnieuw begint. Op de sjabbat wordt de parasja gelezen, vaak samen met een bijpassend gedeelte uit de Profeten, de haftara.'}
+            In totaal zijn er vierenvijftig parasjot. Omdat niet ieder jaar evenveel leesweken heeft, worden sommige gedeelten soms samengevoegd. Zo beweegt de lezing door het jaar heen, tot de cyclus rond Simchat Tora wordt afgesloten en Genesis opnieuw wordt geopend. Op de sjabbat wordt de parasja gelezen, meestal samen met een bijpassend gedeelte uit de Profeten: de <strong>haftara</strong>.
           </p>
 
-          <blockquote className="parasha-quote-box">
-            <p>
-              {isEn
-                ? 'What makes this structure so special is that we do not pick up the Word as disconnected texts whenever it suits us, but read along in a rhythm that carries us. We do not determine what comes next; we receive what resounds, week after week, and let ourselves be shaped by it.'
-                : 'Wat deze indeling zo bijzonder maakt, is dat we het Woord niet als losse teksten oppikken wanneer het ons uitkomt, maar meelezen in een ritme dat ons draagt. We bepalen zelf niet wat er aan de beurt is; we ontvangen wat er klinkt, week na week, en laten ons daardoor vormen.'}
+          <p>
+            Maar de parasja is meer dan een handige manier om de Tora in stukken te verdelen. Zij helpt ons om <strong>regelmatig en aandachtig te luisteren naar wat God heeft gesproken</strong>.
+          </p>
+
+          <p>
+            Wij kiezen daarbij niet iedere week zelf een tekst die bij onze vragen, gevoelens of overtuigingen past. Er ligt al een gedeelte voor ons. Soms spreekt dat gedeelte ons direct aan, soms begrijpen wij het nog niet en soms schuurt het juist met wat wij zelf denken. Dat is waardevol. We leren niet alleen in de Bijbel zoeken naar bevestiging van wat wij al weten, maar ons open te stellen voor wat God ons wil laten zien.
+          </p>
+
+          <p style={{ fontWeight: 600, color: 'var(--accent-dark, #6c2c0e)', marginTop: '24px' }}>
+            Daarbij is de volgorde belangrijk.
+          </p>
+
+          <div className="intro-highlight-banner">
+            <strong>Gods gave komt vóór ons antwoord.</strong>
+          </div>
+
+          <p>
+            Israël ontving Gods onderwijzing niet om daarmee eerst zijn verlossing te verdienen. God had Israël uit Egypte bevrijd en tot Zich gebracht. Vanuit die ontvangen verlossing mocht het volk vervolgens leren wie deze God was, hoe Hij met mensen wilde wonen en welke weg Hij hun gaf om met Hem en met elkaar te leven.
+          </p>
+
+          <p>
+            Die beweging helpt ook ons bij het lezen.
+          </p>
+
+          <p>
+            Wij lezen de Tora niet om Gods liefde te verdienen of onze verlossing veilig te stellen. Wij mogen lezen <strong>vanuit wat wij van Hem ontvangen hebben</strong>. Juist omdat God Zich geeft en redt, ontstaat het verlangen om Hem beter te leren kennen. Wie de Gever liefheeft, wil ook ontdekken wat Hij gegeven heeft.
+          </p>
+
+          <div className="intro-question-box">
+            <p style={{ margin: 0, fontWeight: 600 }}>
+              Daarom vragen we bij het lezen niet alleen: <em>Wat moet ik doen?</em> We vragen eerst:
             </p>
-          </blockquote>
+            <ul style={{ margin: '12px 0 0', paddingLeft: '20px' }}>
+              <li>Wat laat God hier van Zichzelf zien? Wat geeft Hij? Wat belooft Hij? Waar beschermt Hij tegen?</li>
+              <li>Wat leert Hij over de mens, over Zijn verbond, over recht, genade, heiligheid, trouw en liefde?</li>
+              <li>En welk antwoord vraagt die gave vervolgens van ons?</li>
+            </ul>
+          </div>
+
+          <p>
+            Zo wordt de Tora geen verzameling losse regels, maar een steeds verder opengaand getuigenis van Gods handelen met mensen.
+          </p>
+
+          <p>
+            Het wekelijkse ritme van de parasja helpt ons daarbij. We hoeven niet alles in één keer te begrijpen. We lezen, luisteren, stellen vragen en komen het volgende jaar opnieuw langs dezelfde gedeelten. Woorden die ons eerder niet opvielen kunnen dan ineens betekenis krijgen. Verbindingen met de Profeten, de Geschriften en het Evangelie worden langzaam zichtbaar.
+          </p>
+
+          <p>
+            Daarom lezen we de parasja met <strong>open handen</strong>.
+          </p>
+
+          <p>
+            Niet om uit de tekst te halen wat wij er graag in willen vinden, maar om te ontvangen wat er werkelijk staat. Niet om met onze kennis iets van God te grijpen, maar om Hem beter te leren kennen in wat Hij Zelf heeft gegeven.
+          </p>
+
+          <div className="intro-summary-callout">
+            <p className="callout-main">
+              <strong>De verlossing is de grond. Het Woord is de gave. Ons luisteren en gehoorzamen is het antwoord.</strong>
+            </p>
+            <p className="callout-sub">
+              Week na week mogen we daarom opnieuw zeggen:
+            </p>
+            <p className="callout-prayer">
+              <strong>“Spreek, HEERE, want Uw dienaar hoort.”</strong>
+            </p>
+          </div>
         </div>
       </section>
 
       {/* Section 2: Waarom deze website & Functionaliteiten */}
       <section id="waarom-deze-website" className="intro-section-card">
         <div className="section-header">
-          <Compass className="section-header-icon" size={24} />
+          <Compass className="section-header-icon" size={26} />
           <h2>{isEn ? 'Why this Website & Features' : 'Waarom deze Website & Functionaliteiten'}</h2>
         </div>
 

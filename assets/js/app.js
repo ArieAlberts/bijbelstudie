@@ -43,20 +43,26 @@
  const scrollBehavior = () => reducedMotion?.matches ? 'auto' : 'smooth';
  const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
 
- function setView(view, scroll = true) {
-  const worksheet = view === 'worksheet';
-  $$('.worksheet-view').forEach(el => el.hidden = !worksheet);
-  $$('.method-view').forEach(el => el.hidden = worksheet);
-  $$('[data-view-button]').forEach(btn => {
-   const active = btn.dataset.viewButton === view;
-   btn.classList.toggle('active', active);
-   btn.setAttribute('aria-pressed', String(active));
-  });
-  if (scroll) {
-   const target = worksheet ? document.querySelector('.worksheet-view') : (document.querySelector('#methode') || document.querySelector('#uitleg'));
-   target?.scrollIntoView({ behavior: scrollBehavior(), block: 'start' });
+  function setView(view, scroll = true) {
+   const worksheet = view === 'worksheet';
+   const method = view === 'method';
+   $$('.worksheet-view').forEach(el => el.hidden = !worksheet);
+   $$('.method-view').forEach(el => el.hidden = !method);
+   $$('[data-view-button]').forEach(btn => {
+    const active = btn.dataset.viewButton === view;
+    btn.classList.toggle('active', active);
+    btn.setAttribute('aria-pressed', String(active));
+   });
+   if (scroll) {
+    if (worksheet) {
+     document.querySelector('.worksheet-view')?.scrollIntoView({ behavior: scrollBehavior(), block: 'start' });
+    } else if (method) {
+     (document.querySelector('#methode') || document.querySelector('#uitleg'))?.scrollIntoView({ behavior: scrollBehavior(), block: 'start' });
+    } else {
+     (document.querySelector('#wat-is-de-parasja') || document.querySelector('#waarom-deze-website') || document.querySelector('.parasha-intro-landing'))?.scrollIntoView({ behavior: scrollBehavior(), block: 'start' });
+    }
+   }
   }
- }
 
  window.setView = setView;
 
