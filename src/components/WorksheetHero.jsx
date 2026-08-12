@@ -396,9 +396,26 @@ export default function WorksheetHero({ lang, onStudyChange, autoExpandReading }
               )}
             </div>
           </div>
+        </div>
 
+        {/* Reading Section Header & Action Bar on the same line */}
+        <div
+          className="section-header"
+          style={{ marginBottom: '24px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '16px', userSelect: 'none' }}
+        >
+          {/* Left: Title & Icon (Clickable to collapse/expand) */}
+          <div
+            style={{ display: 'flex', alignItems: 'center', gap: '12px', cursor: 'pointer' }}
+            onClick={() => setIsReadingExpanded(!isReadingExpanded)}
+            title={isReadingExpanded ? (isEn ? "Click to collapse" : "Klik om in te klappen") : (isEn ? "Click to expand" : "Klik om te openen")}
+          >
+            <BookOpen className="section-header-icon" size={28} />
+            <h2 style={{ fontSize: '28px', margin: 0 }}>
+              {displayTitle || (isEn ? 'Published Reading & Commentary' : 'Gepubliceerde Lezing & Toelichting')}
+            </h2>
+          </div>
 
-          {/* Right: Download Actions, EPUB, Print & Collapse Toggle */}
+          {/* Right: Publication Download Actions, EPUB, Print & Collapse Toggle on the SAME line */}
           <div className="editorial-download-actions reading-actions" style={{ display: 'flex', gap: '8px', flexWrap: 'wrap', alignItems: 'center' }}>
             {pdfUrl && (
               <a href={pdfUrl} download className="passage-action-badge" title={isEn ? "Download PDF" : "Download PDF-lezing"}>
@@ -425,7 +442,7 @@ export default function WorksheetHero({ lang, onStudyChange, autoExpandReading }
             {/* Print / Save as PDF Button */}
             <button type="button" onClick={handlePrint} className="passage-action-badge" title={isEn ? "Print / save as PDF" : "Print / opslaan als PDF"}>
               <Printer size={15} />
-              <span>{isEn ? 'Print / save as PDF' : 'Print / opslaan als PDF'}</span>
+              <span>{isEn ? 'Print' : 'Druk af'}</span>
             </button>
 
             {/* Collapse / Expand Toggle Button */}
@@ -443,26 +460,6 @@ export default function WorksheetHero({ lang, onStudyChange, autoExpandReading }
               </span>
               {isReadingExpanded ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
             </button>
-          </div>
-        </div>
-
-        {/* Reading Section Header (Clickable to collapse/expand) */}
-        <div
-          className="section-header"
-          style={{ marginBottom: '24px', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'space-between', userSelect: 'none' }}
-          onClick={() => setIsReadingExpanded(!isReadingExpanded)}
-          title={isReadingExpanded ? (isEn ? "Click to collapse" : "Klik om in te klappen") : (isEn ? "Click to expand" : "Klik om te openen")}
-        >
-          <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-            <BookOpen className="section-header-icon" size={28} />
-            <h2 style={{ fontSize: '28px', margin: 0 }}>
-              {displayTitle || (isEn ? 'Published Reading & Commentary' : 'Gepubliceerde Lezing & Toelichting')}
-            </h2>
-          </div>
-
-          <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '14px', fontWeight: 600, color: 'var(--accent-dark)' }}>
-            <span>{isReadingExpanded ? (isEn ? 'Collapse' : 'Inklappen') : (isEn ? 'Read commentary' : 'Lees lezing')}</span>
-            {isReadingExpanded ? <ChevronUp size={20} /> : <ChevronDown size={20} />}
           </div>
         </div>
 
@@ -498,6 +495,7 @@ export default function WorksheetHero({ lang, onStudyChange, autoExpandReading }
     </div>
   );
 }
+
 
 
 
