@@ -406,12 +406,8 @@ export default function WorksheetHero({ lang, onStudyChange, autoExpandReading }
               <span>{isEn ? 'Print' : 'Druk af'}</span>
             </button>
 
-            <button type="button" className="passage-action-badge" onClick={handleTriggerUpload} title={isEn ? "Upload .md or .json" : "Upload .md/.json"}>
-              <Upload size={15} />
-              <span>Upload</span>
-            </button>
-
             {/* Collapse / Expand Toggle Button */}
+
             <button
               type="button"
               className="btn-secondary"
