@@ -1348,7 +1348,22 @@ button, input, select, textarea {
 }
 
 
+.parasha-editorial-card {
+  margin: 24px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.editorial-body-content {
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: 17.5px;
+  line-height: 1.8;
+  color: #2b231d;
+  width: 100%;
+}
+
 .editorial-body-content h2 {
+
   font-family: "Source Serif 4", Georgia, serif;
   font-size: 21px;
   font-weight: 700;
