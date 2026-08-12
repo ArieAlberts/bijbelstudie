@@ -141,8 +141,8 @@ download_docx_en: "/downloads/lezingen/shoftim-en.docx"
 
 download_study_pdf_nl: "/downloads/studiebladen/shoftim-nl.pdf"
 download_study_docx_nl: "/downloads/studiebladen/shoftim-nl.docx"
-download_study_pdf_en: ""
-download_study_docx_en: ""
+download_study_pdf_en: "/downloads/studiebladen/shoftim-en.pdf"
+download_study_docx_en: "/downloads/studiebladen/shoftim-en.docx"
 
 passages:
   - role: parasha
