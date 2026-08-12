@@ -287,268 +287,127 @@ export default function WorksheetHero({ lang, onStudyChange, autoExpandReading }
     : (currentStudy?.download_docx_nl || currentStudy?.download_docx_en);
 
   return (
-    <div className="hero-card">
-      <div className="intro-section-card hero-header-card">
-        <div className="hero-eyebrow">{isEn ? 'The weekly parashah' : 'De wekelijkse parasja'}</div>
-        <h1 className="hero-title">{isEn ? 'Read and explore the parashah' : 'Lees en onderzoek de parasja'}</h1>
-        <p className="hero-subtitle">
-          {isEn
-            ? 'Choose the parashah and take time to read the text for yourself. The questions help you stay attentive to the text. The method and handbook are available when you need further explanation.'
-            : 'Kies de parasja en neem de tijd om de tekst zelf te lezen. De vragen helpen je aandachtig bij de tekst te blijven. De methode en handleiding zijn beschikbaar wanneer je extra uitleg nodig hebt.'}
-        </p>
+    <div className="hero-card standalone-reading-view" style={{ width: '100%', maxWidth: '100%' }}>
+      {/* Hidden File Input for Single File Upload (.md / .json) */}
+      <input
+        type="file"
+        ref={fileInputRef}
+        onChange={handleFileUpload}
+        accept=".md,.json"
+        style={{ display: 'none' }}
+      />
 
-        {/* Hidden File Input for Single File Upload (.md / .json) */}
-        <input
-          type="file"
-          ref={fileInputRef}
-          onChange={handleFileUpload}
-          accept=".md,.json"
-          style={{ display: 'none' }}
-        />
+      {/* Standalone Full-Width Published Reading & Commentary Card */}
+      <div className="intro-section-card parasha-editorial-card" style={{ width: '100%', maxWidth: '100%', padding: '36px 32px' }}>
+        
+        {/* Compact Parashah Selector & Passage References Bar */}
+        <div className="reading-control-bar" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '16px', marginBottom: '24px', paddingBottom: '20px', borderBottom: '1px solid var(--line)' }}>
+          
+          {/* Left: Select Parashah Dropdown & Passages */}
+          <div style={{ display: 'flex', alignItems: 'center', gap: '14px', flexWrap: 'wrap' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+              <label style={{ fontWeight: 700, fontSize: '15px', color: 'var(--accent-dark)' }}>
+                {isEn ? 'Parashah:' : 'Parasja:'}
+              </label>
+              <select
+                value={selectedStudyId}
+                onChange={(e) => handleStudySelect(e.target.value)}
+                className="parasja-selector-select"
+                style={{ padding: '8px 14px', fontSize: '15px', fontWeight: 600, borderRadius: '4px', border: '1px solid var(--line)', background: 'var(--paper)', cursor: 'pointer' }}
+              >
+                {studies.map((s) => {
+                  const name = isEn
+                    ? (s.label?.en || s.parasha || 'Translation not available')
+                    : (s.label?.nl || s.parasha || 'Vertaling niet beschikbaar');
+                  const torahRef = getPassageRef(s, 'parasha');
+                  const labelText = torahRef ? `${name} (${torahRef})` : name;
+                  return (
+                    <option key={s.id} value={s.id}>
+                      {labelText}
+                    </option>
+                  );
+                })}
+              </select>
+            </div>
 
-        {/* Parasja Selector Dropdown with Torah Reference */}
-        <div className="parasja-selector-container">
-          <label className="parasja-selector-label">
-            {isEn ? 'Select a parashah:' : 'Selecteer een parasja:'}
-          </label>
-          <select
-            value={selectedStudyId}
-            onChange={(e) => handleStudySelect(e.target.value)}
-            className="parasja-selector-select"
-          >
-            {studies.map((s) => {
-              const name = isEn
-                ? (s.label?.en || s.parasha || 'Translation not available')
-                : (s.label?.nl || s.parasha || 'Vertaling niet beschikbaar');
-              const torahRef = getPassageRef(s, 'parasha');
-              const labelText = torahRef ? `${name} (${torahRef})` : name;
-              return (
-                <option key={s.id} value={s.id}>
-                  {labelText}
-                </option>
-              );
-            })}
-          </select>
-        </div>
-
-        {/* Prominent Bible Passage References Card */}
-        <div className="passages-summary-box" style={{ marginTop: '20px', marginBottom: 0 }}>
-          <div className="passages-summary-header" style={{ marginBottom: '12px' }}>
-            <div className="passages-summary-title" style={{ margin: 0 }}>
-              <BookOpen size={18} className="btn-icon" />
-              <span>{isEn ? 'Bible passages for this reading:' : 'Bijbelgedeelten bij deze lezing:'}</span>
+            {/* Quick Passage Badges */}
+            <div style={{ display: 'inline-flex', gap: '8px', flexWrap: 'wrap', alignItems: 'center' }}>
+              {currentStudy?.passages?.some(p => p.role === 'parasha') && (
+                <span className="passage-badge-chip" title="Torah / Parasja">
+                  <strong>Tora:</strong> {getPassageRef(currentStudy, 'parasha')}
+                </span>
+              )}
+              {currentStudy?.passages?.some(p => p.role === 'haftara') && (
+                <span className="passage-badge-chip" title="Haftara">
+                  <strong>Haftara:</strong> {getPassageRef(currentStudy, 'haftara')}
+                </span>
+              )}
+              {currentStudy?.passages?.some(p => p.role === 'gospel') && (
+                <span className="passage-badge-chip" title="Evangelie">
+                  <strong>Evangelie:</strong> {getPassageRef(currentStudy, 'gospel')}
+                </span>
+              )}
             </div>
           </div>
 
-          <div className="passages-summary-grid">
-            {currentStudy?.passages?.some(p => p.role === 'parasha') && (
-              <div className="passage-item">
-                <span className="passage-role">{isEn ? 'Torah / Parashah:' : 'Torah / Parasja:'}</span>
-                <span className="passage-ref-text">{getPassageRef(currentStudy, 'parasha')}</span>
-              </div>
-            )}
-            {currentStudy?.passages?.some(p => p.role === 'haftara') && (
-              <div className="passage-item">
-                <span className="passage-role">Haftara:</span>
-                <span className="passage-ref-text">{getPassageRef(currentStudy, 'haftara')}</span>
-              </div>
-            )}
-            {currentStudy?.passages?.some(p => p.role === 'gospel') && (
-              <div className="passage-item">
-                <span className="passage-role">{isEn ? 'Gospel:' : 'Evangelie:'}</span>
-                <span className="passage-ref-text">{getPassageRef(currentStudy, 'gospel')}</span>
-              </div>
-            )}
-          </div>
-        </div>
-      </div>
-
-
-
-      {/* Standalone Published Reading & Commentary Card (100% same layout as Wat is de parasja) */}
-      <div className="intro-section-card parasha-editorial-card" style={{ marginTop: '24px' }}>
-        <div className="editorial-card-header" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '16px', paddingBottom: '16px', borderBottom: '1px solid var(--line)' }}>
-          <div className="section-header" style={{ margin: 0 }}>
-            <BookOpen className="section-header-icon" size={26} />
-            <h2>{isEn ? 'Published Reading & Commentary' : 'Gepubliceerde Lezing & Toelichting'}</h2>
-          </div>
-
-          <div style={{ display: 'flex', alignItems: 'center', gap: '12px', flexWrap: 'wrap' }}>
-            {/* Download Action Badges */}
-            <div className="editorial-download-actions" style={{ display: 'flex', gap: '8px', flexWrap: 'wrap' }}>
-              {pdfUrl ? (
-                <a
-                  href={pdfUrl}
-                  download
-                  className="passage-action-badge"
-                  title={isEn ? "Download PDF reading" : "Download PDF-lezing"}
-                >
-                  <FileText size={15} />
-                  <span>PDF</span>
-                </a>
-              ) : (
-                <button
-                  type="button"
-                  onClick={handlePrintPDF}
-                  className="passage-action-badge"
-                  title={isEn ? "Print / Save PDF" : "Afdrukken / Opslaan als PDF"}
-                >
-                  <FileText size={15} />
-                  <span>PDF</span>
-                </button>
-              )}
-
-              {docxUrl && (
-                <a
-                  href={docxUrl}
-                  download
-                  className="passage-action-badge"
-                  title={isEn ? "Download Word (DOCX) reading" : "Download Word (DOCX)-lezing"}
-                >
-                  <FileCode size={15} />
-                  <span>DOCX</span>
-                </a>
-              )}
-
-              <button
-                type="button"
-                onClick={handleExportEPUB}
-                className="passage-action-badge"
-                title={isEn ? "Download EPUB e-book" : "Download EPUB e-book"}
-              >
-                <BookOpen size={15} />
-                <span>EPUB</span>
+          {/* Right: Download Actions & Upload Button */}
+          <div className="editorial-download-actions" style={{ display: 'flex', gap: '8px', flexWrap: 'wrap', alignItems: 'center' }}>
+            {pdfUrl ? (
+              <a href={pdfUrl} download className="passage-action-badge" title={isEn ? "Download PDF" : "Download PDF-lezing"}>
+                <FileText size={15} />
+                <span>PDF</span>
+              </a>
+            ) : (
+              <button type="button" onClick={handlePrintPDF} className="passage-action-badge" title="PDF">
+                <FileText size={15} />
+                <span>PDF</span>
               </button>
+            )}
 
-              <button
-                type="button"
-                onClick={handlePrintPDF}
-                className="passage-action-badge"
-                title={isEn ? "Print reading" : "Afdrukken"}
-              >
-                <Printer size={15} />
-                <span>{isEn ? 'Print' : 'Druk af'}</span>
-              </button>
-            </div>
+            {docxUrl && (
+              <a href={docxUrl} download className="passage-action-badge" title="DOCX">
+                <FileCode size={15} />
+                <span>DOCX</span>
+              </a>
+            )}
 
-            {/* Collapse / Expand Toggle Button */}
-            <button
-              type="button"
-              className="btn-secondary"
-              onClick={() => setIsReadingExpanded(!isReadingExpanded)}
-              aria-expanded={isReadingExpanded}
-              style={{ display: 'inline-flex', alignItems: 'center', gap: '6px', padding: '8px 14px', fontSize: '14px', fontWeight: 600 }}
-            >
-              <span>
-                {isReadingExpanded
-                  ? (isEn ? 'Inklappen ▲' : 'Inklappen ▲')
-                  : (isEn ? 'Lees lezing ▶' : 'Lees lezing ▶')}
-              </span>
-              {isReadingExpanded ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
+            <button type="button" onClick={handleExportEPUB} className="passage-action-badge" title="EPUB">
+              <BookOpen size={15} />
+              <span>EPUB</span>
+            </button>
+
+            <button type="button" onClick={handlePrintPDF} className="passage-action-badge" title="Afdrukken">
+              <Printer size={15} />
+              <span>{isEn ? 'Print' : 'Druk af'}</span>
+            </button>
+
+            <button type="button" className="passage-action-badge" onClick={handleTriggerUpload} title={isEn ? "Upload .md or .json" : "Upload .md/.json"}>
+              <Upload size={15} />
+              <span>Upload</span>
             </button>
           </div>
         </div>
 
-        {isReadingExpanded && (
-          <div
-            className="section-content-text editorial-body-content"
-            style={{ marginTop: '24px' }}
-            dangerouslySetInnerHTML={{ __html: formattedHtml }}
-          />
-        )}
-      </div>
-
-
-
-      {/* Action Buttons: Upload, Export JSON, Reset */}
-      <div className="hero-action-buttons" style={{ position: 'relative' }}>
-        <div style={{ display: 'inline-flex', alignItems: 'center', gap: '4px' }}>
-          <button type="button" className="btn-secondary" onClick={handleTriggerUpload} title={isEn ? "Upload .md or .json study file" : "Upload .md of .json studiebestand"}>
-            <Upload className="btn-icon" size={16} />
-            <span>{isEn ? 'Upload File (.md/.json)' : 'Upload bestand (.md/.json)'}</span>
-          </button>
-          
-          {/* Info Help Icon for Upload Explanation */}
-          <button
-            type="button"
-            className="upload-info-btn"
-            onClick={() => setShowUploadInfo(!showUploadInfo)}
-            title={isEn ? "Where is this button for?" : "Waar is deze knop voor?"}
-            style={{
-              border: 0,
-              background: 'transparent',
-              cursor: 'pointer',
-              color: 'var(--accent, #954c28)',
-              padding: '6px',
-              borderRadius: '50%',
-              display: 'inline-flex',
-              alignItems: 'center',
-              justifyContent: 'center'
-            }}
-          >
-            <HelpCircle size={18} />
-          </button>
+        {/* Reading Section Header */}
+        <div className="section-header" style={{ marginBottom: '24px' }}>
+          <BookOpen className="section-header-icon" size={28} />
+          <h2 style={{ fontSize: '28px', margin: 0 }}>
+            {isEn
+              ? (currentStudy?.label?.en || currentStudy?.parasha || 'Published Reading & Commentary')
+              : (currentStudy?.label?.nl || currentStudy?.parasha || 'Gepubliceerde Lezing & Toelichting')}
+          </h2>
         </div>
 
-        {/* Speech Balloon Popover Explanation */}
-        {showUploadInfo && (
-          <div className="upload-info-balloon" style={{
-            position: 'absolute',
-            bottom: '100%',
-            left: '0',
-            marginBottom: '10px',
-            width: 'min(380px, 90vw)',
-            background: 'var(--white, #fffdfa)',
-            border: '1px solid var(--line, #dbcec4)',
-            borderLeft: '4px solid var(--accent, #954c28)',
-            borderRadius: '8px',
-            padding: '16px 18px',
-            boxShadow: '0 12px 36px rgba(0, 0, 0, 0.18)',
-            zIndex: 100,
-            fontSize: '13.5px',
-            lineHeight: '1.5'
-          }}>
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '8px' }}>
-              <div style={{ fontWeight: 700, color: 'var(--accent-dark, #6c2c0e)', fontSize: '14.5px' }}>
-                💡 {isEn ? 'What is this button for?' : 'Waar is deze knop voor?'}
-              </div>
-              <button
-                type="button"
-                onClick={() => setShowUploadInfo(false)}
-                style={{ border: 0, background: 'transparent', cursor: 'pointer', color: 'var(--muted, #615248)' }}
-              >
-                <X size={16} />
-              </button>
-            </div>
-            <p style={{ margin: 0, color: 'var(--ink, #261d16)' }}>
-              {isEn
-                ? 'Use this button to load a local study file (.md or .json) directly in your browser. This stays 100% private on your own device and is NEVER stored on the server or shared publicly.'
-                : 'Met deze knop kun je een lokaal studiebestand (.md of .json) inladen op je eigen computer of telefoon. Dit gebeurt 100% lokaal in je eigen browser — het wordt NIET openbaar gemaakt en NIET op onze server opgeslagen.'}
-            </p>
-            <div style={{
-              position: 'absolute',
-              bottom: '-7px',
-              left: '24px',
-              width: '12px',
-              height: '12px',
-              background: 'var(--white, #fffdfa)',
-              borderRight: '1px solid var(--line, #dbcec4)',
-              borderBottom: '1px solid var(--line, #dbcec4)',
-              transform: 'rotate(45deg)'
-            }} />
-          </div>
-        )}
-
-        <button type="button" className="btn-secondary" onClick={handleExportJSON}>
-          <Download className="btn-icon" size={16} />
-          <span>{isEn ? 'Export (JSON)' : 'Exporteer (JSON)'}</span>
-        </button>
-
-        <button type="button" className="btn-secondary btn-reset" onClick={handleReset}>
-          <RotateCcw className="btn-icon" size={16} />
-          <span>Reset</span>
-        </button>
+        {/* Complete Published Reading Commentary Text — 100% Full Screen Width */}
+        <div
+          className="section-content-text editorial-body-content"
+          style={{ width: '100%', maxWidth: '100%' }}
+          dangerouslySetInnerHTML={{ __html: formattedHtml }}
+        />
       </div>
     </div>
   );
 }
+
+
+

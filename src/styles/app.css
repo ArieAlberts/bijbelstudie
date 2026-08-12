@@ -1174,6 +1174,23 @@ button, input, select, textarea {
   color: var(--accent-dark);
 }
 
+.passage-badge-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 5px 10px;
+  background: var(--soft);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  font-size: 13.5px;
+  color: var(--ink);
+}
+
+.passage-badge-chip strong {
+  color: var(--accent-dark);
+}
+
+
 .intro-question-box {
   margin: 24px 0;
   padding: 20px 24px;
