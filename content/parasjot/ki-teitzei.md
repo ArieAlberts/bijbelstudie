@@ -6,7 +6,7 @@ label:
   nl: Ki Teitzei
   en: Ki Teitzei
 
-status: draft
+status: published
 current: false
 published_at: 2026-08-17
 
