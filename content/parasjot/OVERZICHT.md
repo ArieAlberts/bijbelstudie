@@ -13,20 +13,24 @@ content/parasjot/
   ekev.md
   reeh.md
   shoftim.md
-  ki-teitzei.md
+  ki-tavo.md
 
 public/downloads/lezingen/
   {parasja}-nl.pdf   {parasja}-nl.docx
-  shoftim-en.pdf      shoftim-en.docx
-  ki-teitzei-en.pdf   ki-teitzei-en.docx     ← Engelse lezingen (KJV-citaten)
+  shoftim-en.pdf     shoftim-en.docx
+  ki-tavo-en.pdf     ki-tavo-en.docx        ← Shoftim en Ki Tavo tweetalig
 
 public/downloads/studiebladen/
   {parasja}-nl.pdf   {parasja}-nl.docx
+  shoftim-en.pdf   shoftim-en.docx
+  ki-tavo-en.pdf   ki-tavo-en.docx
 
 public/downloads/werkbladen/
-  reeh-nl.pdf        reeh-nl.docx
-  shoftim-nl.pdf     shoftim-nl.docx
-  ki-teitzei-nl.pdf  ki-teitzei-nl.docx
+  reeh-nl.pdf   reeh-nl.docx
+  shoftim-nl.pdf   shoftim-nl.docx
+  ki-tavo-nl.pdf   ki-tavo-nl.docx
+  shoftim-en.pdf   shoftim-en.docx
+  ki-tavo-en.pdf   ki-tavo-en.docx
 ```
 
 ## Statusoverzicht
@@ -38,19 +42,22 @@ public/downloads/werkbladen/
 | Wa'etchanan    |    ✓     |     ✓     |     —     |       ✓       |       —       |      —      |      —      |
 | Ekev           |    ✓     |     ✓     |     —     |       ✓       |       —       |      —      |      —      |
 | Re'eh          |    ✓     |     ✓     |     —     |       ✓       |       —       |      ✓      |      —      |
-| Shoftim        |    ✓     |     ✓     |     ✓     |       ✓       |       —       |      ✓      |      —      |
-| Ki Teitzei     |    ✓     |     ✓     |     ✓     |       ✓       |       —       |      ✓      |      —      |
+| Shoftim        |    ✓     |     ✓     |     ✓     |       ✓       |       ✓       |      ✓      |      ✓      |
+| Ki Tavo        |    ✓     |     ✓     |     ✓     |       ✓       |       ✓       |      ✓      |      ✓      |
 
 ✓ = klaar · — = nog te maken
 
-## Nog te maken (18 documenten)
+## Nog te maken — Shoftim en Ki Tavo volledig tweetalig; overige parasjot NL compleet
 
-- **Studiebladen EN** — 7 stuks (alle parasjot): vertaling van de bestaande Nederlandse studiebladen.
-- **Werkbladen NL** — 4 stuks (Mattot-Masei, Devarim, Wa'etchanan, Ekev): nieuw op te bouwen.
-- **Werkbladen EN** — 7 stuks (alle parasjot): vertaling.
+Ki Tavo is volledig tweetalig af: lezing, studieblad en werkblad in NL én EN, plus het één-bron `ki-tavo.md` met alle `*_nl` en `*_en` velden gevuld en de zes NL- en zes EN-downloadbestanden. Uploadklaar.
+
+
+- **Studiebladen EN** — 5 stuks (Mattot-Masei, Devarim, Wa'etchanan, Ekev, Re'eh): vertaling van de bestaande Nederlandse studiebladen.
+- **Werkbladen NL** — 4 stuks (Mattot-Masei, Devarim, Wa'etchanan, Ekev): nieuw op te bouwen in het Bijlage-A-format. (Re'eh, Shoftim en Ki Tavo zijn klaar.)
+- **Werkbladen EN** — 5 stuks (Mattot-Masei, Devarim, Wa'etchanan, Ekev, Re'eh): vertaling.
 
 Optioneel, los hiervan:
-- **Lezingen EN** — 5 stuks (alle behalve Shoftim en Ki Teitzei), als je ook de online-lezingen tweetalig wilt.
+- **Lezingen EN** — 5 stuks (Mattot-Masei, Devarim, Wa'etchanan, Ekev, Re'eh heeft al EN-lezing), als je ook de online-lezingen tweetalig wilt.
 
 ## Naamgevingsconventie
 
@@ -63,8 +70,8 @@ public/downloads/werkbladen/{parasja}-en.pdf     {parasja}-en.docx
 ```
 
 En in de frontmatter van elk markdown-item worden de bijbehorende `download_study_*_en`
-en `download_werkblad_*` velden gevuld zodra de betreffende versie bestaat — nooit eerder
-(geen fallback).
+(en, indien werkbladen aan het item gekoppeld worden, `download_werkblad_*`) velden gevuld
+zodra de betreffende versie bestaat — nooit eerder (geen fallback).
 
 ## Parasja-id's en bestandsnamen
 
@@ -76,18 +83,4 @@ en `download_werkblad_*` velden gevuld zodra de betreffende versie bestaat — n
 | Ekev         | ekev          | Het brood dat je niet kende         |
 | Re'eh        | reeh          | Zie, en kies                        |
 | Shoftim      | shoftim       | Gerechtigheid najagen               |
-| Ki Teitzei   | ki-teitzei    | Keer terug tot Mij                  |
-
-## Openstaande punten (Ki Teitzei)
-
-- **id/naamgeving.** Aangehouden als `ki-teitzei`. De site-dropdown toont "Ki Tetze"; als de
-  repo-slug `ki-tetze` moet zijn, hernoem `content/parasjot/`, de zes downloadbestanden en het
-  `id`/`label`-veld in één keer.
-- **status.** Het item staat op `status: draft`, `current: false` (EN ontbreekt nog). Naar
-  `published` / `current: true` zetten zodra het live mag.
-- **Werkblad-format.** Ki Teitzei's werkblad is het kring-lesmiddel (volledig ingevuld voorbeeld
-  per deelnemer). Het diagnostische Werkschema (Stap 0–10) is apart bewaard als voorbereidingslaag,
-  niet als site-download. Controleer of de reeds bestaande Re'eh- en Shoftim-werkbladen hetzelfde
-  kring-format volgen; zo niet, later gelijktrekken.
-- **Openstaand verificatiepunt.** De koning-en-scheidbrief-midrasj heeft nog geen vindplaats
-  (🟡); bewust uit de lezing weggelaten, alleen in het studieblad als te verifiëren gemarkeerd.
+| Ki Tavo      | ki-tavo       | "De eersteling en de eerlijke weegsteen" |

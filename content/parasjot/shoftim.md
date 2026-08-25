@@ -7,7 +7,7 @@ label:
   en: Shoftim
 
 status: published
-current: true
+current: false
 published_at: 2026-08-15
 
 title_nl: "Gerechtigheid najagen"
