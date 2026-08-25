@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, BookOpen, HelpCircle, Book, Mail, Globe, Compass, Info } from 'lucide-react';
+import { Menu, X, BookOpen, HelpCircle, Book, Mail, Globe, Compass, Info, Newspaper } from 'lucide-react';
 
 export default function Navbar({ activeView, setActiveView, lang, setLang }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -35,6 +35,7 @@ export default function Navbar({ activeView, setActiveView, lang, setLang }) {
     waaromWebsite: 'Waarom deze website',
     method: 'Over de methode',
     handbook: 'Handleiding',
+    articles: 'Artikelen',
     contact: 'Contact',
     langSwitch: 'English',
     menuOpen: 'Menu openen',
@@ -46,6 +47,7 @@ export default function Navbar({ activeView, setActiveView, lang, setLang }) {
     waaromWebsite: 'Why this website',
     method: 'About the method',
     handbook: 'Handbook',
+    articles: 'Articles',
     contact: 'Contact',
     langSwitch: 'Nederlands',
     menuOpen: 'Open menu',
@@ -53,6 +55,7 @@ export default function Navbar({ activeView, setActiveView, lang, setLang }) {
   };
 
   const handbookUrl = lang === 'nl' ? '../nl/handleiding.html' : '../en/handbook.html';
+  const articlesUrl = '../nl/artikelen/';
   const contactUrl = lang === 'nl' ? '../nl/contact.html' : '../en/contact.html';
 
   return (
@@ -67,9 +70,7 @@ export default function Navbar({ activeView, setActiveView, lang, setLang }) {
           <span>{labels.brand}</span>
         </a>
 
-        {/* Desktop Navigation Links */}
         <nav className="desktop-nav" aria-label="Hoofdnavigatie">
-          {/* 1. Wat is de parasja */}
           <a
             href={lang === 'nl' ? '../nl/index.html#wat-is-de-parasja' : '../en/index.html#wat-is-de-parasja'}
             className={`nav-link ${activeView === 'intro' ? 'active' : ''}`}
@@ -78,7 +79,6 @@ export default function Navbar({ activeView, setActiveView, lang, setLang }) {
             {labels.watIsParasja}
           </a>
 
-          {/* 2. Lees de parasja (2nd position - primary purpose!) */}
           <a
             href={lang === 'nl' ? '../nl/index.html#werkblad' : '../en/index.html#worksheet'}
             className={`nav-link ${activeView === 'worksheet' ? 'active' : ''}`}
@@ -87,7 +87,6 @@ export default function Navbar({ activeView, setActiveView, lang, setLang }) {
             {labels.worksheet}
           </a>
 
-          {/* 3. Waarom deze website */}
           <a
             href={lang === 'nl' ? '../nl/index.html#waarom-deze-website' : '../en/index.html#waarom-deze-website'}
             className={`nav-link ${activeView === 'waarom-deze-website' ? 'active' : ''}`}
@@ -96,7 +95,6 @@ export default function Navbar({ activeView, setActiveView, lang, setLang }) {
             {labels.waaromWebsite}
           </a>
 
-          {/* 4. Over de methode */}
           <a
             href={lang === 'nl' ? '../nl/index.html#methode' : '../en/index.html#method'}
             className={`nav-link ${activeView === 'method' ? 'active' : ''}`}
@@ -105,20 +103,28 @@ export default function Navbar({ activeView, setActiveView, lang, setLang }) {
             {labels.method}
           </a>
 
-          {/* 5. Handleiding */}
           <a
             href={handbookUrl}
             className={`nav-link ${activeView === 'handbook' ? 'active' : ''}`}
-            onClick={() => closeMenu()}
+            onClick={closeMenu}
           >
             {labels.handbook}
           </a>
 
-          {/* 6. Contact */}
+          {lang === 'nl' && (
+            <a
+              href={articlesUrl}
+              className={`nav-link ${activeView === 'articles' ? 'active' : ''}`}
+              onClick={closeMenu}
+            >
+              {labels.articles}
+            </a>
+          )}
+
           <a
             href={contactUrl}
             className={`nav-link ${activeView === 'contact' ? 'active' : ''}`}
-            onClick={() => closeMenu()}
+            onClick={closeMenu}
           >
             {labels.contact}
           </a>
@@ -129,7 +135,6 @@ export default function Navbar({ activeView, setActiveView, lang, setLang }) {
           </button>
         </nav>
 
-        {/* Hamburger Menu Toggle Button for Mobile */}
         <button
           type="button"
           className="hamburger-btn"
@@ -143,7 +148,6 @@ export default function Navbar({ activeView, setActiveView, lang, setLang }) {
         </button>
       </div>
 
-      {/* Mobile Drawer Overlay */}
       <div className={`mobile-overlay ${isOpen ? 'open' : ''}`} onClick={closeMenu} inert={!isOpen ? "" : undefined}>
         <div id="mobile-navigation-drawer" className="mobile-drawer" onClick={(e) => e.stopPropagation()}>
           <a
@@ -185,16 +189,27 @@ export default function Navbar({ activeView, setActiveView, lang, setLang }) {
           <a
             href={handbookUrl}
             className={`nav-link ${activeView === 'handbook' ? 'active' : ''}`}
-            onClick={() => closeMenu()}
+            onClick={closeMenu}
           >
             <Book className="nav-icon" aria-hidden="true" />
             <span>{labels.handbook}</span>
           </a>
 
+          {lang === 'nl' && (
+            <a
+              href={articlesUrl}
+              className={`nav-link ${activeView === 'articles' ? 'active' : ''}`}
+              onClick={closeMenu}
+            >
+              <Newspaper className="nav-icon" aria-hidden="true" />
+              <span>{labels.articles}</span>
+            </a>
+          )}
+
           <a
             href={contactUrl}
             className={`nav-link ${activeView === 'contact' ? 'active' : ''}`}
-            onClick={() => closeMenu()}
+            onClick={closeMenu}
           >
             <Mail className="nav-icon" aria-hidden="true" />
             <span>{labels.contact}</span>
