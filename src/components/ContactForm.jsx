@@ -17,9 +17,32 @@ export default function ContactForm({ lang }) {
     setFormData(prev => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e) => {
+  const [sending, setSending] = useState(false);
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    setSubmitted(true);
+    setSending(true);
+    try {
+      await fetch('https://formsubmit.co/ajax/info@parasja.nl', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify({
+          _subject: lang === 'nl' ? 'Nieuw bericht via parasja.nl (NL)' : 'New message via parasja.nl (EN)',
+          _template: 'table',
+          _captcha: 'false',
+          ...formData
+        })
+      });
+      setSubmitted(true);
+    } catch (err) {
+      console.error(err);
+      alert(lang === 'nl' ? 'Er is iets misgegaan bij het versturen.' : 'Something went wrong while sending.');
+    } finally {
+      setSending(false);
+    }
   };
 
   if (submitted) {
@@ -123,9 +146,9 @@ export default function ContactForm({ lang }) {
           />
         </div>
 
-        <button type="submit" className="btn-primary" style={{ alignSelf: 'flex-start', marginTop: '10px' }}>
+        <button type="submit" className="btn-primary" disabled={sending} style={{ alignSelf: 'flex-start', marginTop: '10px', opacity: sending ? 0.7 : 1 }}>
           <Send size={16} />
-          <span>{lang === 'nl' ? 'Bericht versturen' : 'Send message'}</span>
+          <span>{sending ? (lang === 'nl' ? 'Wordt verstuurd...' : 'Sending...') : (lang === 'nl' ? 'Bericht versturen' : 'Send message')}</span>
         </button>
       </form>
     </div>

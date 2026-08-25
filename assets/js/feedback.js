@@ -62,20 +62,27 @@
   }
 
   async function postQuick(payload) {
-    const body = new URLSearchParams({
-      'form-name': 'quick-feedback',
-      'bot-field': '',
-      language: lang,
-      source_type: payload.type,
-      source_id: String(payload.id),
-      source_title: payload.title,
-      rating: payload.rating,
-      comment: payload.comment || '',
-      page_url: location.href,
-      version,
-      submitted_at: new Date().toISOString()
+    const response = await fetch('https://formsubmit.co/ajax/info@parasja.nl', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+      },
+      body: JSON.stringify({
+        _subject: `Korte feedback via parasja.nl (${lang.toUpperCase()}) - ${payload.title || payload.id}`,
+        _template: 'table',
+        _captcha: 'false',
+        language: lang,
+        source_type: payload.type,
+        source_id: String(payload.id),
+        source_title: payload.title,
+        rating: payload.rating,
+        comment: payload.comment || '',
+        page_url: location.href,
+        version,
+        submitted_at: new Date().toISOString()
+      })
     });
-    const response = await fetch('/', { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: body.toString() });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
   }
 
