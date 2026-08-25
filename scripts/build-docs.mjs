@@ -180,7 +180,7 @@ function buildHtmlDocument({ title, docTypeTitle, summary, bodyHtml, passages, l
     ${bodyHtml}
   </div>
   <div class="footer">
-    zelfdeparasjalezen.netlify.app — © Arie Alberts
+    parasja.nl — © Arie Alberts
   </div>
 </body>
 </html>`;
@@ -252,7 +252,7 @@ function buildRtfDocument({ title, docTypeTitle, summary, bodyHtml, passages, la
   }
   header += `\\par\\f0\\fs24 `;
 
-  const footer = `\n\\par\\par\\f1\\fs18 zelfdeparasjalezen.netlify.app -- Arie Alberts\\par\n}`;
+  const footer = `\n\\par\\par\\f1\\fs18 parasja.nl -- Arie Alberts\\par\n}`;
   return header + body + footer;
 }
 

@@ -9,4 +9,4 @@ Key pages:
 - `privacy.html`: privacy statement
 - `thanks.html`: confirmation page
 
-Netlify form and deployment instructions are in `../README.md`.
+Form and deployment instructions are in `../README.md`.

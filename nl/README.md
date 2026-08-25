@@ -9,4 +9,4 @@ Belangrijk:
 - `privacy.html`: privacyverklaring
 - `bedankt.html`: bevestigingspagina
 
-De Netlify-formulieren en deployment-instructies staan in `../README.md`.
+De formulieren en deployment-instructies staan in `../README.md`.

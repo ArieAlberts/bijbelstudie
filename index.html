@@ -9,14 +9,11 @@
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png"/>
   <link rel="stylesheet" href="assets/css/styles.css"/>
 </head>
-<body class="root-language-body">
-  <a class="skip-link" href="#main">Naar de inhoud</a>
-  <main class="language-card" id="main" tabindex="-1">
-    <h1>Kies je taal · Choose your language</h1>
-    <nav aria-label="Taalkeuze · Language selection" class="language-options">
-      <a href="nl/index.html">Nederlands</a>
-      <a href="en/index.html">English</a>
-    </nav>
-  </main>
+<body>
+  <script>
+    var l=(navigator.language||'nl').toLowerCase();
+    location.replace(l.indexOf('en')===0?'/en/':'/nl/');
+  </script>
+  <noscript><a href="/nl/">Ga verder / Continue</a></noscript>
 </body>
 </html>

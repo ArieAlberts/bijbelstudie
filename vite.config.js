@@ -15,7 +15,6 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        forms: resolve(__dirname, 'forms.html'),
         nl_index: resolve(__dirname, 'nl/index.html'),
         nl_lezer: resolve(__dirname, 'nl/lezer.html'),
         nl_handleiding: resolve(__dirname, 'nl/handleiding.html'),

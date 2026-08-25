@@ -21,4 +21,4 @@ This directory contains the pinned source datasets used to build the static offl
 - **Usage**: Central ground-word lexicon layer providing lemmas, transliterations, and concise lexical meanings for mapped words.
 
 ## Build Policy
-All Bible data is compiled statically during `npm run build:bible`. **No external HTTP API requests are made during runtime or Netlify build.**
+All Bible data is compiled statically during `npm run build:bible`. **No external HTTP API requests are made during runtime or build.**

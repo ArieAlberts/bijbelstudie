@@ -27,7 +27,7 @@ Het project biedt een interactief digitaal werkblad met 11 stappen, de volledige
   - Hebreeuwse lemmata in RTL-schrift, fonetische transliteraties, Strong's nummers, kernglossen en vertaalaanwijzingen (`kjv_def`).
   - Directe STEP Bible diep-links per grondwoord (`q=strong=H...` / `q=strong=G...`).
 - 🛠️ **Beheermodule / Decap CMS (`/admin/`)**:
-  - Visuele browser-gebaseerde beheermodule op `/admin/` (gekoppeld met Netlify Identity & Git Gateway).
+  - Visuele browser-gebaseerde beheermodule op `/admin/`.
   - Bestanden in `content/parasjot/*.md` worden ook automatisch verwerkt door `scripts/build-passages-index.mjs` en GitHub Actions pipeline.
 - ✍️ **11-Stappen Werkblad**: Voortgangsindicator, notitievelden per stap en vinkjes voor voltooide stappen.
 - 💾 **JSON Backup & Restore**: Exporteer al je gemaakte aantekeningen naar een `.json` bestand en laad ze eenvoudig weer in op elk gewenst apparaat.
@@ -41,7 +41,7 @@ Het project biedt een interactief digitaal werkblad met 11 stappen, de volledige
 - **Pictogrammen**: [Lucide React](https://lucide.dev/)
 - **CMS & Content**: Decap CMS + Markdown / YAML via `js-yaml`
 - **Lexicon Datasets**: OpenScriptures / STEPBible datasets `TBESH` & `TBESG` (CC BY 4.0)
-- **Deployment & CI/CD**: Netlify + GitHub Actions (`.github/workflows/deploy.yml` & `content-pipeline.yml`)
+- **Deployment & CI/CD**: GitHub Pages + GitHub Actions (`.github/workflows/deploy.yml` & `content-pipeline.yml`)
 
 ---
 
