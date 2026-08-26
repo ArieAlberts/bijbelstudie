@@ -1,4 +1,4 @@
-﻿---
+---
 id: brakel-04
 slug: abraham-en-de-kerk-in-een-volk
 series_slug: brakel-israel-verbonden

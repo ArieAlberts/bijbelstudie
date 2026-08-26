@@ -1,4 +1,4 @@
-﻿---
+---
 id: brakel-13
 slug: verschil-in-trap-niet-in-wezen
 series_slug: brakel-israel-verbonden

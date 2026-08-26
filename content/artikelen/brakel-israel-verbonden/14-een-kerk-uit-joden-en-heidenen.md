@@ -1,4 +1,4 @@
-﻿---
+---
 id: brakel-14
 slug: een-kerk-uit-joden-en-heidenen
 series_slug: brakel-israel-verbonden

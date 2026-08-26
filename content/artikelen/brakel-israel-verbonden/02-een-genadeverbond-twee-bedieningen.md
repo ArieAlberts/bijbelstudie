@@ -1,4 +1,4 @@
-﻿---
+---
 id: brakel-02
 slug: een-genadeverbond-twee-bedieningen
 series_slug: brakel-israel-verbonden

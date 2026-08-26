@@ -1,4 +1,4 @@
-﻿---
+---
 id: brakel-05
 slug: besnijdenis-zegel-van-het-genadeverbond
 series_slug: brakel-israel-verbonden

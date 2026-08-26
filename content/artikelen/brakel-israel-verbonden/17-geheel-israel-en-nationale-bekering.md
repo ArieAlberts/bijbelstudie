@@ -1,4 +1,4 @@
-﻿---
+---
 id: brakel-17
 slug: geheel-israel-en-nationale-bekering
 series_slug: brakel-israel-verbonden

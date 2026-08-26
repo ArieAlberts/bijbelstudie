@@ -1,4 +1,4 @@
-﻿---
+---
 id: brakel-11
 slug: christus-dezelfde-borg-in-oud-en-nieuw
 series_slug: brakel-israel-verbonden

@@ -1,4 +1,4 @@
-﻿---
+---
 id: brakel-06
 slug: horeb-is-geen-nieuw-heilsverbond
 series_slug: brakel-israel-verbonden

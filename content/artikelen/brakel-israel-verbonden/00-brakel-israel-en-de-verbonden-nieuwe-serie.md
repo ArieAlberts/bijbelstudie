@@ -1,4 +1,4 @@
-﻿---
+---
 id: brakel-00
 slug: brakel-israel-en-de-verbonden-nieuwe-serie
 series_slug: brakel-israel-verbonden

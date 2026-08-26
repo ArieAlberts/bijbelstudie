@@ -1,4 +1,4 @@
-﻿---
+---
 id: brakel-12
 slug: dezelfde-geest-geloof-en-rechtvaardiging
 series_slug: brakel-israel-verbonden

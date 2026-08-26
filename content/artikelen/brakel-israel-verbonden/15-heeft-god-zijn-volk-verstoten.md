@@ -1,4 +1,4 @@
-﻿---
+---
 id: brakel-15
 slug: heeft-god-zijn-volk-verstoten
 series_slug: brakel-israel-verbonden

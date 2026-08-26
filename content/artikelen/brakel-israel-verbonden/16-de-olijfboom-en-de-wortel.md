@@ -1,4 +1,4 @@
-﻿---
+---
 id: brakel-16
 slug: de-olijfboom-en-de-wortel
 series_slug: brakel-israel-verbonden

@@ -1,4 +1,4 @@
-﻿---
+---
 id: brakel-03
 slug: het-genadeverbond-begint-in-het-paradijs
 series_slug: brakel-israel-verbonden

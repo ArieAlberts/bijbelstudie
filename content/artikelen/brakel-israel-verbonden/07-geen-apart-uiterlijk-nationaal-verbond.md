@@ -1,4 +1,4 @@
-﻿---
+---
 id: brakel-07
 slug: geen-apart-uiterlijk-nationaal-verbond
 series_slug: brakel-israel-verbonden

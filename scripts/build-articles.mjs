@@ -37,8 +37,8 @@ function readArticleFiles(dir) {
 
 
 function parseFrontmatter(file) {
-  const raw = fs.readFileSync(file, 'utf8');
-  const match = raw.match(/^---\s*\n([\s\S]*?)\n---\s*(?:\n|$)([\s\S]*)$/);
+  const raw = fs.readFileSync(file, 'utf8').replace(/^\uFEFF/, '');
+  const match = raw.match(/^---\s*\r?\n([\s\S]*?)\r?\n---\s*(?:\r?\n|$)([\s\S]*)$/);
   if (!match) throw new Error(`Geen geldige frontmatter in ${file}`);
   const data = yaml.load(match[1]) || {};
   if (!data.body_nl && match[2].trim()) data.body_nl = match[2].trim();

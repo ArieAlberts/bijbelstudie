@@ -1,4 +1,4 @@
-﻿---
+---
 id: brakel-18
 slug: profeten-over-de-bekering-van-israel
 series_slug: brakel-israel-verbonden

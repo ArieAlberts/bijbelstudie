@@ -1,4 +1,4 @@
-﻿---
+---
 id: brakel-08
 slug: de-wet-als-regel-voor-bondgenoten
 series_slug: brakel-israel-verbonden

@@ -1,4 +1,4 @@
-﻿---
+---
 id: brakel-10
 slug: ceremonien-als-evangelische-zegen
 series_slug: brakel-israel-verbonden

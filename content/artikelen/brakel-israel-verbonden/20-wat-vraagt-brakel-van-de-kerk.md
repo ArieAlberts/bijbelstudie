@@ -1,4 +1,4 @@
-﻿---
+---
 id: brakel-20
 slug: wat-vraagt-brakel-van-de-kerk
 series_slug: brakel-israel-verbonden

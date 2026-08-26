@@ -1,4 +1,4 @@
-﻿---
+---
 id: brakel-09
 slug: zedelijke-ceremoniele-en-burgerlijke-wetten
 series_slug: brakel-israel-verbonden

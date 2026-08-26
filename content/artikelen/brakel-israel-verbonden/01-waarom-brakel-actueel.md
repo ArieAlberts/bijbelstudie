@@ -1,4 +1,4 @@
-﻿---
+---
 id: brakel-01
 slug: waarom-brakel-actueel
 series_slug: brakel-israel-verbonden

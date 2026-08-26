@@ -1,4 +1,4 @@
-﻿---
+---
 id: brakel-19
 slug: terugkeer-naar-het-vaderland
 series_slug: brakel-israel-verbonden
