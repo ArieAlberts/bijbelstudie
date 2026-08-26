@@ -1,10 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { createRequire } from 'module';
-
-const require = createRequire(import.meta.url);
-const yaml = require('js-yaml');
+import yaml from 'js-yaml';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -33,6 +30,8 @@ function readArticleFiles(dir) {
     return entry.isFile() && entry.name.endsWith('.md') ? [full] : [];
   });
 }
+
+
 
 function parseFrontmatter(file) {
   const raw = fs.readFileSync(file, 'utf8');
@@ -144,7 +143,7 @@ function build() {
 
   const articles = readArticleFiles(contentDir)
     .map(parseFrontmatter)
-    .filter((article) => article.status !== 'draft' && article.lang !== 'en')
+    .filter((article) => article.lang !== 'en' && article.status !== 'draft')
     .map((article) => ({
       ...article,
       order: Number(article.order ?? 999),
@@ -231,7 +230,7 @@ function build() {
             <p class="eyebrow">${escapeHtml(article.series_title)} · Aflevering ${escapeHtml(article.order)}</p>
             <h1>${escapeHtml(article.title_nl)}</h1>
             ${article.summary_nl ? `<p class="lead">${escapeHtml(article.summary_nl)}</p>` : ''}
-            ${article.published_at ? `<p class="publish-date">Gepubliceerd ${escapeHtml(article.published_at)}</p>` : ''}
+            ${article.last_reviewed_at ? `<p class="publish-date">Bijgewerkt en bronnen gecontroleerd: ${escapeHtml(article.last_reviewed_at)}</p>` : ''}
           </header>
           <div class="article-body">${article.body_nl || ''}</div>
           ${sourceSection(article)}
@@ -249,7 +248,7 @@ function build() {
     });
   }
 
-  console.log(`✓ ${articles.length} artikel(en) gebouwd in public/nl/artikelen/`);
+  console.log(`✓ ${articles.length} gepubliceerd(e) artikel(en) gebouwd.`);
 }
 
 build();

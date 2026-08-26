@@ -1,5 +1,5 @@
 ---
-id: brakel-00
+id: brakel-01
 slug: waarom-brakel-actueel
 series_slug: brakel-israel-verbonden
 series_title: "Brakel, Israël en de verbonden"
