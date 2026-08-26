@@ -1,4 +1,4 @@
----
+﻿---
 id: brakel-05
 slug: besnijdenis-zegel-van-het-genadeverbond
 series_slug: brakel-israel-verbonden
@@ -16,7 +16,15 @@ primary_source: "Wilhelmus à Brakel, De Redelijke Godsdienst"
 source_scope: "Deel III, hoofdstuk 2, behandeling van de besnijdenis"
 facebook_format: "paradoxale-ontvouwing"
 facebook_angle: "Wat verzegelt de besnijdenis volgens Brakel — afkomst, gehoorzaamheid of de belofte van genade?"
-body_nl: |
+sources_brakel:
+  - label: "Wilhelmus à Brakel, De Redelijke Godsdienst, Deel III, hoofdstuk 2, behandeling van de besnijdenis"
+    detail: "Primaire bron voor Brakels eigen redenering in dit artikel."
+scripture:
+  - "Genesis 17:1–14"
+  - "Romeinen 4:9–12"
+  - "Kolossenzen 2:11–12"
+---
+
 <p>Een teken kan zichtbaar zijn zonder de bron van het heil te worden.</p>
 
 <p>Dat onderscheid bewaakt Brakel wanneer hij de besnijdenis behandelt. Het teken staat letterlijk in het lichaam van Abrahams mannelijke nageslacht, maar volgens Brakel verzegelt het niet hun eigen verdienste. Het wijst naar Gods verbondsbelofte en naar de gerechtigheid die door geloof ontvangen wordt.</p>
@@ -40,11 +48,3 @@ body_nl: |
 
 <h2>Naar Horeb</h2>
 <p>Na Abraham brengt Brakel ons naar Sinaï. Daar wordt de vraag veel scherper: ontstaat er nu een nieuw verbond dat op werken rust, of wordt het bestaande genadeverbond plechtig vernieuwd? Brakels antwoord is ondubbelzinnig.</p>
-sources_brakel:
-  - label: "Wilhelmus à Brakel, De Redelijke Godsdienst, Deel III, hoofdstuk 2, behandeling van de besnijdenis"
-    detail: "Primaire bron voor Brakels eigen redenering in dit artikel."
-scripture:
-  - "Genesis 17:1–14"
-  - "Romeinen 4:9–12"
-  - "Kolossenzen 2:11–12"
----

@@ -1,4 +1,4 @@
----
+﻿---
 id: brakel-11
 slug: christus-dezelfde-borg-in-oud-en-nieuw
 series_slug: brakel-israel-verbonden
@@ -16,7 +16,16 @@ primary_source: "Wilhelmus à Brakel, De Redelijke Godsdienst"
 source_scope: "Deel III, hoofdstuk 4"
 facebook_format: "paradoxale-ontvouwing"
 facebook_angle: "Brakels eenheid van het verbond rust uiteindelijk op de ene Borg: Christus."
-body_nl: |
+sources_brakel:
+  - label: "Wilhelmus à Brakel, De Redelijke Godsdienst, Deel III, hoofdstuk 4"
+    detail: "Primaire bron voor Brakels eigen redenering in dit artikel."
+scripture:
+  - "Hebreeën 7:22"
+  - "Romans 3:24–26"
+  - "Hebreeën 9:15"
+  - "Openbaring 13:8"
+---
+
 <p>Brakels eenheid van het verbond rust uiteindelijk niet op Abraham, Mozes of de kerk.</p>
 
 <p>Zij rust op Christus.</p>
@@ -41,12 +50,3 @@ body_nl: |
 
 <h2>Wat betekende dit voor de gelovigen zelf?</h2>
 <p>Hoofdstuk 5 trekt de consequentie: oudtestamentische gelovigen hadden volgens Brakel werkelijk vergeving, vrede, kindschap en de Heilige Geest. Dat onderzoeken we in de volgende aflevering.</p>
-sources_brakel:
-  - label: "Wilhelmus à Brakel, De Redelijke Godsdienst, Deel III, hoofdstuk 4"
-    detail: "Primaire bron voor Brakels eigen redenering in dit artikel."
-scripture:
-  - "Hebreeën 7:22"
-  - "Romans 3:24–26"
-  - "Hebreeën 9:15"
-  - "Openbaring 13:8"
----

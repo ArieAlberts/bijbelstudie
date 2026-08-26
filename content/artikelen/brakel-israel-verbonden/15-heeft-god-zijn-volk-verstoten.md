@@ -1,4 +1,4 @@
----
+﻿---
 id: brakel-15
 slug: heeft-god-zijn-volk-verstoten
 series_slug: brakel-israel-verbonden
@@ -16,7 +16,16 @@ primary_source: "Wilhelmus à Brakel, De Redelijke Godsdienst"
 source_scope: "Deel III, hoofdstuk 6, §§ XI–XII"
 facebook_format: "didactische-herordening"
 facebook_angle: "Bij Romeinen 11 weigert Brakel de vraag naar Israël af te sluiten met een definitieve verwerping."
-body_nl: |
+sources_brakel:
+  - label: "Wilhelmus à Brakel, De Redelijke Godsdienst, Deel III, hoofdstuk 6, §§ XI–XII"
+    detail: "Primaire bron voor Brakels eigen redenering in dit artikel."
+scripture:
+  - "Romans 11:1–2"
+  - "Romans 11:11–15"
+  - "Jeremia 31:35–37"
+  - "Psalm 94:14"
+---
+
 <p>“Heeft God Zijn volk verstoten?”</p>
 
 <p>Brakel laat die vraag niet oplossen door het woord “volk” meteen een andere betekenis te geven. Hij zegt expliciet dat hij over de Joodse natie spreekt.</p>
@@ -38,12 +47,3 @@ body_nl: |
 <p>Paulus vertelt de heidengelovige niet alleen informatie over Israëls toekomst. Hij corrigeert een houding. De vraag naar Israël wordt daarmee ook een spiegel: wat doet genade met onze omgang met degenen van wie de verbondsgeschiedenis ons voorafging?</p>
 
 <div class="question-block"><strong>De volgende aflevering gaat daarom niet eerst over een tijdschema, maar over een boom:</strong> wortel, natuurlijke takken en wilde takken.</div>
-sources_brakel:
-  - label: "Wilhelmus à Brakel, De Redelijke Godsdienst, Deel III, hoofdstuk 6, §§ XI–XII"
-    detail: "Primaire bron voor Brakels eigen redenering in dit artikel."
-scripture:
-  - "Romans 11:1–2"
-  - "Romans 11:11–15"
-  - "Jeremia 31:35–37"
-  - "Psalm 94:14"
----

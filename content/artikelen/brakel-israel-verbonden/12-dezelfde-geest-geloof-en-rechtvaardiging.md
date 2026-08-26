@@ -1,4 +1,4 @@
----
+﻿---
 id: brakel-12
 slug: dezelfde-geest-geloof-en-rechtvaardiging
 series_slug: brakel-israel-verbonden
@@ -16,7 +16,17 @@ primary_source: "Wilhelmus à Brakel, De Redelijke Godsdienst"
 source_scope: "Deel III, hoofdstuk 5"
 facebook_format: "didactische-herordening"
 facebook_angle: "Oudtestamentische gelovigen leefden volgens Brakel niet in een minder soort heil."
-body_nl: |
+sources_brakel:
+  - label: "Wilhelmus à Brakel, De Redelijke Godsdienst, Deel III, hoofdstuk 5"
+    detail: "Primaire bron voor Brakels eigen redenering in dit artikel."
+scripture:
+  - "Psalm 32:1–2"
+  - "Romans 4:5–8"
+  - "Galaten 4:4–7"
+  - "Hebreeën 11"
+  - "1 Petrus 1:10–12"
+---
+
 <p>Brakel weigert van oudtestamentische gelovigen tweederangs kinderen van God te maken.</p>
 
 <p>Zijn woorden in hoofdstuk 5 zijn opvallend sterk: dezelfde Geest, hetzelfde geloof, dezelfde rechtvaardiging en vergeving, dezelfde vrede en hetzelfde kindschap — al erkent hij verschillen in mate en helderheid.</p>
@@ -41,13 +51,3 @@ body_nl: |
 
 <h2>Toch zijn oud en nieuw niet identiek</h2>
 <p>De volgende aflevering bewaakt de andere kant. Brakel zegt niet dat er niets veranderde. Hij spreekt juist over een groot verschil in licht, geloofshelderheid, vertroosting en bediening. Het verschil ligt volgens hem in de trap, niet in het wezen van het heil.</p>
-sources_brakel:
-  - label: "Wilhelmus à Brakel, De Redelijke Godsdienst, Deel III, hoofdstuk 5"
-    detail: "Primaire bron voor Brakels eigen redenering in dit artikel."
-scripture:
-  - "Psalm 32:1–2"
-  - "Romans 4:5–8"
-  - "Galaten 4:4–7"
-  - "Hebreeën 11"
-  - "1 Petrus 1:10–12"
----

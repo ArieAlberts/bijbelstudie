@@ -1,4 +1,4 @@
----
+﻿---
 id: brakel-13
 slug: verschil-in-trap-niet-in-wezen
 series_slug: brakel-israel-verbonden
@@ -16,7 +16,16 @@ primary_source: "Wilhelmus à Brakel, De Redelijke Godsdienst"
 source_scope: "Deel III, hoofdstuk 5"
 facebook_format: "verbondsmatige-spiegel"
 facebook_angle: "Brakel erkent grote verschillen tussen beide bedieningen, maar weigert die tot twee soorten heil te maken."
-body_nl: |
+sources_brakel:
+  - label: "Wilhelmus à Brakel, De Redelijke Godsdienst, Deel III, hoofdstuk 5"
+    detail: "Primaire bron voor Brakels eigen redenering in dit artikel."
+scripture:
+  - "Jeremia 31:31–34"
+  - "2 Korinthe 3:6–18"
+  - "Hebreeën 8:6–13"
+  - "Galaten 4:1–7"
+---
+
 <p>“Hetzelfde heil” is niet hetzelfde als “alles bleef hetzelfde”.</p>
 
 <p>Brakel houdt die twee zinnen tegelijk vast. Dat is nodig, omdat zijn nadruk op één genadeverbond anders gemakkelijk kan klinken alsof de komst van Christus nauwelijks iets verandert.</p>
@@ -41,12 +50,3 @@ body_nl: |
 
 <h2>Nu komen de volken nadrukkelijk in beeld</h2>
 <p>Vanuit deze overgang komen we bij de kerk van het Nieuwe Testament. Brakel spreekt over Joden en heidenen die samen één kerk vormen. Maar betekent die eenheid dat Israël als Joodse natie geen afzonderlijke toekomst meer heeft? Hij zal zelf later zeggen van niet.</p>
-sources_brakel:
-  - label: "Wilhelmus à Brakel, De Redelijke Godsdienst, Deel III, hoofdstuk 5"
-    detail: "Primaire bron voor Brakels eigen redenering in dit artikel."
-scripture:
-  - "Jeremia 31:31–34"
-  - "2 Korinthe 3:6–18"
-  - "Hebreeën 8:6–13"
-  - "Galaten 4:1–7"
----

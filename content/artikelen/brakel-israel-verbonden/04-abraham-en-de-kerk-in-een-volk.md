@@ -1,4 +1,4 @@
----
+﻿---
 id: brakel-04
 slug: abraham-en-de-kerk-in-een-volk
 series_slug: brakel-israel-verbonden
@@ -16,7 +16,16 @@ primary_source: "Wilhelmus à Brakel, De Redelijke Godsdienst"
 source_scope: "Deel III, hoofdstuk 1 slot; hoofdstuk 2 opening"
 facebook_format: "verbondsmatige-spiegel"
 facebook_angle: "Brakel verschuift van de algemene kerk vóór Abraham naar Abraham en zijn zaad als bijzondere historische bedding."
-body_nl: |
+sources_brakel:
+  - label: "Wilhelmus à Brakel, De Redelijke Godsdienst, Deel III, hoofdstuk 1 slot; hoofdstuk 2 opening"
+    detail: "Primaire bron voor Brakels eigen redenering in dit artikel."
+scripture:
+  - "Genesis 12:1–3"
+  - "Genesis 17"
+  - "Romeinen 4"
+  - "Galaten 3:6–18"
+---
+
 <p>Bij Abraham wordt Gods weg smaller — en juist daardoor krijgt zij een wereldwijde horizon.</p>
 
 <p>Brakel beschrijft de periode vóór Abraham als een tijd waarin Gods kerk onder verschillende volken gevonden werd. Met Abraham krijgt die geschiedenis een bijzondere nationale bedding: God neemt Abraham en zijn zaad apart. Dat is geen verwerping van Zijn eerdere genade, maar een nieuwe historische vorm ervan.</p>
@@ -40,12 +49,3 @@ body_nl: |
 
 <h2>Het teken komt erbij</h2>
 <p>In de volgende aflevering kijken we naar de besnijdenis. Voor Brakel is dat niet een middel waarmee Abraham en zijn zaad het verbond verdienen. Hij noemt haar een zegel van het genadeverbond. Daarmee wordt zichtbaar hoe teken, belofte, lichaam en geloof in zijn systeem samenkomen.</p>
-sources_brakel:
-  - label: "Wilhelmus à Brakel, De Redelijke Godsdienst, Deel III, hoofdstuk 1 slot; hoofdstuk 2 opening"
-    detail: "Primaire bron voor Brakels eigen redenering in dit artikel."
-scripture:
-  - "Genesis 12:1–3"
-  - "Genesis 17"
-  - "Romeinen 4"
-  - "Galaten 3:6–18"
----

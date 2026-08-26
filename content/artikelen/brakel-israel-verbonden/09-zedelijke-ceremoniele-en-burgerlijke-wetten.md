@@ -1,4 +1,4 @@
----
+﻿---
 id: brakel-09
 slug: zedelijke-ceremoniele-en-burgerlijke-wetten
 series_slug: brakel-israel-verbonden
@@ -16,7 +16,16 @@ primary_source: "Wilhelmus à Brakel, De Redelijke Godsdienst"
 source_scope: "Deel III, hoofdstuk 3, §§ I–II"
 facebook_format: "didactische-herordening"
 facebook_angle: "Brakel ordent de Sinaïtische wetgeving naar functie en plaatst alle drie na Israëls verbondstoetreding."
-body_nl: |
+sources_brakel:
+  - label: "Wilhelmus à Brakel, De Redelijke Godsdienst, Deel III, hoofdstuk 3, §§ I–II"
+    detail: "Primaire bron voor Brakels eigen redenering in dit artikel."
+scripture:
+  - "Exodus 20–24"
+  - "Leviticus 1–7"
+  - "Deuteronomium 4:5–8"
+  - "Hebreeën 9–10"
+---
+
 <p>Nadat Israël volgens Brakel in het verbond is ingegaan, krijgt het volk wetten “waarnaar zij zich hadden te gedragen”.</p>
 
 <p>Brakel onderscheidt die wetgeving in drie grote groepen: zedelijk, ceremonieel en burgerlijk. Niet omdat de Torah zelf op iedere bladzijde zulke kopjes gebruikt, maar als theologische ordening van verschillende functies.</p>
@@ -41,12 +50,3 @@ body_nl: |
 
 <h2>De ceremoniën verdienen een eigen artikel</h2>
 <p>Brakel spreekt opmerkelijk positief over de ceremoniële dienst. Hij verzet zich tegen de gedachte dat deze instellingen eenvoudig een straf na het gouden kalf waren. Voor hem waren zij een voorrecht — juist omdat zij Christus verkondigden in schaduw en teken.</p>
-sources_brakel:
-  - label: "Wilhelmus à Brakel, De Redelijke Godsdienst, Deel III, hoofdstuk 3, §§ I–II"
-    detail: "Primaire bron voor Brakels eigen redenering in dit artikel."
-scripture:
-  - "Exodus 20–24"
-  - "Leviticus 1–7"
-  - "Deuteronomium 4:5–8"
-  - "Hebreeën 9–10"
----

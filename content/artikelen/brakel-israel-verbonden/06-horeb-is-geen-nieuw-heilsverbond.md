@@ -1,4 +1,4 @@
----
+﻿---
 id: brakel-06
 slug: horeb-is-geen-nieuw-heilsverbond
 series_slug: brakel-israel-verbonden
@@ -16,7 +16,16 @@ primary_source: "Wilhelmus à Brakel, De Redelijke Godsdienst"
 source_scope: "Deel III, hoofdstuk 2, behandeling van Horeb"
 facebook_format: "didactische-herordening"
 facebook_angle: "Brakel noemt het verbond bij Horeb hetzelfde genadeverbond dat reeds met Abraham was opgericht."
-body_nl: |
+sources_brakel:
+  - label: "Wilhelmus à Brakel, De Redelijke Godsdienst, Deel III, hoofdstuk 2, behandeling van Horeb"
+    detail: "Primaire bron voor Brakels eigen redenering in dit artikel."
+scripture:
+  - "Exodus 19:3–8"
+  - "Exodus 20:1–2"
+  - "Deuteronomium 7:6–9"
+  - "Galaten 3:15–18"
+---
+
 <p>Bij Sinaï hoort Brakel niet eerst: “doe dit en verdien Mijn volk te worden.” Hij hoort eerst dat God een volk tot Zich heeft gebracht.</p>
 
 <p>Dat maakt zijn uitleg van Exodus 19 fundamenteel anders dan een schema waarin Israël bij Horeb een nieuw heilsverbond van werken ontvangt.</p>
@@ -40,12 +49,3 @@ body_nl: |
 
 <h2>Een bezwaar blijft over</h2>
 <p>Maar kon Horeb dan misschien tegelijk nóg een ander verbond zijn — een uiterlijk, nationaal en typisch verbond naast het genadeverbond? Brakel kent die gedachte en bestrijdt haar uitvoerig. Dat is het onderwerp van de volgende aflevering.</p>
-sources_brakel:
-  - label: "Wilhelmus à Brakel, De Redelijke Godsdienst, Deel III, hoofdstuk 2, behandeling van Horeb"
-    detail: "Primaire bron voor Brakels eigen redenering in dit artikel."
-scripture:
-  - "Exodus 19:3–8"
-  - "Exodus 20:1–2"
-  - "Deuteronomium 7:6–9"
-  - "Galaten 3:15–18"
----

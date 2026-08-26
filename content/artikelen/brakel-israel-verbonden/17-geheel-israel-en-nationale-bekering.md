@@ -1,4 +1,4 @@
----
+﻿---
 id: brakel-17
 slug: geheel-israel-en-nationale-bekering
 series_slug: brakel-israel-verbonden
@@ -16,7 +16,15 @@ primary_source: "Wilhelmus à Brakel, De Redelijke Godsdienst"
 source_scope: "Deel III, hoofdstuk 6, §§ XIX–XXI"
 facebook_format: "paradoxale-ontvouwing"
 facebook_angle: "Wat bedoelt Brakel wel — en niet — wanneer hij spreekt over de bekering van de gehele Joodse natie?"
-body_nl: |
+sources_brakel:
+  - label: "Wilhelmus à Brakel, De Redelijke Godsdienst, Deel III, hoofdstuk 6, §§ XIX–XXI"
+    detail: "Primaire bron voor Brakels eigen redenering in dit artikel."
+scripture:
+  - "Romans 11:25–29"
+  - "Isaiah 59:20–21"
+  - "Jeremia 31:31–37"
+---
+
 <p>Wanneer Brakel schrijft over een “gehele nationale bekering”, gebruikt hij grote woorden. Daarom moeten we precies vragen wat hij bedoelt.</p>
 
 <h2>Niet ieder individu zonder uitzondering</h2>
@@ -39,11 +47,3 @@ body_nl: |
 
 <h2>Brakel stapelt vervolgens teksten</h2>
 <p>Na Romeinen 11 is hij niet klaar. Hij gaat naar 2 Korinthe 3, woorden van Yeshua en verschillende profeten. Daarmee probeert hij te tonen dat zijn verwachting niet op één moeilijke formulering rust.</p>
-sources_brakel:
-  - label: "Wilhelmus à Brakel, De Redelijke Godsdienst, Deel III, hoofdstuk 6, §§ XIX–XXI"
-    detail: "Primaire bron voor Brakels eigen redenering in dit artikel."
-scripture:
-  - "Romans 11:25–29"
-  - "Isaiah 59:20–21"
-  - "Jeremia 31:31–37"
----

@@ -1,4 +1,4 @@
----
+﻿---
 id: brakel-19
 slug: terugkeer-naar-het-vaderland
 series_slug: brakel-israel-verbonden
@@ -16,7 +16,18 @@ primary_source: "Wilhelmus à Brakel, De Redelijke Godsdienst"
 source_scope: "Deel III, hoofdstuk 6, §§ XXXII–XXXVIII"
 facebook_format: "verbondsmatige-spiegel"
 facebook_angle: "Brakel verwacht niet alleen bekering, maar ook een toekomstige terugkeer naar Kanaän — met duidelijke grenzen."
-body_nl: |
+sources_brakel:
+  - label: "Wilhelmus à Brakel, De Redelijke Godsdienst, Deel III, hoofdstuk 6, §§ XXXII–XXXVIII"
+    detail: "Primaire bron voor Brakels eigen redenering in dit artikel."
+scripture:
+  - "Deuteronomium 30:1–6"
+  - "Amos 9:14–15"
+  - "Ezechiël 37:21–28"
+  - "Jesaja 62"
+  - "Zacharia 2"
+  - "Daniël 9:26–27"
+---
+
 <p>Brakel verwacht niet alleen een toekomstige bekering van de Joodse natie. Hij verwacht ook een terugkeer naar het land.</p>
 
 <p>Dat is belangrijk om zonder moderne projectie vast te stellen: hij schreef dit eeuwen vóór 1948. Zijn redenering ontstaat uit zijn lezing van de profeten, niet uit een reactie op de moderne staat Israël.</p>
@@ -45,14 +56,3 @@ body_nl: |
 
 <h2>En wat moeten christenen daarmee?</h2>
 <p>Brakel eindigt verrassend pastoraal. Hij wil niet dat de lezer deze dingen alleen “weet”. De verwachting moet een houding vormen. Zijn laatste paragraaf wordt daarom het slot van onze serie.</p>
-sources_brakel:
-  - label: "Wilhelmus à Brakel, De Redelijke Godsdienst, Deel III, hoofdstuk 6, §§ XXXII–XXXVIII"
-    detail: "Primaire bron voor Brakels eigen redenering in dit artikel."
-scripture:
-  - "Deuteronomium 30:1–6"
-  - "Amos 9:14–15"
-  - "Ezechiël 37:21–28"
-  - "Jesaja 62"
-  - "Zacharia 2"
-  - "Daniël 9:26–27"
----

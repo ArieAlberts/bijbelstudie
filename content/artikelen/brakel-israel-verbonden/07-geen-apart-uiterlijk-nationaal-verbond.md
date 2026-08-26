@@ -1,4 +1,4 @@
----
+﻿---
 id: brakel-07
 slug: geen-apart-uiterlijk-nationaal-verbond
 series_slug: brakel-israel-verbonden
@@ -16,7 +16,16 @@ primary_source: "Wilhelmus à Brakel, De Redelijke Godsdienst"
 source_scope: "Deel III, hoofdstuk 2, tegenwerpingen over Sinaï"
 facebook_format: "verbondsmatige-spiegel"
 facebook_angle: "Brakel bestrijdt de gedachte dat Sinaï naast het genadeverbond nog een afzonderlijk nationaal heilsverbond vormt."
-body_nl: |
+sources_brakel:
+  - label: "Wilhelmus à Brakel, De Redelijke Godsdienst, Deel III, hoofdstuk 2, tegenwerpingen over Sinaï"
+    detail: "Primaire bron voor Brakels eigen redenering in dit artikel."
+scripture:
+  - "Exodus 19–24"
+  - "Psalm 78:36–37"
+  - "1 Korinthe 10:1–5"
+  - "Hebreeën 3–4"
+---
+
 <p>Brakel maakt onderscheid binnen Israël, maar hij maakt van dat onderscheid geen tweede heilsverbond.</p>
 
 <p>Dat is de kern van zijn antwoord op de gedachte dat Sinaï naast het genadeverbond een apart uiterlijk, nationaal en voorbeeldig verbond zou vormen.</p>
@@ -40,12 +49,3 @@ body_nl: |
 
 <h2>Nu komt de wet</h2>
 <p>Na het verbond volgt in Exodus 20 de wet. Brakel dringt erop aan die volgorde niet om te keren. Het volgende artikel gaat daarom over een van zijn meest opvallende formuleringen: de wet is “een regel voor de bondgenoten”.</p>
-sources_brakel:
-  - label: "Wilhelmus à Brakel, De Redelijke Godsdienst, Deel III, hoofdstuk 2, tegenwerpingen over Sinaï"
-    detail: "Primaire bron voor Brakels eigen redenering in dit artikel."
-scripture:
-  - "Exodus 19–24"
-  - "Psalm 78:36–37"
-  - "1 Korinthe 10:1–5"
-  - "Hebreeën 3–4"
----

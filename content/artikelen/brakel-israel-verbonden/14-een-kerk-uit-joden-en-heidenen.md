@@ -1,4 +1,4 @@
----
+﻿---
 id: brakel-14
 slug: een-kerk-uit-joden-en-heidenen
 series_slug: brakel-israel-verbonden
@@ -16,7 +16,17 @@ primary_source: "Wilhelmus à Brakel, De Redelijke Godsdienst"
 source_scope: "Deel III, hoofdstuk 5–6; vgl. Deel II over het Koninkrijk"
 facebook_format: "paradoxale-ontvouwing"
 facebook_angle: "De uitbreiding naar de volken betekent voor Brakel geen tweede kerk, maar deelname aan dezelfde goederen van het genadeverbond."
-body_nl: |
+sources_brakel:
+  - label: "Wilhelmus à Brakel, De Redelijke Godsdienst, Deel III, hoofdstuk 5–6; vgl. Deel II over het Koninkrijk"
+    detail: "Primaire bron voor Brakels eigen redenering in dit artikel."
+scripture:
+  - "Efeze 2:11–22"
+  - "Romans 11:17–24"
+  - "Galaten 3:26–29"
+  - "Galaten 4:4–7"
+  - "Johannes 10:16"
+---
+
 <p>Voor Brakel brengt de komst van de heidenen geen tweede boom voort.</p>
 
 <p>Hij spreekt over de uitbreiding van dezelfde genadegoederen tot de volken en over Joden en heidenen die samen één kerk uitmaken.</p>
@@ -40,13 +50,3 @@ body_nl: |
 
 <h2>De vraag die Brakel zelf stelt</h2>
 <p>Nu zijn we aangekomen bij hoofdstuk 6, paragraaf 11. Brakel formuleert daar de vraag zonder omwegen: zal de Joodse natie voor altijd verstoten blijven, of zal zij nog tot bekering komen?</p>
-sources_brakel:
-  - label: "Wilhelmus à Brakel, De Redelijke Godsdienst, Deel III, hoofdstuk 5–6; vgl. Deel II over het Koninkrijk"
-    detail: "Primaire bron voor Brakels eigen redenering in dit artikel."
-scripture:
-  - "Efeze 2:11–22"
-  - "Romans 11:17–24"
-  - "Galaten 3:26–29"
-  - "Galaten 4:4–7"
-  - "Johannes 10:16"
----

@@ -1,4 +1,4 @@
----
+﻿---
 id: brakel-02
 slug: een-genadeverbond-twee-bedieningen
 series_slug: brakel-israel-verbonden
@@ -16,7 +16,16 @@ primary_source: "Wilhelmus à Brakel, De Redelijke Godsdienst"
 source_scope: "Deel III, hoofdstuk 1, §§ I–II"
 facebook_format: "paradoxale-ontvouwing"
 facebook_angle: "Brakel begint zijn geschiedenis van de kerk niet met twee volken, maar met één genadeverbond in verschillende bedieningen."
-body_nl: |
+sources_brakel:
+  - label: "Wilhelmus à Brakel, De Redelijke Godsdienst, Deel III, hoofdstuk 1, §§ I–II"
+    detail: "Primaire bron voor Brakels eigen redenering in dit artikel."
+scripture:
+  - "Genesis 3:15"
+  - "Hebreeën 11"
+  - "Galaten 3"
+  - "Hebreeën 8–10"
+---
+
 <p>Wanneer wij Brakel over Israël en de verbonden willen begrijpen, is het verleidelijk om meteen naar Romeinen 11 te springen. Brakel zelf doet dat niet. Hij begint veel eerder. In het eerste hoofdstuk van deel III zet hij eerst de lange lijn van Gods kerk uiteen en onderscheidt hij het Oude en het Nieuwe Testament als twee bedieningen van dezelfde genadewerkelijkheid.</p>
 
 <h2>Waar staan we in Brakels werk?</h2>
@@ -39,12 +48,3 @@ body_nl: |
 
 <h2>De beweging van deze serie</h2>
 <p>De volgende stap is nog fundamenteler. Brakel laat het genadeverbond niet bij Abraham beginnen. Hij gaat terug naar het paradijs, naar het moment waarop de mens juist niets meer heeft om op te bouwen. Daar, na de val, laat hij de eerste openbaring van het Evangelie beginnen.</p>
-sources_brakel:
-  - label: "Wilhelmus à Brakel, De Redelijke Godsdienst, Deel III, hoofdstuk 1, §§ I–II"
-    detail: "Primaire bron voor Brakels eigen redenering in dit artikel."
-scripture:
-  - "Genesis 3:15"
-  - "Hebreeën 11"
-  - "Galaten 3"
-  - "Hebreeën 8–10"
----

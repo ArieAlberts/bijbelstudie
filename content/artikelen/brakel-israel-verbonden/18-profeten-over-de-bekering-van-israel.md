@@ -1,4 +1,4 @@
----
+﻿---
 id: brakel-18
 slug: profeten-over-de-bekering-van-israel
 series_slug: brakel-israel-verbonden
@@ -16,7 +16,18 @@ primary_source: "Wilhelmus à Brakel, De Redelijke Godsdienst"
 source_scope: "Deel III, hoofdstuk 6, §§ XXII–XXXI"
 facebook_format: "didactische-herordening"
 facebook_angle: "Na Romeinen 11 bouwt Brakel zijn verwachting verder uit met Paulus, Yeshua en de profeten."
-body_nl: |
+sources_brakel:
+  - label: "Wilhelmus à Brakel, De Redelijke Godsdienst, Deel III, hoofdstuk 6, §§ XXII–XXXI"
+    detail: "Primaire bron voor Brakels eigen redenering in dit artikel."
+scripture:
+  - "2 Korinthe 3:14–16"
+  - "Mattheüs 23:37–39"
+  - "Lukas 21:24"
+  - "Jesaja 61:1–9"
+  - "Jeremia 31:31–40"
+  - "Hosea 3:4–5"
+---
+
 <p>Brakel bouwt zijn verwachting van Israëls bekering niet op één tekst alleen.</p>
 
 <p>Na Romeinen 11 trekt hij een hele rij Schriftplaatsen langs. Daarmee wil hij laten zien dat dezelfde beweging vanuit verschillende kanten zichtbaar wordt.</p>
@@ -41,14 +52,3 @@ body_nl: |
 
 <h2>Van bekering naar land</h2>
 <p>Na paragraaf 31 maakt Brakel een opvallende volgende stap. Hij vraagt niet alleen of Israël geestelijk zal terugkeren, maar ook of de Joodse natie opnieuw in het land zal wonen. Zijn antwoord is opnieuw: ja.</p>
-sources_brakel:
-  - label: "Wilhelmus à Brakel, De Redelijke Godsdienst, Deel III, hoofdstuk 6, §§ XXII–XXXI"
-    detail: "Primaire bron voor Brakels eigen redenering in dit artikel."
-scripture:
-  - "2 Korinthe 3:14–16"
-  - "Mattheüs 23:37–39"
-  - "Lukas 21:24"
-  - "Jesaja 61:1–9"
-  - "Jeremia 31:31–40"
-  - "Hosea 3:4–5"
----

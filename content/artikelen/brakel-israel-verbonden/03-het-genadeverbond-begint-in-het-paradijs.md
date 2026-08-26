@@ -1,4 +1,4 @@
----
+﻿---
 id: brakel-03
 slug: het-genadeverbond-begint-in-het-paradijs
 series_slug: brakel-israel-verbonden
@@ -16,7 +16,16 @@ primary_source: "Wilhelmus à Brakel, De Redelijke Godsdienst"
 source_scope: "Deel III, hoofdstuk 1, §§ III–IV"
 facebook_format: "didactische-herordening"
 facebook_angle: "Na de val begint voor Brakel niet een plan B, maar de openbaring van Gods genadebelofte."
-body_nl: |
+sources_brakel:
+  - label: "Wilhelmus à Brakel, De Redelijke Godsdienst, Deel III, hoofdstuk 1, §§ III–IV"
+    detail: "Primaire bron voor Brakels eigen redenering in dit artikel."
+scripture:
+  - "Genesis 3:15"
+  - "Genesis 4"
+  - "Genesis 6–9"
+  - "Hebreeën 11:4–7"
+---
+
 <p>Brakel begint het genadeverbond niet waar de mens iets heeft opgebouwd, maar waar alles is ingestort.</p>
 
 <p>Dat is misschien wel de meest bepalende beweging in zijn verbondsleer. Na de val van Adam ziet hij niet eerst een nieuwe menselijke opdracht waardoor de mens zich weer naar God moet opwerken. Hij ziet Gods eigen spreken: de belofte die in het paradijs klinkt en die hij als eerste evangelische openbaring leest.</p>
@@ -40,12 +49,3 @@ body_nl: |
 
 <h2>Volgende stap: Abraham</h2>
 <p>Na deze brede voorgeschiedenis komt Brakel bij Abraham. Daar verandert de vorm van de geschiedenis ingrijpend: Gods kerk krijgt een bijzondere verbondenheid met één familie en één volk. De vraag wordt dan hoe universaliteit van genade en bijzonderheid van Israël zich tot elkaar verhouden.</p>
-sources_brakel:
-  - label: "Wilhelmus à Brakel, De Redelijke Godsdienst, Deel III, hoofdstuk 1, §§ III–IV"
-    detail: "Primaire bron voor Brakels eigen redenering in dit artikel."
-scripture:
-  - "Genesis 3:15"
-  - "Genesis 4"
-  - "Genesis 6–9"
-  - "Hebreeën 11:4–7"
----

@@ -1,4 +1,4 @@
----
+﻿---
 id: brakel-10
 slug: ceremonien-als-evangelische-zegen
 series_slug: brakel-israel-verbonden
@@ -16,7 +16,17 @@ primary_source: "Wilhelmus à Brakel, De Redelijke Godsdienst"
 source_scope: "Deel III, hoofdstuk 3, §§ XXXIV–XXXV"
 facebook_format: "verbondsmatige-spiegel"
 facebook_angle: "Brakel leest Israëls ceremoniële dienst als voorrecht en onderwijs in de komende Messias."
-body_nl: |
+sources_brakel:
+  - label: "Wilhelmus à Brakel, De Redelijke Godsdienst, Deel III, hoofdstuk 3, §§ XXXIV–XXXV"
+    detail: "Primaire bron voor Brakels eigen redenering in dit artikel."
+scripture:
+  - "Romans 3:1–2"
+  - "Romans 9:4–5"
+  - "Hebreeën 5:1–10"
+  - "Hebreeën 9:1–14"
+  - "Kolossenzen 2:16–17"
+---
+
 <p>Wij kunnen de ceremoniële wetten zo sterk met “schaduw” verbinden dat schaduw bijna “minderwaardig” gaat betekenen.</p>
 
 <p>Brakel doet dat niet.</p>
@@ -41,13 +51,3 @@ body_nl: |
 
 <h2>De vraag achter de schaduwen</h2>
 <p>Maar hoe konden gelovigen vóór het kruis werkelijk delen in vergeving als de voldoening historisch nog niet was volbracht? Brakel wijdt daar een heel hoofdstuk aan. Zijn antwoord rust op Christus als Borg.</p>
-sources_brakel:
-  - label: "Wilhelmus à Brakel, De Redelijke Godsdienst, Deel III, hoofdstuk 3, §§ XXXIV–XXXV"
-    detail: "Primaire bron voor Brakels eigen redenering in dit artikel."
-scripture:
-  - "Romans 3:1–2"
-  - "Romans 9:4–5"
-  - "Hebreeën 5:1–10"
-  - "Hebreeën 9:1–14"
-  - "Kolossenzen 2:16–17"
----

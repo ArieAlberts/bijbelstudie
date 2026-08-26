@@ -1,4 +1,4 @@
----
+﻿---
 id: brakel-16
 slug: de-olijfboom-en-de-wortel
 series_slug: brakel-israel-verbonden
@@ -16,7 +16,16 @@ primary_source: "Wilhelmus à Brakel, De Redelijke Godsdienst"
 source_scope: "Deel III, hoofdstuk 6, §§ XIII–XX"
 facebook_format: "verbondsmatige-spiegel"
 facebook_angle: "Brakels uitleg van Romeinen 11 is tegelijk eschatologie en een waarschuwing tegen heidense hoogmoed."
-body_nl: |
+sources_brakel:
+  - label: "Wilhelmus à Brakel, De Redelijke Godsdienst, Deel III, hoofdstuk 6, §§ XIII–XX"
+    detail: "Primaire bron voor Brakels eigen redenering in dit artikel."
+scripture:
+  - "Romans 11:16–24"
+  - "Genesis 12:1–3"
+  - "Romans 4:11–17"
+  - "Efeze 2:11–13"
+---
+
 <p>Een ingeënte tak heeft geen reden om neer te kijken op de takken waarvan hij afhankelijk is geworden.</p>
 
 <p>Dat is de pastorale kracht waarmee Brakel Romeinen 11 leest.</p>
@@ -43,12 +52,3 @@ body_nl: |
 
 <h2>“Geheel Israël”</h2>
 <p>Vervolgens komt de bekendste zin: “En alzo zal geheel Israël zalig worden.” Brakel verstaat dit als nationale bekering. Maar hij bedoelt daarmee niet dat iedere individuele Jood zonder geloof zalig wordt. Dat onderscheid staat centraal in het volgende artikel.</p>
-sources_brakel:
-  - label: "Wilhelmus à Brakel, De Redelijke Godsdienst, Deel III, hoofdstuk 6, §§ XIII–XX"
-    detail: "Primaire bron voor Brakels eigen redenering in dit artikel."
-scripture:
-  - "Romans 11:16–24"
-  - "Genesis 12:1–3"
-  - "Romans 4:11–17"
-  - "Efeze 2:11–13"
----

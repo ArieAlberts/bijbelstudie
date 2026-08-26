@@ -1,4 +1,4 @@
----
+﻿---
 id: brakel-00
 slug: brakel-israel-en-de-verbonden-nieuwe-serie
 series_slug: brakel-israel-verbonden
@@ -14,8 +14,21 @@ title_nl: "Brakel, Israël en de verbonden — een nieuwe serie"
 summary_nl: "Een uitnodiging om Wilhelmus à Brakel zelf te lezen en stap voor stap te onderzoeken wat hij werkelijk leerde over Israël, de kerk, de Torah en Gods verbonden."
 facebook_format: "verbondsmatige-spiegel"
 facebook_angle: "De serie openen en Brakel zelf laten spreken."
-body_nl: |
-  <p>Wie was Israël volgens Wilhelmus à Brakel? Welk verbond sloot God met Abraham? Wat gebeurde er werkelijk bij de Sinaï? Was daar sprake van een nieuw verbond, of van de voortzetting van iets wat al bestond? Wat veranderde er met de komst van Christus? En misschien nog belangrijker: <strong>is God volgens Brakel klaar met het Joodse volk?</strong></p>
+sources_brakel:
+  - label: "Wilhelmus à Brakel, De Redelijke Godsdienst, deel III, hoofdstuk 2"
+    detail: "Over het genadeverbond, Abraham, Israël en Horeb."
+  - label: "Wilhelmus à Brakel, De Redelijke Godsdienst, deel III, hoofdstuk 6, §§11–39"
+    detail: "Over de toekomstige bekering van de Joodse natie, Romeinen 11 en de terugkeer naar het land."
+scripture:
+  - "Genesis 12; 15; 17"
+  - "Exodus 19–20"
+  - "Jeremia 31"
+  - "Ezechiël 37"
+  - "Romeinen 9–11"
+  - "2 Korinthe 3"
+---
+
+<p>Wie was Israël volgens Wilhelmus à Brakel? Welk verbond sloot God met Abraham? Wat gebeurde er werkelijk bij de Sinaï? Was daar sprake van een nieuw verbond, of van de voortzetting van iets wat al bestond? Wat veranderde er met de komst van Christus? En misschien nog belangrijker: <strong>is God volgens Brakel klaar met het Joodse volk?</strong></p>
 
   <p>De komende tijd wil ik daar stap voor stap naar kijken.</p>
 
@@ -86,16 +99,3 @@ body_nl: |
   <blockquote>“Daar is maar één verbond, namelijk het verbond der genade.”</blockquote>
 
   <p>Wat bedoelt Brakel daarmee — en waar begint dat verbond volgens hem?</p>
-sources_brakel:
-  - label: "Wilhelmus à Brakel, De Redelijke Godsdienst, deel III, hoofdstuk 2"
-    detail: "Over het genadeverbond, Abraham, Israël en Horeb."
-  - label: "Wilhelmus à Brakel, De Redelijke Godsdienst, deel III, hoofdstuk 6, §§11–39"
-    detail: "Over de toekomstige bekering van de Joodse natie, Romeinen 11 en de terugkeer naar het land."
-scripture:
-  - "Genesis 12; 15; 17"
-  - "Exodus 19–20"
-  - "Jeremia 31"
-  - "Ezechiël 37"
-  - "Romeinen 9–11"
-  - "2 Korinthe 3"
----

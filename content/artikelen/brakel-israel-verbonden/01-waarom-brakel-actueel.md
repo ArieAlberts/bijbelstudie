@@ -1,4 +1,4 @@
----
+﻿---
 id: brakel-01
 slug: waarom-brakel-actueel
 series_slug: brakel-israel-verbonden
@@ -14,8 +14,38 @@ title_nl: "Waarom Brakel nog steeds actueel is"
 summary_nl: "Israël staat opnieuw midden in het publieke en kerkelijke debat. Juist daarom is het de moeite waard om te onderzoeken hoe Wilhelmus à Brakel Israël, de kerk en Gods verbonden met elkaar verbond."
 facebook_format: "verbondsmatige-spiegel"
 facebook_angle: "Waarom vragen rond Israël, kerk en verbond opnieuw scherp op tafel liggen."
-body_nl: |
-  <p>Wie het nieuws van de afgelopen jaren heeft gevolgd, kan bijna niet om Israël heen. De oorlog in Gaza, de positie van de Palestijnse bevolking, gijzelaars, veiligheid, nederzettingen, antisemitisme en de vraag naar de toekomst van het gebied lopen voortdurend door elkaar heen.</p>
+sources_brakel:
+  - label: "Wilhelmus à Brakel, De Redelijke Godsdienst, deel III, hoofdstuk 2"
+    detail: "Over het genadeverbond, Abraham, Israël en Horeb."
+  - label: "Wilhelmus à Brakel, De Redelijke Godsdienst, deel III, hoofdstuk 6, §§11–39"
+    detail: "Over Romeinen 11, de toekomstige bekering van de Joden en de terugkeer naar het land."
+
+scripture:
+  - "Genesis 12; 15; 17"
+  - "Exodus 19–20"
+  - "Jeremia 31:31–37"
+  - "Ezechiël 37"
+  - "Romeinen 9–11"
+  - "2 Korinthe 3"
+
+sources_news:
+  - label: "Reuters — berichtgeving over slachtoffers en de situatie in Gaza, 24 augustus 2026"
+    url: "https://www.reuters.com/world/middle-east/israeli-fire-kills-two-young-children-gaza-medics-say-2026-08-24/"
+  - label: "Reuters — berichtgeving over hulpverleners in conflictgebieden, 19 augustus 2026"
+    url: "https://www.reuters.com/world/africa/attacks-aid-workers-hit-record-high-2025-un-says-2026-08-19/"
+  - label: "Reuters — antisemitisme in Europa, 13 februari 2026"
+    url: "https://www.reuters.com/world/macron-calls-stronger-measures-against-antisemitism-france-2026-02-13/"
+  - label: "NOS — aanslagen op de Joodse gemeenschap in Nederland"
+    url: "https://nos.nl/collectie/14015/artikel/2606580-jetten-aanslagen-op-joodse-gemeenschap-onacceptabel-link-met-iran-onderzocht"
+  - label: "Protestantse Kerk in Nederland — Niet praten over elkaar, maar met elkaar"
+    url: "https://live.protestantsekerk.nl/nieuws/niet-praten-over-elkaar-maar-met-elkaar/"
+  - label: "The Guardian — debat binnen de Church of England over Palestina en Gaza, 19 juli 2026"
+    url: "https://www.theguardian.com/world/2026/jul/19/inside-church-of-england-debate-over-palestine-gaza"
+  - label: "World Council of Churches — overzicht Holy Land 2023–2025"
+    url: "https://www.oikoumene.org/sites/default/files/2026-02/WCCnews-HolyLand-1Jan2023-31December-2025-full.pdf"
+---
+
+<p>Wie het nieuws van de afgelopen jaren heeft gevolgd, kan bijna niet om Israël heen. De oorlog in Gaza, de positie van de Palestijnse bevolking, gijzelaars, veiligheid, nederzettingen, antisemitisme en de vraag naar de toekomst van het gebied lopen voortdurend door elkaar heen.</p>
 
   <p>Maar het gesprek blijft niet beperkt tot politiek. Ook in kerken ontstaat spanning. Sommige christenen leggen sterk de nadruk op Gods blijvende beloften aan Israël. Anderen wijzen vooral op het lijden van Palestijnen, onder wie ook Palestijnse christenen. Dezelfde Bijbel wordt gelezen, terwijl de conclusies soms lijnrecht tegenover elkaar staan.</p>
 
@@ -107,34 +137,3 @@ body_nl: |
   <p>Want voordat we vragen welke plaats Israël heeft, is het misschien goed dat wij onszelf eerst afvragen:</p>
 
   <p><strong>staan wij tegenover de wortel als mensen die haar willen bezitten — of als mensen die beseffen dat zij gedragen worden?</strong></p>
-
-sources_brakel:
-  - label: "Wilhelmus à Brakel, De Redelijke Godsdienst, deel III, hoofdstuk 2"
-    detail: "Over het genadeverbond, Abraham, Israël en Horeb."
-  - label: "Wilhelmus à Brakel, De Redelijke Godsdienst, deel III, hoofdstuk 6, §§11–39"
-    detail: "Over Romeinen 11, de toekomstige bekering van de Joden en de terugkeer naar het land."
-
-scripture:
-  - "Genesis 12; 15; 17"
-  - "Exodus 19–20"
-  - "Jeremia 31:31–37"
-  - "Ezechiël 37"
-  - "Romeinen 9–11"
-  - "2 Korinthe 3"
-
-sources_news:
-  - label: "Reuters — berichtgeving over slachtoffers en de situatie in Gaza, 24 augustus 2026"
-    url: "https://www.reuters.com/world/middle-east/israeli-fire-kills-two-young-children-gaza-medics-say-2026-08-24/"
-  - label: "Reuters — berichtgeving over hulpverleners in conflictgebieden, 19 augustus 2026"
-    url: "https://www.reuters.com/world/africa/attacks-aid-workers-hit-record-high-2025-un-says-2026-08-19/"
-  - label: "Reuters — antisemitisme in Europa, 13 februari 2026"
-    url: "https://www.reuters.com/world/macron-calls-stronger-measures-against-antisemitism-france-2026-02-13/"
-  - label: "NOS — aanslagen op de Joodse gemeenschap in Nederland"
-    url: "https://nos.nl/collectie/14015/artikel/2606580-jetten-aanslagen-op-joodse-gemeenschap-onacceptabel-link-met-iran-onderzocht"
-  - label: "Protestantse Kerk in Nederland — Niet praten over elkaar, maar met elkaar"
-    url: "https://live.protestantsekerk.nl/nieuws/niet-praten-over-elkaar-maar-met-elkaar/"
-  - label: "The Guardian — debat binnen de Church of England over Palestina en Gaza, 19 juli 2026"
-    url: "https://www.theguardian.com/world/2026/jul/19/inside-church-of-england-debate-over-palestine-gaza"
-  - label: "World Council of Churches — overzicht Holy Land 2023–2025"
-    url: "https://www.oikoumene.org/sites/default/files/2026-02/WCCnews-HolyLand-1Jan2023-31December-2025-full.pdf"
----

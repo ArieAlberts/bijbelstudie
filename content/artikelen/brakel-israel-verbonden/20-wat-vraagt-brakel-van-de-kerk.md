@@ -1,4 +1,4 @@
----
+﻿---
 id: brakel-20
 slug: wat-vraagt-brakel-van-de-kerk
 series_slug: brakel-israel-verbonden
@@ -16,7 +16,17 @@ primary_source: "Wilhelmus à Brakel, De Redelijke Godsdienst"
 source_scope: "Deel III, hoofdstuk 6, § XXXIX"
 facebook_format: "paradoxale-ontvouwing"
 facebook_angle: "De serie eindigt waar Brakel zelf eindigt: niet bij schema’s, maar bij verbondstrouw, nederigheid, liefde en gebed."
-body_nl: |
+sources_brakel:
+  - label: "Wilhelmus à Brakel, De Redelijke Godsdienst, Deel III, hoofdstuk 6, § XXXIX"
+    detail: "Primaire bron voor Brakels eigen redenering in dit artikel."
+scripture:
+  - "Romans 11:18–29"
+  - "Handelingen 3:25"
+  - "Genesis 12:1–3"
+  - "Psalm 122:6"
+  - "1 Timotheüs 2:1–4"
+---
+
 <p>Brakel eindigt zijn lange betoog over Israël niet met een tijdlijn.</p>
 
 <p>Hij eindigt met plichten.</p>
@@ -48,13 +58,3 @@ body_nl: |
 
 <h2>Verder lezen</h2>
 <p>De volledige serie blijft op Parasja.nl beschikbaar met bronverwijzingen per aflevering. Daarmee kan ieder artikel teruggebracht worden naar Brakels eigen hoofdstukken — en van daaruit naar de Schrift zelf.</p>
-sources_brakel:
-  - label: "Wilhelmus à Brakel, De Redelijke Godsdienst, Deel III, hoofdstuk 6, § XXXIX"
-    detail: "Primaire bron voor Brakels eigen redenering in dit artikel."
-scripture:
-  - "Romans 11:18–29"
-  - "Handelingen 3:25"
-  - "Genesis 12:1–3"
-  - "Psalm 122:6"
-  - "1 Timotheüs 2:1–4"
----

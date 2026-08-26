@@ -1,4 +1,4 @@
----
+﻿---
 id: brakel-08
 slug: de-wet-als-regel-voor-bondgenoten
 series_slug: brakel-israel-verbonden
@@ -16,7 +16,17 @@ primary_source: "Wilhelmus à Brakel, De Redelijke Godsdienst"
 source_scope: "Deel II, hoofdstuk 2, §§ XIV–XIX; Deel III, hoofdstuk 3"
 facebook_format: "paradoxale-ontvouwing"
 facebook_angle: "Exodus 19 en 20 moeten volgens Brakel onderscheiden worden: eerst het verbond, daarna de wet als levensregel."
-body_nl: |
+sources_brakel:
+  - label: "Wilhelmus à Brakel, De Redelijke Godsdienst, Deel II, hoofdstuk 2, §§ XIV–XIX; Deel III, hoofdstuk 3"
+    detail: "Primaire bron voor Brakels eigen redenering in dit artikel."
+scripture:
+  - "Exodus 19:3–8"
+  - "Exodus 20:1–17"
+  - "Jakobus 2:18"
+  - "Galaten 3:21"
+  - "Romeinen 10:4"
+---
+
 <p>Wij lezen Exodus 19 en 20 vaak in één adem. Brakel zet er bewust een grens tussen.</p>
 
 <p>Eerst wordt het verbond plechtig bevestigd. Daarna komt de wet.</p>
@@ -43,13 +53,3 @@ body_nl: |
 
 <h2>Maar over welke wetten hebben we het?</h2>
 <p>Brakel onderscheidt vervolgens zedelijke, ceremoniële en burgerlijke wetten. Dat is geen onbelangrijk schema: elk type wet krijgt bij hem een eigen functie binnen Israëls verbondsleven. Daar gaan we de volgende keer naar kijken.</p>
-sources_brakel:
-  - label: "Wilhelmus à Brakel, De Redelijke Godsdienst, Deel II, hoofdstuk 2, §§ XIV–XIX; Deel III, hoofdstuk 3"
-    detail: "Primaire bron voor Brakels eigen redenering in dit artikel."
-scripture:
-  - "Exodus 19:3–8"
-  - "Exodus 20:1–17"
-  - "Jakobus 2:18"
-  - "Galaten 3:21"
-  - "Romeinen 10:4"
----
