@@ -547,12 +547,12 @@ export default function WorksheetHero({ lang, onStudyChange, autoExpandReading }
               className="btn-secondary"
               onClick={() => setIsReadingExpanded(!isReadingExpanded)}
               aria-expanded={isReadingExpanded}
-              style={{ display: 'inline-flex', alignItems: 'center', gap: '6px', padding: '6px 14px', fontSize: '13.5px', fontWeight: 600 }}
+              style={{ display: 'inline-flex', alignItems: 'center', gap: '6px', padding: '7px 16px', fontSize: '14px', fontWeight: 600 }}
             >
               <span>
                 {isReadingExpanded
-                  ? (isEn ? 'Collapse ▲' : 'Inklappen ▲')
-                  : (isEn ? 'Read commentary ▶' : 'Lees lezing ▶')}
+                  ? (isEn ? 'Inklappen ▲' : 'Inklappen ▲')
+                  : (isEn ? 'Bible Passages & Self-Study ▼' : 'Bijbelgedeeltes en zelfstudie ▼')}
               </span>
               {isReadingExpanded ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
             </button>
