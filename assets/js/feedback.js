@@ -188,6 +188,7 @@
       if (req) req.hidden = !serious;
     }
     kind?.addEventListener('change', update);
+    email?.addEventListener('input', () => form.querySelector('[name="_replyto"]')?.setAttribute('value', email.value));
     update();
   }
 })();

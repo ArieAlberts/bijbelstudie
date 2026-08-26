@@ -83,6 +83,7 @@ function head({ title, description, canonical, rootPrefix }) {
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="${rootPrefix}assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="${rootPrefix}assets/css/articles.css">
+  <script defer src="${rootPrefix}assets/js/analytics.js"></script>
 </head>`;
 }
 

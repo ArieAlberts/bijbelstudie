@@ -33,6 +33,7 @@ export default function ContactForm({ lang }) {
           _subject: lang === 'nl' ? 'Nieuw bericht via parasja.nl (NL)' : 'New message via parasja.nl (EN)',
           _template: 'table',
           _captcha: 'false',
+          _replyto: formData.email,
           ...formData
         })
       });
