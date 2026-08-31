@@ -6,13 +6,11 @@
 <header class="site-header" style="display:none"><a class="brand" href="index.html">Zelf de parasja lezen</a><nav aria-label="Hoofdnavigatie"><a href="index.html#werkblad">Lees de parasja</a><a href="handleiding.html">Handleiding</a><a href="artikelen/">Artikelen</a><a aria-current="page" href="contact.html">Contact</a></nav><a class="language-switch" href="../en/contact.html">English</a></header>
 <section class="feedback-hero"><div class="eyebrow">Contact</div><h1>Neem contact op</h1><p>Kies waar je bericht over gaat. Het formulier vraagt daarna alleen om de gegevens die nodig zijn om je vraag te begrijpen en eventueel te beantwoorden.</p></section>
 <main class="feedback-shell" id="main" tabindex="-1"><div class="feedback-principle"><strong>Een gericht bericht kan zorgvuldiger worden beoordeeld.</strong> Gaat je vraag over een parasjalezing, benoem dan de tekst, wat je zelf al hebt onderzocht en waar je vastloopt. Kies voor een ander bericht “Overig contact”.</div><div class="context-chip" data-context-chip="" hidden=""></div>
-<form action="https://formsubmit.co/info@parasja.nl" class="serious-help-form" data-contact-page="true" method="POST" name="serious-help-request">
-<input type="hidden" name="_subject" value="Nieuw bericht via parasja.nl (NL)"/>
-<input type="hidden" name="_next" value="https://parasja.nl/nl/bedankt.html"/>
-<input type="hidden" name="_template" value="table"/>
-<input type="hidden" name="_captcha" value="false"/>
-<input type="hidden" name="_replyto" value=""/>
-<input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off"/>
+<form action="https://api.web3forms.com/submit" class="serious-help-form" data-contact-page="true" method="POST" name="serious-help-request">
+<input type="hidden" name="access_key" value="6c740cf3-8560-494a-9086-486c8210b35a"/>
+<input type="hidden" name="subject" value="Nieuw bericht via parasja.nl (NL)"/>
+<input type="hidden" name="redirect" value="https://parasja.nl/nl/bedankt.html"/>
+<input type="hidden" name="from_name" value="Parasja.nl Contactformulier"/>
 <input name="resolved_after_manual" type="hidden"/><input name="manual_read" type="hidden"/><input name="language" type="hidden" value="nl"/><input name="source_context" type="hidden"/><input name="page_url" type="hidden"/><input name="version" type="hidden" value="1.3"/>
 <div class="form-field"><label for="soort">Waarover wil je contact opnemen?</label><select id="soort" name="soort" required=""><option value="">Maak een keuze</option><option value="persoonlijke-hulp">Ik wil hulp bij mijn eigen parasjastudie</option><option value="inhoudelijke-vraag">Ik heb een inhoudelijke vraag over de methode</option><option value="inhoudelijke-fout">Ik denk dat iets inhoudelijk onduidelijk of onjuist is</option><option value="technisch-probleem">Een koppeling of functie werkt niet</option><option value="suggestie">Ik heb een suggestie</option><option value="overig-contact">Overig contact</option></select></div>
 <div class="help-requirement" data-help-requirement="" hidden="">Bij een hulpvraag of inhoudelijke vraag zijn je naam, e-mailadres en beschrijving van wat je al hebt geprobeerd verplicht.</div>

@@ -23,21 +23,26 @@ export default function ContactForm({ lang }) {
     e.preventDefault();
     setSending(true);
     try {
-      await fetch('https://formsubmit.co/ajax/info@parasja.nl', {
+      const response = await fetch('https://api.web3forms.com/submit', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
           'Accept': 'application/json'
         },
         body: JSON.stringify({
-          _subject: lang === 'nl' ? 'Nieuw bericht via parasja.nl (NL)' : 'New message via parasja.nl (EN)',
-          _template: 'table',
-          _captcha: 'false',
-          _replyto: formData.email,
+          access_key: '6c740cf3-8560-494a-9086-486c8210b35a',
+          subject: lang === 'nl' ? 'Nieuw bericht via parasja.nl (NL)' : 'New message via parasja.nl (EN)',
+          from_name: 'Parasja.nl Contactformulier',
+          replyto: formData.email,
           ...formData
         })
       });
-      setSubmitted(true);
+      const data = await response.json();
+      if (data.success) {
+        setSubmitted(true);
+      } else {
+        throw new Error(data.message || 'Versturen mislukt');
+      }
     } catch (err) {
       console.error(err);
       alert(lang === 'nl' ? 'Er is iets misgegaan bij het versturen.' : 'Something went wrong while sending.');

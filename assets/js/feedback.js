@@ -62,16 +62,16 @@
   }
 
   async function postQuick(payload) {
-    const response = await fetch('https://formsubmit.co/ajax/info@parasja.nl', {
+    const response = await fetch('https://api.web3forms.com/submit', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
         'Accept': 'application/json'
       },
       body: JSON.stringify({
-        _subject: `Korte feedback via parasja.nl (${lang.toUpperCase()}) - ${payload.title || payload.id}`,
-        _template: 'table',
-        _captcha: 'false',
+        access_key: '6c740cf3-8560-494a-9086-486c8210b35a',
+        subject: `Korte feedback via parasja.nl (${lang.toUpperCase()}) - ${payload.title || payload.id}`,
+        from_name: 'Parasja.nl Feedback',
         language: lang,
         source_type: payload.type,
         source_id: String(payload.id),
@@ -83,7 +83,8 @@
         submitted_at: new Date().toISOString()
       })
     });
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const data = await response.json();
+    if (!response.ok || !data.success) throw new Error(data.message || `HTTP ${response.status}`);
   }
 
   function createStepWidget({ type, id, title, manualHref }) {
