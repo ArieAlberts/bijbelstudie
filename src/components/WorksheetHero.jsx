@@ -484,7 +484,7 @@ export default function WorksheetHero({ lang, onStudyChange, autoExpandReading }
           </div>
 
           {/* Right: Publication Download Actions, EPUB, Print & Collapse Toggle on the SAME line */}
-          <div className="editorial-download-actions reading-actions" style={{ display: 'flex', gap: '8px', flexWrap: 'wrap', alignItems: 'center' }}>
+          <div id="study-print-options" className="editorial-download-actions reading-actions" style={{ display: 'flex', gap: '8px', flexWrap: 'wrap', alignItems: 'center', scrollMarginTop: '96px' }}>
             {pdfUrl && (
               <a href={pdfUrl} download className="passage-action-badge" title={isEn ? "Download PDF" : "Download PDF-lezing"}>
                 <FileText size={15} />
