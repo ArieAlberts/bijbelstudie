@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, BookOpen, HelpCircle, Book, Mail, Globe, Compass, Info, Newspaper } from 'lucide-react';
+import { Menu, X, BookOpen, HelpCircle, Book, Mail, Globe, Compass, Info, Newspaper, Printer } from 'lucide-react';
 
 export default function Navbar({ activeView, setActiveView, lang, setLang }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,6 +22,24 @@ export default function Navbar({ activeView, setActiveView, lang, setLang }) {
     closeMenu();
   };
 
+  const handlePrintOptions = (e) => {
+    if (e) e.preventDefault();
+    setActiveView('worksheet');
+    closeMenu();
+
+    if (typeof window !== 'undefined') {
+      const targetHash = lang === 'nl' ? '#werkblad' : '#worksheet';
+      window.history.replaceState(null, '', targetHash);
+
+      window.setTimeout(() => {
+        document.getElementById('study-print-options')?.scrollIntoView({
+          behavior: 'smooth',
+          block: 'center'
+        });
+      }, 80);
+    }
+  };
+
   const toggleLanguage = () => {
     const nextLang = lang === 'nl' ? 'en' : 'nl';
     setLang(nextLang);
@@ -32,6 +50,7 @@ export default function Navbar({ activeView, setActiveView, lang, setLang }) {
     brand: 'Zelf de parasja lezen',
     watIsParasja: 'Wat is de parasja',
     worksheet: 'Lees de parasja',
+    printStudySheets: 'Studiebladen printen / downloaden',
     waaromWebsite: 'Waarom deze website',
     method: 'Over de methode',
     handbook: 'Handleiding',
@@ -44,6 +63,7 @@ export default function Navbar({ activeView, setActiveView, lang, setLang }) {
     brand: 'Read the Parashah Yourself',
     watIsParasja: 'What is the Parashah',
     worksheet: 'Read the parashah',
+    printStudySheets: 'Print / download study sheets',
     waaromWebsite: 'Why this website',
     method: 'About the method',
     handbook: 'Handbook',
@@ -166,6 +186,15 @@ export default function Navbar({ activeView, setActiveView, lang, setLang }) {
           >
             <BookOpen className="nav-icon" aria-hidden="true" />
             <span>{labels.worksheet}</span>
+          </a>
+
+          <a
+            href={lang === 'nl' ? '../nl/index.html#werkblad' : '../en/index.html#worksheet'}
+            className="nav-link"
+            onClick={handlePrintOptions}
+          >
+            <Printer className="nav-icon" aria-hidden="true" />
+            <span>{labels.printStudySheets}</span>
           </a>
 
           <a
