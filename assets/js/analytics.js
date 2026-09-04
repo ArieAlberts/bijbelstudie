@@ -62,6 +62,16 @@
     });
   }
 
+  function initGoatCounter() {
+    if (document.querySelector('script[data-goatcounter]')) return;
+    const script = document.createElement('script');
+    script.async = true;
+    script.src = '//gc.zgo.at/count.js';
+    script.setAttribute('data-goatcounter', 'https://parasja.goatcounter.com/count');
+    document.head.appendChild(script);
+  }
+
   recordLocalMetrics();
+  initGoatCounter();
   initGoogleAnalytics();
 })();
