@@ -578,20 +578,4 @@ download_worksheet_pdf_nl: "/downloads/werkbladen/nitzavim-vayelech-werkblad-nl.
 download_worksheet_docx_nl: "/downloads/werkbladen/nitzavim-vayelech-werkblad-nl.docx"
 download_worksheet_pdf_en: "/downloads/werkbladen/nitzavim-vayelech-werkblad-en.pdf"
 download_worksheet_docx_en: "/downloads/werkbladen/nitzavim-vayelech-werkblad-en.docx"
-passages:
-  - role: parasha
-    ref:
-      nl: "Deuteronomium 29:10–31:30"
-      en: "Deuteronomy 29:10–31:30"
-    osis: "Deut.29.10-Deut.31.30"
-  - role: haftara
-    ref:
-      nl: "Jesaja 61:10–63:9"
-      en: "Isaiah 61:10–63:9"
-    osis: "Isa.61.10-Isa.63.9"
-  - role: gospel
-    ref:
-      nl: "Johannes 12:41–50"
-      en: "John 12:41–50"
-    osis: "John.12.41-John.12.50"
 ---
