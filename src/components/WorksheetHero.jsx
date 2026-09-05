@@ -364,12 +364,56 @@ export default function WorksheetHero({ lang, onStudyChange, autoExpandReading }
   const curLang = isEn ? 'en' : 'nl';
   const curId = currentStudy?.id || selectedStudyId;
 
-  const pdfUrl = getDownloadUrl(`/downloads/lezingen/${curId}-${docLabel('lezing', curLang)}-${curLang}.pdf`);
-  const rtfUrl = getDownloadUrl(`/downloads/lezingen/${curId}-${docLabel('lezing', curLang)}-${curLang}.rtf`);
-  const studyPdfUrl = getDownloadUrl(`/downloads/studiebladen/${curId}-${docLabel('studieblad', curLang)}-${curLang}.pdf`);
-  const studyRtfUrl = getDownloadUrl(`/downloads/studiebladen/${curId}-${docLabel('studieblad', curLang)}-${curLang}.rtf`);
-  const worksheetPdfUrl = getDownloadUrl(`/downloads/werkbladen/${curId}-${docLabel('werkblad', curLang)}-${curLang}.pdf`);
-  const worksheetRtfUrl = getDownloadUrl(`/downloads/werkbladen/${curId}-${docLabel('werkblad', curLang)}-${curLang}.rtf`);
+  const firstAvailableDownload = (...urls) => {
+    for (const url of urls) {
+      const available = getDownloadUrl(url);
+      if (available) return available;
+    }
+    return null;
+  };
+
+  // Prefer the explicit download_* fields from the markdown source.
+  // Convention fallbacks keep older parasjot (including legacy RTF files) working.
+  const pdfUrl = firstAvailableDownload(
+    isEn ? currentStudy?.download_pdf_en : currentStudy?.download_pdf_nl,
+    `/downloads/lezingen/${curId}-lezing-${curLang}.pdf`,
+    `/downloads/lezingen/${curId}-${docLabel('lezing', curLang)}-${curLang}.pdf`
+  );
+  const textDocUrl = firstAvailableDownload(
+    isEn ? currentStudy?.download_docx_en : currentStudy?.download_docx_nl,
+    `/downloads/lezingen/${curId}-lezing-${curLang}.docx`,
+    `/downloads/lezingen/${curId}-${docLabel('lezing', curLang)}-${curLang}.docx`,
+    `/downloads/lezingen/${curId}-lezing-${curLang}.rtf`,
+    `/downloads/lezingen/${curId}-${docLabel('lezing', curLang)}-${curLang}.rtf`
+  );
+  const studyPdfUrl = firstAvailableDownload(
+    isEn ? currentStudy?.download_study_pdf_en : currentStudy?.download_study_pdf_nl,
+    `/downloads/studiebladen/${curId}-studieblad-${curLang}.pdf`,
+    `/downloads/studiebladen/${curId}-${docLabel('studieblad', curLang)}-${curLang}.pdf`
+  );
+  const studyTextDocUrl = firstAvailableDownload(
+    isEn ? currentStudy?.download_study_docx_en : currentStudy?.download_study_docx_nl,
+    `/downloads/studiebladen/${curId}-studieblad-${curLang}.docx`,
+    `/downloads/studiebladen/${curId}-${docLabel('studieblad', curLang)}-${curLang}.docx`,
+    `/downloads/studiebladen/${curId}-studieblad-${curLang}.rtf`,
+    `/downloads/studiebladen/${curId}-${docLabel('studieblad', curLang)}-${curLang}.rtf`
+  );
+  const worksheetPdfUrl = firstAvailableDownload(
+    isEn ? currentStudy?.download_worksheet_pdf_en : currentStudy?.download_worksheet_pdf_nl,
+    `/downloads/werkbladen/${curId}-werkblad-${curLang}.pdf`,
+    `/downloads/werkbladen/${curId}-${docLabel('werkblad', curLang)}-${curLang}.pdf`
+  );
+  const worksheetTextDocUrl = firstAvailableDownload(
+    isEn ? currentStudy?.download_worksheet_docx_en : currentStudy?.download_worksheet_docx_nl,
+    `/downloads/werkbladen/${curId}-werkblad-${curLang}.docx`,
+    `/downloads/werkbladen/${curId}-${docLabel('werkblad', curLang)}-${curLang}.docx`,
+    `/downloads/werkbladen/${curId}-werkblad-${curLang}.rtf`,
+    `/downloads/werkbladen/${curId}-${docLabel('werkblad', curLang)}-${curLang}.rtf`
+  );
+
+  const textDocLabel = textDocUrl?.toLowerCase().endsWith('.docx') ? 'DOCX' : 'RTF';
+  const studyTextDocLabel = studyTextDocUrl?.toLowerCase().endsWith('.docx') ? 'DOCX' : 'RTF';
+  const worksheetTextDocLabel = worksheetTextDocUrl?.toLowerCase().endsWith('.docx') ? 'DOCX' : 'RTF';
   const epubUrlRaw = `/downloads/epub/${selectedStudyId}-${curLang}.epub`;
   const epubUrl = hasBody ? getDownloadUrl(epubUrlRaw) : null;
 
@@ -492,10 +536,10 @@ export default function WorksheetHero({ lang, onStudyChange, autoExpandReading }
               </a>
             )}
 
-            {rtfUrl && (
-              <a href={rtfUrl} download className="passage-action-badge" title={isEn ? "RTF (Rich Text Format)" : "RTF (Rich Text)"}>
+            {textDocUrl && (
+              <a href={textDocUrl} download className="passage-action-badge" title={textDocLabel}>
                 <FileText size={15} />
-                <span>RTF</span>
+                <span>{textDocLabel}</span>
               </a>
             )}
 
@@ -506,10 +550,10 @@ export default function WorksheetHero({ lang, onStudyChange, autoExpandReading }
               </a>
             )}
 
-            {studyRtfUrl && (
-              <a href={studyRtfUrl} download className="passage-action-badge" title={isEn ? "Download Study Sheet RTF" : "Download Studieblad RTF"}>
+            {studyTextDocUrl && (
+              <a href={studyTextDocUrl} download className="passage-action-badge" title={isEn ? `Download Study Sheet ${studyTextDocLabel}` : `Download Studieblad ${studyTextDocLabel}`}>
                 <FileText size={15} />
-                <span>{isEn ? 'Study Sheet (RTF)' : 'Studieblad (RTF)'}</span>
+                <span>{isEn ? `Study Sheet (${studyTextDocLabel})` : `Studieblad (${studyTextDocLabel})`}</span>
               </a>
             )}
 
@@ -520,10 +564,10 @@ export default function WorksheetHero({ lang, onStudyChange, autoExpandReading }
               </a>
             )}
 
-            {worksheetRtfUrl && (
-              <a href={worksheetRtfUrl} download className="passage-action-badge" title={isEn ? "Download Worksheet RTF" : "Download Werkblad RTF"}>
+            {worksheetTextDocUrl && (
+              <a href={worksheetTextDocUrl} download className="passage-action-badge" title={isEn ? `Download Worksheet ${worksheetTextDocLabel}` : `Download Werkblad ${worksheetTextDocLabel}`}>
                 <FileText size={15} />
-                <span>{isEn ? 'Worksheet (RTF)' : 'Werkblad (RTF)'}</span>
+                <span>{isEn ? `Worksheet (${worksheetTextDocLabel})` : `Werkblad (${worksheetTextDocLabel})`}</span>
               </a>
             )}
 
