@@ -5,6 +5,8 @@ import { createRequire } from 'module';
 
 const require = createRequire(import.meta.url);
 const yaml = require('js-yaml');
+const htmlToDocxModule = require('html-to-docx');
+const HTMLToDOCX = htmlToDocxModule.default || htmlToDocxModule;
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -270,6 +272,12 @@ async function generatePdf(browser, htmlContent, outputPath) {
   await page.close();
 }
 
+// ── Generate DOCX ────────────────────────────────────────────────────
+async function generateDocx(htmlContent, outputPath) {
+  const buffer = await HTMLToDOCX(htmlContent);
+  fs.writeFileSync(outputPath, buffer);
+}
+
 // ── Generate RTF ─────────────────────────────────────────────────────
 function generateRtf(rtfString, outputPath) {
   fs.writeFileSync(outputPath, rtfString, 'utf-8');
@@ -353,7 +361,19 @@ async function buildDocs() {
           }
         }
 
-        // ── RTF ──
+        // ── DOCX ──
+        const docxFilename = getDocFilename(id, lang, docType, 'docx');
+        const docxPath = path.join(outDir, docxFilename);
+        try {
+          await generateDocx(htmlDoc, docxPath);
+          validFiles.get(docType.dir).add(docxFilename);
+          generatedCount++;
+          console.log(`  ✓ ${docType.dir}/${docxFilename}`);
+        } catch (err) {
+          console.error(`  ✗ DOCX error for ${docxFilename}:`, err.message);
+        }
+
+        // ── RTF (legacy/backward-compatible) ──
         const rtfFilename = getDocFilename(id, lang, docType, 'rtf');
         const rtfPath = path.join(outDir, rtfFilename);
         try {
