@@ -53,7 +53,7 @@ export async function fetchPassagesIndex() {
 
   for (const url of candidateUrls) {
     try {
-      const res = await fetch(url);
+      const res = await fetch(url, { cache: 'no-store' });
       if (res.ok) {
         return await res.json();
       }
