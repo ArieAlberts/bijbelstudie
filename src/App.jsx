@@ -11,6 +11,7 @@ export default function App() {
   const [activeView, setActiveView] = useState('intro');
   const [autoExpandReading, setAutoExpandReading] = useState(false);
   const [lang, setLang] = useState('nl');
+  const [selectedStudyId, setSelectedStudyId] = useState(null);
 
   useEffect(() => {
     const hash = window.location.hash;
@@ -46,6 +47,7 @@ export default function App() {
         setActiveView={handleSelectView}
         lang={lang}
         setLang={setLang}
+        selectedStudyId={selectedStudyId}
       />
 
       {/* Main Content Area */}
@@ -59,7 +61,11 @@ export default function App() {
         )}
 
         {activeView === 'worksheet' && (
-          <WorksheetHero lang={lang} autoExpandReading={autoExpandReading} />
+          <WorksheetHero
+            lang={lang}
+            autoExpandReading={autoExpandReading}
+            onStudyChange={setSelectedStudyId}
+          />
         )}
         {activeView === 'method' && <MethodView lang={lang} />}
         {activeView === 'handbook' && <Handbook lang={lang} />}
