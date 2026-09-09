@@ -1,8 +1,52 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, BookOpen, HelpCircle, Book, Mail, Globe, Compass, Info, Newspaper, Printer } from 'lucide-react';
+import { Menu, X, BookOpen, HelpCircle, Book, Mail, Globe, Compass, Info, Newspaper, Printer, FileText } from 'lucide-react';
 
-export default function Navbar({ activeView, setActiveView, lang, setLang }) {
+function getStudyShabbatDate(study) {
+  const rawDate = study?.shabbat_date || study?.published_at;
+  if (!rawDate) return null;
+
+  const match = String(rawDate).match(/^(\d{4})-(\d{2})-(\d{2})/);
+  if (!match) return null;
+
+  const [, year, month, day] = match;
+  const date = new Date(Number(year), Number(month) - 1, Number(day), 12, 0, 0);
+  if (Number.isNaN(date.getTime())) return null;
+
+  if (!study?.shabbat_date) {
+    const daysUntilSaturday = (6 - date.getDay() + 7) % 7;
+    date.setDate(date.getDate() + daysUntilSaturday);
+  }
+
+  date.setHours(0, 0, 0, 0);
+  return date;
+}
+
+function findWeeklyStudy(studies) {
+  if (!Array.isArray(studies) || studies.length === 0) return null;
+
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+
+  const datedStudies = studies
+    .map(study => ({ study, shabbatDate: getStudyShabbatDate(study) }))
+    .filter(item => item.shabbatDate);
+
+  const nextStudy = datedStudies
+    .filter(item => item.shabbatDate >= today)
+    .sort((a, b) => a.shabbatDate - b.shabbatDate)[0];
+
+  if (nextStudy) return nextStudy.study;
+
+  const mostRecentStudy = datedStudies
+    .sort((a, b) => b.shabbatDate - a.shabbatDate)[0];
+
+  return mostRecentStudy?.study || studies.find(s => s.current) || studies[0];
+}
+
+export default function Navbar({ activeView, setActiveView, lang, setLang, selectedStudyId }) {
   const [isOpen, setIsOpen] = useState(false);
+  const [studies, setStudies] = useState([]);
+  const [availableDownloads, setAvailableDownloads] = useState({});
 
   const toggleMenu = () => setIsOpen(!isOpen);
   const closeMenu = () => setIsOpen(false);
@@ -17,27 +61,110 @@ export default function Navbar({ activeView, setActiveView, lang, setLang }) {
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [isOpen]);
 
+  useEffect(() => {
+    Promise.all([
+      fetch('../data/passages.json', { cache: 'no-store' }).then(res => res.ok ? res.json() : Promise.reject()),
+      fetch('../data/downloads.json', { cache: 'no-store' }).then(res => res.ok ? res.json() : Promise.reject())
+    ])
+      .then(([passagesData, downloadsData]) => {
+        setStudies(Array.isArray(passagesData?.studies) ? passagesData.studies : []);
+        setAvailableDownloads(downloadsData || {});
+      })
+      .catch(() => {});
+  }, []);
+
   const handleNav = (view) => {
     setActiveView(view);
     closeMenu();
   };
 
-  const handlePrintOptions = (e) => {
-    if (e) e.preventDefault();
-    setActiveView('worksheet');
-    closeMenu();
+  const activeStudy = studies.find(s => s.id === selectedStudyId) || findWeeklyStudy(studies);
+  const curLang = lang === 'en' ? 'en' : 'nl';
+  const curId = activeStudy?.id;
 
-    if (typeof window !== 'undefined') {
-      const targetHash = lang === 'nl' ? '#werkblad' : '#worksheet';
-      window.history.replaceState(null, '', targetHash);
+  const getDownloadUrl = (url) => {
+    if (!url) return null;
+    const normalized = url.startsWith('/') ? url : `/${url}`;
+    return availableDownloads[normalized] ? normalized : null;
+  };
 
-      window.setTimeout(() => {
-        document.getElementById('study-print-options')?.scrollIntoView({
-          behavior: 'smooth',
-          block: 'center'
-        });
-      }, 80);
+  const firstAvailableDownload = (...urls) => {
+    for (const url of urls) {
+      const available = getDownloadUrl(url);
+      if (available) return available;
     }
+    return null;
+  };
+
+  const readingLabel = curLang === 'en' ? 'reading' : 'lezing';
+  const studyLabel = curLang === 'en' ? 'study-sheet' : 'studieblad';
+  const worksheetLabel = curLang === 'en' ? 'worksheet' : 'werkblad';
+
+  const documentLinks = curId ? [
+    {
+      key: 'reading-pdf',
+      label: lang === 'nl' ? 'Lezing (PDF)' : 'Reading (PDF)',
+      url: firstAvailableDownload(
+        lang === 'nl' ? activeStudy?.download_pdf_nl : activeStudy?.download_pdf_en,
+        `/downloads/lezingen/${curId}-lezing-${curLang}.pdf`,
+        `/downloads/lezingen/${curId}-${readingLabel}-${curLang}.pdf`
+      )
+    },
+    {
+      key: 'reading-docx',
+      label: lang === 'nl' ? 'Lezing (DOCX)' : 'Reading (DOCX)',
+      url: firstAvailableDownload(
+        lang === 'nl' ? activeStudy?.download_docx_nl : activeStudy?.download_docx_en,
+        `/downloads/lezingen/${curId}-lezing-${curLang}.docx`,
+        `/downloads/lezingen/${curId}-${readingLabel}-${curLang}.docx`
+      )
+    },
+    {
+      key: 'study-pdf',
+      label: lang === 'nl' ? 'Studieblad (PDF)' : 'Study sheet (PDF)',
+      url: firstAvailableDownload(
+        lang === 'nl' ? activeStudy?.download_study_pdf_nl : activeStudy?.download_study_pdf_en,
+        `/downloads/studiebladen/${curId}-studieblad-${curLang}.pdf`,
+        `/downloads/studiebladen/${curId}-${studyLabel}-${curLang}.pdf`
+      )
+    },
+    {
+      key: 'study-docx',
+      label: lang === 'nl' ? 'Studieblad (DOCX)' : 'Study sheet (DOCX)',
+      url: firstAvailableDownload(
+        lang === 'nl' ? activeStudy?.download_study_docx_nl : activeStudy?.download_study_docx_en,
+        `/downloads/studiebladen/${curId}-studieblad-${curLang}.docx`,
+        `/downloads/studiebladen/${curId}-${studyLabel}-${curLang}.docx`
+      )
+    },
+    {
+      key: 'worksheet-pdf',
+      label: lang === 'nl' ? 'Werkblad (PDF)' : 'Worksheet (PDF)',
+      url: firstAvailableDownload(
+        lang === 'nl' ? activeStudy?.download_worksheet_pdf_nl : activeStudy?.download_worksheet_pdf_en,
+        `/downloads/werkbladen/${curId}-werkblad-${curLang}.pdf`,
+        `/downloads/werkbladen/${curId}-${worksheetLabel}-${curLang}.pdf`
+      )
+    },
+    {
+      key: 'worksheet-docx',
+      label: lang === 'nl' ? 'Werkblad (DOCX)' : 'Worksheet (DOCX)',
+      url: firstAvailableDownload(
+        lang === 'nl' ? activeStudy?.download_worksheet_docx_nl : activeStudy?.download_worksheet_docx_en,
+        `/downloads/werkbladen/${curId}-werkblad-${curLang}.docx`,
+        `/downloads/werkbladen/${curId}-${worksheetLabel}-${curLang}.docx`
+      )
+    },
+    {
+      key: 'epub',
+      label: 'EPUB',
+      url: firstAvailableDownload(`/downloads/epub/${curId}-${curLang}.epub`)
+    }
+  ].filter(item => item.url) : [];
+
+  const handlePrint = () => {
+    closeMenu();
+    window.setTimeout(() => window.print(), 50);
   };
 
   const toggleLanguage = () => {
@@ -50,7 +177,8 @@ export default function Navbar({ activeView, setActiveView, lang, setLang }) {
     brand: 'Zelf de parasja lezen',
     watIsParasja: 'Wat is de parasja',
     worksheet: 'Lees de parasja',
-    printStudySheets: 'Studiebladen printen / downloaden',
+    documents: 'Documenten',
+    printPage: 'Print / opslaan als PDF',
     waaromWebsite: 'Waarom deze website',
     method: 'Over de methode',
     handbook: 'Handleiding',
@@ -63,7 +191,8 @@ export default function Navbar({ activeView, setActiveView, lang, setLang }) {
     brand: 'Read the Parashah Yourself',
     watIsParasja: 'What is the Parashah',
     worksheet: 'Read the parashah',
-    printStudySheets: 'Print / download study sheets',
+    documents: 'Documents',
+    printPage: 'Print / save as PDF',
     waaromWebsite: 'Why this website',
     method: 'About the method',
     handbook: 'Handbook',
@@ -188,14 +317,35 @@ export default function Navbar({ activeView, setActiveView, lang, setLang }) {
             <span>{labels.worksheet}</span>
           </a>
 
-          <a
-            href={lang === 'nl' ? '../nl/index.html#werkblad' : '../en/index.html#worksheet'}
+          <div
+            className="drawer-section-title"
+            style={{ padding: '14px 16px 6px', fontSize: '12px', fontWeight: 800, textTransform: 'uppercase', letterSpacing: '0.08em', color: 'var(--muted)' }}
+          >
+            {labels.documents}
+          </div>
+
+          {documentLinks.map(item => (
+            <a
+              key={item.key}
+              href={item.url}
+              download
+              className="nav-link"
+              onClick={closeMenu}
+            >
+              <FileText className="nav-icon" aria-hidden="true" />
+              <span>{item.label}</span>
+            </a>
+          ))}
+
+          <button
+            type="button"
             className="nav-link"
-            onClick={handlePrintOptions}
+            onClick={handlePrint}
+            style={{ width: '100%', border: 0, background: 'transparent', textAlign: 'left', cursor: 'pointer' }}
           >
             <Printer className="nav-icon" aria-hidden="true" />
-            <span>{labels.printStudySheets}</span>
-          </a>
+            <span>{labels.printPage}</span>
+          </button>
 
           <a
             href={lang === 'nl' ? '../nl/index.html#waarom-deze-website' : '../en/index.html#waarom-deze-website'}
