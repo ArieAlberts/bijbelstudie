@@ -528,64 +528,7 @@ export default function WorksheetHero({ lang, onStudyChange, autoExpandReading }
           </div>
 
           {/* Right: Publication Download Actions, EPUB, Print & Collapse Toggle on the SAME line */}
-          <div id="study-print-options" className="editorial-download-actions reading-actions" style={{ display: 'flex', gap: '8px', flexWrap: 'wrap', alignItems: 'center', scrollMarginTop: '96px' }}>
-            {pdfUrl && (
-              <a href={pdfUrl} download className="passage-action-badge" title={isEn ? "Download PDF" : "Download PDF-lezing"}>
-                <FileText size={15} />
-                <span>PDF</span>
-              </a>
-            )}
-
-            {textDocUrl && (
-              <a href={textDocUrl} download className="passage-action-badge" title={textDocLabel}>
-                <FileText size={15} />
-                <span>{textDocLabel}</span>
-              </a>
-            )}
-
-            {studyPdfUrl && (
-              <a href={studyPdfUrl} download className="passage-action-badge" title={isEn ? "Download Study Sheet PDF" : "Download Studieblad PDF"}>
-                <FileText size={15} />
-                <span>{isEn ? 'Study Sheet (PDF)' : 'Studieblad (PDF)'}</span>
-              </a>
-            )}
-
-            {studyTextDocUrl && (
-              <a href={studyTextDocUrl} download className="passage-action-badge" title={isEn ? `Download Study Sheet ${studyTextDocLabel}` : `Download Studieblad ${studyTextDocLabel}`}>
-                <FileText size={15} />
-                <span>{isEn ? `Study Sheet (${studyTextDocLabel})` : `Studieblad (${studyTextDocLabel})`}</span>
-              </a>
-            )}
-
-            {worksheetPdfUrl && (
-              <a href={worksheetPdfUrl} download className="passage-action-badge" title={isEn ? "Download Worksheet PDF" : "Download Werkblad PDF"}>
-                <FileText size={15} />
-                <span>{isEn ? 'Worksheet (PDF)' : 'Werkblad (PDF)'}</span>
-              </a>
-            )}
-
-            {worksheetTextDocUrl && (
-              <a href={worksheetTextDocUrl} download className="passage-action-badge" title={isEn ? `Download Worksheet ${worksheetTextDocLabel}` : `Download Werkblad ${worksheetTextDocLabel}`}>
-                <FileText size={15} />
-                <span>{isEn ? `Worksheet (${worksheetTextDocLabel})` : `Werkblad (${worksheetTextDocLabel})`}</span>
-              </a>
-            )}
-
-            {/* EPUB Link: Rendered ONLY if a body exists for the current language */}
-            {epubUrl && (
-              <a href={epubUrl} download className="passage-action-badge" title={isEn ? "Download EPUB" : "Download EPUB-bestand"}>
-                <BookOpen size={15} />
-                <span>EPUB</span>
-              </a>
-            )}
-
-            {/* Print / Save as PDF Button */}
-            <button type="button" onClick={handlePrint} className="passage-action-badge" title={isEn ? "Print / save as PDF" : "Print / opslaan als PDF"}>
-              <Printer size={15} />
-              <span>{isEn ? 'Print / save as PDF' : 'Print / opslaan als PDF'}</span>
-            </button>
-
-            {/* Collapse / Expand Toggle Button */}
+          <div className="reading-actions" style={{ display: 'flex', gap: '8px', alignItems: 'center' }}>
             <button
               type="button"
               className="btn-secondary"
@@ -595,8 +538,8 @@ export default function WorksheetHero({ lang, onStudyChange, autoExpandReading }
             >
               <span>
                 {isReadingExpanded
-                  ? (isEn ? 'Inklappen ▲' : 'Inklappen ▲')
-                  : (isEn ? 'Bible Passages & Self-Study ▼' : 'Bijbelgedeeltes en zelfstudie ▼')}
+                  ? (isEn ? 'Collapse ▲' : 'Inklappen ▲')
+                  : (isEn ? 'Open reading ▼' : 'Lezing openen ▼')}
               </span>
               {isReadingExpanded ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
             </button>
