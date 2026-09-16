@@ -1,0 +1,27 @@
+name: Inspect Haazinu remote Bible chapters
+
+on:
+  push:
+    branches:
+      - haazinu-upload-temp-2
+    paths:
+      - '.haazinu-source/INSPECT_REMOTE'
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Inspect Bolls chapter numbering
+        shell: bash
+        run: |
+          node - <<'NODE'
+          for (const [name,id,ch] of [['Hos',28,14],['Joel',29,2]]) {
+            for (const trans of ['DSV','KJV']) {
+              const r=await fetch(`https://bolls.life/get-text/${trans}/${id}/${ch}/`);
+              console.log(name, trans, 'status', r.status);
+              const d=await r.json();
+              console.log(name, trans, 'verses', d.map(v=>v.verse).join(','));
+              console.log(name, trans, 'count', d.length);
+            }
+          }
+          NODE
