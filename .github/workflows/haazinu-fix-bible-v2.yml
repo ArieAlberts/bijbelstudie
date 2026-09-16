@@ -1,0 +1,83 @@
+name: Fix Haazinu Bible data support v2
+
+on:
+  push:
+    branches:
+      - haazinu-upload-temp-2
+    paths:
+      - '.haazinu-source/FIX_BIBLE_V2'
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Checkout staging helpers
+        uses: actions/checkout@v4
+        with:
+          ref: haazinu-upload-temp-2
+          path: _staging
+      - name: Add Hosea and Joel to authentic cache
+        run: node _staging/.haazinu-source/fix-cache.mjs
+      - name: Patch permanent support and correct technical Hosea numbering
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+
+          p=Path('scripts/build-bible-data.mjs')
+          s=p.read_text()
+          if "Hos: { osis: 'Hos'" not in s:
+              s=s.replace("  Jer: { osis: 'Jer', nl: 'Jeremia', en: 'Jeremiah', testament: 'OT' },\n", "  Jer: { osis: 'Jer', nl: 'Jeremia', en: 'Jeremiah', testament: 'OT' },\n  Hos: { osis: 'Hos', nl: 'Hosea', en: 'Hosea', testament: 'OT' },\n  Joel: { osis: 'Joel', nl: 'Joël', en: 'Joel', testament: 'OT' },\n")
+          if '"Hos.14": 9' not in s:
+              s=s.replace('  "Jer.2": 37, "Jer.3": 25,\n', '  "Jer.2": 37, "Jer.3": 25,\n  "Hos.14": 9, "Joel.2": 32,\n')
+          p.write_text(s)
+
+          p=Path('scripts/fetch-all-authentic-bible.mjs')
+          s=p.read_text()
+          marker="  // Zechariah\n  { book: 'Zech', ch: 14 },"
+          if "{ book: 'Hos', ch: 14 }" not in s:
+              s=s.replace(marker, "  // Hosea and Joel (Ha'azinu / Shabbat Shuvah)\n  { book: 'Hos', ch: 14 }, { book: 'Joel', ch: 2 },\n  // Zechariah\n  { book: 'Zech', ch: 14 },")
+          p.write_text(s)
+
+          p=Path('content/parasjot/haazinu.md')
+          s=p.read_text()
+          old='osis: "Hos.14.2-Hos.14.10"'
+          if old in s:
+              s=s.replace(old, 'osis: "Hos.14.1-Hos.14.9" # technische SV/KJV-nummering; zichtbare Joodse lezing is Hosea 14:2–10')
+          elif 'osis: "Hos.14.1-Hos.14.9"' not in s:
+              raise SystemExit('Expected Haazinu Hosea OSIS not found')
+          p.write_text(s)
+          PY
+      - name: Validate Bible data and full site build
+        shell: bash
+        run: |
+          set -euo pipefail
+          npm ci
+          npm run build:passages
+          npm run build:bible
+          node - <<'NODE'
+          const h=require('./public/data/bible/haazinu-haftara.json');
+          if (h.verses.length !== 9) throw new Error(`Expected 9 Hosea verses, got ${h.verses.length}`);
+          if (h.verses[0].osis !== 'Hos.14.1' || h.verses.at(-1).osis !== 'Hos.14.9') throw new Error('Wrong Hosea technical numbering');
+          NODE
+          npm run build:downloads
+          npm run build
+      - name: Commit repaired source, generator and derived data
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'ChatGPT Haazinu deploy'
+          git config user.email '48785326+ArieAlberts@users.noreply.github.com'
+          git add scripts/authentic-bible-cache.json scripts/build-bible-data.mjs scripts/fetch-all-authentic-bible.mjs content/parasjot/haazinu.md \
+            data/passages.json public/data/passages.json public/data/downloads.json public/data/bible/
+          git diff --cached --check
+          git commit -m "fix: support Ha'azinu Hosea and Joel Bible data"
+          git push origin main
