@@ -1,0 +1,60 @@
+name: Finalize Haazinu upload
+
+on:
+  push:
+    branches:
+      - haazinu-upload-temp-2
+    paths:
+      - '.haazinu-payload2/READY'
+
+permissions:
+  contents: write
+
+jobs:
+  finalize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout staging branch
+        uses: actions/checkout@v4
+        with:
+          ref: haazinu-upload-temp-2
+          fetch-depth: 0
+
+      - name: Reconstruct and verify payload
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat .haazinu-payload2/part* > /tmp/haazinu_payload.b64
+          base64 -d /tmp/haazinu_payload.b64 > /tmp/haazinu_payload.zip
+          echo 'f12af78de30ca50690124c17575e055c81f13cbab99bb3d3c507114fc42bd433  /tmp/haazinu_payload.zip' | sha256sum -c -
+          mkdir -p /tmp/haazinu_payload
+          unzip -q /tmp/haazinu_payload.zip -d /tmp/haazinu_payload
+          test -f /tmp/haazinu_payload/content/parasjot/haazinu.md
+          for f in $(grep -oE '/downloads/[^\"]+' /tmp/haazinu_payload/content/parasjot/haazinu.md); do
+            test -f "/tmp/haazinu_payload/public$f" || { echo "Missing payload file: $f"; exit 1; }
+          done
+
+      - name: Apply to main and push
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'ChatGPT Haazinu deploy'
+          git config user.email '48785326+ArieAlberts@users.noreply.github.com'
+          git checkout main
+          git pull --ff-only origin main
+          mkdir -p content/parasjot public/downloads/lezingen public/downloads/studiebladen public/downloads/werkbladen
+          cp /tmp/haazinu_payload/content/parasjot/haazinu.md content/parasjot/haazinu.md
+          cp /tmp/haazinu_payload/content/parasjot/OVERZICHT.md content/parasjot/OVERZICHT.md
+          cp /tmp/haazinu_payload/public/downloads/lezingen/haazinu-* public/downloads/lezingen/
+          cp /tmp/haazinu_payload/public/downloads/studiebladen/haazinu-* public/downloads/studiebladen/
+          cp /tmp/haazinu_payload/public/downloads/werkbladen/haazinu-* public/downloads/werkbladen/
+          rm -f content/parasjot/haazinu.tmp-check
+          git add content/parasjot/haazinu.md content/parasjot/OVERZICHT.md \
+            public/downloads/lezingen/haazinu-* \
+            public/downloads/studiebladen/haazinu-* \
+            public/downloads/werkbladen/haazinu-*
+          git add -u content/parasjot/haazinu.tmp-check || true
+          git diff --cached --check
+          test "$(git diff --cached --name-only | wc -l)" -ge 14
+          git commit -m "Ha'azinu: finalize bilingual reading and downloads"
+          git push origin main
