@@ -2,7 +2,7 @@
 
 **Actueel bijgewerkt: 16 september 2026**
 
-**Ha'azinu-controle:** bron, 12 downloads en tijdelijke testbestanden gecontroleerd op 16 september 2026.
+**Ha'azinu-controle:** tweetalige bron, 12 downloads, gecombineerde Haftara (Hosea 14 + Joël 2), gegenereerde data en tijdelijke testbestanden gecontroleerd op 16 september 2026.
 
 Dit bestand is bedoeld als crosscheck tussen de primaire markdownbronnen in `content/parasjot/` en de downloadbestanden onder `public/downloads/`.
 

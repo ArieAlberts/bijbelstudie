@@ -341,9 +341,12 @@ passages:
     osis: "Deut.32.1-Deut.32.52"
   - role: haftara
     ref:
-      nl: "Hosea 14:2–10; Joël 2:15–27"
-      en: "Hosea 14:2–10; Joel 2:15–27"
-    osis: "Hos.14.2-Hos.14.10"
+      nl: "Hosea 14:2–10 (Hebr.; SV 14:1–9); Joël 2:15–27"
+      en: "Hosea 14:2–10 (Heb.; KJV 14:1–9); Joel 2:15–27"
+    osis: "Hos.14.1-Hos.14.9"
+    osis_ranges:
+      - "Hos.14.1-Hos.14.9"
+      - "Joel.2.15-Joel.2.27"
   - role: gospel
     ref:
       nl: "Mattheüs 18:21–35"

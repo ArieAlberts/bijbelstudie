@@ -39,6 +39,8 @@ const CHAPTER_CONFIG = [
   { book: 'Isa', ch: 62 }, { book: 'Isa', ch: 63 },
   // Jeremiah
   { book: 'Jer', ch: 2 }, { book: 'Jer', ch: 3 },
+  // Shabbat Shuvah (Ha'azinu)
+  { book: 'Hos', ch: 14 }, { book: 'Joel', ch: 2 },
   // Zechariah
   { book: 'Zech', ch: 14 },
   // Gospels
@@ -73,7 +75,11 @@ function extractNotesAndCleanText(rawText) {
 
 function cleanSvText(rawText) {
   const { cleanText } = extractNotesAndCleanText(rawText);
-  return cleanText.replace(/<S>\d+<\/S>/g, '').replace(/\s+/g, ' ').trim();
+  return cleanText
+    .replace(/^\[\d{3}:\d+\]\s*/, '')
+    .replace(/<S>\d+<\/S>/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
 }
 
 function parseSvAlignments(rawText, testament) {

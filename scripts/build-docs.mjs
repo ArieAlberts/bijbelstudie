@@ -49,6 +49,18 @@ function getDocFilename(id, lang, docType, format) {
   return `${id}-${label}-${lang}.${format}`;
 }
 
+function getConfiguredDocFilename(parsed, lang, docType, format) {
+  const typePrefix = docType.bodyField === 'body'
+    ? ''
+    : docType.bodyField === 'study_body'
+      ? 'study_'
+      : 'worksheet_';
+  const field = `download_${typePrefix}${format}_${lang}`;
+  const configuredPath = parsed[field];
+
+  return configuredPath ? path.basename(configuredPath) : getDocFilename(parsed.id, lang, docType, format);
+}
+
 // ── HTML template for PDF rendering ───────────────────────────────────
 function buildHtmlDocument({ title, docTypeTitle, summary, bodyHtml, passages, lang }) {
   const isEn = lang === 'en';
@@ -348,9 +360,9 @@ async function buildDocs() {
         if (!validFiles.has(docType.dir)) validFiles.set(docType.dir, new Set());
 
         // ── PDF ──
+        const pdfFilename = getConfiguredDocFilename(parsed, lang, docType, 'pdf');
+        const pdfPath = path.join(outDir, pdfFilename);
         if (browser) {
-          const pdfFilename = getDocFilename(id, lang, docType, 'pdf');
-          const pdfPath = path.join(outDir, pdfFilename);
           try {
             await generatePdf(browser, htmlDoc, pdfPath);
             validFiles.get(docType.dir).add(pdfFilename);
@@ -359,10 +371,13 @@ async function buildDocs() {
           } catch (err) {
             console.error(`  ✗ PDF error for ${pdfFilename}:`, err.message);
           }
+        } else if (fs.existsSync(pdfPath)) {
+          // Keep an already generated PDF when Chrome is unavailable locally.
+          validFiles.get(docType.dir).add(pdfFilename);
         }
 
         // ── DOCX ──
-        const docxFilename = getDocFilename(id, lang, docType, 'docx');
+        const docxFilename = getConfiguredDocFilename(parsed, lang, docType, 'docx');
         const docxPath = path.join(outDir, docxFilename);
         try {
           await generateDocx(htmlDoc, docxPath);

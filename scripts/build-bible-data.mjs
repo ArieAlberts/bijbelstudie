@@ -23,6 +23,8 @@ const BOOK_MAP = {
   '2Kgs': { osis: '2Kgs', nl: '2 Koningen', en: '2 Kings', testament: 'OT' },
   Isa: { osis: 'Isa', nl: 'Jesaja', en: 'Isaiah', testament: 'OT' },
   Jer: { osis: 'Jer', nl: 'Jeremia', en: 'Jeremiah', testament: 'OT' },
+  Hos: { osis: 'Hos', nl: 'Hosea', en: 'Hosea', testament: 'OT' },
+  Joel: { osis: 'Joel', nl: 'Joël', en: 'Joel', testament: 'OT' },
   Zech: { osis: 'Zech', nl: 'Zacharia', en: 'Zechariah', testament: 'OT' },
   Matt: { osis: 'Matt', nl: 'Mattheüs', en: 'Matthew', testament: 'NT' },
   Mark: { osis: 'Mark', nl: 'Markus', en: 'Mark', testament: 'NT' },
@@ -47,6 +49,7 @@ const CHAPTER_MAX_VERSES = {
   "Isa.54": 17, "Isa.55": 13, "Isa.57": 21, "Isa.58": 14, "Isa.60": 22, "Isa.61": 11,
   "Isa.62": 12, "Isa.63": 19,
   "Jer.2": 37, "Jer.3": 25,
+  "Hos.14": 10, "Joel.2": 32,
   "Zech.14": 21,
   "Matt.4": 25, "Matt.16": 28, "Matt.18": 35, "Matt.24": 51, "Matt.25": 46,
   "Mark.11": 33,
@@ -72,60 +75,73 @@ function parseOsisRange(osisStr) {
 }
 
 function generatePassageJson(studyId, passage, cachedDb, fullLexicon) {
-  const { osis, role, ref } = passage;
-  const range = parseOsisRange(osis);
-  const meta = BOOK_MAP[range.book];
-
-  if (!meta) {
-    throw new Error(`Unknown OSIS book: ${range.book} in study ${studyId}`);
-  }
+  const { osis, osis_ranges: osisRanges, role, ref } = passage;
+  const ranges = (Array.isArray(osisRanges) && osisRanges.length ? osisRanges : [osis])
+    .map(parseOsisRange);
 
   const verses = [];
   const passageLexicon = {};
+  const testaments = new Set();
 
-  for (let c = range.startCh; c <= range.endCh; c++) {
-    const vStart = (c === range.startCh) ? range.startVs : 1;
-    const chapterMax = CHAPTER_MAX_VERSES[`${range.book}.${c}`] || 30;
-    const vEnd = (c === range.endCh) ? range.endVs : chapterMax;
+  for (const range of ranges) {
+    const meta = BOOK_MAP[range.book];
 
-    for (let v = vStart; v <= vEnd; v++) {
-      const verseKey = `${range.book}.${c}.${v}`;
-      const found = cachedDb[verseKey];
+    if (!meta) {
+      throw new Error(`Unknown OSIS book: ${range.book} in study ${studyId}`);
+    }
+    testaments.add(meta.testament);
 
-      if (!found || !found.sv || !found.kjv) {
-        throw new Error(`[CRITICAL ERROR] Missing authentic verse data for '${verseKey}'!`);
-      }
-      
-      const verseObj = {
-        osis: verseKey,
-        ref: `${c}:${v}`,
-        sv: found.sv,
-        kjv: found.kjv,
-        alignments: found.alignments || { sv: [] }
-      };
-      if (found.notes) {
-        verseObj.notes = found.notes;
-      }
-      verses.push(verseObj);
+    for (let c = range.startCh; c <= range.endCh; c++) {
+      const vStart = (c === range.startCh) ? range.startVs : 1;
+      const chapterMax = CHAPTER_MAX_VERSES[`${range.book}.${c}`] || 30;
+      const vEnd = (c === range.endCh) ? range.endVs : chapterMax;
 
-      // 1. Collect Hebrew/Greek lexicon entries from SV alignments
-      if (found.alignments && found.alignments.sv) {
-        found.alignments.sv.forEach(align => {
-          if (align.strong && fullLexicon[align.strong]) {
-            passageLexicon[align.strong] = fullLexicon[align.strong];
-          }
-        });
-      }
+      for (let v = vStart; v <= vEnd; v++) {
+        const verseKey = `${range.book}.${c}.${v}`;
+        const found = cachedDb[verseKey];
 
-      // 2. Collect Hebrew/Greek lexicon entries from KJV tokens
-      if (found.kjv && Array.isArray(found.kjv)) {
-        found.kjv.forEach(tok => {
-          if (tok.s && fullLexicon[tok.s]) {
-            passageLexicon[tok.s] = fullLexicon[tok.s];
-          }
-        });
+        if (!found || !found.sv || !found.kjv) {
+          throw new Error(`[CRITICAL ERROR] Missing authentic verse data for '${verseKey}'!`);
+        }
+
+        const verseObj = {
+          osis: verseKey,
+          ref: `${c}:${v}`,
+          sv: found.sv,
+          kjv: found.kjv,
+          alignments: found.alignments || { sv: [] }
+        };
+        if (ranges.length > 1) {
+          verseObj.book = { nl: meta.nl, en: meta.en };
+        }
+        if (found.notes) {
+          verseObj.notes = found.notes;
+        }
+        verses.push(verseObj);
+
+        // 1. Collect Hebrew/Greek lexicon entries from SV alignments
+        if (found.alignments && found.alignments.sv) {
+          found.alignments.sv.forEach(align => {
+            if (align.strong && fullLexicon[align.strong]) {
+              passageLexicon[align.strong] = fullLexicon[align.strong];
+            }
+          });
+        }
+
+        // 2. Collect Hebrew/Greek lexicon entries from KJV tokens
+        if (found.kjv && Array.isArray(found.kjv)) {
+          found.kjv.forEach(tok => {
+            if (tok.s && fullLexicon[tok.s]) {
+              passageLexicon[tok.s] = fullLexicon[tok.s];
+            }
+          });
+        }
       }
     }
+  }
+
+  if (testaments.size !== 1) {
+    throw new Error(`Passage '${role}' in study ${studyId} mixes testaments.`);
   }
 
   return {
@@ -133,7 +149,8 @@ function generatePassageJson(studyId, passage, cachedDb, fullLexicon) {
     role,
     osis,
     ref,
-    testament: meta.testament,
+    osis_ranges: Array.isArray(osisRanges) && osisRanges.length ? osisRanges : undefined,
+    testament: [...testaments][0],
     verses,
     lexicon: passageLexicon
   };

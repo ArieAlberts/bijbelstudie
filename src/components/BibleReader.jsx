@@ -381,14 +381,25 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
             </div>
 
             <div className="verses-list">
-              {passageData.verses.map((verse) => (
-                <div key={verse.osis} id={`v-${verse.osis}`} className="verse-row">
-                  <span className="verse-num">{verse.ref}</span>
-                  <div className="verse-text">
-                    {translation === 'sv' ? renderSvVerse(verse) : renderKjvVerse(verse)}
-                  </div>
-                </div>
-              ))}
+              {passageData.verses.map((verse, index) => {
+                const bookName = isEn ? verse.book?.en : verse.book?.nl;
+                const previousBook = index > 0
+                  ? (isEn ? passageData.verses[index - 1].book?.en : passageData.verses[index - 1].book?.nl)
+                  : null;
+                const showBookHeading = Boolean(bookName && (passageData.osis_ranges?.length > 1) && bookName !== previousBook);
+
+                return (
+                  <React.Fragment key={verse.osis}>
+                    {showBookHeading && <h3 className="passage-book-heading">{bookName}</h3>}
+                    <div id={`v-${verse.osis}`} className="verse-row">
+                      <span className="verse-num">{verse.ref}</span>
+                      <div className="verse-text">
+                        {translation === 'sv' ? renderSvVerse(verse) : renderKjvVerse(verse)}
+                      </div>
+                    </div>
+                  </React.Fragment>
+                );
+              })}
             </div>
           </>
         )}

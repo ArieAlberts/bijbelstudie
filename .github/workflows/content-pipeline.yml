@@ -29,8 +29,11 @@ jobs:
       - name: Build Bible Passage Data
         run: npm run build:bible
 
+      - name: Build Downloads Manifest
+        run: npm run build:downloads
+
       - name: Commit Generated Passage Data
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "auto: regenerate passages index and Bible JSON data from CMS content"
-          file_pattern: "data/passages.json public/data/passages.json public/data/bible/*.json"
+          file_pattern: "data/passages.json public/data/passages.json public/data/bible/*.json public/data/downloads.json"
