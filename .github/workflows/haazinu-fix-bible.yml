@@ -1,0 +1,172 @@
+name: Fix Haazinu Bible data support
+
+on:
+  push:
+    branches:
+      - haazinu-upload-temp-2
+    paths:
+      - '.haazinu-source/FIX_BIBLE'
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Add Hosea and Joel to authentic cache
+        shell: bash
+        run: |
+          node - <<'NODE'
+          const fs = require('fs');
+          const cachePath = 'scripts/authentic-bible-cache.json';
+          const cache = JSON.parse(fs.readFileSync(cachePath, 'utf8'));
+
+          function extractNotesAndCleanText(rawText) {
+            const notes = [];
+            let cleanText = rawText.replace(/<sup>([\s\S]*?)<\/sup>/gi, (_, noteContent) => {
+              const plainNote = noteContent.replace(/<[^>]+>/g, '').trim();
+              if (plainNote) notes.push(plainNote);
+              return '';
+            });
+            cleanText = cleanText.replace(/<f>([\s\S]*?)<\/f>/gi, (_, noteContent) => {
+              const plainNote = noteContent.replace(/<[^>]+>/g, '').trim();
+              if (plainNote) notes.push(plainNote);
+              return '';
+            });
+            return { cleanText, notes };
+          }
+          function cleanSvText(rawText) {
+            const { cleanText } = extractNotesAndCleanText(rawText);
+            return cleanText.replace(/<S>\d+<\/S>/g, '').replace(/\s+/g, ' ').trim();
+          }
+          function parseSvAlignments(rawText) {
+            const { cleanText: rawWithoutNotes } = extractNotesAndCleanText(rawText);
+            const alignments = [];
+            const regex = /([^\s<]+)\s*<S>(\d+)<\/S>/g;
+            let match;
+            let cleanOffset = 0;
+            const cleanFull = cleanSvText(rawText);
+            while ((match = regex.exec(rawWithoutNotes)) !== null) {
+              const word = match[1].replace(/[.,;:!?()]/g, '');
+              if (!word) continue;
+              const charStart = cleanFull.indexOf(word, cleanOffset);
+              if (charStart !== -1) {
+                alignments.push({surface: word, charStart, charEnd: charStart + word.length, strong: `H${match[2]}`, status: 'verified'});
+                cleanOffset = charStart + word.length;
+              }
+            }
+            return alignments;
+          }
+          function parseKjvTokens(rawText) {
+            const { cleanText, notes } = extractNotesAndCleanText(rawText);
+            const tokens = [];
+            for (const wordStr of cleanText.split(/\s+/)) {
+              if (!wordStr) continue;
+              const match = wordStr.match(/^([^\s<]+)(?:<S>(\d+)<\/S>)?$/);
+              if (match) tokens.push({t: match[1], s: match[2] ? `H${match[2]}` : null});
+              else {
+                const tagMatch = wordStr.match(/<S>(\d+)<\/S>/);
+                tokens.push({t: wordStr.replace(/<S>\d+<\/S>/g, ''), s: tagMatch ? `H${tagMatch[1]}` : null});
+              }
+            }
+            return { tokens, notes };
+          }
+
+          for (const [book, id, chapter] of [['Hos',28,14], ['Joel',29,2]]) {
+            const svResp = await fetch(`https://bolls.life/get-text/DSV/${id}/${chapter}/`);
+            const kjvResp = await fetch(`https://bolls.life/get-text/KJV/${id}/${chapter}/`);
+            if (!svResp.ok || !kjvResp.ok) throw new Error(`Bible source fetch failed for ${book} ${chapter}`);
+            const sv = await svResp.json();
+            const kjv = await kjvResp.json();
+            const kjvByVerse = new Map(kjv.map(v => [Number(v.verse), v]));
+            for (const v of sv) {
+              const n = Number(v.verse);
+              const k = kjvByVerse.get(n);
+              if (!k) throw new Error(`Missing KJV ${book}.${chapter}.${n}`);
+              const { notes: svNotes } = extractNotesAndCleanText(v.text);
+              const { tokens, notes: kjvNotes } = parseKjvTokens(k.text);
+              const notes = {};
+              if (svNotes.length) notes.sv = svNotes;
+              if (kjvNotes.length) notes.kjv = kjvNotes;
+              cache[`${book}.${chapter}.${n}`] = {
+                sv: cleanSvText(v.text),
+                alignments: { sv: parseSvAlignments(v.text) },
+                kjv: tokens,
+                ...(Object.keys(notes).length ? {notes} : {})
+              };
+            }
+          }
+          fs.writeFileSync(cachePath, JSON.stringify(cache, null, 2), 'utf8');
+          const verify = JSON.parse(fs.readFileSync(cachePath, 'utf8'));
+          for (let i=1;i<=9;i++) if (!verify[`Hos.14.${i}`]) throw new Error(`Missing Hos.14.${i}`);
+          for (let i=1;i<=32;i++) if (!verify[`Joel.2.${i}`]) throw new Error(`Missing Joel.2.${i}`);
+          console.log('Added and verified Hosea 14 (1–9) and Joel 2 (1–32).');
+          NODE
+
+      - name: Patch permanent book support and Haazinu OSIS
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+
+          p=Path('scripts/build-bible-data.mjs')
+          s=p.read_text()
+          if "Hos: { osis: 'Hos'" not in s:
+              s=s.replace("  Jer: { osis: 'Jer', nl: 'Jeremia', en: 'Jeremiah', testament: 'OT' },\n", "  Jer: { osis: 'Jer', nl: 'Jeremia', en: 'Jeremiah', testament: 'OT' },\n  Hos: { osis: 'Hos', nl: 'Hosea', en: 'Hosea', testament: 'OT' },\n  Joel: { osis: 'Joel', nl: 'Joël', en: 'Joel', testament: 'OT' },\n")
+          if '"Hos.14": 9' not in s:
+              s=s.replace('  "Jer.2": 37, "Jer.3": 25,\n', '  "Jer.2": 37, "Jer.3": 25,\n  "Hos.14": 9, "Joel.2": 32,\n')
+          p.write_text(s)
+
+          p=Path('scripts/fetch-all-authentic-bible.mjs')
+          s=p.read_text()
+          marker="  // Zechariah\n  { book: 'Zech', ch: 14 },"
+          if "{ book: 'Hos', ch: 14 }" not in s:
+              s=s.replace(marker, "  // Hosea and Joel (Ha'azinu / Shabbat Shuvah)\n  { book: 'Hos', ch: 14 }, { book: 'Joel', ch: 2 },\n  // Zechariah\n  { book: 'Zech', ch: 14 },")
+          p.write_text(s)
+
+          p=Path('content/parasjot/haazinu.md')
+          s=p.read_text()
+          old='osis: "Hos.14.2-Hos.14.10"'
+          new='osis: "Hos.14.1-Hos.14.9" # technische SV/KJV-nummering; zichtbare Joodse lezing is Hosea 14:2–10'
+          if old not in s and 'osis: "Hos.14.1-Hos.14.9"' not in s:
+              raise SystemExit('Expected Haazinu Hosea OSIS not found')
+          s=s.replace(old,new)
+          p.write_text(s)
+          PY
+
+      - name: Validate complete repository build
+        shell: bash
+        run: |
+          set -euo pipefail
+          npm ci
+          npm run build:passages
+          npm run build:bible
+          test -f public/data/bible/haazinu-parasha.json
+          test -f public/data/bible/haazinu-haftara.json
+          test -f public/data/bible/haazinu-gospel.json
+          node - <<'NODE'
+          const h=require('./public/data/bible/haazinu-haftara.json');
+          if (h.verses.length !== 9) throw new Error(`Expected 9 Hosea verses, got ${h.verses.length}`);
+          if (h.verses[0].osis !== 'Hos.14.1' || h.verses.at(-1).osis !== 'Hos.14.9') throw new Error('Wrong Hosea technical numbering');
+          NODE
+          npm run build:downloads
+          npm run build
+
+      - name: Commit fix and generated Bible data to main
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'ChatGPT Haazinu deploy'
+          git config user.email '48785326+ArieAlberts@users.noreply.github.com'
+          git add scripts/authentic-bible-cache.json scripts/build-bible-data.mjs scripts/fetch-all-authentic-bible.mjs content/parasjot/haazinu.md \
+            data/passages.json public/data/passages.json public/data/downloads.json public/data/bible/
+          git diff --cached --check
+          git commit -m "fix: support Ha'azinu Hosea and Joel Bible data"
+          git push origin main
