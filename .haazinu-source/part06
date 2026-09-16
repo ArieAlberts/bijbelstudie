@@ -1,0 +1,30 @@
+round, not the week's theme):</strong> “I kill and I make alive, I heal” (32:39) and “from Me your fruit” (Hos. 14:8) — the restoration comes from the Rock, not from our achievement.</p>
+download_pdf_nl: "/downloads/lezingen/haazinu-lezing-nl.pdf"
+download_pdf_en: "/downloads/lezingen/haazinu-lezing-en.pdf"
+download_docx_nl: "/downloads/lezingen/haazinu-lezing-nl.docx"
+download_docx_en: "/downloads/lezingen/haazinu-lezing-en.docx"
+download_study_pdf_nl: "/downloads/studiebladen/haazinu-studieblad-nl.pdf"
+download_study_pdf_en: "/downloads/studiebladen/haazinu-studieblad-en.pdf"
+download_study_docx_nl: "/downloads/studiebladen/haazinu-studieblad-nl.docx"
+download_study_docx_en: "/downloads/studiebladen/haazinu-studieblad-en.docx"
+download_worksheet_pdf_nl: "/downloads/werkbladen/haazinu-werkblad-nl.pdf"
+download_worksheet_pdf_en: "/downloads/werkbladen/haazinu-werkblad-en.pdf"
+download_worksheet_docx_nl: "/downloads/werkbladen/haazinu-werkblad-nl.docx"
+download_worksheet_docx_en: "/downloads/werkbladen/haazinu-werkblad-en.docx"
+passages:
+  - role: parasha
+    ref:
+      nl: "Deuteronomium 32:1–52"
+      en: "Deuteronomy 32:1–52"
+    osis: "Deut.32.1-Deut.32.52"
+  - role: haftara
+    ref:
+      nl: "Hosea 14:2–10; Joël 2:15–27"
+      en: "Hosea 14:2–10; Joel 2:15–27"
+    osis: "Hos.14.2-Hos.14.10"
+  - role: gospel
+    ref:
+      nl: "Mattheüs 18:21–35"
+      en: "Matthew 18:21–35"
+    osis: "Matt.18.21-Matt.18.35"
+---
