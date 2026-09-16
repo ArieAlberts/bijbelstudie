@@ -1,0 +1,28 @@
+name: Inspect Haazinu Bible cache
+
+on:
+  push:
+    branches:
+      - haazinu-upload-temp-2
+    paths:
+      - '.haazinu-source/INSPECT'
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: haazinu-upload-temp-2
+      - name: Inspect Hosea and Joel cache keys
+        shell: bash
+        run: |
+          node - <<'NODE'
+          const fs = require('fs');
+          const c = JSON.parse(fs.readFileSync('scripts/authentic-bible-cache.json', 'utf8'));
+          for (const prefix of ['Hos.14.', 'Joel.2.']) {
+            const keys = Object.keys(c).filter(k => k.startsWith(prefix));
+            console.log(prefix + ' count=' + keys.length);
+            console.log(keys.join(','));
+          }
+          NODE
