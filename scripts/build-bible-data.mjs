@@ -9,6 +9,7 @@ const rootDir = path.resolve(__dirname, '..');
 const passagesFile = path.join(rootDir, 'data', 'passages.json');
 const outputDir = path.join(rootDir, 'public', 'data', 'bible');
 const cacheFile = path.join(rootDir, 'scripts', 'authentic-bible-cache.json');
+const supplementalCacheFile = path.join(rootDir, 'scripts', 'haazinu-bible-cache.json');
 const lexiconCacheFile = path.join(rootDir, 'scripts', 'full-lexicon-cache.json');
 
 const BOOK_MAP = {
@@ -181,6 +182,9 @@ function buildAllPassages() {
   }
 
   const cachedDb = JSON.parse(fs.readFileSync(cacheFile, 'utf-8'));
+  if (fs.existsSync(supplementalCacheFile)) {
+    Object.assign(cachedDb, JSON.parse(fs.readFileSync(supplementalCacheFile, 'utf-8')));
+  }
   const fullLexicon = JSON.parse(fs.readFileSync(lexiconCacheFile, 'utf-8'));
   const manifest = JSON.parse(fs.readFileSync(passagesFile, 'utf-8'));
 
