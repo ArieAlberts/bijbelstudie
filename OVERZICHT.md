@@ -17,6 +17,7 @@ content/parasjot/
   nitzavim-vayelech.md
   jom-teruah.md
   haazinu.md
+  yom-kippur.md
 
 public/downloads/lezingen/
   {parasja}-nl.pdf   {parasja}-nl.docx
@@ -27,6 +28,8 @@ public/downloads/lezingen/
   jom-teruah-lezing-en.pdf   jom-teruah-lezing-en.docx
   haazinu-lezing-nl.pdf   haazinu-lezing-nl.docx
   haazinu-lezing-en.pdf   haazinu-lezing-en.docx
+  yom-kippur-lezing-nl.pdf   yom-kippur-lezing-nl.docx
+  yom-kippur-lezing-en.pdf   yom-kippur-lezing-en.docx
 
 public/downloads/studiebladen/
   {parasja}-nl.pdf   {parasja}-nl.docx
@@ -36,6 +39,8 @@ public/downloads/studiebladen/
   jom-teruah-studieblad-en.pdf   jom-teruah-studieblad-en.docx
   haazinu-studieblad-nl.pdf   haazinu-studieblad-nl.docx
   haazinu-studieblad-en.pdf   haazinu-studieblad-en.docx
+  yom-kippur-studieblad-nl.pdf   yom-kippur-studieblad-nl.docx
+  yom-kippur-studieblad-en.pdf   yom-kippur-studieblad-en.docx
 
 public/downloads/werkbladen/
   reeh-nl.pdf   reeh-nl.docx
@@ -47,6 +52,8 @@ public/downloads/werkbladen/
   jom-teruah-werkblad-en.pdf   jom-teruah-werkblad-en.docx
   haazinu-werkblad-nl.pdf   haazinu-werkblad-nl.docx
   haazinu-werkblad-en.pdf   haazinu-werkblad-en.docx
+  yom-kippur-werkblad-nl.pdf   yom-kippur-werkblad-nl.docx
+  yom-kippur-werkblad-en.pdf   yom-kippur-werkblad-en.docx
 ```
 
 ## Statusoverzicht
@@ -63,6 +70,7 @@ public/downloads/werkbladen/
 | Nitzavim/Vayelech |  ✓   |     ✓     |     ✓     |       ✓       |       ✓       |      ✓      |      ✓      |
 | Jom Teruah     |    ✓     |     ✓     |     ✓     |       ✓       |       ✓       |      ✓      |      ✓      |
 | Ha'azinu       |    ✓     |     ✓     |     ✓     |       ✓       |       ✓       |      ✓      |      ✓      |
+| Yom Kippur     |    ✓     |     ✓     |     ✓     |       ✓       |       ✓       |      ✓      |      ✓      |
 
 ✓ = klaar · — = nog te maken
 
@@ -75,6 +83,8 @@ Nitzavim/Vayelech is **volledig tweetalig** en uploadklaar: lezing, studieblad �
 Jom Teruah is **volledig tweetalig** en uploadklaar: lezing, studieblad én werkblad in NL en EN, alle body- en `*_en`-velden in `jom-teruah.md` gevuld (uitgebreide lezing als canonieke vorm). Constellatie: Genesis 21:1–34 · 1 Samuël 1:1–2:10 · Mattheüs 24:29–36. Bronnenronde geverifieerd via Sefaria (Rosj Hasjana 10b–11a; Rasji Gen. 21:9) én Van de Giessen (Aantekeningen bij Genesis 1–25: pakad 21:1, metsachek 21:9, 4Q365-variant) voor de parasja; voor de haftara (1 Samuël) ontbreekt Van de Giessen nog, en Onkelos staat als open verificatiepunt. `published_at: 2026-09-12`.
 
 Ha'azinu is **volledig tweetalig** en uploadklaar: lezing, studieblad én werkblad in NL en EN, alle body- en `*_en`-velden in `haazinu.md` gevuld (uitgebreide lezing als canonieke vorm). Constellatie: Deuteronomium 32:1–52 · Hosea 14:2–10 + Joël 2:15–27 (Sjabbat Sjoeva) · Mattheüs 18:21–35 (bewust gekozen: het vergeten van de Rots wordt zichtbaar in hoe je de ander behandelt — niet Matt. 7). Bronnenronde geverifieerd via Van de Giessen (Deut. 18–34: tsoer, Jesjurun/ba'at, sjajah-hapax) én Sefaria (Rasji op 32:1 / Sifrei 306; twee-getuigen Deut. 19:15); Onkelos/Ibn Ezra/Ramban als open verificatiepunt. `published_at: 2026-09-19` (Sjabbat Sjoeva).
+
+Yom Kippur is **volledig tweetalig** en uploadklaar: lezing, studieblad én werkblad in NL en EN, alle body- en `*_en`-velden in `yom-kippur.md` gevuld. Constellatie: Leviticus 16:1–34 · Jesaja 57:14–58:14 · Mattheüs 25:31–46. Zwaartepunt: voor het aangezicht van God (Bron/heiligheid) met Coherentie-scharnier (ontvangen verzoening ↔ de geringste niet onzichtbaar laten); Hebreeën 9–10 als belijdende horizon (Yeshua als Hogepriester), niet als platte typologie. Bronnenronde via Sefaria (Azazel-lijnen; chok Lev. 18:4; "voor het aangezicht" 16:30) — Van de Giessen dekt Leviticus niet; Onkelos open verificatiepunt. `published_at: 2026-09-21` (Grote Verzoendag).
 
 
 - **Studiebladen EN** — 6 stuks (alle behalve Shoftim en Nitzavim/Vayelech, incl. Ki Tavo): vertaling van de bestaande Nederlandse studiebladen.
@@ -112,3 +122,4 @@ zodra de betreffende versie bestaat — nooit eerder (geen fallback).
 | Nitzavim/Vayelech | nitzavim-vayelech | "In je mond, in je hart, in je handen" |
 | Jom Teruah   | jom-teruah    | "De God die gedenkt en roept" |
 | Ha'azinu     | haazinu       | "Als regen op het gras" |
+| Yom Kippur   | yom-kippur    | "Voor het aangezicht van God" |
