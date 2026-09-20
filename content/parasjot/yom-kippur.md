@@ -7,6 +7,7 @@ label:
 status: published
 current: false
 published_at: 2026-09-21
+shabbat_date: 2026-09-21
 title_nl: "Voor het aangezicht van God"
 title_en: "Before the face of God"
 summary_nl: "Yom Kippur begint niet bij onze beleving maar bij Gods heiligheid: Aäron nadert op Gods weg, ontvangt verzoening eerst voor zichzelf, en de schuld wordt weggedragen — “voor het aangezicht van de HEERE zult u rein zijn”. Jesaja 58 ontmaskert een vasten dat vorm blijft, en Mattheüs 25 toetst de vrucht: wie werkelijk van verzoening leeft, kan de geringste niet onzichtbaar laten worden. Hebreeën 9–10 wijst naar Yeshua, de Hogepriester die door eigen bloed “voor het aangezicht van God, voor ons” verschijnt."
