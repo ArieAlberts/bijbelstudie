@@ -18,6 +18,7 @@ content/parasjot/
   jom-teruah.md
   haazinu.md
   yom-kippur.md
+  sukkot.md
 
 public/downloads/lezingen/
   {parasja}-nl.pdf   {parasja}-nl.docx
@@ -30,6 +31,8 @@ public/downloads/lezingen/
   haazinu-lezing-en.pdf   haazinu-lezing-en.docx
   yom-kippur-lezing-nl.pdf   yom-kippur-lezing-nl.docx
   yom-kippur-lezing-en.pdf   yom-kippur-lezing-en.docx
+  sukkot-lezing-nl.pdf   sukkot-lezing-nl.docx
+  sukkot-lezing-en.pdf   sukkot-lezing-en.docx
 
 public/downloads/studiebladen/
   {parasja}-nl.pdf   {parasja}-nl.docx
@@ -41,6 +44,8 @@ public/downloads/studiebladen/
   haazinu-studieblad-en.pdf   haazinu-studieblad-en.docx
   yom-kippur-studieblad-nl.pdf   yom-kippur-studieblad-nl.docx
   yom-kippur-studieblad-en.pdf   yom-kippur-studieblad-en.docx
+  sukkot-studieblad-nl.pdf   sukkot-studieblad-nl.docx
+  sukkot-studieblad-en.pdf   sukkot-studieblad-en.docx
 
 public/downloads/werkbladen/
   reeh-nl.pdf   reeh-nl.docx
@@ -54,6 +59,8 @@ public/downloads/werkbladen/
   haazinu-werkblad-en.pdf   haazinu-werkblad-en.docx
   yom-kippur-werkblad-nl.pdf   yom-kippur-werkblad-nl.docx
   yom-kippur-werkblad-en.pdf   yom-kippur-werkblad-en.docx
+  sukkot-werkblad-nl.pdf   sukkot-werkblad-nl.docx
+  sukkot-werkblad-en.pdf   sukkot-werkblad-en.docx
 ```
 
 ## Statusoverzicht
@@ -71,6 +78,7 @@ public/downloads/werkbladen/
 | Jom Teruah     |    ✓     |     ✓     |     ✓     |       ✓       |       ✓       |      ✓      |      ✓      |
 | Ha'azinu       |    ✓     |     ✓     |     ✓     |       ✓       |       ✓       |      ✓      |      ✓      |
 | Yom Kippur     |    ✓     |     ✓     |     ✓     |       ✓       |       ✓       |      ✓      |      ✓      |
+| Sukkot         |    ✓     |     ✓     |     ✓     |       ✓       |       ✓       |      ✓      |      ✓      |
 
 ✓ = klaar · — = nog te maken
 
@@ -85,6 +93,8 @@ Jom Teruah is **volledig tweetalig** en uploadklaar: lezing, studieblad én werk
 Ha'azinu is **volledig tweetalig** en uploadklaar: lezing, studieblad én werkblad in NL en EN, alle body- en `*_en`-velden in `haazinu.md` gevuld (uitgebreide lezing als canonieke vorm). Constellatie: Deuteronomium 32:1–52 · Hosea 14:2–10 + Joël 2:15–27 (Sjabbat Sjoeva) · Mattheüs 18:21–35 (bewust gekozen: het vergeten van de Rots wordt zichtbaar in hoe je de ander behandelt — niet Matt. 7). Bronnenronde geverifieerd via Van de Giessen (Deut. 18–34: tsoer, Jesjurun/ba'at, sjajah-hapax) én Sefaria (Rasji op 32:1 / Sifrei 306; twee-getuigen Deut. 19:15); Onkelos/Ibn Ezra/Ramban als open verificatiepunt. `published_at: 2026-09-19` (Sjabbat Sjoeva).
 
 Yom Kippur is **volledig tweetalig** en uploadklaar: lezing, studieblad én werkblad in NL en EN, alle body- en `*_en`-velden in `yom-kippur.md` gevuld. Constellatie: Leviticus 16:1–34 · Jesaja 57:14–58:14 · Mattheüs 25:31–46. Zwaartepunt: voor het aangezicht van God (Bron/heiligheid) met Coherentie-scharnier (ontvangen verzoening ↔ de geringste niet onzichtbaar laten); Hebreeën 9–10 als belijdende horizon (Yeshua als Hogepriester), niet als platte typologie. Bronnenronde via Sefaria (Azazel-lijnen; chok Lev. 18:4; "voor het aangezicht" 16:30) — Van de Giessen dekt Leviticus niet; Onkelos open verificatiepunt. `published_at: 2026-09-21` (Grote Verzoendag).
+
+Sukkot is **volledig tweetalig** en uploadklaar: lezing, studieblad én werkblad in NL en EN, alle body- en `*_en`-velden in `sukkot.md` gevuld. Constellatie: Leviticus 22:26–23:44 · Zacharia 14:1–21 · Lukas 2:1–20. Zwaartepunt: uit het vaste huis komen om te leren dat Hij ons draagt (Bron/Traject), met de kwetsbare hut als zichtbaar, stil getuigenis (Coherentie) dat tot de volken reikt. Guards: Lukas 2 geen geboortedatum-bewijs, Joh. 1:14 geen etymologische truc. Bronnenronde via Sefaria (machloket hutten/wolken Soekka 11b; Onkelos "in de schaduw" 23:43; Zohar) — Van de Giessen dekt Leviticus niet. `published_at: 2026-09-26` (eerste dag Sukkot).
 
 
 - **Studiebladen EN** — 6 stuks (alle behalve Shoftim en Nitzavim/Vayelech, incl. Ki Tavo): vertaling van de bestaande Nederlandse studiebladen.
@@ -123,3 +133,4 @@ zodra de betreffende versie bestaat — nooit eerder (geen fallback).
 | Jom Teruah   | jom-teruah    | "De God die gedenkt en roept" |
 | Ha'azinu     | haazinu       | "Als regen op het gras" |
 | Yom Kippur   | yom-kippur    | "Voor het aangezicht van God" |
+| Sukkot       | sukkot        | "Wonen onder Zijn schaduw" |
