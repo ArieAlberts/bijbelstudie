@@ -19,6 +19,7 @@ content/parasjot/
   haazinu.md
   yom-kippur.md
   sukkot.md
+  shemini-atzeret.md
 
 public/downloads/lezingen/
   {parasja}-nl.pdf   {parasja}-nl.docx
@@ -33,6 +34,8 @@ public/downloads/lezingen/
   yom-kippur-lezing-en.pdf   yom-kippur-lezing-en.docx
   sukkot-lezing-nl.pdf   sukkot-lezing-nl.docx
   sukkot-lezing-en.pdf   sukkot-lezing-en.docx
+  shemini-atzeret-lezing-nl.pdf   shemini-atzeret-lezing-nl.docx
+  shemini-atzeret-lezing-en.pdf   shemini-atzeret-lezing-en.docx
 
 public/downloads/studiebladen/
   {parasja}-nl.pdf   {parasja}-nl.docx
@@ -46,6 +49,8 @@ public/downloads/studiebladen/
   yom-kippur-studieblad-en.pdf   yom-kippur-studieblad-en.docx
   sukkot-studieblad-nl.pdf   sukkot-studieblad-nl.docx
   sukkot-studieblad-en.pdf   sukkot-studieblad-en.docx
+  shemini-atzeret-studieblad-nl.pdf   shemini-atzeret-studieblad-nl.docx
+  shemini-atzeret-studieblad-en.pdf   shemini-atzeret-studieblad-en.docx
 
 public/downloads/werkbladen/
   reeh-nl.pdf   reeh-nl.docx
@@ -61,6 +66,8 @@ public/downloads/werkbladen/
   yom-kippur-werkblad-en.pdf   yom-kippur-werkblad-en.docx
   sukkot-werkblad-nl.pdf   sukkot-werkblad-nl.docx
   sukkot-werkblad-en.pdf   sukkot-werkblad-en.docx
+  shemini-atzeret-werkblad-nl.pdf   shemini-atzeret-werkblad-nl.docx
+  shemini-atzeret-werkblad-en.pdf   shemini-atzeret-werkblad-en.docx
 ```
 
 ## Statusoverzicht
@@ -79,6 +86,7 @@ public/downloads/werkbladen/
 | Ha'azinu       |    ✓     |     ✓     |     ✓     |       ✓       |       ✓       |      ✓      |      ✓      |
 | Yom Kippur     |    ✓     |     ✓     |     ✓     |       ✓       |       ✓       |      ✓      |      ✓      |
 | Sukkot         |    ✓     |     ✓     |     ✓     |       ✓       |       ✓       |      ✓      |      ✓      |
+| Shemini Atzeret |   ✓    |     ✓     |     ✓     |       ✓       |       ✓       |      ✓      |      ✓      |
 
 ✓ = klaar · — = nog te maken
 
@@ -95,6 +103,8 @@ Ha'azinu is **volledig tweetalig** en uploadklaar: lezing, studieblad én werkbl
 Yom Kippur is **volledig tweetalig** en uploadklaar: lezing, studieblad én werkblad in NL en EN, alle body- en `*_en`-velden in `yom-kippur.md` gevuld. Constellatie: Leviticus 16:1–34 · Jesaja 57:14–58:14 · Mattheüs 25:31–46. Zwaartepunt: voor het aangezicht van God (Bron/heiligheid) met Coherentie-scharnier (ontvangen verzoening ↔ de geringste niet onzichtbaar laten); Hebreeën 9–10 als belijdende horizon (Yeshua als Hogepriester), niet als platte typologie. Bronnenronde via Sefaria (Azazel-lijnen; chok Lev. 18:4; "voor het aangezicht" 16:30) — Van de Giessen dekt Leviticus niet; Onkelos open verificatiepunt. `published_at: 2026-09-21` (Grote Verzoendag).
 
 Sukkot is **volledig tweetalig** en uploadklaar: lezing, studieblad én werkblad in NL en EN, alle body- en `*_en`-velden in `sukkot.md` gevuld. Constellatie: Leviticus 22:26–23:44 · Zacharia 14:1–21 · Lukas 2:1–20. Zwaartepunt: uit het vaste huis komen om te leren dat Hij ons draagt (Bron/Traject), met de kwetsbare hut als zichtbaar, stil getuigenis (Coherentie) dat tot de volken reikt. Guards: Lukas 2 geen geboortedatum-bewijs, Joh. 1:14 geen etymologische truc. Bronnenronde via Sefaria (machloket hutten/wolken Soekka 11b; Onkelos "in de schaduw" 23:43; Zohar) — Van de Giessen dekt Leviticus niet. `published_at: 2026-09-26` (eerste dag Sukkot).
+
+Shemini Atzeret is **volledig tweetalig** en uploadklaar: lezing, studieblad én werkblad in NL en EN, alle body- en `*_en`-velden in `shemini-atzeret.md` gevuld. Constellatie: Deuteronomium 14:22–16:17 · 1 Koningen 8:54–66 · Lukas 2:21–32. **De lezing is Arie’s eigen versie** („Blijf nog een dag — zeven treden naar de achtste dag”): de feesten als zeven treden naar de achtste dag, met de eindtoets ontvangen-vs-grijpen, de vreemdeling in het erfdeel (Ezechiël 47), Simeon die òntving (edexato), Martha/Maria en „blijf in Mij” (Joh. 15:4). Studieblad/werkblad dragen dezelfde as (de achtste dag; atseret; Rasji op Lev. 23:36 / Soekka 55b geverifieerd via Sefaria). Van de Giessen dekt Deut. 14–16 niet; Onkelos open verificatiepunt. `published_at: 2026-10-03` (Sjemini Atseret).
 
 
 - **Studiebladen EN** — 6 stuks (alle behalve Shoftim en Nitzavim/Vayelech, incl. Ki Tavo): vertaling van de bestaande Nederlandse studiebladen.
@@ -134,3 +144,4 @@ zodra de betreffende versie bestaat — nooit eerder (geen fallback).
 | Ha'azinu     | haazinu       | "Als regen op het gras" |
 | Yom Kippur   | yom-kippur    | "Voor het aangezicht van God" |
 | Sukkot       | sukkot        | "Wonen onder Zijn schaduw" |
+| Shemini Atzeret | shemini-atzeret | "Blijf nog een dag" |
