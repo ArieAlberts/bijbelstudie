@@ -131,7 +131,7 @@ study_body_nl: |
   <h2>§1 De draad</h2>
   <p>Na de zeven dagen één dag extra: “blijf nog even, je afscheid valt Mij zwaar.” Maar wie nog één dag bij de Koning blijft, gaat niet berooid weg — hij gaat vol: met een open hand, blij en goedsgemoed, in vrede. De intimiteit van de achtste dag maakt de zending vervuld in plaats van leeg.</p>
 
-  <h2>§2 Peshat per blok</h2>
+  <h2>§2 Wat zegt de tekst per blok</h2>
   <table>
   <tr><th>Tekstblok</th><th>Wat staat er?</th><th>Sleutelwoord / contrast</th><th>Open vraag</th></tr>
   <tr><td>Deut. 14:22–29</td><td>De tiende; eet voor Gods aangezicht en verheug je; de derde-jaars tiende voor Leviet, vreemdeling, wees, weduwe.</td><td>tiende · verheugen</td><td>Waarom wordt teruggeven vreugde?</td></tr>
@@ -163,7 +163,7 @@ study_body_nl: |
   <p><strong>Revisiepoort.</strong> Veranderde de ronde het zwaartepunt? Bevestigend en scherpend: atseret áls intimiteit (Rasji) en “op de achtste dag weggezonden, blij” (1 Kon.) leggen samen de paradox bloot — dichtbij blijven én vervuld gezonden — zodat het niet bij private nabijheid blijft.</p>
 
   <h2>§5 Richtingstoets als horizon</h2>
-  <p>🔵 Belijdend. Op de achtste dag krijgt het Kind Zijn naam (Yeshua = “de HEERE redt”) en spreekt Simeon in de tempel — hetzelfde huis dat Salomo inwijdde — zijn “in vrede heengaan” uit: hééngaan dat vervulling is, omdat zijn ogen het heil zagen. En “een licht voor de heidenen en de heerlijkheid van Israël” houdt de volken en Israël van deze dag in één Kind samen. 🔴 Bewaakt: dit is belijdende horizon, geen bewijs dat Yeshua op Sjemini Atseret geboren of opgedragen werd; de peshat blijft de achtste dag van besnijdenis en de tempelopdracht.</p>
+  <p>🔵 Belijdend. Op de achtste dag krijgt het Kind Zijn naam (Yeshua = “de HEERE redt”) en spreekt Simeon in de tempel — hetzelfde huis dat Salomo inwijdde — zijn “in vrede heengaan” uit: hééngaan dat vervulling is, omdat zijn ogen het heil zagen. En “een licht voor de heidenen en de heerlijkheid van Israël” houdt de volken en Israël van deze dag in één Kind samen. 🔴 Bewaakt: dit is belijdende horizon, geen bewijs dat Yeshua op Sjemini Atseret geboren of opgedragen werd; de tekst zelf blijft de achtste dag van besnijdenis en de tempelopdracht.</p>
 
   <h2>§6 Statustabel</h2>
   <table>
@@ -174,7 +174,7 @@ study_body_nl: |
   <tr><td>Weggezonden én vervuld: blij en goedsgemoed (1 Kon. 8:66); in vrede heengaan (Luk. 2:29)</td><td>🟢 dragend</td></tr>
   <tr><td>Reflex-landing op private nabijheid/“knusse” intimiteit</td><td>🔴 bewaking</td></tr>
   <tr><td>Simeon: licht voor de volken én heerlijkheid van Israël (Luk. 2:32) — in één Kind</td><td>🔵 belijdend</td></tr>
-  <tr><td>Rav Mecklenburg; Yizkor/regengebed; geen eigen gebod</td><td>🟡 suggestief (traditie)</td></tr>
+  <tr><td>Rav Mecklenburg; gedachtenisgebed/regengebed; geen eigen gebod</td><td>🟡 suggestief (traditie)</td></tr>
   <tr><td>Onkelos op Deut. 16:16 / Lev. 23:36</td><td>⚪ open verificatiepunt</td></tr>
   </table>
 
@@ -197,7 +197,7 @@ study_body_en: |
   <h2>§1 The thread</h2>
   <p>After the seven days, one more day: “stay a little longer, your parting is hard for Me.” But whoever stays one more day with the King does not leave destitute — he goes full: with an open hand, joyful and glad of heart, in peace. The intimacy of the eighth day makes the sending full instead of empty.</p>
 
-  <h2>§2 Peshat per block</h2>
+  <h2>§2 What the text says per block</h2>
   <table>
   <tr><th>Block</th><th>What it says</th><th>Keyword / contrast</th><th>Open question</th></tr>
   <tr><td>Deut. 14:22–29</td><td>The tithe; eat before God’s face and rejoice; the third-year tithe for Levite, stranger, orphan, widow.</td><td>tithe · rejoice</td><td>Why does giving-back become joy?</td></tr>
@@ -229,7 +229,7 @@ study_body_en: |
   <p><strong>Revision gate.</strong> Did the round shift the centre? Confirming and sharpening: atzeret as intimacy (Rashi) and “on the eighth day sent away, glad” (1 Kings) together expose the paradox — staying close and sent full — so it does not remain private nearness.</p>
 
   <h2>§5 Direction test as horizon</h2>
-  <p>🔵 Confessional. On the eighth day the Child receives His name (Yeshua = “the LORD saves”) and Simeon in the temple — the same house Solomon dedicated — speaks his “depart in peace”: a departing that is fulfilment, because his eyes have seen the salvation. And “a light to the Gentiles and the glory of Israel” holds the nations and Israel of this day together in one Child. 🔴 Guarded: this is confessional horizon, not proof that Yeshua was born or presented on Shemini Atzeret; the peshat remains the eighth day of circumcision and the temple presentation.</p>
+  <p>🔵 Confessional. On the eighth day the Child receives His name (Yeshua = “the LORD saves”) and Simeon in the temple — the same house Solomon dedicated — speaks his “depart in peace”: a departing that is fulfilment, because his eyes have seen the salvation. And “a light to the Gentiles and the glory of Israel” holds the nations and Israel of this day together in one Child. 🔴 Guarded: this is confessional horizon, not proof that Yeshua was born or presented on Shemini Atzeret; the text itself remains the eighth day of circumcision and the temple presentation.</p>
 
   <h2>§6 Status table</h2>
   <table>
@@ -240,7 +240,7 @@ study_body_en: |
   <tr><td>Sent away and full: joyful and glad of heart (1 Kings 8:66); depart in peace (Luke 2:29)</td><td>🟢 load-bearing</td></tr>
   <tr><td>Reflex-landing on private nearness / “cosy” intimacy</td><td>🔴 guardrail</td></tr>
   <tr><td>Simeon: light to the nations and glory of Israel (Luke 2:32) — in one Child</td><td>🔵 confessional</td></tr>
-  <tr><td>Rav Mecklenburg; Yizkor/rain prayer; no dedicated commandment</td><td>🟡 suggestive (tradition)</td></tr>
+  <tr><td>Rav Mecklenburg; memorial prayer / rain prayer; no dedicated commandment</td><td>🟡 suggestive (tradition)</td></tr>
   <tr><td>Onkelos on Deut. 16:16 / Lev. 23:36</td><td>⚪ open verification point</td></tr>
   </table>
 
@@ -255,7 +255,7 @@ worksheet_body_nl: |
   <h2>Basisgegevens</h2>
   <p>Parasja / afbakening: Sjemini Atseret — Deuteronomium 14:22–16:17. Haftara: 1 Koningen 8:54–66. Flanklezing en status: Lukas 2:21–32 — nieuwtestamentische spiegeling, belijdend gebruikt (niet als de letterlijke betekenis van de tekst). Doelgroep: studiegroep / gemeente.</p>
 
-  <h2>A1. Tekstblokken en peshat</h2>
+  <h2>A1. Tekstblokken en wat er staat</h2>
   <table>
   <tr><th>Tekstblok</th><th>Wat staat er?</th><th>Sleutelwoorden / contrast</th><th>Open vraag</th></tr>
   <tr><td>Deut. 14:22–15:18</td><td>Tiende; sabbatsjaar; vrijlaten “niet met lege handen”; open hand.</td><td>open hand · niet leeg</td><td>Waarom niet leeg laten gaan?</td></tr>
@@ -292,7 +292,7 @@ worksheet_body_en: |
   <h2>Basic data</h2>
   <p>Parashah / scope: Shemini Atzeret — Deuteronomy 14:22–16:17. Haftarah: 1 Kings 8:54–66. Flanking reading and status: Luke 2:21–32 — New Testament reflection, used confessionally (not as the plain meaning of the text). Audience: study group / congregation.</p>
 
-  <h2>A1. Text blocks and peshat</h2>
+  <h2>A1. Text blocks and what they say</h2>
   <table>
   <tr><th>Block</th><th>What it says</th><th>Keywords / contrast</th><th>Open question</th></tr>
   <tr><td>Deut. 14:22–15:18</td><td>Tithe; sabbatical year; freeing “not empty-handed”; open hand.</td><td>open hand · not empty</td><td>Why not let them go empty?</td></tr>
