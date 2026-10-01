@@ -9,8 +9,8 @@ current: false
 published_at: 2026-10-03
 title_nl: "Blijf nog een dag"
 title_en: "Stay one more day"
-summary_nl: "Een overdenking die de feesten aflegt als zeven treden naar de achtste dag, die begint en eindigt in rust. Op Sjemini Atseret wordt de eindtoets afgenomen: ontvangen we, of grijpen we? Salomo zendt het volk blij naar huis, Simeon òntvangt het Kind (edexato) en mag in vrede heengaan, en de vreemdeling krijgt een plaats in het erfdeel (Ezechiël 47). Het enige wat gevraagd wordt: blijf in Hem."
-summary_en: "A meditation that walks the feasts as seven steps to the eighth day, beginning and ending in rest. On Shemini Atzeret the final test is taken: do we receive, or do we grasp? Solomon sends the people home joyful, Simeon receives the Child (edexato) and may depart in peace, and the stranger receives a place in the inheritance (Ezekiel 47). The only thing asked: abide in Him."
+summary_nl: "Een overdenking die de feesten aflegt als zeven treden naar de achtste dag, die begint en eindigt in rust. Op Sjemini Atseret wordt de eindtoets afgenomen: ontvangen we, of grijpen we? Salomo zendt het volk blij naar huis, Simeon ontvangt het Kind en mag in vrede heengaan, en de vreemdeling krijgt een plaats in het erfdeel (Ezechiël 47). Het enige wat gevraagd wordt: blijf in Hem."
+summary_en: "A meditation that walks the feasts as seven steps to the eighth day, beginning and ending in rest. On Shemini Atzeret the final test is taken: do we receive, or do we grasp? Solomon sends the people home joyful, Simeon receives the Child and may depart in peace, and the stranger receives a place in the inheritance (Ezekiel 47). The only thing asked: abide in Him."
 body_nl: |
   <h2>We worden gebracht, en toch gaan we zelf op</h2>
   <blockquote><p><em>Dan ga ik op tot Gods altaren, / tot God, mijn God, de bron van vreugd; / dan zal ik, juichend, stem en snaren / ten roem van Zijne goedheid paren, / die, na kortstondig ongeneugt’, / mij eindeloos verheugt. — Psalm 43:4 (berijming 1773)</em></p></blockquote>
@@ -54,11 +54,11 @@ body_nl: |
   <p>Dat raakt ons. De vreemdeling wordt niet slechts toegestaan om aan de rand te blijven wonen; hij mag in het midden wonen, en ontvangt zijn erfdeel „bij de stam waarbij hij verblijft” (vers 23). Helemaal nieuw is dat niet. In de parasja van deze week zit de vreemdeling al aan tafel bij de feesten, naast de zoon, de dochter, de Leviet, de wees en de weduwe (Deuteronomium 16:11,14). Wat daar een plaats aan de feesttafel is, wordt bij Ezechiël een plaats in het erfdeel.</p>
   <p>Daarmee ontstaat een prachtige beweging. Bij Salomo zien we Israël vanuit heel het land naar de tempel komen; bij Ezechiël zien we hetzelfde land opnieuw rondom Gods herstelde aanwezigheid geordend — maar nu wordt uitdrukkelijk gezegd dat ook de vreemdeling die zich daar heeft gevestigd een plaats ontvangt. Niet doordat Israël verdwijnt; juist bínnen de stammen van Israël krijgt de vreemdeling zijn plaats. De tempel staat in het midden, Israël blijft Israël, en toch is er ruimte voor de vreemdeling. Wat een toekomstbeeld: wonen in het land, niet als iemand die het heeft gegrepen, maar als iemand die een plaats heeft ontvangen.</p>
   <h2>Trede 7 — 22 Tisjri: de achtste dag</h2>
-  <p>Atseret betekent inhouden, vasthouden, blijven. Op deze dag wordt de eindtoets afgenomen, en die is eenvoudig en genadeloos eerlijk: ontvangen we, of grijpen we? De maatstaf is niet ons gevoel en niet onze prestatie. De maatstaf is het Woord dat búiten ons gesproken is.</p>
+  <p>Atseret betekent inhouden, vasthouden, blijven. Op deze dag komt het uiteindelijk op één eenvoudige vraag aan: ontvangen we, of grijpen we? De maatstaf is niet ons gevoel en niet onze prestatie. De maatstaf is het Woord dat búiten ons gesproken is.</p>
   <p>En let op het ritme waarin deze dag staat. Leviticus 23 noemt de eerste dag van het feest een rustdag, een sjabbaton, en de achtste dag opnieuw een sjabbaton (23:39). Het feest opent dus in rust en het sluit in rust. Soms wordt het beginsel van „de achtste dag” gebruikt om te zeggen dat die dag de zondag is — de dag ná de sabbat, een nieuw begin dat de rust achter zich laat. Máár als je begint bíj de rust — zoals de schepping begint met de zevende dag, en zoals dit feest opent met een sjabbaton — dan is de achtste dag geen stap wég van de sabbat, maar een terugkeer in de rust: zelf weer een sjabbaton. Tel je vanaf de sabbat, dan kom je op de achtste dag opnieuw bij de sabbat uit. De achtste dag schaft de rust niet af; hij bevestigt haar. Hij is geen dag die wij als nieuw begin kiezen, maar opnieuw de dag die God als rust heeft gegeven.</p>
   <p>Wie de dag toch moet vullen met eigen symbolen, verraadt dat hij nog gríjpt. Wie het uithoudt bij God zonder iets te hoeven opvoeren, ontvángt. Eén eerlijke kanttekening: dat we deze trede juist aan deze dag koppelen, is een sterke lijn en geen tekstbewijs. Máár kijk wat de drie lezingen van deze week zelf doen — alle drie scharnieren ze op de achtste dag.</p>
   <p>In de haftara laat Salomo het volk op de achtste dag gaan (1 Koningen 8:66; Kronieken noemt die dag uitdrukkelijk een atseret, 2 Kronieken 7:9). Ze gaan naar huis blij en goedsmoeds, om al het goede dat de HEER gedaan had — niet om wat zíj gedaan hadden. En Salomo’s zegen daarvóór: geen enkel woord is gevallen van al Zijn goede woord (8:56).</p>
-  <p>In het evangelie wordt het Kind op de achtste dag besneden en krijgt Het Zijn naam, die door de engel genoemd was (Lukas 2:21). Die naam is niet bedacht maar ontvangen. En dan neemt Simeon het Kind in zijn armen. Lukas gebruikt daarvoor het woord edexato: hij ontving Het. Iemand die grijpt, kan niet loslaten. Iemand die ontvangen heeft, kan zeggen: nu laat Gij Uw dienaar gaan in vrede (2:29).</p>
+  <p>In het evangelie wordt het Kind op de achtste dag besneden en krijgt Het Zijn naam, die door de engel genoemd was (Lukas 2:21). Die naam is niet bedacht maar ontvangen. En dan neemt Simeon het Kind in zijn armen. Hij ontvangt wat God hem geeft. Iemand die grijpt, kan niet loslaten. Iemand die ontvangen heeft, kan zeggen: nu laat Gij Uw dienaar gaan in vrede (2:29).</p>
   <p>In de parasja mag niemand ledig voor het aangezicht van de HEER verschijnen; tegelijk wordt ook die gave gemeten naar de zegen die de HEER u gegeven heeft (Deuteronomium 16:16-17). Zelfs wat wij meebrengen, hebben we eerst gekregen. En midden in die parasja staat de dienaar die bij de deurpost zijn oor laat doorboren. Hij had mógen gaan, máár hij blijft, omdat hij zijn heer liefheeft (15:16-17). Dat is geen uitleg van de achtste dag; het is een beeld dat ernaast mag staan: blijven, niet uit plicht maar uit liefde.</p>
   <p>En dan is er dat huis in Bethanië (Lukas 10:38-42). Yeshua komt op bezoek, en Martha heeft het erg druk met veel bediening. Er moet gekookt, gedekt en gezorgd worden — wie ooit een feest heeft voorbereid, kent dat. Maria gaat zitten aan de voeten van de Heer en luistert naar Zijn woord. Yeshua verwijt Martha haar dienen niet; Hij noemt haar naam twee keer, zacht: Martha, Martha, u bent bezorgd en maakt u onrustig over veel dingen, maar één ding is nodig. En Maria heeft het goede deel uitgekozen, dat niet van haar weggenomen zal worden. Dat woord deel draagt gewicht: in de Griekse vertaling van de Psalmen is het de HEER zelf die het deel van Zijn volk is (Psalm 16:5).</p>
   <p>Dat houdt ons een spiegel voor, juist in deze feestweken. We kunnen heel wat overhoop halen om er een goed feest van te maken: de hut moet staan, de tafel moet vol, de gasten moeten zich welkom voelen. Dat is niet verkeerd, want de Tora zelf gebiedt vreugde en gastvrijheid. Máár een feest kan zo vol raken dat Híj om wie het draait aan de rand komt te zitten. Het goede deel is niet de volgende taak op het lijstje; het is gaan zitten, horen, aan Zijn voeten zijn. Precies dat vraagt de achtste dag: niet nog meer vullen, maar blijven waar Hij is.</p>
@@ -111,7 +111,7 @@ body_en: |
   <p>And note the rhythm in which this day stands. Leviticus 23 calls the first day of the feast a rest-day, a shabbaton, and the eighth day again a shabbaton (23:39). So the feast opens in rest and closes in rest. Sometimes the principle of “the eighth day” is used to say that this day is Sunday — the day after the sabbath, a new beginning that leaves the rest behind. But if you begin at the rest — as creation begins with the seventh day, and as this feast opens with a shabbaton — then the eighth day is no step away from the sabbath, but a return into the rest: itself again a shabbaton. If you count from the sabbath, on the eighth day you arrive at the sabbath once more. The eighth day does not abolish the rest; it confirms it. It is not a day we choose as a new beginning, but again the day God has given as rest.</p>
   <p>Whoever must still fill the day with his own symbols betrays that he is still grasping. Whoever holds out with God without having to perform anything, receives. One honest note: that we tie this step precisely to this day is a strong line and not textual proof. But look at what the three readings of this week themselves do — all three hinge on the eighth day.</p>
   <p>In the haftarah Solomon lets the people go on the eighth day (1 Kings 8:66; Chronicles expressly calls that day an atzeret, 2 Chronicles 7:9). They go home joyful and glad of heart, for all the good the LORD had done — not for what they had done. And Solomon’s blessing beforehand: not one word has failed of all His good promise (8:56).</p>
-  <p>In the gospel the Child is circumcised on the eighth day and receives His name, which the angel had named (Luke 2:21). That name is not invented but received. And then Simeon takes the Child in his arms. Luke uses for this the word edexato: he received Him. Someone who grasps cannot let go. Someone who has received can say: now lettest Thou Thy servant depart in peace (2:29).</p>
+  <p>In the gospel the Child is circumcised on the eighth day and receives His name, which the angel had named (Luke 2:21). That name is not invented but received. And then Simeon takes the Child in his arms. He receives what God gives him. Someone who grasps cannot let go. Someone who has received can say: now lettest Thou Thy servant depart in peace (2:29).</p>
   <p>In the parashah no one may appear empty before the face of the LORD; at the same time that gift too is measured according to the blessing the LORD has given you (Deuteronomy 16:16-17). Even what we bring, we first received. And in the middle of that parashah stands the servant who lets his ear be pierced at the doorpost. He could have gone, but he stays, because he loves his master (15:16-17). That is no exposition of the eighth day; it is an image that may stand beside it: staying, not out of duty but out of love.</p>
   <p>And then there is that house in Bethany (Luke 10:38-42). Yeshua comes to visit, and Martha is very busy with much serving. There is cooking, laying the table, caring — whoever has ever prepared a feast knows it. Mary sits down at the feet of the Lord and listens to His word. Yeshua does not reproach Martha for her serving; He says her name twice, gently: Martha, Martha, you are anxious and troubled about many things, but one thing is needful. And Mary has chosen the good portion, which shall not be taken from her. That word portion carries weight: in the Greek of the Psalms it is the LORD Himself who is the portion of His people (Psalm 16:5).</p>
   <p>That holds up a mirror to us, precisely in these feast weeks. We can turn a great deal upside down to make it a good feast: the booth must stand, the table must be full, the guests must feel welcome. That is not wrong, for the Torah itself commands joy and hospitality. But a feast can become so full that He around whom it turns ends up seated at the edge. The good portion is not the next task on the list; it is to sit down, to hear, to be at His feet. That is exactly what the eighth day asks: not to fill still more, but to stay where He is.</p>
@@ -131,9 +131,9 @@ study_body_nl: |
   <h2>§1 De draad</h2>
   <p>Na de zeven dagen één dag extra: “blijf nog even, je afscheid valt Mij zwaar.” Maar wie nog één dag bij de Koning blijft, gaat niet berooid weg — hij gaat vol: met een open hand, blij en goedsgemoed, in vrede. De intimiteit van de achtste dag maakt de zending vervuld in plaats van leeg.</p>
 
-  <h2>§2 Peshat per blok</h2>
+  <h2>§2 Wat zegt de tekst per blok</h2>
   <table>
-  <tr><th>Tekstblok</th><th>Wat staat er? (peshat)</th><th>Sleutelwoord / contrast</th><th>Open vraag</th></tr>
+  <tr><th>Tekstblok</th><th>Wat staat er?</th><th>Sleutelwoord / contrast</th><th>Open vraag</th></tr>
   <tr><td>Deut. 14:22–29</td><td>De tiende; eet voor Gods aangezicht en verheug je; de derde-jaars tiende voor Leviet, vreemdeling, wees, weduwe.</td><td>tiende · verheugen</td><td>Waarom wordt teruggeven vreugde?</td></tr>
   <tr><td>Deut. 15:1–18</td><td>Sabbatsjaar: kwijtschelding; vrijlaten “niet met lege handen”; “open uw hand wijd”.</td><td>open hand · niet leeg</td><td>Waarom mag de vrijgelatene niet leeg gaan?</td></tr>
   <tr><td>Deut. 15:19–16:15</td><td>Eerstgeborene; Pesach, Sjavoeot, Sukkot — vieren voor Gods aangezicht, met de vreemdeling en de arme.</td><td>eerstelingen · feest delen</td><td>Wie hoort er bij het feest?</td></tr>
@@ -155,15 +155,15 @@ study_body_nl: |
 
   <h2>§4 Bronnenronde</h2>
   <p>Van de Giessen dekt Deuteronomium 18–34, niet 14–16; de getuigen zijn geverifieerd via Sefaria.</p>
-  <p>🟢 <strong>Rasji op Lev. 23:36 / Num. 29:35–36 (Soekka 55b; Wajikra Rabba).</strong> Atseret komt van “inhouden/vasthouden”. De koningsparabel: als de kinderen na het feestmaal willen gaan, zegt de koning “blijf nog één dag, jullie afscheid valt mij zwaar” (kasjè alai peridatchem). En de offers: op Sukkot zeventig stieren — de zeventig volken; op de achtste dag één stier — Israël alleen, een intieme maaltijd van de bijzondere relatie.</p>
-  <p>🟢 <strong>1 Koningen 8:66 (haftara-anker).</strong> “Op de achtste dag” (bajom hasjemini) zendt Salomo het volk weg, “blij en goedsgemoed” (sameach we-tov leev) om al het goede — het waarom deze haftara juist bij deze dag hoort: wegzenden dat vervulling is, geen leegte.</p>
+  <p>🟢 <strong>Rasji op Lev. 23:36 / Num. 29:35–36 (Soekka 55b; Wajikra Rabba).</strong> Atseret komt van “inhouden/vasthouden”. De koningsparabel: als de kinderen na het feestmaal willen gaan, zegt de koning “blijf nog één dag, jullie afscheid valt mij zwaar”. En de offers: op Sukkot zeventig stieren — de zeventig volken; op de achtste dag één stier — Israël alleen, een intieme maaltijd van de bijzondere relatie.</p>
+  <p>🟢 <strong>1 Koningen 8:66 (haftara-anker).</strong> “Op de achtste dag” zendt Salomo het volk weg, “blij en goedsgemoed” om al het goede — het waarom deze haftara juist bij deze dag hoort: wegzenden dat vervulling is, geen leegte.</p>
   <p>🟢 <strong>Lukas 2:21 + 2:29–32.</strong> De achtste dag als besnijdenis-/naamgevingsdag; en Simeons “licht voor de heidenen én heerlijkheid van Israël” dat de volken-én-Israël van de achtste-dag-midrasj weerspiegelt.</p>
-  <p>🟡 <strong>Rav Mecklenburg / traditie.</strong> Gods “moeite met het afscheid” leest hij als beeld van ónze moeite om de moadiem en hun lessen los te laten. En de dag draagt geen eigen mitswa (zoals sjofar of soekka) — het is puur de dag van nabijheid. Illustratief.</p>
+  <p>🟡 <strong>Rav Mecklenburg / traditie.</strong> Gods “moeite met het afscheid” leest hij als beeld van ónze moeite om de feesten en hun lessen los te laten. En de dag draagt geen eigen gebod (zoals sjofar of soekka) — het is puur de dag van nabijheid. Illustratief.</p>
   <p>⚪ <strong>Onkelos</strong> op Deut. 16:16 / Lev. 23:36: nog te verifiëren.</p>
   <p><strong>Revisiepoort.</strong> Veranderde de ronde het zwaartepunt? Bevestigend en scherpend: atseret áls intimiteit (Rasji) en “op de achtste dag weggezonden, blij” (1 Kon.) leggen samen de paradox bloot — dichtbij blijven én vervuld gezonden — zodat het niet bij private nabijheid blijft.</p>
 
   <h2>§5 Richtingstoets als horizon</h2>
-  <p>🔵 Belijdend. Op de achtste dag krijgt het Kind Zijn naam (Yeshua = “de HEERE redt”) en spreekt Simeon in de tempel — hetzelfde huis dat Salomo inwijdde — zijn “in vrede heengaan” uit: hééngaan dat vervulling is, omdat zijn ogen het heil zagen. En “een licht voor de heidenen en de heerlijkheid van Israël” houdt de volken en Israël van deze dag in één Kind samen. 🔴 Bewaakt: dit is belijdende horizon, geen bewijs dat Yeshua op Sjemini Atseret geboren of opgedragen werd; de peshat blijft de achtste dag van besnijdenis en de tempelopdracht.</p>
+  <p>🔵 Belijdend. Op de achtste dag krijgt het Kind Zijn naam (Yeshua = “de HEERE redt”) en spreekt Simeon in de tempel — hetzelfde huis dat Salomo inwijdde — zijn “in vrede heengaan” uit: hééngaan dat vervulling is, omdat zijn ogen het heil zagen. En “een licht voor de heidenen en de heerlijkheid van Israël” houdt de volken en Israël van deze dag in één Kind samen. 🔴 Bewaakt: dit is belijdende horizon, geen bewijs dat Yeshua op Sjemini Atseret geboren of opgedragen werd; de tekst zelf blijft de achtste dag van besnijdenis en de tempelopdracht.</p>
 
   <h2>§6 Statustabel</h2>
   <table>
@@ -174,7 +174,7 @@ study_body_nl: |
   <tr><td>Weggezonden én vervuld: blij en goedsgemoed (1 Kon. 8:66); in vrede heengaan (Luk. 2:29)</td><td>🟢 dragend</td></tr>
   <tr><td>Reflex-landing op private nabijheid/“knusse” intimiteit</td><td>🔴 bewaking</td></tr>
   <tr><td>Simeon: licht voor de volken én heerlijkheid van Israël (Luk. 2:32) — in één Kind</td><td>🔵 belijdend</td></tr>
-  <tr><td>Rav Mecklenburg; Yizkor/regengebed; geen eigen mitswa</td><td>🟡 suggestief (traditie)</td></tr>
+  <tr><td>Rav Mecklenburg; gedachtenisgebed/regengebed; geen eigen gebod</td><td>🟡 suggestief (traditie)</td></tr>
   <tr><td>Onkelos op Deut. 16:16 / Lev. 23:36</td><td>⚪ open verificatiepunt</td></tr>
   </table>
 
@@ -197,9 +197,9 @@ study_body_en: |
   <h2>§1 The thread</h2>
   <p>After the seven days, one more day: “stay a little longer, your parting is hard for Me.” But whoever stays one more day with the King does not leave destitute — he goes full: with an open hand, joyful and glad of heart, in peace. The intimacy of the eighth day makes the sending full instead of empty.</p>
 
-  <h2>§2 Peshat per block</h2>
+  <h2>§2 What the text says per block</h2>
   <table>
-  <tr><th>Block</th><th>What it says (peshat)</th><th>Keyword / contrast</th><th>Open question</th></tr>
+  <tr><th>Block</th><th>What it says</th><th>Keyword / contrast</th><th>Open question</th></tr>
   <tr><td>Deut. 14:22–29</td><td>The tithe; eat before God’s face and rejoice; the third-year tithe for Levite, stranger, orphan, widow.</td><td>tithe · rejoice</td><td>Why does giving-back become joy?</td></tr>
   <tr><td>Deut. 15:1–18</td><td>Sabbatical year: release; freeing “not empty-handed”; “open your hand wide”.</td><td>open hand · not empty</td><td>Why may the freed one not go empty?</td></tr>
   <tr><td>Deut. 15:19–16:15</td><td>Firstborn; Passover, Shavuot, Sukkot — celebrate before God’s face, with the stranger and the poor.</td><td>firstfruits · sharing the feast</td><td>Who belongs to the feast?</td></tr>
@@ -221,15 +221,15 @@ study_body_en: |
 
   <h2>§4 Sources round</h2>
   <p>Van de Giessen covers Deuteronomy 18–34, not 14–16; the witnesses were verified via Sefaria.</p>
-  <p>🟢 <strong>Rashi on Lev. 23:36 / Num. 29:35–36 (Sukkah 55b; Vayikra Rabbah).</strong> Atzeret comes from “to hold back / restrain.” The king’s parable: when the children would leave after the banquet, the king says “stay one more day, your parting is hard for me” (kasheh alai preidatchem). And the offerings: on Sukkot seventy bulls — the seventy nations; on the eighth day one bull — Israel alone, an intimate meal of the special relationship.</p>
-  <p>🟢 <strong>1 Kings 8:66 (haftarah anchor).</strong> “On the eighth day” (bayom hashmini) Solomon sends the people away, “joyful and glad of heart” for all the goodness — why this haftarah belongs to this day: a sending-away that is fulfilment, not emptiness.</p>
+  <p>🟢 <strong>Rashi on Lev. 23:36 / Num. 29:35–36 (Sukkah 55b; Vayikra Rabbah).</strong> Atzeret comes from “to hold back / restrain.” The king’s parable: when the children would leave after the banquet, the king says “stay one more day, your parting is hard for me”. And the offerings: on Sukkot seventy bulls — the seventy nations; on the eighth day one bull — Israel alone, an intimate meal of the special relationship.</p>
+  <p>🟢 <strong>1 Kings 8:66 (haftarah anchor).</strong> “On the eighth day” Solomon sends the people away, “joyful and glad of heart” for all the goodness — why this haftarah belongs to this day: a sending-away that is fulfilment, not emptiness.</p>
   <p>🟢 <strong>Luke 2:21 + 2:29–32.</strong> The eighth day as circumcision/naming day; and Simeon’s “light to the Gentiles and glory of Israel” mirroring the nations-and-Israel of the eighth-day midrash.</p>
-  <p>🟡 <strong>Rav Mecklenburg / tradition.</strong> He reads God’s “difficulty at the parting” as an image of our difficulty in letting go of the moadim and their lessons. And the day carries no dedicated mitzvah (like shofar or sukkah) — it is purely the day of nearness. Illustrative.</p>
+  <p>🟡 <strong>Rav Mecklenburg / tradition.</strong> He reads God’s “difficulty at the parting” as an image of our difficulty in letting go of the feasts and their lessons. And the day carries no dedicated commandment (like shofar or sukkah) — it is purely the day of nearness. Illustrative.</p>
   <p>⚪ <strong>Onkelos</strong> on Deut. 16:16 / Lev. 23:36: still to be verified.</p>
   <p><strong>Revision gate.</strong> Did the round shift the centre? Confirming and sharpening: atzeret as intimacy (Rashi) and “on the eighth day sent away, glad” (1 Kings) together expose the paradox — staying close and sent full — so it does not remain private nearness.</p>
 
   <h2>§5 Direction test as horizon</h2>
-  <p>🔵 Confessional. On the eighth day the Child receives His name (Yeshua = “the LORD saves”) and Simeon in the temple — the same house Solomon dedicated — speaks his “depart in peace”: a departing that is fulfilment, because his eyes have seen the salvation. And “a light to the Gentiles and the glory of Israel” holds the nations and Israel of this day together in one Child. 🔴 Guarded: this is confessional horizon, not proof that Yeshua was born or presented on Shemini Atzeret; the peshat remains the eighth day of circumcision and the temple presentation.</p>
+  <p>🔵 Confessional. On the eighth day the Child receives His name (Yeshua = “the LORD saves”) and Simeon in the temple — the same house Solomon dedicated — speaks his “depart in peace”: a departing that is fulfilment, because his eyes have seen the salvation. And “a light to the Gentiles and the glory of Israel” holds the nations and Israel of this day together in one Child. 🔴 Guarded: this is confessional horizon, not proof that Yeshua was born or presented on Shemini Atzeret; the text itself remains the eighth day of circumcision and the temple presentation.</p>
 
   <h2>§6 Status table</h2>
   <table>
@@ -240,7 +240,7 @@ study_body_en: |
   <tr><td>Sent away and full: joyful and glad of heart (1 Kings 8:66); depart in peace (Luke 2:29)</td><td>🟢 load-bearing</td></tr>
   <tr><td>Reflex-landing on private nearness / “cosy” intimacy</td><td>🔴 guardrail</td></tr>
   <tr><td>Simeon: light to the nations and glory of Israel (Luke 2:32) — in one Child</td><td>🔵 confessional</td></tr>
-  <tr><td>Rav Mecklenburg; Yizkor/rain prayer; no dedicated mitzvah</td><td>🟡 suggestive (tradition)</td></tr>
+  <tr><td>Rav Mecklenburg; memorial prayer / rain prayer; no dedicated commandment</td><td>🟡 suggestive (tradition)</td></tr>
   <tr><td>Onkelos on Deut. 16:16 / Lev. 23:36</td><td>⚪ open verification point</td></tr>
   </table>
 
@@ -253,11 +253,11 @@ worksheet_body_nl: |
   <h2>Zo gebruik je dit blad</h2>
   <p>Werk van boven naar beneden: eerst wáárnemen (A1), dan wégen (A2), dan diagnosticeren (A3), en pas dan samenvatten (A4). De richting — dichtbij blijven of vervuld gezonden — is de horizon, niet het vertrekpunt.</p>
   <h2>Basisgegevens</h2>
-  <p>Parasja / afbakening: Sjemini Atseret — Deuteronomium 14:22–16:17. Haftara: 1 Koningen 8:54–66. Flanklezing en status: Lukas 2:21–32 — nieuwtestamentische spiegeling, belijdend gebruikt (niet als peshat). Doelgroep: studiegroep / gemeente.</p>
+  <p>Parasja / afbakening: Sjemini Atseret — Deuteronomium 14:22–16:17. Haftara: 1 Koningen 8:54–66. Flanklezing en status: Lukas 2:21–32 — nieuwtestamentische spiegeling, belijdend gebruikt (niet als de letterlijke betekenis van de tekst). Doelgroep: studiegroep / gemeente.</p>
 
-  <h2>A1. Tekstblokken en peshat</h2>
+  <h2>A1. Tekstblokken en wat er staat</h2>
   <table>
-  <tr><th>Tekstblok</th><th>Wat staat er? (peshat)</th><th>Sleutelwoorden / contrast</th><th>Open vraag</th></tr>
+  <tr><th>Tekstblok</th><th>Wat staat er?</th><th>Sleutelwoorden / contrast</th><th>Open vraag</th></tr>
   <tr><td>Deut. 14:22–15:18</td><td>Tiende; sabbatsjaar; vrijlaten “niet met lege handen”; open hand.</td><td>open hand · niet leeg</td><td>Waarom niet leeg laten gaan?</td></tr>
   <tr><td>Deut. 16:1–17</td><td>Drie feesten; “niemand met lege handen… naar de zegen”.</td><td>verschijnen · naar de zegen</td><td>Wat breng je dat niet eerst gave was?</td></tr>
   <tr><td>1 Kon. 8:54–66</td><td>Tempelinwijding; “niet één woord onvervuld”; op de achtste dag blij weggezonden.</td><td>achtste dag · vervuld woord</td><td>Waarop rust het naar-huis-gaan?</td></tr>
@@ -290,11 +290,11 @@ worksheet_body_en: |
   <h2>How to use this sheet</h2>
   <p>Work from top to bottom: first observe (A1), then weigh (A2), then diagnose (A3), and only then summarise (A4). The direction — staying close or sent full — is the horizon, not the starting point.</p>
   <h2>Basic data</h2>
-  <p>Parashah / scope: Shemini Atzeret — Deuteronomy 14:22–16:17. Haftarah: 1 Kings 8:54–66. Flanking reading and status: Luke 2:21–32 — New Testament reflection, used confessionally (not as peshat). Audience: study group / congregation.</p>
+  <p>Parashah / scope: Shemini Atzeret — Deuteronomy 14:22–16:17. Haftarah: 1 Kings 8:54–66. Flanking reading and status: Luke 2:21–32 — New Testament reflection, used confessionally (not as the plain meaning of the text). Audience: study group / congregation.</p>
 
-  <h2>A1. Text blocks and peshat</h2>
+  <h2>A1. Text blocks and what they say</h2>
   <table>
-  <tr><th>Block</th><th>What it says (peshat)</th><th>Keywords / contrast</th><th>Open question</th></tr>
+  <tr><th>Block</th><th>What it says</th><th>Keywords / contrast</th><th>Open question</th></tr>
   <tr><td>Deut. 14:22–15:18</td><td>Tithe; sabbatical year; freeing “not empty-handed”; open hand.</td><td>open hand · not empty</td><td>Why not let them go empty?</td></tr>
   <tr><td>Deut. 16:1–17</td><td>Three feasts; “none empty-handed… according to the blessing”.</td><td>appear · according to the blessing</td><td>What do you bring that was not first a gift?</td></tr>
   <tr><td>1 Kings 8:54–66</td><td>Temple dedication; “not one word failed”; on the eighth day sent away glad.</td><td>eighth day · fulfilled word</td><td>On what does the going-home rest?</td></tr>
