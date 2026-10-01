@@ -54,10 +54,10 @@ body_nl: |
   <p>Dat raakt ons. De vreemdeling wordt niet slechts toegestaan om aan de rand te blijven wonen; hij mag in het midden wonen, en ontvangt zijn erfdeel „bij de stam waarbij hij verblijft” (vers 23). Helemaal nieuw is dat niet. In de parasja van deze week zit de vreemdeling al aan tafel bij de feesten, naast de zoon, de dochter, de Leviet, de wees en de weduwe (Deuteronomium 16:11,14). Wat daar een plaats aan de feesttafel is, wordt bij Ezechiël een plaats in het erfdeel.</p>
   <p>Daarmee ontstaat een prachtige beweging. Bij Salomo zien we Israël vanuit heel het land naar de tempel komen; bij Ezechiël zien we hetzelfde land opnieuw rondom Gods herstelde aanwezigheid geordend — maar nu wordt uitdrukkelijk gezegd dat ook de vreemdeling die zich daar heeft gevestigd een plaats ontvangt. Niet doordat Israël verdwijnt; juist bínnen de stammen van Israël krijgt de vreemdeling zijn plaats. De tempel staat in het midden, Israël blijft Israël, en toch is er ruimte voor de vreemdeling. Wat een toekomstbeeld: wonen in het land, niet als iemand die het heeft gegrepen, maar als iemand die een plaats heeft ontvangen.</p>
   <h2>Trede 7 — 22 Tisjri: de achtste dag</h2>
-  <p>Het woord Atseret in de naam betekent inhouden, vasthouden, blijven. Op deze dag komt het uiteindelijk op één eenvoudige vraag aan: ontvangen we, of grijpen we? De maatstaf is niet ons gevoel en niet onze prestatie. De maatstaf is het Woord dat búiten ons gesproken is.</p>
+  <p>De naam van deze dag draagt de gedachte van inhouden, vasthouden en blijven. Op deze dag komt het uiteindelijk op één eenvoudige vraag aan: ontvangen we, of grijpen we? De maatstaf is niet ons gevoel en niet onze prestatie. De maatstaf is het Woord dat búiten ons gesproken is.</p>
   <p>En let op het ritme waarin deze dag staat. Leviticus 23 noemt de eerste dag van het feest een rustdag en de achtste dag opnieuw een rustdag (23:39). Het feest opent dus in rust en het sluit in rust. Soms wordt het beginsel van „de achtste dag” gebruikt om te zeggen dat die dag de zondag is — de dag ná de sabbat, een nieuw begin dat de rust achter zich laat. Máár als je begint bíj de rust — zoals de schepping begint met de zevende dag, en zoals dit feest opent met rust — dan is de achtste dag geen stap wég van de sabbat, maar een terugkeer in de rust: opnieuw een rustdag. Tel je vanaf de sabbat, dan kom je op de achtste dag opnieuw bij de sabbat uit. De achtste dag schaft de rust niet af; hij bevestigt haar. Hij is geen dag die wij als nieuw begin kiezen, maar opnieuw de dag die God als rust heeft gegeven.</p>
   <p>Wie de dag toch moet vullen met eigen symbolen, verraadt dat hij nog gríjpt. Wie het uithoudt bij God zonder iets te hoeven opvoeren, ontvángt. Eén eerlijke kanttekening: dat we deze trede juist aan deze dag koppelen, is een sterke lijn en geen tekstbewijs. Máár kijk wat de drie lezingen van deze week zelf doen — alle drie scharnieren ze op de achtste dag.</p>
-  <p>In de haftara laat Salomo het volk op de achtste dag gaan (1 Koningen 8:66; Kronieken noemt die dag uitdrukkelijk een atseret, 2 Kronieken 7:9). Ze gaan naar huis blij en goedsmoeds, om al het goede dat de HEER gedaan had — niet om wat zíj gedaan hadden. En Salomo’s zegen daarvóór: geen enkel woord is gevallen van al Zijn goede woord (8:56).</p>
+  <p>In de haftara laat Salomo het volk op de achtste dag gaan (1 Koningen 8:66; Kronieken noemt die dag uitdrukkelijk een afsluitende feestdag, 2 Kronieken 7:9). Ze gaan naar huis blij en goedsmoeds, om al het goede dat de HEER gedaan had — niet om wat zíj gedaan hadden. En Salomo’s zegen daarvóór: geen enkel woord is gevallen van al Zijn goede woord (8:56).</p>
   <p>In het evangelie wordt het Kind op de achtste dag besneden en krijgt Het Zijn naam, die door de engel genoemd was (Lukas 2:21). Die naam is niet bedacht maar ontvangen. En dan neemt Simeon het Kind in zijn armen. Hij ontvangt wat God hem geeft. Iemand die grijpt, kan niet loslaten. Iemand die ontvangen heeft, kan zeggen: nu laat Gij Uw dienaar gaan in vrede (2:29).</p>
   <p>In de parasja mag niemand ledig voor het aangezicht van de HEER verschijnen; tegelijk wordt ook die gave gemeten naar de zegen die de HEER u gegeven heeft (Deuteronomium 16:16-17). Zelfs wat wij meebrengen, hebben we eerst gekregen. En midden in die parasja staat de dienaar die bij de deurpost zijn oor laat doorboren. Hij had mógen gaan, máár hij blijft, omdat hij zijn heer liefheeft (15:16-17). Dat is geen uitleg van de achtste dag; het is een beeld dat ernaast mag staan: blijven, niet uit plicht maar uit liefde.</p>
   <p>En dan is er dat huis in Bethanië (Lukas 10:38-42). Yeshua komt op bezoek, en Martha heeft het erg druk met veel bediening. Er moet gekookt, gedekt en gezorgd worden — wie ooit een feest heeft voorbereid, kent dat. Maria gaat zitten aan de voeten van de Heer en luistert naar Zijn woord. Yeshua verwijt Martha haar dienen niet; Hij noemt haar naam twee keer, zacht: Martha, Martha, u bent bezorgd en maakt u onrustig over veel dingen, maar één ding is nodig. En Maria heeft het goede deel uitgekozen, dat niet van haar weggenomen zal worden. Dat woord deel draagt gewicht: in de Griekse vertaling van de Psalmen is het de HEER zelf die het deel van Zijn volk is (Psalm 16:5).</p>
@@ -124,9 +124,9 @@ study_body_nl: |
   <h3>0.2 De vier assen als open vraag</h3>
   <p>Valt het gewicht op wat God is en doet (Bron: houdt vast, vervult, houdt Zijn woord), op de heelheid ontvangen/gegeven (Coherentie: de open hand, dichtbij blijven én vervuld gezonden), op de respons (Wil: verschijnen, geven, in vrede gaan), of op de beweging (Traject: van de volken naar Israël alleen, en van het feest de gewone dag in)?</p>
   <h3>0.3 Afgelezen zwaartepunt</h3>
-  <p>🟢 Dragend zijn <strong>Bron</strong> en <strong>Coherentie</strong>, verbonden door de paradox van de achtste dag: God houdt Zijn volk nog één dag dichtbij (atseret — intimiteit), en juist die nabijheid zendt vervuld uit — met een open hand, blij en goedsgemoed, in vrede. Zwaartepunt: dichtbij blijven én vervuld heengaan; wie bij de Koning bleef, gaat niet leeg.</p>
+  <p>🟢 Dragend zijn <strong>Bron</strong> en <strong>Coherentie</strong>, verbonden door de paradox van de achtste dag: God houdt Zijn volk nog één dag dichtbij, en juist die nabijheid zendt vervuld uit — met een open hand, blij en goedsgemoed, in vrede. Zwaartepunt: dichtbij blijven én vervuld heengaan; wie bij de Koning bleef, gaat niet leeg.</p>
   <h3>0.4 Framing-toets</h3>
-  <p>🔴 Bewaakt. De weekreflex landt op “ontvangen / dichtbij blijven”; de intimiteit (atseret) is hier echt gegrond. Máár de tekst houdt de andere helft er strak bij: de achtste dag is ook de dag van wéggezonden worden (Salomo), van hééngaan (Simeon), van de open hand die de ander niet leeg laat gaan (Deut. 15). De toets bewaakt dat “intimiteit” geen private knusheid wordt: zij ís juist de bron van de zending.</p>
+  <p>🔴 Bewaakt. De weekreflex landt op “ontvangen / dichtbij blijven”; die nabijheid is hier echt gegrond. Máár de tekst houdt de andere helft er strak bij: de achtste dag is ook de dag van wéggezonden worden (Salomo), van hééngaan (Simeon), van de open hand die de ander niet leeg laat gaan (Deut. 15). De toets bewaakt dat “intimiteit” geen private knusheid wordt: zij ís juist de bron van de zending.</p>
 
   <h2>§1 De draad</h2>
   <p>Na de zeven dagen één dag extra: “blijf nog even, je afscheid valt Mij zwaar.” Maar wie nog één dag bij de Koning blijft, gaat niet berooid weg — hij gaat vol: met een open hand, blij en goedsgemoed, in vrede. De intimiteit van de achtste dag maakt de zending vervuld in plaats van leeg.</p>
@@ -147,7 +147,7 @@ study_body_nl: |
   <h2>§3 Twee dragende assen</h2>
   <table>
   <tr><th>As</th><th>Tekstankers</th><th>Diagnose</th><th>Open anomalie</th></tr>
-  <tr><td>Bron</td><td>Lev. 23:36 (atseret) · 1 Kon. 8:56 (woord vervuld) · Luk. 2:30</td><td>Dragend. God houdt vast, vervult Zijn woord, laat Zijn heil zien; Hij vult wat zich naar Hem opent.</td><td>Waarom valt Hem het afscheid zwaar?</td></tr>
+  <tr><td>Bron</td><td>Lev. 23:36 (de afsluitende dag) · 1 Kon. 8:56 (woord vervuld) · Luk. 2:30</td><td>Dragend. God houdt vast, vervult Zijn woord, laat Zijn heil zien; Hij vult wat zich naar Hem opent.</td><td>Waarom valt Hem het afscheid zwaar?</td></tr>
   <tr><td>Coherentie</td><td>Deut. 15:8,13–14 · 16:16–17 · 1 Kon. 8:66 · Luk. 2:29</td><td>Dragend, tweede pool. Ontvangen wordt gegeven: open hand, niet leeg verschijnen of vertrekken; blijven én vervuld gezonden.</td><td>Waar wordt “geven” een prestatie i.p.v. antwoord?</td></tr>
   <tr><td>Traject</td><td>70 stieren → één (Num. 29) · Luk. 2:32 (volken én Israël) · feest → gewone dag</td><td>Ondersteunend. Van de volken naar Israël alleen, en het heil dat béide omvat; van het feest de gewone week in.</td><td>Sluit intimiteit de volken uit of juist in?</td></tr>
   <tr><td>Wil</td><td>Deut. 16:16 (verschijnen) · Luk. 2:22 (opdragen)</td><td>Respons, geen bron: verschijnen, geven naar de zegen, in vrede gaan.</td><td>Waar wordt “blijven” vlucht uit de gewone dag?</td></tr>
@@ -155,12 +155,12 @@ study_body_nl: |
 
   <h2>§4 Bronnenronde</h2>
   <p>Van de Giessen dekt Deuteronomium 18–34, niet 14–16; de getuigen zijn geverifieerd via Sefaria.</p>
-  <p>🟢 <strong>Rasji op Lev. 23:36 / Num. 29:35–36 (Soekka 55b; Wajikra Rabba).</strong> Atseret komt van “inhouden/vasthouden”. De koningsparabel: als de kinderen na het feestmaal willen gaan, zegt de koning “blijf nog één dag, jullie afscheid valt mij zwaar”. En de offers: op Sukkot zeventig stieren — de zeventig volken; op de achtste dag één stier — Israël alleen, een intieme maaltijd van de bijzondere relatie.</p>
+  <p>🟢 <strong>Rasji op Lev. 23:36 / Num. 29:35–36 (Soekka 55b; Wajikra Rabba).</strong> De naam van deze dag wordt uitgelegd als “inhouden” of “nog even vasthouden”. De koningsparabel: als de kinderen na het feestmaal willen gaan, zegt de koning “blijf nog één dag, jullie afscheid valt mij zwaar”. En de offers: op Sukkot zeventig stieren — de zeventig volken; op de achtste dag één stier — Israël alleen, een intieme maaltijd van de bijzondere relatie.</p>
   <p>🟢 <strong>1 Koningen 8:66 (haftara-anker).</strong> “Op de achtste dag” zendt Salomo het volk weg, “blij en goedsgemoed” om al het goede — het waarom deze haftara juist bij deze dag hoort: wegzenden dat vervulling is, geen leegte.</p>
   <p>🟢 <strong>Lukas 2:21 + 2:29–32.</strong> De achtste dag als besnijdenis-/naamgevingsdag; en Simeons “licht voor de heidenen én heerlijkheid van Israël” dat de lijn van volken én Israël op de achtste dag weerspiegelt.</p>
-  <p>🟡 <strong>Rav Mecklenburg / traditie.</strong> Gods “moeite met het afscheid” leest hij als beeld van ónze moeite om de feesten en hun lessen los te laten. En de dag draagt geen eigen gebod (zoals sjofar of soekka) — het is puur de dag van nabijheid. Illustratief.</p>
+  <p>🟡 <strong>Rav Mecklenburg / traditie.</strong> Gods “moeite met het afscheid” leest hij als beeld van ónze moeite om de feesten en hun lessen los te laten. En de dag draagt geen eigen gebod (zoals het blazen op de ramshoorn of het wonen in de loofhut) — het is puur de dag van nabijheid. Illustratief.</p>
   <p>⚪ <strong>Onkelos</strong> op Deut. 16:16 / Lev. 23:36: nog te verifiëren.</p>
-  <p><strong>Revisiepoort.</strong> Veranderde de ronde het zwaartepunt? Bevestigend en scherpend: atseret áls intimiteit (Rasji) en “op de achtste dag weggezonden, blij” (1 Kon.) leggen samen de paradox bloot — dichtbij blijven én vervuld gezonden — zodat het niet bij private nabijheid blijft.</p>
+  <p><strong>Revisiepoort.</strong> Veranderde de ronde het zwaartepunt? Bevestigend en scherpend: het beeld van “blijf nog één dag” (Rasji) en “op de achtste dag weggezonden, blij” (1 Kon.) leggen samen de paradox bloot — dichtbij blijven én vervuld gezonden — zodat het niet bij private nabijheid blijft.</p>
 
   <h2>§5 Richtingstoets als horizon</h2>
   <p>🔵 Belijdend. Op de achtste dag krijgt het Kind Zijn naam (Yeshua = “de HEERE redt”) en spreekt Simeon in de tempel — hetzelfde huis dat Salomo inwijdde — zijn “in vrede heengaan” uit: hééngaan dat vervulling is, omdat zijn ogen het heil zagen. En “een licht voor de heidenen en de heerlijkheid van Israël” houdt de volken en Israël van deze dag in één Kind samen. 🔴 Bewaakt: dit is belijdende horizon, geen bewijs dat Yeshua op Sjemini Atseret geboren of opgedragen werd; de tekst zelf blijft de achtste dag van besnijdenis en de tempelopdracht.</p>
@@ -169,7 +169,7 @@ study_body_nl: |
   <table>
   <tr><th>Claim</th><th>Status</th></tr>
   <tr><td>De achtste dag verbindt alle drie de lezingen (Lev. 23:36; 1 Kon. 8:66; Luk. 2:21)</td><td>🟢 dragend</td></tr>
-  <tr><td>Atseret = “vasthouden”; “blijf nog één dag”; één stier voor Israël na zeventig voor de volken (Rasji, Soekka 55b)</td><td>🟢 dragend (geverifieerd)</td></tr>
+  <tr><td>De naam van de dag wordt uitgelegd als “vasthouden”; “blijf nog één dag”; één stier voor Israël na zeventig voor de volken (Rasji, Soekka 55b)</td><td>🟢 dragend (geverifieerd)</td></tr>
   <tr><td>De open hand: niet leeg vertrekken, niet leeg verschijnen (Deut. 15:8,13–14; 16:16–17)</td><td>🟢 dragend</td></tr>
   <tr><td>Weggezonden én vervuld: blij en goedsgemoed (1 Kon. 8:66); in vrede heengaan (Luk. 2:29)</td><td>🟢 dragend</td></tr>
   <tr><td>Reflex-landing op private nabijheid/“knusse” intimiteit</td><td>🔴 bewaking</td></tr>
@@ -182,7 +182,7 @@ study_body_nl: |
   <p>Eén fysiek beeld: de laatste avond van een feest, als de gasten één voor één naar huis gaan en het stil wordt — en de gastheer die zegt: blijf toch nog even. Zo is de achtste dag. En de tweede helft: als je dan tóch gaat, stuurt Hij je niet met lege handen de deur uit; je gaat vol, met Zijn goedheid in je hart, een open hand voor onderweg.</p>
 
   <h2>§8 Bronverantwoording</h2>
-  <p>Rasji op Lev. 23:36 / Num. 29:35 (Soekka 55b; Wajikra Rabba): atseret, de koningsparabel, 70/1 stier — via Sefaria geverifieerd. 1 Kon. 8:56,66 en Luk. 2:21,29–32 tekstueel. Rav Mecklenburg / traditie 🟡. Van de Giessen dekt Deut. 14–16 niet. Onkelos: nog te verifiëren. Naam: Yeshua. Auteur: Arie Alberts.</p>
+  <p>Rasji op Lev. 23:36 / Num. 29:35 (Soekka 55b; Wajikra Rabba): uitleg van de naam, de koningsparabel, 70/1 stier — via Sefaria geverifieerd. 1 Kon. 8:56,66 en Luk. 2:21,29–32 tekstueel. Rav Mecklenburg / traditie 🟡. Van de Giessen dekt Deut. 14–16 niet. Onkelos: nog te verifiëren. Naam: Yeshua. Auteur: Arie Alberts.</p>
 study_body_en: |
   <h2>§0 Observation round</h2>
   <h3>0.1 Blind observation</h3>
@@ -266,7 +266,7 @@ worksheet_body_nl: |
   </table>
 
   <h2>A2. Verbindende hypotheses</h2>
-  <p>Hypothese 1 (één as): het zwaartepunt is intimiteit alleen — God houdt ons dichtbij (atseret); de zending blijft achtergrond.</p>
+  <p>Hypothese 1 (één as): het zwaartepunt is intimiteit alleen — God houdt ons dichtbij; de zending blijft achtergrond.</p>
   <p>Hypothese 2 (relatie): het zwaartepunt is Bron ↔ Coherentie via de paradox van de achtste dag — God houdt dichtbij én zendt vervuld: open hand, blij weggezonden, in vrede heengaan.</p>
   <p>Welke verklaart de meeste gegevens met de minste dwang? Hypothese 2. Zij verklaart de open hand van Deut. 15–16, het “blij weggezonden” van 1 Kon. 8:66 én Simeons “in vrede heengaan”. Hypothese 1 laat de zending onverklaard.</p>
   <p>Wat zou deze lezing weerleggen? Als de achtste dag alleen intimiteit was en geen wegzenden/heengaan, lag het gewicht bij nabijheid alleen.</p>
@@ -282,7 +282,7 @@ worksheet_body_nl: |
 
   <h2>A4. Beweging</h2>
   <p>Wat wordt ontmaskerd? Twee misvattingen: dat nabijheid tot God een private knusheid is die de gewone dag en de ander buitensluit; én dat teruggeven een prestatie is om binnen te mogen — terwijl je enkel teruggeeft uit de zegen die je ontving.</p>
-  <p>Welk kader zet de tekst ervoor in de plaats? De achtste dag: God houdt je nog één dag dichtbij (atseret), en zendt je juist dáárdoor vervuld — met een open hand, blij en goedsgemoed, in vrede.</p>
+  <p>Welk kader zet de tekst ervoor in de plaats? De achtste dag: God houdt je nog één dag dichtbij, en zendt je juist dáárdoor vervuld — met een open hand, blij en goedsgemoed, in vrede.</p>
   <p>Welke concrete respons en vorming volgen? Nog even blijven bij Hem voordat het gewone weer begint; niet met lege handen verschijnen en niemand leeg laten gaan (Deut. 15–16); en de gewone week in gaan als iemand die vervuld gezonden is.</p>
   <p><strong>Kernzin:</strong> Blijf nog één dag bij de Koning — en ga dan niet leeg, maar vervuld en in vrede, met een open hand voor de ander.</p>
   <p><strong>Horizon (grond, niet thema van de week):</strong> Simeon die “in vrede heengaat” omdat zijn ogen het heil zagen — een licht voor de volken én de heerlijkheid van Israël (Luk. 2:29–32); belijdende horizon, geen geboortedatum.</p>
