@@ -29,8 +29,8 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build
-        run: npm run build
+      - name: Build preview
+        run: npx vite build
 
       - name: Upload preview artifact
         uses: actions/upload-artifact@v4
