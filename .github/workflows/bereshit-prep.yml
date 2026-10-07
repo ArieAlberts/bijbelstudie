@@ -1,0 +1,41 @@
+name: Temporary Bereshit preparation
+
+on:
+  push:
+    branches: ["bereshit-deploy-prep"]
+
+permissions:
+  contents: write
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - name: Prepare Bereshit content and Bible cache
+        run: node scripts/_prepare-bereshit.mjs
+      - name: Install dependencies
+        run: npm ci
+      - name: Full production build validation
+        run: npm run build
+      - name: Verify 12 generated downloads
+        run: |
+          test $(find public/downloads -type f \( -name 'bereshit-lezing-*.pdf' -o -name 'bereshit-lezing-*.docx' -o -name 'bereshit-studieblad-*.pdf' -o -name 'bereshit-studieblad-*.docx' -o -name 'bereshit-werkblad-*.pdf' -o -name 'bereshit-werkblad-*.docx' \) | wc -l) -eq 12
+      - name: Remove temporary helper and workflow
+        run: rm -rf .bereshit-source && rm -f scripts/_prepare-bereshit.mjs .github/workflows/bereshit-prep.yml
+      - name: Commit validated final tree to preparation branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -u .bereshit-source scripts/_prepare-bereshit.mjs .github/workflows/bereshit-prep.yml || true
+          git add content/parasjot/bereshit.md content/parasjot/OVERZICHT.md
+          git add scripts/bereshit-bible-cache.json scripts/build-bible-data.mjs scripts/fetch-all-authentic-bible.mjs
+          git add public/downloads/lezingen/bereshit-* public/downloads/studiebladen/bereshit-* public/downloads/werkbladen/bereshit-*
+          git commit -m "Bereshit: validated website package"
+          git push origin HEAD:bereshit-deploy-prep
