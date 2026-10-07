@@ -1,0 +1,22 @@
+ieblad-en.docx"
+download_worksheet_pdf_nl: "/downloads/werkbladen/bereshit-werkblad-nl.pdf"
+download_worksheet_pdf_en: "/downloads/werkbladen/bereshit-werkblad-en.pdf"
+download_worksheet_docx_nl: "/downloads/werkbladen/bereshit-werkblad-nl.docx"
+download_worksheet_docx_en: "/downloads/werkbladen/bereshit-werkblad-en.docx"
+passages:
+  - role: parasha
+    ref:
+      nl: "Genesis 1:1–6:8"
+      en: "Genesis 1:1–6:8"
+    osis: "Gen.1.1-Gen.6.8"
+  - role: haftara
+    ref:
+      nl: "1 Samuël 20:18–42"
+      en: "1 Samuel 20:18–42"
+    osis: "1Sam.20.18-1Sam.20.42"
+  - role: gospel
+    ref:
+      nl: "Mattheüs 24:29–36"
+      en: "Matthew 24:29–36"
+    osis: "Matt.24.29-Matt.24.36"
+---
