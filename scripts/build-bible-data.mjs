@@ -10,6 +10,7 @@ const passagesFile = path.join(rootDir, 'data', 'passages.json');
 const outputDir = path.join(rootDir, 'public', 'data', 'bible');
 const cacheFile = path.join(rootDir, 'scripts', 'authentic-bible-cache.json');
 const supplementalCacheFile = path.join(rootDir, 'scripts', 'haazinu-bible-cache.json');
+const bereshitSupplementalCacheFile = path.join(rootDir, 'scripts', 'bereshit-bible-cache.json');
 const lexiconCacheFile = path.join(rootDir, 'scripts', 'full-lexicon-cache.json');
 
 const BOOK_MAP = {
@@ -34,6 +35,7 @@ const BOOK_MAP = {
 };
 
 const CHAPTER_MAX_VERSES = {
+  "Gen.1": 31, "Gen.2": 25, "Gen.3": 24, "Gen.4": 26, "Gen.5": 32, "Gen.6": 22,
   "Gen.21": 34,
   "Lev.16": 34, "Lev.22": 33, "Lev.23": 44,
   "Num.25": 18, "Num.26": 65, "Num.27": 23, "Num.28": 31, "Num.29": 40,
@@ -44,7 +46,7 @@ const CHAPTER_MAX_VERSES = {
   "Deut.19": 21, "Deut.20": 20, "Deut.21": 23, "Deut.22": 30, "Deut.23": 25, "Deut.24": 22,
   "Deut.25": 19, "Deut.26": 19, "Deut.27": 26, "Deut.28": 68, "Deut.29": 29, "Deut.30": 20,
   "Deut.31": 30, "Deut.32": 52, "Deut.33": 29, "Deut.34": 12,
-  "1Sam.1": 28, "1Sam.2": 36,
+  "1Sam.1": 28, "1Sam.2": 36, "1Sam.20": 42,
   "1Kgs.18": 46, "1Kgs.19": 21,
   "Isa.1": 31, "Isa.40": 31, "Isa.49": 26, "Isa.50": 11, "Isa.51": 23, "Isa.52": 15,
   "Isa.54": 17, "Isa.55": 13, "Isa.57": 21, "Isa.58": 14, "Isa.60": 22, "Isa.61": 11,
@@ -184,6 +186,9 @@ function buildAllPassages() {
   const cachedDb = JSON.parse(fs.readFileSync(cacheFile, 'utf-8'));
   if (fs.existsSync(supplementalCacheFile)) {
     Object.assign(cachedDb, JSON.parse(fs.readFileSync(supplementalCacheFile, 'utf-8')));
+  }
+  if (fs.existsSync(bereshitSupplementalCacheFile)) {
+    Object.assign(cachedDb, JSON.parse(fs.readFileSync(bereshitSupplementalCacheFile, 'utf-8')));
   }
   const fullLexicon = JSON.parse(fs.readFileSync(lexiconCacheFile, 'utf-8'));
   const manifest = JSON.parse(fs.readFileSync(passagesFile, 'utf-8'));

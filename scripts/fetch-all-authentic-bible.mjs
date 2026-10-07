@@ -18,7 +18,8 @@ const BOOK_IDS = {
 // Comprehensive chapter configuration for all parashot including Pinchas
 const CHAPTER_CONFIG = [
   // Genesis
-  { book: 'Gen', ch: 21 },
+  { book: 'Gen', ch: 1 }, { book: 'Gen', ch: 2 }, { book: 'Gen', ch: 3 },
+  { book: 'Gen', ch: 4 }, { book: 'Gen', ch: 5 }, { book: 'Gen', ch: 6 }, { book: 'Gen', ch: 21 },
   // Leviticus
   { book: 'Lev', ch: 16 }, { book: 'Lev', ch: 22 }, { book: 'Lev', ch: 23 },
   // Numbers (including Pinchas 25-30)
@@ -29,7 +30,7 @@ const CHAPTER_CONFIG = [
   // Deuteronomy
   ...Array.from({ length: 34 }, (_, i) => ({ book: 'Deut', ch: i + 1 })),
   // 1 Samuel
-  { book: '1Sam', ch: 1 }, { book: '1Sam', ch: 2 },
+  { book: '1Sam', ch: 1 }, { book: '1Sam', ch: 2 }, { book: '1Sam', ch: 20 },
   // 1 Kings (Pinchas Haftara)
   { book: '1Kgs', ch: 18 }, { book: '1Kgs', ch: 19 },
   // Isaiah

@@ -1,6 +1,6 @@
 # Overzicht parasja-content voor de website
 
-**Actueel bijgewerkt: 16 september 2026**
+**Actueel bijgewerkt: 7 oktober 2026**
 
 **Ha'azinu-controle:** tweetalige bron, 12 downloads, gecombineerde Haftara (Hosea 14 + Joël 2), gegenereerde data en tijdelijke testbestanden gecontroleerd op 16 september 2026.
 
@@ -28,6 +28,7 @@ Voor iedere parasja of feestlezing geldt één markdownbestand als primaire bron
 | **haazinu.md** | **haazinu** | **2026-09-19** | **volledig tweetalig / gereed** |
 | yom-kippur.md | yom-kippur | 2026-09-21 | basisbestand |
 | sukkot.md | sukkot | 2026-09-26 | basisbestand |
+| **bereshit.md** | **bereshit** | **2026-10-10** | **volledig tweetalig / gereed** |
 
 > Let op: het bestandsnaam-item voor Jom Teruah heet historisch `yom-teruah.md`, terwijl de interne `id` `jom-teruah` is. Dit wordt hier alleen gedocumenteerd; wijzig die bestaande koppeling niet zonder migratie van alle verwijzingen.
 
@@ -80,6 +81,18 @@ public/downloads/werkbladen/haazinu-werkblad-nl.pdf
 public/downloads/werkbladen/haazinu-werkblad-en.docx
 public/downloads/werkbladen/haazinu-werkblad-en.pdf
 ```
+
+## Bereshit — volledige bron
+
+`content/parasjot/bereshit.md` bevat de Nederlandse en Engelse lezing, studieblad en werkblad.
+
+- Torah: Genesis 1:1–6:8
+- Haftara: 1 Samuël 20:18–42
+- Evangelie / flanklezing: Mattheüs 24:29–36
+- Titel NL: **Het woord dat scheiding maakt**
+- Titel EN: **The word that makes separation**
+- `published_at: 2026-10-10` en `current: false`
+- 12 canonieke downloads onder `public/downloads/{lezingen,studiebladen,werkbladen}/bereshit-*`
 
 ## Crosscheck bij publicatie
 
