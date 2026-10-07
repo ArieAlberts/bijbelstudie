@@ -317,6 +317,17 @@ export default function Navbar({ activeView, setActiveView, lang, setLang, selec
             <span>{labels.worksheet}</span>
           </a>
 
+          {lang === 'nl' && (
+            <a
+              href={articlesUrl}
+              className={`nav-link ${activeView === 'articles' ? 'active' : ''}`}
+              onClick={closeMenu}
+            >
+              <Newspaper className="nav-icon" aria-hidden="true" />
+              <span>{labels.articles}</span>
+            </a>
+          )}
+
           <div
             className="drawer-section-title"
             style={{ padding: '14px 16px 6px', fontSize: '12px', fontWeight: 800, textTransform: 'uppercase', letterSpacing: '0.08em', color: 'var(--muted)' }}
@@ -373,17 +384,6 @@ export default function Navbar({ activeView, setActiveView, lang, setLang, selec
             <Book className="nav-icon" aria-hidden="true" />
             <span>{labels.handbook}</span>
           </a>
-
-          {lang === 'nl' && (
-            <a
-              href={articlesUrl}
-              className={`nav-link ${activeView === 'articles' ? 'active' : ''}`}
-              onClick={closeMenu}
-            >
-              <Newspaper className="nav-icon" aria-hidden="true" />
-              <span>{labels.articles}</span>
-            </a>
-          )}
 
           <a
             href={contactUrl}
