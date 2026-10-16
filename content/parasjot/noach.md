@@ -9,6 +9,7 @@ label:
 status: published
 current: false
 published_at: 2026-10-17
+bible_data: false
 
 title_nl: "Bewaard door de bedekking"
 title_en: "Kept by the covering"
