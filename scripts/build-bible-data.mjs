@@ -200,6 +200,10 @@ function buildAllPassages() {
 
   let totalFiles = 0;
   manifest.studies.forEach(study => {
+    if (study.bible_data === false) {
+      console.warn(`⚠ Skipping Bible JSON generation for ${study.id}: bible_data=false`);
+      return;
+    }
     study.passages.forEach(passage => {
       const jsonData = generatePassageJson(study.id, passage, cachedDb, fullLexicon);
       const fileName = `${study.id}-${passage.role}.json`;
