@@ -1,0 +1,120 @@
+:root{
+  --paper:#f8f4ef;
+  --white:#fffdfa;
+  --ink:#261d16;
+  --muted:#615248;
+  --line:#dbcec4;
+  --soft:#f1eae1;
+  --accent:#954c28;
+  --accent-dark:#6c2c0e;
+  --shadow:rgba(52,40,25,.08);
+  --spring:#efe5d5;
+  --autumn:#ead8cc;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:"Work Sans",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.65}
+a{color:var(--accent-dark)}
+a:hover{color:var(--accent)}
+.skip-link{position:absolute;left:-9999px;top:8px;background:var(--ink);color:#fff;padding:8px 12px;z-index:1000}
+.skip-link:focus{left:8px}
+.feast-navbar{position:sticky;top:0;z-index:30;background:rgba(248,244,239,.96);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.feast-navbar-inner{max-width:1240px;margin:auto;padding:13px 24px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.feast-brand{font-family:"Source Serif 4",Georgia,serif;font-size:20px;font-weight:700;text-decoration:none;color:var(--ink)}
+.feast-nav{display:flex;align-items:center;gap:6px;flex-wrap:wrap;justify-content:flex-end}
+.feast-nav a{text-decoration:none;color:var(--ink);font-size:14px;font-weight:650;padding:7px 10px;border-radius:5px}
+.feast-nav a:hover{background:var(--soft)}
+.feast-nav a[aria-current="page"]{background:var(--accent);color:#fff}
+.work-badge{display:inline-flex;align-items:center;border:1px solid var(--line);border-radius:999px;padding:5px 9px;font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);background:var(--white)}
+
+.feast-main{overflow:hidden}
+.feast-hero{max-width:1180px;margin:auto;padding:84px 28px 64px;display:grid;grid-template-columns:minmax(0,1.2fr) minmax(300px,.8fr);gap:56px;align-items:center}
+.eyebrow{text-transform:uppercase;letter-spacing:.14em;color:var(--accent);font-size:.78rem;font-weight:800;margin:0 0 14px}
+.feast-hero h1,.section-heading h2,.time-card h2,.method-card h2,.feast-card h3{font-family:"Source Serif 4",Georgia,serif}
+.feast-hero h1{font-size:clamp(3rem,7vw,6.2rem);line-height:.96;letter-spacing:-.045em;margin:0 0 24px;max-width:760px}
+.hero-lead{font-family:"Source Serif 4",Georgia,serif;font-size:clamp(1.25rem,2.2vw,1.65rem);line-height:1.45;color:#3b3129;max-width:720px;margin:0 0 30px}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap}
+.button{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;border:1px solid var(--ink);padding:12px 18px;border-radius:4px;font-weight:750}
+.button.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+.button.primary:hover{background:var(--accent-dark);border-color:var(--accent-dark)}
+.button.secondary{color:var(--ink);background:transparent}
+.button.secondary:hover{background:var(--white)}
+.hero-verse{background:var(--white);border:1px solid var(--line);border-radius:18px;padding:34px;box-shadow:0 16px 40px var(--shadow);position:relative}
+.hero-verse:before{content:"“";position:absolute;top:-18px;left:22px;font-family:Georgia,serif;font-size:84px;line-height:1;color:var(--accent);opacity:.28}
+.hero-verse blockquote{font-family:"Source Serif 4",Georgia,serif;font-size:1.35rem;line-height:1.5;margin:0 0 18px}
+.hero-verse cite{font-style:normal;color:var(--muted);font-size:.9rem}
+
+.time-section{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--white)}
+.time-inner{max-width:1180px;margin:auto;padding:70px 28px}
+.section-heading{max-width:760px;margin-bottom:34px}
+.section-heading h2{font-size:clamp(2.2rem,4vw,3.7rem);line-height:1.08;margin:0 0 14px}
+.section-heading p{font-size:1.05rem;color:var(--muted);margin:0}
+.time-flow{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.time-card{background:var(--paper);padding:28px 24px;min-height:220px}
+.time-step{font-size:.72rem;font-weight:850;letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
+.time-card h2{font-size:1.65rem;margin:12px 0 10px}
+.time-card p{font-size:.94rem;color:var(--muted);margin:0}
+
+.cycle-section{max-width:1180px;margin:auto;padding:78px 28px 88px}
+.cycle-groups{display:grid;gap:30px}
+.season{border:1px solid var(--line);border-radius:18px;overflow:hidden;background:var(--white);box-shadow:0 12px 34px var(--shadow)}
+.season-head{display:flex;justify-content:space-between;gap:24px;align-items:end;padding:24px 26px;border-bottom:1px solid var(--line)}
+.season.spring .season-head{background:var(--spring)}
+.season.autumn .season-head{background:var(--autumn)}
+.season-head h3{font-family:"Source Serif 4",Georgia,serif;font-size:1.8rem;margin:0}
+.season-head p{margin:0;color:var(--muted);font-size:.9rem}
+.feast-grid{display:grid;grid-template-columns:repeat(4,1fr)}
+.feast-card{padding:25px;border-right:1px solid var(--line);min-height:235px;display:flex;flex-direction:column}
+.feast-card:last-child{border-right:0}
+.feast-card .number{font-size:.74rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-weight:800}
+.feast-card h3{font-size:1.5rem;line-height:1.15;margin:11px 0 5px}
+.feast-card .hebrew{color:var(--accent-dark);font-weight:700;font-size:.92rem}
+.feast-card p{color:var(--muted);font-size:.94rem;margin:13px 0 18px}
+.feast-card .status{margin-top:auto;font-size:.78rem;font-weight:700;color:var(--muted)}
+.bridge{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:stretch}
+.bridge-card{border:1px solid var(--line);border-radius:16px;padding:28px;background:var(--white)}
+.bridge-card h3{font-family:"Source Serif 4",Georgia,serif;font-size:1.75rem;margin:5px 0 8px}
+.bridge-card p{color:var(--muted);margin:0}
+.bridge-note{background:var(--soft);border-left:4px solid var(--accent)}
+
+.method-section{background:var(--ink);color:#fff}
+.method-inner{max-width:1180px;margin:auto;padding:78px 28px;display:grid;grid-template-columns:.9fr 1.1fr;gap:58px;align-items:start}
+.method-card h2{font-size:clamp(2.1rem,4vw,3.5rem);line-height:1.08;margin:0 0 18px}
+.method-card p{color:#e9dfd6;max-width:560px}
+.method-card .button.secondary{color:#fff;border-color:#d9cabc}
+.method-card .button.secondary:hover{background:rgba(255,255,255,.08)}
+.method-steps{display:grid;gap:10px}
+.method-step{display:grid;grid-template-columns:38px 1fr;gap:13px;padding:13px 0;border-bottom:1px solid rgba(255,255,255,.15)}
+.method-step:last-child{border-bottom:0}
+.method-step strong{font-family:"Source Serif 4",Georgia,serif;font-size:1.06rem}
+.method-step span{display:block;color:#cdbfb5;font-size:.9rem;margin-top:2px}
+.step-no{width:32px;height:32px;border:1px solid rgba(255,255,255,.3);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.78rem;font-weight:800}
+
+.principle-section{max-width:900px;margin:auto;padding:80px 28px 90px;text-align:center}
+.principle-section .eyebrow{text-align:center}
+.principle-section h2{font-family:"Source Serif 4",Georgia,serif;font-size:clamp(2.1rem,4vw,3.5rem);line-height:1.12;margin:0 0 18px}
+.principle-section p{font-family:"Source Serif 4",Georgia,serif;font-size:1.25rem;color:var(--muted);margin:0 auto;max-width:760px}
+.feast-footer{border-top:1px solid var(--line);padding:28px;text-align:center;color:var(--muted);font-size:.88rem}
+
+@media(max-width:980px){
+  .feast-hero{grid-template-columns:1fr}
+  .hero-verse{max-width:680px}
+  .time-flow{grid-template-columns:1fr 1fr}
+  .feast-grid{grid-template-columns:1fr 1fr}
+  .feast-card:nth-child(2){border-right:0}
+  .feast-card:nth-child(-n+2){border-bottom:1px solid var(--line)}
+  .method-inner{grid-template-columns:1fr}
+}
+@media(max-width:700px){
+  .feast-navbar-inner{align-items:flex-start;flex-direction:column;gap:8px}
+  .feast-nav{justify-content:flex-start}
+  .feast-nav a{font-size:12.5px;padding:5px 7px}
+  .feast-hero{padding:52px 20px 42px;gap:30px}
+  .time-inner,.cycle-section,.method-inner,.principle-section{padding-left:20px;padding-right:20px}
+  .time-flow{grid-template-columns:1fr}
+  .bridge{grid-template-columns:1fr}
+  .season-head{align-items:start;flex-direction:column}
+  .feast-grid{grid-template-columns:1fr}
+  .feast-card{border-right:0;border-bottom:1px solid var(--line)}
+  .feast-card:last-child{border-bottom:0}
+}
