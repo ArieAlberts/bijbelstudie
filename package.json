@@ -12,7 +12,7 @@
     "build:articles": "node scripts/build-articles.mjs",
     "build:assets": "node scripts/copy-static-assets.mjs",
     "build:bible": "node scripts/build-bible-data.mjs",
-    "build": "npm run build:passages && npm run build:epub && npm run build:docs && npm run build:downloads && npm run build:articles && npm run build:assets && npm run build:bible && vite build && node scripts/build-seo.mjs",
+    "build": "npm run build:passages && npm run build:epub && npm run build:docs && npm run build:downloads && npm run build:articles && npm run build:assets && npm run build:bible && node scripts/build-seo.mjs && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
