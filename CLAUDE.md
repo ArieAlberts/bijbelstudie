@@ -32,6 +32,10 @@ Always `git pull` first: the owner works from several machines and other tools a
 - `deploy.yml`: builds and deploys to GitHub Pages on push to `main`.
 - `content-pipeline.yml`: regenerates passages index, bible data, and downloads manifest when `content/parasjot/**`, `.pages.yml`, or `scripts/**` change.
 
+## Writing content
+
+Any text written or edited for publication under Arie's name (`body_*`, `study_body_*`, `worksheet_body_*`, articles, downloads) follows `docs/VOICE.md`: two separate checks (content against Scripture and the Frame method, voice against his transcription), his own occasion and thinking route kept visible, no stress accents or slogan runs, a closing that fits the genre. Where older style notes differ, `docs/VOICE.md` wins.
+
 ## Conventions
 
 - Node.js ≥18, ESM (`"type": "module"`), React JSX components in `src/components/`.
