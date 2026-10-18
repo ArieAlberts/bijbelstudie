@@ -1,0 +1,53 @@
+name: Fetch Lech Lecha Bible Cache
+
+on:
+  push:
+    paths:
+      - ".github/workflows/fetch-lech-lecha-cache.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-cache:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Fetch authentic DSV and KJV data
+        run: >
+          node scripts/fetch-all-authentic-bible.mjs
+          --only Gen.12,Gen.13,Gen.14,Gen.15,Gen.16,Gen.17,Isa.40,Isa.41,John.8
+          --out scripts/lech-lecha-bible-cache.json
+      - name: Validate fetched coverage
+        run: |
+          node - <<'NODE'
+          const fs = require('fs');
+          const d = JSON.parse(fs.readFileSync('scripts/lech-lecha-bible-cache.json','utf8'));
+          const required = [
+            ['Gen',12,1,20],['Gen',13,1,18],['Gen',14,1,24],['Gen',15,1,21],
+            ['Gen',16,1,16],['Gen',17,1,27],['Isa',40,27,31],['Isa',41,1,16],['John',8,51,58]
+          ];
+          for (const [b,c,s,e] of required) {
+            for (let v=s; v<=e; v++) {
+              const k=`${b}.${c}.${v}`;
+              if (!d[k]?.sv || !d[k]?.kjv) throw new Error(`Missing ${k}`);
+            }
+          }
+          console.log(`Validated ${Object.keys(d).length} cached verses`);
+          NODE
+      - name: Commit cache
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add scripts/lech-lecha-bible-cache.json
+          if git diff --cached --quiet; then
+            echo "No cache changes"
+          else
+            git commit -m "Bible data: voeg authentieke Lech Lecha cache toe"
+            git push
+          fi
