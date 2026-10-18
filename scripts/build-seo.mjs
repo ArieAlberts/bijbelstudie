@@ -7,7 +7,7 @@ const yaml = require('js-yaml');
 const root = process.cwd();
 const publicDir = path.join(root, 'public');
 const sourceDir = path.join(root, 'content', 'parasjot');
-const site = 'https://parasja.nl';
+const site = 'https://www.parasja.nl';
 
 const esc = v => String(v ?? '').replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;');
 const text = v => String(v ?? '').replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
@@ -167,7 +167,7 @@ const xml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.s
   unique.map(x => `  <url><loc>${site + x.url}</loc>${x.lastmod ? `<lastmod>${x.lastmod}</lastmod>` : ''}<priority>${x.priority}</priority></url>`).join('\n') +
   '\n</urlset>\n';
 fs.writeFileSync(path.join(publicDir, 'sitemap.xml'), xml);
-fs.writeFileSync(path.join(publicDir, 'robots.txt'), 'User-agent: *\nAllow: /\nSitemap: https://parasja.nl/sitemap.xml\n');
+fs.writeFileSync(path.join(publicDir, 'robots.txt'), 'User-agent: *\nAllow: /\nSitemap: https://www.parasja.nl/sitemap.xml\n');
 
 const nlCount = unique.filter(x => x.url.startsWith('/nl/parasjot/') && x.url !== '/nl/parasjot/').length;
 const enCount = unique.filter(x => x.url.startsWith('/en/parasjot/') && x.url !== '/en/parasjot/').length;
