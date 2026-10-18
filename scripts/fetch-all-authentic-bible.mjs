@@ -19,7 +19,9 @@ const BOOK_IDS = {
 const CHAPTER_CONFIG = [
   // Genesis
   { book: 'Gen', ch: 1 }, { book: 'Gen', ch: 2 }, { book: 'Gen', ch: 3 },
-  { book: 'Gen', ch: 4 }, { book: 'Gen', ch: 5 }, { book: 'Gen', ch: 6 }, { book: 'Gen', ch: 21 },
+  { book: 'Gen', ch: 4 }, { book: 'Gen', ch: 5 }, { book: 'Gen', ch: 6 },
+  { book: 'Gen', ch: 7 }, { book: 'Gen', ch: 8 }, { book: 'Gen', ch: 9 }, { book: 'Gen', ch: 10 }, { book: 'Gen', ch: 11 },
+  { book: 'Gen', ch: 21 },
   // Leviticus
   { book: 'Lev', ch: 16 }, { book: 'Lev', ch: 22 }, { book: 'Lev', ch: 23 },
   // Numbers (including Pinchas 25-30)
@@ -47,9 +49,19 @@ const CHAPTER_CONFIG = [
   // Gospels
   { book: 'Matt', ch: 4 }, { book: 'Matt', ch: 16 }, { book: 'Matt', ch: 18 }, { book: 'Matt', ch: 24 }, { book: 'Matt', ch: 25 },
   { book: 'Mark', ch: 11 },
-  { book: 'Luke', ch: 2 }, { book: 'Luke', ch: 3 }, { book: 'Luke', ch: 19 },
+  { book: 'Luke', ch: 2 }, { book: 'Luke', ch: 3 }, { book: 'Luke', ch: 17 }, { book: 'Luke', ch: 19 },
   { book: 'John', ch: 2 }, { book: 'John', ch: 6 }, { book: 'John', ch: 12 }, { book: 'John', ch: 14 }
 ];
+
+// Optional: --only Gen.7,Luke.17 --out scripts/x-bible-cache.json fetches just those
+// chapters into a supplemental cache instead of rewriting the full authentic cache.
+const argValue = name => {
+  const i = process.argv.indexOf(name);
+  return i === -1 ? null : process.argv[i + 1];
+};
+const onlyArg = argValue('--only');
+const only = onlyArg ? new Set(onlyArg.split(',')) : null;
+const outArg = argValue('--out');
 
 const sleep = (ms) => new Promise(res => setTimeout(res, ms));
 
@@ -148,6 +160,7 @@ async function fetchAll() {
   const kjvDb = {};
 
   for (const item of CHAPTER_CONFIG) {
+    if (only && !only.has(`${item.book}.${item.ch}`)) continue;
     const bookId = BOOK_IDS[item.book];
     if (!bookId) continue;
     const ch = item.ch;
@@ -211,7 +224,7 @@ async function fetchAll() {
     };
   });
 
-  const outPath = path.join(rootDir, 'scripts', 'authentic-bible-cache.json');
+  const outPath = outArg ? path.resolve(rootDir, outArg) : path.join(rootDir, 'scripts', 'authentic-bible-cache.json');
   fs.writeFileSync(outPath, JSON.stringify(combined, null, 2), 'utf-8');
   console.log(`✓ Successfully downloaded and cached ${Object.keys(combined).length} authentic verbatim verses with separated footnotes to ${outPath}!`);
 }
