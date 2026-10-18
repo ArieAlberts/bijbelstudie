@@ -442,6 +442,139 @@ study_body_nl: |
   </ul>
 
 study_body_en: |
+  <p class="constellatie"><em>Deuteronomy 21:10–25:19 · Haftarah: Isaiah 54:1–10 · Gospel: Matthew 24:29–42</em></p>
+  <p class="meta"><em>Sabbath Ki Teitzei — fifth comfort sabbath (sheva de-nechemta) · 5786 · Observation-first; axes deepened through the steps; directional test as horizon. Author: Arie Alberts.</em></p>
+  <h2>§0 — Observation round (order-safeguard)</h2>
+  <p><em>This block fixes the production order before a thread is chosen, so that it remains checkable whether the center of gravity was read off the text or laid upon it. Empirical, then phenomenological, and only then thematic.</em></p>
+  <h3>0.1 Blind observation</h3>
+  <p>Ki Teitzei is a scattering: not a story, but a long series of loose cases — traditionally the most commandment-dense parashah (more than seventy mitzvot; ±74 according to the Sefer haChinuch). Two things stand out empirically. First, a war-bracket: the parashah opens with "ki tetze la-milchamah" and the captive woman (21:10–14) and closes with Amalek, who struck the rear guard — the weak, the stragglers — and "feared not God" (25:17–19). Second, a repeated reach toward the exposed and the unwatched corner: the unloved wife and her son, the fallen animal ("thou mayest not hide thyself", 22:1–4), the mother bird, the roof-edge, the escaped slave, the millstone, the cloak and the day-wage of the poor, the gleaning for orphan/widow/stranger, the forty stripes that may not dishonour the brother, the threshing ox.</p>
+  <p>Alongside runs a second, quieter thread: distinctions and order — kilayim (no two kinds), shaʽatnez (no wool-and-linen), tzitzit, no man/woman clothing, the camp holy, honest measures. The hinge between the two threads stands in 23:14: "for the LORD thy God walketh in the midst of thy camp" — the invisible Witness is always present. The text itself also lays down a tension that only lights up through the haftarah: the divorce law (24:1–4) says that the woman sent-away-and-remarried does not return, while the prophets (Jer. 3) let God say: return.</p>
+  <h3>0.2 Axes as an open question — the distribution</h3>
+  <table>
+  <thead><tr><th>Axis</th><th>Pressure</th><th>Observed in</th></tr></thead>
+  <tbody>
+  <tr><td>Will</td><td>dominant</td><td>Man in the unwatched corner: hiding over against responsibility ("lo titʽalem", 22:3); robbing (Amalek) over against protecting; the awe of God as internal brake where no witness stands.</td></tr>
+  <tr><td>Coherence</td><td>strong (as a question)</td><td>Does it bind the scattering together or is it a jumble? Two threads — protect the exposed / keep the distinctions — with 23:14 as shared hinge (coram Deo).</td></tr>
+  <tr><td>Trajectory</td><td>present</td><td>"Ki tetze" — the going out; the Egypt-remembrance as recurring motif ("remember that thou wast a bondman", 24:18,22).</td></tr>
+  <tr><td>Source</td><td>thin</td><td>Not about instituting authority — that was Shoftim. Here it is about living <em>under</em> the authority, down into the corners.</td></tr>
+  <tr><td>Reactivity</td><td>embedded</td><td>"He feared not God" (Amalek) names negatively the guarantee that runs positively everywhere: awe of God where no one looks.</td></tr>
+  </tbody>
+  </table>
+  <h3>0.3 Read-off center of gravity</h3>
+  <p>The weight falls on the intersection Will × Coherence: the will in the corner where no one looks, and a <em>whole</em> law-code that becomes coherent around protecting the exposed and the awe of God. Amalek's charge — "he feared not God" — names negatively what runs along everywhere. Read off, not chosen: two threads side by side (protect the exposed / keep the distinctions), with 23:14 as the hinge that carries both (coram Deo).</p>
+  <h3>0.4 Framing test</h3>
+  <p>Did this come from the observation, or is it imposed? What pointed toward <em>another</em> center of gravity: (a) the sheer scope — Torah touching <em>every</em> domain (coherence-as-completeness); (b) a straightforward social-justice reading (protect the weak). That second is the familiar inclination of this project (defencelessness/receiving) and precisely therefore to be distrusted as a weekly template — a watch on the production itself. The honest limit (the too-neat-synthesis pitfall): "protect the exposed" does <em>not</em> cover everything — kilayim, shaʽatnez, tzitzit and the yibbum are about <em>order</em> and distinction, not about the weak. Therefore the two threads are held side by side, joined by 23:14, instead of pressing everything under one banner. Falsification honestly named: the second thread could have pulled the reading toward "holiness/order" — a real option; it does not win because 23:14 (coram Deo) binds both threads and the war-bracket (captive woman → Amalek) frames the exposed. That it could have landed otherwise, and that the reason is identifiable, is the proof that this is observation and not a funnel.</p>
+  <h2>§1 — Place in the year and the derived thread</h2>
+  <p>Sabbath Ki Teitzei is the fifth comfort sabbath. The haftarah (Isa. 54:1–10) lifts the exposed woman up to God-and-Israel: the forsaken and despised woman is restored — "thy Maker is thine husband" — and the covenant of peace does not depart.</p>
+  <p>Derived thread (from §0, plus the constellation and the personal material — not chosen beforehand): grasping over against receiving. Amalek is the failure-pole at the close: the right of the strongest, grabbing what you can grab, no awe. The scattered laws are what becomes fruit when the Word is received. Organizing image from the personal material: the field/the sower — the ground that must first be opened before the Word can be received — and the grain of wheat that dies (first of all Yeshua). Beneath it runs the quietest thread: the imperishable Word / the covenant of peace that does not depart.</p>
+  <p>Gospel as proposal. Matthew 24:29–42 connects, not through the fig tree or the watching, but through 24:35: "heaven and earth shall pass away, but My words shall not" — the same grammar as Isa. 54:10 ("the mountains may depart … but My kindness not"). The gathering from the four winds (24:31) rhymes with the "gathering" of Isa. 54:7; the days of Noah who "knew not" (24:37–39) rhyme with Amalek who "feared not God". Set in as a permanence-horizon, not as a judgment-climax.</p>
+  <h2>§2 — Steps 1–2: observation and differentiation (peshat per block)</h2>
+  <h3>2.1 Deut. 21:10–23 — war, family, the hanged one</h3>
+  <ul>
+  <li>21:10–14 — the captive woman: a month of mourning; afterward wife or free; never sold, no merchandise.</li>
+  <li>21:15–17 — the beloved and the "hated" (senuʾah = set behind, not loathed) wife; the birthright of the one set behind remains. Idiom cf. Luke 14:26 ↔ Matt. 10:37; Mal. 1:2–3.</li>
+  <li>21:18–21 — the rebellious son (severe law; see watch).</li>
+  <li>21:22–23 — the hanged one "accursed of God", buried that same day, the land not defiled. Direct to Gal. 3:13.</li>
+  </ul>
+  <h3>2.2 Deut. 22–23 — the exposed and the distinctions</h3>
+  <ul>
+  <li>22:1–4 — bringing back lost property; "thou mayest not hide thyself" (lo titʽalem).</li>
+  <li>22:5 man/woman clothing · 22:6–7 mother bird · 22:8 roof-edge · 22:9–12 kilayim/shaʽatnez/tzitzit — the distinctions.</li>
+  <li>23:1–8 who enters the assembly · 23:14 "the LORD walketh in the midst of thy camp" (coram Deo hinge) · 23:15–16 do not hand over the escaped slave · 23:19–20 no interest from the brother.</li>
+  </ul>
+  <h3>2.3 Deut. 24–25 — the vulnerable in ordinary life</h3>
+  <ul>
+  <li>24:1–4 the bill of divorcement · 24:5 the newly married exempt · 24:6 the millstone not taken in pledge · 24:10–13 pledge/cloak returned before sunset · 24:14–15 the day-wage the same day · 24:16 each for his own sin.</li>
+  <li>24:17–22 justice for stranger/orphan/widow; gleaning; "remember that thou wast a bondman in Egypt".</li>
+  <li>25:1–3 forty stripes — do not dishonour the brother · 25:4 the threshing ox · 25:5–10 yibbum/chalitzah · 25:13–16 honest measures.</li>
+  <li>25:17–19 Amalek: the rear guard, the weak; "he feared not God"; blot out the remembrance — "forget it not".</li>
+  </ul>
+  <h3>2.4 Isaiah 54:1–10 (haftarah — fifth nechemta)</h3>
+  <ul>
+  <li>54:1 sing, barren one · 54:5 "thy Maker is thine husband" · 54:7 "for a small moment forsaken … with great mercies gathered" · 54:10 the covenant of peace that does not depart.</li>
+  </ul>
+  <h3>2.5 Matthew 24:29–42 (gospel)</h3>
+  <ul>
+  <li>24:29–31 the coming of the Son of man and the gathering from the four winds · 24:32–33 the fig tree · 24:35 "heaven and earth shall pass away, but My words shall not" · 24:36 no one knows the day or hour · 24:37–39 the days of Noah · 24:40–42 two in the field; watch.</li>
+  </ul>
+  <h2>§3 — The bearing axes and their relation</h2>
+  <p><em>Unlike the weeks with one organizing axis, here Will and Coherence stand together; the gain lies in what the text stages between them, and in the derived grasping/receiving axis that the constellation adds.</em></p>
+  <h3>3.1 Will — man in the unwatched corner</h3>
+  <p>Almost everything turns on the will at the moment no one is looking: hiding over against responsibility ("lo titʽalem", 22:3), robbing (Amalek) over against protecting, the awe of God as the guarantee where no witness stands. The failure-form the text itself names is Amalek: "he feared not God".</p>
+  <h3>3.2 Coherence — two threads, one hinge</h3>
+  <p>Protect the exposed <em>and</em> keep the distinctions. The hinge that carries both is 23:14: because God walks in the midst of the camp, both the mercy and the order are lived coram Deo. A single-thread reading would make the distinctions mere filler for the "protect the weak" thread; the relational reading follows what the text stages.</p>
+  <h3>3.3 The derived axis — grasping over against receiving</h3>
+  <p>Amalek grasps. The laws teach receiving-and-passing-on: "remember that thou wast a bondman … therefore" (24:18,22). The haftarah shows God who does not send away but gathers. The failure-pole is grasping: the bill of divorcement in one's own hand, kindling one's own fire (Isa. 50:11). This is the thread that carries the reading; it is derived, not imposed from §0.</p>
+  <h2>§4 — Deepening: the prophetic agricultural image, the divorce tension, the tree and the grain of wheat</h2>
+  <h3>4.1 The ground opened before the Word</h3>
+  <p>Jer. 4:1–4 joins shuv (returning) with the breaking open of fallow ground, not sowing among thorns, and the circumcision of the heart; Hos. 10:12 does the same; Ezek. 36:26–27 promises a new heart and the Spirit. This stands on its own in the prophets (peshat, green). Yeshua ties into this image (suggestive, on the LXX hook of Jer. 4:3: sperō/akanthai) and completes it (confession). Status limit: "good ground = teshuvah" is too strong as a word-meaning; but "what a heart looks like that has turned to God" is fine (yellow, bounded).</p>
+  <h3>4.2 The divorce tension</h3>
+  <p>Deut. 24:1–4 is a civil law (peshat, green). Over against it the prophets set God who sends away <em>and</em> calls back: Jer. 3:1–8 (literally invokes Deut. 24) and Isa. 50:1 ("where is the bill of your mother's divorcement?"). Yoma 86b (R. Yochanan): great teshuvah overrules even a prohibition from the Torah, citing Jer. 3:1 over against machzir gerushato — thematically exactly <em>this</em> parashah (Sefaria/Steinsaltz verified, green). The king-and-divorce midrash remains yellow: source unknown, only as a homiletical image, left out of the reading.</p>
+  <h3>4.3 The tree and the grain of wheat</h3>
+  <p>Deut. 21:22–23 → Gal. 3:13: the curse truly borne, buried that same day. John 12:24: the grain of wheat that falls into the earth and dies — first of all about Yeshua Himself. The tree-hinge opens the way back; the grain of wheat = the curse borne = the ground broken open. Confession, text-anchored. Nuance: the reading of "qilelat Elohim" is contested — subjective "<em>by</em> God" (LXX/Paul) over against objective "affront <em>against</em> God" (Mishnah/Rashi: the hanged one bears God's image); the reading keeps that open and weaves the christology (the image-bearer on the tree) as horizon.</p>
+  <h3>4.4 The imperishable Word</h3>
+  <p>Isa. 54:10 ("the mountains may depart … but My kindness not, the covenant of My peace shall not be removed") and Matt. 24:35 ("heaven and earth shall pass away, but My words shall not") carry the same <em>but</em>-grammar: the perishable over against the one thing that stays — before, now, and what comes; through faithfulness <em>and</em> unfaithfulness. Watch: it stays <em>through</em> our unfaithfulness, not <em>over</em> it — the sin is just as seriously taken (the curse was borne).</p>
+  <h2>§5 — The directional test as horizon</h2>
+  <p><em>No worked-out climax, but a light landing — the directional test is not forced where the text does not press hardest on it.</em></p>
+  <p>From Amalek-autonomy (grasping, robbing, no awe; the bill of divorcement in one's own hand; one's own fire) to receiving: God Himself bore the curse and calls, again and again, "return". The gospel (Matt. 24) stands here as a permanence-horizon — the imperishable Word — not as a judgment-climax; "one taken, one left" does not become a hammer. That Yeshua is the faithful covenant-bearer and opens the new covenant, and that the resurrection gives the standard its decisive authority, remains confession (blue).</p>
+  <h2>§6 — Status table (double taxonomy: epistemic status × use)</h2>
+  <table>
+  <thead><tr><th>Status</th><th>Element</th><th>Note</th></tr></thead>
+  <tbody>
+  <tr><td>🟢 Bearing</td><td>War-bracket: captive woman → Amalek (21:10–14; 25:17–19)</td><td>The parashah opens and closes with war; the first a vulnerable enemy with restraint, the last (Amalek) as predator "who feared not God". Structural backbone. Use: allowed.</td></tr>
+  <tr><td>🟢 Bearing</td><td>"Thou mayest not hide thyself" — lo titʽalem (22:3)</td><td>The responsibility in the unwatched corner, verbatim. Core of the Will axis. Allowed.</td></tr>
+  <tr><td>🟢 Bearing</td><td>"The LORD walketh in the midst of thy camp" (23:14)</td><td>The coram-Deo hinge that carries both threads (mercy and order). Allowed.</td></tr>
+  <tr><td>🟡 Suggestive</td><td>23:14 as a general coram-Deo hinge</td><td>The peshat context is specifically the army camp ("to deliver thee"; camp-holiness so that God does not turn away). Its use as a general coram-Deo ground is a legitimate widening — mark it as a widening, not as the flat meaning. Bounded.</td></tr>
+  <tr><td>🟢 Bearing</td><td>Hanged one: buried the same day, land not defiled (21:22–23)</td><td>The law itself (not to leave hanging overnight; to bury; not to defile the land) is text-given. Cited by Paul in Gal. 3:13. Allowed; for the reading of "qilelat Elohim" see 🟡; for the christology see 🔵.</td></tr>
+  <tr><td>🟡 Suggestive</td><td>"Qilelat Elohim" (21:23) — subjective vs. objective</td><td>Divergence (shivʽim panim): "accursed <em>by</em> God" (LXX/Paul, Gal. 3:13) over against "affront <em>against</em> God" (Mishnah Sanhedrin, Rashi, Targum Jonathan: the hanged one bears God's image). Van de Giessen: primarily land-defilement. Kept open in the reading; christology as horizon, no peshat-determiner. Bounded.</td></tr>
+  <tr><td>🟢 Bearing</td><td>"To hate" = to set behind (21:15–17)</td><td>Senuʾah as "set behind", not "loathed"; idiom confirmed by Luke 14:26 ↔ Matt. 10:37 and Mal. 1:2–3. Lexical/peshat. Allowed.</td></tr>
+  <tr><td>🟢 Bearing</td><td>Amalek "feared not God"; "blot out … forget not" (25:17–19)</td><td>The failure-pole verbatim; the remembering-in-order-not-to-forget. Allowed; application to people forbidden (see watch).</td></tr>
+  <tr><td>🟢 Bearing</td><td>"Remember that thou wast a bondman … therefore" (24:18,22)</td><td>Receiving-and-passing-on as the ground under the social laws; response, not autonomous virtue. Allowed.</td></tr>
+  <tr><td>🟢 Bearing</td><td>Divorce law (Deut. 24:1–4)</td><td>Civil law in its own right: the woman sent-away-and-remarried does not return. Peshat. Allowed.</td></tr>
+  <tr><td>🟢 Bearing</td><td>Jer. 3:1 invokes Deut. 24</td><td>The prophet himself ties the bond with the divorce law — the intertext is text-given, not laid by us. Allowed.</td></tr>
+  <tr><td>🟢 Bearing</td><td>Isa. 54:5,7,10 (Maker/husband; gathering; covenant of peace)</td><td>Haftarah core: the exposed woman restored; the covenant that does not depart. Allowed.</td></tr>
+  <tr><td>🟢 Bearing</td><td>Matt. 24:35 "heaven and earth … but My words not"</td><td>Gospel hinge: the imperishable Word. Allowed.</td></tr>
+  <tr><td>🟢 Bearing</td><td>Yoma 86b (great teshuvah overrules a prohibition)</td><td>R. Yochanan couples Jer. 3:1 to machzir gerushato (Deut. 24) — thematically <em>this</em> parashah. Sefaria/Steinsaltz verified. Allowed.</td></tr>
+  <tr><td>🟢 Bearing</td><td>Jer. 4:1–4 / Hos. 10:12 (break open fallow ground)</td><td>The prophetic agricultural image stands on its own, without the parable. Peshat. Allowed.</td></tr>
+  <tr><td>🟡 Suggestive</td><td>Sower ↔ Jer. 4:3 (LXX sperō/akanthai)</td><td>Strong intertextual possibility; the same two words. Use: bounded — "it looks as if Yeshua ties in", no proof of a conscious citation.</td></tr>
+  <tr><td>🟡 Suggestive</td><td>"Good ground = teshuvah-heart"</td><td>Homiletically usable as "what a turned heart looks like", no word-meaning. Bounded.</td></tr>
+  <tr><td>🟡 Suggestive</td><td>Isa. 54:10 ↔ Matt. 24:35 (imperishable Word)</td><td>Canonical parallel, the same <em>but</em>-grammar. Strongly suggestive. Bounded to parallel, no citation claim.</td></tr>
+  <tr><td>🟡 Suggestive</td><td>Deut. 24:1–4 as God-Israel marriage</td><td>Derashah/confession, offered by the prophets themselves (Jer. 3) — <em>not</em> the flat meaning. Bounded: never pressing over the Jewish peshat.</td></tr>
+  <tr><td>🟡 Suggestive</td><td>King-and-divorce midrash</td><td>SOURCE UNKNOWN (Pesikta / Devarim Rabbah?). Bounded: only homiletical, left out of the reading; open verification point (§8).</td></tr>
+  <tr><td>🔴 Watch</td><td>War laws (captive woman, 21:10–14)</td><td>Never as a mandate or romanticizing of war/subjugation; bounded to the covenant-/conquest-context. The reading stresses precisely the limit to the victor's power.</td></tr>
+  <tr><td>🔴 Watch</td><td>Rebellious son (21:18–21)</td><td>Not as a model for dealing with children or as a legal provision for now; the reading uses him only for the theme of responsibility. Bounded.</td></tr>
+  <tr><td>🔴 Watch</td><td>Amalek on persons/peoples/groups</td><td>Never apply to concrete people, peoples or groups; it is about the way-of-life (grasping without awe). Forbidden as a person-application.</td></tr>
+  <tr><td>🔴 Watch</td><td>"Repairing/completing" (sower) ≠ replacement</td><td>Yeshua completes the prophetic promise, does not displace it; the prophets did not fall short (Ezek. 36 already promises it). Replacement concerns frame-structure, never a people (Rom. 11).</td></tr>
+  <tr><td>🔴 Watch</td><td>Matt. 24 not as a judgment-hammer</td><td>Set in as a permanence-horizon; "one taken, one left" not exploited. Bounded.</td></tr>
+  <tr><td>🔴 Watch</td><td>Imperishability ≠ "faithfulness does not matter"</td><td>The covenant stays <em>through</em> our unfaithfulness, not <em>over</em> it; the sin stays serious (the curse was borne). Watch on the formulation.</td></tr>
+  <tr><td>🔵 Confession</td><td>Gal. 3:13 / John 12:24 (curse borne = grain of wheat)</td><td>Confessional application: the tree-hinge and the dying seed open the way back. Text-anchored, but confession.</td></tr>
+  <tr><td>🔵 Confession</td><td>New covenant (Jer. 31 / Ezek. 36) in Yeshua; Rom. 11 grafting</td><td>The nations grafted in, not replacing; the new heart as fulfilment. Confession, with the replacement-limit guarded.</td></tr>
+  <tr><td>🔵 Confession</td><td>Directional test as horizon (receiving vs grasping)</td><td>That the parashah finally orders itself toward this one question is confessional ground — this week horizon, not center (§5).</td></tr>
+  <tr><td>🔵 Confession</td><td>Resurrection as criterion</td><td>Fixed axiom of the template: the decisive coherence-criterion lies outside the method; the directional test is not rationally compelling.</td></tr>
+  </tbody>
+  </table>
+  <h2>§7 — Podcast translation: episode arc (filled in)</h2>
+  <ul>
+  <li>1. Opening image: the field between twelve and one — the ground that must first be opened. One image, no thesis.</li>
+  <li>2. Core question: do I grasp (make my own light, hold on to the bill of divorcement), or do I receive (let the ground be broken open)?</li>
+  <li>3. Movement 1 — observing: the scattered laws between the war-bracket; the exposed and the distinctions; 23:14 as hinge — still without interpretation.</li>
+  <li>4. Movement 2 — the axes and the derived thread: Will (the unwatched corner) × Coherence (two threads); Amalek = grasping, the laws = fruit of receiving.</li>
+  <li>5. Deepening — the agricultural image and the divorce tension: ground opened (Jer. 4 / Hos. 10 / Ezek. 36); Deut. 24 over against Jer. 3 (Yoma 86b); the tree and the grain of wheat (Gal. 3:13 / John 12:24).</li>
+  <li>6. Horizon (light): the imperishable Word (Isa. 54:10 ↔ Matt. 24:35) — through everything; return. No judgment-climax.</li>
+  <li>7. Close: dialogical question — where has my ground grown hard, where do I kindle my own fire, what does God ask me to let go?</li>
+  </ul>
+  <p><em>Fixed element: make the status-marking audible — "this is text-given; this is suggestion; here we confess".</em></p>
+  <h2>§8 — Source accounting (checkpoints)</h2>
+  <ul>
+  <li>BHS: Deut. 21:23 (talui / qilelat Elohim), 22:3 (lo tukhal lehitʽallem), 23:15 (mithhallekh beqerev machanekha), 24:1–4, 25:17–19 (Amalek / zachor), 21:15 (senuʾah) — checkpoints for the bearing observations.</li>
+  <li>BHS: Jer. 3:1–8, 4:1–4 (shuv / niru lachem nir), Hos. 10:12, Isa. 50:1, 54:5–10 — prophetic bond and divorce tension.</li>
+  <li>LXX: Jer. 4:3 (sperō / akanthai) — intertextual checkpoint for the sower-bond; status yellow.</li>
+  <li>NA28: Matt. 13:1–23 / Mark 4:1–20 / Luke 8:4–15 (sower), John 12:24 (grain of wheat), Matt. 24:31,35,37–39 (gospel), Gal. 3:13 (citation of Deut. 21:23), Luke 14:26 / Matt. 10:37 (hate-idiom).</li>
+  <li>Talmud Bavli, Yoma 86b (R. Yochanan; Jer. 3:1 over against machzir gerushato) — Sefaria/Steinsaltz verified; status green.</li>
+  <li>OPEN verification point: king-and-divorce midrash — source unknown (Pesikta / Devarim Rabbah?); yellow until verification, only homiletical, left out of the reading.</li>
+  <li>Haftarah delimitation Isa. 54:1–10 (fifth nechemta) and the placement of Matt. 24:29–42 as the gospel reading: liturgical/redactional given, marked as such.</li>
+  <li>Methodical note: §0 fixes the order-safeguard; the read-off center of gravity (Will × Coherence, two threads + 23:14) carries green/yellow; the derived thread (grasping/receiving, the sower, the imperishable Word) is derived in §1 from constellation + personal material.</li>
+  </ul>
 
 worksheet_body_nl: |
   <p class="constellatie"><em>Deuteronomium 21:10–25:19 · Haftara: Jesaja 54:1–10 · Evangelie: Mattheüs 24:29–42</em></p>
@@ -479,6 +612,39 @@ worksheet_body_nl: |
   </blockquote>
 
 worksheet_body_en: |
+  <p class="constellatie"><em>Deuteronomy 21:10–25:19 · Haftarah: Isaiah 54:1–10 · Gospel: Matthew 24:29–42</em></p>
+  <p class="meta"><em>A worked example to read and follow together — your own copy. The thread of this reading: grasping over against receiving; the ground that must be opened before the Word bears fruit.</em></p>
+  <h2>How to read this sheet</h2>
+  <p>This is a filled-in example. We first read a few places from the parashah and look at what stands out — still without explanation. Then we draw the line, and at the end we ask what it does to us. Along the way we say honestly each time whether something stands there like that, or whether we lay a thought alongside it, or whether we believe it.</p>
+  <h2>1 · The image: the field</h2>
+  <p>Whoever lives in the country sees it every season. First the field lies bare. Then the ground is ploughed and broken open, and the weeds are removed. Only then comes the seed. For a time you see almost nothing — and then it comes up, and in the end there is fruit. Yeshua used that image: a sower goes out to sow. The seed is the Word. And it does not go wrong in the seed — that is the same everywhere — but in the ground: hard, shallow, or full of thorns. The question, then, is not whether the seed is good, but whether the ground receives it.</p>
+  <h2>2 · Reading and looking</h2>
+  <p>Read these five places aloud, and look at what stands out <em>before</em> anyone explains. Below, as an example, is what you might notice.</p>
+  <ul>
+  <li>21:10–14 — the captive woman: even in war she is no merchandise, and she is given a month to mourn. What stands out: God sets a limit to the power of the strongest.</li>
+  <li>22:1–4 — bringing back lost property: 'thou mayest not hide thyself'. What stands out: love is here very practical — not looking away.</li>
+  <li>23:14 — 'the LORD thy God walketh in the midst of thy camp'. What stands out: God is present, also in the ordinary and hidden things.</li>
+  <li>24:1–4 — the bill of divorcement: the woman sent away does not return. What stands out: the breaking of a covenant really matters.</li>
+  <li>25:17–19 — Amalek struck the weak at the rear and 'feared not God'. What stands out: this is the counter-image — grasping without awe.</li>
+  </ul>
+  <p>Do you see the pattern? The parashah stands between two scenes of war — the captive woman at the beginning, Amalek at the end — and in between the law protects, time and again, the weak, the forgotten, the person in the corner where no one looks. And 23:14 says why: God is watching.</p>
+  <h2>3 · The line: grasping or receiving</h2>
+  <p>Amalek stands for grasping: the right of the strongest, taking what you can take, no awe of God. The many laws stand for the opposite: receiving and passing on. Again and again sounds 'remember that thou wast a bondman in Egypt' — you yourself have received grace, so you do not look away. That is the line of this reading: from grasping to receiving.</p>
+  <h2>4 · What the reading further showed</h2>
+  <p>The tree and the grain of wheat. In the middle of the parashah someone hangs on a tree, 'accursed of God', and he is buried that same day (21:22–23). Paul applies that to Yeshua: He bore the curse (Galatians 3:13). And think of the grain of wheat that falls into the earth and dies in order to bear fruit (John 12) — that is first of all about Him. The curse borne is the seed that died; out of it comes the way back.</p>
+  <p>The bill of divorcement. The haftarah calls God 'thine husband' (Isaiah 54). But in this parashah stands <em>also</em> the bill of divorcement: that woman does not return. How then can God call Israel — the woman sent away — back? In Isaiah 50 He even asks: 'where then is the bill?' The answer is not that the sin was slight, but that God Himself opened the way back. Therefore it sounds again and again: return.</p>
+  <p>The imperishable Word. And beneath it all lies one quiet thread: 'the mountains shall depart, but My kindness shall not depart' (Isaiah 54:10), and 'heaven and earth shall pass away, but My words shall not pass away' (Matthew 24:35). Through our faithfulness <em>and</em> unfaithfulness, the one thing that does not depart remains.</p>
+  <p><em>Honestly alongside: that God is 'thine husband' and takes Israel back, we believe from the prophets themselves — it is not a flat explanation of the divorce law. And we do <em>not</em> say 'the good ground <em>is</em> teshuvah'; rather, that the good ground shows what a heart looks like that has turned to God.</em></p>
+  <h2>5 · What it does to us</h2>
+  <p>Teshuvah means: to return. Not first to make yourself good enough, not to feel enough guilt — simply to turn around because God calls. And not to spade open your own ground with a cramp: to let go, and to hear the Sower.</p>
+  <blockquote>
+  <p><strong>For yourself.</strong> Where has my ground grown hard? What are my 'thorns' — cares, possessions, wanting to be right, busyness? Where do I kindle my own fire instead of waiting for His light? Choose one thing this week, and lay it down with the question: LORD, what do <em>You</em> say?</p>
+  </blockquote>
+  <h2>6 · Close</h2>
+  <p>The last word is not a command, but an invitation:</p>
+  <blockquote>
+  <p><em>'Return unto Me.'</em></p>
+  </blockquote>
 
 download_pdf_nl: "/downloads/lezingen/ki-teitzei-nl.pdf"
 download_docx_nl: "/downloads/lezingen/ki-teitzei-nl.docx"
