@@ -2,10 +2,21 @@ name: Content & Bible Data Pipeline
 
 on:
   push:
+    branches:
+      - main
     paths:
       - 'content/parasjot/**'
       - '.pages.yml'
-      - 'scripts/**'
+      - 'scripts/build-passages-index.mjs'
+      - 'scripts/build-bible-data.mjs'
+      - '.github/workflows/content-pipeline.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: content-pipeline-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   build-data:
@@ -13,6 +24,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          persist-credentials: true
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -29,11 +42,10 @@ jobs:
       - name: Build Bible Passage Data
         run: npm run build:bible
 
-      - name: Build Downloads Manifest
-        run: npm run build:downloads
-
+      # Downloads manifest depends on the full downloads/EPUB generation.
+      # Do not regenerate it in this partial content workflow.
       - name: Commit Generated Passage Data
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "auto: regenerate passages index and Bible JSON data from CMS content"
-          file_pattern: "data/passages.json public/data/passages.json public/data/bible/*.json public/data/downloads.json"
+          file_pattern: "data/passages.json public/data/passages.json public/data/bible/*.json"
