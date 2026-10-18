@@ -11,11 +11,9 @@ current: false
 published_at: 2026-07-18
 
 title_nl: "Elf dagen die veertig jaar werden"
-title_en: ""
-
+title_en: "Eleven days that became forty years"
 summary_nl: "Devarim opent het laatste boek van Mozes met een terugblik: elf dagen reis die veertig jaar werden. Op Sjabbat Chazon, vlak vóór Tisja be’Av, gaat de lezing over de weg die je niet zag en over kennen wie je bent voor God."
-summary_en: ""
-
+summary_en: "Devarim opens the last book of Moses with a look back: eleven days of journey that became forty years. On Shabbat Chazon, just before Tisha b'Av, the reading is about the road you did not see and about knowing who you are before God."
 body_nl: |
   <p>Stel je een landkaart voor. Onderaan staat een berg: de Horeb, de berg waar het volk de Tien Woorden kreeg. En bovenaan ligt het beloofde land, de plek waar ze naartoe willen. En als je met je vinger de route natrekt, van de berg naar het land, dan is het — zegt de Bijbel zelf — elf dagen lopen. Elf dagen. Twee weekjes, en je bent er.</p>
   <p>Weet je hoe lang het volk erover deed? Veertig jaar.</p>
@@ -112,10 +110,99 @@ body_nl: |
   <p>Want dit is het nieuws van deze zware week, ook al valt hij vlak voor de dag van de rouw. De Vader is niet opgehouden met dragen. De reuzen vallen nog steeds. En er is een Koning die niet wegkijkt van de stad die Hem vergat, máár erover huilt — en dat is geen einde, dat is een deur.</p>
   <p>Lees het na, denk erover — en zeg me gerust waar jij het anders zou leggen dan ik.</p>
 
-body_en: ""
-
-
-
+body_en: |
+  <p>Picture a map. At the bottom stands a mountain: Horeb, the mountain where the people received the Ten Words. And at the top lies the promised land, the place they want to reach. And if you trace the route with your finger, from the mountain to the land, then it is — the Bible says so itself — eleven days' walk. Eleven days. A couple of weeks, and you are there.</p>
+  <p>Do you know how long the people took? Forty years.</p>
+  <p>Forty. Years. For a journey of eleven days. A whole generation was born and died along the way. And the strange thing is: that did not happen because the road was so hard, or because they got lost, or because there was no map. There was nothing wrong with the road. There was something wrong with the <em>eyes</em> of the people who were looking.</p>
+  <p>That is what this week's reading is about. It is the first Sabbath of a new book: Deuteronomy, in Hebrew Devarim, 'words'. Moses is old. He knows he may not enter the land himself; he may only see it and then die. And so, just before the end, he tells the whole story over one more time. Not to bring news — everyone was there — but to teach them to <em>look</em> at it differently. To look back on forty years, and to see what actually happened.</p>
+  <p>And it falls on a special Sabbath. We are in the heaviest week of the Jewish calendar: the days just before Tisha b'Av, the day on which it is remembered that the temple in Jerusalem was destroyed — twice, centuries apart, on the same date. This Sabbath is therefore called Shabbat Chazon: the Sabbath of the 'vision', named after the prophet we will read in a moment. It is a week of mourning. And in the middle of that mourning the reading asks one question, again and again: do you see it? Do you still know Him? Do you still know who you are?</p>
+  <h2>First: learn to look again</h2>
+  <p>Moses begins with something practical. When the people grew too large to lead alone, he appointed judges — men who had to settle quarrels, to do justice. And he gave them one instruction that I do not want you to miss:</p>
+  <blockquote>
+  <p><em>'Ye shall not respect persons in judgment … for the judgment is God's.' — Deuteronomy 1:17</em></p>
+  </blockquote>
+  <p>'The judgment is God's.' A judge easily feels like the boss. He decides, doesn't he? But Moses says: no, the justice is not <em>yours</em>, you receive it on loan. You are not an owner, you are a steward. And that is why you need not be afraid of the big, powerful man standing in front of you — because it is not <em>your</em> judgment you have to defend, it is God's. Remember that little word: <em>afraid</em>. Being afraid. For that is where it all goes so wrong.</p>
+  <h2>Twelve men, one land, two stories</h2>
+  <p>Now comes the heart of the story. They stand at the edge of the promised land — the first time, forty years ago. So close. And they send twelve scouts ahead, one from each tribe, to look at the land. Forty days later those twelve come back. They have all seen exactly the same thing. The same land, the same cities, the same people, the same grapes.</p>
+  <p>And yet they come back with two completely different stories. Ten of them say: forget it. The people there are giants. The cities have walls up to heaven. Next to them we were like grasshoppers. We do not stand a chance. And two of them — Caleb and Joshua — say: it is a wonderful land, and God is going to give it to us, come on.</p>
+  <p>The same land. The same eyes, you would say. But not the same <em>frame</em> — not the same lens. And here I have to explain something, because this is the heart of it all. A lens does not determine <em>what</em> is there; the giants were real, the walls were real. A lens determines what you do with it, how you <em>read</em> it. Through the one lens a large city is an unconquerable threat. Through the other that same city is a gift God has already promised. The facts are on the table; the lens decides whether you dare to walk forward or freeze.</p>
+  <p>And look now what the fear-lens does to the people. It is almost unbelievable. They sit grumbling in their tents at evening, and then they say this:</p>
+  <blockquote>
+  <p><em>'Because the LORD hated us, he hath brought us forth out of the land of Egypt, to deliver us into the hand of the Amorites, to destroy us.' — Deuteronomy 1:27</em></p>
+  </blockquote>
+  <p>Read that again, slowly. God took them out of slavery. He broke the sea open for them, carried them through the wilderness, fed them from heaven. And now they say: He is doing all this because He <em>hates</em> us. Do you hear how insane that is? The greatest love you can imagine — deliverance from slavery — is read through the fear-lens as hatred. Exactly backwards. That is how powerful a lens is: it can make love look like hatred.</p>
+  <p>And Moses sets something over against it. The most beautiful image of the whole parashah. He says: do you still remember how it really was, that wilderness?</p>
+  <blockquote>
+  <p><em>'… the LORD thy God bare thee, as a man doth bear his son, in all the way that ye went.' — Deuteronomy 1:31</em></p>
+  </blockquote>
+  <p>Carried. As a father carries his child — on his shoulders, or against himself, when the little legs are tired and the road too long. That was the reality. Not a God who hates; a Father who carries. But through the fear-lens they no longer saw it. And then falls the word that sums it all up:</p>
+  <blockquote>
+  <p><em>'Yet in this thing ye did not believe the LORD your God.' — Deuteronomy 1:32</em></p>
+  </blockquote>
+  <p>They did not believe Him. Not: they did not know of Him — they had seen Him with their own eyes. But at the moment it mattered, they did not trust the road that lay right in front of them. And that cost forty years.</p>
+  <h2>And then the strangest thing</h2>
+  <p>For notice what happens next, because this I find almost the sharpest point of the whole passage. God says: all right, this generation is not going into the land. You were not willing; your children — the ones you said would die — they will get the land. Turn around, into the wilderness.</p>
+  <p>And what does the people do then? Now, suddenly, they <em>do</em> want to. 'We have sinned,' they say, 'we will go up and fight now!' And they take their weapons and go up the mountain. But God says: do not do it, I will not go with you. They do it anyway. And they are beaten back and chased 'as bees do' — driven off by a swarm.</p>
+  <p>Do you see the pattern? When God said 'go,' they would not. When God said 'do not go,' they went anyway. They were always exactly <em>against</em> the word — the one time too afraid, the other too headstrong. Never <em>in step</em> with God. And that is fear, you know. Fear does not only make you cowardly; fear also makes you reckless. It is two sides of the same lens: you do not dare when you should, and you charge ahead when you should not. What is missing is not courage or caution — what is missing is <em>listening</em>.</p>
+  <h2>The giants fall</h2>
+  <p>Then come the years of wandering. Moses tells them briefly. And there is something beautiful in it that you could almost miss. Along the way they pass other peoples — the descendants of Esau, of Moab, of Ammon. And each time God says: keep off their land. That I have given to <em>them</em>. I gave Esau those mountains, just as I will soon give you your land.</p>
+  <p>Do you understand what that says? Everyone is given his place. No one has to grab. Your land is not something you must conquer because otherwise you have nothing — it is something that lies ready for you, with borders around it, like a gift with your name on it. And about those forty years of wandering Moses says one little sentence that says everything:</p>
+  <blockquote>
+  <p><em>'… thou hast lacked nothing.' — Deuteronomy 2:7</em></p>
+  </blockquote>
+  <p>Forty years in the wilderness — and they lacked nothing. The Father who carried, simply carried on, even though they did not see it.</p>
+  <p>And then, at the end, come the first real victories. Two kings: Sihon and Og. And that Og — it is specially noted that he was a giant; his bed was of iron and so long that it was kept as a sight to see. A <em>giant</em>. And do you remember what had so frightened the ten scouts forty years earlier? <em>Giants.</em> The very thing they were terrified of is now simply defeated. Not because the people had grown stronger — but because the giant was never the problem. The lens was the problem. Fear had made the giants bigger than God. And the moment they simply walked the road, the giants turned out to fall.</p>
+  <p>And Moses closes this part with a charge to Joshua, his successor, and it is almost the same word with which we began:</p>
+  <blockquote>
+  <p><em>'Ye shall not fear them: for the LORD your God he shall fight for you.' — Deuteronomy 3:22</em></p>
+  </blockquote>
+  <p>Do not be afraid. As if the whole story — those forty years, that inverted lens, those fallen giants — is pressed together into those few words, handed to the man who <em>will</em> do it.</p>
+  <h2>The prophet who sees the wound</h2>
+  <p>A second reading always belongs with the parashah, from the prophets — the haftarah. And because this is Shabbat Chazon, we read the very first page of Isaiah. 'Chazon' means 'vision', and so the book begins: the vision that Isaiah saw. And it is hard. God speaks, and He sounds like a grieving father:</p>
+  <blockquote>
+  <p><em>'… I have nourished and brought up children, and they have rebelled against me.' — Isaiah 1:2</em></p>
+  </blockquote>
+  <p>And then comes an image you never forget. God says: even an ox knows who its master is. Even a donkey knows at whose crib it is fed. An <em>animal</em> still knows where it belongs. But My people — <em>My people does not know Me.</em> That is the word of this morning, remember? Knowing. Not-knowing. The scouts did not believe; here they do not even <em>know</em> any longer to whom they belong. They have forgotten whose child they are.</p>
+  <p>And Isaiah paints the people as a beaten body — from head to foot one great wound, not cleansed, not bound up. The land laid waste, the cities burned. Jerusalem stands only like a little hut in a deserted garden. You can already feel Tisha b'Av coming in those words.</p>
+  <p>And then God says something you do not expect at all. For the people <em>thought</em> everything was fine — they still went to the temple, they brought their sacrifices, they kept the feasts. Neatly on time. And God says:</p>
+  <blockquote>
+  <p><em>'To what purpose is the multitude of your sacrifices unto me? … your new moons and your appointed feasts my soul hateth … when ye spread forth your hands, I will hide mine eyes from you: yea, when ye make many prayers, I will not hear: your hands are full of blood.' — Isaiah 1:11–15</em></p>
+  </blockquote>
+  <p>This is severe. These are God's <em>own</em> feasts, which He Himself had instituted. And He says: I can no longer bear to look at them. Why not? Not because sacrifices are bad. But because they have come loose from the rest of life. You cannot trample people all week long — 'your hands are full of blood', cheat the poor, let the orphan and the widow perish — and then on the Sabbath lift your hands piously and think it is all set right. Then the temple has become a kind of… vending machine. Coin in, blessing out. And God says: that is not how I work. I am not a machine you operate; I am a Father who <em>knows</em> you.</p>
+  <p>Do you know what that calls to mind? Last week, Jesus in the temple: 'a den of thieves'. The same thing. A place where people thought they were automatically safe, while their lives were a shambles. God cuts straight through it. And then He turns it around, and gives an instruction a child can follow:</p>
+  <blockquote>
+  <p><em>'Wash you, make you clean … learn to do well; seek judgment, relieve the oppressed, judge the fatherless, plead for the widow.' — Isaiah 1:16–17</em></p>
+  </blockquote>
+  <p>That is the real worship, God says. Not instead of the temple — but as the life the temple belongs to. Care for the one who has no one. <em>That</em> is what God sees.</p>
+  <p>And then comes the sentence that opens this whole heavy chapter like a window. God, who just said He would no longer listen, now says:</p>
+  <blockquote>
+  <p><em>'Come now, and let us reason together, saith the LORD: though your sins be as scarlet, they shall be as white as snow…' — Isaiah 1:18</em></p>
+  </blockquote>
+  <p>'Come, let us reason together.' That is not a God slamming the door. That is a God who says: come sit beside Me, let us <em>talk</em> it over. That is exactly the opposite of a shut-tight lens. And then that promise: scarlet — that is a bright, deep red, the colour that never comes out again, the stain that stays — becomes <em>white as snow</em>. Not because you scrubbed so hard. Scrubbing was exactly what did not help, Isaiah said a few sentences earlier. But because <em>He</em> makes it white. It is a gift, not an achievement.</p>
+  <p>And right at the end the chapter turns toward hope. There comes a purging, and then restoration: 'I will restore thy judges as at the first,' says God, 'Zion shall be redeemed with judgment.' That is no accidental ending. Next week, after Tisha b'Av, the comfort begins — then we read 'Comfort ye, comfort ye my people'. The heaviest week turns toward the most beautiful. But that is for later.</p>
+  <h2>The King who weeps</h2>
+  <p>And then the third reading, from the Gospel — my suggestion for this week, because it fits here so exactly. It is hundreds of years later. Jesus comes walking toward Jerusalem, over the ridge of the hill, and suddenly the whole city lies before Him. And there stands something very small, and very great:</p>
+  <blockquote>
+  <p><em>'And when he was come near, he beheld the city, and wept over it.' — Luke 19:41</em></p>
+  </blockquote>
+  <p>He weeps. The city lies there in the sun, beautiful, busy, full of life — and He stands looking at it and the tears run down His face. Why? Because He sees something they do not see. And then He says it, and listen to the <em>word</em>:</p>
+  <blockquote>
+  <p><em>'If thou hadst known, even thou, at least in this thy day, the things which belong unto thy peace! but now they are hid from thine eyes.' — Luke 19:42</em></p>
+  </blockquote>
+  <p>'Hid from thine eyes.' There is the lens again. Not: it is not there. But: it <em>is</em> there, right in front of you, the things that give peace — and you do not see them. And then He says why He weeps: days are coming, He says, when enemies will build a wall around you, hem you in, level you with the ground. 'They shall not leave in thee one stone upon another.' He sees the destruction coming — that same destruction remembered on Tisha b'Av. And then the reason:</p>
+  <blockquote>
+  <p><em>'… because thou knewest not the time of thy visitation.' — Luke 19:44</em></p>
+  </blockquote>
+  <p>There it is, for the third time today. Knowing. Not-knowing. The scouts did not believe. Isaiah's people did not <em>know</em>. And here: the city did not <em>know</em> the time when God came by to look after her. Three times, across a thousand years, the same thing: people who do not see something standing right in front of them.</p>
+  <p>But notice one thing, and that is the most beautiful. Look how God <em>reacts</em> to that blindness. He does not grow angry and throw the city away. He <em>weeps</em> over it. The King stands weeping over the city that does not recognize Him — as Isaiah let God be heard as a grieving father, as Moses painted God as a father carrying his son. Always the same God: not a God who hates you when you do not see Him, but a God who grieves that you do not see Him.</p>
+  <h2>All of it side by side</h2>
+  <p>Now lay it side by side, everything from this week.</p>
+  <p>A journey of eleven days that became forty years — not through the road, but through the eyes. Ten men who mistook a gift for a threat. A people who called deliverance 'hatred'. A Father who carried his child, even when the child did not notice. Giants who turned out to fall the moment you simply walked on. A prophet who said: even an ox knows where it belongs — and you no longer do? A temple full of sacrifices that God closed His eyes to, because the hands beneath were dirty. And a King who stood weeping over a city because she did not see who was passing by.</p>
+  <p>And everywhere, beneath it all, that same one question: do you see it? Do you still know Him? Do you still know whose child you are?</p>
+  <p>I do not know which image stays with you. It need not be all of them at once; one is enough for a week. But one question I give you — and it is an honest one, not a trick. Where is the fear-lens on <em>you</em>? Where do you look at something — a test, a group, your future, yourself in the mirror — and see only giants and walls up to heaven? Where have you, perhaps without noticing, read something good as a threat, or even God's love as something to be afraid of?</p>
+  <p>And then do you dare, just for a moment, to try the other lens? Not to pretend the giants are not there — sometimes they really are. But to ask: and what if it is true that Someone goes before me? And what if it is true that I am being carried, even on the stretch of road where I feel nothing? And if one of those two lenses can cost me forty years — which one do I want to wear?</p>
+  <p>For this is the news of this heavy week, even though it falls just before the day of mourning. The Father has not stopped carrying. The giants still fall. And there is a King who does not look away from the city that forgot Him, but weeps over it — and that is not an ending, that is a door.</p>
+  <p>Read it over, think about it — and tell me freely where you would place it differently than I.</p>
 passages:
   - role: parasha
     ref:
