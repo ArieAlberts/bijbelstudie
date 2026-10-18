@@ -11,7 +11,7 @@ const __dirname = path.dirname(__filename);
 const rootDir = path.resolve(__dirname, '..');
 const contentDir = path.join(rootDir, 'content', 'artikelen');
 const outputDir = path.join(rootDir, 'public', 'nl', 'artikelen');
-const siteUrl = 'https://parasja.nl';
+const siteUrl = 'https://www.parasja.nl';
 
 const escapeHtml = (value = '') => String(value)
   .replaceAll('&', '&amp;')
