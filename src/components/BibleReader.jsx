@@ -26,6 +26,7 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
   const [selectedRect, setSelectedRect] = useState(null);
 
   const [availableRoles, setAvailableRoles] = useState(['parasha', 'haftara', 'gospel']);
+  const [studyPassages, setStudyPassages] = useState([]);
 
   useEffect(() => {
     setSection(initialSection);
@@ -41,6 +42,7 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
           if (studyItem && studyItem.passages) {
             const roles = studyItem.passages.map((p) => p.role);
             setAvailableRoles(roles);
+            setStudyPassages(studyItem.passages);
             if (!roles.includes(section) && !isCustomLookup) {
               const fallbackSec = roles[0] || 'parasha';
               setSection(fallbackSec);
@@ -70,6 +72,7 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
       })
       .catch(() => {
         if (isMounted) {
+          setPassageData(null);
           setError(isEn ? 'Passage currently unavailable.' : 'Bijbelgedeelte momenteel niet beschikbaar.');
           setLoading(false);
         }
@@ -114,11 +117,16 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
     if (onSectionChange) onSectionChange(defaultSec);
   };
 
+  // The passage of the selected tab comes from the passages index, so STEP opens
+  // at the right Scripture even when the cached Bible text failed to load.
+  const studyPassage = studyPassages.find((p) => p.role === section);
+  const stepPassage = isCustomLookup ? passageData : (studyPassage || passageData);
+
   const getStepIframeUrl = () => {
-    const osis = passageData?.osis || 'Deut.16.18-Deut.21.9';
-    const isNt = passageData?.testament === 'NT' || osis.startsWith('John') || osis.startsWith('Matt') || osis.startsWith('Mark') || osis.startsWith('Luke') || osis.startsWith('Acts') || osis.startsWith('Rom');
+    const osis = stepPassage?.osis || '';
+    const isNt = stepPassage?.testament === 'NT' || /^(Matt|Mark|Luke|John|Acts|Rom|1Cor|2Cor|Gal|Eph|Phil|Col|1Thess|2Thess|1Tim|2Tim|Titus|Phlm|Heb|Jas|1Pet|2Pet|1John|2John|3John|Jude|Rev)\./.test(osis);
     const originalVersion = isNt ? 'OGNT' : 'OHB';
-    const mainVersion = isEn ? 'KJV' : 'DutSVV';
+    const mainVersion = translation === 'kjv' ? 'KJV' : 'DutSVV';
 
     return `https://www.stepbible.org/?q=version=${mainVersion}|version=${originalVersion}|reference=${encodeURIComponent(osis)}&options=HVLGUNMC`;
   };
@@ -217,13 +225,13 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
     );
   };
 
-  const getLocalizedRefTitle = () => {
-    if (!passageData || !passageData.ref) return '';
-    if (typeof passageData.ref === 'string') return passageData.ref;
+  const getLocalizedRefTitle = (data = passageData) => {
+    if (!data || !data.ref) return '';
+    if (typeof data.ref === 'string') return data.ref;
     if (isEn) {
-      return passageData.ref.en || 'Translation not available';
+      return data.ref.en || 'Translation not available';
     }
-    return passageData.ref.nl || 'Vertaling niet beschikbaar';
+    return data.ref.nl || 'Vertaling niet beschikbaar';
   };
 
   return (
@@ -418,7 +426,7 @@ export default function BibleReader({ studyId = 'shoftim', initialSection = 'par
       {/* Floating Movable/Draggable STEP Bible Frame Window */}
       {showStepWindow && (
         <DraggableStepWindow
-          passageRef={getLocalizedRefTitle()}
+          passageRef={getLocalizedRefTitle(stepPassage)}
           iframeUrl={getStepIframeUrl()}
           onClose={() => setShowStepWindow(false)}
           lang={lang}
