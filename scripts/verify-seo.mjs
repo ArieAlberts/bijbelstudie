@@ -3,7 +3,7 @@ import path from 'node:path';
 import assert from 'node:assert/strict';
 
 const root = path.resolve('dist');
-const mustExist = ['index.html','nl/index.html','en/index.html','sitemap.xml','robots.txt'];
+const mustExist = ['index.html','nl/index.html','en/index.html','sitemap.xml','robots.txt','llms.txt','e0995e195501bfb5d3b5908638a230f0.txt'];
 for (const file of mustExist) assert.ok(fs.existsSync(path.join(root,file)), 'Missing build output: '+file);
 const sitemap = fs.readFileSync(path.join(root,'sitemap.xml'),'utf8');
 assert.match(sitemap, /<urlset\b/);

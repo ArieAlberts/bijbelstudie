@@ -17,6 +17,7 @@ Thumbs.db
 # scripts/build-seo.mjs on every build; served from dist/ after vite build)
 /public/sitemap.xml
 /public/robots.txt
+/public/llms.txt
 /public/nl/artikelen/
 /public/nl/parasjot/
 /public/en/artikelen/

@@ -85,13 +85,17 @@ function torahKey(d) {
   return [b < 0 ? 98 : b, Number(m[2]), Number(m[3])];
 }
 
-function renderIndex(lang, entries) {
-  const t = L[lang];
-  const canonical = site + '/' + lang + '/parasjot/';
-  const sorted = [...entries].sort((a, b) => {
+function torahSort(entries) {
+  return [...entries].sort((a, b) => {
     const x = torahKey(a.d), y = torahKey(b.d);
     return x[0] - y[0] || x[1] - y[1] || x[2] - y[2] || a.slug.localeCompare(b.slug);
   });
+}
+
+function renderIndex(lang, entries) {
+  const t = L[lang];
+  const canonical = site + '/' + lang + '/parasjot/';
+  const sorted = torahSort(entries);
   const list = sorted.map(e => {
     const ref = e.d.passages?.[0]?.ref?.[lang];
     return `<li><a href="${urlFor(lang, e.slug)}">${esc(e.title)}</a><small>${esc(e.d.parasha || e.slug)}${ref ? ' · ' + esc(ref) : ''}</small></li>`;
@@ -125,7 +129,7 @@ for (const name of fs.readdirSync(sourceDir).filter(x => x.endsWith('.md'))) {
     fs.mkdirSync(dir, { recursive: true });
     fs.writeFileSync(path.join(dir, 'index.html'), renderPage({ lang: 'nl', slug, d, title, body: bodyNl, desc, nlExists, enExists, lastmod }));
     add(urlFor('nl', slug), '0.8', lastmod);
-    published.nl.push({ slug, d, title });
+    published.nl.push({ slug, d, title, desc });
   }
   if (enExists) {
     const title = d.title_en || d.label?.en || d.parasha || slug;
@@ -134,7 +138,7 @@ for (const name of fs.readdirSync(sourceDir).filter(x => x.endsWith('.md'))) {
     fs.mkdirSync(dir, { recursive: true });
     fs.writeFileSync(path.join(dir, 'index.html'), renderPage({ lang: 'en', slug, d, title, body: bodyEn, desc, nlExists, enExists, lastmod }));
     add(urlFor('en', slug), '0.8', lastmod);
-    published.en.push({ slug, d, title });
+    published.en.push({ slug, d, title, desc });
   }
 }
 
@@ -169,6 +173,26 @@ const xml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.s
 fs.writeFileSync(path.join(publicDir, 'sitemap.xml'), xml);
 fs.writeFileSync(path.join(publicDir, 'robots.txt'), 'User-agent: *\nAllow: /\nSitemap: https://www.parasja.nl/sitemap.xml\n');
 
+// llms.txt (llmstxt.org): a plain-text map of the site for AI assistants.
+const llmsSection = (heading, lang) => `## ${heading}\n\n` + torahSort(published[lang]).map(e => {
+  const ref = e.d.passages?.[0]?.ref?.[lang];
+  return `- [${text(e.title)} – ${text(e.d.parasha || e.slug)}](${site + urlFor(lang, e.slug)})${ref ? ' (' + ref + ')' : ''}: ${e.desc}${e.desc.length >= 175 ? '…' : ''}`;
+}).join('\n') + '\n';
+const llms = `# Parasja.nl – Zelf de parasja lezen / Read the parashah yourself
+
+> Bilingual (Dutch/English) study site for the weekly Torah portion (parashah) by Arie Alberts. Each reading explains the parashah with Scripture references (Statenvertaling / KJV), Hebrew background and connections to the rest of the Bible, following the Frame Method.
+
+Dutch pages live under /nl/, English pages under /en/. Every page is static HTML; the full list of URLs is in ${site}/sitemap.xml.
+
+- [Overzicht parasjalezingen (NL)](${site}/nl/parasjot/)
+- [Overview of parashah readings (EN)](${site}/en/parasjot/)
+- [Artikelen (NL)](${site}/nl/artikelen/)
+- [Handleiding (NL)](${site}/nl/handleiding.html)
+- [Handbook (EN)](${site}/en/handbook.html)
+
+` + llmsSection('Parasjalezingen (Nederlands)', 'nl') + '\n' + llmsSection('Parashah readings (English)', 'en');
+fs.writeFileSync(path.join(publicDir, 'llms.txt'), llms);
+
 const nlCount = unique.filter(x => x.url.startsWith('/nl/parasjot/') && x.url !== '/nl/parasjot/').length;
 const enCount = unique.filter(x => x.url.startsWith('/en/parasjot/') && x.url !== '/en/parasjot/').length;
-console.log(`SEO: ${unique.length} URLs (${nlCount} NL + ${enCount} EN parasja pages), sitemap.xml + robots.txt written.`);
+console.log(`SEO: ${unique.length} URLs (${nlCount} NL + ${enCount} EN parasja pages), sitemap.xml + robots.txt + llms.txt written.`);
