@@ -16,7 +16,7 @@ const items = [];
 const add = (url, priority = '0.5', lastmod = null) => items.push({ url, priority, lastmod });
 
 // Fixed routes that exist after the full build (articles/assets run before this script).
-const fixed = ['/', '/nl/', '/en/', '/nl/lezer.html', '/en/reader.html', '/nl/handleiding.html', '/en/handbook.html', '/nl/artikelen/'];
+const fixed = ['/', '/nl/', '/en/', '/nl/artikelen/'];
 fixed.forEach(x => add(x, x === '/nl/' ? '1.0' : '0.6'));
 
 // Per-language copy for the standalone pages.
@@ -61,10 +61,10 @@ function renderPage({ lang, slug, d, title, body, desc, nlExists, enExists, last
     author: { '@type': 'Person', name: 'Arie Alberts' },
     publisher: { '@type': 'Organization', name: 'Parasja.nl', url: site + '/' },
     ...(d.published_at ? { datePublished: String(d.published_at).slice(0, 10) } : {}),
-    ...(lastmod ? { dateModified: lastmod } : {})
+    ...(d.last_reviewed_at ? { dateModified: String(d.last_reviewed_at).slice(0, 10) } : {})
   }).replaceAll('<', '\\u003c');
 
-  return `<!doctype html><html lang="${t.htmlLang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>${esc(title)} – ${esc(d.parasha || slug)} | Parasja.nl</title><meta name="description" content="${esc(desc)}"><link rel="canonical" href="${canonical}">${alts.join('')}<meta property="og:type" content="article"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(desc)}"><meta property="og:url" content="${canonical}"><meta property="og:image" content="${site}/assets/share-card.png"><meta property="og:locale" content="${t.ogLocale}"><meta property="og:locale:alternate" content="${t.ogAlt}"><style>body{font:1.12rem/1.7 system-ui,sans-serif;max-width:760px;margin:auto;padding:2rem 1.2rem;color:#202a34}nav{margin-bottom:2rem}a{color:#22547a}h1,h2{line-height:1.25}article{overflow-wrap:anywhere}</style><script type="application/ld+json">${jsonld}</script></head><body><nav><a href="/${lang}/">${t.navHome}</a> · <a href="/${lang}/artikelen/">${t.navArticles}</a></nav><main><article><header><p>${t.parasjaLabel} ${esc(d.parasha || slug)}</p><h1>${esc(title)}</h1><p>${esc(desc)}</p></header>${body}</article></main><footer><p><a href="/${lang}/">${t.back}</a></p></footer></body></html>`;
+  return `<!doctype html><html lang="${t.htmlLang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>${esc(title)} – ${esc(d.parasha || slug)} | Parasja.nl</title><meta name="description" content="${esc(desc)}"><link rel="canonical" href="${canonical}">${alts.join('')}<meta property="og:type" content="article"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(desc)}"><meta property="og:url" content="${canonical}"><meta property="og:image" content="${site}/assets/share-card.png"><meta property="og:locale" content="${t.ogLocale}"><meta property="og:locale:alternate" content="${t.ogAlt}"><style>body{font:1.12rem/1.7 system-ui,sans-serif;max-width:760px;margin:auto;padding:2rem 1.2rem;color:#202a34}nav{margin-bottom:2rem}a{color:#22547a}h1,h2{line-height:1.25}article{overflow-wrap:anywhere}</style><script type="application/ld+json">${jsonld}</script></head><body><nav><a href="/${lang}/">${t.navHome}</a>${lang === "nl" ? ` · <a href="/nl/artikelen/">${t.navArticles}</a>` : ""}</nav><main><article><header><p>${t.parasjaLabel} ${esc(d.parasha || slug)}</p><h1>${esc(title)}</h1><p>${esc(desc)}</p></header>${body}</article></main><footer><p><a href="/${lang}/">${t.back}</a></p></footer></body></html>`;
 }
 
 for (const name of fs.readdirSync(sourceDir).filter(x => x.endsWith('.md'))) {
@@ -81,7 +81,7 @@ for (const name of fs.readdirSync(sourceDir).filter(x => x.endsWith('.md'))) {
   const bodyEn = (d.body_en || '').trim();
   const nlExists = !!bodyNl;
   const enExists = !!bodyEn;
-  const lastmod = d.published_at ? String(d.published_at).slice(0, 10) : null;
+  const lastmod = d.last_reviewed_at ? String(d.last_reviewed_at).slice(0, 10) : (d.published_at ? String(d.published_at).slice(0, 10) : null);
 
   // No language-fallback: only build a page when that language's body is filled.
   if (nlExists) {
