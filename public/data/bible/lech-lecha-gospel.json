@@ -1,0 +1,3878 @@
+{
+  "study": "lech-lecha",
+  "role": "gospel",
+  "osis": "John.8.51-John.8.58",
+  "ref": {
+    "nl": "Johannes 8:51–58",
+    "en": "John 8:51–58"
+  },
+  "testament": "NT",
+  "verses": [
+    {
+      "osis": "John.8.51",
+      "ref": "8:51",
+      "sv": "Voorwaar, voorwaar zeg Ik u: Zo iemand Mijn woord zal bewaard hebben, die zal den dood niet zien in der eeuwigheid.",
+      "kjv": [
+        {
+          "t": "Verily,",
+          "s": "G281"
+        },
+        {
+          "t": "verily,",
+          "s": "G281"
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "say",
+          "s": "G3004"
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "you,",
+          "s": "G5213"
+        },
+        {
+          "t": "If",
+          "s": "G1437"
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "man",
+          "s": "G5100"
+        },
+        {
+          "t": "keep",
+          "s": "G5083"
+        },
+        {
+          "t": "my",
+          "s": "G1699"
+        },
+        {
+          "t": "saying,",
+          "s": "G3056"
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": "G2334"
+        },
+        {
+          "t": "never",
+          "s": "G3364"
+        },
+        {
+          "t": "",
+          "s": "G1519"
+        },
+        {
+          "t": "",
+          "s": "G165"
+        },
+        {
+          "t": "see",
+          "s": "G2334"
+        },
+        {
+          "t": "death.",
+          "s": "G2288"
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Voorwaar",
+            "charStart": 0,
+            "charEnd": 8,
+            "strong": "G281",
+            "status": "verified"
+          },
+          {
+            "surface": "voorwaar",
+            "charStart": 10,
+            "charEnd": 18,
+            "strong": "G281",
+            "status": "verified"
+          },
+          {
+            "surface": "Ik",
+            "charStart": 23,
+            "charEnd": 25,
+            "strong": "G3004",
+            "status": "verified"
+          },
+          {
+            "surface": "u",
+            "charStart": 26,
+            "charEnd": 27,
+            "strong": "G5213",
+            "status": "verified"
+          },
+          {
+            "surface": "Zo",
+            "charStart": 29,
+            "charEnd": 31,
+            "strong": "G1437",
+            "status": "verified"
+          },
+          {
+            "surface": "iemand",
+            "charStart": 32,
+            "charEnd": 38,
+            "strong": "G5100",
+            "status": "verified"
+          },
+          {
+            "surface": "Mijn",
+            "charStart": 39,
+            "charEnd": 43,
+            "strong": "G1699",
+            "status": "verified"
+          },
+          {
+            "surface": "woord",
+            "charStart": 44,
+            "charEnd": 49,
+            "strong": "G3056",
+            "status": "verified"
+          },
+          {
+            "surface": "hebben",
+            "charStart": 62,
+            "charEnd": 68,
+            "strong": "G5083",
+            "status": "verified"
+          },
+          {
+            "surface": "dood",
+            "charStart": 82,
+            "charEnd": 86,
+            "strong": "G2288",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 87,
+            "charEnd": 91,
+            "strong": "G3364",
+            "status": "verified"
+          },
+          {
+            "surface": "zien",
+            "charStart": 92,
+            "charEnd": 96,
+            "strong": "G2334",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 97,
+            "charEnd": 99,
+            "strong": "G1519",
+            "status": "verified"
+          },
+          {
+            "surface": "eeuwigheid",
+            "charStart": 104,
+            "charEnd": 114,
+            "strong": "G165",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "John.8.52",
+      "ref": "8:52",
+      "sv": "De Joden dan zeiden tot Hem: Nu bekennen wij, dat Gij den duivel hebt. Abraham is gestorven, en de profeten; en zegt Gij: Zo iemand Mijn woord bewaard zal hebben, die zal den dood niet smaken in der eeuwigheid?",
+      "kjv": [
+        {
+          "t": "Then",
+          "s": "G3767"
+        },
+        {
+          "t": "said",
+          "s": "G2036"
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "Jews",
+          "s": "G2453"
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "him,",
+          "s": "G846"
+        },
+        {
+          "t": "Now",
+          "s": "G3568"
+        },
+        {
+          "t": "we",
+          "s": null
+        },
+        {
+          "t": "know",
+          "s": "G1097"
+        },
+        {
+          "t": "that",
+          "s": "G3754"
+        },
+        {
+          "t": "thou",
+          "s": null
+        },
+        {
+          "t": "hast",
+          "s": "G2192"
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "devil.",
+          "s": "G1140"
+        },
+        {
+          "t": "Abraham",
+          "s": "G11"
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "dead,",
+          "s": "G599"
+        },
+        {
+          "t": "and",
+          "s": "G2532"
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "prophets;",
+          "s": "G4396"
+        },
+        {
+          "t": "and",
+          "s": "G2532"
+        },
+        {
+          "t": "thou",
+          "s": "G4771"
+        },
+        {
+          "t": "sayest,",
+          "s": "G3004"
+        },
+        {
+          "t": "If",
+          "s": "G1437"
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "man",
+          "s": "G5100"
+        },
+        {
+          "t": "keep",
+          "s": "G5083"
+        },
+        {
+          "t": "my",
+          "s": "G3450"
+        },
+        {
+          "t": "saying,",
+          "s": "G3056"
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": "G1089"
+        },
+        {
+          "t": "never",
+          "s": "G3364"
+        },
+        {
+          "t": "",
+          "s": "G1519"
+        },
+        {
+          "t": "",
+          "s": "G165"
+        },
+        {
+          "t": "taste",
+          "s": "G1089"
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "death.",
+          "s": "G2288"
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Joden",
+            "charStart": 3,
+            "charEnd": 8,
+            "strong": "G2453",
+            "status": "verified"
+          },
+          {
+            "surface": "dan",
+            "charStart": 9,
+            "charEnd": 12,
+            "strong": "G3767",
+            "status": "verified"
+          },
+          {
+            "surface": "zeiden",
+            "charStart": 13,
+            "charEnd": 19,
+            "strong": "G2036",
+            "status": "verified"
+          },
+          {
+            "surface": "Hem",
+            "charStart": 24,
+            "charEnd": 27,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "Nu",
+            "charStart": 29,
+            "charEnd": 31,
+            "strong": "G3568",
+            "status": "verified"
+          },
+          {
+            "surface": "wij",
+            "charStart": 41,
+            "charEnd": 44,
+            "strong": "G1097",
+            "status": "verified"
+          },
+          {
+            "surface": "dat",
+            "charStart": 46,
+            "charEnd": 49,
+            "strong": "G3754",
+            "status": "verified"
+          },
+          {
+            "surface": "duivel",
+            "charStart": 58,
+            "charEnd": 64,
+            "strong": "G1140",
+            "status": "verified"
+          },
+          {
+            "surface": "hebt",
+            "charStart": 65,
+            "charEnd": 69,
+            "strong": "G2192",
+            "status": "verified"
+          },
+          {
+            "surface": "Abraham",
+            "charStart": 71,
+            "charEnd": 78,
+            "strong": "G11",
+            "status": "verified"
+          },
+          {
+            "surface": "gestorven",
+            "charStart": 82,
+            "charEnd": 91,
+            "strong": "G599",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 93,
+            "charEnd": 95,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "profeten",
+            "charStart": 99,
+            "charEnd": 107,
+            "strong": "G4396",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 109,
+            "charEnd": 111,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "zegt",
+            "charStart": 112,
+            "charEnd": 116,
+            "strong": "G3004",
+            "status": "verified"
+          },
+          {
+            "surface": "Gij",
+            "charStart": 117,
+            "charEnd": 120,
+            "strong": "G4771",
+            "status": "verified"
+          },
+          {
+            "surface": "Zo",
+            "charStart": 122,
+            "charEnd": 124,
+            "strong": "G1437",
+            "status": "verified"
+          },
+          {
+            "surface": "iemand",
+            "charStart": 125,
+            "charEnd": 131,
+            "strong": "G5100",
+            "status": "verified"
+          },
+          {
+            "surface": "Mijn",
+            "charStart": 132,
+            "charEnd": 136,
+            "strong": "G3450",
+            "status": "verified"
+          },
+          {
+            "surface": "woord",
+            "charStart": 137,
+            "charEnd": 142,
+            "strong": "G3056",
+            "status": "verified"
+          },
+          {
+            "surface": "hebben",
+            "charStart": 155,
+            "charEnd": 161,
+            "strong": "G5083",
+            "status": "verified"
+          },
+          {
+            "surface": "dood",
+            "charStart": 175,
+            "charEnd": 179,
+            "strong": "G2288",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 180,
+            "charEnd": 184,
+            "strong": "G3364",
+            "status": "verified"
+          },
+          {
+            "surface": "smaken",
+            "charStart": 185,
+            "charEnd": 191,
+            "strong": "G1089",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 192,
+            "charEnd": 194,
+            "strong": "G1519",
+            "status": "verified"
+          },
+          {
+            "surface": "eeuwigheid",
+            "charStart": 199,
+            "charEnd": 209,
+            "strong": "G165",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "John.8.53",
+      "ref": "8:53",
+      "sv": "Zijt Gij meerder, dan onze vader Abraham, welke gestorven is, en de profeten zijn gestorven; wien maakt Gij Uzelven?",
+      "kjv": [
+        {
+          "t": "Art",
+          "s": "G3361"
+        },
+        {
+          "t": "",
+          "s": "G1488"
+        },
+        {
+          "t": "thou",
+          "s": "G4771"
+        },
+        {
+          "t": "greater",
+          "s": null
+        },
+        {
+          "t": "than",
+          "s": "G3187"
+        },
+        {
+          "t": "our",
+          "s": "G2257"
+        },
+        {
+          "t": "father",
+          "s": "G3962"
+        },
+        {
+          "t": "Abraham,",
+          "s": "G11"
+        },
+        {
+          "t": "which",
+          "s": "G3748"
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "dead?",
+          "s": "G599"
+        },
+        {
+          "t": "and",
+          "s": "G2532"
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "prophets",
+          "s": "G4396"
+        },
+        {
+          "t": "are",
+          "s": null
+        },
+        {
+          "t": "dead:",
+          "s": "G599"
+        },
+        {
+          "t": "whom",
+          "s": "G5101"
+        },
+        {
+          "t": "makest",
+          "s": "G4160"
+        },
+        {
+          "t": "thou",
+          "s": "G4771"
+        },
+        {
+          "t": "thyself?",
+          "s": "G4572"
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Zijt",
+            "charStart": 0,
+            "charEnd": 4,
+            "strong": "G1488",
+            "status": "verified"
+          },
+          {
+            "surface": "Gij",
+            "charStart": 5,
+            "charEnd": 8,
+            "strong": "G4771",
+            "status": "verified"
+          },
+          {
+            "surface": "dan",
+            "charStart": 18,
+            "charEnd": 21,
+            "strong": "G3187",
+            "status": "verified"
+          },
+          {
+            "surface": "onze",
+            "charStart": 22,
+            "charEnd": 26,
+            "strong": "G2257",
+            "status": "verified"
+          },
+          {
+            "surface": "vader",
+            "charStart": 27,
+            "charEnd": 32,
+            "strong": "G3962",
+            "status": "verified"
+          },
+          {
+            "surface": "Abraham",
+            "charStart": 33,
+            "charEnd": 40,
+            "strong": "G11",
+            "status": "verified"
+          },
+          {
+            "surface": "welke",
+            "charStart": 42,
+            "charEnd": 47,
+            "strong": "G3748",
+            "status": "verified"
+          },
+          {
+            "surface": "is",
+            "charStart": 58,
+            "charEnd": 60,
+            "strong": "G599",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 62,
+            "charEnd": 64,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "profeten",
+            "charStart": 68,
+            "charEnd": 76,
+            "strong": "G4396",
+            "status": "verified"
+          },
+          {
+            "surface": "gestorven",
+            "charStart": 82,
+            "charEnd": 91,
+            "strong": "G599",
+            "status": "verified"
+          },
+          {
+            "surface": "wien",
+            "charStart": 93,
+            "charEnd": 97,
+            "strong": "G5101",
+            "status": "verified"
+          },
+          {
+            "surface": "maakt",
+            "charStart": 98,
+            "charEnd": 103,
+            "strong": "G4160",
+            "status": "verified"
+          },
+          {
+            "surface": "Gij",
+            "charStart": 104,
+            "charEnd": 107,
+            "strong": "G4771",
+            "status": "verified"
+          },
+          {
+            "surface": "Uzelven",
+            "charStart": 108,
+            "charEnd": 115,
+            "strong": "G4572",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "John.8.54",
+      "ref": "8:54",
+      "sv": "Jezus antwoordde: Indien Ik Mijzelven eer, zo is Mijn eer niets; Mijn Vader is het, Die Mij eert, Welken gij zegt, dat uw God is.",
+      "kjv": [
+        {
+          "t": "Jesus",
+          "s": "G2424"
+        },
+        {
+          "t": "answered,",
+          "s": "G611"
+        },
+        {
+          "t": "If",
+          "s": "G1437"
+        },
+        {
+          "t": "I",
+          "s": "G1473"
+        },
+        {
+          "t": "honour",
+          "s": "G1392"
+        },
+        {
+          "t": "myself,",
+          "s": "G1683"
+        },
+        {
+          "t": "my",
+          "s": "G3450"
+        },
+        {
+          "t": "honour",
+          "s": "G1391"
+        },
+        {
+          "t": "is",
+          "s": "G2076"
+        },
+        {
+          "t": "nothing:",
+          "s": "G3762"
+        },
+        {
+          "t": "it",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": "G2076"
+        },
+        {
+          "t": "my",
+          "s": "G3450"
+        },
+        {
+          "t": "Father",
+          "s": "G3962"
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "honoureth",
+          "s": "G1392"
+        },
+        {
+          "t": "me;",
+          "s": "G3165"
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "whom",
+          "s": "G3739"
+        },
+        {
+          "t": "ye",
+          "s": "G5210"
+        },
+        {
+          "t": "say,",
+          "s": "G3004"
+        },
+        {
+          "t": "that",
+          "s": "G3754"
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": "G2076"
+        },
+        {
+          "t": "your",
+          "s": "G5216"
+        },
+        {
+          "t": "God:",
+          "s": "G2316"
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Jezus",
+            "charStart": 0,
+            "charEnd": 5,
+            "strong": "G2424",
+            "status": "verified"
+          },
+          {
+            "surface": "antwoordde",
+            "charStart": 6,
+            "charEnd": 16,
+            "strong": "G611",
+            "status": "verified"
+          },
+          {
+            "surface": "Indien",
+            "charStart": 18,
+            "charEnd": 24,
+            "strong": "G1437",
+            "status": "verified"
+          },
+          {
+            "surface": "Ik",
+            "charStart": 25,
+            "charEnd": 27,
+            "strong": "G1473",
+            "status": "verified"
+          },
+          {
+            "surface": "Mijzelven",
+            "charStart": 28,
+            "charEnd": 37,
+            "strong": "G1683",
+            "status": "verified"
+          },
+          {
+            "surface": "eer",
+            "charStart": 38,
+            "charEnd": 41,
+            "strong": "G1392",
+            "status": "verified"
+          },
+          {
+            "surface": "is",
+            "charStart": 46,
+            "charEnd": 48,
+            "strong": "G2076",
+            "status": "verified"
+          },
+          {
+            "surface": "Mijn",
+            "charStart": 49,
+            "charEnd": 53,
+            "strong": "G3450",
+            "status": "verified"
+          },
+          {
+            "surface": "eer",
+            "charStart": 54,
+            "charEnd": 57,
+            "strong": "G1391",
+            "status": "verified"
+          },
+          {
+            "surface": "niets",
+            "charStart": 58,
+            "charEnd": 63,
+            "strong": "G3762",
+            "status": "verified"
+          },
+          {
+            "surface": "Mijn",
+            "charStart": 65,
+            "charEnd": 69,
+            "strong": "G3450",
+            "status": "verified"
+          },
+          {
+            "surface": "Vader",
+            "charStart": 70,
+            "charEnd": 75,
+            "strong": "G3962",
+            "status": "verified"
+          },
+          {
+            "surface": "het",
+            "charStart": 79,
+            "charEnd": 82,
+            "strong": "G2076",
+            "status": "verified"
+          },
+          {
+            "surface": "Die",
+            "charStart": 84,
+            "charEnd": 87,
+            "strong": "G3739",
+            "status": "verified"
+          },
+          {
+            "surface": "Mij",
+            "charStart": 88,
+            "charEnd": 91,
+            "strong": "G3165",
+            "status": "verified"
+          },
+          {
+            "surface": "eert",
+            "charStart": 92,
+            "charEnd": 96,
+            "strong": "G1392",
+            "status": "verified"
+          },
+          {
+            "surface": "Welken",
+            "charStart": 98,
+            "charEnd": 104,
+            "strong": "G3739",
+            "status": "verified"
+          },
+          {
+            "surface": "gij",
+            "charStart": 105,
+            "charEnd": 108,
+            "strong": "G5210",
+            "status": "verified"
+          },
+          {
+            "surface": "zegt",
+            "charStart": 109,
+            "charEnd": 113,
+            "strong": "G3004",
+            "status": "verified"
+          },
+          {
+            "surface": "dat",
+            "charStart": 115,
+            "charEnd": 118,
+            "strong": "G3754",
+            "status": "verified"
+          },
+          {
+            "surface": "uw",
+            "charStart": 119,
+            "charEnd": 121,
+            "strong": "G5216",
+            "status": "verified"
+          },
+          {
+            "surface": "God",
+            "charStart": 122,
+            "charEnd": 125,
+            "strong": "G2316",
+            "status": "verified"
+          },
+          {
+            "surface": "is",
+            "charStart": 126,
+            "charEnd": 128,
+            "strong": "G2076",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "John.8.55",
+      "ref": "8:55",
+      "sv": "En gij kent Hem niet, maar Ik ken Hem; en indien Ik zeg, dat Ik Hem niet ken, zo zal Ik ulieden gelijk zijn, [dat] [is] een leugenaar; maar Ik ken Hem, en bewaar Zijn woord.",
+      "kjv": [
+        {
+          "t": "Yet",
+          "s": "G2532"
+        },
+        {
+          "t": "ye",
+          "s": null
+        },
+        {
+          "t": "have",
+          "s": "G1097"
+        },
+        {
+          "t": "not",
+          "s": "G3756"
+        },
+        {
+          "t": "known",
+          "s": "G1097"
+        },
+        {
+          "t": "him;",
+          "s": "G846"
+        },
+        {
+          "t": "but",
+          "s": "G1161"
+        },
+        {
+          "t": "I",
+          "s": "G1473"
+        },
+        {
+          "t": "know",
+          "s": "G1492"
+        },
+        {
+          "t": "him:",
+          "s": "G846"
+        },
+        {
+          "t": "and",
+          "s": "G2532"
+        },
+        {
+          "t": "if",
+          "s": "G1437"
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "should",
+          "s": null
+        },
+        {
+          "t": "say,",
+          "s": "G2036"
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "know",
+          "s": "G1492"
+        },
+        {
+          "t": "him",
+          "s": "G846"
+        },
+        {
+          "t": "not,",
+          "s": "G3756"
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": "G2071"
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "liar",
+          "s": "G5583"
+        },
+        {
+          "t": "like",
+          "s": "G3664"
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "you:",
+          "s": "G5216"
+        },
+        {
+          "t": "but",
+          "s": "G235"
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "know",
+          "s": "G1492"
+        },
+        {
+          "t": "him,",
+          "s": "G846"
+        },
+        {
+          "t": "and",
+          "s": "G2532"
+        },
+        {
+          "t": "keep",
+          "s": "G5083"
+        },
+        {
+          "t": "his",
+          "s": "G846"
+        },
+        {
+          "t": "saying.",
+          "s": "G3056"
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "En",
+            "charStart": 0,
+            "charEnd": 2,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "kent",
+            "charStart": 7,
+            "charEnd": 11,
+            "strong": "G1097",
+            "status": "verified"
+          },
+          {
+            "surface": "Hem",
+            "charStart": 12,
+            "charEnd": 15,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 16,
+            "charEnd": 20,
+            "strong": "G3756",
+            "status": "verified"
+          },
+          {
+            "surface": "maar",
+            "charStart": 22,
+            "charEnd": 26,
+            "strong": "G1161",
+            "status": "verified"
+          },
+          {
+            "surface": "Ik",
+            "charStart": 27,
+            "charEnd": 29,
+            "strong": "G1473",
+            "status": "verified"
+          },
+          {
+            "surface": "ken",
+            "charStart": 30,
+            "charEnd": 33,
+            "strong": "G1492",
+            "status": "verified"
+          },
+          {
+            "surface": "Hem",
+            "charStart": 34,
+            "charEnd": 37,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 39,
+            "charEnd": 41,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "indien",
+            "charStart": 42,
+            "charEnd": 48,
+            "strong": "G1437",
+            "status": "verified"
+          },
+          {
+            "surface": "zeg",
+            "charStart": 52,
+            "charEnd": 55,
+            "strong": "G2036",
+            "status": "verified"
+          },
+          {
+            "surface": "dat",
+            "charStart": 57,
+            "charEnd": 60,
+            "strong": "G3754",
+            "status": "verified"
+          },
+          {
+            "surface": "Hem",
+            "charStart": 64,
+            "charEnd": 67,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 68,
+            "charEnd": 72,
+            "strong": "G3756",
+            "status": "verified"
+          },
+          {
+            "surface": "ken",
+            "charStart": 73,
+            "charEnd": 76,
+            "strong": "G1492",
+            "status": "verified"
+          },
+          {
+            "surface": "ulieden",
+            "charStart": 88,
+            "charEnd": 95,
+            "strong": "G5216",
+            "status": "verified"
+          },
+          {
+            "surface": "gelijk",
+            "charStart": 96,
+            "charEnd": 102,
+            "strong": "G3664",
+            "status": "verified"
+          },
+          {
+            "surface": "zijn",
+            "charStart": 103,
+            "charEnd": 107,
+            "strong": "G2071",
+            "status": "verified"
+          },
+          {
+            "surface": "leugenaar",
+            "charStart": 124,
+            "charEnd": 133,
+            "strong": "G5583",
+            "status": "verified"
+          },
+          {
+            "surface": "maar",
+            "charStart": 135,
+            "charEnd": 139,
+            "strong": "G235",
+            "status": "verified"
+          },
+          {
+            "surface": "ken",
+            "charStart": 143,
+            "charEnd": 146,
+            "strong": "G1492",
+            "status": "verified"
+          },
+          {
+            "surface": "Hem",
+            "charStart": 147,
+            "charEnd": 150,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 152,
+            "charEnd": 154,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "bewaar",
+            "charStart": 155,
+            "charEnd": 161,
+            "strong": "G5083",
+            "status": "verified"
+          },
+          {
+            "surface": "Zijn",
+            "charStart": 162,
+            "charEnd": 166,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "woord",
+            "charStart": 167,
+            "charEnd": 172,
+            "strong": "G3056",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "John.8.56",
+      "ref": "8:56",
+      "sv": "Abraham, uw vader, heeft met verheuging verlangd, opdat hij Mijn dag zien zou; en hij heeft [hem] gezien, en is verblijd geweest.",
+      "kjv": [
+        {
+          "t": "Your",
+          "s": "G5216"
+        },
+        {
+          "t": "father",
+          "s": "G3962"
+        },
+        {
+          "t": "Abraham",
+          "s": "G11"
+        },
+        {
+          "t": "rejoiced",
+          "s": "G21"
+        },
+        {
+          "t": "to",
+          "s": "G2443"
+        },
+        {
+          "t": "see",
+          "s": "G1492"
+        },
+        {
+          "t": "my",
+          "s": "G1699"
+        },
+        {
+          "t": "day:",
+          "s": "G2250"
+        },
+        {
+          "t": "and",
+          "s": "G2532"
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "saw",
+          "s": "G1492"
+        },
+        {
+          "t": "it,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": "G2532"
+        },
+        {
+          "t": "was",
+          "s": null
+        },
+        {
+          "t": "glad.",
+          "s": "G5463"
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Abraham",
+            "charStart": 0,
+            "charEnd": 7,
+            "strong": "G11",
+            "status": "verified"
+          },
+          {
+            "surface": "uw",
+            "charStart": 9,
+            "charEnd": 11,
+            "strong": "G5216",
+            "status": "verified"
+          },
+          {
+            "surface": "vader",
+            "charStart": 12,
+            "charEnd": 17,
+            "strong": "G3962",
+            "status": "verified"
+          },
+          {
+            "surface": "verlangd",
+            "charStart": 40,
+            "charEnd": 48,
+            "strong": "G21",
+            "status": "verified"
+          },
+          {
+            "surface": "opdat",
+            "charStart": 50,
+            "charEnd": 55,
+            "strong": "G2443",
+            "status": "verified"
+          },
+          {
+            "surface": "Mijn",
+            "charStart": 60,
+            "charEnd": 64,
+            "strong": "G1699",
+            "status": "verified"
+          },
+          {
+            "surface": "dag",
+            "charStart": 65,
+            "charEnd": 68,
+            "strong": "G2250",
+            "status": "verified"
+          },
+          {
+            "surface": "zou",
+            "charStart": 74,
+            "charEnd": 77,
+            "strong": "G1492",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 79,
+            "charEnd": 81,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "gezien",
+            "charStart": 98,
+            "charEnd": 104,
+            "strong": "G1492",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 106,
+            "charEnd": 108,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "geweest",
+            "charStart": 121,
+            "charEnd": 128,
+            "strong": "G5463",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "John.8.57",
+      "ref": "8:57",
+      "sv": "De Joden dan zeiden tot Hem: Gij hebt nog geen vijftig jaren, en hebt Gij Abraham gezien?",
+      "kjv": [
+        {
+          "t": "Then",
+          "s": "G3767"
+        },
+        {
+          "t": "said",
+          "s": "G2036"
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "Jews",
+          "s": "G2453"
+        },
+        {
+          "t": "unto",
+          "s": "G4314"
+        },
+        {
+          "t": "him,",
+          "s": "G846"
+        },
+        {
+          "t": "Thou",
+          "s": null
+        },
+        {
+          "t": "art",
+          "s": "G2192"
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "yet",
+          "s": "G3768"
+        },
+        {
+          "t": "fifty",
+          "s": "G4004"
+        },
+        {
+          "t": "years",
+          "s": null
+        },
+        {
+          "t": "old,",
+          "s": "G2094"
+        },
+        {
+          "t": "and",
+          "s": "G2532"
+        },
+        {
+          "t": "hast",
+          "s": null
+        },
+        {
+          "t": "thou",
+          "s": null
+        },
+        {
+          "t": "seen",
+          "s": "G3708"
+        },
+        {
+          "t": "Abraham?",
+          "s": "G11"
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Joden",
+            "charStart": 3,
+            "charEnd": 8,
+            "strong": "G2453",
+            "status": "verified"
+          },
+          {
+            "surface": "dan",
+            "charStart": 9,
+            "charEnd": 12,
+            "strong": "G3767",
+            "status": "verified"
+          },
+          {
+            "surface": "zeiden",
+            "charStart": 13,
+            "charEnd": 19,
+            "strong": "G2036",
+            "status": "verified"
+          },
+          {
+            "surface": "tot",
+            "charStart": 20,
+            "charEnd": 23,
+            "strong": "G4314",
+            "status": "verified"
+          },
+          {
+            "surface": "Hem",
+            "charStart": 24,
+            "charEnd": 27,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "hebt",
+            "charStart": 33,
+            "charEnd": 37,
+            "strong": "G2192",
+            "status": "verified"
+          },
+          {
+            "surface": "geen",
+            "charStart": 42,
+            "charEnd": 46,
+            "strong": "G3768",
+            "status": "verified"
+          },
+          {
+            "surface": "vijftig",
+            "charStart": 47,
+            "charEnd": 54,
+            "strong": "G4004",
+            "status": "verified"
+          },
+          {
+            "surface": "jaren",
+            "charStart": 55,
+            "charEnd": 60,
+            "strong": "G2094",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 62,
+            "charEnd": 64,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "Abraham",
+            "charStart": 74,
+            "charEnd": 81,
+            "strong": "G11",
+            "status": "verified"
+          },
+          {
+            "surface": "gezien",
+            "charStart": 82,
+            "charEnd": 88,
+            "strong": "G3708",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "John.8.58",
+      "ref": "8:58",
+      "sv": "Jezus zeide tot hen: Voorwaar, voorwaar zeg Ik u: Eer Abraham was, ben Ik.",
+      "kjv": [
+        {
+          "t": "Jesus",
+          "s": "G2424"
+        },
+        {
+          "t": "said",
+          "s": "G2036"
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "them,",
+          "s": "G846"
+        },
+        {
+          "t": "Verily,",
+          "s": "G281"
+        },
+        {
+          "t": "verily,",
+          "s": "G281"
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "say",
+          "s": "G3004"
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "you,",
+          "s": "G5213"
+        },
+        {
+          "t": "Before",
+          "s": "G4250"
+        },
+        {
+          "t": "Abraham",
+          "s": "G11"
+        },
+        {
+          "t": "was,",
+          "s": "G1096"
+        },
+        {
+          "t": "I",
+          "s": "G1473"
+        },
+        {
+          "t": "am.",
+          "s": "G1510"
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Jezus",
+            "charStart": 0,
+            "charEnd": 5,
+            "strong": "G2424",
+            "status": "verified"
+          },
+          {
+            "surface": "zeide",
+            "charStart": 6,
+            "charEnd": 11,
+            "strong": "G2036",
+            "status": "verified"
+          },
+          {
+            "surface": "hen",
+            "charStart": 16,
+            "charEnd": 19,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "Voorwaar",
+            "charStart": 21,
+            "charEnd": 29,
+            "strong": "G281",
+            "status": "verified"
+          },
+          {
+            "surface": "voorwaar",
+            "charStart": 31,
+            "charEnd": 39,
+            "strong": "G281",
+            "status": "verified"
+          },
+          {
+            "surface": "Ik",
+            "charStart": 44,
+            "charEnd": 46,
+            "strong": "G3004",
+            "status": "verified"
+          },
+          {
+            "surface": "u",
+            "charStart": 47,
+            "charEnd": 48,
+            "strong": "G5213",
+            "status": "verified"
+          },
+          {
+            "surface": "Eer",
+            "charStart": 50,
+            "charEnd": 53,
+            "strong": "G4250",
+            "status": "verified"
+          },
+          {
+            "surface": "Abraham",
+            "charStart": 54,
+            "charEnd": 61,
+            "strong": "G11",
+            "status": "verified"
+          },
+          {
+            "surface": "was",
+            "charStart": 62,
+            "charEnd": 65,
+            "strong": "G1096",
+            "status": "verified"
+          },
+          {
+            "surface": "ben",
+            "charStart": 67,
+            "charEnd": 70,
+            "strong": "G1510",
+            "status": "verified"
+          },
+          {
+            "surface": "Ik",
+            "charStart": 71,
+            "charEnd": 73,
+            "strong": "G1473",
+            "status": "verified"
+          }
+        ]
+      }
+    }
+  ],
+  "lexicon": {
+    "G281": {
+      "strong": "G281",
+      "language": "greek",
+      "lemma": "ἀμήν",
+      "translit": "amḗn",
+      "gloss_nl": null,
+      "gloss_en": "properly, firm, i.e. (figuratively) trustworthy; adverbially, surely (often as interjection, so be it)",
+      "usage_nl": [
+        "voorwaar"
+      ],
+      "usage_en": [
+        "verily",
+        "amen"
+      ]
+    },
+    "G3004": {
+      "strong": "G3004",
+      "language": "greek",
+      "lemma": "λέγω",
+      "translit": "légō",
+      "gloss_nl": null,
+      "gloss_en": "properly, to \"lay\" forth, i.e. (figuratively) relate (in words (usually of systematic or set discourse; whereas G2036 (ἔπω) and G5346 (φημί) generally refer to an individual expression or speech respectively; while G4483 (ῥέω) is properly to break silence merely, and G2980 (λαλέω) means an extended or random harangue)); by implication, to mean",
+      "usage_nl": [
+        "zeide",
+        "zeggende",
+        "zeggen",
+        "gezegd",
+        "gij",
+        "zeg",
+        "ik",
+        "zeiden",
+        "zegt",
+        "zij",
+        "had",
+        "hij"
+      ],
+      "usage_en": [
+        "saith",
+        "saying",
+        "say",
+        "called",
+        "said",
+        "tell",
+        "spake",
+        "telleth",
+        "sayest",
+        "ask",
+        "bid",
+        "boast",
+        "call",
+        "describe",
+        "give out",
+        "name",
+        "put forth",
+        "say-ing",
+        "on",
+        "shew",
+        "speak",
+        "utter"
+      ]
+    },
+    "G5213": {
+      "strong": "G5213",
+      "language": "greek",
+      "lemma": "ὑμῖν",
+      "translit": "hymîn",
+      "gloss_nl": null,
+      "gloss_en": "to (with or by) you",
+      "usage_nl": [
+        "u",
+        "ulieden"
+      ],
+      "usage_en": [
+        "you",
+        "ye",
+        "your-selves"
+      ]
+    },
+    "G1437": {
+      "strong": "G1437",
+      "language": "greek",
+      "lemma": "ἐάν",
+      "translit": "eán",
+      "gloss_nl": null,
+      "gloss_en": "a conditional particle; in case that, provided, etc.; often used in connection with other particles to denote indefiniteness or uncertainty",
+      "usage_nl": [
+        "indien",
+        "wat",
+        "zo",
+        "die",
+        "alwaar",
+        "wanneer"
+      ],
+      "usage_en": [
+        "if",
+        "so",
+        "wheresoever",
+        "before",
+        "but",
+        "except",
+        "and if",
+        "if so",
+        "what-",
+        "whither-soever",
+        "though",
+        "when -soever",
+        "whether or",
+        "to whom",
+        "who-so-ever"
+      ]
+    },
+    "G5100": {
+      "strong": "G5100",
+      "language": "greek",
+      "lemma": "τὶς",
+      "translit": "tìs",
+      "gloss_nl": null,
+      "gloss_en": "some or any person or object",
+      "usage_nl": [
+        "sommigen",
+        "enig",
+        "iets",
+        "iemand",
+        "zeker",
+        "een",
+        "niets",
+        "mens",
+        "sommige"
+      ],
+      "usage_en": [
+        "some",
+        "man",
+        "thing",
+        "them",
+        "any",
+        "certain",
+        "a",
+        "a kind of",
+        "any man",
+        "thing at all",
+        "certain thing",
+        "divers",
+        "he every man",
+        "one x thing",
+        "ought",
+        "+ partly",
+        "some man",
+        "-body",
+        "- thing",
+        "-what",
+        "+ that no-thing",
+        "what-soever",
+        "x wherewith",
+        "whom-soever",
+        "whose-soever"
+      ]
+    },
+    "G1699": {
+      "strong": "G1699",
+      "language": "greek",
+      "lemma": "ἐμός",
+      "translit": "emós",
+      "gloss_nl": null,
+      "gloss_en": "my",
+      "usage_nl": [
+        "mijn",
+        "mijne"
+      ],
+      "usage_en": [
+        "my",
+        "own",
+        "mine",
+        "of me",
+        "mine own"
+      ]
+    },
+    "G3056": {
+      "strong": "G3056",
+      "language": "greek",
+      "lemma": "λόγος",
+      "translit": "lógos",
+      "gloss_nl": "woord; boodschap; rede; het Woord",
+      "gloss_en": "something said (including the thought); by implication, a topic (subject of discourse), also reasoning (the mental faculty) or motive; by extension, a computation; specially, (with the article in John) the Divine Expression (i.e. Christ)",
+      "usage_nl": [
+        "rekening",
+        "woorden",
+        "woord",
+        "rede"
+      ],
+      "usage_en": [
+        "account",
+        "words",
+        "question",
+        "word",
+        "saying",
+        "sayings",
+        "cause",
+        "communication",
+        "x concerning",
+        "doctrine",
+        "fame",
+        "x have to do",
+        "intent",
+        "matter",
+        "mouth",
+        "preaching",
+        "reason",
+        "+ reckon",
+        "remove",
+        "say-ing",
+        "shew",
+        "x speaker",
+        "speech",
+        "talk",
+        "thing",
+        "+ none of these things move me",
+        "tidings",
+        "treatise",
+        "utterance",
+        "work"
+      ]
+    },
+    "G5083": {
+      "strong": "G5083",
+      "language": "greek",
+      "lemma": "τηρέω",
+      "translit": "tēréō",
+      "gloss_nl": null,
+      "gloss_en": "perhaps akin to G2334 (θεωρέω)); to guard (from loss or injury, properly, by keeping the eye upon; and thus differing from G5442 (φυλάσσω), which is properly to prevent escaping; and from G2892 (κουστωδία), which implies a fortress or full military lines of apparatus), i.e. to note (a prophecy; figuratively, to fulfil a command); by implication, to detain (in custody; figuratively, to maintain); by extension, to withhold (for personal ends; figuratively, to keep unmarried); by extension, to withhold (for personal ends; figuratively, to keep unmarried)",
+      "usage_nl": [
+        "bewaard",
+        "bewaart",
+        "bewaren"
+      ],
+      "usage_en": [
+        "kept",
+        "keep",
+        "keepeth",
+        "hold fast",
+        "keep- er",
+        "pre-",
+        "re-serve",
+        "watch"
+      ]
+    },
+    "G2288": {
+      "strong": "G2288",
+      "language": "greek",
+      "lemma": "θάνατος",
+      "translit": "thánatos",
+      "gloss_nl": null,
+      "gloss_en": "(properly, an adjective used as a noun) death (literally or figuratively)",
+      "usage_nl": [
+        "doods",
+        "dood"
+      ],
+      "usage_en": [
+        "death",
+        "x deadly",
+        "be… death"
+      ]
+    },
+    "G3364": {
+      "strong": "G3364",
+      "language": "greek",
+      "lemma": "οὐ μή",
+      "translit": "ou mḗ",
+      "gloss_nl": null,
+      "gloss_en": "a double negative strengthening the denial; not at all",
+      "usage_nl": [
+        "geenszins",
+        "niet",
+        "nimmermeer"
+      ],
+      "usage_en": [
+        "not",
+        "ever",
+        "never",
+        "wise",
+        "any more",
+        "at all",
+        "by any no means",
+        "neither",
+        "no at all",
+        "in no case wise",
+        "nor ever",
+        "not at all",
+        "in any wise"
+      ]
+    },
+    "G2334": {
+      "strong": "G2334",
+      "language": "greek",
+      "lemma": "θεωρέω",
+      "translit": "theōréō",
+      "gloss_nl": null,
+      "gloss_en": "to be a spectator of, i.e. discern, (literally, figuratively (experience) or intensively (acknowledge))",
+      "usage_nl": [
+        "ziende",
+        "zij",
+        "aanschouwt",
+        "zaagt",
+        "gij",
+        "ziet",
+        "zien"
+      ],
+      "usage_en": [
+        "saw",
+        "see",
+        "seeth",
+        "ye",
+        "behold",
+        "consider",
+        "look on",
+        "perceive"
+      ]
+    },
+    "G1519": {
+      "strong": "G1519",
+      "language": "greek",
+      "lemma": "εἰς",
+      "translit": "eis",
+      "gloss_nl": null,
+      "gloss_en": "to or into (indicating the point reached or entered), of place, time, or (figuratively) purpose (result, etc.); also in adverbial phrases",
+      "usage_nl": [
+        "in",
+        "naar",
+        "op",
+        "te",
+        "tot",
+        "tegen",
+        "aan",
+        "zij",
+        "binnen",
+        "nabij",
+        "onder",
+        "daar",
+        "terug",
+        "tegemoet"
+      ],
+      "usage_en": [
+        "into",
+        "in",
+        "throughout",
+        "to",
+        "unto",
+        "against",
+        "at",
+        "for",
+        "made",
+        "on",
+        "among",
+        "toward",
+        "whither",
+        "whereinto",
+        "back",
+        "abundant-ly",
+        "as",
+        "back-ward",
+        "before",
+        "by",
+        "concerning",
+        "+ continual",
+        "+ far more exceeding",
+        "for intent",
+        "purpose",
+        "fore",
+        "+ forth",
+        "in among",
+        "-so much that",
+        "-to",
+        "to the intent that",
+        "+ of one mind",
+        "+ never",
+        "of",
+        "up-on",
+        "+ perish",
+        "+ set at one again",
+        "so that",
+        "therefore-unto",
+        "til",
+        "to be",
+        "the end",
+        "-ward",
+        "here-until-to",
+        "…ward",
+        "where-fore",
+        "with"
+      ]
+    },
+    "G165": {
+      "strong": "G165",
+      "language": "greek",
+      "lemma": "αἰών",
+      "translit": "aiṓn",
+      "gloss_nl": null,
+      "gloss_en": "properly, an age; by extension, perpetuity (also past); by implication, the world; specially (Jewish) a Messianic period (present or future)",
+      "usage_nl": [
+        "wereld",
+        "eeuwigheid"
+      ],
+      "usage_en": [
+        "world",
+        "ever",
+        "age",
+        "course",
+        "eternal",
+        "for ever-more",
+        "n-ever",
+        "beginning of the",
+        "while the world began",
+        "without end"
+      ]
+    },
+    "G2453": {
+      "strong": "G2453",
+      "language": "greek",
+      "lemma": "Ἰουδαῖος",
+      "translit": "Ioudaîos",
+      "gloss_nl": null,
+      "gloss_en": "Judæan, i.e. belonging to Jehudah",
+      "usage_nl": [
+        "joden"
+      ],
+      "usage_en": [
+        "jews",
+        "jews'",
+        "jew-ess",
+        "of judæa"
+      ]
+    },
+    "G3767": {
+      "strong": "G3767",
+      "language": "greek",
+      "lemma": "οὖν",
+      "translit": "oûn",
+      "gloss_nl": null,
+      "gloss_en": "(adverbially) certainly, or (conjunctionally) accordingly",
+      "usage_nl": [
+        "dan",
+        "daarom",
+        "en"
+      ],
+      "usage_en": [
+        "therefore",
+        "and",
+        "wherefore",
+        "then",
+        "so",
+        "and so",
+        "truly",
+        "but",
+        "now then",
+        "so likewise then",
+        "verily"
+      ]
+    },
+    "G2036": {
+      "strong": "G2036",
+      "language": "greek",
+      "lemma": "ἔπω",
+      "translit": "épō",
+      "gloss_nl": null,
+      "gloss_en": "to speak or say (by word or writing)",
+      "usage_nl": [
+        "zeide",
+        "zeg",
+        "heb",
+        "had",
+        "zeiden",
+        "zouden",
+        "zeggen",
+        "zegt",
+        "hebbende",
+        "zeggende",
+        "zij",
+        "gezegd",
+        "hij",
+        "heeft",
+        "zal",
+        "hebben"
+      ],
+      "usage_en": [
+        "said",
+        "command",
+        "spake",
+        "bade",
+        "tell",
+        "say",
+        "ye",
+        "saith",
+        "commanded",
+        "spoken",
+        "saying",
+        "they",
+        "he",
+        "answer",
+        "bid",
+        "bring word",
+        "call",
+        "grant",
+        "say on",
+        "speak"
+      ]
+    },
+    "G846": {
+      "strong": "G846",
+      "language": "greek",
+      "lemma": "αὐτός",
+      "translit": "autós",
+      "gloss_nl": null,
+      "gloss_en": "the reflexive pronoun self, used (alone or in the comparative G1438 (ἑαυτοῦ)) of the third person , and (with the proper personal pronoun) of the other persons",
+      "usage_nl": [
+        "hem",
+        "zijn",
+        "hun",
+        "denzelven",
+        "hen",
+        "dezelve",
+        "hij",
+        "hetzelve",
+        "zijner",
+        "zijns",
+        "dat",
+        "ze",
+        "het",
+        "[hem",
+        "hunnen",
+        "haar",
+        "derzelve",
+        "hunlieder",
+        "dengene",
+        "dezen",
+        "zij",
+        "dergenen",
+        "henlieden",
+        "diezelfde",
+        "harer",
+        "dierzelfder",
+        "deze",
+        "dien",
+        "zelf",
+        "dit",
+        "zijnentwil",
+        "zelve"
+      ],
+      "usage_en": [
+        "him",
+        "his",
+        "them",
+        "their",
+        "it",
+        "he",
+        "own",
+        "that",
+        "her",
+        "they",
+        "same",
+        "she",
+        "himself",
+        "thereof",
+        "miracles",
+        "this",
+        "very",
+        "sake",
+        "it-self",
+        "one",
+        "the other",
+        "mine own",
+        "said",
+        "self-",
+        "the same",
+        "him-",
+        "my-",
+        "thy- self",
+        "your-selves",
+        "their-s",
+        "them-selves",
+        "there-at",
+        "- by",
+        "-in",
+        "-into",
+        "-of",
+        "-on",
+        "-with",
+        "these things",
+        "this man",
+        "those",
+        "together",
+        "which"
+      ]
+    },
+    "G3568": {
+      "strong": "G3568",
+      "language": "greek",
+      "lemma": "νῦν",
+      "translit": "nŷn",
+      "gloss_nl": null,
+      "gloss_en": "\"now\" (as adverb of date, a transition or emphasis); also as noun or adjective present or immediate",
+      "usage_nl": [
+        "nu"
+      ],
+      "usage_en": [
+        "time",
+        "now",
+        "henceforth",
+        "+ hereafter",
+        "of late",
+        "soon",
+        "present",
+        "this time"
+      ]
+    },
+    "G1097": {
+      "strong": "G1097",
+      "language": "greek",
+      "lemma": "γινώσκω",
+      "translit": "ginṓskō",
+      "gloss_nl": null,
+      "gloss_en": "to \"know\" (absolutely) in a great variety of applications and with many implications (as follow, with others not thus clearly expressed)",
+      "usage_nl": [
+        "gij",
+        "wetende",
+        "weet",
+        "bekenden",
+        "kende",
+        "wisten",
+        "mocht",
+        "bekendet",
+        "hebt",
+        "wist",
+        "bekend",
+        "verstond",
+        "verstonden",
+        "hadt",
+        "hebben",
+        "gekend",
+        "kent",
+        "bekennen",
+        "wete"
+      ],
+      "usage_en": [
+        "can",
+        "perceived",
+        "know",
+        "knew",
+        "is",
+        "of",
+        "known",
+        "knewest",
+        "sure",
+        "understood",
+        "thou",
+        "knoweth",
+        "allow",
+        "be aware of",
+        "feel",
+        "have know-ledge",
+        "be resolved",
+        "can speak",
+        "be sure",
+        "understand"
+      ]
+    },
+    "G3754": {
+      "strong": "G3754",
+      "language": "greek",
+      "lemma": "ὅτι",
+      "translit": "hóti",
+      "gloss_nl": null,
+      "gloss_en": "demonstrative, that (sometimes redundant); causative, because",
+      "usage_nl": [
+        "dat",
+        "omdat",
+        "want",
+        "dewijl",
+        "overmits"
+      ],
+      "usage_en": [
+        "that",
+        "because",
+        "for",
+        "art",
+        "if",
+        "this",
+        "how",
+        "as concerning that",
+        "as though",
+        "because that",
+        "for that",
+        "how that",
+        "in that",
+        "though",
+        "why"
+      ]
+    },
+    "G1140": {
+      "strong": "G1140",
+      "language": "greek",
+      "lemma": "δαιμόνιον",
+      "translit": "daimónion",
+      "gloss_nl": null,
+      "gloss_en": "a dæmonic being; by extension a deity",
+      "usage_nl": [],
+      "usage_en": [
+        "devil",
+        "god"
+      ]
+    },
+    "G2192": {
+      "strong": "G2192",
+      "language": "greek",
+      "lemma": "ἔχω",
+      "translit": "échō",
+      "gloss_nl": null,
+      "gloss_en": "to hold (used in very various applications, literally or figuratively, direct or remote; such as possession; ability, contiuity, relation, or condition)",
+      "usage_nl": [
+        "waren",
+        "hebbende",
+        "had",
+        "bevruchten",
+        "hebt",
+        "heeft",
+        "hielden",
+        "van",
+        "hebben",
+        "heb",
+        "hebbe",
+        "gij",
+        "gijlieden"
+      ],
+      "usage_en": [
+        "people",
+        "having",
+        "had",
+        "are",
+        "hast",
+        "hath",
+        "have",
+        "counted",
+        "be able",
+        "x hold",
+        "possessed with",
+        "accompany",
+        "+ begin to amend",
+        "can+ -not",
+        "x conceive",
+        "count",
+        "diseased",
+        "do + eat",
+        "+ enjoy",
+        "+ fear",
+        "following",
+        "hold",
+        "keep",
+        "+ lack",
+        "+ go to law",
+        "lie",
+        "+ must needs",
+        "+ of necessity",
+        "+ need",
+        "next",
+        "+ recover",
+        "+ reign",
+        "+ rest",
+        "+ return",
+        "x sick",
+        "take for",
+        "+ tremble",
+        "+ uncircumcised",
+        "use"
+      ]
+    },
+    "G11": {
+      "strong": "G11",
+      "language": "greek",
+      "lemma": "Ἀβραάμ",
+      "translit": "Abraám",
+      "gloss_nl": null,
+      "gloss_en": "Abraham, the Hebrew patriarch",
+      "usage_nl": [
+        "abraham"
+      ],
+      "usage_en": [
+        "abraham"
+      ]
+    },
+    "G599": {
+      "strong": "G599",
+      "language": "greek",
+      "lemma": "ἀποθνήσκω",
+      "translit": "apothnḗskō",
+      "gloss_nl": null,
+      "gloss_en": "to die off (literally or figuratively)",
+      "usage_nl": [
+        "gestorven",
+        "sterve",
+        "sterft",
+        "sterven"
+      ],
+      "usage_en": [
+        "dead",
+        "die",
+        "be dead",
+        "death",
+        "lie a-dying",
+        "be slain x with"
+      ]
+    },
+    "G2532": {
+      "strong": "G2532",
+      "language": "greek",
+      "lemma": "καί",
+      "translit": "kaí",
+      "gloss_nl": null,
+      "gloss_en": "and, also, even, so then, too, etc.; often used in connection (or composition) with other particles or small words",
+      "usage_nl": [
+        "en",
+        "ook",
+        "dat",
+        "zo",
+        "[ook",
+        "dan",
+        "met",
+        "[alzo"
+      ],
+      "usage_en": [
+        "and",
+        "also",
+        "then",
+        "even",
+        "very",
+        "likewise",
+        "so",
+        "now",
+        "both",
+        "but",
+        "yet",
+        "that",
+        "which",
+        "with",
+        "for",
+        "nor",
+        "if",
+        "or",
+        "therefore",
+        "when"
+      ]
+    },
+    "G4396": {
+      "strong": "G4396",
+      "language": "greek",
+      "lemma": "προφήτης",
+      "translit": "prophḗtēs",
+      "gloss_nl": null,
+      "gloss_en": "a foreteller (\"prophet\"); by analogy, an inspired speaker; by extension, a poet",
+      "usage_nl": [
+        "profeet",
+        "profeten"
+      ],
+      "usage_en": [
+        "prophet",
+        "prophets"
+      ]
+    },
+    "G4771": {
+      "strong": "G4771",
+      "language": "greek",
+      "lemma": "σύ",
+      "translit": "sý",
+      "gloss_nl": null,
+      "gloss_en": "thou",
+      "usage_nl": [
+        "gij"
+      ],
+      "usage_en": [
+        "thou"
+      ]
+    },
+    "G3450": {
+      "strong": "G3450",
+      "language": "greek",
+      "lemma": "μοῦ",
+      "translit": "moû",
+      "gloss_nl": null,
+      "gloss_en": "of me",
+      "usage_nl": [
+        "mij",
+        "mijn",
+        "mijns",
+        "ik",
+        "mijner"
+      ],
+      "usage_en": [
+        "me",
+        "my",
+        "mine",
+        "i",
+        "mine own"
+      ]
+    },
+    "G1089": {
+      "strong": "G1089",
+      "language": "greek",
+      "lemma": "γεύομαι",
+      "translit": "geúomai",
+      "gloss_nl": null,
+      "gloss_en": "to taste; by implication, to eat; figuratively, to experience (good or ill)",
+      "usage_nl": [
+        "zullen",
+        "had"
+      ],
+      "usage_en": [
+        "shall",
+        "taste",
+        "tasted",
+        "eat"
+      ]
+    },
+    "G1488": {
+      "strong": "G1488",
+      "language": "greek",
+      "lemma": "εἶ",
+      "translit": "eî",
+      "gloss_nl": null,
+      "gloss_en": "thou art",
+      "usage_nl": [
+        "zijt",
+        "gij"
+      ],
+      "usage_en": [
+        "be",
+        "art",
+        "thou"
+      ]
+    },
+    "G3187": {
+      "strong": "G3187",
+      "language": "greek",
+      "lemma": "μείζων",
+      "translit": "meízōn",
+      "gloss_nl": null,
+      "gloss_en": "larger (literally or figuratively, specially, in age)",
+      "usage_nl": [
+        "meeste",
+        "meerder",
+        "dan"
+      ],
+      "usage_en": [
+        "greatest",
+        "than",
+        "elder",
+        "greater-est",
+        "more"
+      ]
+    },
+    "G2257": {
+      "strong": "G2257",
+      "language": "greek",
+      "lemma": "ἡμῶν",
+      "translit": "hēmōn",
+      "gloss_nl": null,
+      "gloss_en": "of (or from) us",
+      "usage_nl": [
+        "onze",
+        "onzen"
+      ],
+      "usage_en": [
+        "our",
+        "our company",
+        "us",
+        "we"
+      ]
+    },
+    "G3962": {
+      "strong": "G3962",
+      "language": "greek",
+      "lemma": "πατήρ",
+      "translit": "patḗr",
+      "gloss_nl": null,
+      "gloss_en": "a \"father\" (literally or figuratively, near or more remote)",
+      "usage_nl": [
+        "vader",
+        "vaders"
+      ],
+      "usage_en": [
+        "father",
+        "business",
+        "father's",
+        "fathers",
+        "parent"
+      ]
+    },
+    "G3748": {
+      "strong": "G3748",
+      "language": "greek",
+      "lemma": "ὅστις",
+      "translit": "hóstis",
+      "gloss_nl": null,
+      "gloss_en": "which some, i.e. any that; also (definite) which same",
+      "usage_nl": [
+        "dewelke",
+        "wie",
+        "wat",
+        "welke",
+        "die"
+      ],
+      "usage_en": [
+        "which",
+        "whosoever",
+        "that",
+        "they",
+        "whatsoever",
+        "x and they",
+        "such as",
+        "they that",
+        "in that they",
+        "what-soever",
+        "whereas ye",
+        "they which",
+        "who-soever"
+      ]
+    },
+    "G5101": {
+      "strong": "G5101",
+      "language": "greek",
+      "lemma": "τίς",
+      "translit": "tís",
+      "gloss_nl": null,
+      "gloss_en": "an interrogative pronoun, who, which or what (in direct or indirect questions)",
+      "usage_nl": [
+        "wat",
+        "wie",
+        "welk",
+        "waarom",
+        "iegelijk",
+        "wien"
+      ],
+      "usage_en": [
+        "why",
+        "whom",
+        "what",
+        "who",
+        "how",
+        "much",
+        "man",
+        "every man",
+        "how much",
+        "+ no-ne",
+        "thing",
+        "what manner",
+        "where -by",
+        "-fore",
+        "-of",
+        "-unto",
+        "- with",
+        "-withal",
+        "whether",
+        "which",
+        "who-m",
+        "-se"
+      ]
+    },
+    "G4160": {
+      "strong": "G4160",
+      "language": "greek",
+      "lemma": "ποιέω",
+      "translit": "poiéō",
+      "gloss_nl": null,
+      "gloss_en": "to make or do (in a very wide application, more or less direct)",
+      "usage_nl": [
+        "maken",
+        "doen",
+        "doende",
+        "won",
+        "hebt",
+        "gedaan",
+        "gij",
+        "gemaakt",
+        "zoudt",
+        "doe",
+        "maakt",
+        "brengt",
+        "voort",
+        "voortbrengt",
+        "deed",
+        "gewonnen",
+        "zouden",
+        "doet",
+        "hebbende",
+        "had",
+        "maakten",
+        "bereidden",
+        "hadden"
+      ],
+      "usage_en": [
+        "make",
+        "do",
+        "doing",
+        "made",
+        "done",
+        "did",
+        "ye",
+        "thou",
+        "dealt",
+        "forth",
+        "bringeth",
+        "gained",
+        "doest",
+        "shewest",
+        "doeth",
+        "abide",
+        "+ agree",
+        "appoint",
+        "x avenge",
+        "+ band together",
+        "be",
+        "bear",
+        "+ bewray",
+        "bring forth",
+        "cast out",
+        "cause",
+        "commit",
+        "+ content",
+        "continue",
+        "deal",
+        "+ without any delay",
+        "would do-ing",
+        "execute",
+        "exercise",
+        "fulfil",
+        "gain",
+        "give",
+        "have",
+        "hold",
+        "x journeying",
+        "keep",
+        "+ lay wait",
+        "+ lighten the ship",
+        "x mean",
+        "+ none of these things move me",
+        "observe",
+        "ordain",
+        "perform",
+        "provide",
+        "+ have purged",
+        "purpose",
+        "put",
+        "+ raising up",
+        "x secure",
+        "shew",
+        "x shoot out",
+        "spend",
+        "take",
+        "tarry",
+        "+ transgress the law",
+        "work",
+        "yield"
+      ]
+    },
+    "G4572": {
+      "strong": "G4572",
+      "language": "greek",
+      "lemma": "σεαυτοῦ",
+      "translit": "seautoû",
+      "gloss_nl": null,
+      "gloss_en": "of (with, to) thyself",
+      "usage_nl": [
+        "uzelven"
+      ],
+      "usage_en": [
+        "thyself",
+        "thee",
+        "thine own self",
+        "thou thy-self"
+      ]
+    },
+    "G3361": {
+      "strong": "G3361",
+      "language": "greek",
+      "lemma": "μή",
+      "translit": "mḗ",
+      "gloss_nl": null,
+      "gloss_en": "(adverb) not, (conjunction) lest; also (as an interrogative implying a negative answer (whereas G3756 (οὐ) expects an affirmative one)) whether",
+      "usage_nl": [
+        "niet",
+        "niemand",
+        "geen"
+      ],
+      "usage_en": [
+        "not",
+        "no",
+        "neither",
+        "none",
+        "nothing",
+        "any but that",
+        "x forbear",
+        "+ god forbid",
+        "+ lack",
+        "lest",
+        "never",
+        "no x wise in",
+        "nor",
+        "can-not",
+        "that not",
+        "un-taken",
+        "without"
+      ]
+    },
+    "G2424": {
+      "strong": "G2424",
+      "language": "greek",
+      "lemma": "Ἰησοῦς",
+      "translit": "Iēsoûs",
+      "gloss_nl": "Jezus; de HEERE is redding",
+      "gloss_en": "Jesus (i.e. Jehoshua), the name of our Lord and two (three) other Israelites",
+      "usage_nl": [
+        "jezus",
+        "jezus'"
+      ],
+      "usage_en": [
+        "jesus",
+        "jesus'"
+      ]
+    },
+    "G611": {
+      "strong": "G611",
+      "language": "greek",
+      "lemma": "ἀποκρίνομαι",
+      "translit": "apokrínomai",
+      "gloss_nl": null,
+      "gloss_en": "to conclude for oneself, i.e. (by implication) to respond; by Hebraism (compare H06030) to begin to speak (where an address is expected)",
+      "usage_nl": [
+        "antwoordende",
+        "antwoordde",
+        "antwoordden",
+        "antwoorden",
+        "antwoordt"
+      ],
+      "usage_en": [
+        "answered",
+        "answer",
+        "answering",
+        "answereth"
+      ]
+    },
+    "G1473": {
+      "strong": "G1473",
+      "language": "greek",
+      "lemma": "ἐγώ",
+      "translit": "egṓ",
+      "gloss_nl": null,
+      "gloss_en": "I, me",
+      "usage_nl": [
+        "ik",
+        "die"
+      ],
+      "usage_en": [
+        "i",
+        "me"
+      ]
+    },
+    "G1683": {
+      "strong": "G1683",
+      "language": "greek",
+      "lemma": "ἐμαυτοῦ",
+      "translit": "emautoû",
+      "gloss_nl": null,
+      "gloss_en": "of myself so likewise the dative case , and accusative case",
+      "usage_nl": [
+        "mij",
+        "mijzelven"
+      ],
+      "usage_en": [
+        "me",
+        "myself",
+        "mine own self"
+      ]
+    },
+    "G1392": {
+      "strong": "G1392",
+      "language": "greek",
+      "lemma": "δοξάζω",
+      "translit": "doxázō",
+      "gloss_nl": null,
+      "gloss_en": "to render (or esteem) glorious (in a wide application)",
+      "usage_nl": [
+        "verheerlijkende",
+        "was",
+        "worden",
+        "verheerlijk",
+        "verheerlijkt",
+        "verheerlijken",
+        "worde"
+      ],
+      "usage_en": [
+        "glorifying",
+        "glorified",
+        "glorify",
+        "have",
+        "make glorify-ious",
+        "full of have glory",
+        "honour",
+        "magnify"
+      ]
+    },
+    "G2076": {
+      "strong": "G2076",
+      "language": "greek",
+      "lemma": "ἐστί",
+      "translit": "estí",
+      "gloss_nl": null,
+      "gloss_en": "he (she or it) is; also (with neuter plural) they are",
+      "usage_nl": [
+        "was",
+        "is",
+        "zijn",
+        "hij",
+        "het"
+      ],
+      "usage_en": [
+        "was",
+        "is",
+        "be",
+        "are",
+        "he",
+        "should",
+        "am",
+        "be-long",
+        "call",
+        "x can-not",
+        "come",
+        "consisteth",
+        "x dure for a while",
+        "+ follow",
+        "x have",
+        "that is to say",
+        "make",
+        "meaneth",
+        "x must needs",
+        "+ profit",
+        "+ remaineth",
+        "+ wrestle"
+      ]
+    },
+    "G1391": {
+      "strong": "G1391",
+      "language": "greek",
+      "lemma": "δόξα",
+      "translit": "dóxa",
+      "gloss_nl": null,
+      "gloss_en": "glory (as very apparent), in a wide application (literal or figurative, objective or subjective)",
+      "usage_nl": [
+        "heerlijkheid",
+        "ere",
+        "eer"
+      ],
+      "usage_en": [
+        "glory",
+        "praise",
+        "dignity",
+        "glory-ious",
+        "honour",
+        "worship"
+      ]
+    },
+    "G3762": {
+      "strong": "G3762",
+      "language": "greek",
+      "lemma": "οὐδείς",
+      "translit": "oudeís",
+      "gloss_nl": null,
+      "gloss_en": "not even one (man, woman or thing), i.e. none, nobody, nothing",
+      "usage_nl": [
+        "niemand",
+        "geen",
+        "niet",
+        "ooit",
+        "gans"
+      ],
+      "usage_en": [
+        "no",
+        "never",
+        "nothing",
+        "man",
+        "any man",
+        "aught",
+        "neither any thing",
+        "never man",
+        "no man",
+        "none + of these things",
+        "not any",
+        "at all",
+        "-thing",
+        "nought"
+      ]
+    },
+    "G3739": {
+      "strong": "G3739",
+      "language": "greek",
+      "lemma": "ὅς",
+      "translit": "hós",
+      "gloss_nl": null,
+      "gloss_en": "the relatively (sometimes demonstrative) pronoun, who, which, what, that",
+      "usage_nl": [
+        "wie",
+        "welken",
+        "die",
+        "welke",
+        "denwelken",
+        "dewelke",
+        "ander",
+        "derden",
+        "dat",
+        "hetwelk",
+        "dien",
+        "hetgeen",
+        "wat",
+        "wiens",
+        "zijn",
+        "wien",
+        "daar",
+        "hem"
+      ],
+      "usage_en": [
+        "whatsoever",
+        "whosoever",
+        "whoso",
+        "that",
+        "which",
+        "such",
+        "whom",
+        "when",
+        "one",
+        "another",
+        "whose",
+        "him",
+        "and",
+        "an-",
+        "the other",
+        "some",
+        "what",
+        "who-m",
+        "-se",
+        "etc"
+      ]
+    },
+    "G3165": {
+      "strong": "G3165",
+      "language": "greek",
+      "lemma": "μέ",
+      "translit": "mé",
+      "gloss_nl": null,
+      "gloss_en": "me",
+      "usage_nl": [
+        "ik",
+        "mij"
+      ],
+      "usage_en": [
+        "i",
+        "me",
+        "my"
+      ]
+    },
+    "G5210": {
+      "strong": "G5210",
+      "language": "greek",
+      "lemma": "ὑμεῖς",
+      "translit": "hymeîs",
+      "gloss_nl": null,
+      "gloss_en": "you (as subjective of verb)",
+      "usage_nl": [
+        "gij",
+        "gijlieden"
+      ],
+      "usage_en": [
+        "ye",
+        "ye yourselves",
+        "you"
+      ]
+    },
+    "G5216": {
+      "strong": "G5216",
+      "language": "greek",
+      "lemma": "ὑμῶν",
+      "translit": "hymōn",
+      "gloss_nl": null,
+      "gloss_en": "of (from or concerning) you",
+      "usage_nl": [
+        "uws",
+        "u",
+        "uw",
+        "ulieden"
+      ],
+      "usage_en": [
+        "your",
+        "you",
+        "ye",
+        "your own",
+        "-selves"
+      ]
+    },
+    "G2316": {
+      "strong": "G2316",
+      "language": "greek",
+      "lemma": "θεός",
+      "translit": "theós",
+      "gloss_nl": "God; de Allerhoogste God",
+      "gloss_en": "figuratively, a magistrate; by Hebraism, very",
+      "usage_nl": [
+        "gods",
+        "god"
+      ],
+      "usage_en": [
+        "god",
+        "x exceeding",
+        "god-ly",
+        "-ward"
+      ]
+    },
+    "G3756": {
+      "strong": "G3756",
+      "language": "greek",
+      "lemma": "οὐ",
+      "translit": "ou",
+      "gloss_nl": null,
+      "gloss_en": "the absolute negative (compare G3361 (μή)) adverb; no or not",
+      "usage_nl": [
+        "niet",
+        "geen",
+        "niets"
+      ],
+      "usage_en": [
+        "not",
+        "no",
+        "there",
+        "neither",
+        "cannot",
+        "none",
+        "nothing",
+        "+ long",
+        "nay",
+        "never",
+        "no x man",
+        "can-not",
+        "+ nothing",
+        "+ special",
+        "un-worthy",
+        "when",
+        "+ without",
+        "+ yet but"
+      ]
+    },
+    "G1161": {
+      "strong": "G1161",
+      "language": "greek",
+      "lemma": "δέ",
+      "translit": "dé",
+      "gloss_nl": null,
+      "gloss_en": "but, and, etc.",
+      "usage_nl": [
+        "doch",
+        "nu",
+        "en",
+        "dan",
+        "maar"
+      ],
+      "usage_en": [
+        "but",
+        "now",
+        "and",
+        "then",
+        "when",
+        "wherefore",
+        "moreover",
+        "as",
+        "so",
+        "all",
+        "immediately",
+        "while",
+        "afterward",
+        "after",
+        "yea",
+        "even",
+        "also",
+        "now often unexpressed in english"
+      ]
+    },
+    "G1492": {
+      "strong": "G1492",
+      "language": "greek",
+      "lemma": "εἴδω",
+      "translit": "eídō",
+      "gloss_nl": null,
+      "gloss_en": "used only in certain past tenses, the others being borrowed from the equivalent G3700 (ὀπτάνομαι) and G3708 (ὁράω); properly, to see (literally or figuratively); by implication, (in the perfect tense only) to know",
+      "usage_nl": [
+        "gezien",
+        "zag",
+        "zien",
+        "zagen",
+        "weet",
+        "had",
+        "ken",
+        "wist",
+        "ziende",
+        "zij",
+        "weten",
+        "hadden",
+        "zoude",
+        "gij",
+        "hij",
+        "wisten",
+        "hebbende",
+        "hebt",
+        "kennen",
+        "wetende"
+      ],
+      "usage_en": [
+        "saw",
+        "see",
+        "knoweth",
+        "know",
+        "known",
+        "knewest",
+        "we",
+        "seeing",
+        "tell",
+        "seen",
+        "should",
+        "ye",
+        "beheld",
+        "knew",
+        "be aware",
+        "behold",
+        "x can + not tell",
+        "consider",
+        "have know-ledge",
+        "look on",
+        "perceive",
+        "be sure",
+        "understand",
+        "wish",
+        "wot"
+      ]
+    },
+    "G3664": {
+      "strong": "G3664",
+      "language": "greek",
+      "lemma": "ὅμοιος",
+      "translit": "hómoios",
+      "gloss_nl": null,
+      "gloss_en": "similar (in appearance or character)",
+      "usage_nl": [],
+      "usage_en": [
+        "like",
+        "+ manner"
+      ]
+    },
+    "G2071": {
+      "strong": "G2071",
+      "language": "greek",
+      "lemma": "ἔσομαι",
+      "translit": "ésomai",
+      "gloss_nl": null,
+      "gloss_en": "will be",
+      "usage_nl": [
+        "zijn",
+        "geschieden",
+        "wezen",
+        "worden",
+        "zal",
+        "geworden",
+        "zullen"
+      ],
+      "usage_en": [
+        "be",
+        "shall",
+        "have",
+        "shall should be have",
+        "shall come to pass",
+        "x may have",
+        "x fall",
+        "what would follow",
+        "x live long",
+        "x sojourn"
+      ]
+    },
+    "G5583": {
+      "strong": "G5583",
+      "language": "greek",
+      "lemma": "ψεύστης",
+      "translit": "pseústēs",
+      "gloss_nl": null,
+      "gloss_en": "a falsifier",
+      "usage_nl": [],
+      "usage_en": [
+        "liar"
+      ]
+    },
+    "G235": {
+      "strong": "G235",
+      "language": "greek",
+      "lemma": "ἀλλά",
+      "translit": "allá",
+      "gloss_nl": null,
+      "gloss_en": "properly, other things, i.e. (adverbially) contrariwise (in many relations)",
+      "usage_nl": [
+        "maar",
+        "doch"
+      ],
+      "usage_en": [
+        "but",
+        "howbeit",
+        "and",
+        "but even",
+        "indeed",
+        "nay",
+        "nevertheless",
+        "no",
+        "notwithstanding",
+        "save",
+        "therefore",
+        "yea",
+        "yet"
+      ]
+    },
+    "G21": {
+      "strong": "G21",
+      "language": "greek",
+      "lemma": "ἀγαλλιάω",
+      "translit": "agalliáō",
+      "gloss_nl": null,
+      "gloss_en": "properly, to jump for joy, i.e. exult",
+      "usage_nl": [],
+      "usage_en": [
+        "be exceeding glad",
+        "with exceeding joy",
+        "rejoice greatly"
+      ]
+    },
+    "G2443": {
+      "strong": "G2443",
+      "language": "greek",
+      "lemma": "ἵνα",
+      "translit": "hína",
+      "gloss_nl": null,
+      "gloss_en": "compare G3588 (ὁ)); in order that (denoting the purpose or the result)",
+      "usage_nl": [
+        "dat",
+        "opdat"
+      ],
+      "usage_en": [
+        "that",
+        "to",
+        "albeit",
+        "because",
+        "to the intent that",
+        "lest",
+        "so as",
+        "so that",
+        "for to"
+      ]
+    },
+    "G2250": {
+      "strong": "G2250",
+      "language": "greek",
+      "lemma": "ἡμέρα",
+      "translit": "hēméra",
+      "gloss_nl": null,
+      "gloss_en": "day, i.e. (literally) the time space between dawn and dark, or the whole 24 hours (but several days were usually reckoned by the Jews as inclusive of the parts of both extremes); figuratively, a period (always defined more or less clearly by the context)",
+      "usage_nl": [
+        "dagen",
+        "dage",
+        "dag",
+        "ouderdom",
+        "dagreize"
+      ],
+      "usage_en": [
+        "days",
+        "day",
+        "age",
+        "day's",
+        "+ alway",
+        "mid-day by day",
+        "-ly",
+        "+ for ever",
+        "judgment",
+        "day time",
+        "while",
+        "years"
+      ]
+    },
+    "G5463": {
+      "strong": "G5463",
+      "language": "greek",
+      "lemma": "χαίρω",
+      "translit": "chaírō",
+      "gloss_nl": null,
+      "gloss_en": "to be \"cheer\"ful, i.e. calmly happy or well-off; impersonally, especially as salutation (on meeting or parting), be well",
+      "usage_nl": [
+        "verblijdt",
+        "blijdschap",
+        "verblijden"
+      ],
+      "usage_en": [
+        "rejoiceth",
+        "joyfully",
+        "rejoice",
+        "farewell",
+        "be glad",
+        "god speed",
+        "greeting",
+        "hall",
+        "joy- fully"
+      ]
+    },
+    "G4314": {
+      "strong": "G4314",
+      "language": "greek",
+      "lemma": "πρός",
+      "translit": "prós",
+      "gloss_nl": null,
+      "gloss_en": "a preposition of direction; forward to, i.e. toward (with the genitive case, the side of, i.e. pertaining to; with the dative case, by the side of, i.e. near to; usually with the accusative case, the place, time, occasion, or respect, which is the destination of the relation, i.e. whither or for which it is predicated)",
+      "usage_nl": [
+        "aan",
+        "tot",
+        "bij",
+        "onder",
+        "hun"
+      ],
+      "usage_en": [
+        "against",
+        "them",
+        "unto",
+        "at",
+        "by",
+        "to",
+        "with",
+        "among",
+        "about",
+        "according to",
+        "because of",
+        "before",
+        "between",
+        "where-by",
+        "for",
+        "x at thy house",
+        "in",
+        "for intent",
+        "nigh unto",
+        "of",
+        "which pertain to",
+        "that",
+        "to the end that",
+        "x together",
+        "to you -ward",
+        "with-in"
+      ]
+    },
+    "G3768": {
+      "strong": "G3768",
+      "language": "greek",
+      "lemma": "οὔπω",
+      "translit": "oúpō",
+      "gloss_nl": null,
+      "gloss_en": "not yet",
+      "usage_nl": [
+        "niet",
+        "nog"
+      ],
+      "usage_en": [
+        "yet",
+        "hitherto not",
+        "no… as yet",
+        "not yet"
+      ]
+    },
+    "G4004": {
+      "strong": "G4004",
+      "language": "greek",
+      "lemma": "πεντήκοντα",
+      "translit": "pentḗkonta",
+      "gloss_nl": null,
+      "gloss_en": "fifty",
+      "usage_nl": [],
+      "usage_en": [
+        "fifty"
+      ]
+    },
+    "G2094": {
+      "strong": "G2094",
+      "language": "greek",
+      "lemma": "ἔτος",
+      "translit": "étos",
+      "gloss_nl": null,
+      "gloss_en": "a year",
+      "usage_nl": [
+        "jaren",
+        "jaar"
+      ],
+      "usage_en": [
+        "years",
+        "year",
+        "old",
+        "age"
+      ]
+    },
+    "G3708": {
+      "strong": "G3708",
+      "language": "greek",
+      "lemma": "ὁράω",
+      "translit": "horáō",
+      "gloss_nl": null,
+      "gloss_en": "by extension, to attend to; by Hebraism, to experience; passively, to appear",
+      "usage_nl": [
+        "toe",
+        "zagen",
+        "hebt",
+        "heeft",
+        "gezien"
+      ],
+      "usage_en": [
+        "heed",
+        "see",
+        "saw",
+        "ye",
+        "seen",
+        "behold",
+        "perceive",
+        "take heed"
+      ]
+    },
+    "G4250": {
+      "strong": "G4250",
+      "language": "greek",
+      "lemma": "πρίν",
+      "translit": "prín",
+      "gloss_nl": null,
+      "gloss_en": "prior, sooner",
+      "usage_nl": [
+        "eer"
+      ],
+      "usage_en": [
+        "before",
+        "before that",
+        "ere"
+      ]
+    },
+    "G1096": {
+      "strong": "G1096",
+      "language": "greek",
+      "lemma": "γίνομαι",
+      "translit": "gínomai",
+      "gloss_nl": null,
+      "gloss_en": "to cause to be (\"gen\"-erate), i.e. (reflexively) to become (come into being), used with great latitude (literal, figurative, intensive, etc.)",
+      "usage_nl": [
+        "worden",
+        "is",
+        "wordt",
+        "had",
+        "geschiedt",
+        "geschieden",
+        "was",
+        "geschiede",
+        "geweest",
+        "zal",
+        "zijn",
+        "zijt",
+        "geschiedde",
+        "geschied",
+        "wees",
+        "er",
+        "geworden",
+        "komende",
+        "kwam",
+        "gekomen",
+        "het"
+      ],
+      "usage_en": [
+        "made",
+        "is",
+        "become",
+        "have",
+        "be",
+        "done",
+        "pass",
+        "was",
+        "fulfilled",
+        "come",
+        "came",
+        "been",
+        "drawing",
+        "thou",
+        "thundered",
+        "it",
+        "arise",
+        "be assembled",
+        "be-come",
+        "-fall",
+        "-have self",
+        "be brought to pass",
+        "be come to pass",
+        "continue",
+        "be divided",
+        "draw",
+        "be ended",
+        "fall",
+        "be finished",
+        "follow",
+        "be found",
+        "be fulfilled",
+        "+ god forbid",
+        "grow",
+        "happen",
+        "be kept",
+        "be made",
+        "be married",
+        "be ordained to be",
+        "partake",
+        "be performed",
+        "be published",
+        "require",
+        "seem",
+        "be showed",
+        "x soon as it was",
+        "sound",
+        "be taken",
+        "be turned",
+        "use",
+        "wax",
+        "will",
+        "would",
+        "be wrought"
+      ]
+    },
+    "G1510": {
+      "strong": "G1510",
+      "language": "greek",
+      "lemma": "εἰμί",
+      "translit": "eimí",
+      "gloss_nl": null,
+      "gloss_en": "I exist (used only when emphatic)",
+      "usage_nl": [
+        "ik",
+        "ben"
+      ],
+      "usage_en": [
+        "i",
+        "am",
+        "was",
+        "is",
+        "been",
+        "have been",
+        "x it is i"
+      ]
+    }
+  }
+}
