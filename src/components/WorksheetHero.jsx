@@ -548,6 +548,12 @@ export default function WorksheetHero({ lang, onStudyChange, autoExpandReading }
         {/* Complete Published Reading Commentary Article — Collapsable */}
         {isReadingExpanded && (
           <article className="reading-publication" style={{ width: '100%', maxWidth: '100%' }}>
+            {/* Print-only title: on screen the section header above already shows it. */}
+            {displayTitle && (
+              <h1 className="reading-title print-only-title" style={{ fontSize: '30px', fontFamily: '"Source Serif 4", Georgia, serif', fontWeight: 700, margin: '0 0 16px', color: 'var(--ink)' }}>
+                {displayTitle}
+              </h1>
+            )}
             {hasBody && displaySummary && (
               <div className="reading-summary" style={{ fontStyle: 'italic', background: 'var(--soft)', padding: '16px 20px', marginBottom: '24px', borderLeft: '4px solid var(--accent)', borderRadius: '4px', fontSize: '17px', color: 'var(--ink)' }}>
                 <p style={{ margin: 0 }}>{displaySummary}</p>

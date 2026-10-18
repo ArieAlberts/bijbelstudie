@@ -1534,6 +1534,11 @@ textarea[data-quick-notes]:focus {
 }
 
 /* Print Styles */
+/* Shown only when printing; on screen the section header carries the title. */
+.print-only-title {
+  display: none;
+}
+
 @media print {
   body {
     background: #ffffff !important;
@@ -1634,6 +1639,7 @@ textarea[data-quick-notes]:focus {
   }
 
   .reading-title {
+    display: block !important;
     font-size: 24pt !important;
     color: #000000 !important;
     page-break-after: avoid;
