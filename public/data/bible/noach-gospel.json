@@ -1,0 +1,3710 @@
+{
+  "study": "noach",
+  "role": "gospel",
+  "osis": "Luke.17.20-Luke.17.27",
+  "ref": {
+    "nl": "Lukas 17:20–27",
+    "en": "Luke 17:20–27"
+  },
+  "testament": "NT",
+  "verses": [
+    {
+      "osis": "Luke.17.20",
+      "ref": "17:20",
+      "sv": "En gevraagd zijnde van de Farizeen, wanneer het Koninkrijk Gods komen zou, heeft Hij hun geantwoord en gezegd: Het Koninkrijk Gods komt niet met uiterlijk gelaat.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": "G1161"
+        },
+        {
+          "t": "when",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "was",
+          "s": null
+        },
+        {
+          "t": "demanded",
+          "s": "G1905"
+        },
+        {
+          "t": "of",
+          "s": "G5259"
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "Pharisees,",
+          "s": "G5330"
+        },
+        {
+          "t": "when",
+          "s": "G4219"
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "kingdom",
+          "s": "G932"
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "God",
+          "s": "G2316"
+        },
+        {
+          "t": "should",
+          "s": null
+        },
+        {
+          "t": "come,",
+          "s": "G2064"
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "answered",
+          "s": "G611"
+        },
+        {
+          "t": "them",
+          "s": "G846"
+        },
+        {
+          "t": "and",
+          "s": "G2532"
+        },
+        {
+          "t": "said,",
+          "s": "G2036"
+        },
+        {
+          "t": "The",
+          "s": null
+        },
+        {
+          "t": "kingdom",
+          "s": "G932"
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "God",
+          "s": "G2316"
+        },
+        {
+          "t": "cometh",
+          "s": "G2064"
+        },
+        {
+          "t": "not",
+          "s": "G3756"
+        },
+        {
+          "t": "with",
+          "s": "G3326"
+        },
+        {
+          "t": "observation:",
+          "s": "G3907"
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "En",
+            "charStart": 0,
+            "charEnd": 2,
+            "strong": "G1161",
+            "status": "verified"
+          },
+          {
+            "surface": "zijnde",
+            "charStart": 12,
+            "charEnd": 18,
+            "strong": "G1905",
+            "status": "verified"
+          },
+          {
+            "surface": "van",
+            "charStart": 19,
+            "charEnd": 22,
+            "strong": "G5259",
+            "status": "verified"
+          },
+          {
+            "surface": "Farizeen",
+            "charStart": 26,
+            "charEnd": 34,
+            "strong": "G5330",
+            "status": "verified"
+          },
+          {
+            "surface": "wanneer",
+            "charStart": 36,
+            "charEnd": 43,
+            "strong": "G4219",
+            "status": "verified"
+          },
+          {
+            "surface": "Koninkrijk",
+            "charStart": 48,
+            "charEnd": 58,
+            "strong": "G932",
+            "status": "verified"
+          },
+          {
+            "surface": "Gods",
+            "charStart": 59,
+            "charEnd": 63,
+            "strong": "G2316",
+            "status": "verified"
+          },
+          {
+            "surface": "zou",
+            "charStart": 70,
+            "charEnd": 73,
+            "strong": "G2064",
+            "status": "verified"
+          },
+          {
+            "surface": "hun",
+            "charStart": 85,
+            "charEnd": 88,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "geantwoord",
+            "charStart": 89,
+            "charEnd": 99,
+            "strong": "G611",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 100,
+            "charEnd": 102,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "gezegd",
+            "charStart": 103,
+            "charEnd": 109,
+            "strong": "G2036",
+            "status": "verified"
+          },
+          {
+            "surface": "Koninkrijk",
+            "charStart": 115,
+            "charEnd": 125,
+            "strong": "G932",
+            "status": "verified"
+          },
+          {
+            "surface": "Gods",
+            "charStart": 126,
+            "charEnd": 130,
+            "strong": "G2316",
+            "status": "verified"
+          },
+          {
+            "surface": "komt",
+            "charStart": 131,
+            "charEnd": 135,
+            "strong": "G2064",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 136,
+            "charEnd": 140,
+            "strong": "G3756",
+            "status": "verified"
+          },
+          {
+            "surface": "met",
+            "charStart": 141,
+            "charEnd": 144,
+            "strong": "G3326",
+            "status": "verified"
+          },
+          {
+            "surface": "gelaat",
+            "charStart": 155,
+            "charEnd": 161,
+            "strong": "G3907",
+            "status": "verified"
+          }
+        ]
+      },
+      "notes": {
+        "kjv": [
+          "with: or, with outward shew"
+        ]
+      }
+    },
+    {
+      "osis": "Luke.17.21",
+      "ref": "17:21",
+      "sv": "En men zal niet zeggen: Ziet hier, of ziet daar, want, ziet, het Koninkrijk Gods is binnen ulieden.",
+      "kjv": [
+        {
+          "t": "Neither",
+          "s": "G3761"
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "say,",
+          "s": "G2046"
+        },
+        {
+          "t": "Lo",
+          "s": "G2400"
+        },
+        {
+          "t": "here!",
+          "s": "G5602"
+        },
+        {
+          "t": "or,",
+          "s": "G2228"
+        },
+        {
+          "t": "lo",
+          "s": "G2400"
+        },
+        {
+          "t": "there!",
+          "s": "G1563"
+        },
+        {
+          "t": "for,",
+          "s": "G1063"
+        },
+        {
+          "t": "behold,",
+          "s": "G2400"
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "kingdom",
+          "s": "G932"
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "God",
+          "s": "G2316"
+        },
+        {
+          "t": "is",
+          "s": "G2076"
+        },
+        {
+          "t": "within",
+          "s": "G1787"
+        },
+        {
+          "t": "you.",
+          "s": "G5216"
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "En",
+            "charStart": 0,
+            "charEnd": 2,
+            "strong": "G3761",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 11,
+            "charEnd": 15,
+            "strong": "G3761",
+            "status": "verified"
+          },
+          {
+            "surface": "zeggen",
+            "charStart": 16,
+            "charEnd": 22,
+            "strong": "G2046",
+            "status": "verified"
+          },
+          {
+            "surface": "Ziet",
+            "charStart": 24,
+            "charEnd": 28,
+            "strong": "G2400",
+            "status": "verified"
+          },
+          {
+            "surface": "hier",
+            "charStart": 29,
+            "charEnd": 33,
+            "strong": "G5602",
+            "status": "verified"
+          },
+          {
+            "surface": "of",
+            "charStart": 35,
+            "charEnd": 37,
+            "strong": "G2228",
+            "status": "verified"
+          },
+          {
+            "surface": "ziet",
+            "charStart": 38,
+            "charEnd": 42,
+            "strong": "G2400",
+            "status": "verified"
+          },
+          {
+            "surface": "daar",
+            "charStart": 43,
+            "charEnd": 47,
+            "strong": "G1563",
+            "status": "verified"
+          },
+          {
+            "surface": "want",
+            "charStart": 49,
+            "charEnd": 53,
+            "strong": "G1063",
+            "status": "verified"
+          },
+          {
+            "surface": "ziet",
+            "charStart": 55,
+            "charEnd": 59,
+            "strong": "G2400",
+            "status": "verified"
+          },
+          {
+            "surface": "Koninkrijk",
+            "charStart": 65,
+            "charEnd": 75,
+            "strong": "G932",
+            "status": "verified"
+          },
+          {
+            "surface": "Gods",
+            "charStart": 76,
+            "charEnd": 80,
+            "strong": "G2316",
+            "status": "verified"
+          },
+          {
+            "surface": "is",
+            "charStart": 81,
+            "charEnd": 83,
+            "strong": "G2076",
+            "status": "verified"
+          },
+          {
+            "surface": "binnen",
+            "charStart": 84,
+            "charEnd": 90,
+            "strong": "G1787",
+            "status": "verified"
+          },
+          {
+            "surface": "ulieden",
+            "charStart": 91,
+            "charEnd": 98,
+            "strong": "G5216",
+            "status": "verified"
+          }
+        ]
+      },
+      "notes": {
+        "kjv": [
+          "within you: or, among you"
+        ]
+      }
+    },
+    {
+      "osis": "Luke.17.22",
+      "ref": "17:22",
+      "sv": "En Hij zeide tot de discipelen: Er zullen dagen komen, wanneer gij zult begeren een der dagen van den Zoon des mensen te zien, en gij zult [dien] niet zien.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": "G1161"
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "said",
+          "s": "G2036"
+        },
+        {
+          "t": "unto",
+          "s": "G4314"
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "disciples,",
+          "s": "G3101"
+        },
+        {
+          "t": "The",
+          "s": null
+        },
+        {
+          "t": "days",
+          "s": "G2250"
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "come,",
+          "s": "G2064"
+        },
+        {
+          "t": "when",
+          "s": "G3753"
+        },
+        {
+          "t": "ye",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "desire",
+          "s": "G1937"
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "see",
+          "s": "G1492"
+        },
+        {
+          "t": "one",
+          "s": "G3391"
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "days",
+          "s": "G2250"
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "Son",
+          "s": "G5207"
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "man,",
+          "s": "G444"
+        },
+        {
+          "t": "and",
+          "s": "G2532"
+        },
+        {
+          "t": "ye",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": "G3700"
+        },
+        {
+          "t": "not",
+          "s": "G3756"
+        },
+        {
+          "t": "see",
+          "s": "G3700"
+        },
+        {
+          "t": "it.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "En",
+            "charStart": 0,
+            "charEnd": 2,
+            "strong": "G1161",
+            "status": "verified"
+          },
+          {
+            "surface": "zeide",
+            "charStart": 7,
+            "charEnd": 12,
+            "strong": "G2036",
+            "status": "verified"
+          },
+          {
+            "surface": "tot",
+            "charStart": 13,
+            "charEnd": 16,
+            "strong": "G4314",
+            "status": "verified"
+          },
+          {
+            "surface": "discipelen",
+            "charStart": 20,
+            "charEnd": 30,
+            "strong": "G3101",
+            "status": "verified"
+          },
+          {
+            "surface": "dagen",
+            "charStart": 42,
+            "charEnd": 47,
+            "strong": "G2250",
+            "status": "verified"
+          },
+          {
+            "surface": "komen",
+            "charStart": 48,
+            "charEnd": 53,
+            "strong": "G2064",
+            "status": "verified"
+          },
+          {
+            "surface": "wanneer",
+            "charStart": 55,
+            "charEnd": 62,
+            "strong": "G3753",
+            "status": "verified"
+          },
+          {
+            "surface": "begeren",
+            "charStart": 72,
+            "charEnd": 79,
+            "strong": "G1937",
+            "status": "verified"
+          },
+          {
+            "surface": "een",
+            "charStart": 80,
+            "charEnd": 83,
+            "strong": "G3391",
+            "status": "verified"
+          },
+          {
+            "surface": "dagen",
+            "charStart": 88,
+            "charEnd": 93,
+            "strong": "G2250",
+            "status": "verified"
+          },
+          {
+            "surface": "Zoon",
+            "charStart": 102,
+            "charEnd": 106,
+            "strong": "G5207",
+            "status": "verified"
+          },
+          {
+            "surface": "mensen",
+            "charStart": 111,
+            "charEnd": 117,
+            "strong": "G444",
+            "status": "verified"
+          },
+          {
+            "surface": "zien",
+            "charStart": 121,
+            "charEnd": 125,
+            "strong": "G1492",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 127,
+            "charEnd": 129,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 146,
+            "charEnd": 150,
+            "strong": "G3756",
+            "status": "verified"
+          },
+          {
+            "surface": "zien",
+            "charStart": 151,
+            "charEnd": 155,
+            "strong": "G3700",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Luke.17.23",
+      "ref": "17:23",
+      "sv": "En zij zullen tot u zeggen: Ziet hier, of ziet daar is Hij; gaat niet heen, en volgt niet.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": "G2532"
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "say",
+          "s": "G2046"
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "you,",
+          "s": "G5213"
+        },
+        {
+          "t": "See",
+          "s": "G2400"
+        },
+        {
+          "t": "here;",
+          "s": "G5602"
+        },
+        {
+          "t": "or,",
+          "s": "G2228"
+        },
+        {
+          "t": "see",
+          "s": "G2400"
+        },
+        {
+          "t": "there:",
+          "s": "G1563"
+        },
+        {
+          "t": "go",
+          "s": "G565"
+        },
+        {
+          "t": "not",
+          "s": "G3361"
+        },
+        {
+          "t": "after",
+          "s": "G565"
+        },
+        {
+          "t": "them,",
+          "s": null
+        },
+        {
+          "t": "nor",
+          "s": "G3366"
+        },
+        {
+          "t": "follow",
+          "s": "G1377"
+        },
+        {
+          "t": "them.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "En",
+            "charStart": 0,
+            "charEnd": 2,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "u",
+            "charStart": 8,
+            "charEnd": 9,
+            "strong": "G5213",
+            "status": "verified"
+          },
+          {
+            "surface": "zeggen",
+            "charStart": 20,
+            "charEnd": 26,
+            "strong": "G2046",
+            "status": "verified"
+          },
+          {
+            "surface": "Ziet",
+            "charStart": 28,
+            "charEnd": 32,
+            "strong": "G2400",
+            "status": "verified"
+          },
+          {
+            "surface": "hier",
+            "charStart": 33,
+            "charEnd": 37,
+            "strong": "G5602",
+            "status": "verified"
+          },
+          {
+            "surface": "of",
+            "charStart": 39,
+            "charEnd": 41,
+            "strong": "G2228",
+            "status": "verified"
+          },
+          {
+            "surface": "ziet",
+            "charStart": 42,
+            "charEnd": 46,
+            "strong": "G2400",
+            "status": "verified"
+          },
+          {
+            "surface": "daar",
+            "charStart": 47,
+            "charEnd": 51,
+            "strong": "G1563",
+            "status": "verified"
+          },
+          {
+            "surface": "gaat",
+            "charStart": 60,
+            "charEnd": 64,
+            "strong": "G565",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 65,
+            "charEnd": 69,
+            "strong": "G3361",
+            "status": "verified"
+          },
+          {
+            "surface": "heen",
+            "charStart": 70,
+            "charEnd": 74,
+            "strong": "G565",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 76,
+            "charEnd": 78,
+            "strong": "G3366",
+            "status": "verified"
+          },
+          {
+            "surface": "volgt",
+            "charStart": 79,
+            "charEnd": 84,
+            "strong": "G1377",
+            "status": "verified"
+          },
+          {
+            "surface": "niet",
+            "charStart": 85,
+            "charEnd": 89,
+            "strong": "G3366",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Luke.17.24",
+      "ref": "17:24",
+      "sv": "Want gelijk de bliksem, die van het ene [einde] onder den hemel bliksemt, tot het andere onder den hemel schijnt, alzo zal ook de Zoon des mensen wezen in Zijn dag.",
+      "kjv": [
+        {
+          "t": "For",
+          "s": "G1063"
+        },
+        {
+          "t": "as",
+          "s": "G5618"
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "lightning,",
+          "s": "G796"
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "lighteneth",
+          "s": "G797"
+        },
+        {
+          "t": "out",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": "G1537"
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "one",
+          "s": null
+        },
+        {
+          "t": "part",
+          "s": null
+        },
+        {
+          "t": "under",
+          "s": "G5259"
+        },
+        {
+          "t": "heaven,",
+          "s": "G3772"
+        },
+        {
+          "t": "shineth",
+          "s": "G2989"
+        },
+        {
+          "t": "unto",
+          "s": "G1519"
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "other",
+          "s": null
+        },
+        {
+          "t": "part",
+          "s": null
+        },
+        {
+          "t": "under",
+          "s": "G5259"
+        },
+        {
+          "t": "heaven;",
+          "s": "G3772"
+        },
+        {
+          "t": "so",
+          "s": "G3779"
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "also",
+          "s": "G2532"
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "Son",
+          "s": "G5207"
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "man",
+          "s": "G444"
+        },
+        {
+          "t": "be",
+          "s": "G2071"
+        },
+        {
+          "t": "in",
+          "s": "G1722"
+        },
+        {
+          "t": "his",
+          "s": "G846"
+        },
+        {
+          "t": "day.",
+          "s": "G2250"
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Want",
+            "charStart": 0,
+            "charEnd": 4,
+            "strong": "G1063",
+            "status": "verified"
+          },
+          {
+            "surface": "gelijk",
+            "charStart": 5,
+            "charEnd": 11,
+            "strong": "G5618",
+            "status": "verified"
+          },
+          {
+            "surface": "bliksem",
+            "charStart": 15,
+            "charEnd": 22,
+            "strong": "G796",
+            "status": "verified"
+          },
+          {
+            "surface": "van",
+            "charStart": 28,
+            "charEnd": 31,
+            "strong": "G1537",
+            "status": "verified"
+          },
+          {
+            "surface": "onder",
+            "charStart": 48,
+            "charEnd": 53,
+            "strong": "G5259",
+            "status": "verified"
+          },
+          {
+            "surface": "hemel",
+            "charStart": 58,
+            "charEnd": 63,
+            "strong": "G3772",
+            "status": "verified"
+          },
+          {
+            "surface": "bliksemt",
+            "charStart": 64,
+            "charEnd": 72,
+            "strong": "G797",
+            "status": "verified"
+          },
+          {
+            "surface": "tot",
+            "charStart": 74,
+            "charEnd": 77,
+            "strong": "G1519",
+            "status": "verified"
+          },
+          {
+            "surface": "onder",
+            "charStart": 89,
+            "charEnd": 94,
+            "strong": "G5259",
+            "status": "verified"
+          },
+          {
+            "surface": "hemel",
+            "charStart": 99,
+            "charEnd": 104,
+            "strong": "G3772",
+            "status": "verified"
+          },
+          {
+            "surface": "schijnt",
+            "charStart": 105,
+            "charEnd": 112,
+            "strong": "G2989",
+            "status": "verified"
+          },
+          {
+            "surface": "alzo",
+            "charStart": 114,
+            "charEnd": 118,
+            "strong": "G3779",
+            "status": "verified"
+          },
+          {
+            "surface": "ook",
+            "charStart": 123,
+            "charEnd": 126,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "Zoon",
+            "charStart": 130,
+            "charEnd": 134,
+            "strong": "G5207",
+            "status": "verified"
+          },
+          {
+            "surface": "mensen",
+            "charStart": 139,
+            "charEnd": 145,
+            "strong": "G444",
+            "status": "verified"
+          },
+          {
+            "surface": "wezen",
+            "charStart": 146,
+            "charEnd": 151,
+            "strong": "G2071",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 152,
+            "charEnd": 154,
+            "strong": "G1722",
+            "status": "verified"
+          },
+          {
+            "surface": "Zijn",
+            "charStart": 155,
+            "charEnd": 159,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "dag",
+            "charStart": 160,
+            "charEnd": 163,
+            "strong": "G2250",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Luke.17.25",
+      "ref": "17:25",
+      "sv": "Maar eerst moet Hij veel lijden, en verworpen worden van dit geslacht.",
+      "kjv": [
+        {
+          "t": "But",
+          "s": "G1161"
+        },
+        {
+          "t": "first",
+          "s": "G4412"
+        },
+        {
+          "t": "must",
+          "s": "G1163"
+        },
+        {
+          "t": "he",
+          "s": "G846"
+        },
+        {
+          "t": "suffer",
+          "s": "G3958"
+        },
+        {
+          "t": "many",
+          "s": null
+        },
+        {
+          "t": "things,",
+          "s": "G4183"
+        },
+        {
+          "t": "and",
+          "s": "G2532"
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "rejected",
+          "s": "G593"
+        },
+        {
+          "t": "of",
+          "s": "G575"
+        },
+        {
+          "t": "this",
+          "s": "G5026"
+        },
+        {
+          "t": "generation.",
+          "s": "G1074"
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Maar",
+            "charStart": 0,
+            "charEnd": 4,
+            "strong": "G1161",
+            "status": "verified"
+          },
+          {
+            "surface": "eerst",
+            "charStart": 5,
+            "charEnd": 10,
+            "strong": "G4412",
+            "status": "verified"
+          },
+          {
+            "surface": "moet",
+            "charStart": 11,
+            "charEnd": 15,
+            "strong": "G1163",
+            "status": "verified"
+          },
+          {
+            "surface": "Hij",
+            "charStart": 16,
+            "charEnd": 19,
+            "strong": "G846",
+            "status": "verified"
+          },
+          {
+            "surface": "veel",
+            "charStart": 20,
+            "charEnd": 24,
+            "strong": "G4183",
+            "status": "verified"
+          },
+          {
+            "surface": "lijden",
+            "charStart": 25,
+            "charEnd": 31,
+            "strong": "G3958",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 33,
+            "charEnd": 35,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "worden",
+            "charStart": 46,
+            "charEnd": 52,
+            "strong": "G593",
+            "status": "verified"
+          },
+          {
+            "surface": "van",
+            "charStart": 53,
+            "charEnd": 56,
+            "strong": "G575",
+            "status": "verified"
+          },
+          {
+            "surface": "dit",
+            "charStart": 57,
+            "charEnd": 60,
+            "strong": "G5026",
+            "status": "verified"
+          },
+          {
+            "surface": "geslacht",
+            "charStart": 61,
+            "charEnd": 69,
+            "strong": "G1074",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Luke.17.26",
+      "ref": "17:26",
+      "sv": "En gelijk het geschied is in de dagen van Noach, alzo zal het ook zijn in de dagen van den Zoon des mensen.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": "G2532"
+        },
+        {
+          "t": "as",
+          "s": "G2531"
+        },
+        {
+          "t": "it",
+          "s": null
+        },
+        {
+          "t": "was",
+          "s": "G1096"
+        },
+        {
+          "t": "in",
+          "s": "G1722"
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "days",
+          "s": "G2250"
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "Noe,",
+          "s": "G3575"
+        },
+        {
+          "t": "so",
+          "s": "G3779"
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "it",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": "G2071"
+        },
+        {
+          "t": "also",
+          "s": "G2532"
+        },
+        {
+          "t": "in",
+          "s": "G1722"
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "days",
+          "s": "G2250"
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "Son",
+          "s": "G5207"
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "man.",
+          "s": "G444"
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "En",
+            "charStart": 0,
+            "charEnd": 2,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "gelijk",
+            "charStart": 3,
+            "charEnd": 9,
+            "strong": "G2531",
+            "status": "verified"
+          },
+          {
+            "surface": "is",
+            "charStart": 23,
+            "charEnd": 25,
+            "strong": "G1096",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 26,
+            "charEnd": 28,
+            "strong": "G1722",
+            "status": "verified"
+          },
+          {
+            "surface": "dagen",
+            "charStart": 32,
+            "charEnd": 37,
+            "strong": "G2250",
+            "status": "verified"
+          },
+          {
+            "surface": "Noach",
+            "charStart": 42,
+            "charEnd": 47,
+            "strong": "G3575",
+            "status": "verified"
+          },
+          {
+            "surface": "alzo",
+            "charStart": 49,
+            "charEnd": 53,
+            "strong": "G3779",
+            "status": "verified"
+          },
+          {
+            "surface": "ook",
+            "charStart": 62,
+            "charEnd": 65,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "zijn",
+            "charStart": 66,
+            "charEnd": 70,
+            "strong": "G2071",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 71,
+            "charEnd": 73,
+            "strong": "G1722",
+            "status": "verified"
+          },
+          {
+            "surface": "dagen",
+            "charStart": 77,
+            "charEnd": 82,
+            "strong": "G2250",
+            "status": "verified"
+          },
+          {
+            "surface": "Zoon",
+            "charStart": 91,
+            "charEnd": 95,
+            "strong": "G5207",
+            "status": "verified"
+          },
+          {
+            "surface": "mensen",
+            "charStart": 100,
+            "charEnd": 106,
+            "strong": "G444",
+            "status": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "osis": "Luke.17.27",
+      "ref": "17:27",
+      "sv": "Zij aten, zij dronken, zij namen ten huwelijk, zij werden ten huwelijk gegeven, tot den dag, op welken Noach in de ark ging, en de zondvloed kwam, en verdierf ze allen.",
+      "kjv": [
+        {
+          "t": "They",
+          "s": null
+        },
+        {
+          "t": "did",
+          "s": null
+        },
+        {
+          "t": "eat,",
+          "s": "G2068"
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "drank,",
+          "s": "G4095"
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "married",
+          "s": null
+        },
+        {
+          "t": "wives,",
+          "s": "G1060"
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "were",
+          "s": null
+        },
+        {
+          "t": "given",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "marriage,",
+          "s": "G1547"
+        },
+        {
+          "t": "until",
+          "s": "G891"
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "day",
+          "s": "G2250"
+        },
+        {
+          "t": "that",
+          "s": "G3739"
+        },
+        {
+          "t": "Noe",
+          "s": "G3575"
+        },
+        {
+          "t": "entered",
+          "s": "G1525"
+        },
+        {
+          "t": "into",
+          "s": "G1519"
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "ark,",
+          "s": "G2787"
+        },
+        {
+          "t": "and",
+          "s": "G2532"
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "flood",
+          "s": "G2627"
+        },
+        {
+          "t": "came,",
+          "s": "G2064"
+        },
+        {
+          "t": "and",
+          "s": "G2532"
+        },
+        {
+          "t": "destroyed",
+          "s": "G622"
+        },
+        {
+          "t": "them",
+          "s": null
+        },
+        {
+          "t": "all.",
+          "s": "G537"
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "aten",
+            "charStart": 4,
+            "charEnd": 8,
+            "strong": "G2068",
+            "status": "verified"
+          },
+          {
+            "surface": "dronken",
+            "charStart": 14,
+            "charEnd": 21,
+            "strong": "G4095",
+            "status": "verified"
+          },
+          {
+            "surface": "huwelijk",
+            "charStart": 37,
+            "charEnd": 45,
+            "strong": "G1060",
+            "status": "verified"
+          },
+          {
+            "surface": "gegeven",
+            "charStart": 71,
+            "charEnd": 78,
+            "strong": "G1547",
+            "status": "verified"
+          },
+          {
+            "surface": "tot",
+            "charStart": 80,
+            "charEnd": 83,
+            "strong": "G891",
+            "status": "verified"
+          },
+          {
+            "surface": "dag",
+            "charStart": 88,
+            "charEnd": 91,
+            "strong": "G2250",
+            "status": "verified"
+          },
+          {
+            "surface": "welken",
+            "charStart": 96,
+            "charEnd": 102,
+            "strong": "G3739",
+            "status": "verified"
+          },
+          {
+            "surface": "Noach",
+            "charStart": 103,
+            "charEnd": 108,
+            "strong": "G3575",
+            "status": "verified"
+          },
+          {
+            "surface": "in",
+            "charStart": 109,
+            "charEnd": 111,
+            "strong": "G1519",
+            "status": "verified"
+          },
+          {
+            "surface": "ark",
+            "charStart": 115,
+            "charEnd": 118,
+            "strong": "G2787",
+            "status": "verified"
+          },
+          {
+            "surface": "ging",
+            "charStart": 119,
+            "charEnd": 123,
+            "strong": "G1525",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 125,
+            "charEnd": 127,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "zondvloed",
+            "charStart": 131,
+            "charEnd": 140,
+            "strong": "G2627",
+            "status": "verified"
+          },
+          {
+            "surface": "kwam",
+            "charStart": 141,
+            "charEnd": 145,
+            "strong": "G2064",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 147,
+            "charEnd": 149,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "verdierf",
+            "charStart": 150,
+            "charEnd": 158,
+            "strong": "G622",
+            "status": "verified"
+          },
+          {
+            "surface": "allen",
+            "charStart": 162,
+            "charEnd": 167,
+            "strong": "G537",
+            "status": "verified"
+          }
+        ]
+      }
+    }
+  ],
+  "lexicon": {
+    "G1161": {
+      "strong": "G1161",
+      "language": "greek",
+      "lemma": "δέ",
+      "translit": "dé",
+      "gloss_nl": null,
+      "gloss_en": "but, and, etc.",
+      "usage_nl": [
+        "doch",
+        "nu",
+        "en",
+        "dan",
+        "maar"
+      ],
+      "usage_en": [
+        "but",
+        "now",
+        "and",
+        "then",
+        "when",
+        "wherefore",
+        "moreover",
+        "as",
+        "so",
+        "all",
+        "immediately",
+        "while",
+        "afterward",
+        "after",
+        "yea",
+        "even",
+        "also",
+        "now often unexpressed in english"
+      ]
+    },
+    "G1905": {
+      "strong": "G1905",
+      "language": "greek",
+      "lemma": "ἐπερωτάω",
+      "translit": "eperōtáō",
+      "gloss_nl": null,
+      "gloss_en": "to ask for, i.e. inquire, seek",
+      "usage_nl": [
+        "begeerden",
+        "zal",
+        "vragen",
+        "ondervragende",
+        "vraagden"
+      ],
+      "usage_en": [
+        "desired",
+        "will",
+        "ask",
+        "asking",
+        "questions",
+        "asked",
+        "demanded",
+        "ask after",
+        "demand",
+        "desire",
+        "question"
+      ]
+    },
+    "G5259": {
+      "strong": "G5259",
+      "language": "greek",
+      "lemma": "ὑπό",
+      "translit": "hypó",
+      "gloss_nl": null,
+      "gloss_en": "under, i.e. (with the genitive case) of place (beneath), or with verbs (the agency or means, through); (with the accusative case) of place (whither (underneath) or where (below) or time (when (at))",
+      "usage_nl": [
+        "van",
+        "door"
+      ],
+      "usage_en": [
+        "of",
+        "by",
+        "among",
+        "from",
+        "in",
+        "under",
+        "with"
+      ]
+    },
+    "G5330": {
+      "strong": "G5330",
+      "language": "greek",
+      "lemma": "Φαρισαῖος",
+      "translit": "Pharisaîos",
+      "gloss_nl": null,
+      "gloss_en": "a separatist, i.e. exclusively religious; a Pharisean, i.e. Jewish sectary",
+      "usage_nl": [
+        "farizeen"
+      ],
+      "usage_en": [
+        "pharisees",
+        "pharisee"
+      ]
+    },
+    "G4219": {
+      "strong": "G4219",
+      "language": "greek",
+      "lemma": "πότε",
+      "translit": "póte",
+      "gloss_nl": null,
+      "gloss_en": "interrogative adverb, at what time",
+      "usage_nl": [
+        "wanneer"
+      ],
+      "usage_en": [
+        "when",
+        "+ how long"
+      ]
+    },
+    "G932": {
+      "strong": "G932",
+      "language": "greek",
+      "lemma": "βασιλεία",
+      "translit": "basileía",
+      "gloss_nl": "koninkrijk; heerschappij van God",
+      "gloss_en": "properly, royalty, i.e. (abstractly) rule, or (concretely) a realm (literally or figuratively)",
+      "usage_nl": [
+        "koninkrijken",
+        "koninkrijk",
+        "koninkrijks"
+      ],
+      "usage_en": [
+        "kingdoms",
+        "kingdom",
+        "+ reign"
+      ]
+    },
+    "G2316": {
+      "strong": "G2316",
+      "language": "greek",
+      "lemma": "θεός",
+      "translit": "theós",
+      "gloss_nl": "God; de Allerhoogste God",
+      "gloss_en": "figuratively, a magistrate; by Hebraism, very",
+      "usage_nl": [
+        "gods",
+        "god"
+      ],
+      "usage_en": [
+        "god",
+        "x exceeding",
+        "god-ly",
+        "-ward"
+      ]
+    },
+    "G2064": {
+      "strong": "G2064",
+      "language": "greek",
+      "lemma": "ἔρχομαι",
+      "translit": "érchomai",
+      "gloss_nl": null,
+      "gloss_en": "to come or go (in a great variety of applications, literally and figuratively)",
+      "usage_nl": [
+        "komen",
+        "waren",
+        "was",
+        "komt",
+        "gekomen",
+        "komende",
+        "kwam",
+        "zal",
+        "zou",
+        "kwamen",
+        "hij",
+        "zijnde",
+        "zij",
+        "kome",
+        "ik",
+        "kom"
+      ],
+      "usage_en": [
+        "came",
+        "come",
+        "coming",
+        "cometh",
+        "went",
+        "was",
+        "i",
+        "there",
+        "accompany",
+        "appear",
+        "bring",
+        "enter",
+        "fall out",
+        "go",
+        "grow",
+        "x light",
+        "x next",
+        "pass",
+        "resort",
+        "be set"
+      ]
+    },
+    "G846": {
+      "strong": "G846",
+      "language": "greek",
+      "lemma": "αὐτός",
+      "translit": "autós",
+      "gloss_nl": null,
+      "gloss_en": "the reflexive pronoun self, used (alone or in the comparative G1438 (ἑαυτοῦ)) of the third person , and (with the proper personal pronoun) of the other persons",
+      "usage_nl": [
+        "hem",
+        "zijn",
+        "hun",
+        "denzelven",
+        "hen",
+        "dezelve",
+        "hij",
+        "hetzelve",
+        "zijner",
+        "zijns",
+        "dat",
+        "ze",
+        "het",
+        "[hem",
+        "hunnen",
+        "haar",
+        "derzelve",
+        "hunlieder",
+        "dengene",
+        "dezen",
+        "zij",
+        "dergenen",
+        "henlieden",
+        "diezelfde",
+        "harer",
+        "dierzelfder",
+        "deze",
+        "dien",
+        "zelf",
+        "dit",
+        "zijnentwil",
+        "zelve"
+      ],
+      "usage_en": [
+        "him",
+        "his",
+        "them",
+        "their",
+        "it",
+        "he",
+        "own",
+        "that",
+        "her",
+        "they",
+        "same",
+        "she",
+        "himself",
+        "thereof",
+        "miracles",
+        "this",
+        "very",
+        "sake",
+        "it-self",
+        "one",
+        "the other",
+        "mine own",
+        "said",
+        "self-",
+        "the same",
+        "him-",
+        "my-",
+        "thy- self",
+        "your-selves",
+        "their-s",
+        "them-selves",
+        "there-at",
+        "- by",
+        "-in",
+        "-into",
+        "-of",
+        "-on",
+        "-with",
+        "these things",
+        "this man",
+        "those",
+        "together",
+        "which"
+      ]
+    },
+    "G611": {
+      "strong": "G611",
+      "language": "greek",
+      "lemma": "ἀποκρίνομαι",
+      "translit": "apokrínomai",
+      "gloss_nl": null,
+      "gloss_en": "to conclude for oneself, i.e. (by implication) to respond; by Hebraism (compare H06030) to begin to speak (where an address is expected)",
+      "usage_nl": [
+        "antwoordende",
+        "antwoordde",
+        "antwoordden",
+        "antwoorden",
+        "antwoordt"
+      ],
+      "usage_en": [
+        "answered",
+        "answer",
+        "answering",
+        "answereth"
+      ]
+    },
+    "G2532": {
+      "strong": "G2532",
+      "language": "greek",
+      "lemma": "καί",
+      "translit": "kaí",
+      "gloss_nl": null,
+      "gloss_en": "and, also, even, so then, too, etc.; often used in connection (or composition) with other particles or small words",
+      "usage_nl": [
+        "en",
+        "ook",
+        "dat",
+        "zo",
+        "[ook",
+        "dan",
+        "met",
+        "[alzo"
+      ],
+      "usage_en": [
+        "and",
+        "also",
+        "then",
+        "even",
+        "very",
+        "likewise",
+        "so",
+        "now",
+        "both",
+        "but",
+        "yet",
+        "that",
+        "which",
+        "with",
+        "for",
+        "nor",
+        "if",
+        "or",
+        "therefore",
+        "when"
+      ]
+    },
+    "G2036": {
+      "strong": "G2036",
+      "language": "greek",
+      "lemma": "ἔπω",
+      "translit": "épō",
+      "gloss_nl": null,
+      "gloss_en": "to speak or say (by word or writing)",
+      "usage_nl": [
+        "zeide",
+        "zeg",
+        "heb",
+        "had",
+        "zeiden",
+        "zouden",
+        "zeggen",
+        "zegt",
+        "hebbende",
+        "zeggende",
+        "zij",
+        "gezegd",
+        "hij",
+        "heeft",
+        "zal",
+        "hebben"
+      ],
+      "usage_en": [
+        "said",
+        "command",
+        "spake",
+        "bade",
+        "tell",
+        "say",
+        "ye",
+        "saith",
+        "commanded",
+        "spoken",
+        "saying",
+        "they",
+        "he",
+        "answer",
+        "bid",
+        "bring word",
+        "call",
+        "grant",
+        "say on",
+        "speak"
+      ]
+    },
+    "G3756": {
+      "strong": "G3756",
+      "language": "greek",
+      "lemma": "οὐ",
+      "translit": "ou",
+      "gloss_nl": null,
+      "gloss_en": "the absolute negative (compare G3361 (μή)) adverb; no or not",
+      "usage_nl": [
+        "niet",
+        "geen",
+        "niets"
+      ],
+      "usage_en": [
+        "not",
+        "no",
+        "there",
+        "neither",
+        "cannot",
+        "none",
+        "nothing",
+        "+ long",
+        "nay",
+        "never",
+        "no x man",
+        "can-not",
+        "+ nothing",
+        "+ special",
+        "un-worthy",
+        "when",
+        "+ without",
+        "+ yet but"
+      ]
+    },
+    "G3326": {
+      "strong": "G3326",
+      "language": "greek",
+      "lemma": "μετά",
+      "translit": "metá",
+      "gloss_nl": null,
+      "gloss_en": "properly, denoting accompaniment; \"amid\" (local or causal); modified variously according to the case (genitive association, or accusative succession) with which it is joined; occupying an intermediate position between G575 (ἀπό) or G1537 (ἐκ) and G1519 (εἰς) or G4314 (πρός); less intimate than G1722 (ἐν) and less close than G4862 (σύν))",
+      "usage_nl": [
+        "met",
+        "na",
+        "daarna",
+        "onder",
+        "bij"
+      ],
+      "usage_en": [
+        "with",
+        "of",
+        "after",
+        "among",
+        "after-ward",
+        "x that he again",
+        "against",
+        "x and",
+        "+ follow",
+        "hence",
+        "hereafter",
+        "in",
+        "up-on",
+        "+ our",
+        "x and setting",
+        "since",
+        "un-to",
+        "+ together",
+        "when",
+        "with + -out"
+      ]
+    },
+    "G3907": {
+      "strong": "G3907",
+      "language": "greek",
+      "lemma": "παρατήρησις",
+      "translit": "paratḗrēsis",
+      "gloss_nl": null,
+      "gloss_en": "inspection, i.e. ocular evidence",
+      "usage_nl": [],
+      "usage_en": [
+        "obervation"
+      ]
+    },
+    "G3761": {
+      "strong": "G3761",
+      "language": "greek",
+      "lemma": "οὐδέ",
+      "translit": "oudé",
+      "gloss_nl": null,
+      "gloss_en": "not however, i.e. neither, nor, not even",
+      "usage_nl": [
+        "en",
+        "niet",
+        "noch",
+        "ook"
+      ],
+      "usage_en": [
+        "neither",
+        "no",
+        "not",
+        "nor",
+        "neither indeed",
+        "never",
+        "no more",
+        "nor yet",
+        "also",
+        "even",
+        "then not even",
+        "so much as",
+        "+ nothing"
+      ]
+    },
+    "G2046": {
+      "strong": "G2046",
+      "language": "greek",
+      "lemma": "ἐρέω",
+      "translit": "eréō",
+      "gloss_nl": null,
+      "gloss_en": "an alternate for G2036 (ἔπω) in certain tenses; to utter, i.e. speak or say",
+      "usage_nl": [
+        "zeggen",
+        "ik",
+        "is",
+        "gij",
+        "gezegd",
+        "heeft"
+      ],
+      "usage_en": [
+        "say",
+        "tell",
+        "said",
+        "i",
+        "told",
+        "call",
+        "speak of"
+      ]
+    },
+    "G2400": {
+      "strong": "G2400",
+      "language": "greek",
+      "lemma": "ἰδού",
+      "translit": "idoú",
+      "gloss_nl": null,
+      "gloss_en": "used as imperative lo!;",
+      "usage_nl": [
+        "ziet",
+        "zie"
+      ],
+      "usage_en": [
+        "behold",
+        "lo",
+        "--behold",
+        "see"
+      ]
+    },
+    "G5602": {
+      "strong": "G5602",
+      "language": "greek",
+      "lemma": "ὧδε",
+      "translit": "hōde",
+      "gloss_nl": null,
+      "gloss_en": "in this same spot, i.e. here or hither",
+      "usage_nl": [
+        "hier",
+        "daar",
+        "herwaarts"
+      ],
+      "usage_en": [
+        "here",
+        "there",
+        "hither",
+        "in this place"
+      ]
+    },
+    "G2228": {
+      "strong": "G2228",
+      "language": "greek",
+      "lemma": "ἤ",
+      "translit": "ḗ",
+      "gloss_nl": null,
+      "gloss_en": "disjunctive, or; comparative, than",
+      "usage_nl": [
+        "of",
+        "dan"
+      ],
+      "usage_en": [
+        "or",
+        "than",
+        "and",
+        "but either",
+        "n-either",
+        "except it be",
+        "n-or else",
+        "rather",
+        "save",
+        "that",
+        "what",
+        "yea"
+      ]
+    },
+    "G1563": {
+      "strong": "G1563",
+      "language": "greek",
+      "lemma": "ἐκεῖ",
+      "translit": "ekeî",
+      "gloss_nl": null,
+      "gloss_en": "there; by extension, thither",
+      "usage_nl": [
+        "daar",
+        "aldaar"
+      ],
+      "usage_en": [
+        "there",
+        "thither-ward",
+        "to yonder place"
+      ]
+    },
+    "G1063": {
+      "strong": "G1063",
+      "language": "greek",
+      "lemma": "γάρ",
+      "translit": "gár",
+      "gloss_nl": null,
+      "gloss_en": "properly, assigning a reason (used in argument, explanation or intensification; often with other particles)",
+      "usage_nl": [
+        "want"
+      ],
+      "usage_en": [
+        "for",
+        "and",
+        "as",
+        "because that",
+        "but",
+        "even",
+        "indeed",
+        "no doubt",
+        "seeing",
+        "then",
+        "therefore",
+        "verily",
+        "what",
+        "why",
+        "yet"
+      ]
+    },
+    "G2076": {
+      "strong": "G2076",
+      "language": "greek",
+      "lemma": "ἐστί",
+      "translit": "estí",
+      "gloss_nl": null,
+      "gloss_en": "he (she or it) is; also (with neuter plural) they are",
+      "usage_nl": [
+        "was",
+        "is",
+        "zijn",
+        "hij",
+        "het"
+      ],
+      "usage_en": [
+        "was",
+        "is",
+        "be",
+        "are",
+        "he",
+        "should",
+        "am",
+        "be-long",
+        "call",
+        "x can-not",
+        "come",
+        "consisteth",
+        "x dure for a while",
+        "+ follow",
+        "x have",
+        "that is to say",
+        "make",
+        "meaneth",
+        "x must needs",
+        "+ profit",
+        "+ remaineth",
+        "+ wrestle"
+      ]
+    },
+    "G1787": {
+      "strong": "G1787",
+      "language": "greek",
+      "lemma": "ἐντός",
+      "translit": "entós",
+      "gloss_nl": null,
+      "gloss_en": "inside (adverb or noun)",
+      "usage_nl": [],
+      "usage_en": [
+        "within"
+      ]
+    },
+    "G5216": {
+      "strong": "G5216",
+      "language": "greek",
+      "lemma": "ὑμῶν",
+      "translit": "hymōn",
+      "gloss_nl": null,
+      "gloss_en": "of (from or concerning) you",
+      "usage_nl": [
+        "uws",
+        "u",
+        "uw",
+        "ulieden"
+      ],
+      "usage_en": [
+        "your",
+        "you",
+        "ye",
+        "your own",
+        "-selves"
+      ]
+    },
+    "G4314": {
+      "strong": "G4314",
+      "language": "greek",
+      "lemma": "πρός",
+      "translit": "prós",
+      "gloss_nl": null,
+      "gloss_en": "a preposition of direction; forward to, i.e. toward (with the genitive case, the side of, i.e. pertaining to; with the dative case, by the side of, i.e. near to; usually with the accusative case, the place, time, occasion, or respect, which is the destination of the relation, i.e. whither or for which it is predicated)",
+      "usage_nl": [
+        "aan",
+        "tot",
+        "bij",
+        "onder",
+        "hun"
+      ],
+      "usage_en": [
+        "against",
+        "them",
+        "unto",
+        "at",
+        "by",
+        "to",
+        "with",
+        "among",
+        "about",
+        "according to",
+        "because of",
+        "before",
+        "between",
+        "where-by",
+        "for",
+        "x at thy house",
+        "in",
+        "for intent",
+        "nigh unto",
+        "of",
+        "which pertain to",
+        "that",
+        "to the end that",
+        "x together",
+        "to you -ward",
+        "with-in"
+      ]
+    },
+    "G3101": {
+      "strong": "G3101",
+      "language": "greek",
+      "lemma": "μαθητής",
+      "translit": "mathētḗs",
+      "gloss_nl": "discipel; leerling; volgeling",
+      "gloss_en": "a learner, i.e. pupil",
+      "usage_nl": [
+        "discipelen"
+      ],
+      "usage_en": [
+        "disciples",
+        "disciple"
+      ]
+    },
+    "G2250": {
+      "strong": "G2250",
+      "language": "greek",
+      "lemma": "ἡμέρα",
+      "translit": "hēméra",
+      "gloss_nl": null,
+      "gloss_en": "day, i.e. (literally) the time space between dawn and dark, or the whole 24 hours (but several days were usually reckoned by the Jews as inclusive of the parts of both extremes); figuratively, a period (always defined more or less clearly by the context)",
+      "usage_nl": [
+        "dagen",
+        "dage",
+        "dag",
+        "ouderdom",
+        "dagreize"
+      ],
+      "usage_en": [
+        "days",
+        "day",
+        "age",
+        "day's",
+        "+ alway",
+        "mid-day by day",
+        "-ly",
+        "+ for ever",
+        "judgment",
+        "day time",
+        "while",
+        "years"
+      ]
+    },
+    "G3753": {
+      "strong": "G3753",
+      "language": "greek",
+      "lemma": "ὅτε",
+      "translit": "hóte",
+      "gloss_nl": null,
+      "gloss_en": "at which (thing) too, i.e. when",
+      "usage_nl": [
+        "toen",
+        "als",
+        "dat"
+      ],
+      "usage_en": [
+        "when",
+        "after that",
+        "as soon as",
+        "that",
+        "while"
+      ]
+    },
+    "G1937": {
+      "strong": "G1937",
+      "language": "greek",
+      "lemma": "ἐπιθυμέω",
+      "translit": "epithyméō",
+      "gloss_nl": null,
+      "gloss_en": "to set the heart upon, i.e. long for (rightfully or otherwise)",
+      "usage_nl": [],
+      "usage_en": [
+        "covet",
+        "desire",
+        "would fain",
+        "lust after"
+      ]
+    },
+    "G3391": {
+      "strong": "G3391",
+      "language": "greek",
+      "lemma": "μία",
+      "translit": "mía",
+      "gloss_nl": null,
+      "gloss_en": "one or first",
+      "usage_nl": [
+        "ene",
+        "andere"
+      ],
+      "usage_en": [
+        "one",
+        "other",
+        "a certain",
+        "+ agree",
+        "first",
+        "x other"
+      ]
+    },
+    "G5207": {
+      "strong": "G5207",
+      "language": "greek",
+      "lemma": "υἱός",
+      "translit": "huiós",
+      "gloss_nl": null,
+      "gloss_en": "a \"son\" (sometimes of animals), used very widely of immediate, remote or figuratively, kinship",
+      "usage_nl": [
+        "zoon",
+        "zoons",
+        "kinderen"
+      ],
+      "usage_en": [
+        "son",
+        "children",
+        "child",
+        "foal"
+      ]
+    },
+    "G444": {
+      "strong": "G444",
+      "language": "greek",
+      "lemma": "ἄνθρωπος",
+      "translit": "ánthrōpos",
+      "gloss_nl": "mens; mensheid",
+      "gloss_en": "from G3700 (ὀπτάνομαι)); man-faced, i.e. a human being",
+      "usage_nl": [
+        "mens",
+        "mensen",
+        "zeker",
+        "herders",
+        "man"
+      ],
+      "usage_en": [
+        "man",
+        "men",
+        "certain",
+        "shepherds",
+        "nobleman"
+      ]
+    },
+    "G1492": {
+      "strong": "G1492",
+      "language": "greek",
+      "lemma": "εἴδω",
+      "translit": "eídō",
+      "gloss_nl": null,
+      "gloss_en": "used only in certain past tenses, the others being borrowed from the equivalent G3700 (ὀπτάνομαι) and G3708 (ὁράω); properly, to see (literally or figuratively); by implication, (in the perfect tense only) to know",
+      "usage_nl": [
+        "gezien",
+        "zag",
+        "zien",
+        "zagen",
+        "weet",
+        "had",
+        "ken",
+        "wist",
+        "ziende",
+        "zij",
+        "weten",
+        "hadden",
+        "zoude",
+        "gij",
+        "hij",
+        "wisten",
+        "hebbende",
+        "hebt",
+        "kennen",
+        "wetende"
+      ],
+      "usage_en": [
+        "saw",
+        "see",
+        "knoweth",
+        "know",
+        "known",
+        "knewest",
+        "we",
+        "seeing",
+        "tell",
+        "seen",
+        "should",
+        "ye",
+        "beheld",
+        "knew",
+        "be aware",
+        "behold",
+        "x can + not tell",
+        "consider",
+        "have know-ledge",
+        "look on",
+        "perceive",
+        "be sure",
+        "understand",
+        "wish",
+        "wot"
+      ]
+    },
+    "G3700": {
+      "strong": "G3700",
+      "language": "greek",
+      "lemma": "ὀπτάνομαι",
+      "translit": "optánomai",
+      "gloss_nl": null,
+      "gloss_en": "to gaze (i.e. with wide-open eyes, as at something remarkable; and thus differing from G991 (βλέπω), which denotes simply voluntary observation; and from G1492 (εἴδω), which expresses merely mechanical, passive or casual vision; while G2300 (θεάομαι), and still more emphatically its intensive G2334 (θεωρέω), signifies an earnest but more continued inspection; and G4648 (σκοπέω) a watching from a distance)",
+      "usage_nl": [
+        "zien"
+      ],
+      "usage_en": [
+        "see",
+        "appear",
+        "look",
+        "shew self"
+      ]
+    },
+    "G5213": {
+      "strong": "G5213",
+      "language": "greek",
+      "lemma": "ὑμῖν",
+      "translit": "hymîn",
+      "gloss_nl": null,
+      "gloss_en": "to (with or by) you",
+      "usage_nl": [
+        "u",
+        "ulieden"
+      ],
+      "usage_en": [
+        "you",
+        "ye",
+        "your-selves"
+      ]
+    },
+    "G565": {
+      "strong": "G565",
+      "language": "greek",
+      "lemma": "ἀπέρχομαι",
+      "translit": "apérchomai",
+      "gloss_nl": null,
+      "gloss_en": "to go off (i.e. depart), aside (i.e. apart) or behind (i.e. follow), literally or figuratively",
+      "usage_nl": [
+        "uit",
+        "weg",
+        "heengaan",
+        "heen",
+        "heengingen",
+        "heengegaan",
+        "gaan",
+        "waren",
+        "zijnde",
+        "vertrok",
+        "gingen",
+        "gaat",
+        "weggaande"
+      ],
+      "usage_en": [
+        "went",
+        "departed",
+        "go",
+        "away",
+        "way",
+        "gone",
+        "come",
+        "depart",
+        "go aside",
+        "back",
+        "out",
+        "… ways",
+        "pass away",
+        "be past"
+      ]
+    },
+    "G3361": {
+      "strong": "G3361",
+      "language": "greek",
+      "lemma": "μή",
+      "translit": "mḗ",
+      "gloss_nl": null,
+      "gloss_en": "(adverb) not, (conjunction) lest; also (as an interrogative implying a negative answer (whereas G3756 (οὐ) expects an affirmative one)) whether",
+      "usage_nl": [
+        "niet",
+        "niemand",
+        "geen"
+      ],
+      "usage_en": [
+        "not",
+        "no",
+        "neither",
+        "none",
+        "nothing",
+        "any but that",
+        "x forbear",
+        "+ god forbid",
+        "+ lack",
+        "lest",
+        "never",
+        "no x wise in",
+        "nor",
+        "can-not",
+        "that not",
+        "un-taken",
+        "without"
+      ]
+    },
+    "G3366": {
+      "strong": "G3366",
+      "language": "greek",
+      "lemma": "μηδέ",
+      "translit": "mēdé",
+      "gloss_nl": null,
+      "gloss_en": "but not, not even; in a continued negation, nor",
+      "usage_nl": [
+        "noch",
+        "en",
+        "niemand",
+        "niet"
+      ],
+      "usage_en": [
+        "neither",
+        "nor yet",
+        "no not once",
+        "so much as"
+      ]
+    },
+    "G1377": {
+      "strong": "G1377",
+      "language": "greek",
+      "lemma": "διώκω",
+      "translit": "diṓkō",
+      "gloss_nl": null,
+      "gloss_en": "compare the base of G1169 (δειλός) and G1249 (διάκονος)); to pursue (literally or figuratively); by implication, to persecute",
+      "usage_nl": [],
+      "usage_en": [
+        "ensue",
+        "follow after",
+        "given to",
+        "suffer persecute-ion",
+        "press forward"
+      ]
+    },
+    "G5618": {
+      "strong": "G5618",
+      "language": "greek",
+      "lemma": "ὥσπερ",
+      "translit": "hṓsper",
+      "gloss_nl": null,
+      "gloss_en": "just as, i.e. exactly like",
+      "usage_nl": [
+        "als",
+        "gelijk"
+      ],
+      "usage_en": [
+        "as",
+        "even",
+        "like as"
+      ]
+    },
+    "G796": {
+      "strong": "G796",
+      "language": "greek",
+      "lemma": "ἀστραπή",
+      "translit": "astrapḗ",
+      "gloss_nl": null,
+      "gloss_en": "lightning; by analogy, glare",
+      "usage_nl": [
+        "bliksem"
+      ],
+      "usage_en": [
+        "lightning",
+        "bright shining"
+      ]
+    },
+    "G1537": {
+      "strong": "G1537",
+      "language": "greek",
+      "lemma": "ἐκ",
+      "translit": "ek",
+      "gloss_nl": null,
+      "gloss_en": "literal or figurative; direct or remote)",
+      "usage_nl": [
+        "uit",
+        "van",
+        "tot",
+        "ter",
+        "daaruit",
+        "daarvan",
+        "der"
+      ],
+      "usage_en": [
+        "from",
+        "of",
+        "on",
+        "off",
+        "thereof",
+        "with",
+        "among",
+        "after",
+        "x are",
+        "at",
+        "betwixt-yond",
+        "by the means of",
+        "exceedingly",
+        "+ abundantly above",
+        "for- th",
+        "from among",
+        "forth",
+        "up",
+        "+ grudgingly",
+        "+ heartily",
+        "x heavenly",
+        "x hereby",
+        "+ very highly",
+        "in",
+        "…ly",
+        "because",
+        "by reason of",
+        "off from",
+        "out among from",
+        "over",
+        "since",
+        "x thenceforth",
+        "through",
+        "x unto",
+        "x vehemently",
+        "with-out"
+      ]
+    },
+    "G3772": {
+      "strong": "G3772",
+      "language": "greek",
+      "lemma": "οὐρανός",
+      "translit": "ouranós",
+      "gloss_nl": null,
+      "gloss_en": "the sky; by extension, heaven (as the abode of God); by implication, happiness, power, eternity; specially, the Gospel (Christianity)",
+      "usage_nl": [
+        "hemelen",
+        "hemel",
+        "hemels"
+      ],
+      "usage_en": [
+        "heaven",
+        "sky",
+        "heavens",
+        "air",
+        "heaven-ly"
+      ]
+    },
+    "G797": {
+      "strong": "G797",
+      "language": "greek",
+      "lemma": "ἀστράπτω",
+      "translit": "astráptō",
+      "gloss_nl": null,
+      "gloss_en": "to flash as lightning",
+      "usage_nl": [],
+      "usage_en": [
+        "lighten",
+        "shine"
+      ]
+    },
+    "G1519": {
+      "strong": "G1519",
+      "language": "greek",
+      "lemma": "εἰς",
+      "translit": "eis",
+      "gloss_nl": null,
+      "gloss_en": "to or into (indicating the point reached or entered), of place, time, or (figuratively) purpose (result, etc.); also in adverbial phrases",
+      "usage_nl": [
+        "in",
+        "naar",
+        "op",
+        "te",
+        "tot",
+        "tegen",
+        "aan",
+        "zij",
+        "binnen",
+        "nabij",
+        "onder",
+        "daar",
+        "terug",
+        "tegemoet"
+      ],
+      "usage_en": [
+        "into",
+        "in",
+        "throughout",
+        "to",
+        "unto",
+        "against",
+        "at",
+        "for",
+        "made",
+        "on",
+        "among",
+        "toward",
+        "whither",
+        "whereinto",
+        "back",
+        "abundant-ly",
+        "as",
+        "back-ward",
+        "before",
+        "by",
+        "concerning",
+        "+ continual",
+        "+ far more exceeding",
+        "for intent",
+        "purpose",
+        "fore",
+        "+ forth",
+        "in among",
+        "-so much that",
+        "-to",
+        "to the intent that",
+        "+ of one mind",
+        "+ never",
+        "of",
+        "up-on",
+        "+ perish",
+        "+ set at one again",
+        "so that",
+        "therefore-unto",
+        "til",
+        "to be",
+        "the end",
+        "-ward",
+        "here-until-to",
+        "…ward",
+        "where-fore",
+        "with"
+      ]
+    },
+    "G2989": {
+      "strong": "G2989",
+      "language": "greek",
+      "lemma": "λάμπω",
+      "translit": "lámpō",
+      "gloss_nl": null,
+      "gloss_en": "to beam, i.e. radiate brilliancy (literally or figuratively)",
+      "usage_nl": [],
+      "usage_en": [
+        "give light",
+        "shine"
+      ]
+    },
+    "G3779": {
+      "strong": "G3779",
+      "language": "greek",
+      "lemma": "οὕτω",
+      "translit": "hoútō",
+      "gloss_nl": null,
+      "gloss_en": "in this way (referring to what precedes or follows)",
+      "usage_nl": [
+        "alzo",
+        "zo"
+      ],
+      "usage_en": [
+        "so",
+        "thus",
+        "after that",
+        "after in this manner",
+        "as",
+        "even so",
+        "for all that",
+        "like-wise",
+        "no more",
+        "on this fashion-wise",
+        "so in like manner",
+        "what"
+      ]
+    },
+    "G2071": {
+      "strong": "G2071",
+      "language": "greek",
+      "lemma": "ἔσομαι",
+      "translit": "ésomai",
+      "gloss_nl": null,
+      "gloss_en": "will be",
+      "usage_nl": [
+        "zijn",
+        "geschieden",
+        "wezen",
+        "worden",
+        "zal",
+        "geworden",
+        "zullen"
+      ],
+      "usage_en": [
+        "be",
+        "shall",
+        "have",
+        "shall should be have",
+        "shall come to pass",
+        "x may have",
+        "x fall",
+        "what would follow",
+        "x live long",
+        "x sojourn"
+      ]
+    },
+    "G1722": {
+      "strong": "G1722",
+      "language": "greek",
+      "lemma": "ἐν",
+      "translit": "en",
+      "gloss_nl": null,
+      "gloss_en": "\"in,\" at, (up-)on, by, etc.",
+      "usage_nl": [
+        "in",
+        "onder",
+        "bij",
+        "te",
+        "op",
+        "ter",
+        "ten",
+        "daarmede",
+        "door",
+        "als",
+        "tot",
+        "toen",
+        "met",
+        "werd",
+        "daarin",
+        "aan"
+      ],
+      "usage_en": [
+        "in",
+        "among",
+        "at",
+        "with",
+        "on",
+        "wherein",
+        "thereon",
+        "by",
+        "while",
+        "toward",
+        "as",
+        "about",
+        "within",
+        "baptized",
+        "when",
+        "therein",
+        "after",
+        "against",
+        "+ almost",
+        "x altogether",
+        "x as",
+        "before",
+        "between",
+        "here-by + all means",
+        "for … sake of",
+        "+ give self wholly to",
+        "here-in-to",
+        "-wardly",
+        "x mightily",
+        "because of",
+        "up-on",
+        "open-ly",
+        "x outwardly",
+        "one",
+        "x quickly",
+        "x shortly",
+        "speedi-ly",
+        "x that",
+        "x there-in",
+        "-on",
+        "through-out",
+        "un-to-ward",
+        "under",
+        "where-with",
+        "with-in"
+      ]
+    },
+    "G4412": {
+      "strong": "G4412",
+      "language": "greek",
+      "lemma": "πρῶτον",
+      "translit": "prōton",
+      "gloss_nl": null,
+      "gloss_en": "firstly (in time, place, order, or importance)",
+      "usage_nl": [
+        "eerst"
+      ],
+      "usage_en": [
+        "beginning",
+        "first",
+        "before",
+        "at the beginning",
+        "chiefly at",
+        "at the first of all"
+      ]
+    },
+    "G1163": {
+      "strong": "G1163",
+      "language": "greek",
+      "lemma": "δεῖ",
+      "translit": "deî",
+      "gloss_nl": null,
+      "gloss_en": "also deon deh-on'; neuter active participle of the same; both used impersonally; it is (was, etc.) necessary (as binding)",
+      "usage_nl": [
+        "moest",
+        "behoordet",
+        "moeten",
+        "moet"
+      ],
+      "usage_en": [
+        "must",
+        "shouldest",
+        "oughtest",
+        "behoved",
+        "be meet",
+        "must needs",
+        "be need-ful",
+        "ought",
+        "should"
+      ]
+    },
+    "G4183": {
+      "strong": "G4183",
+      "language": "greek",
+      "lemma": "πολύς",
+      "translit": "polýs",
+      "gloss_nl": null,
+      "gloss_en": "(singular) much (in any respect) or (plural) many; neuter (singular) as adverbial, largely; neuter (plural) as adverb or noun often, mostly, largely",
+      "usage_nl": [
+        "vele",
+        "veel",
+        "velen",
+        "grote",
+        "langen",
+        "veler",
+        "groten",
+        "dingen"
+      ],
+      "usage_en": [
+        "great",
+        "things",
+        "many",
+        "long",
+        "much",
+        "abundant",
+        "+ altogether",
+        "common",
+        "+ far passed",
+        "spent",
+        "+ be of a great age",
+        "deal",
+        "-ly",
+        "while",
+        "oft-en -times",
+        "plenteous",
+        "sore",
+        "straitly"
+      ]
+    },
+    "G3958": {
+      "strong": "G3958",
+      "language": "greek",
+      "lemma": "πάσχω",
+      "translit": "páschō",
+      "gloss_nl": null,
+      "gloss_en": "to experience a sensation or impression (usually painful)",
+      "usage_nl": [
+        "lijden"
+      ],
+      "usage_en": [
+        "suffer",
+        "feel",
+        "passion",
+        "vex"
+      ]
+    },
+    "G593": {
+      "strong": "G593",
+      "language": "greek",
+      "lemma": "ἀποδοκιμάζω",
+      "translit": "apodokimázō",
+      "gloss_nl": null,
+      "gloss_en": "to disapprove, i.e. (by implication) to repudiate",
+      "usage_nl": [],
+      "usage_en": [
+        "disallow",
+        "reject"
+      ]
+    },
+    "G575": {
+      "strong": "G575",
+      "language": "greek",
+      "lemma": "ἀπό",
+      "translit": "apó",
+      "gloss_nl": null,
+      "gloss_en": "\"off,\" i.e. away (from something near), in various senses (of place, time, or relation; literal or figurative)",
+      "usage_nl": [
+        "van",
+        "uit",
+        "vanwege",
+        "voor"
+      ],
+      "usage_en": [
+        "from",
+        "of",
+        "since",
+        "for",
+        "x here-after",
+        "ago",
+        "at",
+        "because of",
+        "before",
+        "by the space of",
+        "for-th",
+        "in",
+        "out of",
+        "off",
+        "up-on-ce",
+        "with"
+      ]
+    },
+    "G5026": {
+      "strong": "G5026",
+      "language": "greek",
+      "lemma": "ταύτῃ",
+      "translit": "taútēi",
+      "gloss_nl": null,
+      "gloss_en": "(towards or of) this",
+      "usage_nl": [
+        "deze",
+        "dezen",
+        "dit"
+      ],
+      "usage_en": [
+        "this",
+        "her",
+        "+ hereof",
+        "it",
+        "that",
+        "+ thereby",
+        "the same",
+        "this same"
+      ]
+    },
+    "G1074": {
+      "strong": "G1074",
+      "language": "greek",
+      "lemma": "γενεά",
+      "translit": "geneá",
+      "gloss_nl": null,
+      "gloss_en": "a generation; by implication, an age (the period or the persons)",
+      "usage_nl": [
+        "geslacht"
+      ],
+      "usage_en": [
+        "generation",
+        "age",
+        "nation",
+        "time"
+      ]
+    },
+    "G2531": {
+      "strong": "G2531",
+      "language": "greek",
+      "lemma": "καθώς",
+      "translit": "kathṓs",
+      "gloss_nl": null,
+      "gloss_en": "just (or inasmuch) as, that",
+      "usage_nl": [
+        "gelijk",
+        "gelijkerwijs"
+      ],
+      "usage_en": [
+        "as",
+        "according to",
+        "according",
+        "even as",
+        "how",
+        "when"
+      ]
+    },
+    "G1096": {
+      "strong": "G1096",
+      "language": "greek",
+      "lemma": "γίνομαι",
+      "translit": "gínomai",
+      "gloss_nl": null,
+      "gloss_en": "to cause to be (\"gen\"-erate), i.e. (reflexively) to become (come into being), used with great latitude (literal, figurative, intensive, etc.)",
+      "usage_nl": [
+        "worden",
+        "is",
+        "wordt",
+        "had",
+        "geschiedt",
+        "geschieden",
+        "was",
+        "geschiede",
+        "geweest",
+        "zal",
+        "zijn",
+        "zijt",
+        "geschiedde",
+        "geschied",
+        "wees",
+        "er",
+        "geworden",
+        "komende",
+        "kwam",
+        "gekomen",
+        "het"
+      ],
+      "usage_en": [
+        "made",
+        "is",
+        "become",
+        "have",
+        "be",
+        "done",
+        "pass",
+        "was",
+        "fulfilled",
+        "come",
+        "came",
+        "been",
+        "drawing",
+        "thou",
+        "thundered",
+        "it",
+        "arise",
+        "be assembled",
+        "be-come",
+        "-fall",
+        "-have self",
+        "be brought to pass",
+        "be come to pass",
+        "continue",
+        "be divided",
+        "draw",
+        "be ended",
+        "fall",
+        "be finished",
+        "follow",
+        "be found",
+        "be fulfilled",
+        "+ god forbid",
+        "grow",
+        "happen",
+        "be kept",
+        "be made",
+        "be married",
+        "be ordained to be",
+        "partake",
+        "be performed",
+        "be published",
+        "require",
+        "seem",
+        "be showed",
+        "x soon as it was",
+        "sound",
+        "be taken",
+        "be turned",
+        "use",
+        "wax",
+        "will",
+        "would",
+        "be wrought"
+      ]
+    },
+    "G3575": {
+      "strong": "G3575",
+      "language": "greek",
+      "lemma": "Νῶε",
+      "translit": "Nōe",
+      "gloss_nl": null,
+      "gloss_en": "Noë, (i.e. Noäch), a patriarch",
+      "usage_nl": [
+        "noach",
+        "noe"
+      ],
+      "usage_en": [
+        "noe"
+      ]
+    },
+    "G2068": {
+      "strong": "G2068",
+      "language": "greek",
+      "lemma": "ἐσθίω",
+      "translit": "esthíō",
+      "gloss_nl": null,
+      "gloss_en": "used only in certain tenses, the rest being supplied by G5315 (φάγω); to eat (usually literal)",
+      "usage_nl": [
+        "eten"
+      ],
+      "usage_en": [
+        "eat",
+        "devour",
+        "live"
+      ]
+    },
+    "G4095": {
+      "strong": "G4095",
+      "language": "greek",
+      "lemma": "πίνω",
+      "translit": "pínō",
+      "gloss_nl": null,
+      "gloss_en": "to imbibe (literally or figuratively)",
+      "usage_nl": [
+        "drinkende",
+        "drinken",
+        "drinkt"
+      ],
+      "usage_en": [
+        "drinking",
+        "drink",
+        "drinketh"
+      ]
+    },
+    "G1060": {
+      "strong": "G1060",
+      "language": "greek",
+      "lemma": "γαμέω",
+      "translit": "gaméō",
+      "gloss_nl": "geboren worden; verwekt worden",
+      "gloss_en": "to wed (of either sex)",
+      "usage_nl": [
+        "trouwende"
+      ],
+      "usage_en": [
+        "marrying",
+        "marry a wife"
+      ]
+    },
+    "G1547": {
+      "strong": "G1547",
+      "language": "greek",
+      "lemma": "ἐκγαμίζω",
+      "translit": "ekgamízō",
+      "gloss_nl": null,
+      "gloss_en": "to marry off a daughter",
+      "usage_nl": [
+        "uitgevende"
+      ],
+      "usage_en": [
+        "marriage",
+        "give in marriage"
+      ]
+    },
+    "G891": {
+      "strong": "G891",
+      "language": "greek",
+      "lemma": "ἄχρι",
+      "translit": "áchri",
+      "gloss_nl": null,
+      "gloss_en": "(of time) until or (of place) up to",
+      "usage_nl": [
+        "tot"
+      ],
+      "usage_en": [
+        "until",
+        "as far as",
+        "for",
+        "in-to",
+        "till",
+        "even",
+        "un-to",
+        "while"
+      ]
+    },
+    "G3739": {
+      "strong": "G3739",
+      "language": "greek",
+      "lemma": "ὅς",
+      "translit": "hós",
+      "gloss_nl": null,
+      "gloss_en": "the relatively (sometimes demonstrative) pronoun, who, which, what, that",
+      "usage_nl": [
+        "wie",
+        "welken",
+        "die",
+        "welke",
+        "denwelken",
+        "dewelke",
+        "ander",
+        "derden",
+        "dat",
+        "hetwelk",
+        "dien",
+        "hetgeen",
+        "wat",
+        "wiens",
+        "zijn",
+        "wien",
+        "daar",
+        "hem"
+      ],
+      "usage_en": [
+        "whatsoever",
+        "whosoever",
+        "whoso",
+        "that",
+        "which",
+        "such",
+        "whom",
+        "when",
+        "one",
+        "another",
+        "whose",
+        "him",
+        "and",
+        "an-",
+        "the other",
+        "some",
+        "what",
+        "who-m",
+        "-se",
+        "etc"
+      ]
+    },
+    "G2787": {
+      "strong": "G2787",
+      "language": "greek",
+      "lemma": "κιβωτός",
+      "translit": "kibōtós",
+      "gloss_nl": null,
+      "gloss_en": "a box, i.e. the sacred ark and that of Noah",
+      "usage_nl": [
+        "ark"
+      ],
+      "usage_en": [
+        "ark"
+      ]
+    },
+    "G1525": {
+      "strong": "G1525",
+      "language": "greek",
+      "lemma": "εἰσέρχομαι",
+      "translit": "eisérchomai",
+      "gloss_nl": null,
+      "gloss_en": "to enter (literally or figuratively)",
+      "usage_nl": [
+        "ingaan",
+        "gaan",
+        "ging",
+        "gingen",
+        "in",
+        "kwam",
+        "zijnde",
+        "ingegaan"
+      ],
+      "usage_en": [
+        "shall",
+        "enter",
+        "into",
+        "entered",
+        "in",
+        "thou",
+        "went",
+        "gone",
+        "x arise",
+        "come in",
+        "enter in-to",
+        "go in through"
+      ]
+    },
+    "G2627": {
+      "strong": "G2627",
+      "language": "greek",
+      "lemma": "κατακλυσμός",
+      "translit": "kataklysmós",
+      "gloss_nl": null,
+      "gloss_en": "an inundation",
+      "usage_nl": [
+        "zondvloed"
+      ],
+      "usage_en": [
+        "flood"
+      ]
+    },
+    "G622": {
+      "strong": "G622",
+      "language": "greek",
+      "lemma": "ἀπόλλυμι",
+      "translit": "apóllymi",
+      "gloss_nl": null,
+      "gloss_en": "to destroy fully (reflexively, to perish, or lose), literally or figuratively",
+      "usage_nl": [
+        "verliezen",
+        "zal",
+        "was",
+        "ga",
+        "zouden",
+        "doden",
+        "vergaat",
+        "verlieze"
+      ],
+      "usage_en": [
+        "lose",
+        "lost",
+        "perish",
+        "destroy",
+        "perisheth",
+        "die",
+        "mar"
+      ]
+    },
+    "G537": {
+      "strong": "G537",
+      "language": "greek",
+      "lemma": "ἅπας",
+      "translit": "hápas",
+      "gloss_nl": null,
+      "gloss_en": "absolutely all or (singular) every one",
+      "usage_nl": [
+        "allen",
+        "alles",
+        "al"
+      ],
+      "usage_en": [
+        "all",
+        "things",
+        "whole",
+        "all things",
+        "every one"
+      ]
+    }
+  }
+}

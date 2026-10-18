@@ -11,6 +11,7 @@ const outputDir = path.join(rootDir, 'public', 'data', 'bible');
 const cacheFile = path.join(rootDir, 'scripts', 'authentic-bible-cache.json');
 const supplementalCacheFile = path.join(rootDir, 'scripts', 'haazinu-bible-cache.json');
 const bereshitSupplementalCacheFile = path.join(rootDir, 'scripts', 'bereshit-bible-cache.json');
+const noachSupplementalCacheFile = path.join(rootDir, 'scripts', 'noach-bible-cache.json');
 const lexiconCacheFile = path.join(rootDir, 'scripts', 'full-lexicon-cache.json');
 
 const BOOK_MAP = {
@@ -36,6 +37,7 @@ const BOOK_MAP = {
 
 const CHAPTER_MAX_VERSES = {
   "Gen.1": 31, "Gen.2": 25, "Gen.3": 24, "Gen.4": 26, "Gen.5": 32, "Gen.6": 22,
+  "Gen.7": 24, "Gen.8": 22, "Gen.9": 29, "Gen.10": 32, "Gen.11": 32,
   "Gen.21": 34,
   "Lev.16": 34, "Lev.22": 33, "Lev.23": 44,
   "Num.25": 18, "Num.26": 65, "Num.27": 23, "Num.28": 31, "Num.29": 40,
@@ -56,7 +58,7 @@ const CHAPTER_MAX_VERSES = {
   "Zech.14": 21,
   "Matt.4": 25, "Matt.16": 28, "Matt.18": 35, "Matt.24": 51, "Matt.25": 46,
   "Mark.11": 33,
-  "Luke.2": 52, "Luke.3": 38, "Luke.19": 48,
+  "Luke.2": 52, "Luke.3": 38, "Luke.17": 37, "Luke.19": 48,
   "John.2": 25, "John.6": 71, "John.12": 50, "John.14": 31
 };
 
@@ -189,6 +191,9 @@ function buildAllPassages() {
   }
   if (fs.existsSync(bereshitSupplementalCacheFile)) {
     Object.assign(cachedDb, JSON.parse(fs.readFileSync(bereshitSupplementalCacheFile, 'utf-8')));
+  }
+  if (fs.existsSync(noachSupplementalCacheFile)) {
+    Object.assign(cachedDb, JSON.parse(fs.readFileSync(noachSupplementalCacheFile, 'utf-8')));
   }
   const fullLexicon = JSON.parse(fs.readFileSync(lexiconCacheFile, 'utf-8'));
   const manifest = JSON.parse(fs.readFileSync(passagesFile, 'utf-8'));
