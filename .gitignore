@@ -12,3 +12,12 @@ dist/
 Thumbs.db
 .vscode/
 .idea/
+
+# Generated publish output (rebuilt by scripts/build-articles.mjs and
+# scripts/build-seo.mjs on every build; served from dist/ after vite build)
+/public/sitemap.xml
+/public/robots.txt
+/public/nl/artikelen/
+/public/nl/parasjot/
+/public/en/artikelen/
+/public/en/parasjot/
