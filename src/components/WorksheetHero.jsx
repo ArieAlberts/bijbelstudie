@@ -457,17 +457,16 @@ export default function WorksheetHero({ lang, onStudyChange, autoExpandReading }
                 value={selectedStudyId}
                 onChange={(e) => handleStudySelect(e.target.value)}
                 className="parasja-selector-select"
-                style={{ padding: '8px 14px', fontSize: '15px', fontWeight: 600, borderRadius: '4px', border: '1px solid var(--line)', background: 'var(--paper)', cursor: 'pointer' }}
+                style={{ maxWidth: '100%', padding: '8px 14px', fontSize: '15px', fontWeight: 600, borderRadius: '4px', border: '1px solid var(--line)', background: 'var(--paper)', cursor: 'pointer' }}
               >
                 {studies.map((s) => {
                   const name = isEn
                     ? (s.label?.en || s.parasha || 'Translation not available')
                     : (s.label?.nl || s.parasha || 'Vertaling niet beschikbaar');
-                  const torahRef = getPassageRef(s, 'parasha');
-                  const labelText = torahRef ? `${name} (${torahRef})` : name;
+                  // Name only: the Torah reference is shown in the badges right below.
                   return (
-                    <option key={s.id} value={s.id}>
-                      {labelText}
+                    <option key={s.id} value={s.id} title={getPassageRef(s, 'parasha') || undefined}>
+                      {name}
                     </option>
                   );
                 })}
@@ -538,8 +537,8 @@ export default function WorksheetHero({ lang, onStudyChange, autoExpandReading }
             >
               <span>
                 {isReadingExpanded
-                  ? (isEn ? 'Collapse ▲' : 'Inklappen ▲')
-                  : (isEn ? 'Open reading ▼' : 'Lezing openen ▼')}
+                  ? (isEn ? 'Collapse' : 'Inklappen')
+                  : (isEn ? 'Open reading' : 'Lezing openen')}
               </span>
               {isReadingExpanded ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
             </button>
@@ -549,12 +548,6 @@ export default function WorksheetHero({ lang, onStudyChange, autoExpandReading }
         {/* Complete Published Reading Commentary Article — Collapsable */}
         {isReadingExpanded && (
           <article className="reading-publication" style={{ width: '100%', maxWidth: '100%' }}>
-            {displayTitle && (
-              <h1 className="reading-title" style={{ fontSize: '30px', fontFamily: '"Source Serif 4", Georgia, serif', fontWeight: 700, margin: '0 0 16px', color: 'var(--ink)' }}>
-                {displayTitle}
-              </h1>
-            )}
-
             {hasBody && displaySummary && (
               <div className="reading-summary" style={{ fontStyle: 'italic', background: 'var(--soft)', padding: '16px 20px', marginBottom: '24px', borderLeft: '4px solid var(--accent)', borderRadius: '4px', fontSize: '17px', color: 'var(--ink)' }}>
                 <p style={{ margin: 0 }}>{displaySummary}</p>
