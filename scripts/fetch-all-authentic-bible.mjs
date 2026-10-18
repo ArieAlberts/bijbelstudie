@@ -21,6 +21,8 @@ const CHAPTER_CONFIG = [
   { book: 'Gen', ch: 1 }, { book: 'Gen', ch: 2 }, { book: 'Gen', ch: 3 },
   { book: 'Gen', ch: 4 }, { book: 'Gen', ch: 5 }, { book: 'Gen', ch: 6 },
   { book: 'Gen', ch: 7 }, { book: 'Gen', ch: 8 }, { book: 'Gen', ch: 9 }, { book: 'Gen', ch: 10 }, { book: 'Gen', ch: 11 },
+  { book: 'Gen', ch: 12 }, { book: 'Gen', ch: 13 }, { book: 'Gen', ch: 14 },
+  { book: 'Gen', ch: 15 }, { book: 'Gen', ch: 16 }, { book: 'Gen', ch: 17 },
   { book: 'Gen', ch: 21 },
   // Leviticus
   { book: 'Lev', ch: 16 }, { book: 'Lev', ch: 22 }, { book: 'Lev', ch: 23 },
@@ -36,7 +38,7 @@ const CHAPTER_CONFIG = [
   // 1 Kings (Pinchas Haftara)
   { book: '1Kgs', ch: 18 }, { book: '1Kgs', ch: 19 },
   // Isaiah
-  { book: 'Isa', ch: 1 }, { book: 'Isa', ch: 40 }, { book: 'Isa', ch: 49 }, { book: 'Isa', ch: 50 },
+  { book: 'Isa', ch: 1 }, { book: 'Isa', ch: 40 }, { book: 'Isa', ch: 41 }, { book: 'Isa', ch: 49 }, { book: 'Isa', ch: 50 },
   { book: 'Isa', ch: 51 }, { book: 'Isa', ch: 52 }, { book: 'Isa', ch: 54 }, { book: 'Isa', ch: 55 },
   { book: 'Isa', ch: 57 }, { book: 'Isa', ch: 58 }, { book: 'Isa', ch: 60 }, { book: 'Isa', ch: 61 },
   { book: 'Isa', ch: 62 }, { book: 'Isa', ch: 63 },
@@ -50,7 +52,7 @@ const CHAPTER_CONFIG = [
   { book: 'Matt', ch: 4 }, { book: 'Matt', ch: 16 }, { book: 'Matt', ch: 18 }, { book: 'Matt', ch: 24 }, { book: 'Matt', ch: 25 },
   { book: 'Mark', ch: 11 },
   { book: 'Luke', ch: 2 }, { book: 'Luke', ch: 3 }, { book: 'Luke', ch: 17 }, { book: 'Luke', ch: 19 },
-  { book: 'John', ch: 2 }, { book: 'John', ch: 6 }, { book: 'John', ch: 12 }, { book: 'John', ch: 14 }
+  { book: 'John', ch: 2 }, { book: 'John', ch: 6 }, { book: 'John', ch: 8 }, { book: 'John', ch: 12 }, { book: 'John', ch: 14 }
 ];
 
 // Optional: --only Gen.7,Luke.17 --out scripts/x-bible-cache.json fetches just those
