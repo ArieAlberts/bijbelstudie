@@ -20,7 +20,7 @@ Always `git pull` first: the owner works from several machines and other tools a
 ## Architecture
 
 - **Frontend**: React 19 + Vite, multi-page app (NL + EN + admin). Entry points in `vite.config.js` `rollupOptions.input`.
-- **Content**: Markdown files in `content/parasjot/*.md` with YAML frontmatter (id, parasha, label, status, title_nl/en, summary_nl/en, body_nl/en, study_body_nl/en, worksheet_body_nl/en, downloads, published_at).
+- **Content**: Markdown files in `content/parasjot/*.md` with YAML frontmatter (id, parasha, label, status, title_nl/en, summary_nl/en, optional meta_description_nl/en (search snippet, otherwise derived from the summary), body_nl/en, study_body_nl/en, worksheet_body_nl/en, downloads, published_at).
 - **Build scripts**: Node.js ESM scripts in `scripts/` that read content and generate JSON data files.
 - **Bible data**: Pre-cached JSON in `scripts/*-bible-cache.json`, built into `public/data/bible/*.json`.
 - **Downloads**: PDF/DOCX/RTF files in `public/downloads/{lezingen,studiebladen,werkbladen}/`.
