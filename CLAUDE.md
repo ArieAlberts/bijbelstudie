@@ -12,6 +12,7 @@ npm run build:passages             # rebuild data/passages.json + public/data/pa
 npm run build:bible                # rebuild public/data/bible/*.json from cache files
 npm run build:downloads            # rebuild public/data/downloads.json manifest
 npm run build:articles             # compile article pages
+npm run build:handbook             # regenerate nl/handleiding.html + en/handbook.html from content/handleiding/handleiding.md
 npm run build:assets               # copy static assets
 ```
 
@@ -21,6 +22,7 @@ Always `git pull` first: the owner works from several machines and other tools a
 
 - **Frontend**: React 19 + Vite, multi-page app (NL + EN + admin). Entry points in `vite.config.js` `rollupOptions.input`.
 - **Content**: Markdown files in `content/parasjot/*.md` with YAML frontmatter (id, parasha, label, status, title_nl/en, summary_nl/en, optional meta_description_nl/en (search snippet, otherwise derived from the summary), body_nl/en, study_body_nl/en, worksheet_body_nl/en, downloads, published_at).
+- **Handbook**: `content/handleiding/handleiding.md` (frontmatter `body_nl`/`body_en` as HTML) is the source of the handbook. `scripts/build-handbook.mjs` injects it into `nl/handleiding.html` and `en/handbook.html` and regenerates both tables of contents. Edit the markdown, never the generated pages. Keep the `hoofdstuk-N` ids stable: the step plan in `nl/index.html` links to them.
 - **Build scripts**: Node.js ESM scripts in `scripts/` that read content and generate JSON data files.
 - **Bible data**: Pre-cached JSON in `scripts/*-bible-cache.json`, built into `public/data/bible/*.json`.
 - **Downloads**: PDF/DOCX/RTF files in `public/downloads/{lezingen,studiebladen,werkbladen}/`.
