@@ -12,6 +12,41 @@ const site = 'https://www.parasja.nl';
 const esc = v => String(v ?? '').replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;');
 const text = v => String(v ?? '').replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
 
+// Meta description for search results: keep whole sentences that fit within `max`;
+// if even the first sentence is too long, cut at a word boundary and add an ellipsis.
+// Never ends mid-word or on a dangling comma.
+function metaDescription(source, max = 160) {
+  const s = text(source);
+  if (s.length <= max) return s;
+  // A sentence ends at . ! ? followed by a capital letter, but not after a Bible-book or
+  // other abbreviation ("Gen. 21:1", "1 Sam. 1:19", "vgl. Joh.").
+  const ABBR = /\b(gen|ex|lev|num|deut|joz|richt|sam|kon|kron|ps|spr|pred|jes|jer|ez|dan|hos|mich|zach|mal|mat|matt|mt|mk|luk|lk|joh|hand|rom|kor|gal|ef|fil|kol|thess|tim|hebr|jak|petr|op|vgl|bv|o\.a|nl|vs|ca|e\.d)\.$/i;
+  const sentences = [];
+  for (const piece of s.split(/(?<=[.!?]["'’”)]*)\s+(?=["'‘“„(]?[A-ZÀ-ÝÄËÏÖÜ])/)) {
+    if (sentences.length && ABBR.test(sentences[sentences.length - 1])) sentences[sentences.length - 1] += ' ' + piece;
+    else sentences.push(piece);
+  }
+  let out = '';
+  for (const sentence of sentences) {
+    const next = out ? out + ' ' + sentence : sentence;
+    if (next.length > max) break;
+    out = next;
+  }
+  out = out.trim();
+  if (out.length >= 50) return out;
+  const cut = s.slice(0, max - 1);
+  return cut.slice(0, cut.lastIndexOf(' ')).replace(/[\s,;:–—-]+$/, '') + '…';
+}
+
+// <title> leads with the term people search for ("Parasja Noach"), then the reading's own title.
+function pageTitle(lang, parasha, title) {
+  const label = lang === 'nl' ? 'Parasja' : 'Parashah';
+  const head = String(title).toLowerCase().includes(String(parasha).toLowerCase())
+    ? `${label} ${parasha}`
+    : `${label} ${parasha}: ${title}`;
+  return `${head} | Parasja.nl`;
+}
+
 const items = [];
 const add = (url, priority = '0.5', lastmod = null) => items.push({ url, priority, lastmod });
 
@@ -48,7 +83,7 @@ function navHtml(lang) {
   return `<nav><a href="/${lang}/">${t.navHome}</a>${lang === 'nl' ? ` · <a href="/nl/artikelen/">${t.navArticles}</a>` : ''}</nav>`;
 }
 
-function renderPage({ lang, slug, d, title, body, desc, nlExists, enExists, lastmod }) {
+function renderPage({ lang, slug, d, title, body, desc, summary, nlExists, enExists, lastmod }) {
   const t = L[lang];
   const canonical = site + urlFor(lang, slug);
   const nlUrl = site + urlFor('nl', slug);
@@ -73,7 +108,7 @@ function renderPage({ lang, slug, d, title, body, desc, nlExists, enExists, last
     ...(d.last_reviewed_at ? { dateModified: String(d.last_reviewed_at).slice(0, 10) } : {})
   }).replaceAll('<', '\\u003c');
 
-  return `<!doctype html><html lang="${t.htmlLang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>${esc(title)} – ${esc(d.parasha || slug)} | Parasja.nl</title><meta name="description" content="${esc(desc)}"><link rel="canonical" href="${canonical}">${alts.join('')}<meta property="og:type" content="article"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(desc)}"><meta property="og:url" content="${canonical}"><meta property="og:image" content="${site}/assets/share-card.png"><meta property="og:locale" content="${t.ogLocale}"><meta property="og:locale:alternate" content="${t.ogAlt}">${STYLE}<script type="application/ld+json">${jsonld}</script></head><body>${navHtml(lang)}<main><article><header><p>${t.parasjaLabel} ${esc(d.parasha || slug)}</p><h1>${esc(title)}</h1><p>${esc(desc)}</p></header>${body}</article></main><footer><p><a href="/${lang}/parasjot/">${t.back}</a></p></footer></body></html>`;
+  return `<!doctype html><html lang="${t.htmlLang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>${esc(pageTitle(lang, d.parasha || slug, title))}</title><meta name="description" content="${esc(desc)}"><link rel="canonical" href="${canonical}">${alts.join('')}<meta property="og:type" content="article"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(desc)}"><meta property="og:url" content="${canonical}"><meta property="og:image" content="${site}/assets/share-card.png"><meta property="og:locale" content="${t.ogLocale}"><meta property="og:locale:alternate" content="${t.ogAlt}">${STYLE}<script type="application/ld+json">${jsonld}</script></head><body>${navHtml(lang)}<main><article><header><p>${t.parasjaLabel} ${esc(d.parasha || slug)}</p><h1>${esc(title)}</h1><p>${esc(summary)}</p></header>${body}</article></main><footer><p><a href="/${lang}/parasjot/">${t.back}</a></p></footer></body></html>`;
 }
 
 // Torah order: book, then chapter and verse of the first passage (e.g. "Deut.11.26-...").
@@ -124,19 +159,21 @@ for (const name of fs.readdirSync(sourceDir).filter(x => x.endsWith('.md'))) {
   // No language-fallback: only build a page when that language's body is filled.
   if (nlExists) {
     const title = d.title_nl || d.label?.nl || d.parasha || slug;
-    const desc = text(d.summary_nl || bodyNl || L.nl.defaultDesc).slice(0, 175);
+    const summary = text(d.summary_nl || L.nl.defaultDesc);
+    const desc = metaDescription(d.meta_description_nl || d.summary_nl || bodyNl || L.nl.defaultDesc);
     const dir = path.join(publicDir, 'nl', 'parasjot', slug);
     fs.mkdirSync(dir, { recursive: true });
-    fs.writeFileSync(path.join(dir, 'index.html'), renderPage({ lang: 'nl', slug, d, title, body: bodyNl, desc, nlExists, enExists, lastmod }));
+    fs.writeFileSync(path.join(dir, 'index.html'), renderPage({ lang: 'nl', slug, d, title, body: bodyNl, desc, summary, nlExists, enExists, lastmod }));
     add(urlFor('nl', slug), '0.8', lastmod);
     published.nl.push({ slug, d, title, desc });
   }
   if (enExists) {
     const title = d.title_en || d.label?.en || d.parasha || slug;
-    const desc = text(d.summary_en || bodyEn || L.en.defaultDesc).slice(0, 175);
+    const summary = text(d.summary_en || L.en.defaultDesc);
+    const desc = metaDescription(d.meta_description_en || d.summary_en || bodyEn || L.en.defaultDesc);
     const dir = path.join(publicDir, 'en', 'parasjot', slug);
     fs.mkdirSync(dir, { recursive: true });
-    fs.writeFileSync(path.join(dir, 'index.html'), renderPage({ lang: 'en', slug, d, title, body: bodyEn, desc, nlExists, enExists, lastmod }));
+    fs.writeFileSync(path.join(dir, 'index.html'), renderPage({ lang: 'en', slug, d, title, body: bodyEn, desc, summary, nlExists, enExists, lastmod }));
     add(urlFor('en', slug), '0.8', lastmod);
     published.en.push({ slug, d, title, desc });
   }
@@ -176,7 +213,7 @@ fs.writeFileSync(path.join(publicDir, 'robots.txt'), 'User-agent: *\nAllow: /\nS
 // llms.txt (llmstxt.org): a plain-text map of the site for AI assistants.
 const llmsSection = (heading, lang) => `## ${heading}\n\n` + torahSort(published[lang]).map(e => {
   const ref = e.d.passages?.[0]?.ref?.[lang];
-  return `- [${text(e.title)} – ${text(e.d.parasha || e.slug)}](${site + urlFor(lang, e.slug)})${ref ? ' (' + ref + ')' : ''}: ${e.desc}${e.desc.length >= 175 ? '…' : ''}`;
+  return `- [${text(e.title)} – ${text(e.d.parasha || e.slug)}](${site + urlFor(lang, e.slug)})${ref ? ' (' + ref + ')' : ''}: ${e.desc}`;
 }).join('\n') + '\n';
 const llms = `# Parasja.nl – Zelf de parasja lezen / Read the parashah yourself
 
