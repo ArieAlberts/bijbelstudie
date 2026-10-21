@@ -23,8 +23,8 @@ export async function fetchBiblePassage(studyId, section) {
   const basePrefix = (typeof window !== 'undefined' && (window.location.pathname.includes('/nl/') || window.location.pathname.includes('/en/'))) ? '../' : './';
 
   const candidateUrls = [
-    `${basePrefix}data/bible/${studyId}-${section}.json`,
     `/data/bible/${studyId}-${section}.json`,
+    `${basePrefix}data/bible/${studyId}-${section}.json`,
     `./data/bible/${studyId}-${section}.json`,
     `../data/bible/${studyId}-${section}.json`
   ];
@@ -45,8 +45,8 @@ export async function fetchPassagesIndex() {
   const basePrefix = (typeof window !== 'undefined' && (window.location.pathname.includes('/nl/') || window.location.pathname.includes('/en/'))) ? '../' : './';
 
   const candidateUrls = [
-    `${basePrefix}data/passages.json`,
     `/data/passages.json`,
+    `${basePrefix}data/passages.json`,
     `./data/passages.json`,
     `../data/passages.json`
   ];

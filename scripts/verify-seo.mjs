@@ -27,7 +27,8 @@ for (const lang of ['nl','en']) {
     assert.match(html, /<link rel="canonical" href="https:\/\/www\.parasja\.nl\//);
     assert.match(html, /application\/ld\+json/);
     assert.ok(!html.includes('/en/artikelen/'), 'Broken English articles link: '+file);
-    assert.ok(html.includes('<article>'), 'Missing article content: '+file);
+    assert.ok(html.includes('<article'), 'Missing article content: '+file);
+    assert.ok(html.includes('window.__PARASJA__'), 'Parashah page not wired to the app: '+file);
   }
 }
 // Homepage -> overview -> every reading must be reachable through plain links.

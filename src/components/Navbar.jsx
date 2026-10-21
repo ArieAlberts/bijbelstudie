@@ -63,8 +63,8 @@ export default function Navbar({ activeView, setActiveView, lang, setLang, selec
 
   useEffect(() => {
     Promise.all([
-      fetch('../data/passages.json', { cache: 'no-store' }).then(res => res.ok ? res.json() : Promise.reject()),
-      fetch('../data/downloads.json', { cache: 'no-store' }).then(res => res.ok ? res.json() : Promise.reject())
+      fetch('/data/passages.json', { cache: 'no-store' }).then(res => res.ok ? res.json() : Promise.reject()),
+      fetch('/data/downloads.json', { cache: 'no-store' }).then(res => res.ok ? res.json() : Promise.reject())
     ])
       .then(([passagesData, downloadsData]) => {
         setStudies(Array.isArray(passagesData?.studies) ? passagesData.studies : []);
