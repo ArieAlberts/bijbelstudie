@@ -82,7 +82,7 @@ function findWeeklyStudy(studies) {
   return mostRecentStudy?.study || studies.find(s => s.current) || studies[0];
 }
 
-export default function WorksheetHero({ lang, onStudyChange, autoExpandReading }) {
+export default function WorksheetHero({ lang, onStudyChange, autoExpandReading, initialStudyId }) {
   const isEn = lang === 'en' || (typeof document !== 'undefined' && document.documentElement.lang === 'en') || (typeof window !== 'undefined' && (window.location.pathname.includes('/en/') || window.location.href.includes('/en/')));
   const fileInputRef = useRef(null);
 
@@ -140,14 +140,17 @@ export default function WorksheetHero({ lang, onStudyChange, autoExpandReading }
       ]
     }
   ]);
-  const [selectedStudyId, setSelectedStudyId] = useState('shoftim');
+  const [selectedStudyId, setSelectedStudyId] = useState(initialStudyId || 'shoftim');
 
   useEffect(() => {
     fetchPassagesIndex()
       .then(data => {
         if (data.studies && data.studies.length) {
           setStudies(data.studies);
-          const activeItem = findWeeklyStudy(data.studies);
+          // A deep link (e.g. a parashah page reached from a search engine) pins the
+          // study; otherwise fall back to the study for the current week.
+          const pinned = initialStudyId && data.studies.find(s => s.id === initialStudyId);
+          const activeItem = pinned || findWeeklyStudy(data.studies);
           if (activeItem) {
             setSelectedStudyId(activeItem.id);
             if (onStudyChange) onStudyChange(activeItem.id);

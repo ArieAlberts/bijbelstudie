@@ -20,6 +20,7 @@ function HeaderApp() {
     if (path.includes('contact')) return 'contact';
     if (path.includes('privacy')) return 'privacy';
     if (hash === '#werkblad' || hash === '#worksheet') return 'worksheet';
+    if (!hash && typeof window !== 'undefined' && window.__PARASJA__ && window.__PARASJA__.view) return window.__PARASJA__.view;
     return 'intro';
   };
 
@@ -233,6 +234,7 @@ function HeroWrapper() {
     <WorksheetHero
       lang={isEnglish ? 'en' : 'nl'}
       autoExpandReading={true}
+      initialStudyId={(typeof window !== 'undefined' && window.__PARASJA__ && window.__PARASJA__.study) || undefined}
       onStudyChange={(id) => {
         window.dispatchEvent(new CustomEvent('study-changed', { detail: { studyId: id } }));
       }}
@@ -249,7 +251,7 @@ if (heroContainer) {
 // Mount Bible Reader (Right Side of Desktop Grid)
 function BibleReaderWrapper() {
   const isEnglish = document.documentElement.lang === 'en';
-  const [selectedStudy, setSelectedStudy] = useState('shoftim');
+  const [selectedStudy, setSelectedStudy] = useState((typeof window !== 'undefined' && window.__PARASJA__ && window.__PARASJA__.study) || 'shoftim');
 
   useEffect(() => {
     const handleStudyChange = (e) => {
