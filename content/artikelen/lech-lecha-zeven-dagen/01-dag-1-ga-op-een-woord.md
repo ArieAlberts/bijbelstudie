@@ -14,6 +14,19 @@ summary_nl: "Abram moet gaan voordat hij weet waarheen. Hij vertrekt niet met ee
 scripture:
   - "Genesis 12:1–13"
   - "Hebreeën 11:8–9"
+title_en: "Day 1 — Go, on a word"
+summary_en: "Abram has to go before he knows where to. He sets out not with a map but with a voice, and with promises that all begin with “I will.”"
+series_title_en: "Lech Lecha in seven days"
+series_description_en: "Seven short readings on the parashah Lech Lecha, one for each aliyah of Genesis 12 to 17. We read along with the Jewish division of the week and ask, at each passage, what it means to live from God's “I will”: not grabbing, but receiving and letting yourself be found."
+scripture_en:
+  - "Genesis 12:1–13"
+  - "Hebrews 11:8–9"
+body_en: |
+  <p>The first thing God says to Abram is not an explanation. It is a command to go: “Get thee out of thy country, and from thy kindred, and from thy father's house, unto a land that I will shew thee.” He has to leave before he knows where to. That is a strange beginning for the man we later call the father of all who believe. He is given no map; he is given a voice.</p>
+  <p>But Abram does not set out empty-handed. The command comes with promises, and they all have the same subject. “And I will make of thee a great nation, and I will bless thee, and make thy name great.” Again and again it sounds: I will. Not: make something of it yourself. But: I will. So Abram's life begins, not with what he can hold onto, but with what God says He will do.</p>
+  <p>He goes, and he builds altars, and for a while everything in motion seems to go the right way. Then a famine comes, and Abram goes down to Egypt. There he grows afraid that he will be killed because of Sarai, and he thinks up his own solution: say that you are my sister. You see him do something here that we all know. The promise stands, but the moment it gets frightening, he wants to secure it himself.</p>
+  <p>I think this is the first lesson of the week. Being called to go is still something other than learning to live from that “I will.” Abram is on the way, and he has yet to discover it. So have we.</p>
+  <p>Do you dare to go when God does not yet show you everything? And do you dare to leave His promise in His hand, even when it gets frightening?</p>
 ---
 
 <p>Het eerste wat God tegen Abram zegt, is geen uitleg. Het is een opdracht om te gaan: „Ga gij uit uw land, en uit uw maagschap, en uit uws vaders huis, naar het land, dat Ik u wijzen zal.” Hij moet vertrekken voordat hij weet waarheen. Dat is een vreemd begin voor iemand die wij later de vader van alle gelovigen noemen. Hij krijgt geen kaart, hij krijgt een stem.</p>
