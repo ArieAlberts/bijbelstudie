@@ -24,6 +24,30 @@ scripture:
   - "Genesis 17"
   - "Romeinen 4"
   - "Galaten 3:6–18"
+title_en: "Abraham: God's church receives a special bedding in one people"
+summary_en: "Brakel shifts from the general church before Abraham to Abraham and his seed as a particular historical bedding."
+series_title_en: "Brakel, Israel and the covenants"
+series_description_en: "A step-by-step inquiry into what Wilhelmus à Brakel actually taught about Israel, the church, the Torah and the covenant of grace — in the order of his own work."
+scripture_en:
+  - "Genesis 12:1–3"
+  - "Genesis 17"
+  - "Romans 4"
+  - "Galatians 3:6–18"
+body_en: |
+  <p>With Abraham God's way grows narrower — and precisely in that way it receives a worldwide horizon.</p>
+  <p>Brakel describes the period before Abraham as a time in which God's church was found among various peoples. With Abraham that history receives a special national bedding: God takes Abraham and his seed apart. That is not a rejection of His earlier grace, but a new historical form of it.</p>
+  <h2>The calling goes out from God</h2>
+  <p>Genesis 12 does not begin with Abraham finding God, but with God calling Abraham. "Get thee out of thy country…" The promise that follows includes seed, land, name and blessing; at the same time it reaches further than Abraham himself: in him the families of the earth will be blessed.</p>
+  <p>Brakel's covenant thinking therefore cannot be reduced to individualistic redemption. God binds His history of salvation to a family, to generations, to visible signs and later to a people. The covenant relationship receives history, body, place and community.</p>
+  <h2>What does Brakel mean by 'national'?</h2>
+  <p>Here one must read precisely. When Brakel uses national language, he does not mean that alongside the covenant of grace an independent national covenant of salvation arises. He can speak of God's covenant with Abraham and his offspring as a covenant administered with that nation, but he holds fast to the same ground of grace.</p>
+  <p>That immediately creates tension. Not everyone who belongs to Abraham's physical offspring lives by faith. Paul in Romans 4 will draw Abraham precisely as the father of believers. Brakel does not resolve that by denying the concrete family promise; he later distinguishes between an external covenant relationship and inward faith.</p>
+  <h2>Abraham in Paul</h2>
+  <p>Romans 4 and Galatians 3 are therefore crucial. Paul does not detach Abraham from his historical calling, but shows that justification is already by faith with him. The promise precedes Sinai. Galatians 3 moreover stresses that the law, given later, does not annul the promise confirmed earlier by God.</p>
+  <p>That fits closely with Brakel's later treatment of Horeb: the order of Scripture carries theological weight for him. First promise; then law-giving. First God's action; then the life of the confederates.</p>
+  <div class="question-block"><strong>Test question:</strong> can we hold Abraham's special calling and the blessing for the nations together at the same time, without letting the one disappear into the other?</div>
+  <h2>The sign is added</h2>
+  <p>In the next instalment we look at circumcision. For Brakel it is not a means by which Abraham and his seed earn the covenant. He calls it a seal of the covenant of grace. With this it becomes visible how sign, promise, body and faith come together in his system.</p>
 ---
 
 <p>Bij Abraham wordt Gods weg smaller — en juist daardoor krijgt zij een wereldwijde horizon.</p>

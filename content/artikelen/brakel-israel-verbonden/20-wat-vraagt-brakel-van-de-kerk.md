@@ -25,6 +25,36 @@ scripture:
   - "Genesis 12:1–3"
   - "Psalm 122:6"
   - "1 Timotheüs 2:1–4"
+title_en: "What does Brakel ask of the church toward Israel?"
+summary_en: "The series ends where Brakel himself ends: not with schemes, but with covenant faithfulness, humility, love and prayer."
+series_title_en: "Brakel, Israel and the covenants"
+series_description_en: "A step-by-step inquiry into what Wilhelmus à Brakel actually taught about Israel, the church, the Torah and the covenant of grace — in the order of his own work."
+scripture_en:
+  - "Romans 11:18–29"
+  - "Acts 3:25"
+  - "Genesis 12:1–3"
+  - "Psalm 122:6"
+  - "1 Timothy 2:1–4"
+body_en: |
+  <p>Brakel ends his long argument about Israel not with a timeline.</p>
+  <p>He ends with duties.</p>
+  <h2>Not only knowing</h2>
+  <p>In section 39 Brakel says that he has not treated the conversion of the Jewish nation and the restoration in Canaan in order to stay with contemplation. The doctrine must, according to him, become active in the attitude of the reader.</p>
+  <h2>1. See God's unchangeable covenant faithfulness</h2>
+  <p>His first application is remarkable: look at God's faithfulness to the covenant with Abraham and his seed, and let that strengthen your trust in God's promises. For Brakel, Israel thereby becomes a mirror of God's reliability.</p>
+  <p>The ground does not lie in Israel's blamelessness. Brakel names sin and stubbornness sharply. For just that reason he lays the emphasis on God, who does not let His good words fall.</p>
+  <h2>2. Do not despise the Jewish nation</h2>
+  <p>Brakel then reaches back directly to Romans 11: boast not against the branches. He calls the Jews natural branches, beloved for the fathers' sake and children of the covenant. His concrete appeal is: esteem them, honour them, love them.</p>
+  <p>That is an important correction to every form of Christian pride. Whoever is grafted in out of grace cannot coherently use that grace as a ground for contempt.</p>
+  <h2>3. Have compassion</h2>
+  <p>Brakel's own seventeenth-century formulations about the Jewish religion are in places harsh and must be historically recognised. But within that polemical language he does not ask his readers for hatred. He asks for compassion with bodily and spiritual suffering.</p>
+  <p>For our time we must carry that application through carefully, without letting Brakel say words he did not know. Antisemitism, collective assignment of guilt and holding Jews personally responsible for the actions of a government run directly counter to Paul's warning against pride.</p>
+  <h2>From Brakel back to Scripture</h2>
+  <p>With this the series ends where it began. Brakel does not get the last word. His work has forced us to see the connections: Adam, Abraham, Sinai, Torah, Messiah, church, Gentiles, olive tree, national conversion and land. But each part must finally be tested against Scripture anew.</p>
+  <p>What is in any case hard to maintain is a simple caricature in which Brakel would teach that God began at Sinai a completely different way of salvation and afterward replaced Israel, without further future, by the church. His own work is more complex.</p>
+  <div class="question-block"><strong>The closing question is therefore not only: "What do we think about Israel?"</strong><br>But: what does God's covenant faithfulness do with our own pride, our way of reading, and our willingness to be carried instead of wanting to carry the root ourselves?</div>
+  <h2>Further reading</h2>
+  <p>The full series remains available on Parasja.nl with source references per instalment. With these, each article can be traced back to Brakel's own chapters — and from there to Scripture itself.</p>
 ---
 
 <p>Brakel eindigt zijn lange betoog over Israël niet met een tijdlijn.</p>

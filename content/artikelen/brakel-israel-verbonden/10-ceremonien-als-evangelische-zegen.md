@@ -25,6 +25,32 @@ scripture:
   - "Hebreeën 5:1–10"
   - "Hebreeën 9:1–14"
   - "Kolossenzen 2:16–17"
+title_en: "Ceremonies: not punishment but evangelical blessing"
+summary_en: "Brakel reads Israel's ceremonial service as a privilege and as instruction in the coming Messiah."
+series_title_en: "Brakel, Israel and the covenants"
+series_description_en: "A step-by-step inquiry into what Wilhelmus à Brakel actually taught about Israel, the church, the Torah and the covenant of grace — in the order of his own work."
+scripture_en:
+  - "Romans 3:1–2"
+  - "Romans 9:4–5"
+  - "Hebrews 5:1–10"
+  - "Hebrews 9:1–14"
+  - "Colossians 2:16–17"
+body_en: |
+  <p>We can connect the ceremonial laws so strongly with "shadow" that shadow comes to mean almost "inferior."</p>
+  <p>Brakel does not do that.</p>
+  <h2>Not a punitive measure</h2>
+  <p>In chapter 3 Brakel opposes the idea that the ceremonial service was instituted mainly as a punishment or heavy burden after Israel's sin with the golden calf. He calls Israel's privileges great and refers to Paul's words that to them were entrusted God's words, covenants, law-giving, worship and promises.</p>
+  <p>For Brakel the core is that these ceremonies depict the coming Messiah. Whoever sees only the outward ritual therefore misses, according to him, their evangelical function.</p>
+  <h2>Shadow means direction</h2>
+  <p>Hebrews speaks of shadows and examples. Brakel reads that not as proof that God gave Israel a useless system, but as a sign that the form points forward to a coming reality. The temporary character follows from fulfilment, not from worthlessness.</p>
+  <p>With this an important nuance arises. The coming of Christ means for Brakel that the ceremonial administration no longer keeps exercising its old function as if the Messiah still had to come. But the fact that the form passes away does not make God's earlier gift bad in hindsight.</p>
+  <h2>Israel's privilege</h2>
+  <p>Romans 9 names the worship alongside the covenants and promises. That supports Brakel's appreciative language. Israel was not merely given a series of prohibitions; it received a liturgical world in which holiness, atonement, cleansing, priesthood and nearness were visibly taught.</p>
+  <h2>Where Brakel corrects us</h2>
+  <p>This cuts both ways. Whoever uses the old administration as an independent way alongside Christ abandons, according to Brakel, its own Messianic direction. But whoever despises it as a dark religion over against a gracious New Testament just as little understands, according to him, for what God gave it.</p>
+  <div class="question-block"><strong>Editorial observation:</strong> fulfilment, for Brakel, is no denial of the earlier gift. The shadow receives its meaning precisely from the body to which it points forward.</div>
+  <h2>The question behind the shadows</h2>
+  <p>But how could believers before the cross really share in forgiveness if the satisfaction had not yet been historically accomplished? Brakel devotes a whole chapter to that. His answer rests on Christ as Surety.</p>
 ---
 
 <p>Wij kunnen de ceremoniële wetten zo sterk met “schaduw” verbinden dat schaduw bijna “minderwaardig” gaat betekenen.</p>

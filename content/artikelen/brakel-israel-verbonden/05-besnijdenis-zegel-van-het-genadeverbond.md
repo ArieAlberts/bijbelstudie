@@ -23,6 +23,29 @@ scripture:
   - "Genesis 17:1–14"
   - "Romeinen 4:9–12"
   - "Kolossenzen 2:11–12"
+title_en: "Circumcision: seal of the covenant of grace"
+summary_en: "What does circumcision seal according to Brakel — descent, obedience, or the promise of grace?"
+series_title_en: "Brakel, Israel and the covenants"
+series_description_en: "A step-by-step inquiry into what Wilhelmus à Brakel actually taught about Israel, the church, the Torah and the covenant of grace — in the order of his own work."
+scripture_en:
+  - "Genesis 17:1–14"
+  - "Romans 4:9–12"
+  - "Colossians 2:11–12"
+body_en: |
+  <p>A sign can be visible without becoming the source of salvation.</p>
+  <p>That distinction Brakel guards when he treats circumcision. The sign stands literally in the body of Abraham's male offspring, but according to Brakel it does not seal their own merit. It points to God's covenant promise and to the righteousness that is received by faith.</p>
+  <h2>Brakel's core: a seal</h2>
+  <p>Brakel calls circumcision a seal of the covenant of grace. With this he follows Paul in Romans 4, where Abraham receives the sign of circumcision as a seal of the righteousness of the faith he already had before he was circumcised.</p>
+  <p>The order is again telling. Abraham believes God's promise; afterward he receives the sign. The sign does not make God's speaking true. It confirms and seals what God has pledged.</p>
+  <h2>Bodily and spiritual</h2>
+  <p>Brakel lets circumcision carry several functions at once. It marks belonging to the covenant people, it points to the cleansing of the heart, and it stands within the expectation of the coming Messiah. The visible act and the spiritual meaning may therefore not be played off against each other.</p>
+  <p>That is relevant for our inquiry, because a pattern already arises here that returns later with the Sinaitic ceremonies: outward forms are, for Brakel, not automatically "carnal" or opposed to grace. The question is to what they point and what place they take within God's promise.</p>
+  <h2>No automatism</h2>
+  <p>At the same time Brakel ascribes to the sign no automatic saving effect. The history of Israel itself makes clear, according to him, that outward participation and inward faith do not coincide. That prevents two opposite reductions: the sign is not nothing, but the sign is also not the source.</p>
+  <p>Paul guards the same tension. Romans 4 takes bodily circumcision seriously, but places justification before the sign. The prophets later speak of circumcision of the heart. So the visible sign becomes part of a larger movement of God's promise and human response.</p>
+  <div class="question-block"><strong>Pastoral question:</strong> where do we make a received sign or form into the ground of our assurance, and where do we conversely act as if visible obedience and covenant signs no longer have any meaning?</div>
+  <h2>Toward Horeb</h2>
+  <p>After Abraham, Brakel brings us to Sinai. There the question grows much sharper: does a new covenant now arise that rests on works, or is the existing covenant of grace solemnly renewed? Brakel's answer is unambiguous.</p>
 ---
 
 <p>Een teken kan zichtbaar zijn zonder de bron van het heil te worden.</p>

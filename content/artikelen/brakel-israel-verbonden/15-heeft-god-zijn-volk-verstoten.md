@@ -24,6 +24,29 @@ scripture:
   - "Romans 11:11–15"
   - "Jeremia 31:35–37"
   - "Psalm 94:14"
+title_en: "Has God cast away His people?"
+summary_en: "At Romans 11 Brakel refuses to close the question of Israel with a definitive rejection."
+series_title_en: "Brakel, Israel and the covenants"
+series_description_en: "A step-by-step inquiry into what Wilhelmus à Brakel actually taught about Israel, the church, the Torah and the covenant of grace — in the order of his own work."
+scripture_en:
+  - "Romans 11:1–2"
+  - "Romans 11:11–15"
+  - "Jeremiah 31:35–37"
+  - "Psalm 94:14"
+body_en: |
+  <blockquote>"Hath God cast away his people?"</blockquote>
+  <p>Brakel does not let that question be solved by giving the word "people" another meaning straightaway. He says explicitly that he is speaking of the Jewish nation.</p>
+  <h2>From rejection to expectation</h2>
+  <p>Chapter 6 first treated the transition from Jews to Gentiles in church history. Then Brakel raises the objection: is that rejection final? His answer is no. He expects that the Jewish nation will still acknowledge that Jesus is the promised Messiah.</p>
+  <p>He does not mean only Judah and Benjamin. He speaks expressly of the nation in the broad sense and also treats the dispersion of the tribes. His historical reasonings are seventeenth-century and must be read as such, but his theological intention is clear: the dispersion does not make God's future dealing with Israel impossible.</p>
+  <h2>Romans 11 as first main text</h2>
+  <p>Brakel begins his proof in the New Testament with Romans 11. Paul himself opens with a denial: God has not cast away His people. Then follows the tension of stumbling, acceptance, provoking to jealousy and life from the dead.</p>
+  <p>For Brakel it is especially important that Paul speaks of a future movement. The present hardening is not the last word. The "until" of Romans 11:25 therefore receives eschatological weight.</p>
+  <h2>No automatic salvation</h2>
+  <p>Brakel's expectation of Israel does not mean that descent in itself saves. His whole covenant doctrine has precisely distinguished external relationship and faith. The future he expects is conversion: acknowledgement and confession of the Messiah.</p>
+  <h2>Why this question also concerns the Gentile</h2>
+  <p>Paul does not only tell the Gentile believer information about Israel's future. He corrects an attitude. The question about Israel thereby becomes a mirror as well: what does grace do with our dealings with those whose covenant history preceded us?</p>
+  <div class="question-block"><strong>The next instalment is therefore not first about a timetable, but about a tree:</strong> root, natural branches and wild branches.</div>
 ---
 
 <p>“Heeft God Zijn volk verstoten?”</p>

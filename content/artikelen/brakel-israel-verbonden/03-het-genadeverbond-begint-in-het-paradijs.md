@@ -24,6 +24,30 @@ scripture:
   - "Genesis 4"
   - "Genesis 6–9"
   - "Hebreeën 11:4–7"
+title_en: "The covenant of grace begins, for Brakel, in paradise"
+summary_en: "After the fall, for Brakel, no plan B begins, but the revelation of God's promise of grace."
+series_title_en: "Brakel, Israel and the covenants"
+series_description_en: "A step-by-step inquiry into what Wilhelmus à Brakel actually taught about Israel, the church, the Torah and the covenant of grace — in the order of his own work."
+scripture_en:
+  - "Genesis 3:15"
+  - "Genesis 4"
+  - "Genesis 6–9"
+  - "Hebrews 11:4–7"
+body_en: |
+  <p>Brakel begins the covenant of grace not where man has built something up, but where everything has collapsed.</p>
+  <p>That is perhaps the most decisive movement in his covenant doctrine. After the fall of Adam he does not first see a new human task by which man must work his way back up to God. He sees God's own speaking: the promise that sounds in paradise, which he reads as the first evangelical revelation.</p>
+  <h2>From work to grace</h2>
+  <p>In Brakel's scheme the covenant of works stands before the fall. The transgression breaks the way on which man would possess life through perfect obedience. For just that reason the redemption after Genesis 3 cannot, for Brakel, consist of a renewed attempt to deliver the same achievement after all. The initiative shifts entirely to God's promise.</p>
+  <p>Brakel connects that promise with Genesis 3:15. The struggle between the seed of the woman and the seed of the serpent he reads christologically: God's answer to the fall is the announcement of the coming Conqueror. That becomes the bed in which he also reads Abel, Enoch and Noah.</p>
+  <h2>The church before Abraham</h2>
+  <p>With this there is, according to Brakel, a church already before Israel. Not a church detached from the later history of Israel, but an early phase of the same line of salvation. Abel offers in faith, Enoch walks with God, Noah finds grace and is preserved. Hebrews 11 helps Brakel to read this history not as loose pious examples, but as a history of faith.</p>
+  <p>That is important for the later question about Abraham. When God calls Abraham, He does not, according to Brakel, suddenly begin with grace for the first time. He narrows and concentrates an already existing gracious history in one man and his seed.</p>
+  <h2>A Reformation accent</h2>
+  <p>Here a classic Reformation motif sounds: man does not become the origin of his own restoration. Where our self-preservation fails, grace proves to be not a last resort but the first ground. Faith is the answer to a preceding Word.</p>
+  <p>That does not mean Brakel thinks human obedience unimportant. On the contrary. But obedience receives its place after God's speaking. It becomes fruit, answer and walk of life; not the source from which the covenant arises.</p>
+  <div class="question-block"><strong>Editorial observation:</strong> precisely this order — God speaks, man receives and answers — will later become decisive when Brakel treats Sinai. If the covenant of grace already exists before the law-giving, then the law cannot simply be read as a new, competing covenant of salvation.</div>
+  <h2>Next step: Abraham</h2>
+  <p>After this broad prehistory Brakel comes to Abraham. There the form of the history changes deeply: God's church receives a special bond with one family and one people. The question then becomes how the universality of grace and the particularity of Israel relate to one another.</p>
 ---
 
 <p>Brakel begint het genadeverbond niet waar de mens iets heeft opgebouwd, maar waar alles is ingestort.</p>

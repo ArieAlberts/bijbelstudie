@@ -43,6 +43,66 @@ sources_news:
     url: "https://www.theguardian.com/world/2026/jul/19/inside-church-of-england-debate-over-palestine-gaza"
   - label: "World Council of Churches — overzicht Holy Land 2023–2025"
     url: "https://www.oikoumene.org/sites/default/files/2026-02/WCCnews-HolyLand-1Jan2023-31December-2025-full.pdf"
+title_en: "Why Brakel is still relevant"
+summary_en: "Israel stands once again in the middle of public and church debate. That is just why it is worth examining how Wilhelmus à Brakel bound Israel, the church and God's covenants together."
+series_title_en: "Brakel, Israel and the covenants"
+series_description_en: "A step-by-step inquiry into what Wilhelmus à Brakel actually taught about Israel, the church, the Torah and the covenant of grace — in the order of his own work."
+scripture_en:
+  - "Genesis 12; 15; 17"
+  - "Exodus 19–20"
+  - "Jeremiah 31:31–37"
+  - "Ezekiel 37"
+  - "Romans 9–11"
+  - "2 Corinthians 3"
+body_en: |
+  <p>Anyone who has followed the news of recent years can hardly avoid Israel. The war in Gaza, the position of the Palestinian population, hostages, security, settlements, antisemitism and the question of the region's future run constantly into one another.</p>
+  <p>But the conversation does not stay limited to politics. Tension arises in churches as well. Some Christians lay strong emphasis on God's abiding promises to Israel. Others point above all to the suffering of Palestinians, among them Palestinian Christians. The same Bible is read, while the conclusions sometimes stand directly opposed.</p>
+  <p>In just such a situation it is important not to mix different questions together too quickly. The question of how we judge the policy of the present state of Israel is not automatically the same question as what Scripture says about the Jewish people. And the question of the suffering of Palestinians is not the same question as the meaning of God's covenants. Political judgement, pastoral concern, historical responsibility and biblical exegesis touch one another, but they are not identical.</p>
+  <h2>Why a theologian from the seventeenth century?</h2>
+  <p>That is why I want to go back, in the coming weeks, to Wilhelmus à Brakel. Not because Brakel could foresee our present political situation. He lived centuries before the founding of the modern state of Israel. He knew no Gaza war, no present-day Zionism and no current national borders.</p>
+  <p>That is precisely what makes him interesting. When Brakel writes about Israel, he does not do so because he has to take sides in our present political debate. He tries to understand, from Scripture, how God's dealings with Israel, the church and the covenant of grace hang together.</p>
+  <p>Moreover, Brakel is no modern dispensationalist who places Israel and the church side by side as two separate systems of salvation. He defends, very strongly, that there is <strong>one covenant of grace</strong>. The covenant at Horeb he sees as the same covenant of grace that God had earlier established with Abraham. At the same time he refuses to conclude from this that the Jewish nation has simply vanished from God's dealings.</p>
+  <blockquote>"There is but one covenant, namely, the covenant of grace."</blockquote>
+  <p>That combination is important: one covenant of grace, one salvation in Christ, believers from the nations who are taken in — and yet a future expectation for Israel.</p>
+  <h2>Has God cast away His people?</h2>
+  <p>When Brakel treats Romans 11, he raises precisely the question that keeps returning today as well: has God cast away His people? He does not read "Israel" there simply as another name for the church. He speaks of the Jewish nation and defends that this nation is not rejected by God forever.</p>
+  <p>Brakel also points to Paul's warning to believers from among the Gentiles. They may not exalt themselves over the branches that were broken off.</p>
+  <blockquote>"Thou bearest not the root, but the root thee."</blockquote>
+  <p>That is perhaps one of the most powerful images in this whole discussion.</p>
+  <p>A branch can begin to think itself important because leaves appear on it. Perhaps even because it bears fruit. But however green that branch becomes, it does not hang in the air. Beneath it is a trunk. Beneath that trunk is a root. And that root carries it.</p>
+  <p>That turns something around in our heart. Our human inclination is easily to want to <strong>possess</strong>: our church, our truth, our place, our interpretation. From possession the step to self-exaltation is small. Then we begin to behave as if we carry the tree.</p>
+  <p>But Paul turns it around:</p>
+  <p><strong>you do not carry — you are carried.</strong></p>
+  <p>Not a hand that tries to grab the root and make itself owner of what God has given, but a branch that lives because it receives.</p>
+  <p>Perhaps that is also where the conversation about Israel begins. Not with the question of how we can fit Israel into our own theological system, but with the question of whether we still realise <strong>by what we ourselves are carried</strong>.</p>
+  <p>Brakel then goes further still. He speaks of a future "complete national conversion" and treats at length Romans 11, 2 Corinthians 3, Jeremiah 31, Hosea 3, Deuteronomy 30, Amos 9, Ezekiel 37, Isaiah 62 and Zechariah 2. He also discusses the possibility of a return of the Jews to their homeland.</p>
+  <p>That makes Brakel hard to file under simple modern labels. He speaks strongly of the unity of the covenant of grace and the church, but he does not let Israel, as historical and future reality, disappear.</p>
+  <h2>The order at Sinai</h2>
+  <p>At Sinai, too, the order matters.</p>
+  <p>God does not begin with a list of demands by which Israel must first work its way up to becoming His people. He begins with what He Himself has done:</p>
+  <blockquote>"I am the LORD thy God, which have brought thee out of the land of Egypt, out of the house of bondage."</blockquote>
+  <p>Then the commandments follow.</p>
+  <p>Brakel therefore calls the law a <strong>"rule for the confederates"</strong>. Obedience does not create the covenant of grace. It belongs to the life of people who have first been addressed by God, redeemed and drawn to Himself.</p>
+  <p><strong>Not walking in order to come into the covenant, but walking because God has first drawn and freed us.</strong></p>
+  <p>Not obedience that causes God's grace, but God's grace that sets a person on his feet and then teaches him how he may walk.</p>
+  <p>The gift comes first. The answer follows.</p>
+  <h2>Why does that matter today?</h2>
+  <p>News sources show how quickly different categories can slide into one another. Reuters reports on the continuing violence and humanitarian consequences in Gaza. Dutch reporting from the NOS shows at the same time how Jewish institutions and Jewish Dutch citizens are confronted with antisemitism and questions of safety. Church sources such as the Protestant Church in the Netherlands and the World Council of Churches show how deeply the questions about Israel and Palestine can cause division within the Christian community as well.</p>
+  <p>Internationally too it proves how sensitive the theological language is. Discussions within churches about Palestinian Christians, antisemitism, Israel and the covenant touch not only foreign policy, but the way Christians understand their own place in the biblical story.</p>
+  <p>That is why it is worthwhile to ask again: where did the covenant of grace begin according to Brakel? What happened with Abraham and at Sinai? What, according to him, was the place of the law? What changed with Christ? Whom does he call the church? Whom does he call Israel? And what does he mean when he says that the Jewish nation still has a future?</p>
+  <div class="question-block">
+    <strong>The central question of this series is therefore not first whether Brakel fits into our modern camp.</strong><br>
+    The question is first: <em>what did he actually write, how did he build his argument, and can that explanation stand when we test it anew against Scripture?</em>
+  </div>
+  <h2>Brakel does not get the last word</h2>
+  <p>This series is therefore no attempt to use Brakel as a final authority. With each instalment I want to give his own words and locations as precisely as possible. First we must let him speak honestly. Then comes the more important step: laying his explanation beside Scripture.</p>
+  <p>That also means that we will not derive a present-day political conclusion straight from a seventeenth-century covenant doctrine. The modern state of Israel and biblical Israel may not be equated without further argument. But conversely, the present moment may not determine that texts about Israel suddenly have nothing more to do with Israel.</p>
+  <p>The coming instalments therefore begin at the foundation: Brakel's doctrine of the covenant of grace. From there follow Abraham, Sinai, the Torah as a rule for the confederates, old and new covenant, Israel and the church, Romans 9–11, the olive tree, the future conversion and the promise of the land.</p>
+  <p><strong>Brakel lived more than three centuries ago. The questions he wrote about stand once again in the middle of church and society. Perhaps this is therefore just the right moment to open his books again.</strong></p>
+  <p>And while we do so, that one sentence keeps hanging over this series for the time being:</p>
+  <blockquote>"Thou bearest not the root, but the root thee."</blockquote>
+  <p>For before we ask what place Israel has, it is perhaps good that we first ask ourselves:</p>
+  <p><strong>do we stand before the root as people who want to possess it — or as people who realise that they are carried?</strong></p>
 ---
 
 <p>Wie het nieuws van de afgelopen jaren heeft gevolgd, kan bijna niet om Israël heen. De oorlog in Gaza, de positie van de Palestijnse bevolking, gijzelaars, veiligheid, nederzettingen, antisemitisme en de vraag naar de toekomst van het gebied lopen voortdurend door elkaar heen.</p>

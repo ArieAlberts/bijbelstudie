@@ -24,6 +24,32 @@ scripture:
   - "Genesis 12:1–3"
   - "Romans 4:11–17"
   - "Efeze 2:11–13"
+title_en: "The olive tree: the root carries us"
+summary_en: "Brakel's reading of Romans 11 is at once eschatology and a warning against Gentile pride."
+series_title_en: "Brakel, Israel and the covenants"
+series_description_en: "A step-by-step inquiry into what Wilhelmus à Brakel actually taught about Israel, the church, the Torah and the covenant of grace — in the order of his own work."
+scripture_en:
+  - "Romans 11:16–24"
+  - "Genesis 12:1–3"
+  - "Romans 4:11–17"
+  - "Ephesians 2:11–13"
+body_en: |
+  <p>A grafted-in branch has no reason to look down on the branches on which it has become dependent.</p>
+  <p>That is the pastoral force with which Brakel reads Romans 11.</p>
+  <h2>The tree stays one</h2>
+  <p>Brakel sees the olive tree as an image of the covenant community that is bound to Abraham, Isaac and Jacob. Gentiles are not planted in a second, competing tree. They are grafted in as wild branches.</p>
+  <p>That is why he stresses Paul's warning: "Thou bearest not the root, but the root thee." The movement of grace gives the Gentile no new superiority. It makes him a receiver.</p>
+  <h2>Natural branches</h2>
+  <p>The broken-off Jewish branches are in Romans 11 still called "natural" branches. That is important for Brakel. Their unbelief is real and serious; they are broken off. But their relation to the tree is not rewritten as if they had never been natural branches.</p>
+  <p>Paul's argument goes further: God is able to graft them again into their own olive tree. Brakel reads that as a future expectation for the Jewish nation.</p>
+  <h2>Grace breaks pride</h2>
+  <p>The doctrine of Israel is here at once a doctrine of the church. If we think that our place rests on something we carry ourselves, Paul turns the image around. We do not carry the root.</p>
+  <p>That fits strikingly with Brakel's broader theology of grace. The confederate lives not by self-preservation but by a received promise. That is why boasting against the broken-off branches is an inner contradiction: one exalts oneself precisely on the ground of grace.</p>
+  <h2>The question of the root</h2>
+  <p>What or who precisely is meant by "root" can be discussed further exegetically: the patriarchal promises, Abraham, or the bearing ground of salvation in God's promise. For Brakel's argument it is above all important that the Gentile Christian is not the historical starting point.</p>
+  <div class="question-block"><strong>Where does our assurance rest?</strong> In the thought that we have taken over the history — or in the awareness that we are carried by God's faithfulness to His own speaking?</div>
+  <h2>"All Israel"</h2>
+  <p>Then comes the best-known sentence: "And so all Israel shall be saved." Brakel understands this as national conversion. But he does not mean by it that every individual Jew without faith is saved. That distinction stands central in the next article.</p>
 ---
 
 <p>Een ingeënte tak heeft geen reden om neer te kijken op de takken waarvan hij afhankelijk is geworden.</p>

@@ -24,6 +24,31 @@ scripture:
   - "Romans 3:24–26"
   - "Hebreeën 9:15"
   - "Openbaring 13:8"
+title_en: "Christ: the same Surety in Old and New Testament"
+summary_en: "Brakel's unity of the covenant ultimately rests on the one Surety: Christ."
+series_title_en: "Brakel, Israel and the covenants"
+series_description_en: "A step-by-step inquiry into what Wilhelmus à Brakel actually taught about Israel, the church, the Torah and the covenant of grace — in the order of his own work."
+scripture_en:
+  - "Hebrews 7:22"
+  - "Romans 3:24–26"
+  - "Hebrews 9:15"
+  - "Revelation 13:8"
+body_en: |
+  <p>Brakel's unity of the covenant finally rests not on Abraham, Moses or the church.</p>
+  <p>It rests on Christ.</p>
+  <h2>The question of chapter 4</h2>
+  <p>Brakel discusses a technical-sounding but fundamental question: was Christ in the Old Testament the same kind of Surety as in the New? Some wanted to say that before His historical suffering He stood surety only conditionally or provisionally.</p>
+  <p>Brakel rejects that. For him Christ really took upon Himself the debt of the elect, even before Golgotha took place historically. The payment lay in the future, but God's pledge and the suretyship were not uncertain.</p>
+  <h2>"There is but one covenant"</h2>
+  <p>One of Brakel's proofs is precisely the unity of the covenant of grace. One covenant, one Surety, and confederates who in all ages do not derive their right to the same grace from different redeemers. Thereby he can call the Old Testament believer truly reconciled.</p>
+  <h2>The time of the cross and the power of the cross</h2>
+  <p>Here Brakel makes a distinction between the historical accomplishment and the saving power. Christ dies once in history. But God's action is not limited as if no one before Good Friday could really receive forgiveness.</p>
+  <p>Romans 3 speaks of God's forbearance with regard to sins committed earlier and of the revelation of His righteousness in Christ. Hebrews 9 connects Christ's death with the redemption of transgressions under the first testament. Such texts form the biblical test for Brakel's thesis.</p>
+  <h2>Why this is relevant for Israel</h2>
+  <p>If Christ is the only Surety also before His coming, then Brakel's speaking about the Old Testament is not a speaking about "Jewish salvation without Christ." But conversely that also means that Christ does not appear outside Israel's Scripture and covenant history. The Surety whom Brakel confesses is the promised Messiah within that history.</p>
+  <div class="question-block"><strong>The comfort lies not in our place on the timeline, but in the reliability of the Surety.</strong> God's promise was not uncertain before the historical fulfilment, because the fulfilment was not uncertain to Him.</div>
+  <h2>What did this mean for the believers themselves?</h2>
+  <p>Chapter 5 draws the consequence: Old Testament believers had, according to Brakel, real forgiveness, peace, sonship and the Holy Spirit. We examine that in the next instalment.</p>
 ---
 
 <p>Brakels eenheid van het verbond rust uiteindelijk niet op Abraham, Mozes of de kerk.</p>
