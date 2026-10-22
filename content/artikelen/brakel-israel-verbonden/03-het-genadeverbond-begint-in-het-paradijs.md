@@ -33,6 +33,9 @@ scripture_en:
   - "Genesis 4"
   - "Genesis 6–9"
   - "Hebrews 11:4–7"
+sources_brakel_en:
+  - label: "Wilhelmus à Brakel, The Christian's Reasonable Service (trans. B. Elshout), Appendix 'The Administration of the Covenant of Grace in the Old and New Testaments,' ch. 1 (The Church of the Old Testament from Adam to Abraham), §§ III–IV"
+    detail: "Primary source for Brakel's own argument in this article."
 body_en: |
   <p>Brakel begins the covenant of grace not where man has built something up, but where everything has collapsed.</p>
   <p>That is perhaps the most decisive movement in his covenant doctrine. After the fall of Adam he does not first see a new human task by which man must work his way back up to God. He sees God's own speaking: the promise that sounds in paradise, which he reads as the first evangelical revelation.</p>

@@ -33,6 +33,9 @@ scripture_en:
   - "2 Corinthians 3:6–18"
   - "Hebrews 8:6–13"
   - "Galatians 4:1–7"
+sources_brakel_en:
+  - label: "Wilhelmus à Brakel, The Christian's Reasonable Service (trans. B. Elshout), Appendix 'The Administration of the Covenant of Grace in the Old and New Testaments,' ch. 5 (The State of Believers in the Old Testament)"
+    detail: "Primary source for Brakel's own argument in this article."
 body_en: |
   <p>"The same salvation" is not the same as "everything stayed the same."</p>
   <p>Brakel holds those two sentences together at once. That is necessary, because his emphasis on one covenant of grace can otherwise easily sound as if the coming of Christ changes almost nothing.</p>

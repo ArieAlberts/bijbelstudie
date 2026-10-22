@@ -33,6 +33,9 @@ scripture_en:
   - "Hebrews 11"
   - "Galatians 3"
   - "Hebrews 8–10"
+sources_brakel_en:
+  - label: "Wilhelmus à Brakel, The Christian's Reasonable Service (trans. B. Elshout), Appendix 'The Administration of the Covenant of Grace in the Old and New Testaments,' ch. 1 (The Church of the Old Testament from Adam to Abraham), §§ I–II"
+    detail: "Primary source for Brakel's own argument in this article."
 body_en: |
   <p>When we want to understand Brakel on Israel and the covenants, it is tempting to jump straight to Romans 11. Brakel himself does not do that. He begins much earlier. In the first chapter of Part III he first sets out the long line of God's church and distinguishes the Old and the New Testament as two administrations of the same reality of grace.</p>
   <h2>Where are we in Brakel's work?</h2>

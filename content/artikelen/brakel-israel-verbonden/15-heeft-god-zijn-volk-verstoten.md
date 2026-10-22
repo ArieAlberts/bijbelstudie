@@ -33,6 +33,9 @@ scripture_en:
   - "Romans 11:11–15"
   - "Jeremiah 31:35–37"
   - "Psalm 94:14"
+sources_brakel_en:
+  - label: "Wilhelmus à Brakel, The Christian's Reasonable Service (trans. B. Elshout), Appendix 'The Administration of the Covenant of Grace in the Old and New Testaments,' ch. 6 (The Church of the New Testament from the birth of Jesus Christ to the Revelation of John), §§ XI–XII"
+    detail: "Primary source for Brakel's own argument in this article."
 body_en: |
   <blockquote>"Hath God cast away his people?"</blockquote>
   <p>Brakel does not let that question be solved by giving the word "people" another meaning straightaway. He says explicitly that he is speaking of the Jewish nation.</p>

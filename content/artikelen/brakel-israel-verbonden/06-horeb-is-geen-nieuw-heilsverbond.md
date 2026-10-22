@@ -33,6 +33,9 @@ scripture_en:
   - "Exodus 20:1–2"
   - "Deuteronomy 7:6–9"
   - "Galatians 3:15–18"
+sources_brakel_en:
+  - label: "Wilhelmus à Brakel, The Christian's Reasonable Service (trans. B. Elshout), Appendix 'The Administration of the Covenant of Grace in the Old and New Testaments,' ch. 2 (The Church from Abraham to Sinai), on Horeb"
+    detail: "Primary source for Brakel's own argument in this article."
 body_en: |
   <p>At Sinai Brakel does not first hear: "do this and earn the right to become My people." He first hears that God has brought a people to Himself.</p>
   <p>That makes his explanation of Exodus 19 fundamentally different from a scheme in which Israel receives at Horeb a new covenant of salvation by works.</p>

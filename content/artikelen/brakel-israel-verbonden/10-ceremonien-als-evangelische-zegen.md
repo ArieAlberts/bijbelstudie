@@ -35,6 +35,9 @@ scripture_en:
   - "Hebrews 5:1–10"
   - "Hebrews 9:1–14"
   - "Colossians 2:16–17"
+sources_brakel_en:
+  - label: "Wilhelmus à Brakel, The Christian's Reasonable Service (trans. B. Elshout), Appendix 'The Administration of the Covenant of Grace in the Old and New Testaments,' ch. 4 (The Ceremonial Laws Given at Sinai and the Condition of the Church from Sinai to Christ), §§ XXXIV–XXXV"
+    detail: "Primary source for Brakel's own argument in this article."
 body_en: |
   <p>We can connect the ceremonial laws so strongly with "shadow" that shadow comes to mean almost "inferior."</p>
   <p>Brakel does not do that.</p>

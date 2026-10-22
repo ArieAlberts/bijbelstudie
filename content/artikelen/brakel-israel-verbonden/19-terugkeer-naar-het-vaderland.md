@@ -37,6 +37,9 @@ scripture_en:
   - "Isaiah 62"
   - "Zechariah 2"
   - "Daniel 9:26–27"
+sources_brakel_en:
+  - label: "Wilhelmus à Brakel, The Christian's Reasonable Service (trans. B. Elshout), Appendix 'The Administration of the Covenant of Grace in the Old and New Testaments,' ch. 6 (The Church of the New Testament...), §§ XXXII–XXXVIII"
+    detail: "Primary source for Brakel's own argument in this article."
 body_en: |
   <p>Brakel expects not only a future conversion of the Jewish nation. He also expects a return to the land.</p>
   <p>That is important to establish without modern projection: he wrote this centuries before 1948. His reasoning arises from his reading of the prophets, not from a reaction to the modern state of Israel.</p>

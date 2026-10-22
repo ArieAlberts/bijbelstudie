@@ -35,6 +35,11 @@ scripture_en:
   - "James 2:18"
   - "Galatians 3:21"
   - "Romans 10:4"
+sources_brakel_en:
+  - label: "Wilhelmus à Brakel, The Christian's Reasonable Service (trans. B. Elshout), vol. 3, ch. 45 (The Law of God: General Considerations), §§ XIV–XIX"
+    detail: "On the law as a rule of life for the confederates."
+  - label: "The Christian's Reasonable Service, Appendix 'The Administration of the Covenant of Grace in the Old and New Testaments,' on the giving of the law at Sinai"
+    detail: "Primary source for Brakel's own argument in this article."
 body_en: |
   <p>We often read Exodus 19 and 20 in one breath. Brakel deliberately sets a boundary between them.</p>
   <p>First the covenant is solemnly confirmed. Then comes the law.</p>

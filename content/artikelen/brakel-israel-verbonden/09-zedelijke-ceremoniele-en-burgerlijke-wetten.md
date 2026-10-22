@@ -33,6 +33,9 @@ scripture_en:
   - "Leviticus 1–7"
   - "Deuteronomy 4:5–8"
   - "Hebrews 9–10"
+sources_brakel_en:
+  - label: "Wilhelmus à Brakel, The Christian's Reasonable Service (trans. B. Elshout), Appendix 'The Administration of the Covenant of Grace in the Old and New Testaments,' on the law and ceremonies given at Sinai, §§ I–II"
+    detail: "Primary source for Brakel's own argument in this article."
 body_en: |
   <p>After Israel, according to Brakel, has entered the covenant, the people receive laws "by which they had to conduct themselves."</p>
   <p>Brakel distinguishes that law-giving into three large groups: moral, ceremonial and civil. Not because the Torah itself uses such headings on every page, but as a theological ordering of different functions.</p>

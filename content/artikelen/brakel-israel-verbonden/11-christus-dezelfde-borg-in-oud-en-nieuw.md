@@ -33,6 +33,9 @@ scripture_en:
   - "Romans 3:24–26"
   - "Hebrews 9:15"
   - "Revelation 13:8"
+sources_brakel_en:
+  - label: "Wilhelmus à Brakel, The Christian's Reasonable Service (trans. B. Elshout), Appendix 'The Administration of the Covenant of Grace in the Old and New Testaments,' on Christ as the one Surety in the Old and New Testaments; cf. vol. 1, ch. 17 (The Necessity of the Atonement by the Surety Jesus Christ)"
+    detail: "Primary source for Brakel's own argument in this article."
 body_en: |
   <p>Brakel's unity of the covenant finally rests not on Abraham, Moses or the church.</p>
   <p>It rests on Christ.</p>

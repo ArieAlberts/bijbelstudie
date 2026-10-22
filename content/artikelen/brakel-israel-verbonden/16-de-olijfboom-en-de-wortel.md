@@ -33,6 +33,9 @@ scripture_en:
   - "Genesis 12:1–3"
   - "Romans 4:11–17"
   - "Ephesians 2:11–13"
+sources_brakel_en:
+  - label: "Wilhelmus à Brakel, The Christian's Reasonable Service (trans. B. Elshout), Appendix 'The Administration of the Covenant of Grace in the Old and New Testaments,' ch. 6 (The Church of the New Testament...), §§ XIII–XX"
+    detail: "Primary source for Brakel's own argument in this article."
 body_en: |
   <p>A grafted-in branch has no reason to look down on the branches on which it has become dependent.</p>
   <p>That is the pastoral force with which Brakel reads Romans 11.</p>

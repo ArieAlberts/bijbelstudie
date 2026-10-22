@@ -33,6 +33,9 @@ scripture_en:
   - "Psalm 78:36–37"
   - "1 Corinthians 10:1–5"
   - "Hebrews 3–4"
+sources_brakel_en:
+  - label: "Wilhelmus à Brakel, The Christian's Reasonable Service (trans. B. Elshout), Appendix 'The Administration of the Covenant of Grace in the Old and New Testaments,' ch. 2 (The Church from Abraham to Sinai), objections concerning Sinai"
+    detail: "Primary source for Brakel's own argument in this article."
 body_en: |
   <p>Brakel makes a distinction within Israel, but he does not make that distinction into a second covenant of salvation.</p>
   <p>That is the core of his answer to the idea that Sinai, alongside the covenant of grace, would form a separate external, national and typical covenant.</p>

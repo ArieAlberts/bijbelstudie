@@ -35,6 +35,9 @@ scripture_en:
   - "Galatians 4:4–7"
   - "Hebrews 11"
   - "1 Peter 1:10–12"
+sources_brakel_en:
+  - label: "Wilhelmus à Brakel, The Christian's Reasonable Service (trans. B. Elshout), Appendix 'The Administration of the Covenant of Grace in the Old and New Testaments,' ch. 5 (The State of Believers in the Old Testament)"
+    detail: "Primary source for Brakel's own argument in this article."
 body_en: |
   <p>Brakel refuses to make Old Testament believers into second-rate children of God.</p>
   <p>His words in chapter 5 are strikingly strong: the same Spirit, the same faith, the same justification and forgiveness, the same peace and the same sonship — though he acknowledges differences in measure and clarity.</p>

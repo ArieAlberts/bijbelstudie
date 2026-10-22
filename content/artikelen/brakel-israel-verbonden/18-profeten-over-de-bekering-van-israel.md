@@ -37,6 +37,9 @@ scripture_en:
   - "Isaiah 61:1–9"
   - "Jeremiah 31:31–40"
   - "Hosea 3:4–5"
+sources_brakel_en:
+  - label: "Wilhelmus à Brakel, The Christian's Reasonable Service (trans. B. Elshout), Appendix 'The Administration of the Covenant of Grace in the Old and New Testaments,' ch. 6 (The Church of the New Testament...), §§ XXII–XXXI"
+    detail: "Primary source for Brakel's own argument in this article."
 body_en: |
   <p>Brakel builds his expectation of Israel's conversion not on one text alone.</p>
   <p>After Romans 11 he goes through a whole row of Scripture passages. With this he wants to show that the same movement becomes visible from various sides.</p>

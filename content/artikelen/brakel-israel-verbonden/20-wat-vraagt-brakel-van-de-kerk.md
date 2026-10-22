@@ -35,6 +35,9 @@ scripture_en:
   - "Genesis 12:1–3"
   - "Psalm 122:6"
   - "1 Timothy 2:1–4"
+sources_brakel_en:
+  - label: "Wilhelmus à Brakel, The Christian's Reasonable Service (trans. B. Elshout), Appendix 'The Administration of the Covenant of Grace in the Old and New Testaments,' ch. 6 (The Church of the New Testament...), § XXXIX"
+    detail: "Primary source for Brakel's own argument in this article."
 body_en: |
   <p>Brakel ends his long argument about Israel not with a timeline.</p>
   <p>He ends with duties.</p>

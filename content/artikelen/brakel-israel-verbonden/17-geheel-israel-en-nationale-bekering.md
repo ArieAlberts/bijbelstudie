@@ -31,6 +31,9 @@ scripture_en:
   - "Romans 11:25–29"
   - "Isaiah 59:20–21"
   - "Jeremiah 31:31–37"
+sources_brakel_en:
+  - label: "Wilhelmus à Brakel, The Christian's Reasonable Service (trans. B. Elshout), Appendix 'The Administration of the Covenant of Grace in the Old and New Testaments,' ch. 6 (The Church of the New Testament...), §§ XIX–XXI"
+    detail: "Primary source for Brakel's own argument in this article."
 body_en: |
   <p>When Brakel writes about a "complete national conversion," he uses great words. That is why we must ask precisely what he means.</p>
   <h2>Not every individual without exception</h2>

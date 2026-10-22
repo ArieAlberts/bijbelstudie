@@ -35,6 +35,9 @@ scripture_en:
   - "Galatians 3:26–29"
   - "Galatians 4:4–7"
   - "John 10:16"
+sources_brakel_en:
+  - label: "Wilhelmus à Brakel, The Christian's Reasonable Service (trans. B. Elshout), Appendix 'The Administration of the Covenant of Grace in the Old and New Testaments,' ch. 5–6; cf. vol. 2, ch. 24 (The Church)"
+    detail: "Primary source for Brakel's own argument in this article."
 body_en: |
   <p>For Brakel the coming of the Gentiles brings forth no second tree.</p>
   <p>He speaks of the expansion of the same goods of grace to the nations and of Jews and Gentiles who together make up one church.</p>

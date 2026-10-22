@@ -31,6 +31,9 @@ scripture_en:
   - "Genesis 17:1–14"
   - "Romans 4:9–12"
   - "Colossians 2:11–12"
+sources_brakel_en:
+  - label: "Wilhelmus à Brakel, The Christian's Reasonable Service (trans. B. Elshout), Appendix 'The Administration of the Covenant of Grace in the Old and New Testaments,' ch. 2 (The Church from Abraham to Sinai), on circumcision"
+    detail: "Primary source for Brakel's own argument in this article."
 body_en: |
   <p>A sign can be visible without becoming the source of salvation.</p>
   <p>That distinction Brakel guards when he treats circumcision. The sign stands literally in the body of Abraham's male offspring, but according to Brakel it does not seal their own merit. It points to God's covenant promise and to the righteousness that is received by faith.</p>

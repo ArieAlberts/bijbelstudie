@@ -54,6 +54,26 @@ scripture_en:
   - "Ezekiel 37"
   - "Romans 9–11"
   - "2 Corinthians 3"
+sources_brakel_en:
+  - label: "Wilhelmus à Brakel, The Christian's Reasonable Service (trans. B. Elshout), Appendix 'The Administration of the Covenant of Grace in the Old and New Testaments,' ch. 2 (The Church from Abraham to Sinai)"
+    detail: "On the covenant of grace, Abraham, Israel and Horeb."
+  - label: "The Christian's Reasonable Service, Appendix, ch. 6 (The Church of the New Testament from the birth of Jesus Christ to the Revelation of John), §§ 11–39"
+    detail: "On Romans 11, the future conversion of the Jews and the return to the land."
+sources_news_en:
+  - label: "Reuters — reporting on casualties and the situation in Gaza, 24 August 2026"
+    url: "https://www.reuters.com/world/middle-east/israeli-fire-kills-two-young-children-gaza-medics-say-2026-08-24/"
+  - label: "Reuters — reporting on aid workers in conflict zones, 19 August 2026"
+    url: "https://www.reuters.com/world/africa/attacks-aid-workers-hit-record-high-2025-un-says-2026-08-19/"
+  - label: "Reuters — antisemitism in Europe, 13 February 2026"
+    url: "https://www.reuters.com/world/macron-calls-stronger-measures-against-antisemitism-france-2026-02-13/"
+  - label: "NOS — attacks on the Jewish community in the Netherlands"
+    url: "https://nos.nl/collectie/14015/artikel/2606580-jetten-aanslagen-op-joodse-gemeenschap-onacceptabel-link-met-iran-onderzocht"
+  - label: "Protestant Church in the Netherlands — Not talking about one another, but with one another"
+    url: "https://live.protestantsekerk.nl/nieuws/niet-praten-over-elkaar-maar-met-elkaar/"
+  - label: "The Guardian — debate within the Church of England over Palestine and Gaza, 19 July 2026"
+    url: "https://www.theguardian.com/world/2026/jul/19/inside-church-of-england-debate-over-palestine-gaza"
+  - label: "World Council of Churches — Holy Land overview 2023–2025"
+    url: "https://www.oikoumene.org/sites/default/files/2026-02/WCCnews-HolyLand-1Jan2023-31December-2025-full.pdf"
 body_en: |
   <p>Anyone who has followed the news of recent years can hardly avoid Israel. The war in Gaza, the position of the Palestinian population, hostages, security, settlements, antisemitism and the question of the region's future run constantly into one another.</p>
   <p>But the conversation does not stay limited to politics. Tension arises in churches as well. Some Christians lay strong emphasis on God's abiding promises to Israel. Others point above all to the suffering of Palestinians, among them Palestinian Christians. The same Bible is read, while the conclusions sometimes stand directly opposed.</p>

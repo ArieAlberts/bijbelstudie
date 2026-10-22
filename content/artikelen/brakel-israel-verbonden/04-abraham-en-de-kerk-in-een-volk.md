@@ -33,6 +33,9 @@ scripture_en:
   - "Genesis 17"
   - "Romans 4"
   - "Galatians 3:6–18"
+sources_brakel_en:
+  - label: "Wilhelmus à Brakel, The Christian's Reasonable Service (trans. B. Elshout), Appendix 'The Administration of the Covenant of Grace in the Old and New Testaments,' ch. 1 (end) and ch. 2 (The Church from Abraham to Sinai, opening)"
+    detail: "Primary source for Brakel's own argument in this article."
 body_en: |
   <p>With Abraham God's way grows narrower — and precisely in that way it receives a worldwide horizon.</p>
   <p>Brakel describes the period before Abraham as a time in which God's church was found among various peoples. With Abraham that history receives a special national bedding: God takes Abraham and his seed apart. That is not a rejection of His earlier grace, but a new historical form of it.</p>

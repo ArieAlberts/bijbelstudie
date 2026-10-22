@@ -37,6 +37,11 @@ scripture_en:
   - "Ezekiel 37"
   - "Romans 9–11"
   - "2 Corinthians 3"
+sources_brakel_en:
+  - label: "Wilhelmus à Brakel, The Christian's Reasonable Service (trans. B. Elshout), Appendix 'The Administration of the Covenant of Grace in the Old and New Testaments,' ch. 2 (The Church from Abraham to Sinai); the covenant of grace itself in vol. 1, ch. 16"
+    detail: "On the covenant of grace, Abraham, Israel and Horeb."
+  - label: "The Christian's Reasonable Service, Appendix, ch. 6 (The Church of the New Testament from the birth of Jesus Christ to the Revelation of John), §§ 11–39"
+    detail: "On the future conversion of the Jewish nation, Romans 11 and the return to the land."
 body_en: |
   <p>Who was Israel according to Wilhelmus à Brakel? Which covenant did God make with Abraham? What really happened at Sinai? Was it a new covenant, or the continuation of something that already existed? What changed with the coming of Christ? And perhaps more importantly: <strong>is God, according to Brakel, finished with the Jewish people?</strong></p>
   <p>In the coming weeks I want to look at that step by step.</p>
