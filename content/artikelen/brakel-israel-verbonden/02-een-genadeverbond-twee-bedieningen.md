@@ -24,6 +24,33 @@ scripture:
   - "Hebreeën 11"
   - "Galaten 3"
   - "Hebreeën 8–10"
+title_en: "One covenant of grace, two administrations"
+summary_en: "Brakel begins his history of the church not with two peoples, but with one covenant of grace in different administrations."
+series_title_en: "Brakel, Israel and the covenants"
+series_description_en: "A step-by-step inquiry into what Wilhelmus à Brakel actually taught about Israel, the church, the Torah and the covenant of grace — in the order of his own work."
+scripture_en:
+  - "Genesis 3:15"
+  - "Hebrews 11"
+  - "Galatians 3"
+  - "Hebrews 8–10"
+sources_brakel_en:
+  - label: "Wilhelmus à Brakel, The Christian's Reasonable Service (trans. B. Elshout), Appendix 'The Administration of the Covenant of Grace in the Old and New Testaments,' ch. 1 (The Church of the Old Testament from Adam to Abraham), §§ I–II"
+    detail: "Primary source for Brakel's own argument in this article."
+body_en: |
+  <p>When we want to understand Brakel on Israel and the covenants, it is tempting to jump straight to Romans 11. Brakel himself does not do that. He begins much earlier. In the first chapter of Part III he first sets out the long line of God's church and distinguishes the Old and the New Testament as two administrations of the same reality of grace.</p>
+  <h2>Where are we in Brakel's work?</h2>
+  <p>Part III opens with "Of the Church of the Old Testament, and in particular from Adam to Abraham." With this Brakel makes his method visible at once: before he treats Abraham, Sinai or Israel as a nation, he asks how God preserved His church before Abraham. For him the history of God's people therefore does not begin only at Exodus 19.</p>
+  <h2>The main thesis</h2>
+  <p>Brakel's starting point is that Old and New are not two different ways of salvation. He speaks of different administrations, different degrees of light and different signs, but the underlying reality remains the covenant of grace. That keeps him from reducing the Old Testament to a period in which people had to live by works until Christ brought another system.</p>
+  <p>That formulation calls for care. Brakel does not deny that there is a real difference. The old administration knew promises, examples, shadows and ceremonies. The new administration knows the Messiah who has come and a greater clarity. But a difference in administration is for him something other than a difference in the ground of salvation.</p>
+  <h2>Why this matters for Israel</h2>
+  <p>Here the basis is laid for everything that follows. If salvation in the Old Testament is essentially the same covenant of grace, then Israel cannot simply be described as a people that stood exclusively under an opposite "covenant of law." The law, the sacrificial service, the promises and the national history must then be read within an already existing gracious dealing of God.</p>
+  <p>That does not automatically mean that every Israelite was inwardly a believer. Brakel will later distinguish sharply between an external relationship and true faith. But that distinction comes only after he has established the covenant ground. First God and His promise; then the question of how people answer it.</p>
+  <h2>Scripture above Brakel</h2>
+  <p>Brakel's thesis invites a concrete test. Hebrews 11 describes Old Testament believers as people who lived by faith. Galatians 3 connects the promise to Abraham with Christ. At the same time Hebrews 8–10 uses powerful language about old and new. The question is therefore not whether there is a difference, but what kind of difference Scripture itself draws.</p>
+  <div class="question-block"><strong>Test question:</strong> when Scripture distinguishes the old and the new administration, is it about two ways to God, or about the progress and fulfilment of one promise given by God?</div>
+  <h2>The movement of this series</h2>
+  <p>The next step is more fundamental still. Brakel does not let the covenant of grace begin with Abraham. He goes back to paradise, to the moment when man has precisely nothing left to build on. There, after the fall, he lets the first revelation of the Gospel begin.</p>
 ---
 
 <p>Wanneer wij Brakel over Israël en de verbonden willen begrijpen, is het verleidelijk om meteen naar Romeinen 11 te springen. Brakel zelf doet dat niet. Hij begint veel eerder. In het eerste hoofdstuk van deel III zet hij eerst de lange lijn van Gods kerk uiteen en onderscheidt hij het Oude en het Nieuwe Testament als twee bedieningen van dezelfde genadewerkelijkheid.</p>

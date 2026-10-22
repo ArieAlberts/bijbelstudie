@@ -25,6 +25,35 @@ scripture:
   - "Galaten 4:4–7"
   - "Hebreeën 11"
   - "1 Petrus 1:10–12"
+title_en: "The same Spirit, the same faith and the same justification"
+summary_en: "Old Testament believers did not, according to Brakel, live in a lesser kind of salvation."
+series_title_en: "Brakel, Israel and the covenants"
+series_description_en: "A step-by-step inquiry into what Wilhelmus à Brakel actually taught about Israel, the church, the Torah and the covenant of grace — in the order of his own work."
+scripture_en:
+  - "Psalm 32:1–2"
+  - "Romans 4:5–8"
+  - "Galatians 4:4–7"
+  - "Hebrews 11"
+  - "1 Peter 1:10–12"
+sources_brakel_en:
+  - label: "Wilhelmus à Brakel, The Christian's Reasonable Service (trans. B. Elshout), Appendix 'The Administration of the Covenant of Grace in the Old and New Testaments,' ch. 5 (The State of Believers in the Old Testament)"
+    detail: "Primary source for Brakel's own argument in this article."
+body_en: |
+  <p>Brakel refuses to make Old Testament believers into second-rate children of God.</p>
+  <p>His words in chapter 5 are strikingly strong: the same Spirit, the same faith, the same justification and forgiveness, the same peace and the same sonship — though he acknowledges differences in measure and clarity.</p>
+  <h2>The question of real reconciliation</h2>
+  <p>The core question is whether believers before Christ's coming were really reconciled to God and justified, or lived only in a provisional, as yet unreconciled state. Brakel chooses without reservation for the first.</p>
+  <p>He can say that because chapter 4 has already laid the ground: Christ is the same Surety. The believer therefore does not rest in the animal sacrifice as an independent payment, but in the reality to which the sacrifice points.</p>
+  <h2>David as witness</h2>
+  <p>Paul uses in Romans 4 Psalm 32 to describe the blessedness of the man to whom God imputes righteousness without works. David is thereby, for Brakel, no proof of a different Old Testament model of justification, but precisely a witness of the same grace.</p>
+  <h2>The Spirit before Pentecost</h2>
+  <p>Brakel of course knows the unique redemptive-historical character of Pentecost. Yet he does not conclude from it that the Holy Spirit worked no regeneration, faith and sanctification before that time. He distinguishes a greater outpouring and clarity from the complete absence of the Spirit.</p>
+  <p>Here too his favourite category "degree" is important. The new administration is richer in revelation and ministry, but not because the old believers received a different kind of forgiveness or sonship.</p>
+  <h2>Israel and faith</h2>
+  <p>This thesis preserves two data at once. The history of Israel contains real unbelief and judgement. But the Old Testament itself contains at the same time believers who know God, hope in His promises and live in His grace. Brakel wants no system that makes the second reality invisible.</p>
+  <div class="question-block"><strong>Test question:</strong> when Hebrews 11 draws one long row of witnesses of faith from Israel's Scripture, what does that say about the idea that the old administration was in principle a way of merit?</div>
+  <h2>Yet old and new are not identical</h2>
+  <p>The next instalment guards the other side. Brakel does not say that nothing changed. He speaks precisely of a great difference in light, clarity of faith, comfort and ministry. The difference lies, according to him, in the degree, not in the essence of salvation.</p>
 ---
 
 <p>Brakel weigert van oudtestamentische gelovigen tweederangs kinderen van God te maken.</p>

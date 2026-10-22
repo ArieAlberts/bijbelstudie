@@ -24,6 +24,33 @@ scripture:
   - "Exodus 20:1–2"
   - "Deuteronomium 7:6–9"
   - "Galaten 3:15–18"
+title_en: "Horeb: no new covenant of salvation"
+summary_en: "Brakel calls the covenant at Horeb the same covenant of grace that had already been established with Abraham."
+series_title_en: "Brakel, Israel and the covenants"
+series_description_en: "A step-by-step inquiry into what Wilhelmus à Brakel actually taught about Israel, the church, the Torah and the covenant of grace — in the order of his own work."
+scripture_en:
+  - "Exodus 19:3–8"
+  - "Exodus 20:1–2"
+  - "Deuteronomy 7:6–9"
+  - "Galatians 3:15–18"
+sources_brakel_en:
+  - label: "Wilhelmus à Brakel, The Christian's Reasonable Service (trans. B. Elshout), Appendix 'The Administration of the Covenant of Grace in the Old and New Testaments,' ch. 2 (The Church from Abraham to Sinai), on Horeb"
+    detail: "Primary source for Brakel's own argument in this article."
+body_en: |
+  <p>At Sinai Brakel does not first hear: "do this and earn the right to become My people." He first hears that God has brought a people to Himself.</p>
+  <p>That makes his explanation of Exodus 19 fundamentally different from a scheme in which Israel receives at Horeb a new covenant of salvation by works.</p>
+  <h2>The covenant is there before the law</h2>
+  <p>Brakel reads Exodus 19 as the solemn establishment or renewal of the covenant of grace with Israel. He connects this directly with Abraham, Isaac and Jacob. What happens at Horeb is, according to him, "the same covenant as was established with Abraham, Isaac, and Jacob" in its saving core.</p>
+  <p>Exodus itself begins the Sinai scene with God's initiative: Israel has been carried out of Egypt and brought to God. Only afterward does the covenant language about special possession, priestly kingdom and holy nation sound.</p>
+  <h2>Why Brakel finds this so important</h2>
+  <p>If Horeb were an entirely new covenant of salvation, the line with Abraham would break. Brakel points precisely to the continuity of promises and spiritual goods. Galatians 3 becomes a natural touchstone here: a law given later cannot, according to Paul, make void the promise confirmed earlier by God.</p>
+  <p>Brakel does not thereby deny that Sinai brings new obligations, forms and national ordering. The historical situation changes enormously. But that new administration stands, according to him, within the same covenant of grace.</p>
+  <h2>Obedience receives a place</h2>
+  <p>Israel's answer "All that the LORD hath spoken we will do" Brakel takes seriously. Yet he does not make obedience into the meriting condition by which God becomes gracious. He describes obedience as duty and as a showing of sincerity within the covenant.</p>
+  <p>That is a subtle but decisive distinction. The covenant of grace does not make obedience superfluous. It sets it in its right place. Man answers God's preceding action.</p>
+  <div class="question-block"><strong>Core question:</strong> do we read Exodus 19 from the command alone, or do we first hear Who carried the people out of Egypt and brought them to Himself?</div>
+  <h2>An objection remains</h2>
+  <p>But could Horeb then perhaps be, at the same time, yet another covenant — an external, national and typical covenant alongside the covenant of grace? Brakel knows that idea and opposes it at length. That is the subject of the next instalment.</p>
 ---
 
 <p>Bij Sinaï hoort Brakel niet eerst: “doe dit en verdien Mijn volk te worden.” Hij hoort eerst dat God een volk tot Zich heeft gebracht.</p>

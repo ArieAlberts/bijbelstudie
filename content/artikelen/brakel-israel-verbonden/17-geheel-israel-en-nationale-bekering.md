@@ -23,6 +23,32 @@ scripture:
   - "Romans 11:25–29"
   - "Isaiah 59:20–21"
   - "Jeremia 31:31–37"
+title_en: "'All Israel': Brakel's expectation of a national conversion"
+summary_en: "What does Brakel mean — and not mean — when he speaks of the conversion of the whole Jewish nation?"
+series_title_en: "Brakel, Israel and the covenants"
+series_description_en: "A step-by-step inquiry into what Wilhelmus à Brakel actually taught about Israel, the church, the Torah and the covenant of grace — in the order of his own work."
+scripture_en:
+  - "Romans 11:25–29"
+  - "Isaiah 59:20–21"
+  - "Jeremiah 31:31–37"
+sources_brakel_en:
+  - label: "Wilhelmus à Brakel, The Christian's Reasonable Service (trans. B. Elshout), Appendix 'The Administration of the Covenant of Grace in the Old and New Testaments,' ch. 6 (The Church of the New Testament...), §§ XIX–XXI"
+    detail: "Primary source for Brakel's own argument in this article."
+body_en: |
+  <p>When Brakel writes about a "complete national conversion," he uses great words. That is why we must ask precisely what he means.</p>
+  <h2>Not every individual without exception</h2>
+  <p>Brakel makes clear that "all Israel" is, according to him, a national designation. He expects a very broad, recognisable turning of the Jewish nation to the Messiah. That does not mean that every single person of Jewish descent is automatically born again.</p>
+  <p>That limitation fits his earlier covenant doctrine: bodily or national relationship and personal faith may not be made identical.</p>
+  <h2>Why he reads Romans 11 this way</h2>
+  <p>The sequence in Paul's argument is decisive for Brakel. A partial hardening has come over Israel "until" the fulness of the Gentiles comes in. Then follows "and so all Israel shall be saved" and a reference to the Deliverer out of Zion.</p>
+  <p>Brakel does not want to let "Israel" in this part of the sentence suddenly switch to a completely different referent without textual necessity. The same nation of which hardening is described is, according to him, the nation of which future turning is expected.</p>
+  <h2>Beloved for the fathers' sake</h2>
+  <p>Romans 11:28–29 thereby receives special meaning. Enmity with regard to the Gospel and being beloved for the fathers' sake stand side by side. The gifts and calling of God are called irrevocable. Brakel hears in that no cheap acquittal of unbelief, but indeed a boundary against definitive writing-off.</p>
+  <h2>Covenant faithfulness as bearing ground</h2>
+  <p>This passage explains why Brakel does not treat his expectation of Israel as a loose end-times topic. It hangs together with his doctrine of God's unchangeableness. What God promised to Abraham and his seed forms for him a reason to expect a future.</p>
+  <div class="question-block"><strong>Scripture test:</strong> the core question is whether Paul with "all Israel" indeed means a future national movement. Brakel says yes. In this series we present that faithfully first; after that the text itself remains the norm.</div>
+  <h2>Brakel then stacks texts</h2>
+  <p>After Romans 11 he is not finished. He goes to 2 Corinthians 3, words of Yeshua and various prophets. With this he tries to show that his expectation does not rest on one difficult formulation.</p>
 ---
 
 <p>Wanneer Brakel schrijft over een “gehele nationale bekering”, gebruikt hij grote woorden. Daarom moeten we precies vragen wat hij bedoelt.</p>

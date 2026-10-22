@@ -191,9 +191,9 @@ function sourceList(items = []) {
 function sourceSection(article, lang) {
   const t = UI[lang];
   const groups = [
-    [t.sourceGroups.brakel, article.sources_brakel],
+    [t.sourceGroups.brakel, article[`sources_brakel_${lang}`] || article.sources_brakel],
     [t.sourceGroups.scripture, scriptureFor(article, lang)],
-    [t.sourceGroups.news, article.sources_news]
+    [t.sourceGroups.news, article[`sources_news_${lang}`] || article.sources_news]
   ].filter(([, items]) => Array.isArray(items) && items.length);
   if (!groups.length) return '';
   return `<section class="article-sources" aria-labelledby="bronnen">

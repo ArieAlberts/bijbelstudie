@@ -26,6 +26,67 @@ scripture:
   - "Ezechiël 37"
   - "Romeinen 9–11"
   - "2 Korinthe 3"
+title_en: "Brakel, Israel and the covenants — a new series"
+summary_en: "An invitation to read Wilhelmus à Brakel himself and to investigate, step by step, what he actually taught about Israel, the church, the Torah and God's covenants."
+series_title_en: "Brakel, Israel and the covenants"
+series_description_en: "A step-by-step inquiry into what Wilhelmus à Brakel actually taught about Israel, the church, the Torah and the covenant of grace — in the order of his own work."
+scripture_en:
+  - "Genesis 12; 15; 17"
+  - "Exodus 19–20"
+  - "Jeremiah 31"
+  - "Ezekiel 37"
+  - "Romans 9–11"
+  - "2 Corinthians 3"
+sources_brakel_en:
+  - label: "Wilhelmus à Brakel, The Christian's Reasonable Service (trans. B. Elshout), Appendix 'The Administration of the Covenant of Grace in the Old and New Testaments,' ch. 2 (The Church from Abraham to Sinai); the covenant of grace itself in vol. 1, ch. 16"
+    detail: "On the covenant of grace, Abraham, Israel and Horeb."
+  - label: "The Christian's Reasonable Service, Appendix, ch. 6 (The Church of the New Testament from the birth of Jesus Christ to the Revelation of John), §§ 11–39"
+    detail: "On the future conversion of the Jewish nation, Romans 11 and the return to the land."
+body_en: |
+  <p>Who was Israel according to Wilhelmus à Brakel? Which covenant did God make with Abraham? What really happened at Sinai? Was it a new covenant, or the continuation of something that already existed? What changed with the coming of Christ? And perhaps more importantly: <strong>is God, according to Brakel, finished with the Jewish people?</strong></p>
+  <p>In the coming weeks I want to look at that step by step.</p>
+  <p>Not by first laying a modern theological system over Brakel, but by letting him <strong>speak for himself</strong> as much as possible.</p>
+  <p>That seems important to me. Brakel is still widely read and quoted, but sometimes we know certain conclusions better than his own argument. And precisely when we really open his work, we meet statements that are surprisingly relevant to the conversation about Israel, the church, the Torah and the covenants.</p>
+  <p>Brakel writes, for instance, that the covenant at Sinai was not a new covenant of works. According to him it was the same covenant of grace that God had earlier established with Abraham.</p>
+  <blockquote>"Thus, the covenant which God established with Israel, along with the promises and the benefits, is the same; it is none other than the covenant God made with Abraham, and thus the covenant of grace itself."</blockquote>
+  <p><strong>Source:</strong> Wilhelmus à Brakel, <em>The Christian's Reasonable Service</em>, Part III, ch. 2.</p>
+  <p>But it does not stop there.</p>
+  <p>For the same Brakel who emphatically speaks of <strong>one covenant of grace</strong> also writes at length, later on, about whether the Jewish nation is rejected forever.</p>
+  <p>His answer is clear: <strong>no</strong>.</p>
+  <p>In Part III he devotes a long series of sections to the future conversion of the Jewish nation, Romans 11, 2 Corinthians 3, Jeremiah 31, Hosea 3, the return of the Jews to their homeland, Deuteronomy 30, Amos 9, Ezekiel 37, Isaiah 62 and Zechariah 2.</p>
+  <p><strong>Source:</strong> <em>The Christian's Reasonable Service</em>, Part III, ch. 6, §§ 11–39.</p>
+  <h2>How do these things fit together in Brakel?</h2>
+  <p>This produces an interesting combination:</p>
+  <p><strong>One covenant of grace.<br>
+  One church.<br>
+  A special place for Israel.<br>
+  A future conversion of the Jewish nation.<br>
+  And even an expectation of return to the land.</strong></p>
+  <p>Perhaps some labels we use so easily today therefore fit Brakel less well than we think.</p>
+  <p>In this series I do not want to settle anything in advance.</p>
+  <p>We are going to follow his reasoning.</p>
+  <p>We begin at the beginning:</p>
+  <p>▶ What, according to Brakel, is the covenant of grace?<br>
+  ▶ When did that covenant begin?<br>
+  ▶ What was Abraham's place in it?<br>
+  ▶ What happened at Horeb?<br>
+  ▶ What place did the law have within the covenant?<br>
+  ▶ What does Brakel mean by the Old and the New Testament?<br>
+  ▶ Whom does he call Israel?<br>
+  ▶ Whom does he call the church?<br>
+  ▶ How does he read Romans 9–11?<br>
+  ▶ And what future does he expect for the Jewish people?</p>
+  <p>With each instalment I want to give, as far as possible, the <strong>exact location in The Christian's Reasonable Service</strong>, so that anyone can look Brakel up for themselves.</p>
+  <p>And after that we still have to ask a second question:</p>
+  <div class="question-block">
+    <strong>Not only: what does Brakel say?</strong><br>
+    But also: <strong>does his explanation agree with Scripture?</strong>
+  </div>
+  <p>For Brakel is not our final authority.</p>
+  <p>That is the Word of God.</p>
+  <p>The next step in this series is therefore the question why Brakel is still so relevant today. After that we begin with a statement that proves decisive for the rest of the series:</p>
+  <blockquote>"There is but one covenant, namely, the covenant of grace."</blockquote>
+  <p>What does Brakel mean by that — and where, according to him, does that covenant begin?</p>
 ---
 
 <p>Wie was Israël volgens Wilhelmus à Brakel? Welk verbond sloot God met Abraham? Wat gebeurde er werkelijk bij de Sinaï? Was daar sprake van een nieuw verbond, of van de voortzetting van iets wat al bestond? Wat veranderde er met de komst van Christus? En misschien nog belangrijker: <strong>is God volgens Brakel klaar met het Joodse volk?</strong></p>

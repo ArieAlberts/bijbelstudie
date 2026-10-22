@@ -24,6 +24,34 @@ scripture:
   - "Leviticus 1–7"
   - "Deuteronomium 4:5–8"
   - "Hebreeën 9–10"
+title_en: "Moral, ceremonial and civil laws within the covenant"
+summary_en: "Brakel orders the Sinaitic law-giving by function and places all three after Israel's entry into the covenant."
+series_title_en: "Brakel, Israel and the covenants"
+series_description_en: "A step-by-step inquiry into what Wilhelmus à Brakel actually taught about Israel, the church, the Torah and the covenant of grace — in the order of his own work."
+scripture_en:
+  - "Exodus 20–24"
+  - "Leviticus 1–7"
+  - "Deuteronomy 4:5–8"
+  - "Hebrews 9–10"
+sources_brakel_en:
+  - label: "Wilhelmus à Brakel, The Christian's Reasonable Service (trans. B. Elshout), Appendix 'The Administration of the Covenant of Grace in the Old and New Testaments,' on the law and ceremonies given at Sinai, §§ I–II"
+    detail: "Primary source for Brakel's own argument in this article."
+body_en: |
+  <p>After Israel, according to Brakel, has entered the covenant, the people receive laws "by which they had to conduct themselves."</p>
+  <p>Brakel distinguishes that law-giving into three large groups: moral, ceremonial and civil. Not because the Torah itself uses such headings on every page, but as a theological ordering of different functions.</p>
+  <h2>The moral law</h2>
+  <p>The moral law governs man, according to Brakel, toward a holy life. Here the abiding norm of love to God and neighbour stands central. The Ten Commandments function in his system as a rule for the confederates, not as a means of self-justification.</p>
+  <h2>The ceremonial law</h2>
+  <p>The ceremonies govern, according to Brakel, Israel's worship "through faith in the coming Messiah." Tabernacle, priests, sacrifices and cleansings are for him therefore no religious décor alongside the Gospel, but a teaching, depicting administration that points to Christ.</p>
+  <p>Here we must first render Brakel honestly before we test his typology. His claim is not that every small particular arbitrarily contains a hidden code. His main movement is that the ceremonial service as a whole is Messianic and pedagogical in its aim.</p>
+  <h2>The civil law</h2>
+  <p>The civil ordinances order Israel as a concrete society. With this Brakel sees that God's covenant touches not only the inner chamber. Justice, government and social life receive a place in the historical form of Israel as a people.</p>
+  <p>This is important for the question about Israel: Brakel can defend the spiritual unity of the covenant of grace and at the same time acknowledge that Israel received a unique national and political shape. Those two levels do not coincide, but may just as little be carelessly torn apart.</p>
+  <h2>The law as formation</h2>
+  <p>Deuteronomy 4 has Israel keep the commandments so that the nations see their wisdom. That helps us not to read the law in a purely juridical way. God's instruction forms a people that must make something of His justice and holiness visible in ordinary life.</p>
+  <div class="question-block"><strong>Test question:</strong> if different laws have different functions, must we then also distinguish carefully what is fulfilled in Christ, what is historically bound to Israel's statehood, and what remains as abiding moral instruction?</div>
+  <h2>The ceremonies deserve their own article</h2>
+  <p>Brakel speaks remarkably positively about the ceremonial service. He opposes the idea that these institutions were simply a punishment after the golden calf. For him they were a privilege — precisely because they proclaimed Christ in shadow and sign.</p>
 ---
 
 <p>Nadat Israël volgens Brakel in het verbond is ingegaan, krijgt het volk wetten “waarnaar zij zich hadden te gedragen”.</p>
