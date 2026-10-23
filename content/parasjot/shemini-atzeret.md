@@ -7,6 +7,7 @@ label:
 status: published
 current: false
 published_at: 2026-10-03
+shabbat_date: 2026-10-03
 title_nl: "Blijf nog een dag"
 title_en: "Stay one more day"
 summary_nl: "Een overdenking die de feesten aflegt als zeven treden naar de achtste dag, die begint en eindigt in rust. Op Sjemini Atseret wordt de eindtoets afgenomen: ontvangen we, of grijpen we? Salomo zendt het volk blij naar huis, Simeon ontvangt het Kind en mag in vrede heengaan, en de vreemdeling krijgt een plaats in het erfdeel (Ezechiël 47). Het enige wat gevraagd wordt: blijf in Hem."
