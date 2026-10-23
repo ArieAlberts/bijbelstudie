@@ -45,11 +45,14 @@ function metaDescription(source, max = 160) {
   return cut.slice(0, cut.lastIndexOf(' ')).replace(/[\s,;:–—-]+$/, '') + '…';
 }
 
+// <title> leads with the terms people search for: "Parasja Noach" in Dutch,
+// "Parsha Noach (Torah portion)" in English.
 function pageTitle(lang, parasha, title) {
-  const label = lang === 'nl' ? 'Parasja' : 'Parashah';
+  const label = lang === 'nl' ? 'Parasja' : 'Parsha';
+  const name = lang === 'nl' ? `${label} ${parasha}` : `${label} ${parasha} (Torah portion)`;
   const head = String(title).toLowerCase().includes(String(parasha).toLowerCase())
-    ? `${label} ${parasha}`
-    : `${label} ${parasha}: ${title}`;
+    ? name
+    : `${name}: ${title}`;
   return `${head} | Parasja.nl`;
 }
 
@@ -57,10 +60,16 @@ const L = {
   nl: { ogLocale: 'nl_NL', ogAlt: 'en_US', skip: 'Naar de inhoud', parasjaLabel: 'Parasja',
         navHome: 'Zelf de parasja lezen',
         indexTitle: 'Alle parasjalezingen', indexDesc: 'Overzicht van alle uitgewerkte lezingen bij de wekelijkse parasja, in de volgorde van de Thora.',
+        indexHeadTitle: 'Parasja van deze week en alle parasjalezingen',
+        indexMetaDesc: 'De parasja van deze week en alle uitgewerkte lezingen bij de wekelijkse Thoralezing, met haftara, uitleg en werkblad om zelf te lezen.',
+        thisWeek: 'Parasja van deze week', torahLabel: 'Thora',
         defaultDesc: 'Lees de parasja en onderzoek de Schrift.' },
   en: { ogLocale: 'en_US', ogAlt: 'nl_NL', skip: 'Skip to content', parasjaLabel: 'Parashah',
         navHome: 'Read the parashah yourself',
         indexTitle: 'All parashah readings', indexDesc: 'Overview of all written readings for the weekly parashah, in the order of the Torah.',
+        indexHeadTitle: "This Week's Torah Portion (Parsha) and All Readings",
+        indexMetaDesc: "This week's Torah portion and every written reading for the weekly parsha (parashat hashavua), with haftarah, explanation and a worksheet to study it yourself.",
+        thisWeek: "This week's Torah portion", torahLabel: 'Torah portion',
         defaultDesc: 'Read the parashah and study the Scriptures.' } };
 
 const urlFor = (lang, slug) => (lang === 'nl' ? '/nl/parasjot/' : '/en/parasjot/') + slug + '/';
@@ -113,7 +122,8 @@ function headSeo({ lang, slug, d, title, desc, nlExists, enExists }) {
 function renderParashaPage({ lang, slug, d, title, summary, desc, body, nlExists, enExists }) {
   const t = L[lang];
   const { links, scripts } = assetsFromHome(lang, '../../../');
-  const seoArticle = `<article class="seo-prerender"><header><p>${t.parasjaLabel} ${esc(d.parasha || slug)}</p>`
+  const torahRef = d.passages?.find(p => p.role === 'parasha')?.ref?.[lang];
+  const seoArticle = `<article class="seo-prerender"><header><p>${t.parasjaLabel} ${esc(d.parasha || slug)}${torahRef ? ` · ${t.torahLabel}: ${esc(torahRef)}` : ''}</p>`
     + `<h1>${esc(title)}</h1><p>${esc(summary)}</p></header>${body}</article>`;
   const config = `<script>window.__PARASJA__={study:${JSON.stringify(slug)},view:"worksheet"};</script>`;
   return `<!doctype html><html lang="${lang}"><head>${headSeo({ lang, slug, d, title, desc, nlExists, enExists })}`
@@ -140,10 +150,27 @@ const torahSort = entries => [...entries].sort((a, b) => {
   return x[0] - y[0] || x[1] - y[1] || x[2] - y[2] || a.slug.localeCompare(b.slug);
 });
 
-const OVERVIEW_STYLE = '<style>body{font:1.12rem/1.7 system-ui,sans-serif;max-width:760px;margin:auto;padding:2rem 1.2rem;color:#202a34}nav{margin-bottom:2rem}a{color:#22547a}h1{line-height:1.25}ul.readings{list-style:none;padding:0}ul.readings li{margin:0 0 1.2rem}ul.readings small{display:block;color:#5a6672}</style>';
+const OVERVIEW_STYLE = '<style>body{font:1.12rem/1.7 system-ui,sans-serif;max-width:760px;margin:auto;padding:2rem 1.2rem;color:#202a34}nav{margin-bottom:2rem}a{color:#22547a}h1{line-height:1.25}ul.readings{list-style:none;padding:0}ul.readings li{margin:0 0 1.2rem}ul.readings small{display:block;color:#5a6672}.this-week{border-left:4px solid #8a4a1f;background:#f6efe6;padding:.8rem 1.1rem;margin:0 0 2rem}.this-week h2{font-size:1rem;margin:0 0 .3rem;text-transform:uppercase;letter-spacing:.04em;color:#8a4a1f}.this-week p{margin:0;font-size:1.2rem}.this-week small{display:block;color:#5a6672;font-size:.95rem}</style>';
+
+// "This week" = the most recently published reading, but only while it is fresh:
+// readings are published for the coming Shabbat, so after ~10 days it is no longer
+// this week's and the block is left out rather than pointing at an old portion.
+function currentReading(entries, now = new Date()) {
+  const dated = entries.filter(e => e.d.published_at)
+    .map(e => ({ e, t: new Date(String(e.d.published_at).slice(0, 10) + 'T12:00:00Z') }))
+    .filter(x => x.t <= new Date(now.getTime() + 7 * 864e5))
+    .sort((a, b) => b.t - a.t);
+  const top = dated[0];
+  return top && (now - top.t) <= 10 * 864e5 ? top.e : null;
+}
 
 function renderOverview(lang, entries) {
   const t = L[lang];
+  const cur = currentReading(entries);
+  const curRef = cur?.d.passages?.find(p => p.role === 'parasha')?.ref?.[lang];
+  const thisWeek = cur
+    ? `<section class="this-week"><h2>${t.thisWeek}</h2><p><a href="${urlFor(lang, cur.slug)}">${esc(cur.d.parasha || cur.slug)}: ${esc(cur.title)}</a>${curRef ? `<small>${t.torahLabel}: ${esc(curRef)}</small>` : ''}</p></section>`
+    : '';
   const canonical = site + '/' + lang + '/parasjot/';
   const { links } = assetsFromHome(lang, '../../');
   const list = torahSort(entries).map(e => {
@@ -151,13 +178,13 @@ function renderOverview(lang, entries) {
     return `<li><a href="${urlFor(lang, e.slug)}">${esc(e.title)}</a><small>${esc(e.d.parasha || e.slug)}${ref ? ' · ' + esc(ref) : ''}</small></li>`;
   }).join('');
   return `<!doctype html><html lang="${lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">`
-    + `<title>${t.indexTitle} | Parasja.nl</title><meta name="description" content="${esc(t.indexDesc)}">`
+    + `<title>${esc(t.indexHeadTitle)} | Parasja.nl</title><meta name="description" content="${esc(t.indexMetaDesc)}">`
     + `<link rel="canonical" href="${canonical}">`
     + `<link rel="alternate" hreflang="nl" href="${site}/nl/parasjot/"><link rel="alternate" hreflang="en" href="${site}/en/parasjot/"><link rel="alternate" hreflang="x-default" href="${site}/nl/parasjot/">`
-    + `<meta property="og:type" content="website"><meta property="og:title" content="${t.indexTitle}"><meta property="og:url" content="${canonical}"><meta property="og:image" content="${site}/assets/share-card.png">`
+    + `<meta property="og:type" content="website"><meta property="og:title" content="${esc(t.indexHeadTitle)}"><meta property="og:description" content="${esc(t.indexMetaDesc)}"><meta property="og:url" content="${canonical}"><meta property="og:image" content="${site}/assets/share-card.png">`
     + links + OVERVIEW_STYLE + `</head><body>`
     + `<nav><a href="/${lang}/">${t.navHome}</a></nav>`
-    + `<main><h1>${t.indexTitle}</h1><p>${esc(t.indexDesc)}</p><ul class="readings">${list}</ul></main>`
+    + `<main>${thisWeek}<h1>${t.indexTitle}</h1><p>${esc(t.indexDesc)}</p><ul class="readings">${list}</ul></main>`
     + `<footer><p><a href="/${lang}/">${t.navHome}</a></p></footer></body></html>`;
 }
 
@@ -166,7 +193,10 @@ function renderOverview(lang, entries) {
 const published = { nl: [], en: [] };
 const items = [];
 const add = (url, priority = '0.5', lastmod = null) => items.push({ url, priority, lastmod });
-['/', '/nl/', '/en/', '/nl/artikelen/', '/nl/parasjot/', '/en/parasjot/'].forEach(x => add(x, x === '/nl/' ? '1.0' : '0.6'));
+const today = new Date().toISOString().slice(0, 10);
+['/', '/nl/', '/en/', '/nl/artikelen/'].forEach(x => add(x, x === '/nl/' ? '1.0' : '0.6'));
+// The overviews carry "this week's" portion, so they change with every new reading.
+['/nl/parasjot/', '/en/parasjot/'].forEach(x => add(x, '0.9', today));
 
 for (const name of fs.readdirSync(sourceDir).filter(x => x.endsWith('.md'))) {
   const raw = fs.readFileSync(path.join(sourceDir, name), 'utf8').replace(/^﻿/, '');

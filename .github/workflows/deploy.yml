@@ -3,6 +3,11 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: ["main"]
+  # Weekly rebuild so "this week's Torah portion" on the overview pages stays current
+  # even in a week without new content (Friday 04:00 UTC).
+  schedule:
+    - cron: "0 4 * * 5"
+  workflow_dispatch:
 
 permissions:
   contents: read
