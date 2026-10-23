@@ -7,6 +7,7 @@ label:
 status: published
 current: false
 published_at: 2026-08-29
+shabbat_date: 2026-08-29
 title_nl: "De eersteling en de eerlijke weegsteen"
 title_en: "The Firstfruit and the Honest Weight"
 summary_nl: "In Ki Tavo breng je het eérste van de oogst terug omdat álles gave is — tot het hart om te verstaan toe (29:4); en de vreugde daarbij (28:47) is geen sfeer maar de toets of je nog gedenkt Wie het gaf."

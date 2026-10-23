@@ -3,6 +3,12 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: ["main"]
+  # Friday: prepare the coming Shabbat; Sunday: remove the previous week's
+  # highlight if no new reading is published. Times are UTC.
+  schedule:
+    - cron: "0 4 * * 5"
+    - cron: "15 0 * * 0"
+  workflow_dispatch:
 
 permissions:
   contents: read

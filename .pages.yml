@@ -41,6 +41,9 @@ content:
       - name: published_at
         label: Publicatiedatum
         type: date
+      - name: shabbat_date
+        label: Datum van de bijbehorende sabbat (leesrooster)
+        type: date
       - name: title_nl
         label: Titel (NL)
         type: string

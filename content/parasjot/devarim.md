@@ -9,6 +9,7 @@ label:
 status: published
 current: false
 published_at: 2026-07-18
+shabbat_date: 2026-07-18
 
 title_nl: "Elf dagen die veertig jaar werden"
 title_en: "Eleven days that became forty years"

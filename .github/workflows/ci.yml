@@ -20,20 +20,5 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build passages index
-        run: npm run build:passages
-
-      - name: Build Bible data
-        run: npm run build:bible
-
-      - name: Build downloads manifest
-        run: npm run build:downloads
-
-      - name: Build articles
-        run: npm run build:articles
-
-      - name: Copy static assets
-        run: npm run build:assets
-
-      - name: Vite build
-        run: npx vite build
+      - name: SEO build (includes HTML and indexability checks)
+        run: npm run build:seo

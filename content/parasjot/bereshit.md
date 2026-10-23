@@ -7,6 +7,7 @@ label:
 status: published
 current: false
 published_at: 2026-10-10
+shabbat_date: 2026-10-10
 title_nl: "Het Woord dat licht en orde brengt"
 title_en: "The word that makes separation"
 summary_nl: "God spreekt en er komt licht, orde en leven. Zonde breekt af wat God goed heeft gemaakt. Dat zien we bij Kaïn, die zijn broer als een bedreiging gaat zien. Bij Jonatan zien we het tegenovergestelde: hij weet dat wat hij heeft van God komt en daarom kan hij geven in plaats van grijpen. Ook wij kunnen de zonde niet alleen uit eigen kracht overwinnen. We hebben Gods Geest en Zijn Woord nodig. En zelfs als hemel en aarde voorbijgaan, blijven Zijn woorden bestaan."

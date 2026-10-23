@@ -9,6 +9,7 @@ label:
 status: published
 current: false
 published_at: 2026-08-17
+shabbat_date: 2026-08-22
 
 title_nl: "Keer terug tot Mij"
 title_en: "Return unto Me"

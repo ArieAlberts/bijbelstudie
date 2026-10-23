@@ -162,7 +162,7 @@
 
   const manual = document.querySelector('.manual-content');
   if (manual) {
-    const headings = [...manual.querySelectorAll(':scope > h1')], chapters = headings.filter(h => /^hoofdstuk-\d+$/.test(h.id));
+    const headings = [...manual.querySelectorAll(':scope > h2')], chapters = headings.filter(h => /^hoofdstuk-\d+$/.test(h.id));
     chapters.forEach(h => {
       const id = h.id.replace('hoofdstuk-', ''), title = h.textContent.trim(), pos = headings.indexOf(h), next = headings[pos + 1] || null, widget = createChapterWidget({ id, title });
       if (next) manual.insertBefore(widget, next); else manual.append(widget);

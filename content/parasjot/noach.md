@@ -9,6 +9,7 @@ label:
 status: published
 current: false
 published_at: 2026-10-17
+shabbat_date: 2026-10-17
 
 title_nl: "Bewaard door de bedekking"
 title_en: "Kept by the covering"

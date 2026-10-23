@@ -9,6 +9,7 @@ label:
 status: published
 current: false
 published_at: 2026-08-01
+shabbat_date: 2026-08-01
 
 title_nl: "Het brood dat je niet kende"
 title_en: "The bread you did not know"

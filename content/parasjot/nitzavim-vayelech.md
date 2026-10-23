@@ -7,6 +7,7 @@ label:
 status: published
 current: true
 published_at: 2026-09-05
+shabbat_date: 2026-09-05
 passages:
   - role: parasha
     ref:
