@@ -1,46 +1,17 @@
 import React, { useState, useEffect } from 'react';
+import { findScheduledStudy } from '../utils/weekly-parasha';
 import { Menu, X, BookOpen, HelpCircle, Book, Mail, Globe, Compass, Info, Newspaper, Printer, FileText } from 'lucide-react';
 
-function getStudyShabbatDate(study) {
-  const rawDate = study?.shabbat_date || study?.published_at;
-  if (!rawDate) return null;
-
-  const match = String(rawDate).match(/^(\d{4})-(\d{2})-(\d{2})/);
-  if (!match) return null;
-
-  const [, year, month, day] = match;
-  const date = new Date(Number(year), Number(month) - 1, Number(day), 12, 0, 0);
-  if (Number.isNaN(date.getTime())) return null;
-
-  if (!study?.shabbat_date) {
-    const daysUntilSaturday = (6 - date.getDay() + 7) % 7;
-    date.setDate(date.getDate() + daysUntilSaturday);
-  }
-
-  date.setHours(0, 0, 0, 0);
-  return date;
-}
-
+// Published date controls archive ordering, never the weekly reading.
+// When the coming Shabbat has no reading yet, show the newest study without
+// claiming that it is the correct Torah portion for that date.
 function findWeeklyStudy(studies) {
-  if (!Array.isArray(studies) || studies.length === 0) return null;
-
-  const today = new Date();
-  today.setHours(0, 0, 0, 0);
-
-  const datedStudies = studies
-    .map(study => ({ study, shabbatDate: getStudyShabbatDate(study) }))
-    .filter(item => item.shabbatDate);
-
-  const nextStudy = datedStudies
-    .filter(item => item.shabbatDate >= today)
-    .sort((a, b) => a.shabbatDate - b.shabbatDate)[0];
-
-  if (nextStudy) return nextStudy.study;
-
-  const mostRecentStudy = datedStudies
-    .sort((a, b) => b.shabbatDate - a.shabbatDate)[0];
-
-  return mostRecentStudy?.study || studies.find(s => s.current) || studies[0];
+  const scheduled = findScheduledStudy(studies);
+  if (scheduled) return scheduled;
+  return [...(studies || [])]
+    .filter(study => study.published_at)
+    .sort((a, b) => String(b.published_at).localeCompare(String(a.published_at)))[0]
+    || studies?.[0] || null;
 }
 
 export default function Navbar({ activeView, setActiveView, lang, setLang, selectedStudyId }) {
