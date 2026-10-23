@@ -11,6 +11,7 @@ npm run build                      # full production build (passages, epub, docs
 npm run build:passages             # rebuild data/passages.json + public/data/passages.json
 npm run build:bible                # rebuild public/data/bible/*.json from cache files
 npm run build:downloads            # rebuild public/data/downloads.json manifest
+npm run build:handbook             # generate NL/EN manual pages from content/handleiding/handleiding.md
 npm run build:articles             # compile article pages
 npm run build:assets               # copy static assets
 ```

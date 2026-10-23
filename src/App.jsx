@@ -3,7 +3,6 @@ import Navbar from './components/Navbar';
 import ParashaIntroLanding from './components/ParashaIntroLanding';
 import WorksheetHero from './components/WorksheetHero';
 import MethodView from './components/MethodView';
-import Handbook from './components/Handbook';
 import ContactForm from './components/ContactForm';
 import Privacy from './components/Privacy';
 
@@ -68,7 +67,6 @@ export default function App() {
           />
         )}
         {activeView === 'method' && <MethodView lang={lang} />}
-        {activeView === 'handbook' && <Handbook lang={lang} />}
         {activeView === 'contact' && <ContactForm lang={lang} />}
         {activeView === 'privacy' && <Privacy lang={lang} />}
       </main>
