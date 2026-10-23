@@ -13,6 +13,7 @@
     "build:assets": "node scripts/copy-static-assets.mjs",
     "build:bible": "node scripts/build-bible-data.mjs",
     "build": "npm run build:passages && npm run build:epub && npm run build:docs && npm run build:downloads && npm run build:articles && npm run build:assets && npm run build:bible && vite build && node scripts/build-parasja-pages.mjs && npm run verify:seo",
+    "build:seo": "npm run build:passages && npm run build:downloads && npm run build:articles && npm run build:assets && npm run build:bible && vite build && node scripts/build-parasja-pages.mjs && npm run verify:seo",
     "preview": "vite preview",
     "verify:seo": "node scripts/verify-seo.mjs"
   },
