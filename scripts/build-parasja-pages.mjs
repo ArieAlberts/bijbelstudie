@@ -11,7 +11,7 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
-import { findScheduledStudy } from '../src/utils/weekly-parasha.js';
+import { findScheduledStudy, toIsoDate } from '../src/utils/weekly-parasha.js';
 import { createRequire } from 'node:module';
 const require = createRequire(import.meta.url);
 const yaml = require('js-yaml');
@@ -101,8 +101,8 @@ function headSeo({ lang, slug, d, title, desc, nlExists, enExists }) {
     mainEntityOfPage: canonical,
     author: { '@type': 'Person', name: 'Arie Alberts' },
     publisher: { '@type': 'Organization', name: 'Parasja.nl', url: site + '/' },
-    ...(d.published_at ? { datePublished: String(d.published_at).slice(0, 10) } : {}),
-    ...(d.last_reviewed_at ? { dateModified: String(d.last_reviewed_at).slice(0, 10) } : {})
+    ...(d.published_at ? { datePublished: toIsoDate(d.published_at) } : {}),
+    ...(d.last_reviewed_at ? { dateModified: toIsoDate(d.last_reviewed_at) } : {})
   }).replaceAll('<', '\\u003c');
   const t = L[lang];
   return `<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">`
@@ -214,7 +214,7 @@ for (const name of fs.readdirSync(sourceDir).filter(x => x.endsWith('.md'))) {
   const bodyEn = (d.body_en || '').trim();
   const nlExists = !!bodyNl;
   const enExists = !!bodyEn;
-  const lastmod = d.last_reviewed_at ? String(d.last_reviewed_at).slice(0, 10) : (d.published_at ? String(d.published_at).slice(0, 10) : null);
+  const lastmod = d.last_reviewed_at ? toIsoDate(d.last_reviewed_at) : (d.published_at ? toIsoDate(d.published_at) : null);
 
   for (const [lang, bodyExists, body] of [['nl', nlExists, bodyNl], ['en', enExists, bodyEn]]) {
     if (!bodyExists) continue; // strict: no language fallback
