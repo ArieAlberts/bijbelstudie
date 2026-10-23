@@ -7,6 +7,7 @@ label:
 status: published
 current: false
 published_at: 2026-09-19
+shabbat_date: 2026-09-19
 title_nl: "Als regen op het gras"
 title_en: "Like rain upon the grass"
 summary_nl: "Mozes’ laatste lied begint met het Woord dat neerdaalt als regen en zet de onveranderlijke Rots tegenover een hart dat in overvloed vergeet van Wie het alles kreeg. Sjabbat Sjoeva (Hosea, Joël) roept tot terugkeer — niet naar zelfgemaakte vrucht maar naar de Bron ervan — en Mattheüs 18 laat zien waar dat vergeten of terugkeren zichtbaar wordt: in hoe je de ander behandelt."
