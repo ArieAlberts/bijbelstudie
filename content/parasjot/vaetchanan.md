@@ -9,6 +9,7 @@ label:
 status: published
 current: false
 published_at: 2026-07-25
+shabbat_date: 2026-07-25
 
 title_nl: "Een stem, geen beeld"
 title_en: "A voice, no image"
