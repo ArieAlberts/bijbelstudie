@@ -9,6 +9,7 @@ label:
 status: published
 current: false
 published_at: 2026-07-11
+shabbat_date: 2026-07-11
 
 title_nl: "De bron en de gebarsten bakken"
 title_en: "The fountain and the cracked cisterns"
