@@ -10,10 +10,16 @@ export function upcomingShabbatIso(now = new Date()) {
   return day.toISOString().slice(0, 10);
 }
 
+// js-yaml parses unquoted YYYY-MM-DD values as Date objects; the manifest
+// serializes those dates to ISO strings. Handle both representations.
+export function toIsoDate(value) {
+  if (value instanceof Date) return Number.isFinite(value.getTime()) ? value.toISOString().slice(0, 10) : null;
+  return String(value ?? '').match(/^\d{4}-\d{2}-\d{2}/)?.[0] || null;
+}
+
 export function findScheduledStudy(studies, now = new Date(), getStudy = entry => entry) {
   const shabbat = upcomingShabbatIso(now);
   return (studies || []).find(entry => {
-    const date = getStudy(entry)?.shabbat_date;
-    return date && String(date).slice(0, 10) === shabbat;
+    return toIsoDate(getStudy(entry)?.shabbat_date) === shabbat;
   }) || null;
 }
