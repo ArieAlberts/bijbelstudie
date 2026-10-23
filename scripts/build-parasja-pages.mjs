@@ -162,6 +162,9 @@ function currentReading(entries, now = new Date()) {
 function renderOverview(lang, entries) {
   const t = L[lang];
   const cur = currentReading(entries);
+  // Never promise a current reading in search snippets when none was published.
+  const overviewTitle = cur ? t.indexHeadTitle : t.indexTitle;
+  const overviewDescription = cur ? t.indexMetaDesc : t.indexDesc;
   const curRef = cur?.d.passages?.find(p => p.role === 'parasha')?.ref?.[lang];
   const thisWeek = cur
     ? `<section class="this-week"><h2>${t.thisWeek}</h2><p><a href="${urlFor(lang, cur.slug)}">${esc(cur.d.parasha || cur.slug)}: ${esc(cur.title)}</a>${curRef ? `<small>${t.torahLabel}: ${esc(curRef)}</small>` : ''}</p></section>`
@@ -173,10 +176,10 @@ function renderOverview(lang, entries) {
     return `<li><a href="${urlFor(lang, e.slug)}">${esc(e.title)}</a><small>${esc(e.d.parasha || e.slug)}${ref ? ' · ' + esc(ref) : ''}</small></li>`;
   }).join('');
   return `<!doctype html><html lang="${lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">`
-    + `<title>${esc(t.indexHeadTitle)} | Parasja.nl</title><meta name="description" content="${esc(t.indexMetaDesc)}">`
+    + `<title>${esc(overviewTitle)} | Parasja.nl</title><meta name="description" content="${esc(overviewDescription)}">`
     + `<link rel="canonical" href="${canonical}">`
     + `<link rel="alternate" hreflang="nl" href="${site}/nl/parasjot/"><link rel="alternate" hreflang="en" href="${site}/en/parasjot/"><link rel="alternate" hreflang="x-default" href="${site}/nl/parasjot/">`
-    + `<meta property="og:type" content="website"><meta property="og:title" content="${esc(t.indexHeadTitle)}"><meta property="og:description" content="${esc(t.indexMetaDesc)}"><meta property="og:url" content="${canonical}"><meta property="og:image" content="${site}/assets/share-card.png">`
+    + `<meta property="og:type" content="website"><meta property="og:title" content="${esc(overviewTitle)}"><meta property="og:description" content="${esc(overviewDescription)}"><meta property="og:url" content="${canonical}"><meta property="og:image" content="${site}/assets/share-card.png">`
     + links + OVERVIEW_STYLE + `</head><body>`
     + `<nav><a href="/${lang}/">${t.navHome}</a></nav>`
     + `<main><h1>${t.indexTitle}</h1>${thisWeek}<p>${esc(t.indexDesc)}</p><ul class="readings">${list}</ul></main>`
