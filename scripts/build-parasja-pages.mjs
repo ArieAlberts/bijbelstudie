@@ -11,6 +11,7 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
+import { findScheduledStudy } from '../src/utils/weekly-parasha.js';
 import { createRequire } from 'node:module';
 const require = createRequire(import.meta.url);
 const yaml = require('js-yaml');
@@ -152,16 +153,10 @@ const torahSort = entries => [...entries].sort((a, b) => {
 
 const OVERVIEW_STYLE = '<style>body{font:1.12rem/1.7 system-ui,sans-serif;max-width:760px;margin:auto;padding:2rem 1.2rem;color:#202a34}nav{margin-bottom:2rem}a{color:#22547a}h1{line-height:1.25}ul.readings{list-style:none;padding:0}ul.readings li{margin:0 0 1.2rem}ul.readings small{display:block;color:#5a6672}.this-week{border-left:4px solid #8a4a1f;background:#f6efe6;padding:.8rem 1.1rem;margin:0 0 2rem}.this-week h2{font-size:1rem;margin:0 0 .3rem;text-transform:uppercase;letter-spacing:.04em;color:#8a4a1f}.this-week p{margin:0;font-size:1.2rem}.this-week small{display:block;color:#5a6672;font-size:.95rem}</style>';
 
-// "This week" = the most recently published reading, but only while it is fresh:
-// readings are published for the coming Shabbat, so after ~10 days it is no longer
-// this week's and the block is left out rather than pointing at an old portion.
+// Match the actual Shabbat date stored in the reading's frontmatter.
+// If the next Shabbat has no published reading, show no "this week" box.
 function currentReading(entries, now = new Date()) {
-  const dated = entries.filter(e => e.d.published_at)
-    .map(e => ({ e, t: new Date(String(e.d.published_at).slice(0, 10) + 'T12:00:00Z') }))
-    .filter(x => x.t <= new Date(now.getTime() + 7 * 864e5))
-    .sort((a, b) => b.t - a.t);
-  const top = dated[0];
-  return top && (now - top.t) <= 10 * 864e5 ? top.e : null;
+  return findScheduledStudy(entries, now, entry => entry.d);
 }
 
 function renderOverview(lang, entries) {
@@ -184,7 +179,7 @@ function renderOverview(lang, entries) {
     + `<meta property="og:type" content="website"><meta property="og:title" content="${esc(t.indexHeadTitle)}"><meta property="og:description" content="${esc(t.indexMetaDesc)}"><meta property="og:url" content="${canonical}"><meta property="og:image" content="${site}/assets/share-card.png">`
     + links + OVERVIEW_STYLE + `</head><body>`
     + `<nav><a href="/${lang}/">${t.navHome}</a></nav>`
-    + `<main>${thisWeek}<h1>${t.indexTitle}</h1><p>${esc(t.indexDesc)}</p><ul class="readings">${list}</ul></main>`
+    + `<main><h1>${t.indexTitle}</h1>${thisWeek}<p>${esc(t.indexDesc)}</p><ul class="readings">${list}</ul></main>`
     + `<footer><p><a href="/${lang}/">${t.navHome}</a></p></footer></body></html>`;
 }
 
@@ -193,10 +188,17 @@ function renderOverview(lang, entries) {
 const published = { nl: [], en: [] };
 const items = [];
 const add = (url, priority = '0.5', lastmod = null) => items.push({ url, priority, lastmod });
-const today = new Date().toISOString().slice(0, 10);
-['/', '/nl/', '/en/', '/nl/artikelen/'].forEach(x => add(x, x === '/nl/' ? '1.0' : '0.6'));
-// The overviews carry "this week's" portion, so they change with every new reading.
-['/nl/parasjot/', '/en/parasjot/'].forEach(x => add(x, '0.9', today));
+// Every important static page must be discoverable, not just the dynamic readings.
+// Confirmation pages, feedback redirects and admin pages intentionally stay out.
+const staticPages = [
+  '/', '/nl/', '/en/',
+  '/nl/lezer.html', '/en/reader.html',
+  '/nl/handleiding.html', '/en/handbook.html',
+  '/nl/contact.html', '/en/contact.html',
+  '/nl/privacy.html', '/en/privacy.html',
+  '/nl/artikelen/', '/nl/parasjot/', '/en/parasjot/'
+];
+staticPages.forEach(url => add(url, url === '/nl/' ? '1.0' : '0.6'));
 
 for (const name of fs.readdirSync(sourceDir).filter(x => x.endsWith('.md'))) {
   const raw = fs.readFileSync(path.join(sourceDir, name), 'utf8').replace(/^﻿/, '');
