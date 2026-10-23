@@ -22,11 +22,16 @@ const fixtures = [
 ];
 assert.equal(findScheduledStudy(fixtures, new Date('2026-10-23T12:00:00Z'))?.id, 'lech-lecha');
 assert.equal(findScheduledStudy(fixtures, new Date('2026-10-26T12:00:00Z')), null);
+assert.equal(findScheduledStudy([{ id: 'yaml-date', shabbat_date: new Date('2026-10-24T00:00:00Z') }],
+  new Date('2026-10-23T12:00:00Z'))?.id, 'yaml-date');
 
 const xml = fs.readFileSync(path.join(root, 'sitemap.xml'), 'utf8');
 assert.match(xml, /<urlset\b/, 'Invalid sitemap document');
 const sitemapUrls = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map(match => match[1]);
 assert.equal(new Set(sitemapUrls).size, sitemapUrls.length, 'Duplicate sitemap URL');
+for (const match of xml.matchAll(/<lastmod>([^<]+)<\/lastmod>/g)) {
+  assert.match(match[1], /^\d{4}-\d{2}-\d{2}$/, 'Sitemap lastmod must be ISO date');
+}
 const urls = new Set(sitemapUrls);
 const staticRoutes = [
   '/', '/nl/', '/en/',
