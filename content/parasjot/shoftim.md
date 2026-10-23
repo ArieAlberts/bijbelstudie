@@ -9,6 +9,7 @@ label:
 status: published
 current: false
 published_at: 2026-08-15
+shabbat_date: 2026-08-15
 
 title_nl: "Gerechtigheid najagen"
 title_en: "Pursuing Justice"
