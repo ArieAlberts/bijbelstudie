@@ -9,6 +9,7 @@ label:
 status: published
 current: false
 published_at: 2026-08-08
+shabbat_date: 2026-08-08
 
 title_nl: "Zie, en kies"
 title_en: "See, and choose"
