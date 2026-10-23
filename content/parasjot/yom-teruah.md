@@ -7,6 +7,7 @@ label:
 status: published
 current: false
 published_at: 2026-09-12
+shabbat_date: 2026-09-12
 title_nl: "De God die gedenkt en roept"
 title_en: "The God who remembers and calls"
 summary_nl: "Op Jom Teruah gedenkt God: Hij bezoekt Sara (Gen. 21:1) en gedenkt Hanna (1 Sam. 1:19) — de klassieke grond waarom juist deze teksten de lezingen van de dag zijn. Het bazuingeschal roept wakker om te horen: wat wij ontvingen is ons toevertrouwd en draagt een roeping; teruggeven is de wakkere daad van wie weet van Wie het kwam."
