@@ -7,6 +7,7 @@ label:
 status: published
 current: false
 published_at: 2026-09-26
+shabbat_date: 2026-09-26
 title_nl: "Wonen onder Zijn schaduw"
 title_en: "Dwelling in His shadow"
 summary_nl: "Sukkot roept Israël uit het vaste huis in een kwetsbare hut, om te leren wat ons werkelijk draagt: niet ons bouwsel maar de God die door de woestijn droeg en “in de schaduw” deed wonen. De vreugde komt ná de verzoening; de oogst is arbeid én gave. Zacharia ziet Gods koningschap over de volken, en Lukas 2 toont — belijdend, geen geboortedatum — de Koning die klein en kwetsbaar komt om ontvangen te worden: God die bij Zijn volk komt wonen."
