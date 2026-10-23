@@ -133,7 +133,8 @@ for (const url of urls) {
     alternatives.set(lang, tag.href);
   }
   assert.ok(alternatives.has('x-default'), 'Missing x-default hreflang: ' + route);
-  if (language === 'nl' || language === 'en') {
+  // The bilingual language gateway at / deliberately points to /nl/ and /en/.
+  if (route !== '/' && (language === 'nl' || language === 'en')) {
     assert.equal(alternatives.get(language), url, 'Missing or incorrect self hreflang: ' + route);
   }
   pages.set(url, { route, alternatives, language });
