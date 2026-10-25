@@ -33,12 +33,6 @@ Always `git pull` first: the owner works from several machines and other tools a
 - `deploy.yml`: builds and deploys to GitHub Pages on push to `main`.
 - `content-pipeline.yml`: regenerates passages index, bible data, and downloads manifest when `content/parasjot/**`, `.pages.yml`, or `scripts/**` change.
 
-## Editorial review for parashah readings
-
-- **Mandatory default:** before drafting or revising any `content/parasjot/*.md` reading, follow [docs/parashah-editorial-standard.md](docs/parashah-editorial-standard.md) for a complete text-first review, Arie Alberts voice pass, and consistency checks.
-- Prioritise Scripture's grammatical and narrative sequence, distinguish peshat from interpretation, and remove editorial meta-phrases such as “Dat is te smal.” God's initiative remains primary; the human response follows.
-- Review the **whole** reading, not just its ending. Keep Dutch and English texts aligned, preserve study/worksheet integrity, and verify generated downloads/deployment before claiming publication.
-
 ## Conventions
 
 - Node.js ≥18, ESM (`"type": "module"`), React JSX components in `src/components/`.
