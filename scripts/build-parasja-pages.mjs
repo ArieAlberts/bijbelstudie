@@ -106,7 +106,7 @@ function headSeo({ lang, slug, d, title, desc, nlExists, enExists }) {
   }).replaceAll('<', '\\u003c');
   const t = L[lang];
   return `<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">`
-    + `<title>${esc(pageTitle(lang, d.parasha || slug, title))}</title>`
+    + `<title>${esc(pageTitle(lang, d.label?.[lang] || d.parasha || slug, title))}</title>`
     + `<meta name="description" content="${esc(desc)}">`
     + `<link rel="canonical" href="${canonical}">${alts.join('')}`
     + `<meta property="og:type" content="article"><meta property="og:title" content="${esc(title)}">`
@@ -124,7 +124,7 @@ function renderParashaPage({ lang, slug, d, title, summary, desc, body, nlExists
   const t = L[lang];
   const { links, scripts } = assetsFromHome(lang, '../../../');
   const torahRef = d.passages?.find(p => p.role === 'parasha')?.ref?.[lang];
-  const seoArticle = `<article class="seo-prerender"><header><p>${t.parasjaLabel} ${esc(d.parasha || slug)}${torahRef ? ` · ${t.torahLabel}: ${esc(torahRef)}` : ''}</p>`
+  const seoArticle = `<article class="seo-prerender"><header><p>${t.parasjaLabel} ${esc(d.label?.[lang] || d.parasha || slug)}${torahRef ? ` · ${t.torahLabel}: ${esc(torahRef)}` : ''}</p>`
     + `<h1>${esc(title)}</h1><p>${esc(summary)}</p></header>${body}</article>`;
   const config = `<script>window.__PARASJA__={study:${JSON.stringify(slug)},view:"worksheet"};</script>`;
   return `<!doctype html><html lang="${lang}"><head>${headSeo({ lang, slug, d, title, desc, nlExists, enExists })}`
@@ -167,13 +167,13 @@ function renderOverview(lang, entries) {
   const overviewDescription = cur ? t.indexMetaDesc : t.indexDesc;
   const curRef = cur?.d.passages?.find(p => p.role === 'parasha')?.ref?.[lang];
   const thisWeek = cur
-    ? `<section class="this-week"><h2>${t.thisWeek}</h2><p><a href="${urlFor(lang, cur.slug)}">${esc(cur.d.parasha || cur.slug)}: ${esc(cur.title)}</a>${curRef ? `<small>${t.torahLabel}: ${esc(curRef)}</small>` : ''}</p></section>`
+    ? `<section class="this-week"><h2>${t.thisWeek}</h2><p><a href="${urlFor(lang, cur.slug)}">${esc(cur.d.label?.[lang] || cur.d.parasha || cur.slug)}: ${esc(cur.title)}</a>${curRef ? `<small>${t.torahLabel}: ${esc(curRef)}</small>` : ''}</p></section>`
     : '';
   const canonical = site + '/' + lang + '/parasjot/';
   const { links } = assetsFromHome(lang, '../../');
   const list = torahSort(entries).map(e => {
     const ref = e.d.passages?.[0]?.ref?.[lang];
-    return `<li><a href="${urlFor(lang, e.slug)}">${esc(e.title)}</a><small>${esc(e.d.parasha || e.slug)}${ref ? ' · ' + esc(ref) : ''}</small></li>`;
+    return `<li><a href="${urlFor(lang, e.slug)}">${esc(e.title)}</a><small>${esc(e.d.label?.[lang] || e.d.parasha || e.slug)}${ref ? ' · ' + esc(ref) : ''}</small></li>`;
   }).join('');
   return `<!doctype html><html lang="${lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">`
     + `<title>${esc(overviewTitle)} | Parasja.nl</title><meta name="description" content="${esc(overviewDescription)}">`
@@ -262,7 +262,7 @@ fs.writeFileSync(path.join(distDir, 'robots.txt'), 'User-agent: *\nAllow: /\nSit
 
 const llmsSection = (heading, lang) => `## ${heading}\n\n` + torahSort(published[lang]).map(e => {
   const ref = e.d.passages?.[0]?.ref?.[lang];
-  return `- [${text(e.title)} – ${text(e.d.parasha || e.slug)}](${site + urlFor(lang, e.slug)})${ref ? ' (' + ref + ')' : ''}: ${e.desc}`;
+  return `- [${text(e.title)} – ${text(e.d.label?.[lang] || e.d.parasha || e.slug)}](${site + urlFor(lang, e.slug)})${ref ? ' (' + ref + ')' : ''}: ${e.desc}`;
 }).join('\n') + '\n';
 const llms = `# Parasja.nl – Zelf de parasja lezen / Read the parashah yourself
 
