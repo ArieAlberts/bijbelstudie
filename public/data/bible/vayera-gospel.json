@@ -1,0 +1,595 @@
+{
+  "study": "vayera",
+  "role": "gospel",
+  "osis": "John.10.9",
+  "ref": {
+    "nl": "Johannes 10:9",
+    "en": "John 10:9"
+  },
+  "testament": "NT",
+  "verses": [
+    {
+      "osis": "John.10.9",
+      "ref": "10:9",
+      "sv": "Ik ben de Deur; indien iemand door Mij ingaat, die zal behouden worden; en hij zal ingaan en uitgaan, en weide vinden.",
+      "kjv": [
+        {
+          "t": "I",
+          "s": "G1473"
+        },
+        {
+          "t": "am",
+          "s": "G1510"
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "door:",
+          "s": "G2374"
+        },
+        {
+          "t": "by",
+          "s": "G1223"
+        },
+        {
+          "t": "me",
+          "s": "G1700"
+        },
+        {
+          "t": "if",
+          "s": "G1437"
+        },
+        {
+          "t": "any",
+          "s": null
+        },
+        {
+          "t": "man",
+          "s": "G5100"
+        },
+        {
+          "t": "enter",
+          "s": null
+        },
+        {
+          "t": "in,",
+          "s": "G1525"
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "saved,",
+          "s": "G4982"
+        },
+        {
+          "t": "and",
+          "s": "G2532"
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "go",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": "G1525"
+        },
+        {
+          "t": "and",
+          "s": "G2532"
+        },
+        {
+          "t": "out,",
+          "s": "G1831"
+        },
+        {
+          "t": "and",
+          "s": "G2532"
+        },
+        {
+          "t": "find",
+          "s": "G2147"
+        },
+        {
+          "t": "pasture.",
+          "s": "G3542"
+        }
+      ],
+      "alignments": {
+        "sv": [
+          {
+            "surface": "Ik",
+            "charStart": 0,
+            "charEnd": 2,
+            "strong": "G1473",
+            "status": "verified"
+          },
+          {
+            "surface": "ben",
+            "charStart": 3,
+            "charEnd": 6,
+            "strong": "G1510",
+            "status": "verified"
+          },
+          {
+            "surface": "Deur",
+            "charStart": 10,
+            "charEnd": 14,
+            "strong": "G2374",
+            "status": "verified"
+          },
+          {
+            "surface": "indien",
+            "charStart": 16,
+            "charEnd": 22,
+            "strong": "G1437",
+            "status": "verified"
+          },
+          {
+            "surface": "iemand",
+            "charStart": 23,
+            "charEnd": 29,
+            "strong": "G5100",
+            "status": "verified"
+          },
+          {
+            "surface": "door",
+            "charStart": 30,
+            "charEnd": 34,
+            "strong": "G1223",
+            "status": "verified"
+          },
+          {
+            "surface": "Mij",
+            "charStart": 35,
+            "charEnd": 38,
+            "strong": "G1700",
+            "status": "verified"
+          },
+          {
+            "surface": "ingaat",
+            "charStart": 39,
+            "charEnd": 45,
+            "strong": "G1525",
+            "status": "verified"
+          },
+          {
+            "surface": "worden",
+            "charStart": 64,
+            "charEnd": 70,
+            "strong": "G4982",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 72,
+            "charEnd": 74,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "ingaan",
+            "charStart": 83,
+            "charEnd": 89,
+            "strong": "G1525",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 90,
+            "charEnd": 92,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "uitgaan",
+            "charStart": 93,
+            "charEnd": 100,
+            "strong": "G1831",
+            "status": "verified"
+          },
+          {
+            "surface": "en",
+            "charStart": 102,
+            "charEnd": 104,
+            "strong": "G2532",
+            "status": "verified"
+          },
+          {
+            "surface": "weide",
+            "charStart": 105,
+            "charEnd": 110,
+            "strong": "G3542",
+            "status": "verified"
+          },
+          {
+            "surface": "vinden",
+            "charStart": 111,
+            "charEnd": 117,
+            "strong": "G2147",
+            "status": "verified"
+          }
+        ]
+      }
+    }
+  ],
+  "lexicon": {
+    "G1473": {
+      "strong": "G1473",
+      "language": "greek",
+      "lemma": "ἐγώ",
+      "translit": "egṓ",
+      "gloss_nl": null,
+      "gloss_en": "I, me",
+      "usage_nl": [
+        "ik",
+        "die"
+      ],
+      "usage_en": [
+        "i",
+        "me"
+      ]
+    },
+    "G1510": {
+      "strong": "G1510",
+      "language": "greek",
+      "lemma": "εἰμί",
+      "translit": "eimí",
+      "gloss_nl": null,
+      "gloss_en": "I exist (used only when emphatic)",
+      "usage_nl": [
+        "ik",
+        "ben"
+      ],
+      "usage_en": [
+        "i",
+        "am",
+        "was",
+        "is",
+        "been",
+        "have been",
+        "x it is i"
+      ]
+    },
+    "G2374": {
+      "strong": "G2374",
+      "language": "greek",
+      "lemma": "θύρα",
+      "translit": "thýra",
+      "gloss_nl": null,
+      "gloss_en": "a portal or entrance (the opening or the closure, literally or figuratively)",
+      "usage_nl": [
+        "deur"
+      ],
+      "usage_en": [
+        "doors",
+        "door",
+        "gate"
+      ]
+    },
+    "G1437": {
+      "strong": "G1437",
+      "language": "greek",
+      "lemma": "ἐάν",
+      "translit": "eán",
+      "gloss_nl": null,
+      "gloss_en": "a conditional particle; in case that, provided, etc.; often used in connection with other particles to denote indefiniteness or uncertainty",
+      "usage_nl": [
+        "indien",
+        "wat",
+        "zo",
+        "die",
+        "alwaar",
+        "wanneer"
+      ],
+      "usage_en": [
+        "if",
+        "so",
+        "wheresoever",
+        "before",
+        "but",
+        "except",
+        "and if",
+        "if so",
+        "what-",
+        "whither-soever",
+        "though",
+        "when -soever",
+        "whether or",
+        "to whom",
+        "who-so-ever"
+      ]
+    },
+    "G5100": {
+      "strong": "G5100",
+      "language": "greek",
+      "lemma": "τὶς",
+      "translit": "tìs",
+      "gloss_nl": null,
+      "gloss_en": "some or any person or object",
+      "usage_nl": [
+        "sommigen",
+        "enig",
+        "iets",
+        "iemand",
+        "zeker",
+        "een",
+        "niets",
+        "mens",
+        "sommige"
+      ],
+      "usage_en": [
+        "some",
+        "man",
+        "thing",
+        "them",
+        "any",
+        "certain",
+        "a",
+        "a kind of",
+        "any man",
+        "thing at all",
+        "certain thing",
+        "divers",
+        "he every man",
+        "one x thing",
+        "ought",
+        "+ partly",
+        "some man",
+        "-body",
+        "- thing",
+        "-what",
+        "+ that no-thing",
+        "what-soever",
+        "x wherewith",
+        "whom-soever",
+        "whose-soever"
+      ]
+    },
+    "G1223": {
+      "strong": "G1223",
+      "language": "greek",
+      "lemma": "διά",
+      "translit": "diá",
+      "gloss_nl": null,
+      "gloss_en": "through (in very wide applications, local, causal, or occasional)",
+      "usage_nl": [
+        "door",
+        "altijd",
+        "daarom",
+        "om",
+        "omdat"
+      ],
+      "usage_en": [
+        "of",
+        "by",
+        "whom",
+        "always",
+        "therefore",
+        "for",
+        "because",
+        "through",
+        "reason",
+        "cause",
+        "after",
+        "among",
+        "at",
+        "to avoid",
+        "because of that",
+        "briefly",
+        "for cause … fore",
+        "from",
+        "in",
+        "by occasion of",
+        "by reason of",
+        "for sake",
+        "that",
+        "thereby",
+        "x though",
+        "through-out",
+        "to",
+        "wherefore",
+        "with -in"
+      ]
+    },
+    "G1700": {
+      "strong": "G1700",
+      "language": "greek",
+      "lemma": "ἐμοῦ",
+      "translit": "emoû",
+      "gloss_nl": null,
+      "gloss_en": "of me",
+      "usage_nl": [
+        "mijnentwil",
+        "mij"
+      ],
+      "usage_en": [
+        "my",
+        "me",
+        "mine"
+      ]
+    },
+    "G1525": {
+      "strong": "G1525",
+      "language": "greek",
+      "lemma": "εἰσέρχομαι",
+      "translit": "eisérchomai",
+      "gloss_nl": null,
+      "gloss_en": "to enter (literally or figuratively)",
+      "usage_nl": [
+        "ingaan",
+        "gaan",
+        "ging",
+        "gingen",
+        "in",
+        "kwam",
+        "zijnde",
+        "ingegaan"
+      ],
+      "usage_en": [
+        "shall",
+        "enter",
+        "into",
+        "entered",
+        "in",
+        "thou",
+        "went",
+        "gone",
+        "x arise",
+        "come in",
+        "enter in-to",
+        "go in through"
+      ]
+    },
+    "G4982": {
+      "strong": "G4982",
+      "language": "greek",
+      "lemma": "σώζω",
+      "translit": "sṓzō",
+      "gloss_nl": null,
+      "gloss_en": "to save, i.e. deliver or protect (literally or figuratively)",
+      "usage_nl": [
+        "behouden",
+        "maken",
+        "worden",
+        "verlos",
+        "make"
+      ],
+      "usage_en": [
+        "save",
+        "saved",
+        "heal",
+        "preserve",
+        "save self",
+        "do well",
+        "be make whole"
+      ]
+    },
+    "G2532": {
+      "strong": "G2532",
+      "language": "greek",
+      "lemma": "καί",
+      "translit": "kaí",
+      "gloss_nl": null,
+      "gloss_en": "and, also, even, so then, too, etc.; often used in connection (or composition) with other particles or small words",
+      "usage_nl": [
+        "en",
+        "ook",
+        "dat",
+        "zo",
+        "[ook",
+        "dan",
+        "met",
+        "[alzo"
+      ],
+      "usage_en": [
+        "and",
+        "also",
+        "then",
+        "even",
+        "very",
+        "likewise",
+        "so",
+        "now",
+        "both",
+        "but",
+        "yet",
+        "that",
+        "which",
+        "with",
+        "for",
+        "nor",
+        "if",
+        "or",
+        "therefore",
+        "when"
+      ]
+    },
+    "G1831": {
+      "strong": "G1831",
+      "language": "greek",
+      "lemma": "ἐξέρχομαι",
+      "translit": "exérchomai",
+      "gloss_nl": null,
+      "gloss_en": "to issue (literally or figuratively)",
+      "usage_nl": [
+        "uitgaande",
+        "uit",
+        "gaat",
+        "uitgaat",
+        "gingen",
+        "uitging"
+      ],
+      "usage_en": [
+        "out",
+        "go",
+        "forth",
+        "cometh",
+        "come",
+        "come forth",
+        "depart out of",
+        "escape",
+        "get out",
+        "go abroad",
+        "away",
+        "thence",
+        "proceed forth",
+        "spread abroad"
+      ]
+    },
+    "G3542": {
+      "strong": "G3542",
+      "language": "greek",
+      "lemma": "νομή",
+      "translit": "nomḗ",
+      "gloss_nl": null,
+      "gloss_en": "pasture, i.e. (the act) feeding (figuratively, spreading of a gangrene), or (the food) pasturage",
+      "usage_nl": [],
+      "usage_en": [
+        "x eat",
+        "pasture"
+      ]
+    },
+    "G2147": {
+      "strong": "G2147",
+      "language": "greek",
+      "lemma": "εὑρίσκω",
+      "translit": "heurískō",
+      "gloss_nl": null,
+      "gloss_en": "to find (literally or figuratively)",
+      "usage_nl": [
+        "vinden",
+        "vindt",
+        "gevonden",
+        "vonden",
+        "hij",
+        "vond",
+        "hadden"
+      ],
+      "usage_en": [
+        "find",
+        "found",
+        "could",
+        "get",
+        "obtain",
+        "perceive",
+        "see"
+      ]
+    }
+  }
+}
