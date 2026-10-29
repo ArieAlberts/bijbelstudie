@@ -1,4 +1,5 @@
 name: Fetch Vayera Bible Cache
+# Requires Gen.18-22, 2Kgs.4 and John.10 in CHAPTER_CONFIG of scripts/fetch-all-authentic-bible.mjs.
 
 on:
   push:
