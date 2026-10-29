@@ -1,0 +1,54 @@
+name: Fetch Vayera Bible Cache
+# Requires Gen.18-22, 2Kgs.4 and John.10 in CHAPTER_CONFIG of scripts/fetch-all-authentic-bible.mjs.
+
+on:
+  push:
+    paths:
+      - ".github/workflows/fetch-vayera-cache.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-cache:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Fetch authentic DSV and KJV data
+        run: >
+          node scripts/fetch-all-authentic-bible.mjs
+          --only Gen.18,Gen.19,Gen.20,Gen.21,Gen.22,2Kgs.4,John.10
+          --out scripts/vayera-bible-cache.json
+      - name: Validate fetched coverage
+        run: |
+          node - <<'NODE'
+          const fs = require('fs');
+          const d = JSON.parse(fs.readFileSync('scripts/vayera-bible-cache.json','utf8'));
+          const required = [
+            ['Gen',18,1,33],['Gen',19,1,38],['Gen',20,1,18],['Gen',21,1,34],
+            ['Gen',22,1,24],['2Kgs',4,1,37],['John',10,9,9]
+          ];
+          for (const [b,c,s,e] of required) {
+            for (let v=s; v<=e; v++) {
+              const k=`${b}.${c}.${v}`;
+              if (!d[k]?.sv || !d[k]?.kjv) throw new Error(`Missing ${k}`);
+            }
+          }
+          console.log(`Validated ${Object.keys(d).length} cached verses`);
+          NODE
+      - name: Commit cache
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add scripts/vayera-bible-cache.json
+          if git diff --cached --quiet; then
+            echo "No cache changes"
+          else
+            git commit -m "Bible data: voeg authentieke Vayera cache toe"
+            git push
+          fi

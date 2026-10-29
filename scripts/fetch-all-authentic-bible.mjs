@@ -23,7 +23,10 @@ const CHAPTER_CONFIG = [
   { book: 'Gen', ch: 7 }, { book: 'Gen', ch: 8 }, { book: 'Gen', ch: 9 }, { book: 'Gen', ch: 10 }, { book: 'Gen', ch: 11 },
   { book: 'Gen', ch: 12 }, { book: 'Gen', ch: 13 }, { book: 'Gen', ch: 14 },
   { book: 'Gen', ch: 15 }, { book: 'Gen', ch: 16 }, { book: 'Gen', ch: 17 },
-  { book: 'Gen', ch: 21 },
+  { book: 'Gen', ch: 18 }, { book: 'Gen', ch: 19 }, { book: 'Gen', ch: 20 },
+  { book: 'Gen', ch: 21 }, { book: 'Gen', ch: 22 },
+  // Vayera haftarah
+  { book: '2Kgs', ch: 4 },
   // Leviticus
   { book: 'Lev', ch: 16 }, { book: 'Lev', ch: 22 }, { book: 'Lev', ch: 23 },
   // Numbers (including Pinchas 25-30)
@@ -52,7 +55,7 @@ const CHAPTER_CONFIG = [
   { book: 'Matt', ch: 4 }, { book: 'Matt', ch: 16 }, { book: 'Matt', ch: 18 }, { book: 'Matt', ch: 24 }, { book: 'Matt', ch: 25 },
   { book: 'Mark', ch: 11 },
   { book: 'Luke', ch: 2 }, { book: 'Luke', ch: 3 }, { book: 'Luke', ch: 17 }, { book: 'Luke', ch: 19 },
-  { book: 'John', ch: 2 }, { book: 'John', ch: 6 }, { book: 'John', ch: 8 }, { book: 'John', ch: 12 }, { book: 'John', ch: 14 }
+  { book: 'John', ch: 2 }, { book: 'John', ch: 6 }, { book: 'John', ch: 8 }, { book: 'John', ch: 10 }, { book: 'John', ch: 12 }, { book: 'John', ch: 14 }
 ];
 
 // Optional: --only Gen.7,Luke.17 --out scripts/x-bible-cache.json fetches just those

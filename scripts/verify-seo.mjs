@@ -155,4 +155,23 @@ for (const [url, page] of pages) {
 const robots = fs.readFileSync(path.join(root, 'robots.txt'), 'utf8');
 assert.ok(robots.includes('Sitemap: ' + site + '/sitemap.xml'),
   'robots.txt must advertise the canonical sitemap');
+// Wajera release checks: both indexed pages and all document downloads must exist.
+for (const [lang, name] of [['nl', 'Wajera'], ['en', 'Vayera']]) {
+  const route = `/${lang}/parasjot/vayera/`;
+  const url = site + route;
+  assert.ok(urls.has(url), 'Wajera missing from sitemap: ' + route);
+  const html = fs.readFileSync(sitemapFile(url), 'utf8');
+  assert.ok(html.includes(`Par${lang === 'nl' ? 'asja' : 'sha'} ${name}`),
+    'Wajera language-specific SEO title missing: ' + route);
+  assert.ok(html.includes('Genesis 18:1'), 'Missing Torah reference in reading: ' + route);
+  if (process.env.VERIFY_WAJERA_DOWNLOADS === '1') {
+  for (const dir of ['lezingen', 'studiebladen', 'werkbladen']) {
+    for (const ext of ['pdf', 'docx']) {
+      const filename = `downloads/${dir}/vayera-${lang}.${ext}`;
+      assert.ok(fs.existsSync(path.join(root, filename)),
+        'Wajera download missing: ' + filename);
+    }
+  }
+  }
+}
 console.log('SEO build verified:', urls.size, 'sitemap URLs; title, description, canonical, headings, hreflang and sitemap coverage OK');
