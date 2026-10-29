@@ -164,6 +164,16 @@ for (const [lang, name] of [['nl', 'Wajera'], ['en', 'Vayera']]) {
   assert.ok(html.includes(`Par${lang === 'nl' ? 'asja' : 'sha'} ${name}`),
     'Wajera language-specific SEO title missing: ' + route);
   assert.ok(html.includes('Genesis 18:1'), 'Missing Torah reference in reading: ' + route);
+  assert.match(html, /class="seo-prerender vayera-seo-reading"/,
+    'Wajera book-layout prerender missing: ' + route);
+  assert.match(html, /class="vayera-edition-title"/,
+    'Wajera publication title missing: ' + route);
+  assert.match(html, /class="vayera-edition-subtitle"/,
+    'Wajera publication subtitle missing: ' + route);
+  assert.match(html, /class="vayera-edition-author">Arie Alberts/,
+    'Wajera author credit missing: ' + route);
+  assert.ok(html.includes(lang === 'nl' ? 'De God Die verschijnt, hoort' : 'The God who appears, hears'),
+    'Wajera bilingual subtitle missing: ' + route);
   if (process.env.VERIFY_WAJERA_DOWNLOADS === '1') {
   for (const dir of ['lezingen', 'studiebladen', 'werkbladen']) {
     for (const ext of ['pdf', 'docx']) {
