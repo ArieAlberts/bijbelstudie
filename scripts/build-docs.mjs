@@ -61,6 +61,47 @@ function getConfiguredDocFilename(parsed, lang, docType, format) {
   return configuredPath ? path.basename(configuredPath) : getDocFilename(parsed.id, lang, docType, format);
 }
 
+// Wajera reading edition supplied by the author: classic Georgia text, a
+// centered title/subtitle and unboxed quotations. Only the lezing/reading
+// uses this template; all study sheets and worksheets retain their own style.
+function buildVayeraReadingDocument({ title, subtitle, bodyHtml, passages, lang }) {
+  const refs = (passages || []).map(p => p.ref?.[lang]).filter(Boolean).join(' · ');
+  return `<!DOCTYPE html>
+<html lang="${lang}">
+<head><meta charset="UTF-8"><style>
+  * { box-sizing: border-box; }
+  body { margin: 0; padding: 0; background: #fff; color: #111;
+    font-family: Georgia, 'Times New Roman', serif; font-size: 15px;
+    line-height: 1.33; }
+  header { text-align: center; border-bottom: 1px solid #888;
+    padding: 12px 0 13px; margin-bottom: 16px; }
+  header h1 { font-family: Georgia, 'Times New Roman', serif; font-weight: 700;
+    font-size: 27px; line-height: 1.2; margin: 0 0 3px; }
+  header .subtitle { font-size: 16px; font-style: italic; margin: 0 0 3px; }
+  header .passages, header .author { font-size: 12px; margin: 0; line-height: 1.3; }
+  h2, h3 { font-family: Georgia, 'Times New Roman', serif; font-weight: 700;
+    color: #111; font-size: 18px; line-height: 1.2;
+    margin: 15px 0 5px; break-after: avoid; page-break-after: avoid; }
+  h3 { font-size: 16px; }
+  p { margin: 0 0 9px; text-align: justify; orphans: 3; widows: 3; }
+  blockquote { margin: 7px 24px 10px; padding: 0; background: transparent;
+    border: none; box-shadow: none; font-style: italic; }
+  blockquote p { margin: 0; }
+  em { font-style: italic; }
+  strong { font-weight: 700; }
+  ul, ol { padding-left: 24px; }
+  li { margin-bottom: 6px; }
+</style></head><body>
+<header>
+  <h1>${title}</h1>
+  <p class="subtitle">${subtitle}</p>
+  <p class="passages">${refs}</p>
+  <p class="author">Arie Alberts</p>
+</header>
+<main>${bodyHtml}</main>
+</body></html>`;
+}
+
 // ── HTML template for PDF rendering ───────────────────────────────────
 function buildHtmlDocument({ title, docTypeTitle, summary, bodyHtml, passages, lang }) {
   const isEn = lang === 'en';
@@ -352,7 +393,11 @@ async function buildDocs() {
         const docTypeTitle = lang === 'nl' ? docType.titleNl : docType.titleEn;
         const passages = parsed.passages || [];
 
-        const htmlDoc = buildHtmlDocument({ title, docTypeTitle, summary, bodyHtml, passages, lang });
+        const isVayeraReading = parsed.id === 'vayera' && docType.bodyField === 'body';
+        const subtitle = lang === 'nl' ? parsed.subtitle_nl : parsed.subtitle_en;
+        const htmlDoc = isVayeraReading
+          ? buildVayeraReadingDocument({ title, subtitle: subtitle || '', bodyHtml, passages, lang })
+          : buildHtmlDocument({ title, docTypeTitle, summary, bodyHtml, passages, lang });
         const rtfDoc = buildRtfDocument({ title, docTypeTitle, summary, bodyHtml, passages, lang });
 
         const outDir = path.join(rootDir, 'public', 'downloads', docType.dir);

@@ -124,8 +124,17 @@ function renderParashaPage({ lang, slug, d, title, summary, desc, body, nlExists
   const t = L[lang];
   const { links, scripts } = assetsFromHome(lang, '../../../');
   const torahRef = d.passages?.find(p => p.role === 'parasha')?.ref?.[lang];
-  const seoArticle = `<article class="seo-prerender"><header><p>${t.parasjaLabel} ${esc(d.label?.[lang] || d.parasha || slug)}${torahRef ? ` · ${t.torahLabel}: ${esc(torahRef)}` : ''}</p>`
-    + `<h1>${esc(title)}</h1><p>${esc(summary)}</p></header>${body}</article>`;
+  const isVayera = slug === 'vayera';
+  const vayeraSubtitle = lang === 'nl' ? d.subtitle_nl : d.subtitle_en;
+  const vayeraRefs = (d.passages || []).map(p => p.ref?.[lang]).filter(Boolean).join(' · ');
+  const seoArticle = isVayera
+    ? `<article class="seo-prerender vayera-seo-reading"><header class="vayera-edition-header">`
+      + `<h1 class="vayera-edition-title">${esc(title)}</h1>`
+      + `<p class="vayera-edition-subtitle">${esc(vayeraSubtitle || '')}</p>`
+      + `<p class="vayera-edition-passages">${esc(vayeraRefs)}</p>`
+      + `<p class="vayera-edition-author">Arie Alberts</p></header><div class="vayera-seo-body">${body}</div></article>`
+    : `<article class="seo-prerender"><header><p>${t.parasjaLabel} ${esc(d.label?.[lang] || d.parasha || slug)}${torahRef ? ` · ${t.torahLabel}: ${esc(torahRef)}` : ''}</p>`
+      + `<h1>${esc(title)}</h1><p>${esc(summary)}</p></header>${body}</article>`;
   const config = `<script>window.__PARASJA__={study:${JSON.stringify(slug)},view:"worksheet"};</script>`;
   return `<!doctype html><html lang="${lang}"><head>${headSeo({ lang, slug, d, title, desc, nlExists, enExists })}`
     + links + config + `</head><body>`

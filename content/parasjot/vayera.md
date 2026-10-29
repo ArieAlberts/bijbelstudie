@@ -16,6 +16,8 @@ meta_description_en: "Vayera (Genesis 18–22): God's appointed time, Abraham's 
 
 title_nl: "Bij de deur"
 title_en: "At the door"
+subtitle_nl: "De God Die verschijnt, hoort en op Zijn tijd voorziet"
+subtitle_en: "The God who appears, hears, and provides in His time"
 
 summary_nl: "In Wajera verschijnt de HEERE aan Abraham bij de tentopening (wajjērä’, 18:1), en hetzelfde werkwoord keert terug op Moria, waar God voorziet (JHWH Jir’eh, 22:14). De belofte komt op de gezette tijd (mo’ed, 18:14; 21:2). God neemt telkens het initiatief — Hij verschijnt, hoort Ismaël, gedenkt Abraham, bezoekt (paqad) Sara en voorziet — terwijl Abraham, Lot, Hagar en de Sunamitische uit 2 Koningen 4 ontvangen en handelen maar de uitkomst niet veiligstellen. Bij de deur (tent, poort, kamer) wordt ontvangen, beschermd en gebeden; Johannes 10:9 (‘Ik ben de Deur’) brengt het samen."
 summary_en: "In Vayera the LORD appears to Abraham at the tent entrance (wajjērä’, 18:1), and the same verb returns on Moriah, where God provides (JHWH Jireh, 22:14). The promise comes at the appointed time (mo’ed, 18:14; 21:2). God takes the initiative each time — He appears, hears Ishmael, remembers Abraham, visits (paqad) Sarah and provides — while Abraham, Lot, Hagar and the Shunammite of 2 Kings 4 receive and act but do not secure the outcome. At the door (tent, gate, room) there is receiving, protecting and praying; John 10:9 (‘I am the door’) brings it together."
