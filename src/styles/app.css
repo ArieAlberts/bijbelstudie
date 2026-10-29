@@ -1686,3 +1686,148 @@ textarea[data-quick-notes]:focus {
 }
 
 
+
+
+/* Wajera / Vayera edition — styled after the author's supplied Georgia PDF.
+   Reading only; never affects the study sheet, worksheet or other parashot. */
+.vayera-reading-view .parasha-editorial-card {
+  background: #fff;
+  border-color: #e4e4e4;
+  box-shadow: none;
+}
+.vayera-reading-view .reading-publication.vayera-edition {
+  width: 100%;
+  max-width: 780px !important;
+  margin: 0 auto;
+  padding: 12px 24px 40px;
+  background: #fff;
+  color: #151515;
+}
+.vayera-edition-header {
+  font-family: Georgia, "Times New Roman", serif;
+  text-align: center;
+  color: #111;
+  padding: 28px 0 18px;
+  margin: 0 0 22px;
+  border-bottom: 1px solid #888;
+}
+.vayera-edition-header .vayera-edition-title {
+  display: block;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(30px, 4vw, 38px);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 1.18;
+  color: #111;
+  margin: 0 0 6px;
+}
+.vayera-edition-header .vayera-edition-subtitle {
+  font-size: 18px;
+  font-style: italic;
+  line-height: 1.3;
+  margin: 0 0 4px;
+}
+.vayera-edition-header .vayera-edition-passages,
+.vayera-edition-header .vayera-edition-author {
+  font-size: 13.5px;
+  line-height: 1.4;
+  margin: 0;
+  color: #222;
+}
+.vayera-edition .reading-body.editorial-body-content {
+  width: 100% !important;
+  max-width: 100% !important;
+  padding: 0 !important;
+  border: 0;
+  background: transparent;
+  border-radius: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 1.48;
+  color: #181818;
+  box-shadow: none;
+}
+.vayera-edition .reading-body h2,
+.vayera-edition .reading-body h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 1.22;
+  margin: 29px 0 8px;
+  padding: 0;
+  border: 0;
+  color: #111;
+}
+.vayera-edition .reading-body h2:first-child { margin-top: 0; }
+.vayera-edition .reading-body h3 { font-size: 20px; }
+.vayera-edition .reading-body p {
+  margin: 0 0 12px;
+  color: inherit;
+}
+.vayera-edition .reading-body blockquote {
+  margin: 10px 24px 12px;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  background: transparent;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: inherit;
+  font-style: italic;
+  line-height: inherit;
+  color: #202020;
+}
+.vayera-edition .reading-body blockquote p { margin-bottom: 0; }
+.vayera-edition .reading-body em { color: inherit; }
+.vayera-edition .reading-body strong { color: inherit; }
+.vayera-edition .reading-body a { overflow-wrap: anywhere; }
+
+@media (max-width: 768px) {
+  .vayera-reading-view .parasha-editorial-card { padding: 20px 14px !important; }
+  .vayera-reading-view .reading-publication.vayera-edition {
+    padding: 0 2px 22px !important;
+  }
+  .vayera-edition-header { padding: 20px 0 16px; margin-bottom: 20px; }
+  .vayera-edition-header .vayera-edition-title { font-size: 31px; }
+  .vayera-edition-header .vayera-edition-subtitle { font-size: 16px; }
+  .vayera-edition-header .vayera-edition-passages { font-size: 12.5px; }
+  .vayera-edition .reading-body.editorial-body-content {
+    font-size: 17px !important;
+    line-height: 1.55 !important;
+  }
+  .vayera-edition .reading-body h2 { font-size: 21px; }
+  .vayera-edition .reading-body blockquote { margin-left: 15px; margin-right: 8px; }
+}
+@media print {
+  .vayera-reading-view .reading-publication.vayera-edition {
+    padding: 0 !important;
+    max-width: none !important;
+  }
+  .vayera-edition-header { padding: 6mm 0 3mm; margin: 0 0 5mm; }
+  .vayera-edition-header .vayera-edition-title {
+    font-size: 21pt !important;
+    color: #000 !important;
+  }
+  .vayera-edition-header .vayera-edition-subtitle { font-size: 12pt; }
+  .vayera-edition-header .vayera-edition-passages,
+  .vayera-edition-header .vayera-edition-author { font-size: 9.5pt; }
+  .vayera-edition .reading-body.editorial-body-content {
+    font-family: Georgia, "Times New Roman", serif !important;
+    font-size: 11pt !important;
+    line-height: 1.35 !important;
+    color: #000 !important;
+  }
+  .vayera-edition .reading-body h2 {
+    font-family: Georgia, "Times New Roman", serif !important;
+    font-size: 13pt !important;
+    color: #000 !important;
+    break-after: avoid;
+  }
+  .vayera-edition .reading-body blockquote {
+    border: 0 !important;
+    background: none !important;
+    box-shadow: none !important;
+    margin: 2mm 6mm !important;
+    padding: 0 !important;
+  }
+}
