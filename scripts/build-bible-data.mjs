@@ -9,10 +9,18 @@ const rootDir = path.resolve(__dirname, '..');
 const passagesFile = path.join(rootDir, 'data', 'passages.json');
 const outputDir = path.join(rootDir, 'public', 'data', 'bible');
 const cacheFile = path.join(rootDir, 'scripts', 'authentic-bible-cache.json');
-const supplementalCacheFile = path.join(rootDir, 'scripts', 'haazinu-bible-cache.json');
-const bereshitSupplementalCacheFile = path.join(rootDir, 'scripts', 'bereshit-bible-cache.json');
-const noachSupplementalCacheFile = path.join(rootDir, 'scripts', 'noach-bible-cache.json');
-const lechLechaSupplementalCacheFile = path.join(rootDir, 'scripts', 'lech-lecha-bible-cache.json');
+// Supplemental per-parashah caches: every scripts/*-bible-cache.json except the main one.
+// Legacy files keep their historical load order; new ones (e.g. vayera) load alphabetically after them.
+const legacySupplementalOrder = ['haazinu', 'bereshit', 'noach', 'lech-lecha'];
+const scriptsDir = path.join(rootDir, 'scripts');
+const supplementalCacheFiles = fs.readdirSync(scriptsDir)
+  .filter((f) => f.endsWith('-bible-cache.json') && f !== 'authentic-bible-cache.json')
+  .sort((a, b) => {
+    const ia = legacySupplementalOrder.indexOf(a.replace('-bible-cache.json', ''));
+    const ib = legacySupplementalOrder.indexOf(b.replace('-bible-cache.json', ''));
+    return (ia === -1 ? 99 : ia) - (ib === -1 ? 99 : ib) || a.localeCompare(b);
+  })
+  .map((f) => path.join(scriptsDir, f));
 const lexiconCacheFile = path.join(rootDir, 'scripts', 'full-lexicon-cache.json');
 
 const BOOK_MAP = {
@@ -188,17 +196,8 @@ function buildAllPassages() {
   }
 
   const cachedDb = JSON.parse(fs.readFileSync(cacheFile, 'utf-8'));
-  if (fs.existsSync(supplementalCacheFile)) {
-    Object.assign(cachedDb, JSON.parse(fs.readFileSync(supplementalCacheFile, 'utf-8')));
-  }
-  if (fs.existsSync(bereshitSupplementalCacheFile)) {
-    Object.assign(cachedDb, JSON.parse(fs.readFileSync(bereshitSupplementalCacheFile, 'utf-8')));
-  }
-  if (fs.existsSync(noachSupplementalCacheFile)) {
-    Object.assign(cachedDb, JSON.parse(fs.readFileSync(noachSupplementalCacheFile, 'utf-8')));
-  }
-  if (fs.existsSync(lechLechaSupplementalCacheFile)) {
-    Object.assign(cachedDb, JSON.parse(fs.readFileSync(lechLechaSupplementalCacheFile, 'utf-8')));
+  for (const file of supplementalCacheFiles) {
+    Object.assign(cachedDb, JSON.parse(fs.readFileSync(file, 'utf-8')));
   }
   const fullLexicon = JSON.parse(fs.readFileSync(lexiconCacheFile, 'utf-8'));
   const manifest = JSON.parse(fs.readFileSync(passagesFile, 'utf-8'));
