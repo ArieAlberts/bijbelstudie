@@ -334,6 +334,12 @@ export default function WorksheetHero({ lang, onStudyChange, autoExpandReading, 
   };
   const curLang = isEn ? 'en' : 'nl';
   const curId = currentStudy?.id || selectedStudyId;
+  // The Wajera/Vayera reading has its own book-like design, matching its
+  // supplied PDF. Other readings and the study/worksheet tools are unchanged.
+  const isVayeraReading = curId === 'vayera';
+  const readingSubtitle = isEn
+    ? (currentStudy?.subtitle_en || 'The God who appears, hears, and provides in His time')
+    : (currentStudy?.subtitle_nl || 'De God Die verschijnt, hoort en op Zijn tijd voorziet');
 
   const firstAvailableDownload = (...urls) => {
     for (const url of urls) {
@@ -402,7 +408,7 @@ export default function WorksheetHero({ lang, onStudyChange, autoExpandReading, 
   };
 
   return (
-    <div className="hero-card standalone-reading-view" style={{ width: '100%', maxWidth: '100%' }}>
+    <div className={`hero-card standalone-reading-view${isVayeraReading ? ' vayera-reading-view' : ''}`} style={{ width: '100%', maxWidth: '100%' }}>
       {/* Hidden File Input for Single File Upload (.md / .json) */}
       <input
         type="file"
@@ -493,7 +499,7 @@ export default function WorksheetHero({ lang, onStudyChange, autoExpandReading, 
           >
             <BookOpen className="section-header-icon" size={28} />
             <h2 style={{ fontSize: '28px', margin: 0 }}>
-              {displayTitle || (isEn ? 'Published Reading & Commentary' : 'Gepubliceerde Lezing & Toelichting')}
+              {isVayeraReading ? (isEn ? 'Reading & Commentary' : 'Lezing & Toelichting') : (displayTitle || (isEn ? 'Published Reading & Commentary' : 'Gepubliceerde Lezing & Toelichting'))}
             </h2>
           </div>
 
@@ -518,14 +524,24 @@ export default function WorksheetHero({ lang, onStudyChange, autoExpandReading, 
 
         {/* Complete Published Reading Commentary Article — Collapsable */}
         {isReadingExpanded && (
-          <article className="reading-publication" style={{ width: '100%', maxWidth: '100%' }}>
-            {/* Print-only title: on screen the section header above already shows it. */}
-            {displayTitle && (
+          <article className={`reading-publication${isVayeraReading ? ' vayera-edition' : ''}`} style={{ width: '100%', maxWidth: '100%' }}>
+            {isVayeraReading && (
+              <header className="vayera-edition-header">
+                <h1 className="vayera-edition-title">{displayTitle}</h1>
+                <p className="vayera-edition-subtitle">{readingSubtitle}</p>
+                <p className="vayera-edition-passages">
+                  {(currentStudy?.passages || []).map(p => p.ref?.[isEn ? 'en' : 'nl']).filter(Boolean).join(' · ')}
+                </p>
+                <p className="vayera-edition-author">Arie Alberts</p>
+              </header>
+            )}
+            {/* For other readings, retain the existing print title and summary. */}
+            {displayTitle && !isVayeraReading && (
               <h1 className="reading-title print-only-title" style={{ fontSize: '30px', fontFamily: '"Source Serif 4", Georgia, serif', fontWeight: 700, margin: '0 0 16px', color: 'var(--ink)' }}>
                 {displayTitle}
               </h1>
             )}
-            {hasBody && displaySummary && (
+            {hasBody && displaySummary && !isVayeraReading && (
               <div className="reading-summary" style={{ fontStyle: 'italic', background: 'var(--soft)', padding: '16px 20px', marginBottom: '24px', borderLeft: '4px solid var(--accent)', borderRadius: '4px', fontSize: '17px', color: 'var(--ink)' }}>
                 <p style={{ margin: 0 }}>{displaySummary}</p>
               </div>
