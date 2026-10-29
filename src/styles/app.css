@@ -1831,3 +1831,43 @@ textarea[data-quick-notes]:focus {
     padding: 0 !important;
   }
 }
+
+
+/* JS-free, search-indexable Wajera page: the same editorial styling. */
+.seo-prerender.vayera-seo-reading {
+  font-family: Georgia, "Times New Roman", serif;
+  background: #fff;
+  color: #181818;
+  max-width: 780px;
+  margin: 20px auto 60px;
+  padding: 28px 28px 40px;
+}
+.vayera-seo-reading .vayera-edition-header {
+  text-align: center;
+}
+.vayera-seo-reading .vayera-seo-body {
+  font: 18px/1.48 Georgia, "Times New Roman", serif;
+}
+.vayera-seo-reading .vayera-seo-body h2,
+.vayera-seo-reading .vayera-seo-body h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 1.22;
+  margin: 29px 0 8px;
+  color: #111;
+}
+.vayera-seo-reading .vayera-seo-body h2:first-child { margin-top: 0; }
+.vayera-seo-reading .vayera-seo-body p { margin: 0 0 12px; }
+.vayera-seo-reading .vayera-seo-body blockquote {
+  margin: 10px 24px 12px;
+  padding: 0;
+  font-style: italic;
+  background: transparent;
+  border: none;
+}
+@media (max-width: 768px) {
+  .seo-prerender.vayera-seo-reading { padding: 20px 14px; margin: 0 auto 32px; }
+  .vayera-seo-reading .vayera-seo-body { font-size: 17px; line-height: 1.55; }
+  .vayera-seo-reading .vayera-seo-body h2 { font-size: 21px; }
+}
