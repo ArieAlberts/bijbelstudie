@@ -1,0 +1,28 @@
+name: Verify full website and SEO
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'content/parasjot/**'
+      - 'scripts/**'
+      - '.github/workflows/verify-site-build.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  full-build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+      - name: Install dependencies
+        run: npm ci
+      - name: Build site, downloads and verify SEO
+        run: npm run build
