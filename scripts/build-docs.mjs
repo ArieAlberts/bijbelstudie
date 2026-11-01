@@ -61,10 +61,10 @@ function getConfiguredDocFilename(parsed, lang, docType, format) {
   return configuredPath ? path.basename(configuredPath) : getDocFilename(parsed.id, lang, docType, format);
 }
 
-// Wajera reading edition supplied by the author: classic Georgia text, a
+// Shared book reading edition: classic Georgia text, a
 // centered title/subtitle and unboxed quotations. Only the lezing/reading
 // uses this template; all study sheets and worksheets retain their own style.
-function buildVayeraReadingDocument({ title, subtitle, bodyHtml, passages, lang }) {
+function buildBookReadingDocument({ title, subtitle, bodyHtml, passages, lang }) {
   const refs = (passages || []).map(p => p.ref?.[lang]).filter(Boolean).join(' · ');
   return `<!DOCTYPE html>
 <html lang="${lang}">
@@ -393,10 +393,10 @@ async function buildDocs() {
         const docTypeTitle = lang === 'nl' ? docType.titleNl : docType.titleEn;
         const passages = parsed.passages || [];
 
-        const isVayeraReading = parsed.id === 'vayera' && docType.bodyField === 'body';
+        const isBookReading = (parsed.reading_layout === 'book' || parsed.id === 'vayera') && docType.bodyField === 'body';
         const subtitle = lang === 'nl' ? parsed.subtitle_nl : parsed.subtitle_en;
-        const htmlDoc = isVayeraReading
-          ? buildVayeraReadingDocument({ title, subtitle: subtitle || '', bodyHtml, passages, lang })
+        const htmlDoc = isBookReading
+          ? buildBookReadingDocument({ title, subtitle: subtitle || '', bodyHtml, passages, lang })
           : buildHtmlDocument({ title, docTypeTitle, summary, bodyHtml, passages, lang });
         const rtfDoc = buildRtfDocument({ title, docTypeTitle, summary, bodyHtml, passages, lang });
 
