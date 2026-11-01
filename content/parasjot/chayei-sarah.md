@@ -8,6 +8,7 @@ label:
 
 status: published
 current: false
+reading_layout: book
 published_at: 2026-11-01
 shabbat_date: 2026-11-07
 last_reviewed_at: 2026-11-01
