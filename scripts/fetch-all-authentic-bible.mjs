@@ -25,6 +25,8 @@ const CHAPTER_CONFIG = [
   { book: 'Gen', ch: 15 }, { book: 'Gen', ch: 16 }, { book: 'Gen', ch: 17 },
   { book: 'Gen', ch: 18 }, { book: 'Gen', ch: 19 }, { book: 'Gen', ch: 20 },
   { book: 'Gen', ch: 21 }, { book: 'Gen', ch: 22 },
+  // Chaje Sara
+  { book: 'Gen', ch: 23 }, { book: 'Gen', ch: 24 }, { book: 'Gen', ch: 25 },
   // Vayera haftarah
   { book: '2Kgs', ch: 4 },
   // Leviticus
@@ -38,8 +40,8 @@ const CHAPTER_CONFIG = [
   ...Array.from({ length: 34 }, (_, i) => ({ book: 'Deut', ch: i + 1 })),
   // 1 Samuel
   { book: '1Sam', ch: 1 }, { book: '1Sam', ch: 2 }, { book: '1Sam', ch: 20 },
-  // 1 Kings (Pinchas Haftara)
-  { book: '1Kgs', ch: 18 }, { book: '1Kgs', ch: 19 },
+  // 1 Kings (Chaje Sara haftara + Pinchas Haftara)
+  { book: '1Kgs', ch: 1 }, { book: '1Kgs', ch: 18 }, { book: '1Kgs', ch: 19 },
   // Isaiah
   { book: 'Isa', ch: 1 }, { book: 'Isa', ch: 40 }, { book: 'Isa', ch: 41 }, { book: 'Isa', ch: 49 }, { book: 'Isa', ch: 50 },
   { book: 'Isa', ch: 51 }, { book: 'Isa', ch: 52 }, { book: 'Isa', ch: 54 }, { book: 'Isa', ch: 55 },
@@ -55,7 +57,7 @@ const CHAPTER_CONFIG = [
   { book: 'Matt', ch: 4 }, { book: 'Matt', ch: 16 }, { book: 'Matt', ch: 18 }, { book: 'Matt', ch: 24 }, { book: 'Matt', ch: 25 },
   { book: 'Mark', ch: 11 },
   { book: 'Luke', ch: 2 }, { book: 'Luke', ch: 3 }, { book: 'Luke', ch: 17 }, { book: 'Luke', ch: 19 },
-  { book: 'John', ch: 2 }, { book: 'John', ch: 6 }, { book: 'John', ch: 8 }, { book: 'John', ch: 10 }, { book: 'John', ch: 12 }, { book: 'John', ch: 14 }
+  { book: 'John', ch: 2 }, { book: 'John', ch: 4 }, { book: 'John', ch: 6 }, { book: 'John', ch: 8 }, { book: 'John', ch: 10 }, { book: 'John', ch: 12 }, { book: 'John', ch: 14 }
 ];
 
 // Optional: --only Gen.7,Luke.17 --out scripts/x-bible-cache.json fetches just those
