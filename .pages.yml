@@ -38,6 +38,13 @@ content:
         label: Huidige week / Actueel
         type: boolean
         default: false
+      - name: reading_layout
+        label: Opmaak van lezing
+        type: select
+        options:
+          - default
+          - book
+        default: default
       - name: published_at
         label: Publicatiedatum
         type: date
