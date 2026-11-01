@@ -1,6 +1,6 @@
 # Overzicht parasja-content voor de website
 
-**Actueel bijgewerkt: 29 oktober 2026**
+**Actueel bijgewerkt: 1 november 2026**
 
 **Ha'azinu-controle:** tweetalige bron, 12 downloads, gecombineerde Haftara (Hosea 14 + Joël 2), gegenereerde data en tijdelijke testbestanden gecontroleerd op 16 september 2026.
 
@@ -33,6 +33,7 @@ Voor iedere parasja of feestlezing geldt één markdownbestand als primaire bron
 | noach.md | noach | 2026-10-17 | gepubliceerd |
 | lech-lecha.md | lech-lecha | 2026-10-18 | gepubliceerd |
 | **vayera.md** | **vayera** | **2026-10-29** | **volledig tweetalig / gereed** |
+| **chayei-sarah.md** | **chayei-sarah** | **2026-11-01** | **volledig tweetalig / gereed voor publicatie** |
 
 > Let op: het bestandsnaam-item voor Jom Teruah heet historisch `yom-teruah.md`, terwijl de interne `id` `jom-teruah` is. Dit wordt hier alleen gedocumenteerd; wijzig die bestaande koppeling niet zonder migratie van alle verwijzingen.
 
@@ -110,6 +111,20 @@ public/downloads/werkbladen/haazinu-werkblad-en.pdf
 - `published_at: 2026-10-29`, `shabbat_date: 2026-10-31`, `current: false`
 - 12 downloads (`vayera-{lezing|studieblad|werkblad}-{nl|en}.{docx|pdf}`) worden door `npm run build:docs` uit de markdownbron gegenereerd; DOCX lokaal gecontroleerd (soffice → pdftotext), PDF ontstaat in de deploy-build.
 - Bijbeltekst: `.github/workflows/fetch-vayera-cache.yml` haalt `scripts/vayera-bible-cache.json` op; `build-bible-data.mjs` laadt voortaan elk `scripts/*-bible-cache.json` automatisch.
+
+## Chaje Sara — volledige bron
+
+`content/parasjot/chayei-sarah.md` bevat de Nederlandse en Engelse lezing, het studieblad en het werkblad (zes body-velden).
+
+- Torah: Genesis 23:1–25:18
+- Haftara: 1 Koningen 1:1–31
+- Evangelie / flanklezing: Johannes 4:3–14
+- Titel NL: **Bij de bron**
+- Titel EN: **At the well**
+- `published_at: 2026-11-01`, `shabbat_date: 2026-11-07`, `reading_layout: book`, `current: false`
+- De volledige Pages-build genereert twaalf PDF/DOCX-bestanden, in NL en EN, voor lezing, studieblad en werkblad. `verify:seo` controleert het bestaan daarvan in de volledige productiebuild.
+- De aangemaakte cache `scripts/chayei-sarah-bible-cache.json` levert de Statenvertaling/KJV-tekst voor de interactieve Bijbellezer. De speciale cacheworkflow is geslaagd.
+- De Georgia-boekopmaak is gekoppeld aan `reading_layout: book`, zodat volgende parasjot dezelfde vorm kunnen kiezen zonder bijzondere code per parasja.
 
 ## Crosscheck bij publicatie
 

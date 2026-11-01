@@ -155,33 +155,65 @@ for (const [url, page] of pages) {
 const robots = fs.readFileSync(path.join(root, 'robots.txt'), 'utf8');
 assert.ok(robots.includes('Sitemap: ' + site + '/sitemap.xml'),
   'robots.txt must advertise the canonical sitemap');
-// Wajera release checks: both indexed pages and all document downloads must exist.
-for (const [lang, name] of [['nl', 'Wajera'], ['en', 'Vayera']]) {
-  const route = `/${lang}/parasjot/vayera/`;
-  const url = site + route;
-  assert.ok(urls.has(url), 'Wajera missing from sitemap: ' + route);
-  const html = fs.readFileSync(sitemapFile(url), 'utf8');
-  assert.ok(html.includes(`Par${lang === 'nl' ? 'asja' : 'sha'} ${name}`),
-    'Wajera language-specific SEO title missing: ' + route);
-  assert.ok(html.includes('Genesis 18:1'), 'Missing Torah reference in reading: ' + route);
-  assert.match(html, /class="seo-prerender vayera-seo-reading"/,
-    'Wajera book-layout prerender missing: ' + route);
-  assert.match(html, /class="vayera-edition-title"/,
-    'Wajera publication title missing: ' + route);
-  assert.match(html, /class="vayera-edition-subtitle"/,
-    'Wajera publication subtitle missing: ' + route);
-  assert.match(html, /class="vayera-edition-author">Arie Alberts/,
-    'Wajera author credit missing: ' + route);
-  assert.ok(html.includes(lang === 'nl' ? 'De God Die verschijnt, hoort' : 'The God who appears, hears'),
-    'Wajera bilingual subtitle missing: ' + route);
-  if (process.env.VERIFY_WAJERA_DOWNLOADS === '1') {
-  for (const dir of ['lezingen', 'studiebladen', 'werkbladen']) {
-    for (const ext of ['pdf', 'docx']) {
-      const filename = `downloads/${dir}/vayera-${lang}.${ext}`;
-      assert.ok(fs.existsSync(path.join(root, filename)),
-        'Wajera download missing: ' + filename);
+// Publication contract: Wajera and Chaje Sara must preserve bilingual, indexable
+// book-layout pages. Full production builds also require all twelve PDF/DOCX files.
+const readingReleases = [
+  {
+    slug: 'vayera', names: { nl: 'Wajera', en: 'Vayera' },
+    torah: 'Genesis 18:1',
+    subtitle: { nl: 'De God Die verschijnt, hoort', en: 'The God who appears, hears' },
+    downloads: {
+      nl: { lezingen: 'vayera-nl', studiebladen: 'vayera-nl', werkbladen: 'vayera-nl' },
+      en: { lezingen: 'vayera-en', studiebladen: 'vayera-en', werkbladen: 'vayera-en' }
+    }
+  },
+  {
+    slug: 'chayei-sarah', names: { nl: 'Chaje Sara', en: 'Chayei Sarah' },
+    torah: 'Genesis 23:1',
+    subtitle: { nl: 'Van het graf in Machpela', en: 'From the grave at Machpelah' },
+    downloads: {
+      nl: {
+        lezingen: 'chayei-sarah-lezing-nl',
+        studiebladen: 'chayei-sarah-studieblad-nl',
+        werkbladen: 'chayei-sarah-werkblad-nl'
+      },
+      en: {
+        lezingen: 'chayei-sarah-reading-en',
+        studiebladen: 'chayei-sarah-study-sheet-en',
+        werkbladen: 'chayei-sarah-worksheet-en'
+      }
     }
   }
+];
+
+for (const reading of readingReleases) {
+  for (const lang of ['nl', 'en']) {
+    const route = `/${lang}/parasjot/${reading.slug}/`;
+    const url = site + route;
+    assert.ok(urls.has(url), reading.slug + ' missing from sitemap: ' + route);
+    const html = fs.readFileSync(sitemapFile(url), 'utf8');
+    const prefix = lang === 'nl' ? 'Parasja' : 'Parsha';
+    assert.ok(html.includes(`${prefix} ${reading.names[lang]}`),
+      'Incorrect language-specific SEO name: ' + route);
+    assert.ok(html.includes(reading.torah), 'Missing Torah reference in reading: ' + route);
+    assert.match(html, /class="seo-prerender book-seo-reading"/,
+      'Book-layout SEO prerender missing: ' + route);
+    assert.match(html, /class="book-edition-title"/, 'Book title missing: ' + route);
+    assert.match(html, /class="book-edition-subtitle"/, 'Book subtitle missing: ' + route);
+    assert.match(html, /class="book-edition-author">Arie Alberts/,
+      'Book author credit missing: ' + route);
+    assert.ok(html.includes(reading.subtitle[lang]),
+      'Language-specific book subtitle missing: ' + route);
+
+    if (process.env.VERIFY_DOWNLOADS === '1' || process.env.VERIFY_WAJERA_DOWNLOADS === '1') {
+      for (const dir of ['lezingen', 'studiebladen', 'werkbladen']) {
+        for (const ext of ['pdf', 'docx']) {
+          const filename = `downloads/${dir}/${reading.downloads[lang][dir]}.${ext}`;
+          assert.ok(fs.existsSync(path.join(root, filename)),
+            'Required publication download missing: ' + filename);
+        }
+      }
+    }
   }
 }
 console.log('SEO build verified:', urls.size, 'sitemap URLs; title, description, canonical, headings, hreflang and sitemap coverage OK');

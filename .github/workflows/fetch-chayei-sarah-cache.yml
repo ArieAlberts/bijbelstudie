@@ -1,0 +1,54 @@
+name: Fetch Chayei Sarah Bible Cache
+# Requires Gen.23-25, 1Kgs.1 and John.4 in CHAPTER_CONFIG of scripts/fetch-all-authentic-bible.mjs.
+
+on:
+  push:
+    paths:
+      - ".github/workflows/fetch-chayei-sarah-cache.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-cache:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Fetch authentic DSV and KJV data
+        run: >
+          node scripts/fetch-all-authentic-bible.mjs
+          --only Gen.23,Gen.24,Gen.25,1Kgs.1,John.4
+          --out scripts/chayei-sarah-bible-cache.json
+      - name: Validate fetched coverage
+        run: |
+          node - <<'NODE'
+          const fs = require('fs');
+          const d = JSON.parse(fs.readFileSync('scripts/chayei-sarah-bible-cache.json','utf8'));
+          const required = [
+            ['Gen',23,1,20],['Gen',24,1,67],['Gen',25,1,18],
+            ['1Kgs',1,1,31],['John',4,3,14]
+          ];
+          for (const [b,c,s,e] of required) {
+            for (let v=s; v<=e; v++) {
+              const k=`${b}.${c}.${v}`;
+              if (!d[k]?.sv || !d[k]?.kjv) throw new Error(`Missing ${k}`);
+            }
+          }
+          console.log(`Validated ${Object.keys(d).length} cached verses`);
+          NODE
+      - name: Commit cache
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add scripts/chayei-sarah-bible-cache.json
+          if git diff --cached --quiet; then
+            echo "No cache changes"
+          else
+            git commit -m "Bible data: voeg authentieke Chaje Sara cache toe"
+            git push
+          fi
