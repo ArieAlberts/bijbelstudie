@@ -1,27 +1,124 @@
-﻿<!DOCTYPE html>
+<!doctype html>
 <html lang="nl">
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Zelf de parasja lezen · Read the Parashah Yourself</title>
-  <meta name="description" content="Lees en onderzoek zelf de wekelijkse parasja, met lezingen, werkblad en handleiding. Read and study the weekly Torah portion yourself."/>
-  <link rel="canonical" href="https://www.parasja.nl/"/>
-  <link rel="alternate" hreflang="nl" href="https://www.parasja.nl/nl/"/>
-  <link rel="alternate" hreflang="en" href="https://www.parasja.nl/en/"/>
-  <link rel="alternate" hreflang="x-default" href="https://www.parasja.nl/"/>
-  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg"/>
-  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png"/>
-  <link rel="stylesheet" href="assets/css/styles.css"/>
-  <script defer src="assets/js/analytics.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Parasja: betekenis, weeklezing en zelf Bijbel lezen | Parasja.nl</title>
+  <meta name="description" content="Wat is een parasja? Ontdek de betekenis van de wekelijkse Thoralezing, de Haftara en het leesrooster. Lees daarna zelf verder op Parasja.nl.">
+  <link rel="canonical" href="https://www.parasja.nl/">
+  <link rel="alternate" hreflang="nl" href="https://www.parasja.nl/nl/">
+  <link rel="alternate" hreflang="en" href="https://www.parasja.nl/en/">
+  <link rel="alternate" hreflang="x-default" href="https://www.parasja.nl/">
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Wat is een parasja? Betekenis, weeklezing en Bijbelstudie">
+  <meta property="og:description" content="Lees wat een parasja is, ontdek de wekelijkse Thoralezing en begin zelf de Schrift te onderzoeken.">
+  <meta property="og:url" content="https://www.parasja.nl/">
+  <meta property="og:image" content="https://www.parasja.nl/assets/share-card.png">
+  <meta property="og:locale" content="nl_NL">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Wat is een parasja? | Parasja.nl">
+  <meta name="twitter:description" content="De betekenis van de parasja, de wekelijkse Thoralezing en een praktische route om zelf de Bijbel te lezen.">
+  <meta name="twitter:image" content="https://www.parasja.nl/assets/share-card.png">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Parasja.nl","url":"https://www.parasja.nl/","inLanguage":["nl","en"],"description":"De wekelijkse parasja zelf lezen en onderzoeken, met Schriftgedeelten, uitleg en werkbladen."}</script>
+  <script defer src="/assets/js/analytics.js"></script>
+  <style>
+    .search-gateway{background:var(--paper);min-height:100vh}
+    .gateway-header{border-bottom:1px solid var(--line);background:var(--white)}
+    .gateway-header-inner,.gateway-main,.gateway-footer-inner{max-width:1040px;margin:0 auto;padding-left:clamp(22px,5vw,48px);padding-right:clamp(22px,5vw,48px)}
+    .gateway-header-inner{display:flex;justify-content:space-between;align-items:center;gap:16px;min-height:76px}
+    .gateway-brand{font:700 23px "Source Serif 4",Georgia,serif;text-decoration:none;color:var(--ink)}
+    .gateway-language{display:flex;align-items:center;gap:16px;font-size:14px}
+    .gateway-language a{font-weight:600;text-decoration:none}
+    .gateway-hero{padding:clamp(54px,9vw,100px) 0 58px;max-width:850px}
+    .gateway-eyebrow{font-size:13px;letter-spacing:.12em;font-weight:700;text-transform:uppercase;color:var(--accent);margin:0 0 13px}
+    .gateway-hero h1{font:700 clamp(39px,6vw,68px)/1.07 "Source Serif 4",Georgia,serif;letter-spacing:-.025em;margin:0 0 24px;max-width:820px}
+    .gateway-lead{font:400 clamp(19px,2.2vw,23px)/1.53 "Source Serif 4",Georgia,serif;color:var(--ink);max-width:740px;margin:0 0 28px}
+    .gateway-actions{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+    .gateway-cta,.gateway-secondary{display:inline-flex;min-height:52px;padding:12px 20px;align-items:center;justify-content:center;text-align:center;border-radius:3px;font-weight:700;text-decoration:none;border:1px solid var(--accent)}
+    .gateway-cta{background:var(--accent);color:#fff}
+    .gateway-cta:hover{background:var(--accent-dark);color:#fff}
+    .gateway-secondary{color:var(--accent-dark);background:var(--white)}
+    .gateway-secondary:hover{background:var(--soft)}
+    .gateway-topic{display:grid;grid-template-columns:1fr 1fr;gap:38px;padding:32px 0 48px;border-top:1px solid var(--line)}
+    .gateway-topic h2,.gateway-reading h2,.gateway-footnote h2{font:700 clamp(27px,3vw,36px)/1.18 "Source Serif 4",Georgia,serif;margin:0 0 16px}
+    .gateway-topic p,.gateway-topic li,.gateway-reading p,.gateway-footnote p{font-size:16px;line-height:1.8;margin:0 0 16px}
+    .gateway-topic ul{padding-left:22px;margin:0}
+    .gateway-reading{background:var(--white);border:1px solid var(--line);padding:clamp(24px,5vw,44px);margin:4px 0 48px}
+    .gateway-reading p{max-width:760px}
+    .gateway-reading .gateway-actions{margin-top:22px}
+    .gateway-footnote{max-width:780px;padding:0 0 70px}
+    .gateway-footnote p{color:var(--muted)}
+    .gateway-footer{border-top:1px solid var(--line);background:var(--white)}
+    .gateway-footer-inner{padding-top:24px;padding-bottom:28px;display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;color:var(--muted);font-size:13px}
+    .gateway-footer a{font-weight:600}
+    @media(max-width:700px){.gateway-topic{grid-template-columns:1fr;gap:10px}.gateway-header-inner{min-height:66px}.gateway-brand{font-size:20px}.gateway-hero{padding:56px 0 45px}.gateway-actions a{width:100%}.gateway-language{gap:12px}}
+  </style>
 </head>
-<body class="root-language-body">
+<body class="search-gateway">
   <a class="skip-link" href="#main">Naar de inhoud</a>
-  <main class="language-card" id="main" tabindex="-1">
-    <h1>Kies je taal · Choose your language</h1>
-    <nav aria-label="Taalkeuze · Language selection" class="language-options">
-      <a href="nl/index.html#werkblad">Nederlands</a>
-      <a href="en/index.html#worksheet">English</a>
-    </nav>
+  <header class="gateway-header">
+    <div class="gateway-header-inner">
+      <a class="gateway-brand" href="/nl/" aria-label="Parasja.nl – Nederlandse homepage">Parasja.nl</a>
+      <nav class="gateway-language" aria-label="Taalkeuze / Language selection">
+        <a href="/nl/" lang="nl">Nederlands</a>
+        <a href="/en/" lang="en">English</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="gateway-main" id="main" tabindex="-1">
+    <section class="gateway-hero" aria-labelledby="intro-title">
+      <p class="gateway-eyebrow">Thora lezen · Bijbelstudie · Wekelijks leesrooster</p>
+      <h1 id="intro-title">Wat is een parasja, en hoe lees je die zelf?</h1>
+      <p class="gateway-lead">Een parasja is een afgebakend gedeelte van de Thora. Iedere week wordt een gedeelte gelezen. Op Parasja.nl vind je de wekelijkse lezing en hulpmiddelen om eerst zelf naar de Bijbeltekst te luisteren en daarna de uitleg te onderzoeken.</p>
+      <div class="gateway-actions">
+        <a class="gateway-cta" href="/nl/">Ga naar de Nederlandse homepage</a>
+        <a class="gateway-secondary" href="/nl/parasjot/">Bekijk de parasja van de week</a>
+      </div>
+    </section>
+
+    <section class="gateway-topic" aria-label="Betekenis en leesrooster">
+      <div>
+        <h2>Parasja: betekenis en spelling</h2>
+        <p><strong>Parasja</strong> komt van het Hebreeuwse <span lang="he" dir="rtl">פרשה</span> en betekent een gedeelte of afdeling. Je komt ook de schrijfwijzen <em>parasha</em> en <em>parsha</em> tegen; het meervoud is <em>parasjot</em> (parashot).</p>
+        <p>In het wekelijkse leesrooster verwijst een parasja meestal naar een gedeelte uit de vijf boeken van Mozes: Genesis, Exodus, Leviticus, Numeri en Deuteronomium. Door het jaar heen worden deze gedeelten achtereenvolgens gelezen.</p>
+      </div>
+      <div>
+        <h2>Wat hoort bij de weeklezing?</h2>
+        <ul>
+          <li><strong>Thora:</strong> de parasja zelf, uit de vijf boeken van Mozes.</li>
+          <li><strong>Haftara:</strong> een aanvullende lezing uit de Profeten die in de Joodse leespraktijk met de parasja wordt verbonden.</li>
+          <li><strong>Evangelielezing:</strong> waar opgenomen op deze website een aanvullende lezing vanuit het Nieuwe Testament. Dit is geen vast onderdeel van de traditionele Joodse leescyclus.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="gateway-reading" aria-labelledby="week-title">
+      <p class="gateway-eyebrow">De actuele lezing</p>
+      <h2 id="week-title">Welke parasja lees je deze week?</h2>
+      <p>De naam en de Schriftgedeelten veranderen met het leesrooster. Daarom verwijzen we naar één bijgewerkt weekoverzicht in plaats van hier een datum of parasjanaam vast te zetten. Daar vind je de beschikbare lezingen, uitleg en werkbladen.</p>
+      <div class="gateway-actions">
+        <a class="gateway-cta" href="/nl/parasjot/">Open het overzicht van deze week</a>
+        <a class="gateway-secondary" href="/nl/#werkblad">Begin zelf met Bijbelstudie</a>
+      </div>
+    </section>
+
+    <section class="gateway-footnote">
+      <h2>Lees eerst de tekst, dan de uitleg</h2>
+      <p>Op de Nederlandse homepage kun je een Bijbelgedeelte lezen met een werkblad en een handleiding. De werkwijze van Het Frame helpt om tekstwaarneming, uitleg, belijdenis en toepassing niet met elkaar te verwarren. De tekst mag onze uitleg blijven corrigeren.</p>
+      <p><a href="/nl/">Naar de homepage en de leesmethode</a> · <a href="/nl/handleiding.html">Bekijk de handleiding</a> · <a href="/nl/artikelen/">Lees de Bijbelstudieartikelen</a></p>
+      <p lang="en">Prefer English? <a href="/en/">Start on the English homepage</a> or <a href="/en/parasjot/">find this week's Torah portion</a>.</p>
+    </section>
   </main>
+
+  <footer class="gateway-footer">
+    <div class="gateway-footer-inner">
+      <span>Parasja.nl · Zelf de Schrift onderzoeken</span>
+      <span><a href="/nl/">Nederlandse homepage</a> · <a href="/en/" lang="en">English</a></span>
+    </div>
+  </footer>
 </body>
 </html>

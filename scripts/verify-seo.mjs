@@ -152,6 +152,19 @@ for (const [url, page] of pages) {
     }
   }
 }
+// The root page is an informative, crawlable entrance, not a doorway redirect.
+// Its main action leads to the reading homepage; the changing weekly reading
+// continues to live at the dedicated /nl/parasjot/ URL.
+const landing = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
+assert.match(landing, /<title>Parasja: betekenis, weeklezing en zelf Bijbel lezen/);
+assert.match(landing, /<h1[^>]*>Wat is een parasja, en hoe lees je die zelf\?<\/h1>/);
+assert.match(landing, /Parasja: betekenis en spelling/);
+assert.match(landing, /<a class="gateway-cta" href="\/nl\/">Ga naar de Nederlandse homepage<\/a>/);
+assert.match(landing, /href="\/nl\/parasjot\/"/);
+assert.match(landing, /href="\/en\/"/);
+assert.doesNotMatch(landing, /http-equiv=["']refresh|window\.location\s*=|location\.replace/i,
+  'The search landing must not redirect visitors automatically');
+
 // Search intent must remain visible on the weekly landing pages even when no
 // matching study has yet been published for the coming Shabbat.
 for (const [lang, titleStart, h1] of [
