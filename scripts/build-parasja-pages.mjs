@@ -60,17 +60,25 @@ function pageTitle(lang, parasha, title) {
 const L = {
   nl: { ogLocale: 'nl_NL', ogAlt: 'en_US', skip: 'Naar de inhoud', parasjaLabel: 'Parasja',
         navHome: 'Zelf de parasja lezen',
-        indexTitle: 'Alle parasjalezingen', indexDesc: 'Overzicht van alle uitgewerkte lezingen bij de wekelijkse parasja, in de volgorde van de Thora.',
-        indexHeadTitle: 'Parasja van deze week en alle parasjalezingen',
-        indexMetaDesc: 'De parasja van deze week en alle uitgewerkte lezingen bij de wekelijkse Thoralezing, met haftara, uitleg en werkblad om zelf te lezen.',
-        thisWeek: 'Parasja van deze week', torahLabel: 'Thora',
+        indexTitle: 'Parasja van de week', indexDesc: 'Een parasja is het wekelijkse leesgedeelte uit de Thora. Hier vind je de uitgewerkte lezingen in de volgorde van Genesis tot en met Deuteronomium.',
+        indexHeadTitle: 'Parasja van de week – Thoralezing, Haftara en uitleg',
+        indexMetaDesc: 'Ontdek de parasja van de week en lees de Thora, Haftara en waar beschikbaar de evangelielezing, met Bijbelstudie, uitleg en een werkblad.',
+        thisWeek: 'Komende sjabbat', torahLabel: 'Thora',
+        otherReadings: 'Alle parasjalezingen',
+        currentMissing: 'Voor de komende sjabbat is hier nog geen uitgewerkte lezing gepubliceerd. Je kunt de andere parasjalezingen hieronder lezen of zelf de Thora onderzoeken met het werkblad.',
+        studyLink: 'Zelf de Bijbeltekst lezen en onderzoeken',
+        overviewIntro: 'Zoek je de parasja van de week, ook wel parasha deze week genoemd? De wekelijkse Thoralezing (parasja) volgt de leescyclus door de vijf boeken van Mozes. Bij veel lezingen vind je ook een Haftara uit de Profeten en een evangelielezing. Lees eerst de tekst zelf; de uitleg en het werkblad zijn hulpmiddelen om je waarnemingen te toetsen.',
         defaultDesc: 'Lees de parasja en onderzoek de Schrift.' },
   en: { ogLocale: 'en_US', ogAlt: 'nl_NL', skip: 'Skip to content', parasjaLabel: 'Parashah',
         navHome: 'Read the parashah yourself',
-        indexTitle: 'All parashah readings', indexDesc: 'Overview of all written readings for the weekly parashah, in the order of the Torah.',
-        indexHeadTitle: "This Week's Torah Portion (Parsha) and All Readings",
-        indexMetaDesc: "This week's Torah portion and every written reading for the weekly parsha (parashat hashavua), with haftarah, explanation and a worksheet to study it yourself.",
-        thisWeek: "This week's Torah portion", torahLabel: 'Torah portion',
+        indexTitle: "This Week's Torah Portion (Parsha)", indexDesc: 'A parashah is the weekly Torah portion. Find the published readings in the order of Genesis through Deuteronomy.',
+        indexHeadTitle: "This Week's Torah Portion (Parsha) – Readings and Haftarah",
+        indexMetaDesc: "Find this week's Torah portion (parsha) with haftarah, explanations, Bible study and worksheets for reading the Scriptures yourself.",
+        thisWeek: 'Upcoming Shabbat', torahLabel: 'Torah',
+        otherReadings: 'All parashah readings',
+        currentMissing: 'A study for the coming Shabbat has not yet been published here. Explore other readings below, or study the Torah with the worksheet.',
+        studyLink: 'Read and study the Bible text yourself',
+        overviewIntro: 'Looking for this week’s Torah portion (parsha)? The weekly parashah follows the reading cycle through the five books of Moses. Many readings also include a haftarah from the Prophets and a Gospel passage. Read the passage first; the commentary and worksheet help you examine and test your observations.',
         defaultDesc: 'Read the parashah and study the Scriptures.' } };
 
 const urlFor = (lang, slug) => (lang === 'nl' ? '/nl/parasjot/' : '/en/parasjot/') + slug + '/';
@@ -171,13 +179,24 @@ function currentReading(entries, now = new Date()) {
 function renderOverview(lang, entries) {
   const t = L[lang];
   const cur = currentReading(entries);
-  // Never promise a current reading in search snippets when none was published.
-  const overviewTitle = cur ? t.indexHeadTitle : t.indexTitle;
-  const overviewDescription = cur ? t.indexMetaDesc : t.indexDesc;
-  const curRef = cur?.d.passages?.find(p => p.role === 'parasha')?.ref?.[lang];
+  // The landing page always targets the same query; the dated weekly card only
+  // appears if the coming Shabbat has an explicitly scheduled published reading.
+  const overviewTitle = t.indexHeadTitle;
+  const overviewDescription = t.indexMetaDesc;
+  const shabbatDate = cur ? toIsoDate(cur.d.shabbat_date) : null;
+  const dateLabel = shabbatDate ? new Intl.DateTimeFormat(lang === 'nl' ? 'nl-NL' : 'en-GB', {
+    day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC'
+  }).format(new Date(shabbatDate + 'T12:00:00Z')) : '';
+  const passageLabels = lang === 'nl'
+    ? { parasha: 'Thora', haftara: 'Haftara', gospel: 'Evangelie' }
+    : { parasha: 'Torah', haftara: 'Haftarah', gospel: 'Gospel' };
+  const passageList = cur ? (cur.d.passages || []).map(p => {
+    const ref = p.ref?.[lang];
+    return ref && passageLabels[p.role] ? `<li>${passageLabels[p.role]}: ${esc(ref)}</li>` : '';
+  }).filter(Boolean).join('') : '';
   const thisWeek = cur
-    ? `<section class="this-week"><h2>${t.thisWeek}</h2><p><a href="${urlFor(lang, cur.slug)}">${esc(cur.d.label?.[lang] || cur.d.parasha || cur.slug)}: ${esc(cur.title)}</a>${curRef ? `<small>${t.torahLabel}: ${esc(curRef)}</small>` : ''}</p></section>`
-    : '';
+    ? `<section class="this-week"><h2>${t.thisWeek}: ${esc(dateLabel)}</h2><p><a href="${urlFor(lang, cur.slug)}">${esc(cur.d.label?.[lang] || cur.d.parasha || cur.slug)} – ${esc(cur.title)}</a></p>${passageList ? `<ul>${passageList}</ul>` : ''}</section>`
+    : `<section class="this-week"><h2>${t.thisWeek}</h2><p>${esc(t.currentMissing)}</p></section>`;
   const canonical = site + '/' + lang + '/parasjot/';
   const { links } = assetsFromHome(lang, '../../');
   const list = torahSort(entries).map(e => {
@@ -191,7 +210,9 @@ function renderOverview(lang, entries) {
     + `<meta property="og:type" content="website"><meta property="og:title" content="${esc(overviewTitle)}"><meta property="og:description" content="${esc(overviewDescription)}"><meta property="og:url" content="${canonical}"><meta property="og:image" content="${site}/assets/share-card.png">`
     + links + OVERVIEW_STYLE + `</head><body>`
     + `<nav><a href="/${lang}/">${t.navHome}</a></nav>`
-    + `<main><h1>${t.indexTitle}</h1>${thisWeek}<p>${esc(t.indexDesc)}</p><ul class="readings">${list}</ul></main>`
+    + `<main><h1>${t.indexTitle}</h1><p>${esc(t.overviewIntro)}</p>${thisWeek}`
+    + `<p><a href="/${lang}/#${lang === 'nl' ? 'werkblad' : 'worksheet'}">${esc(t.studyLink)}</a></p>`
+    + `<h2>${t.otherReadings}</h2><p>${esc(t.indexDesc)}</p><ul class="readings">${list}</ul></main>`
     + `<footer><p><a href="/${lang}/">${t.navHome}</a></p></footer></body></html>`;
 }
 
