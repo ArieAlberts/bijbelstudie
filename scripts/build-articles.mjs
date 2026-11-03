@@ -34,10 +34,10 @@ const UI = {
     htmlLang: 'nl', locale: 'nl_NL', altLocale: 'en_US',
     brand: 'Zelf de parasja lezen', skip: 'Naar de inhoud',
     nav: [
-      ['nl/index.html#wat-is-de-parasja', 'Wat is de parasja', 'intro'],
-      ['nl/index.html#werkblad', 'Lees de parasja', 'reader'],
-      ['nl/index.html#waarom-deze-website', 'Waarom deze website', 'why'],
-      ['nl/index.html#methode', 'Over de methode', 'method'],
+      ['nl/#wat-is-de-parasja', 'Wat is de parasja', 'intro'],
+      ['nl/#werkblad', 'Lees de parasja', 'reader'],
+      ['nl/#waarom-deze-website', 'Waarom deze website', 'why'],
+      ['nl/#methode', 'Over de methode', 'method'],
       ['nl/handleiding.html', 'Handleiding', 'handbook'],
       ['nl/artikelen/', 'Artikelen', 'articles'],
       ['nl/contact.html', 'Contact', 'contact']
@@ -64,10 +64,10 @@ const UI = {
     htmlLang: 'en', locale: 'en_US', altLocale: 'nl_NL',
     brand: 'Read the Parashah Yourself', skip: 'Skip to content',
     nav: [
-      ['en/index.html#wat-is-de-parasja', 'What is the Parashah', 'intro'],
-      ['en/index.html#worksheet', 'Read the parashah', 'reader'],
-      ['en/index.html#waarom-deze-website', 'Why this website', 'why'],
-      ['en/index.html#method', 'About the method', 'method'],
+      ['en/#wat-is-de-parasja', 'What is the Parashah', 'intro'],
+      ['en/#worksheet', 'Read the parashah', 'reader'],
+      ['en/#waarom-deze-website', 'Why this website', 'why'],
+      ['en/#method', 'About the method', 'method'],
       ['en/handbook.html', 'Handbook', 'handbook'],
       ['en/artikelen/', 'Articles', 'articles'],
       ['en/contact.html', 'Contact', 'contact']
@@ -125,7 +125,7 @@ function nav(rootPrefix, lang, active = 'articles') {
   const item = ([href, label, key]) => `<a class="article-nav-link${active === key ? ' active' : ''}" href="${rootPrefix}${href}">${label}</a>`;
   return `<header class="article-navbar">
     <div class="article-navbar-inner">
-      <a class="article-brand" href="${rootPrefix}${lang}/index.html">${t.brand}</a>
+      <a class="article-brand" href="${rootPrefix}${lang}/">${t.brand}</a>
       <nav class="article-nav" aria-label="${lang === 'nl' ? 'Hoofdnavigatie' : 'Main navigation'}">
         ${t.nav.map(item).join('\n        ')}
       </nav>

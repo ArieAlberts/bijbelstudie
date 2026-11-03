@@ -145,6 +145,11 @@ export default function ParashaIntroLanding({ lang, mode = 'wat-is-de-parasja', 
               <span>{w.ctaBtn}</span>
               <ArrowRight size={18} />
             </button>
+            <p style={{ marginTop: '16px' }}>
+              <a href={isEn ? '/en/parasjot/' : '/nl/parasjot/'}>
+                {isEn ? "This week's Torah portion and all readings" : 'Parasja van de week en alle lezingen'}
+              </a>
+            </p>
           </div>
         </section>
       </div>
@@ -210,6 +215,11 @@ export default function ParashaIntroLanding({ lang, mode = 'wat-is-de-parasja', 
             <BookOpen size={18} className="btn-icon" />
             <span>{p.ctaBtn}</span>
           </button>
+          <p style={{ marginTop: '16px' }}>
+            <a href={isEn ? '/en/parasjot/' : '/nl/parasjot/'}>
+              {isEn ? "This week's Torah portion and all readings" : 'Parasja van de week en alle lezingen'}
+            </a>
+          </p>
         </div>
       </section>
     </div>

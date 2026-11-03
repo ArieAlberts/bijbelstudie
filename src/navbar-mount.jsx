@@ -146,11 +146,11 @@ function HeaderApp() {
       if (path.includes('handleiding')) window.location.href = '../en/handbook.html' + search + targetHash;
       else if (path.includes('contact')) window.location.href = '../en/contact.html' + search + targetHash;
       else if (path.includes('privacy')) window.location.href = '../en/privacy.html' + search + targetHash;
-      else if (path.includes('artikelen')) window.location.href = '../en/index.html' + search + targetHash;
+      else if (path.includes('artikelen')) window.location.href = '/en/' + search + targetHash;
       else if (path.includes('lezer')) window.location.href = '../en/reader.html' + search + targetHash;
       else if (path.includes('bedankt')) window.location.href = '../en/thanks.html' + search + targetHash;
       else if (path.includes('feedback')) window.location.href = '../en/feedback.html' + search + targetHash;
-      else window.location.href = '../en/index.html' + search + targetHash;
+      else window.location.href = '/en/' + search + targetHash;
     } else {
       if (path.includes('handbook')) window.location.href = '../nl/handleiding.html' + search + targetHash;
       else if (path.includes('contact')) window.location.href = '../nl/contact.html' + search + targetHash;
@@ -158,7 +158,7 @@ function HeaderApp() {
       else if (path.includes('reader')) window.location.href = '../nl/lezer.html' + search + targetHash;
       else if (path.includes('thanks')) window.location.href = '../nl/bedankt.html' + search + targetHash;
       else if (path.includes('feedback')) window.location.href = '../nl/feedback.html' + search + targetHash;
-      else window.location.href = '../nl/index.html' + search + targetHash;
+      else window.location.href = '/nl/' + search + targetHash;
     }
   };
 

@@ -148,6 +148,7 @@ export default function Navbar({ activeView, setActiveView, lang, setLang, selec
     brand: 'Zelf de parasja lezen',
     watIsParasja: 'Wat is de parasja',
     worksheet: 'Lees de parasja',
+    weekParasha: 'Parasja van de week',
     documents: 'Documenten',
     printPage: 'Print / opslaan als PDF',
     waaromWebsite: 'Waarom deze website',
@@ -162,6 +163,7 @@ export default function Navbar({ activeView, setActiveView, lang, setLang, selec
     brand: 'Read the Parashah Yourself',
     watIsParasja: 'What is the Parashah',
     worksheet: 'Read the parashah',
+    weekParasha: "This week's Torah portion",
     documents: 'Documents',
     printPage: 'Print / save as PDF',
     waaromWebsite: 'Why this website',
@@ -174,15 +176,15 @@ export default function Navbar({ activeView, setActiveView, lang, setLang, selec
     menuClose: 'Close menu'
   };
 
-  const handbookUrl = lang === 'nl' ? '../nl/handleiding.html' : '../en/handbook.html';
-  const articlesUrl = '../nl/artikelen/';
-  const contactUrl = lang === 'nl' ? '../nl/contact.html' : '../en/contact.html';
+  const handbookUrl = lang === 'nl' ? '/nl/handleiding.html' : '/en/handbook.html';
+  const articlesUrl = '/nl/artikelen/';
+  const contactUrl = lang === 'nl' ? '/nl/contact.html' : '/en/contact.html';
 
   return (
     <header className="site-navbar">
       <div className="navbar-container">
         <a
-          href={lang === 'nl' ? '../nl/index.html' : '../en/index.html'}
+          href={lang === 'nl' ? '/nl/' : '/en/'}
           onClick={() => handleNav('intro')}
           className="brand-logo"
         >
@@ -192,7 +194,7 @@ export default function Navbar({ activeView, setActiveView, lang, setLang, selec
 
         <nav className="desktop-nav" aria-label="Hoofdnavigatie">
           <a
-            href={lang === 'nl' ? '../nl/index.html#wat-is-de-parasja' : '../en/index.html#wat-is-de-parasja'}
+            href={lang === 'nl' ? '/nl/#wat-is-de-parasja' : '/en/#wat-is-de-parasja'}
             className={`nav-link ${activeView === 'intro' ? 'active' : ''}`}
             onClick={() => handleNav('intro')}
           >
@@ -200,7 +202,7 @@ export default function Navbar({ activeView, setActiveView, lang, setLang, selec
           </a>
 
           <a
-            href={lang === 'nl' ? '../nl/index.html#werkblad' : '../en/index.html#worksheet'}
+            href={lang === 'nl' ? '/nl/#werkblad' : '/en/#worksheet'}
             className={`nav-link ${activeView === 'worksheet' ? 'active' : ''}`}
             onClick={() => handleNav('worksheet')}
           >
@@ -208,7 +210,15 @@ export default function Navbar({ activeView, setActiveView, lang, setLang, selec
           </a>
 
           <a
-            href={lang === 'nl' ? '../nl/index.html#waarom-deze-website' : '../en/index.html#waarom-deze-website'}
+            href={lang === 'nl' ? '/nl/parasjot/' : '/en/parasjot/'}
+            className="nav-link"
+            onClick={closeMenu}
+          >
+            {labels.weekParasha}
+          </a>
+
+          <a
+            href={lang === 'nl' ? '/nl/#waarom-deze-website' : '/en/#waarom-deze-website'}
             className={`nav-link ${activeView === 'waarom-deze-website' ? 'active' : ''}`}
             onClick={() => handleNav('waarom-deze-website')}
           >
@@ -216,7 +226,7 @@ export default function Navbar({ activeView, setActiveView, lang, setLang, selec
           </a>
 
           <a
-            href={lang === 'nl' ? '../nl/index.html#methode' : '../en/index.html#method'}
+            href={lang === 'nl' ? '/nl/#methode' : '/en/#method'}
             className={`nav-link ${activeView === 'method' ? 'active' : ''}`}
             onClick={() => handleNav('method')}
           >
@@ -271,7 +281,7 @@ export default function Navbar({ activeView, setActiveView, lang, setLang, selec
       <div className={`mobile-overlay ${isOpen ? 'open' : ''}`} onClick={closeMenu} inert={!isOpen ? "" : undefined}>
         <div id="mobile-navigation-drawer" className="mobile-drawer" onClick={(e) => e.stopPropagation()}>
           <a
-            href={lang === 'nl' ? '../nl/index.html#wat-is-de-parasja' : '../en/index.html#wat-is-de-parasja'}
+            href={lang === 'nl' ? '/nl/#wat-is-de-parasja' : '/en/#wat-is-de-parasja'}
             className={`nav-link ${activeView === 'intro' ? 'active' : ''}`}
             onClick={() => handleNav('intro')}
           >
@@ -280,12 +290,21 @@ export default function Navbar({ activeView, setActiveView, lang, setLang, selec
           </a>
 
           <a
-            href={lang === 'nl' ? '../nl/index.html#werkblad' : '../en/index.html#worksheet'}
+            href={lang === 'nl' ? '/nl/#werkblad' : '/en/#worksheet'}
             className={`nav-link ${activeView === 'worksheet' ? 'active' : ''}`}
             onClick={() => handleNav('worksheet')}
           >
             <BookOpen className="nav-icon" aria-hidden="true" />
             <span>{labels.worksheet}</span>
+          </a>
+
+          <a
+            href={lang === 'nl' ? '/nl/parasjot/' : '/en/parasjot/'}
+            className="nav-link"
+            onClick={closeMenu}
+          >
+            <BookOpen className="nav-icon" aria-hidden="true" />
+            <span>{labels.weekParasha}</span>
           </a>
 
           {lang === 'nl' && (
@@ -330,7 +349,7 @@ export default function Navbar({ activeView, setActiveView, lang, setLang, selec
           </button>
 
           <a
-            href={lang === 'nl' ? '../nl/index.html#waarom-deze-website' : '../en/index.html#waarom-deze-website'}
+            href={lang === 'nl' ? '/nl/#waarom-deze-website' : '/en/#waarom-deze-website'}
             className={`nav-link ${activeView === 'waarom-deze-website' ? 'active' : ''}`}
             onClick={() => handleNav('waarom-deze-website')}
           >
@@ -339,7 +358,7 @@ export default function Navbar({ activeView, setActiveView, lang, setLang, selec
           </a>
 
           <a
-            href={lang === 'nl' ? '../nl/index.html#methode' : '../en/index.html#method'}
+            href={lang === 'nl' ? '/nl/#methode' : '/en/#method'}
             className={`nav-link ${activeView === 'method' ? 'active' : ''}`}
             onClick={() => handleNav('method')}
           >
