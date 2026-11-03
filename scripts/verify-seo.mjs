@@ -152,6 +152,24 @@ for (const [url, page] of pages) {
     }
   }
 }
+// Search intent must remain visible on the weekly landing pages even when no
+// matching study has yet been published for the coming Shabbat.
+for (const [lang, titleStart, h1] of [
+  ['nl', 'Parasja van de week', 'Parasja van de week'],
+  ['en', "This Week's Torah Portion (Parsha)", "This Week's Torah Portion (Parsha)"]
+]) {
+  const html = fs.readFileSync(path.join(root, lang, 'parasjot', 'index.html'), 'utf8');
+  assert.ok(html.includes('<title>' + titleStart), 'Weekly landing title missing: ' + lang);
+  assert.ok(html.includes('<h1>' + h1 + '</h1>'), 'Weekly landing H1 missing: ' + lang);
+  assert.ok(html.includes('<h2>' + (lang === 'nl' ? 'Alle parasjalezingen' : 'All parashah readings') + '</h2>'),
+    'Archive heading missing: ' + lang);
+  assert.ok(html.includes('href="/' + lang + '/#' + (lang === 'nl' ? 'werkblad' : 'worksheet') + '"'),
+    'Weekly overview must link to the Bible study tools: ' + lang);
+  const home = fs.readFileSync(path.join(root, lang, 'index.html'), 'utf8');
+  assert.ok(home.includes('href="/' + lang + '/parasjot/"'),
+    'Homepage must link to weekly landing page: ' + lang);
+}
+
 const robots = fs.readFileSync(path.join(root, 'robots.txt'), 'utf8');
 assert.ok(robots.includes('Sitemap: ' + site + '/sitemap.xml'),
   'robots.txt must advertise the canonical sitemap');
