@@ -136,6 +136,17 @@ export default function WorksheetHero({ lang, onStudyChange, autoExpandReading, 
 
   const currentStudy = studies.find(s => s.id === selectedStudyId) || studies[0];
 
+  // The asynchronously loaded reading changes the height above the worksheet.
+  // Align a direct step link again after that reading has been rendered.
+  useEffect(() => {
+    const id = window.location.hash.slice(1);
+    if (!/^(stap|snel)-\d+$/.test(id)) return;
+    const frame = window.requestAnimationFrame(() => {
+      document.getElementById(id)?.scrollIntoView({ block: 'start' });
+    });
+    return () => window.cancelAnimationFrame(frame);
+  }, [studies]);
+
   const getPassageRef = (studyItem, roleName) => {
     if (!studyItem || !studyItem.passages) return '';
     const p = studyItem.passages.find(x => x.role === roleName);
