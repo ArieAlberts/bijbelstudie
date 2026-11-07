@@ -86,12 +86,12 @@ const urlFor = (lang, slug) => (lang === 'nl' ? '/nl/parasjot/' : '/en/parasjot/
 // Extract the exact hashed asset tags Vite emitted on the built homepage, so the
 // parashah pages load the identical CSS/JS. Depth is rewritten because these pages
 // live two folders deeper than /{lang}/index.html.
-function assetsFromHome(lang, depthPrefix) {
+function assetsFromHome(lang, depthPrefix, preloadScripts = true) {
   const home = fs.readFileSync(path.join(distDir, lang, 'index.html'), 'utf8');
   const links = [...home.matchAll(/<link\b[^>]*href="\.\.\/assets\/[^"]*"[^>]*>/g)].map(m => m[0]);
   const scripts = [...home.matchAll(/<script\b[^>]*src="\.\.\/assets\/[^"]*"[^>]*>\s*<\/script>/g)].map(m => m[0]);
   const fix = tag => tag.replaceAll('../assets/', depthPrefix + 'assets/');
-  return { links: links.map(fix).join(''), scripts: scripts.map(fix).join('') };
+  return { links: links.filter(tag => preloadScripts || !/rel="modulepreload"/.test(tag)).map(fix).join(''), scripts: scripts.map(fix).join('') };
 }
 
 function headSeo({ lang, slug, d, title, desc, nlExists, enExists }) {
@@ -106,11 +106,20 @@ function headSeo({ lang, slug, d, title, desc, nlExists, enExists }) {
   const jsonld = JSON.stringify({
     '@context': 'https://schema.org', '@type': 'Article',
     headline: String(title), description: desc, inLanguage: lang,
+    image: site + '/assets/share-card.png',
     mainEntityOfPage: canonical,
     author: { '@type': 'Person', name: 'Arie Alberts' },
     publisher: { '@type': 'Organization', name: 'Parasja.nl', url: site + '/' },
     ...(d.published_at ? { datePublished: toIsoDate(d.published_at) } : {}),
     ...(d.last_reviewed_at ? { dateModified: toIsoDate(d.last_reviewed_at) } : {})
+  }).replaceAll('<', '\\u003c');
+  const breadcrumbs = JSON.stringify({
+    '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Parasja.nl', item: site + '/' + lang + '/' },
+      { '@type': 'ListItem', position: 2, name: L[lang].otherReadings, item: site + '/' + lang + '/parasjot/' },
+      { '@type': 'ListItem', position: 3, name: d.label?.[lang] || d.parasha || slug, item: canonical }
+    ]
   }).replaceAll('<', '\\u003c');
   const t = L[lang];
   return `<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">`
@@ -123,14 +132,33 @@ function headSeo({ lang, slug, d, title, desc, nlExists, enExists }) {
     + `<meta property="og:locale" content="${t.ogLocale}"><meta property="og:locale:alternate" content="${t.ogAlt}">`
     + `<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${esc(title)}">`
     + `<meta name="twitter:description" content="${esc(desc)}"><meta name="twitter:image" content="${site}/assets/share-card.png">`
-    + `<script type="application/ld+json">${jsonld}</script>`;
+    + `<script type="application/ld+json">${jsonld}</script><script type="application/ld+json">${breadcrumbs}</script>`;
+}
+
+function readingNavigation({ lang, slug, d, nlExists, enExists, related = [] }) {
+  const t = L[lang];
+  const name = d.label?.[lang] || d.parasha || slug;
+  const other = lang === 'nl' ? 'en' : 'nl';
+  const translated = other === 'nl' ? nlExists : enExists;
+  const breadcrumb = `<nav class="reading-breadcrumbs" aria-label="${lang === 'nl' ? 'Kruimelpad' : 'Breadcrumb'}"><ol>`
+    + `<li><a href="/${lang}/">Parasja.nl</a></li><li><a href="/${lang}/parasjot/">${t.otherReadings}</a></li>`
+    + `<li aria-current="page">${esc(name)}</li></ol></nav>`;
+  const neighbors = related.map(e => `<li><a href="${urlFor(lang, e.slug)}">${t.parasjaLabel} ${esc(e.d.label?.[lang] || e.d.parasha || e.slug)}: ${esc(e.title)}</a></li>`).join('');
+  const resources = `<aside class="reading-resources" aria-labelledby="reading-resources-title">`
+    + `<h2 id="reading-resources-title">${lang === 'nl' ? 'Verder lezen en onderzoeken' : 'Continue reading and studying'}</h2><ul>`
+    + `<li><a href="/${lang}/parasjot/">${t.otherReadings}</a></li>${neighbors}`
+    + `<li><a href="/${lang}/${lang === 'nl' ? 'handleiding' : 'handbook'}.html">${lang === 'nl' ? 'Handleiding voor zelf Bijbelstudie doen' : 'Handbook for studying the Bible yourself'}</a></li>`
+    + (translated ? `<li><a href="${urlFor(other, slug)}" hreflang="${other}" lang="${other}">${other === 'en' ? 'Read this study in English' : 'Lees deze lezing in het Nederlands'}</a></li>` : '')
+    + '</ul></aside>';
+  return { breadcrumb, resources };
 }
 
 // The parashah page: the app shell, deep-linked to this reading, with the reading
 // pre-rendered inside the worksheet mount as crawlable fallback (React replaces it on mount).
-function renderParashaPage({ lang, slug, d, title, summary, desc, body, nlExists, enExists }) {
+function renderParashaPage({ lang, slug, d, title, summary, desc, body, nlExists, enExists, related }) {
   const t = L[lang];
   const { links, scripts } = assetsFromHome(lang, '../../../');
+  const { breadcrumb, resources } = readingNavigation({ lang, slug, d, nlExists, enExists, related });
   const torahRef = d.passages?.find(p => p.role === 'parasha')?.ref?.[lang];
   const isBookReading = d.reading_layout === 'book' || slug === 'vayera';
   const bookSubtitle = lang === 'nl' ? d.subtitle_nl : d.subtitle_en;
@@ -148,11 +176,11 @@ function renderParashaPage({ lang, slug, d, title, summary, desc, body, nlExists
     + links + config + `</head><body>`
     + `<a class="skip-link" href="#main">${t.skip}</a>`
     + `<main id="main" tabindex="-1"><div id="dc-root"><div><div class="u-57ce87aa9f">`
-    + `<div id="react-navbar-root"></div><div id="react-intro-root"></div>`
+    + `<div id="react-navbar-root"></div>${breadcrumb}<div id="react-intro-root"></div>`
     + `<div class="view-panel worksheet-view" id="werkblad">`
     + `<div id="react-worksheet-hero-root">${seoArticle}</div>`
     + `<div id="react-bible-reader-root"></div>`
-    + `</div></div></div></div></main>${scripts}</body></html>`;
+    + `</div>${resources}</div></div></div></main>${scripts}</body></html>`;
 }
 
 // Torah order for the overview + sitemap.
@@ -198,20 +226,29 @@ function renderOverview(lang, entries) {
     ? `<section class="this-week"><h2>${t.thisWeek}: ${esc(dateLabel)}</h2><p><a href="${urlFor(lang, cur.slug)}">${esc(cur.d.label?.[lang] || cur.d.parasha || cur.slug)} – ${esc(cur.title)}</a></p>${passageList ? `<ul>${passageList}</ul>` : ''}</section>`
     : `<section class="this-week"><h2>${t.thisWeek}</h2><p>${esc(t.currentMissing)}</p></section>`;
   const canonical = site + '/' + lang + '/parasjot/';
-  const { links } = assetsFromHome(lang, '../../');
-  const list = torahSort(entries).map(e => {
+  const { links } = assetsFromHome(lang, '../../', false);
+  const ordered = torahSort(entries);
+  const list = ordered.map(e => {
     const ref = e.d.passages?.[0]?.ref?.[lang];
-    return `<li><a href="${urlFor(lang, e.slug)}">${esc(e.title)}</a><small>${esc(e.d.label?.[lang] || e.d.parasha || e.slug)}${ref ? ' · ' + esc(ref) : ''}</small></li>`;
+    return `<li><a href="${urlFor(lang, e.slug)}">${t.parasjaLabel} ${esc(e.d.label?.[lang] || e.d.parasha || e.slug)}: ${esc(e.title)}</a><small>${ref ? esc(ref) : ''}</small></li>`;
   }).join('');
+  const collection = JSON.stringify({
+    '@context': 'https://schema.org', '@type': 'CollectionPage', name: overviewTitle,
+    url: canonical, inLanguage: lang, description: overviewDescription,
+    mainEntity: { '@type': 'ItemList', itemListElement: ordered.map((e, i) => ({
+      '@type': 'ListItem', position: i + 1, url: site + urlFor(lang, e.slug),
+      name: `${e.d.label?.[lang] || e.d.parasha || e.slug}: ${e.title}`
+    })) }
+  }).replaceAll('<', '\\u003c');
   return `<!doctype html><html lang="${lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">`
     + `<title>${esc(overviewTitle)} | Parasja.nl</title><meta name="description" content="${esc(overviewDescription)}">`
     + `<link rel="canonical" href="${canonical}">`
     + `<link rel="alternate" hreflang="nl" href="${site}/nl/parasjot/"><link rel="alternate" hreflang="en" href="${site}/en/parasjot/"><link rel="alternate" hreflang="x-default" href="${site}/nl/parasjot/">`
     + `<meta property="og:type" content="website"><meta property="og:title" content="${esc(overviewTitle)}"><meta property="og:description" content="${esc(overviewDescription)}"><meta property="og:url" content="${canonical}"><meta property="og:image" content="${site}/assets/share-card.png">`
-    + links + OVERVIEW_STYLE + `</head><body>`
-    + `<nav><a href="/${lang}/">${t.navHome}</a></nav>`
-    + `<main><h1>${t.indexTitle}</h1><p>${esc(t.overviewIntro)}</p>${thisWeek}`
-    + `<p><a href="/${lang}/#${lang === 'nl' ? 'werkblad' : 'worksheet'}">${esc(t.studyLink)}</a></p>`
+    + `<script type="application/ld+json">${collection}</script>` + links + OVERVIEW_STYLE + `</head><body>`
+    + `<a href="#main">${t.skip}</a><nav aria-label="${lang === 'nl' ? 'Hoofdnavigatie' : 'Main navigation'}"><a href="/${lang}/">${t.navHome}</a> · <a href="/${lang}/${lang === 'nl' ? 'handleiding' : 'handbook'}.html">${lang === 'nl' ? 'Handleiding' : 'Handbook'}</a> · <a href="/${lang}/artikelen/">${lang === 'nl' ? 'Artikelen' : 'Articles'}</a> · <a href="/${lang === 'nl' ? 'en' : 'nl'}/parasjot/" lang="${lang === 'nl' ? 'en' : 'nl'}">${lang === 'nl' ? 'English' : 'Nederlands'}</a></nav>`
+    + `<main id="main" tabindex="-1"><h1>${t.indexTitle}</h1><p>${esc(t.overviewIntro)}</p>${thisWeek}`
+    + `<p><a href="/${lang}/#${lang === 'nl' ? 'werkblad' : 'worksheet'}">${esc(t.studyLink)}</a> · <a href="/${lang}/${lang === 'nl' ? 'lezer' : 'reader'}.html">${lang === 'nl' ? 'Open de losse Bijbellezer' : 'Open the standalone Bible reader'}</a></p>`
     + `<h2>${t.otherReadings}</h2><p>${esc(t.indexDesc)}</p><ul class="readings">${list}</ul></main>`
     + `<footer><p><a href="/${lang}/">${t.navHome}</a></p></footer></body></html>`;
 }
@@ -254,16 +291,20 @@ for (const name of fs.readdirSync(sourceDir).filter(x => x.endsWith('.md'))) {
     const title = (lang === 'nl' ? (d.title_nl || d.label?.nl) : (d.title_en || d.label?.en)) || d.parasha || slug;
     const summary = text((lang === 'nl' ? d.summary_nl : d.summary_en) || L[lang].defaultDesc);
     const desc = metaDescription((lang === 'nl' ? (d.meta_description_nl || d.summary_nl) : (d.meta_description_en || d.summary_en)) || body || L[lang].defaultDesc);
-    const dir = path.join(distDir, lang, 'parasjot', slug);
-    fs.mkdirSync(dir, { recursive: true });
-    fs.writeFileSync(path.join(dir, 'index.html'), renderParashaPage({ lang, slug, d, title, summary, desc, body, nlExists, enExists }));
     add(urlFor(lang, slug), '0.8', lastmod);
-    published[lang].push({ slug, d, title, desc });
+    published[lang].push({ slug, d, title, summary, desc, body, nlExists, enExists });
   }
 }
 
 // Overview pages
 for (const lang of ['nl', 'en']) {
+  const ordered = torahSort(published[lang]);
+  for (const [i, entry] of ordered.entries()) {
+    const related = [ordered[i - 1], ordered[i + 1]].filter(Boolean);
+    const dir = path.join(distDir, lang, 'parasjot', entry.slug);
+    fs.mkdirSync(dir, { recursive: true });
+    fs.writeFileSync(path.join(dir, 'index.html'), renderParashaPage({ ...entry, lang, related }));
+  }
   const dir = path.join(distDir, lang, 'parasjot');
   fs.mkdirSync(dir, { recursive: true });
   fs.writeFileSync(path.join(dir, 'index.html'), renderOverview(lang, published[lang]));

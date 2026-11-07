@@ -77,7 +77,7 @@
  }));
 
  function syncHashView() {
-  const methodHashes = ['#uitleg', '#methode', '#voorbeeld', '#bijlagen'];
+  const methodHashes = ['#uitleg', '#methode', '#voorbeeld', '#bijlagen', '#method', '#explanation', '#example', '#appendices'];
   const view = methodHashes.includes(location.hash) ? 'method' : 'worksheet';
   setView(view, !!location.hash);
  }

@@ -111,7 +111,7 @@ export default function ParashaIntroLanding({ lang, mode = 'wat-is-de-parasja', 
         <section id="waarom-deze-website" className="intro-section-card">
           <div className="section-header">
             <Compass className="section-header-icon" size={26} />
-            <h2>{w.title}</h2>
+            <h1>{w.title}</h1>
           </div>
 
           <div className="section-content-text">
@@ -163,7 +163,7 @@ export default function ParashaIntroLanding({ lang, mode = 'wat-is-de-parasja', 
       <section id="wat-is-de-parasja" className="intro-section-card">
         <div className="section-header">
           <BookOpen className="section-header-icon" size={26} />
-          <h2>{p.title}</h2>
+          <h1>{p.title}</h1>
         </div>
 
         <div className="section-content-text">

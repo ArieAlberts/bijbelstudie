@@ -66,7 +66,7 @@ function buildInlineToc(items) {
     .join('\n');
 }
 
-function buildPage(shell, body, tocTitle) {
+function buildPage(shell, body, tocTitle, lang) {
   const start = shell.indexOf(MAIN_OPEN);
   const end = shell.indexOf(MAIN_CLOSE, start);
   if (start < 0 || end < 0) throw new Error('Paginaschil zonder <main class="manual-content">');
@@ -76,6 +76,7 @@ function buildPage(shell, body, tocTitle) {
 
   let page = `${shell.slice(0, start + MAIN_OPEN.length)}${filledBody.trim()}\n${shell.slice(end)}`;
   page = page.replace(/<aside class="manual-sidebar">[\s\S]*?<\/aside>/, buildSidebar(items, tocTitle));
+  page = page.replace(/href=(["'])index\.html(?=[#?"'])/g, `href=$1/${lang}/`);
   return page;
 }
 
@@ -87,7 +88,7 @@ for (const { lang, field, file, tocTitle } of pages) {
     continue;
   }
   const shell = fs.readFileSync(file, 'utf8');
-  const page = buildPage(shell, String(body), tocTitle);
+  const page = buildPage(shell, String(body), tocTitle, lang);
   if (page !== shell) {
     fs.writeFileSync(file, page, 'utf8');
     console.log(`handleiding: ${path.relative(rootDir, file)} bijgewerkt`);
