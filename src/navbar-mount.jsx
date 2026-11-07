@@ -67,7 +67,7 @@ function HeaderApp() {
 
   useEffect(() => {
     const initialView = determineViewFromHash();
-    applyView(initialView, false);
+    applyView(initialView, Boolean(window.location.hash));
 
     const handleHashChange = () => {
       const view = determineViewFromHash();
