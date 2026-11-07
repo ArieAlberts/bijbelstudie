@@ -22,6 +22,7 @@ export default defineConfig({
         nl_feedback: resolve(__dirname, 'nl/feedback.html'),
         nl_privacy: resolve(__dirname, 'nl/privacy.html'),
         nl_bedankt: resolve(__dirname, 'nl/bedankt.html'),
+        nl_feesten: resolve(__dirname, 'nl/feesten/index.html'),
         en_index: resolve(__dirname, 'en/index.html'),
         en_reader: resolve(__dirname, 'en/reader.html'),
         en_handbook: resolve(__dirname, 'en/handbook.html'),
