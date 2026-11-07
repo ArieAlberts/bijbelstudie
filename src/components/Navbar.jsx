@@ -177,7 +177,7 @@ export default function Navbar({ activeView, setActiveView, lang, setLang, selec
   };
 
   const handbookUrl = lang === 'nl' ? '/nl/handleiding.html' : '/en/handbook.html';
-  const articlesUrl = '/nl/artikelen/';
+  const articlesUrl = `/${curLang}/artikelen/`;
   const contactUrl = lang === 'nl' ? '/nl/contact.html' : '/en/contact.html';
 
   return (
@@ -192,7 +192,7 @@ export default function Navbar({ activeView, setActiveView, lang, setLang, selec
           <span>{labels.brand}</span>
         </a>
 
-        <nav className="desktop-nav" aria-label="Hoofdnavigatie">
+        <nav className="desktop-nav" aria-label={lang === 'nl' ? 'Hoofdnavigatie' : 'Main navigation'}>
           <a
             href={lang === 'nl' ? '/nl/#wat-is-de-parasja' : '/en/#wat-is-de-parasja'}
             className={`nav-link ${activeView === 'intro' ? 'active' : ''}`}
@@ -241,15 +241,13 @@ export default function Navbar({ activeView, setActiveView, lang, setLang, selec
             {labels.handbook}
           </a>
 
-          {lang === 'nl' && (
-            <a
+                      <a
               href={articlesUrl}
               className={`nav-link ${activeView === 'articles' ? 'active' : ''}`}
               onClick={closeMenu}
             >
               {labels.articles}
             </a>
-          )}
 
           <a
             href={contactUrl}
@@ -307,8 +305,7 @@ export default function Navbar({ activeView, setActiveView, lang, setLang, selec
             <span>{labels.weekParasha}</span>
           </a>
 
-          {lang === 'nl' && (
-            <a
+                      <a
               href={articlesUrl}
               className={`nav-link ${activeView === 'articles' ? 'active' : ''}`}
               onClick={closeMenu}
@@ -316,7 +313,6 @@ export default function Navbar({ activeView, setActiveView, lang, setLang, selec
               <Newspaper className="nav-icon" aria-hidden="true" />
               <span>{labels.articles}</span>
             </a>
-          )}
 
           <div
             className="drawer-section-title"

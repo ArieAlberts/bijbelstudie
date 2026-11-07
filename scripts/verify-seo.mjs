@@ -2,14 +2,29 @@ import fs from 'node:fs';
 import path from 'node:path';
 import assert from 'node:assert/strict';
 import { findScheduledStudy, upcomingShabbatIso } from '../src/utils/weekly-parasha.js';
+import { viewFromLocation, languageDestination } from '../src/utils/site-navigation.js';
 
 const root = path.resolve('dist');
 const site = 'https://www.parasja.nl';
 const requiredFiles = ['index.html', 'nl/index.html', 'en/index.html', 'sitemap.xml',
-  'robots.txt', 'llms.txt', 'e0995e195501bfb5d3b5908638a230f0.txt'];
+  'robots.txt', 'llms.txt', '404.html', 'e0995e195501bfb5d3b5908638a230f0.txt'];
 for (const name of requiredFiles) {
   assert.ok(fs.existsSync(path.join(root, name)), 'Missing build output: ' + name);
 }
+
+// Deep-linked English method views must open the method, and handbook step
+// links must open the worksheet. A language switch keeps the matching study.
+for (const hash of ['#method', '#explanation', '#example', '#appendices', '#methode']) {
+  assert.equal(viewFromLocation(hash, '/en/'), 'method');
+}
+assert.equal(viewFromLocation('#stap-9', '/nl/'), 'worksheet');
+assert.equal(viewFromLocation('#snel-2', '/en/'), 'worksheet');
+assert.equal(viewFromLocation('', '/nl/parasjot/noach/', 'worksheet'), 'worksheet');
+assert.equal(languageDestination('https://www.parasja.nl/en/parasjot/noach/', 'en', '?mode=study', '#werkblad'),
+  '/en/parasjot/noach/?mode=study#worksheet');
+assert.equal(languageDestination('https://www.parasja.nl/nl/handleiding.html', 'nl', '', '#hoofdstuk-4'),
+  '/nl/handleiding.html#hoofdstuk-4');
+assert.equal(languageDestination(null, 'nl'), '/nl/');
 
 // Dates must come from the actual Shabbat schedule, not the CMS publication date.
 assert.equal(upcomingShabbatIso(new Date('2026-10-23T16:00:00Z')), '2026-10-24');
@@ -138,7 +153,55 @@ for (const url of urls) {
     assert.equal(alternatives.get(language), url, 'Missing or incorrect self hreflang: ' + route);
   }
   pages.set(url, { route, alternatives, language });
+
+  // All structured-data blocks must remain parseable after content injection.
+  for (const match of html.matchAll(/<script\b[^>]*type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi)) {
+    assert.doesNotThrow(() => JSON.parse(match[1]), 'Invalid JSON-LD: ' + route);
+  }
+  if (/^\/(nl|en)\/parasjot\/[^/]+\/$/.test(route)) {
+    assert.match(html, /<nav class="reading-breadcrumbs"/, 'Reading breadcrumb missing: ' + route);
+    assert.match(html, /<aside class="reading-resources"/, 'Reading resources missing: ' + route);
+    assert.match(html, /"@type":"BreadcrumbList"/, 'Reading breadcrumb schema missing: ' + route);
+  }
 }
+
+// Crawl actual anchors in the production HTML. Check existence and canonical
+// homepage spelling, then prove that the indexable pages are reachable from /.
+const graph = new Map();
+for (const [url, page] of pages) {
+  const html = fs.readFileSync(sitemapFile(url), 'utf8');
+  const outgoing = new Set();
+  for (const tag of tagAttrs(html, 'a')) {
+    if (!tag.href || /^(mailto|tel|javascript|data):/i.test(tag.href)) continue;
+    const target = new URL(tag.href.replaceAll('&amp;', '&'), url);
+    if (target.origin !== site) continue;
+    assert.ok(!target.pathname.endsWith('/index.html'), 'Noncanonical internal link: ' + page.route + ' → ' + target.pathname);
+    const file = path.join(root, decodeURIComponent(target.pathname).slice(1), target.pathname.endsWith('/') ? 'index.html' : '');
+    assert.ok(fs.existsSync(file), 'Broken internal link: ' + page.route + ' → ' + target.pathname);
+    outgoing.add(target.origin + target.pathname);
+  }
+  graph.set(url, outgoing);
+}
+const reachable = new Set();
+const queue = [site + '/'];
+while (queue.length) {
+  const url = queue.pop();
+  if (reachable.has(url)) continue;
+  reachable.add(url);
+  for (const target of graph.get(url) || []) if (graph.has(target)) queue.push(target);
+}
+for (const url of urls) assert.ok(reachable.has(url), 'Indexable page unreachable through HTML links: ' + url);
+
+for (const lang of ['nl', 'en']) {
+  const html = fs.readFileSync(path.join(root, lang, 'feedback.html'), 'utf8');
+  const canonical = tagAttrs(html, 'link').find(tag => tag.rel === 'canonical')?.href;
+  assert.equal(canonical, `${site}/${lang}/contact.html`, 'Feedback redirect canonical must be its destination');
+  const overview = fs.readFileSync(path.join(root, lang, 'parasjot', 'index.html'), 'utf8');
+  assert.doesNotMatch(overview, /rel="modulepreload"/, 'Static overview must not preload unused application JS');
+}
+assert.match(fs.readFileSync(path.join(root, '404.html'), 'utf8'), /name="robots" content="noindex"/);
+assert.doesNotMatch(fs.readFileSync(path.join(root, '404.html'), 'utf8'), /location\.replace|location\.reload/,
+  'A missing reading must not reload its own 404 URL indefinitely');
 // NL/EN hreflang pairs must reference one another in both directions.
 for (const [url, page] of pages) {
   for (const lang of ['nl', 'en']) {

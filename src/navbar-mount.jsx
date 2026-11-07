@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import ParashaIntroLanding from './components/ParashaIntroLanding';
 import WorksheetHero from './components/WorksheetHero';
 import BibleReader from './components/BibleReader';
+import { viewFromLocation, languageDestination } from './utils/site-navigation';
 import './styles/app.css';
 
 function HeaderApp() {
@@ -11,22 +12,19 @@ function HeaderApp() {
   const path = window.location.pathname;
 
   const determineViewFromHash = () => {
-    const hash = window.location.hash;
-    if (['#wat-is-de-parasja', '#intro'].includes(hash)) return 'intro';
-    if (hash === '#waarom-deze-website') return 'waarom-deze-website';
-    if (['#methode', '#uitleg', '#voorbeeld', '#bijlagen'].includes(hash)) return 'method';
-    if (path.includes('handleiding') || path.includes('handbook')) return 'handbook';
-    if (path.includes('artikelen')) return 'articles';
-    if (path.includes('contact')) return 'contact';
-    if (path.includes('privacy')) return 'privacy';
-    if (hash === '#werkblad' || hash === '#worksheet') return 'worksheet';
-    if (!hash && typeof window !== 'undefined' && window.__PARASJA__ && window.__PARASJA__.view) return window.__PARASJA__.view;
-    return 'intro';
+    return viewFromLocation(window.location.hash, path, window.__PARASJA__?.view || 'intro');
   };
 
-  const [lang, setLang] = useState(isEnglish ? 'en' : 'nl');
+  const lang = isEnglish ? 'en' : 'nl';
+  const [selectedStudyId, setSelectedStudyId] = useState(window.__PARASJA__?.study);
   const [currentView, setCurrentView] = useState(determineViewFromHash());
   const [autoExpandReading, setAutoExpandReading] = useState(false);
+
+  useEffect(() => {
+    const onStudyChange = event => setSelectedStudyId(event.detail?.studyId);
+    window.addEventListener('study-changed', onStudyChange);
+    return () => window.removeEventListener('study-changed', onStudyChange);
+  }, []);
 
   const applyView = (view, scroll = true) => {
     const isIntro = view === 'intro' || view === 'wat-is-de-parasja' || view === 'waarom-deze-website';
@@ -56,9 +54,12 @@ function HeaderApp() {
           window.scrollTo({ top: 0, behavior: 'smooth' });
         }
       } else if (isWorksheet) {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+        const step = /^#(?:stap|snel)-\d+$/.test(window.location.hash)
+          ? document.getElementById(window.location.hash.slice(1)) : null;
+        if (step) step.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        else window.scrollTo({ top: 0, behavior: 'smooth' });
       } else if (isMethod) {
-        (document.querySelector('#methode') || document.querySelector('#uitleg'))?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        (document.getElementById(window.location.hash.slice(1)) || document.querySelector('#methode') || document.querySelector('#uitleg'))?.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }
     }
   };
@@ -66,7 +67,7 @@ function HeaderApp() {
 
   useEffect(() => {
     const initialView = determineViewFromHash();
-    applyView(initialView, false);
+    applyView(initialView, Boolean(window.location.hash));
 
     const handleHashChange = () => {
       const view = determineViewFromHash();
@@ -80,36 +81,6 @@ function HeaderApp() {
     window.addEventListener('hashchange', handleHashChange);
     return () => window.removeEventListener('hashchange', handleHashChange);
   }, [path]);
-
-  const translateHash = (hash, targetLang) => {
-    if (!hash) return '';
-    const cleanHash = hash.startsWith('#') ? hash.slice(1) : hash;
-    const nlToEn = {
-      'wat-is-de-parasja': 'wat-is-de-parasja',
-      'waarom-deze-website': 'waarom-deze-website',
-      'werkblad': 'worksheet',
-      'methode': 'method',
-      'uitleg': 'method',
-      'voorbeeld': 'example',
-      'bijlagen': 'appendices'
-    };
-    const enToNl = {
-      'wat-is-de-parasja': 'wat-is-de-parasja',
-      'waarom-deze-website': 'waarom-deze-website',
-      'worksheet': 'werkblad',
-      'method': 'methode',
-      'explanation': 'uitleg',
-      'example': 'voorbeeld',
-      'appendices': 'bijlagen'
-    };
-    if (targetLang === 'en') {
-      const mapped = nlToEn[cleanHash];
-      return '#' + (mapped || cleanHash);
-    } else {
-      const mapped = enToNl[cleanHash];
-      return '#' + (mapped || cleanHash);
-    }
-  };
 
   const handleViewChange = (view) => {
     setCurrentView(view);
@@ -129,37 +100,18 @@ function HeaderApp() {
       applyView('method', true);
       window.location.hash = lang === 'nl' ? '#methode' : '#method';
     } else if (view === 'handbook') {
-      window.location.href = lang === 'nl' ? '../nl/handleiding.html' : '../en/handbook.html';
+      window.location.href = lang === 'nl' ? '/nl/handleiding.html' : '/en/handbook.html';
     } else if (view === 'articles') {
-      window.location.href = '../nl/artikelen/';
+      window.location.href = `/${lang}/artikelen/`;
     } else if (view === 'contact') {
-      window.location.href = lang === 'nl' ? '../nl/contact.html' : '../en/contact.html';
+      window.location.href = `/${lang}/contact.html`;
     }
   };
 
   const handleLangToggle = (newLang) => {
-    setLang(newLang);
-    const search = window.location.search;
-    const targetHash = translateHash(window.location.hash, newLang);
-
-    if (newLang === 'en') {
-      if (path.includes('handleiding')) window.location.href = '../en/handbook.html' + search + targetHash;
-      else if (path.includes('contact')) window.location.href = '../en/contact.html' + search + targetHash;
-      else if (path.includes('privacy')) window.location.href = '../en/privacy.html' + search + targetHash;
-      else if (path.includes('artikelen')) window.location.href = '/en/' + search + targetHash;
-      else if (path.includes('lezer')) window.location.href = '../en/reader.html' + search + targetHash;
-      else if (path.includes('bedankt')) window.location.href = '../en/thanks.html' + search + targetHash;
-      else if (path.includes('feedback')) window.location.href = '../en/feedback.html' + search + targetHash;
-      else window.location.href = '/en/' + search + targetHash;
-    } else {
-      if (path.includes('handbook')) window.location.href = '../nl/handleiding.html' + search + targetHash;
-      else if (path.includes('contact')) window.location.href = '../nl/contact.html' + search + targetHash;
-      else if (path.includes('privacy')) window.location.href = '../nl/privacy.html' + search + targetHash;
-      else if (path.includes('reader')) window.location.href = '../nl/lezer.html' + search + targetHash;
-      else if (path.includes('thanks')) window.location.href = '../nl/bedankt.html' + search + targetHash;
-      else if (path.includes('feedback')) window.location.href = '../nl/feedback.html' + search + targetHash;
-      else window.location.href = '/nl/' + search + targetHash;
-    }
+    const alternate = document.querySelector(`link[rel="alternate"][hreflang="${newLang}"]`);
+    window.location.href = languageDestination(alternate?.getAttribute('href'), newLang,
+      window.location.search, window.location.hash);
   };
 
   return (
@@ -168,6 +120,7 @@ function HeaderApp() {
       setActiveView={handleViewChange}
       lang={lang}
       setLang={handleLangToggle}
+      selectedStudyId={selectedStudyId}
     />
   );
 }

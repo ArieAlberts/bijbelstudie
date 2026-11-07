@@ -36,6 +36,7 @@ const UI = {
     nav: [
       ['nl/#wat-is-de-parasja', 'Wat is de parasja', 'intro'],
       ['nl/#werkblad', 'Lees de parasja', 'reader'],
+      ['nl/parasjot/', 'Parasja van de week', 'weekly'],
       ['nl/#waarom-deze-website', 'Waarom deze website', 'why'],
       ['nl/#methode', 'Over de methode', 'method'],
       ['nl/handleiding.html', 'Handleiding', 'handbook'],
@@ -66,6 +67,7 @@ const UI = {
     nav: [
       ['en/#wat-is-de-parasja', 'What is the Parashah', 'intro'],
       ['en/#worksheet', 'Read the parashah', 'reader'],
+      ['en/parasjot/', "This week's Torah portion", 'weekly'],
       ['en/#waarom-deze-website', 'Why this website', 'why'],
       ['en/#method', 'About the method', 'method'],
       ['en/handbook.html', 'Handbook', 'handbook'],
