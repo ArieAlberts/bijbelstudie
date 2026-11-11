@@ -52,3 +52,4 @@ jobs:
             git commit -m "Bible data: voeg authentieke Toldot cache toe"
             git push
           fi
+

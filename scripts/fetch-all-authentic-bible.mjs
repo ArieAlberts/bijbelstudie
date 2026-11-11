@@ -75,6 +75,23 @@ const outArg = argValue('--out');
 
 const sleep = (ms) => new Promise(res => setTimeout(res, ms));
 
+// bolls.life sometimes answers with a transient error or rate limit; retry with
+// backoff so a chapter is never silently skipped.
+async function fetchWithRetry(url, attempts = 5) {
+  let lastError = null;
+  for (let i = 0; i < attempts; i++) {
+    try {
+      const res = await fetch(url);
+      if (res.ok) return res;
+      lastError = new Error(`HTTP ${res.status}`);
+    } catch (err) {
+      lastError = err;
+    }
+    await sleep(1500 * (i + 1));
+  }
+  throw lastError;
+}
+
 function extractNotesAndCleanText(rawText) {
   const notes = [];
   let cleanText = rawText.replace(/<sup>([\s\S]*?)<\/sup>/gi, (_, noteContent) => {
@@ -178,7 +195,7 @@ async function fetchAll() {
     console.log(`Fetching ${item.book} ${ch}...`);
 
     try {
-      const resSv = await fetch(`https://bolls.life/get-text/DSV/${bookId}/${ch}/`);
+      const resSv = await fetchWithRetry(`https://bolls.life/get-text/DSV/${bookId}/${ch}/`);
       if (resSv.ok) {
         const dataSv = await resSv.json();
         dataSv.forEach(v => {
@@ -198,7 +215,7 @@ async function fetchAll() {
     }
 
     try {
-      const resKjv = await fetch(`https://bolls.life/get-text/KJV/${bookId}/${ch}/`);
+      const resKjv = await fetchWithRetry(`https://bolls.life/get-text/KJV/${bookId}/${ch}/`);
       if (resKjv.ok) {
         const dataKjv = await resKjv.json();
         dataKjv.forEach(v => {
