@@ -50,6 +50,8 @@ const CHAPTER_MAX_VERSES = {
   "Gen.12": 20, "Gen.13": 18, "Gen.14": 24, "Gen.15": 21, "Gen.16": 16, "Gen.17": 27,
   "Gen.18": 33, "Gen.19": 38, "Gen.20": 18, "Gen.21": 34, "Gen.22": 24,
   "Gen.23": 20, "Gen.24": 67, "Gen.25": 34,
+  "Gen.26": 35, "Gen.27": 46, "Gen.28": 22,
+  "Mal.1": 14, "Mal.2": 17,
   "Lev.16": 34, "Lev.22": 33, "Lev.23": 44,
   "Num.25": 18, "Num.26": 65, "Num.27": 23, "Num.28": 31, "Num.29": 40,
   "Num.30": 16, "Num.31": 54, "Num.32": 42, "Num.33": 56, "Num.34": 29, "Num.35": 34, "Num.36": 13,
@@ -67,7 +69,7 @@ const CHAPTER_MAX_VERSES = {
   "Jer.2": 37, "Jer.3": 25,
   "Hos.14": 10, "Joel.2": 32,
   "Zech.14": 21,
-  "Matt.4": 25, "Matt.16": 28, "Matt.18": 35, "Matt.24": 51, "Matt.25": 46,
+  "Matt.4": 25, "Matt.10": 42, "Matt.16": 28, "Matt.18": 35, "Matt.24": 51, "Matt.25": 46,
   "Mark.11": 33,
   "Luke.2": 52, "Luke.3": 38, "Luke.17": 37, "Luke.19": 48,
   "John.2": 25, "John.4": 54, "John.6": 71, "John.8": 59, "John.10": 42, "John.12": 50, "John.14": 31

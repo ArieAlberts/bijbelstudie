@@ -27,6 +27,9 @@ const CHAPTER_CONFIG = [
   { book: 'Gen', ch: 21 }, { book: 'Gen', ch: 22 },
   // Chaje Sara
   { book: 'Gen', ch: 23 }, { book: 'Gen', ch: 24 }, { book: 'Gen', ch: 25 },
+  // Toldot
+  { book: 'Gen', ch: 26 }, { book: 'Gen', ch: 27 }, { book: 'Gen', ch: 28 },
+  { book: 'Mal', ch: 1 }, { book: 'Mal', ch: 2 },
   // Vayera haftarah
   { book: '2Kgs', ch: 4 },
   // Leviticus
@@ -54,7 +57,7 @@ const CHAPTER_CONFIG = [
   // Zechariah
   { book: 'Zech', ch: 14 },
   // Gospels
-  { book: 'Matt', ch: 4 }, { book: 'Matt', ch: 16 }, { book: 'Matt', ch: 18 }, { book: 'Matt', ch: 24 }, { book: 'Matt', ch: 25 },
+  { book: 'Matt', ch: 4 }, { book: 'Matt', ch: 10 }, { book: 'Matt', ch: 16 }, { book: 'Matt', ch: 18 }, { book: 'Matt', ch: 24 }, { book: 'Matt', ch: 25 },
   { book: 'Mark', ch: 11 },
   { book: 'Luke', ch: 2 }, { book: 'Luke', ch: 3 }, { book: 'Luke', ch: 17 }, { book: 'Luke', ch: 19 },
   { book: 'John', ch: 2 }, { book: 'John', ch: 4 }, { book: 'John', ch: 6 }, { book: 'John', ch: 8 }, { book: 'John', ch: 10 }, { book: 'John', ch: 12 }, { book: 'John', ch: 14 }
