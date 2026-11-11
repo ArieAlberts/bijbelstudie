@@ -38,6 +38,7 @@ const BOOK_MAP = {
   Hos: { osis: 'Hos', nl: 'Hosea', en: 'Hosea', testament: 'OT' },
   Joel: { osis: 'Joel', nl: 'Joël', en: 'Joel', testament: 'OT' },
   Zech: { osis: 'Zech', nl: 'Zacharia', en: 'Zechariah', testament: 'OT' },
+  Mal: { osis: 'Mal', nl: 'Maleachi', en: 'Malachi', testament: 'OT' },
   Matt: { osis: 'Matt', nl: 'Mattheüs', en: 'Matthew', testament: 'NT' },
   Mark: { osis: 'Mark', nl: 'Markus', en: 'Mark', testament: 'NT' },
   Luke: { osis: 'Luke', nl: 'Lukas', en: 'Luke', testament: 'NT' },
