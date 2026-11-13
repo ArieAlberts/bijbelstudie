@@ -215,18 +215,19 @@ for (const [url, page] of pages) {
     }
   }
 }
-// The root page is an informative, crawlable entrance, not a doorway redirect.
-// Its main action leads to the reading homepage; the changing weekly reading
-// continues to live at the dedicated /nl/parasjot/ URL.
+// The original language-choice start screen must stay intact. Both choices
+// open the interactive weekly reading immediately, while the metadata,
+// canonical and hreflang are still verified by the SEO checks above.
 const landing = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
-assert.match(landing, /<title>Parasja: betekenis, weeklezing en zelf Bijbel lezen/);
-assert.match(landing, /<h1[^>]*>Wat is een parasja, en hoe lees je die zelf\?<\/h1>/);
-assert.match(landing, /Parasja: betekenis en spelling/);
-assert.match(landing, /<a class="gateway-cta" href="\/nl\/">Ga naar de Nederlandse homepage<\/a>/);
-assert.match(landing, /href="\/nl\/parasjot\/"/);
-assert.match(landing, /href="\/en\/"/);
+assert.match(landing, /<body class="root-language-body">/);
+assert.match(landing, /<main class="language-card"[^>]*>/);
+assert.match(landing, /<h1>Kies je taal · Choose your language<\/h1>/);
+assert.match(landing, /<a href="\/nl\/#werkblad" lang="nl">Nederlands<\/a>/);
+assert.match(landing, /<a href="\/en\/#worksheet" lang="en">English<\/a>/);
+assert.equal(viewFromLocation('#werkblad', '/nl/'), 'worksheet');
+assert.equal(viewFromLocation('#worksheet', '/en/'), 'worksheet');
 assert.doesNotMatch(landing, /http-equiv=["']refresh|window\.location\s*=|location\.replace/i,
-  'The search landing must not redirect visitors automatically');
+  'Language choice must use visible links instead of automatic redirects');
 
 // Search intent must remain visible on the weekly landing pages even when no
 // matching study has yet been published for the coming Shabbat.
