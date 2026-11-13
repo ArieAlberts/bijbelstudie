@@ -277,6 +277,23 @@ const readingReleases = [
         werkbladen: 'chayei-sarah-worksheet-en'
       }
     }
+  },
+  {
+    slug: 'toldot', names: { nl: 'Toldot', en: 'Toldot' },
+    torah: 'Genesis 25:19',
+    subtitle: { nl: 'Verachten, grijpen of ontvangen', en: 'Despising, grasping or receiving' },
+    downloads: {
+      nl: {
+        lezingen: 'toldot-lezing-nl',
+        studiebladen: 'toldot-studieblad-nl',
+        werkbladen: 'toldot-werkblad-nl'
+      },
+      en: {
+        lezingen: 'toldot-reading-en',
+        studiebladen: 'toldot-study-sheet-en',
+        werkbladen: 'toldot-worksheet-en'
+      }
+    }
   }
 ];
 

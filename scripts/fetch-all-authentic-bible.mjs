@@ -27,6 +27,9 @@ const CHAPTER_CONFIG = [
   { book: 'Gen', ch: 21 }, { book: 'Gen', ch: 22 },
   // Chaje Sara
   { book: 'Gen', ch: 23 }, { book: 'Gen', ch: 24 }, { book: 'Gen', ch: 25 },
+  // Toldot
+  { book: 'Gen', ch: 26 }, { book: 'Gen', ch: 27 }, { book: 'Gen', ch: 28 },
+  { book: 'Mal', ch: 1 }, { book: 'Mal', ch: 2 },
   // Vayera haftarah
   { book: '2Kgs', ch: 4 },
   // Leviticus
@@ -54,7 +57,7 @@ const CHAPTER_CONFIG = [
   // Zechariah
   { book: 'Zech', ch: 14 },
   // Gospels
-  { book: 'Matt', ch: 4 }, { book: 'Matt', ch: 16 }, { book: 'Matt', ch: 18 }, { book: 'Matt', ch: 24 }, { book: 'Matt', ch: 25 },
+  { book: 'Matt', ch: 4 }, { book: 'Matt', ch: 10 }, { book: 'Matt', ch: 16 }, { book: 'Matt', ch: 18 }, { book: 'Matt', ch: 24 }, { book: 'Matt', ch: 25 },
   { book: 'Mark', ch: 11 },
   { book: 'Luke', ch: 2 }, { book: 'Luke', ch: 3 }, { book: 'Luke', ch: 17 }, { book: 'Luke', ch: 19 },
   { book: 'John', ch: 2 }, { book: 'John', ch: 4 }, { book: 'John', ch: 6 }, { book: 'John', ch: 8 }, { book: 'John', ch: 10 }, { book: 'John', ch: 12 }, { book: 'John', ch: 14 }
@@ -71,6 +74,23 @@ const only = onlyArg ? new Set(onlyArg.split(',')) : null;
 const outArg = argValue('--out');
 
 const sleep = (ms) => new Promise(res => setTimeout(res, ms));
+
+// bolls.life sometimes answers with a transient error or rate limit; retry with
+// backoff so a chapter is never silently skipped.
+async function fetchWithRetry(url, attempts = 5) {
+  let lastError = null;
+  for (let i = 0; i < attempts; i++) {
+    try {
+      const res = await fetch(url);
+      if (res.ok) return res;
+      lastError = new Error(`HTTP ${res.status}`);
+    } catch (err) {
+      lastError = err;
+    }
+    await sleep(1500 * (i + 1));
+  }
+  throw lastError;
+}
 
 function extractNotesAndCleanText(rawText) {
   const notes = [];
@@ -175,7 +195,7 @@ async function fetchAll() {
     console.log(`Fetching ${item.book} ${ch}...`);
 
     try {
-      const resSv = await fetch(`https://bolls.life/get-text/DSV/${bookId}/${ch}/`);
+      const resSv = await fetchWithRetry(`https://bolls.life/get-text/DSV/${bookId}/${ch}/`);
       if (resSv.ok) {
         const dataSv = await resSv.json();
         dataSv.forEach(v => {
@@ -195,7 +215,7 @@ async function fetchAll() {
     }
 
     try {
-      const resKjv = await fetch(`https://bolls.life/get-text/KJV/${bookId}/${ch}/`);
+      const resKjv = await fetchWithRetry(`https://bolls.life/get-text/KJV/${bookId}/${ch}/`);
       if (resKjv.ok) {
         const dataKjv = await resKjv.json();
         dataKjv.forEach(v => {

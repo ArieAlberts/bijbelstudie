@@ -34,6 +34,7 @@ Voor iedere parasja of feestlezing geldt één markdownbestand als primaire bron
 | lech-lecha.md | lech-lecha | 2026-10-18 | gepubliceerd |
 | **vayera.md** | **vayera** | **2026-10-29** | **volledig tweetalig / gereed** |
 | **chayei-sarah.md** | **chayei-sarah** | **2026-11-01** | **volledig tweetalig / gereed voor publicatie** |
+| **toldot.md** | **toldot** | **2026-11-11** | **volledig tweetalig / gereed voor publicatie** |
 
 > Let op: het bestandsnaam-item voor Jom Teruah heet historisch `yom-teruah.md`, terwijl de interne `id` `jom-teruah` is. Dit wordt hier alleen gedocumenteerd; wijzig die bestaande koppeling niet zonder migratie van alle verwijzingen.
 
@@ -125,6 +126,19 @@ public/downloads/werkbladen/haazinu-werkblad-en.pdf
 - De volledige Pages-build genereert twaalf PDF/DOCX-bestanden, in NL en EN, voor lezing, studieblad en werkblad. `verify:seo` controleert het bestaan daarvan in de volledige productiebuild.
 - De aangemaakte cache `scripts/chayei-sarah-bible-cache.json` levert de Statenvertaling/KJV-tekst voor de interactieve Bijbellezer. De speciale cacheworkflow is geslaagd.
 - De Georgia-boekopmaak is gekoppeld aan `reading_layout: book`, zodat volgende parasjot dezelfde vorm kunnen kiezen zonder bijzondere code per parasja.
+
+## Toldot — volledige bron
+
+`content/parasjot/toldot.md` bevat de Nederlandse en Engelse lezing, het studieblad en het werkblad (zes body-velden).
+
+- Torah: Genesis 25:19–28:9
+- Haftara: Maleachi 1:1–2:7
+- Evangelie / flanklezing: Mattheüs 10:21–38
+- Titel NL: **Waar is Mijn eer?**
+- Titel EN: **Where is mine honour?**
+- `published_at: 2026-11-11`, `shabbat_date: 2026-11-14`, `reading_layout: book`, `current: false`
+- De lezing is opgebouwd uit de gesproken overdenking van de auteur over Maleachi 1 en zijn korte overdenking bij Genesis 26:13–22 (de bron van levend water); alle woordelijke citaten zijn gecontroleerd tegen de DSV/KJV-tekst in de bijbelcache.
+- Bijbeltekst: `.github/workflows/fetch-toldot-cache.yml` haalt `scripts/toldot-bible-cache.json` op (Gen. 25–28, Mal. 1–2, Matth. 10). `fetch-all-authentic-bible.mjs` herhaalt een mislukte aanvraag nu met oplopende wachttijd, zodat een hoofdstuk niet stil wordt overgeslagen.
 
 ## Crosscheck bij publicatie
 
