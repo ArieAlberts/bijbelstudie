@@ -73,6 +73,18 @@ function parseTaggedVerse(html, prefix) {
   return { text, alignments };
 }
 
+function removeEnglishMarginalNotes(verse) {
+  // Bolls KJV embeds the 1769 marginal glosses after the verse as inline text.
+  // Keep biblical words in the reader; do not display glosses as if Scripture.
+  const pattern = /\s+[\p{L}][\p{L}’'\- ]{0,24}:\s*(?:Heb\.|Gr\.|that is,|or,)/iu;
+  const offset = verse.text.search(pattern);
+  if (offset < 0) return verse;
+  return {
+    text: verse.text.slice(0, offset).trimEnd(),
+    alignments: verse.alignments.filter(a => a.charEnd <= offset)
+  };
+}
+
 function englishTokens(verse, prefix) {
   const tokens = [];
   const words = [...verse.text.matchAll(/\S+/g)];
@@ -116,7 +128,7 @@ for (const c of CHAPTERS) {
       throw new Error(id + ' missing in DSV or KJV response');
     }
     const sv = parseTaggedVerse(svVerses.get(verse), prefix);
-    const en = parseTaggedVerse(kjvVerses.get(verse), prefix);
+    const en = removeEnglishMarginalNotes(parseTaggedVerse(kjvVerses.get(verse), prefix));
     output[id] = {
       sv: sv.text,
       alignments: { sv: sv.alignments },
