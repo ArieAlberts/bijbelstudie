@@ -52,6 +52,7 @@ const CHAPTER_MAX_VERSES = {
   "Gen.18": 33, "Gen.19": 38, "Gen.20": 18, "Gen.21": 34, "Gen.22": 24,
   "Gen.23": 20, "Gen.24": 67, "Gen.25": 34,
   "Gen.26": 35, "Gen.27": 46, "Gen.28": 22,
+  "Gen.29": 35, "Gen.30": 43, "Gen.31": 55, "Gen.32": 32,
   "Mal.1": 14, "Mal.2": 17,
   "Lev.16": 34, "Lev.22": 33, "Lev.23": 44,
   "Num.25": 18, "Num.26": 65, "Num.27": 23, "Num.28": 31, "Num.29": 40,
@@ -68,12 +69,12 @@ const CHAPTER_MAX_VERSES = {
   "Isa.54": 17, "Isa.55": 13, "Isa.57": 21, "Isa.58": 14, "Isa.60": 22, "Isa.61": 11,
   "Isa.62": 12, "Isa.63": 19,
   "Jer.2": 37, "Jer.3": 25,
-  "Hos.14": 10, "Joel.2": 32,
+  "Hos.12": 14, "Hos.13": 16, "Hos.14": 9, "Joel.2": 32,
   "Zech.14": 21,
   "Matt.4": 25, "Matt.10": 42, "Matt.16": 28, "Matt.18": 35, "Matt.24": 51, "Matt.25": 46,
   "Mark.11": 33,
   "Luke.2": 52, "Luke.3": 38, "Luke.17": 37, "Luke.19": 48,
-  "John.2": 25, "John.4": 54, "John.6": 71, "John.8": 59, "John.10": 42, "John.12": 50, "John.14": 31
+  "John.1": 51, "John.2": 25, "John.4": 54, "John.6": 71, "John.8": 59, "John.10": 42, "John.12": 50, "John.14": 31
 };
 
 function parseOsisRange(osisStr) {
