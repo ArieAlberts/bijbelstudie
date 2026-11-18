@@ -29,6 +29,9 @@ const CHAPTER_CONFIG = [
   { book: 'Gen', ch: 23 }, { book: 'Gen', ch: 24 }, { book: 'Gen', ch: 25 },
   // Toldot
   { book: 'Gen', ch: 26 }, { book: 'Gen', ch: 27 }, { book: 'Gen', ch: 28 },
+  // Vayetze
+  { book: 'Gen', ch: 29 }, { book: 'Gen', ch: 30 }, { book: 'Gen', ch: 31 }, { book: 'Gen', ch: 32 },
+  { book: 'Hos', ch: 12 }, { book: 'Hos', ch: 13 }, { book: 'John', ch: 1 },
   { book: 'Mal', ch: 1 }, { book: 'Mal', ch: 2 },
   // Vayera haftarah
   { book: '2Kgs', ch: 4 },
