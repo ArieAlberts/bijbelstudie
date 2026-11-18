@@ -1,0 +1,8806 @@
+{
+  "study": "vayetze",
+  "role": "haftara",
+  "osis": "Hos.12.12-Hos.14.9",
+  "ref": {
+    "nl": "Hosea 12:13–14:10",
+    "en": "Hosea 12:12–14:9"
+  },
+  "testament": "OT",
+  "verses": [
+    {
+      "osis": "Hos.12.12",
+      "ref": "12:12",
+      "sv": "Jakob vlood toch [naar] het veld van Syrie, en Israel diende om een vrouw, en hoedde om een vrouw.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "Jacob",
+          "s": "H3290"
+        },
+        {
+          "t": "fled",
+          "s": "H1272"
+        },
+        {
+          "t": "into",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "country",
+          "s": "H7704"
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "Syria,",
+          "s": "H758"
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "Israel",
+          "s": "H3478"
+        },
+        {
+          "t": "served",
+          "s": "H5647"
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "wife,",
+          "s": "H802"
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "wife",
+          "s": "H802"
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "kept",
+          "s": "H8104"
+        },
+        {
+          "t": "sheep.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Hos.12.13",
+      "ref": "12:13",
+      "sv": "Maar de HEERE voerde Israel op uit Egypte door een profeet, en door een profeet werd hij gehoed.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "by",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "prophet",
+          "s": "H5030"
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "LORD",
+          "s": "H3068"
+        },
+        {
+          "t": "brought",
+          "s": "H5927"
+        },
+        {
+          "t": "Israel",
+          "s": "H3478"
+        },
+        {
+          "t": "out",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "Egypt,",
+          "s": "H4714"
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "by",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "prophet",
+          "s": "H5030"
+        },
+        {
+          "t": "was",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "preserved.",
+          "s": "H8104"
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Hos.12.14",
+      "ref": "12:14",
+      "sv": "Efraim [daarentegen] heeft [Hem] zeer bitterlijk vertoornd; daarom zal Hij zijn bloed op hem laten, en zijn Heere zal hem zijn smaad vergelden.",
+      "kjv": [
+        {
+          "t": "Ephraim",
+          "s": "H669"
+        },
+        {
+          "t": "provoked",
+          "s": null
+        },
+        {
+          "t": "him",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "anger",
+          "s": "H3707"
+        },
+        {
+          "t": "most",
+          "s": null
+        },
+        {
+          "t": "bitterly:",
+          "s": "H8563"
+        },
+        {
+          "t": "therefore",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "leave",
+          "s": "H5203"
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "blood",
+          "s": "H1818"
+        },
+        {
+          "t": "upon",
+          "s": null
+        },
+        {
+          "t": "him,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "reproach",
+          "s": "H2781"
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "Lord",
+          "s": "H113"
+        },
+        {
+          "t": "return",
+          "s": "H7725"
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "him.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Hos.13.1",
+      "ref": "13:1",
+      "sv": "Als Efraim sprak, zo beefde men, hij heeft zich verheven in Israel; maar hij is schuldig geworden aan den Baal en is gestorven.",
+      "kjv": [
+        {
+          "t": "When",
+          "s": null
+        },
+        {
+          "t": "Ephraim",
+          "s": "H669"
+        },
+        {
+          "t": "spake",
+          "s": "H1696"
+        },
+        {
+          "t": "trembling,",
+          "s": "H7578"
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "exalted",
+          "s": "H5375"
+        },
+        {
+          "t": "himself",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "Israel;",
+          "s": "H3478"
+        },
+        {
+          "t": "but",
+          "s": null
+        },
+        {
+          "t": "when",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "offended",
+          "s": "H816"
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "Baal,",
+          "s": "H1168"
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "died.",
+          "s": "H4191"
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Hos.13.2",
+      "ref": "13:2",
+      "sv": "En nu zijn zij voortgevaren te zondigen, en hebben zich van hun zilver een gegoten beeld gemaakt, afgoden naar hun verstand, die altemaal smedenwerk zijn; waarvan zij [nochtans] zeggen: De mensen, die offeren, zullen de kalveren kussen.",
+      "kjv": [
+        {
+          "t": "And",
+          "s": null
+        },
+        {
+          "t": "now",
+          "s": null
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "sin",
+          "s": "H2398"
+        },
+        {
+          "t": "more",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "more,",
+          "s": "H3254"
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "have",
+          "s": null
+        },
+        {
+          "t": "made",
+          "s": "H6213"
+        },
+        {
+          "t": "them",
+          "s": null
+        },
+        {
+          "t": "molten",
+          "s": null
+        },
+        {
+          "t": "images",
+          "s": "H4541"
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "their",
+          "s": null
+        },
+        {
+          "t": "silver,",
+          "s": "H3701"
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "idols",
+          "s": "H6091"
+        },
+        {
+          "t": "according",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "their",
+          "s": null
+        },
+        {
+          "t": "own",
+          "s": null
+        },
+        {
+          "t": "understanding,",
+          "s": "H8394"
+        },
+        {
+          "t": "all",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "it",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "work",
+          "s": "H4639"
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "craftsmen:",
+          "s": "H2796"
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "say",
+          "s": "H559"
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "them,",
+          "s": null
+        },
+        {
+          "t": "Let",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "men",
+          "s": "H120"
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "sacrifice",
+          "s": "H2076"
+        },
+        {
+          "t": "kiss",
+          "s": "H5401"
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "calves.",
+          "s": "H5695"
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Hos.13.3",
+      "ref": "13:3",
+      "sv": "Daarom zullen zij zijn als een morgenwolk, en als een vroegkomende dauw, die henengaat; als kaf van den dorsvloer, en als rook uit den schoorsteen wordt weggestormd.",
+      "kjv": [
+        {
+          "t": "Therefore",
+          "s": null
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "as",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "morning",
+          "s": "H1242"
+        },
+        {
+          "t": "cloud,",
+          "s": "H6051"
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "as",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "early",
+          "s": "H7925"
+        },
+        {
+          "t": "dew",
+          "s": "H2919"
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "passeth",
+          "s": null
+        },
+        {
+          "t": "away,",
+          "s": "H1980"
+        },
+        {
+          "t": "as",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "chaff",
+          "s": "H4671"
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "driven",
+          "s": null
+        },
+        {
+          "t": "with",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "whirlwind",
+          "s": "H5590"
+        },
+        {
+          "t": "out",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "floor,",
+          "s": "H1637"
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "as",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "smoke",
+          "s": "H6227"
+        },
+        {
+          "t": "out",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "chimney.",
+          "s": "H699"
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Hos.13.4",
+      "ref": "13:4",
+      "sv": "Ik ben toch de HEERE, uw God, van Egypteland af; daarom zoudt gij geen God kennen dan Mij alleen, want er is geen Heiland dan Ik.",
+      "kjv": [
+        {
+          "t": "Yet",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "am",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "LORD",
+          "s": "H3068"
+        },
+        {
+          "t": "thy",
+          "s": null
+        },
+        {
+          "t": "God",
+          "s": "H430"
+        },
+        {
+          "t": "from",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "land",
+          "s": "H776"
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "Egypt,",
+          "s": "H4714"
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "thou",
+          "s": null
+        },
+        {
+          "t": "shalt",
+          "s": null
+        },
+        {
+          "t": "know",
+          "s": "H3045"
+        },
+        {
+          "t": "no",
+          "s": null
+        },
+        {
+          "t": "god",
+          "s": "H430"
+        },
+        {
+          "t": "but",
+          "s": null
+        },
+        {
+          "t": "me:",
+          "s": "H2108"
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "there",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "no",
+          "s": null
+        },
+        {
+          "t": "saviour",
+          "s": "H3467"
+        },
+        {
+          "t": "beside",
+          "s": null
+        },
+        {
+          "t": "me.",
+          "s": "H1115"
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Hos.13.5",
+      "ref": "13:5",
+      "sv": "Ik heb u gekend in de woestijn, in een zeer heet land.",
+      "kjv": [
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "did",
+          "s": null
+        },
+        {
+          "t": "know",
+          "s": "H3045"
+        },
+        {
+          "t": "thee",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "wilderness,",
+          "s": "H4057"
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "land",
+          "s": "H776"
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "great",
+          "s": null
+        },
+        {
+          "t": "drought.",
+          "s": "H8514"
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Hos.13.6",
+      "ref": "13:6",
+      "sv": "Daarna zijn zij, naardat hunlieder weide was, zat geworden; als zij zat zijn geworden, heeft zich hun hart verheven; daarom hebben zij Mij vergeten.",
+      "kjv": [
+        {
+          "t": "According",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "their",
+          "s": null
+        },
+        {
+          "t": "pasture,",
+          "s": "H4830"
+        },
+        {
+          "t": "so",
+          "s": null
+        },
+        {
+          "t": "were",
+          "s": null
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "filled;",
+          "s": "H7646"
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "were",
+          "s": null
+        },
+        {
+          "t": "filled,",
+          "s": "H7646"
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "their",
+          "s": null
+        },
+        {
+          "t": "heart",
+          "s": "H3820"
+        },
+        {
+          "t": "was",
+          "s": null
+        },
+        {
+          "t": "exalted;",
+          "s": "H7311"
+        },
+        {
+          "t": "therefore",
+          "s": null
+        },
+        {
+          "t": "have",
+          "s": null
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "forgotten",
+          "s": "H7911"
+        },
+        {
+          "t": "me.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Hos.13.7",
+      "ref": "13:7",
+      "sv": "Dies werd Ik hun als een felle leeuw; als een luipaard loerde Ik op den weg.",
+      "kjv": [
+        {
+          "t": "Therefore",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "them",
+          "s": null
+        },
+        {
+          "t": "as",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "lion:",
+          "s": "H7826"
+        },
+        {
+          "t": "as",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "leopard",
+          "s": "H5246"
+        },
+        {
+          "t": "by",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "way",
+          "s": "H1870"
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "observe",
+          "s": "H7789"
+        },
+        {
+          "t": "them:",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Hos.13.8",
+      "ref": "13:8",
+      "sv": "Ik ontmoette hen als een beer, die van jongen beroofd is, en scheurde het slot huns harten; en Ik verslond ze aldaar als een oude leeuw; het wild gedierte des velds verscheurde hen.",
+      "kjv": [
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "meet",
+          "s": "H6298"
+        },
+        {
+          "t": "them",
+          "s": null
+        },
+        {
+          "t": "as",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "bear",
+          "s": "H1677"
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "bereaved",
+          "s": "H7909"
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "her",
+          "s": null
+        },
+        {
+          "t": "whelps,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "rend",
+          "s": "H7167"
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "caul",
+          "s": "H5458"
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "their",
+          "s": null
+        },
+        {
+          "t": "heart,",
+          "s": "H3820"
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "there",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "devour",
+          "s": "H398"
+        },
+        {
+          "t": "them",
+          "s": null
+        },
+        {
+          "t": "like",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "lion:",
+          "s": "H3833"
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "wild",
+          "s": "H7704"
+        },
+        {
+          "t": "beast",
+          "s": "H2416"
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "tear",
+          "s": "H1234"
+        },
+        {
+          "t": "them.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Hos.13.9",
+      "ref": "13:9",
+      "sv": "Het heeft u bedorven, o Israel! want in Mij is uw hulp.",
+      "kjv": [
+        {
+          "t": "O",
+          "s": null
+        },
+        {
+          "t": "Israel,",
+          "s": "H3478"
+        },
+        {
+          "t": "thou",
+          "s": null
+        },
+        {
+          "t": "hast",
+          "s": null
+        },
+        {
+          "t": "destroyed",
+          "s": "H7843"
+        },
+        {
+          "t": "thyself;",
+          "s": null
+        },
+        {
+          "t": "but",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "me",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "thine",
+          "s": null
+        },
+        {
+          "t": "help.",
+          "s": "H5828"
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Hos.13.10",
+      "ref": "13:10",
+      "sv": "Waar is uw koning nu? Dat hij u behoude in al uw steden! En uw richters, waar gij van zeidet: Geef mij een koning en vorsten?",
+      "kjv": [
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": "H165"
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "thy",
+          "s": null
+        },
+        {
+          "t": "king:",
+          "s": "H4428"
+        },
+        {
+          "t": "where",
+          "s": "H645"
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "any",
+          "s": null
+        },
+        {
+          "t": "other",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "may",
+          "s": null
+        },
+        {
+          "t": "save",
+          "s": "H3467"
+        },
+        {
+          "t": "thee",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "all",
+          "s": null
+        },
+        {
+          "t": "thy",
+          "s": null
+        },
+        {
+          "t": "cities?",
+          "s": "H5892"
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "thy",
+          "s": null
+        },
+        {
+          "t": "judges",
+          "s": "H8199"
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "whom",
+          "s": null
+        },
+        {
+          "t": "thou",
+          "s": null
+        },
+        {
+          "t": "saidst,",
+          "s": "H559"
+        },
+        {
+          "t": "Give",
+          "s": "H5414"
+        },
+        {
+          "t": "me",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "king",
+          "s": "H4428"
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "princes?",
+          "s": "H8269"
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "will:",
+          "s": null
+        },
+        {
+          "t": "rather,",
+          "s": null
+        },
+        {
+          "t": "Where",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "thy",
+          "s": null
+        },
+        {
+          "t": "king?",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Hos.13.11",
+      "ref": "13:11",
+      "sv": "Ik gaf u een koning in Mijn toorn en nam [hem] weg in Mijn verbolgenheid.",
+      "kjv": [
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "gave",
+          "s": "H5414"
+        },
+        {
+          "t": "thee",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "king",
+          "s": "H4428"
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "mine",
+          "s": null
+        },
+        {
+          "t": "anger,",
+          "s": "H639"
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "took",
+          "s": "H3947"
+        },
+        {
+          "t": "him",
+          "s": null
+        },
+        {
+          "t": "away",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "my",
+          "s": null
+        },
+        {
+          "t": "wrath.",
+          "s": "H5678"
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Hos.13.12",
+      "ref": "13:12",
+      "sv": "Efraims ongerechtigheid is samengebonden, zijn zonde is opgelegd.",
+      "kjv": [
+        {
+          "t": "The",
+          "s": null
+        },
+        {
+          "t": "iniquity",
+          "s": "H5771"
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "Ephraim",
+          "s": "H669"
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "bound",
+          "s": null
+        },
+        {
+          "t": "up;",
+          "s": "H6887"
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "sin",
+          "s": "H2403"
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "hid.",
+          "s": "H6845"
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Hos.13.13",
+      "ref": "13:13",
+      "sv": "Smarten ener barende [vrouw] zullen hem aankomen; hij is een onwijs kind; want [anders] zou hij geen tijd in de kindergeboorte blijven staan.",
+      "kjv": [
+        {
+          "t": "The",
+          "s": null
+        },
+        {
+          "t": "sorrows",
+          "s": "H2256"
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "travailing",
+          "s": null
+        },
+        {
+          "t": "woman",
+          "s": "H3205"
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "come",
+          "s": "H935"
+        },
+        {
+          "t": "upon",
+          "s": null
+        },
+        {
+          "t": "him:",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "an",
+          "s": null
+        },
+        {
+          "t": "unwise",
+          "s": "H2450"
+        },
+        {
+          "t": "son;",
+          "s": "H1121"
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "should",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "stay",
+          "s": "H5975"
+        },
+        {
+          "t": "long",
+          "s": "H6256"
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "place",
+          "s": null
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "breaking",
+          "s": null
+        },
+        {
+          "t": "forth",
+          "s": "H4866"
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "children.",
+          "s": "H1121"
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Hos.13.14",
+      "ref": "13:14",
+      "sv": "[Doch] Ik zal hen van het geweld der hel verlossen, Ik zal ze vrijmaken van den dood: o dood! waar zijn uw pestilentien? hel! waar is uw verderf? Berouw zal van Mijn ogen verborgen zijn,",
+      "kjv": [
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "ransom",
+          "s": "H6299"
+        },
+        {
+          "t": "them",
+          "s": null
+        },
+        {
+          "t": "from",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "power",
+          "s": "H3027"
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "grave;",
+          "s": "H7585"
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "redeem",
+          "s": "H1350"
+        },
+        {
+          "t": "them",
+          "s": null
+        },
+        {
+          "t": "from",
+          "s": null
+        },
+        {
+          "t": "death:",
+          "s": "H4194"
+        },
+        {
+          "t": "O",
+          "s": null
+        },
+        {
+          "t": "death,",
+          "s": "H4194"
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": "H165"
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "thy",
+          "s": null
+        },
+        {
+          "t": "plagues;",
+          "s": "H1698"
+        },
+        {
+          "t": "O",
+          "s": null
+        },
+        {
+          "t": "grave,",
+          "s": "H7585"
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": "H165"
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "thy",
+          "s": null
+        },
+        {
+          "t": "destruction:",
+          "s": "H6987"
+        },
+        {
+          "t": "repentance",
+          "s": "H5164"
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "hid",
+          "s": "H5641"
+        },
+        {
+          "t": "from",
+          "s": null
+        },
+        {
+          "t": "mine",
+          "s": null
+        },
+        {
+          "t": "eyes.",
+          "s": "H5869"
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Hos.13.15",
+      "ref": "13:15",
+      "sv": "Want hij zal vrucht voortbrengen onder de broederen; [doch] er zal een oostenwind komen, een wind des HEEREN, opkomende uit de woestijn; en zijn springader zal uitdrogen, diezelve zal den schat van alle gewenste huisraad roven.",
+      "kjv": [
+        {
+          "t": "Though",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "fruitful",
+          "s": "H6500"
+        },
+        {
+          "t": "among",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "brethren,",
+          "s": "H251"
+        },
+        {
+          "t": "an",
+          "s": null
+        },
+        {
+          "t": "east",
+          "s": null
+        },
+        {
+          "t": "wind",
+          "s": "H6921"
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "come,",
+          "s": "H935"
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "wind",
+          "s": "H7307"
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "LORD",
+          "s": "H3068"
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "come",
+          "s": null
+        },
+        {
+          "t": "up",
+          "s": "H5927"
+        },
+        {
+          "t": "from",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "wilderness,",
+          "s": "H4057"
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "spring",
+          "s": "H4726"
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "become",
+          "s": null
+        },
+        {
+          "t": "dry,",
+          "s": "H954"
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "fountain",
+          "s": "H4599"
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "dried",
+          "s": null
+        },
+        {
+          "t": "up:",
+          "s": "H2717"
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "spoil",
+          "s": "H8154"
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "treasure",
+          "s": "H214"
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "all",
+          "s": null
+        },
+        {
+          "t": "pleasant",
+          "s": "H2532"
+        },
+        {
+          "t": "vessels.",
+          "s": "H3627"
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Hos.13.16",
+      "ref": "13:16",
+      "sv": "Samaria zal woest worden, want zij is wederspannig geweest tegen haar God; zij zullen door het zwaard vallen, hun kinderkens zullen verpletterd, en hun zwangere [vrouwen] zullen opengesneden worden.",
+      "kjv": [
+        {
+          "t": "Samaria",
+          "s": "H8111"
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "become",
+          "s": null
+        },
+        {
+          "t": "desolate;",
+          "s": "H816"
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "she",
+          "s": null
+        },
+        {
+          "t": "hath",
+          "s": null
+        },
+        {
+          "t": "rebelled",
+          "s": "H4784"
+        },
+        {
+          "t": "against",
+          "s": null
+        },
+        {
+          "t": "her",
+          "s": null
+        },
+        {
+          "t": "God:",
+          "s": "H430"
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "fall",
+          "s": "H5307"
+        },
+        {
+          "t": "by",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "sword:",
+          "s": "H2719"
+        },
+        {
+          "t": "their",
+          "s": null
+        },
+        {
+          "t": "infants",
+          "s": "H5768"
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "dashed",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "pieces,",
+          "s": "H7376"
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "their",
+          "s": null
+        },
+        {
+          "t": "women",
+          "s": null
+        },
+        {
+          "t": "with",
+          "s": null
+        },
+        {
+          "t": "child",
+          "s": "H2030"
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "ripped",
+          "s": null
+        },
+        {
+          "t": "up.",
+          "s": "H1234"
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Hos.14.1",
+      "ref": "14:1",
+      "sv": "Bekeer u, o Israel! tot den HEERE, uw God, toe; want gij zijt gevallen om uw ongerechtigheid.",
+      "kjv": [
+        {
+          "t": "O",
+          "s": null
+        },
+        {
+          "t": "Israel,",
+          "s": "H3478"
+        },
+        {
+          "t": "return",
+          "s": "H7725"
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "LORD",
+          "s": "H3068"
+        },
+        {
+          "t": "thy",
+          "s": null
+        },
+        {
+          "t": "God;",
+          "s": "H430"
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "thou",
+          "s": null
+        },
+        {
+          "t": "hast",
+          "s": null
+        },
+        {
+          "t": "fallen",
+          "s": "H3782"
+        },
+        {
+          "t": "by",
+          "s": null
+        },
+        {
+          "t": "thine",
+          "s": null
+        },
+        {
+          "t": "iniquity.",
+          "s": "H5771"
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Hos.14.2",
+      "ref": "14:2",
+      "sv": "Neem [deze] woorden met u, en bekeer u tot den HEERE; zeg tot Hem: Neem weg alle ongerechtigheid, en geef het goede, zo zullen wij betalen de varren onzer lippen.",
+      "kjv": [
+        {
+          "t": "Take",
+          "s": "H3947"
+        },
+        {
+          "t": "with",
+          "s": null
+        },
+        {
+          "t": "you",
+          "s": null
+        },
+        {
+          "t": "words,",
+          "s": "H1697"
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "turn",
+          "s": "H7725"
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "LORD:",
+          "s": "H3068"
+        },
+        {
+          "t": "say",
+          "s": "H559"
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "him,",
+          "s": null
+        },
+        {
+          "t": "Take",
+          "s": null
+        },
+        {
+          "t": "away",
+          "s": "H5375"
+        },
+        {
+          "t": "all",
+          "s": null
+        },
+        {
+          "t": "iniquity,",
+          "s": "H5771"
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "receive",
+          "s": "H3947"
+        },
+        {
+          "t": "us",
+          "s": null
+        },
+        {
+          "t": "graciously:",
+          "s": "H2896"
+        },
+        {
+          "t": "so",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "we",
+          "s": null
+        },
+        {
+          "t": "render",
+          "s": "H7999"
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "calves",
+          "s": "H6499"
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "our",
+          "s": null
+        },
+        {
+          "t": "lips.",
+          "s": "H8193"
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Hos.14.3",
+      "ref": "14:3",
+      "sv": "Assur zal ons niet behouden, wij zullen niet rijden op paarden, en tot het werk onzer handen niet meer zeggen: Gij zijt onze God. Immers zal een wees bij U ontfermd worden.",
+      "kjv": [
+        {
+          "t": "Asshur",
+          "s": "H804"
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "save",
+          "s": "H3467"
+        },
+        {
+          "t": "us;",
+          "s": null
+        },
+        {
+          "t": "we",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "not",
+          "s": null
+        },
+        {
+          "t": "ride",
+          "s": "H7392"
+        },
+        {
+          "t": "upon",
+          "s": null
+        },
+        {
+          "t": "horses:",
+          "s": "H5483"
+        },
+        {
+          "t": "neither",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "we",
+          "s": null
+        },
+        {
+          "t": "say",
+          "s": "H559"
+        },
+        {
+          "t": "any",
+          "s": null
+        },
+        {
+          "t": "more",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "work",
+          "s": "H4639"
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "our",
+          "s": null
+        },
+        {
+          "t": "hands,",
+          "s": "H3027"
+        },
+        {
+          "t": "Ye",
+          "s": null
+        },
+        {
+          "t": "are",
+          "s": null
+        },
+        {
+          "t": "our",
+          "s": null
+        },
+        {
+          "t": "gods:",
+          "s": "H430"
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "thee",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "fatherless",
+          "s": "H3490"
+        },
+        {
+          "t": "findeth",
+          "s": null
+        },
+        {
+          "t": "mercy.",
+          "s": "H7355"
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Hos.14.4",
+      "ref": "14:4",
+      "sv": "Ik zal hunlieder afkering genezen, Ik zal hen vrijwilliglijk liefhebben; want Mijn toorn is van hem gekeerd.",
+      "kjv": [
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "heal",
+          "s": "H7495"
+        },
+        {
+          "t": "their",
+          "s": null
+        },
+        {
+          "t": "backsliding,",
+          "s": "H4878"
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "love",
+          "s": "H157"
+        },
+        {
+          "t": "them",
+          "s": null
+        },
+        {
+          "t": "freely:",
+          "s": "H5071"
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "mine",
+          "s": null
+        },
+        {
+          "t": "anger",
+          "s": "H639"
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "turned",
+          "s": null
+        },
+        {
+          "t": "away",
+          "s": "H7725"
+        },
+        {
+          "t": "from",
+          "s": null
+        },
+        {
+          "t": "him.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Hos.14.5",
+      "ref": "14:5",
+      "sv": "Ik zal Israel zijn als de dauw; hij zal bloeien als de lelie, en hij zal zijn wortelen uitslaan als de Libanon.",
+      "kjv": [
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "will",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "as",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "dew",
+          "s": "H2919"
+        },
+        {
+          "t": "unto",
+          "s": null
+        },
+        {
+          "t": "Israel:",
+          "s": "H3478"
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "grow",
+          "s": "H6524"
+        },
+        {
+          "t": "as",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "lily,",
+          "s": "H7799"
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "cast",
+          "s": null
+        },
+        {
+          "t": "forth",
+          "s": "H5221"
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "roots",
+          "s": "H8328"
+        },
+        {
+          "t": "as",
+          "s": null
+        },
+        {
+          "t": "Lebanon.",
+          "s": "H3844"
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Hos.14.6",
+      "ref": "14:6",
+      "sv": "Zijn scheuten zullen zich uitspreiden, en zijn heerlijkheid zal zijn als des olijfbooms, en hij zal een reuk hebben als de Libanon.",
+      "kjv": [
+        {
+          "t": "His",
+          "s": null
+        },
+        {
+          "t": "branches",
+          "s": "H3127"
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "spread,",
+          "s": "H3212"
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "beauty",
+          "s": "H1935"
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "as",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "olive",
+          "s": null
+        },
+        {
+          "t": "tree,",
+          "s": "H2132"
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "smell",
+          "s": "H7381"
+        },
+        {
+          "t": "as",
+          "s": null
+        },
+        {
+          "t": "Lebanon.",
+          "s": "H3844"
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Hos.14.7",
+      "ref": "14:7",
+      "sv": "Zij zullen wederkeren, zittende onder zijn schaduw; zij zullen ten leven voortbrengen [als] koren, en bloeien als de wijnstok; zijn gedachtenis zal zijn als de wijn van Libanon.",
+      "kjv": [
+        {
+          "t": "They",
+          "s": null
+        },
+        {
+          "t": "that",
+          "s": null
+        },
+        {
+          "t": "dwell",
+          "s": "H3427"
+        },
+        {
+          "t": "under",
+          "s": null
+        },
+        {
+          "t": "his",
+          "s": null
+        },
+        {
+          "t": "shadow",
+          "s": "H6738"
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "return;",
+          "s": "H7725"
+        },
+        {
+          "t": "they",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "revive",
+          "s": "H2421"
+        },
+        {
+          "t": "as",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "corn,",
+          "s": "H1715"
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "grow",
+          "s": "H6524"
+        },
+        {
+          "t": "as",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "vine:",
+          "s": "H1612"
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "scent",
+          "s": "H2143"
+        },
+        {
+          "t": "thereof",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "be",
+          "s": null
+        },
+        {
+          "t": "as",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "wine",
+          "s": "H3196"
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "Lebanon.",
+          "s": "H3844"
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Hos.14.8",
+      "ref": "14:8",
+      "sv": "Efraim! wat heb Ik meer met de afgoden te doen? Ik heb [hem] verhoord, en zal op hem zien; Ik zal [hem] zijn als een groenende denneboom; uw vrucht is uit Mij gevonden.",
+      "kjv": [
+        {
+          "t": "Ephraim",
+          "s": "H669"
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "say,",
+          "s": null
+        },
+        {
+          "t": "What",
+          "s": null
+        },
+        {
+          "t": "have",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "to",
+          "s": null
+        },
+        {
+          "t": "do",
+          "s": null
+        },
+        {
+          "t": "any",
+          "s": null
+        },
+        {
+          "t": "more",
+          "s": null
+        },
+        {
+          "t": "with",
+          "s": null
+        },
+        {
+          "t": "idols?",
+          "s": "H6091"
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "have",
+          "s": null
+        },
+        {
+          "t": "heard",
+          "s": "H6030"
+        },
+        {
+          "t": "him,",
+          "s": null
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "observed",
+          "s": "H7789"
+        },
+        {
+          "t": "him:",
+          "s": null
+        },
+        {
+          "t": "I",
+          "s": null
+        },
+        {
+          "t": "am",
+          "s": null
+        },
+        {
+          "t": "like",
+          "s": null
+        },
+        {
+          "t": "a",
+          "s": null
+        },
+        {
+          "t": "green",
+          "s": "H7488"
+        },
+        {
+          "t": "fir",
+          "s": null
+        },
+        {
+          "t": "tree.",
+          "s": "H1265"
+        },
+        {
+          "t": "From",
+          "s": null
+        },
+        {
+          "t": "me",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "thy",
+          "s": null
+        },
+        {
+          "t": "fruit",
+          "s": "H6529"
+        },
+        {
+          "t": "found.",
+          "s": "H4672"
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Hos.14.9",
+      "ref": "14:9",
+      "sv": "Wie is wijs? die versta deze dingen; [wie] is verstandig? die bekenne ze; want des HEEREN wegen zijn recht, en de rechtvaardigen zullen daarin wandelen, maar de overtreders zullen daarin vallen.",
+      "kjv": [
+        {
+          "t": "Who",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "wise,",
+          "s": "H2450"
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "understand",
+          "s": "H995"
+        },
+        {
+          "t": "these",
+          "s": null
+        },
+        {
+          "t": "things?",
+          "s": null
+        },
+        {
+          "t": "prudent,",
+          "s": "H995"
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "know",
+          "s": "H3045"
+        },
+        {
+          "t": "them?",
+          "s": null
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "ways",
+          "s": "H1870"
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "LORD",
+          "s": "H3068"
+        },
+        {
+          "t": "are",
+          "s": null
+        },
+        {
+          "t": "right,",
+          "s": "H3477"
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "just",
+          "s": "H6662"
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "walk",
+          "s": "H3212"
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "them:",
+          "s": null
+        },
+        {
+          "t": "but",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "transgressors",
+          "s": "H6586"
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "fall",
+          "s": "H3782"
+        },
+        {
+          "t": "therein.",
+          "s": null
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    }
+  ],
+  "lexicon": {
+    "H3290": {
+      "strong": "H3290",
+      "language": "hebrew",
+      "lemma": "יַעֲקֹב",
+      "translit": "Yaʻăqôb",
+      "gloss_nl": null,
+      "gloss_en": "Jaakob, the Israelitish patriarch",
+      "usage_nl": [
+        "jakob",
+        "jakobs"
+      ],
+      "usage_en": [
+        "jacob",
+        "jacob."
+      ]
+    },
+    "H1272": {
+      "strong": "H1272",
+      "language": "hebrew",
+      "lemma": "בָּרַח",
+      "translit": "bârach",
+      "gloss_nl": null,
+      "gloss_en": "to bolt, i.e. figuratively, to flee suddenly",
+      "usage_nl": [],
+      "usage_en": [
+        "chase away; drive away",
+        "fain",
+        "flee away",
+        "put to flight",
+        "make haste",
+        "reach",
+        "run away",
+        "shoot."
+      ]
+    },
+    "H7704": {
+      "strong": "H7704",
+      "language": "hebrew",
+      "lemma": "שָׂדֶה",
+      "translit": "sâdeh",
+      "gloss_nl": null,
+      "gloss_en": "a field (as flat)",
+      "usage_nl": [
+        "velds",
+        "akker",
+        "veld"
+      ],
+      "usage_en": [
+        "field",
+        "fields",
+        "country",
+        "ground",
+        "land",
+        "soil",
+        "wild."
+      ]
+    },
+    "H758": {
+      "strong": "H758",
+      "language": "hebrew",
+      "lemma": "אֲרָם",
+      "translit": "ʼĂrâm",
+      "gloss_nl": null,
+      "gloss_en": "Aram or Syria, and its inhabitants; also the name of the son of Shem, a grandson of Nahor, and of an Israelite",
+      "usage_nl": [
+        "syrie"
+      ],
+      "usage_en": [
+        "syria",
+        "aram",
+        "mesopotamia",
+        "syrians."
+      ]
+    },
+    "H3478": {
+      "strong": "H3478",
+      "language": "hebrew",
+      "lemma": "יִשְׂרָאֵל",
+      "translit": "Yisrâʼêl",
+      "gloss_nl": "Israël; hij die strijdt met God",
+      "gloss_en": "Jisrael, a symbolical name of Jacob; also (typically) of his posterity",
+      "usage_nl": [
+        "israels",
+        "israel",
+        "israelietischen",
+        "israelieten"
+      ],
+      "usage_en": [
+        "israel",
+        "israelites",
+        "israel's",
+        "israel."
+      ]
+    },
+    "H5647": {
+      "strong": "H5647",
+      "language": "hebrew",
+      "lemma": "עָבַד",
+      "translit": "ʻâbad",
+      "gloss_nl": null,
+      "gloss_en": "to work (in any sense); by implication, to serve, till, (causatively) enslave, etc.",
+      "usage_nl": [
+        "dient",
+        "dienen",
+        "arbeiden",
+        "hebben",
+        "gediend",
+        "is",
+        "bearbeid",
+        "bouwen"
+      ],
+      "usage_en": [
+        "serve",
+        "labour",
+        "served",
+        "serving",
+        "work",
+        "with",
+        "eared",
+        "dress",
+        "servedst",
+        "be",
+        "keep in bondage",
+        "be bondmen",
+        "bond-service",
+        "compel",
+        "do",
+        "ear",
+        "execute",
+        "husbandman",
+        "keep",
+        "labour-ing man",
+        "bring to pass",
+        "cause to",
+        "make to serve-ing",
+        "self",
+        "become servant-s",
+        "do use service",
+        "till-er",
+        "transgress from margin",
+        "set a work",
+        "be wrought",
+        "worshipper"
+      ]
+    },
+    "H802": {
+      "strong": "H802",
+      "language": "hebrew",
+      "lemma": "אִשָּׁה",
+      "translit": "ʼishshâh",
+      "gloss_nl": null,
+      "gloss_en": "a woman",
+      "usage_nl": [
+        "vrouw",
+        "huisvrouw",
+        "vrouwen",
+        "vrouwelijk",
+        "worden",
+        "geworden",
+        "vrouwe",
+        "vrouwenkleed"
+      ],
+      "usage_en": [
+        "wife",
+        "woman",
+        "women",
+        "wives",
+        "married",
+        "marry",
+        "woman's",
+        "adulter ess",
+        "each",
+        "every",
+        "female",
+        "many",
+        "none",
+        "one",
+        "together",
+        "woman. often unexpressed in english."
+      ]
+    },
+    "H8104": {
+      "strong": "H8104",
+      "language": "hebrew",
+      "lemma": "שָׁמַר",
+      "translit": "shâmar",
+      "gloss_nl": null,
+      "gloss_en": "properly, to hedge about (as with thorns), i.e. guard; generally, to protect, attend to, etc.",
+      "usage_nl": [
+        "onderhouden",
+        "houden",
+        "waarnemen",
+        "waarnamen",
+        "wachten",
+        "bewaart",
+        "behoudt",
+        "u",
+        "waarneemt",
+        "onderhoudt",
+        "waar",
+        "vlijtig",
+        "hield",
+        "houdt",
+        "uzelven",
+        "naarstiglijk",
+        "bewaren",
+        "waarnemende",
+        "nemen",
+        "houdende",
+        "onderhielden",
+        "gaf",
+        "op",
+        "wachters"
+      ],
+      "usage_en": [
+        "keep",
+        "observe",
+        "kept",
+        "heed",
+        "beware",
+        "diligently",
+        "keepeth",
+        "keeping",
+        "observed",
+        "marked",
+        "watchmen",
+        "beward",
+        "be circumspect",
+        "take heed to self",
+        "keep-er",
+        "self",
+        "mark",
+        "look narrowly",
+        "preserve",
+        "regard",
+        "reserve",
+        "save self",
+        "sure",
+        "that lay wait for",
+        "watch-man."
+      ]
+    },
+    "H5030": {
+      "strong": "H5030",
+      "language": "hebrew",
+      "lemma": "נָבִיא",
+      "translit": "nâbîyʼ",
+      "gloss_nl": "profeet; verkondiger van Gods boodschap",
+      "gloss_en": "a prophet or (generally) inspired man",
+      "usage_nl": [
+        "profeet",
+        "profeten"
+      ],
+      "usage_en": [
+        "prophet",
+        "prophets",
+        "prophecy",
+        "that prophesy",
+        "prophet."
+      ]
+    },
+    "H3068": {
+      "strong": "H3068",
+      "language": "hebrew",
+      "lemma": "יְהֹוָה",
+      "translit": "Yᵉhôvâh",
+      "gloss_nl": "HEERE; de Eeuwige; de Eigennaam van God (JHWH / Yahweh)",
+      "gloss_en": "Jehovah, Jewish national name of God",
+      "usage_nl": [
+        "heere",
+        "heeren",
+        "god",
+        "hij"
+      ],
+      "usage_en": [
+        "lord",
+        "lord's",
+        "jehovah",
+        "the lord. compare h3050 יָהּ",
+        "h3069 יְהֹוִה."
+      ]
+    },
+    "H5927": {
+      "strong": "H5927",
+      "language": "hebrew",
+      "lemma": "עָלָה",
+      "translit": "ʻâlâh",
+      "gloss_nl": null,
+      "gloss_en": "to ascend, intransitively (be high) or actively (mount); used in a great variety of senses, primary and secondary, literal and figurative",
+      "usage_nl": [
+        "zijn",
+        "klim",
+        "waren",
+        "ging",
+        "op",
+        "zullen",
+        "optrekken",
+        "trekken",
+        "klomt",
+        "was",
+        "klom",
+        "offert",
+        "offeren",
+        "herkauwen",
+        "opgaan",
+        "opgevoerd",
+        "opklimmen",
+        "komen",
+        "varen",
+        "zult",
+        "opwaarts",
+        "opging",
+        "toog",
+        "zij",
+        "opkomen",
+        "optrok",
+        "bracht",
+        "opkwam",
+        "offerde",
+        "ga",
+        "opvaren",
+        "gij",
+        "heeft",
+        "opvoerde"
+      ],
+      "usage_en": [
+        "fell",
+        "up",
+        "went",
+        "offer",
+        "cheweth",
+        "chew",
+        "bring",
+        "groweth",
+        "come",
+        "brought",
+        "offering",
+        "ariseth",
+        "offered",
+        "arise up",
+        "cause to ascend up",
+        "at once",
+        "break the day up",
+        "bring up",
+        "cause to burn",
+        "carry up",
+        "cast up",
+        "shew",
+        "climb up",
+        "cause to",
+        "make to come up",
+        "cut off",
+        "dawn",
+        "depart",
+        "exalt",
+        "excel",
+        "fall",
+        "fetch up",
+        "get up",
+        "make to go away",
+        "up; grow over increase",
+        "lay",
+        "leap",
+        "levy",
+        "lift self up",
+        "light",
+        "make up",
+        "mention",
+        "mount up",
+        "make to pay",
+        "perfect",
+        "prefer",
+        "put on",
+        "raise",
+        "recover",
+        "restore",
+        "make to rise up",
+        "scale",
+        "set up",
+        "shoot forth up",
+        "begin to spring up",
+        "stir up",
+        "take away up",
+        "work."
+      ]
+    },
+    "H4714": {
+      "strong": "H4714",
+      "language": "hebrew",
+      "lemma": "מִצְרַיִם",
+      "translit": "Mitsrayim",
+      "gloss_nl": null,
+      "gloss_en": "Mitsrajim, i.e. Upper and Lower Egypt",
+      "usage_nl": [
+        "egypte",
+        "egyptenaren",
+        "egyptenaars",
+        "egypteland"
+      ],
+      "usage_en": [
+        "egypt",
+        "egyptians",
+        "mizraim."
+      ]
+    },
+    "H669": {
+      "strong": "H669",
+      "language": "hebrew",
+      "lemma": "אֶפְרַיִם",
+      "translit": "ʼEphrayim",
+      "gloss_nl": null,
+      "gloss_en": "Ephrajim, a son of Joseph; also the tribe descended from him, and its territory",
+      "usage_nl": [
+        "efraim"
+      ],
+      "usage_en": [
+        "ephraim",
+        "ephraimites."
+      ]
+    },
+    "H3707": {
+      "strong": "H3707",
+      "language": "hebrew",
+      "lemma": "כַּעַס",
+      "translit": "kaʻaç",
+      "gloss_nl": null,
+      "gloss_en": "to trouble; by implication, to grieve, rage, be indignant",
+      "usage_nl": [
+        "verwekken",
+        "verwekt",
+        "tergde",
+        "zij"
+      ],
+      "usage_en": [
+        "anger",
+        "provoked",
+        "be angry",
+        "be grieved",
+        "take indignation",
+        "provoke to anger",
+        "unto wrath",
+        "have sorrow",
+        "vex",
+        "be wroth."
+      ]
+    },
+    "H8563": {
+      "strong": "H8563",
+      "language": "hebrew",
+      "lemma": "תַּמְרוּר",
+      "translit": "tamrûwr",
+      "gloss_nl": null,
+      "gloss_en": "bitterness (plural as collective)",
+      "usage_nl": [],
+      "usage_en": [
+        "most bitter-ly."
+      ]
+    },
+    "H5203": {
+      "strong": "H5203",
+      "language": "hebrew",
+      "lemma": "נָטַשׁ",
+      "translit": "nâṭash",
+      "gloss_nl": null,
+      "gloss_en": "properly, to pound, i.e. smite; by implication (as if beating out, and thus expanding) to disperse; also, to thrust off, down, out or upon (inclusively, reject, let alone, permit, remit, etc.)",
+      "usage_nl": [
+        "varen"
+      ],
+      "usage_en": [
+        "forsook",
+        "cast off",
+        "drawn",
+        "let fall",
+        "forsake",
+        "join battle",
+        "leave off",
+        "lie still",
+        "loose",
+        "spread self abroad",
+        "stretch out",
+        "suffer."
+      ]
+    },
+    "H1818": {
+      "strong": "H1818",
+      "language": "hebrew",
+      "lemma": "דָּם",
+      "translit": "dâm",
+      "gloss_nl": "bloed; levenskracht; bloedschuld",
+      "gloss_en": "blood (as that which when shed causes death) of man or an animal; by analogy, the juice of the grape; figuratively (especially in the plural) bloodshed (i.e. drops of blood)",
+      "usage_nl": [
+        "bloed",
+        "bloeds",
+        "bloedschuld",
+        "bloedschulden",
+        "druivenbloed"
+      ],
+      "usage_en": [
+        "blood",
+        "blood-y",
+        "-guiltiness",
+        "-thirsty",
+        "innocent."
+      ]
+    },
+    "H2781": {
+      "strong": "H2781",
+      "language": "hebrew",
+      "lemma": "חֶרְפָּה",
+      "translit": "cherpâh",
+      "gloss_nl": null,
+      "gloss_en": "contumely, disgrace, the pudenda",
+      "usage_nl": [
+        "smaadheid",
+        "smaad"
+      ],
+      "usage_en": [
+        "reproach",
+        "rebuke",
+        "reproach-fully",
+        "shame."
+      ]
+    },
+    "H113": {
+      "strong": "H113",
+      "language": "hebrew",
+      "lemma": "אָדוֹן",
+      "translit": "ʼâdôwn",
+      "gloss_nl": null,
+      "gloss_en": "sovereign, i.e. controller (human or divine)",
+      "usage_nl": [
+        "heer",
+        "heere",
+        "heren"
+      ],
+      "usage_en": [
+        "lord",
+        "lords",
+        "master",
+        "owner. compare also names beginning with 'adoni-'."
+      ]
+    },
+    "H7725": {
+      "strong": "H7725",
+      "language": "hebrew",
+      "lemma": "שׁוּב",
+      "translit": "shûwb",
+      "gloss_nl": "terugkeren; omkeren; bekeren; herstellen",
+      "gloss_en": "to turn back (hence, away) transitively or intransitively, literally or figuratively (not necessarily with the idea of return to the starting point); generally to retreat; often adverbial, again",
+      "usage_nl": [
+        "wederom",
+        "zijn",
+        "worden",
+        "afgewend",
+        "afkeren",
+        "wederkeren",
+        "weder",
+        "wederbrengen",
+        "zeiden",
+        "wederkwaamt",
+        "hervatten",
+        "wende",
+        "ganselijk",
+        "toesturen",
+        "wedergeeft",
+        "omkeren",
+        "afkere",
+        "zekerlijk",
+        "wedergeven",
+        "keren",
+        "nemen",
+        "bekeren",
+        "wenden",
+        "henen",
+        "kwam",
+        "wederkerenden",
+        "zou",
+        "brengen",
+        "zal",
+        "zich",
+        "wederkeert",
+        "opmaakt",
+        "afkeert",
+        "afgekeerd",
+        "u",
+        "bekeerd"
+      ],
+      "usage_en": [
+        "returned",
+        "away",
+        "turned",
+        "return",
+        "again",
+        "restore",
+        "bring",
+        "brought",
+        "turn",
+        "consider",
+        "get",
+        "case",
+        "back",
+        "deliver",
+        "restored",
+        "call",
+        "render",
+        "converts",
+        "returneth",
+        "restorer",
+        "break",
+        "build",
+        "circumcise",
+        "dig",
+        "do anything",
+        "do evil",
+        "feed",
+        "lay down",
+        "lie down",
+        "lodge",
+        "make",
+        "rejoice",
+        "send",
+        "take",
+        "weep again",
+        "cause to answer again",
+        "in any case wise",
+        "at all",
+        "averse",
+        "bring again",
+        "home again",
+        "call to mind",
+        "carry again back",
+        "cease",
+        "certainly",
+        "come again back",
+        "continually",
+        "convert",
+        "deliver again",
+        "deny",
+        "draw back",
+        "fetch home again",
+        "fro",
+        "get oneself back again",
+        "give again",
+        "go again back",
+        "home",
+        "go out",
+        "hinder",
+        "let",
+        "see more",
+        "needs",
+        "be past",
+        "pay",
+        "pervert",
+        "pull in again",
+        "put again",
+        "up again",
+        "recall",
+        "recompense",
+        "recover",
+        "refresh",
+        "relieve",
+        "render again",
+        "requite",
+        "rescue",
+        "retrieve",
+        "cause to",
+        "make to return",
+        "reverse",
+        "reward",
+        "say nay",
+        "send back",
+        "set again",
+        "slide back",
+        "still",
+        "surely",
+        "take back off",
+        "make to turn again",
+        "self again",
+        "back again",
+        "backward",
+        "from",
+        "off",
+        "withdraw."
+      ]
+    },
+    "H1696": {
+      "strong": "H1696",
+      "language": "hebrew",
+      "lemma": "דָבַר",
+      "translit": "dâbar",
+      "gloss_nl": "spreken; zeggen; verkondigen; toespreken",
+      "gloss_en": "perhaps properly, to arrange; but used figuratively (of words), to speak; rarely (in a destructive sense) to subdue",
+      "usage_nl": [
+        "had",
+        "sprak",
+        "spreek",
+        "uitgesproken",
+        "spraken",
+        "spreken",
+        "heeft",
+        "spreekt",
+        "hebt",
+        "sprekende",
+        "gesproken",
+        "gij",
+        "zal",
+        "spraakt",
+        "hebben",
+        "spreke"
+      ],
+      "usage_en": [
+        "spoken",
+        "spake",
+        "speak",
+        "declared",
+        "commanded",
+        "saith",
+        "said",
+        "promised",
+        "out",
+        "talked",
+        "talk",
+        "speaking",
+        "speaketh",
+        "speakest",
+        "answer",
+        "appoint",
+        "bid",
+        "command",
+        "commune",
+        "declare",
+        "destroy",
+        "give",
+        "name",
+        "promise",
+        "pronounce",
+        "rehearse",
+        "say",
+        "be spokesman",
+        "subdue",
+        "teach",
+        "tell",
+        "think",
+        "use entreaties",
+        "utter",
+        "well",
+        "work."
+      ]
+    },
+    "H7578": {
+      "strong": "H7578",
+      "language": "hebrew",
+      "lemma": "רְתֵת",
+      "translit": "rᵉthêth",
+      "gloss_nl": null,
+      "gloss_en": "terror",
+      "usage_nl": [],
+      "usage_en": [
+        "trembling. �"
+      ]
+    },
+    "H5375": {
+      "strong": "H5375",
+      "language": "hebrew",
+      "lemma": "נָשָׂא",
+      "translit": "nâsâʼ",
+      "gloss_nl": "dragen; heffen; vergeven; opnemen; optillen",
+      "gloss_en": "to lift, in a great variety of applications, literal and figurative, absolute and relative",
+      "usage_nl": [
+        "hief",
+        "op",
+        "hef",
+        "wegdragen",
+        "dragen",
+        "neem",
+        "opgenomen",
+        "heeft",
+        "draagt",
+        "opheft",
+        "gebruiken",
+        "gebruikt",
+        "aanneemt",
+        "opnemen",
+        "heendragen",
+        "verlangt",
+        "verheffen",
+        "aannemen",
+        "droegen",
+        "opheffen",
+        "ontvangen",
+        "wegnam",
+        "worden",
+        "wegnemen",
+        "heft",
+        "verheven",
+        "verhevenen",
+        "wegvoeren",
+        "verhevene",
+        "aanbrengen",
+        "droeg"
+      ],
+      "usage_en": [
+        "up",
+        "bear",
+        "take",
+        "taken",
+        "bare",
+        "taketh",
+        "regardeth",
+        "carry",
+        "setteth",
+        "bring",
+        "regard",
+        "beareth",
+        "receive",
+        "wear",
+        "exalted",
+        "carried",
+        "extolled",
+        "high",
+        "away",
+        "one",
+        "accept",
+        "advance",
+        "arise",
+        "able to",
+        "armor",
+        "suffer to bear-er",
+        "bring forth",
+        "burn",
+        "carry away",
+        "cast",
+        "contain",
+        "desire",
+        "ease",
+        "exact",
+        "exalt self",
+        "extol",
+        "fetch",
+        "forgive",
+        "furnish",
+        "further",
+        "give",
+        "go on",
+        "help",
+        "hold up",
+        "honorable man",
+        "lade",
+        "lay",
+        "lift self up",
+        "lofty",
+        "marry",
+        "magnify",
+        "needs",
+        "obtain",
+        "pardon",
+        "raise up",
+        "respect",
+        "set up",
+        "spare",
+        "stir up",
+        "swear",
+        "take away",
+        "utterly",
+        "yield."
+      ]
+    },
+    "H816": {
+      "strong": "H816",
+      "language": "hebrew",
+      "lemma": "אָשַׁם",
+      "translit": "ʼâsham",
+      "gloss_nl": null,
+      "gloss_en": "to be guilty; by implication to be punished or perish",
+      "usage_nl": [
+        "gehouden"
+      ],
+      "usage_en": [
+        "offend",
+        "certainly",
+        "be-come",
+        "made desolate",
+        "destroy",
+        "greatly",
+        "found",
+        "hold guilty",
+        "offend acknowledge offence",
+        "trespass."
+      ]
+    },
+    "H1168": {
+      "strong": "H1168",
+      "language": "hebrew",
+      "lemma": "בַּעַל",
+      "translit": "Baʻal",
+      "gloss_nl": null,
+      "gloss_en": "Baal, a Phoenician deity",
+      "usage_nl": [
+        "baals",
+        "baal"
+      ],
+      "usage_en": [
+        "baalim",
+        "baal",
+        "baal's",
+        "plural baalim."
+      ]
+    },
+    "H4191": {
+      "strong": "H4191",
+      "language": "hebrew",
+      "lemma": "מוּת",
+      "translit": "mûwth",
+      "gloss_nl": "sterven; ter dood gebracht worden; vergaan",
+      "gloss_en": "to die (literally or figuratively); causatively, to kill",
+      "usage_nl": [
+        "waren",
+        "sterve",
+        "sterven",
+        "stierven",
+        "gestorven",
+        "gewisselijk",
+        "sterft",
+        "stierf",
+        "zij",
+        "zekerlijk",
+        "worden",
+        "doden",
+        "wegstervende",
+        "dode",
+        "zal",
+        "zijn",
+        "verstorvenen",
+        "dood",
+        "sterf",
+        "doodt",
+        "stierve"
+      ],
+      "usage_en": [
+        "died",
+        "die",
+        "surely",
+        "death",
+        "slay",
+        "dead",
+        "kill",
+        "killeth",
+        "dieth",
+        "at all",
+        "crying",
+        "be dead body",
+        "man",
+        "one",
+        "put to",
+        "worthy of death",
+        "destroy-er",
+        "cause to",
+        "be like to",
+        "must die",
+        "necro-mancer",
+        "must needs",
+        "very suddenly",
+        "in no wise."
+      ]
+    },
+    "H2398": {
+      "strong": "H2398",
+      "language": "hebrew",
+      "lemma": "חָטָא",
+      "translit": "châṭâʼ",
+      "gloss_nl": null,
+      "gloss_en": "properly, to miss; hence (figuratively and generally) to sin; by inference, to forfeit, lack, expiate, repent, (causatively) lead astray, condemn",
+      "usage_nl": [
+        "ontzondigen",
+        "worden",
+        "gezondigd",
+        "zondigen",
+        "zondigt",
+        "zondige"
+      ],
+      "usage_en": [
+        "purify",
+        "purified",
+        "sinned",
+        "sinneth",
+        "sin",
+        "sinful",
+        "bear the blame",
+        "cleanse",
+        "commit sin",
+        "by fault",
+        "harm he hath done",
+        "loss",
+        "miss",
+        "make offend-er",
+        "offer for sin",
+        "purge",
+        "purify self",
+        "make reconciliation",
+        "cause",
+        "make sin-ful",
+        "-ness",
+        "trespass."
+      ]
+    },
+    "H3254": {
+      "strong": "H3254",
+      "language": "hebrew",
+      "lemma": "יָסַף",
+      "translit": "yâçaph",
+      "gloss_nl": null,
+      "gloss_en": "to add or augment (often adverbial, to continue to do a thing)",
+      "usage_nl": [
+        "toedoen",
+        "voortvaren",
+        "toegedaan",
+        "zijn",
+        "meer",
+        "toe",
+        "voortvoeren",
+        "voortvare",
+        "voortaan",
+        "voortvoere",
+        "doen",
+        "daartoe",
+        "maken"
+      ],
+      "usage_en": [
+        "put",
+        "again",
+        "as",
+        "more",
+        "add",
+        "henceforth",
+        "further",
+        "exceed",
+        "any more",
+        "cease",
+        "come more",
+        "conceive again",
+        "continue",
+        "gather together",
+        "get more",
+        "give more-over",
+        "increase more and more",
+        "join",
+        "longer bring",
+        "do",
+        "make",
+        "much",
+        "the",
+        "yet more and more",
+        "proceed further",
+        "prolong",
+        "be strong- er",
+        "yet",
+        "yield."
+      ]
+    },
+    "H6213": {
+      "strong": "H6213",
+      "language": "hebrew",
+      "lemma": "עָשָׂה",
+      "translit": "ʻâsâh",
+      "gloss_nl": "maken; doen; volbrengen; handelen; bereiden",
+      "gloss_en": "to do or make, in the broadest sense and widest application",
+      "usage_nl": [
+        "deed",
+        "gemaakt",
+        "maakte",
+        "doet",
+        "heb",
+        "doen",
+        "heeft",
+        "maken",
+        "bereiden",
+        "hebben",
+        "was",
+        "worden",
+        "deden",
+        "had",
+        "zult",
+        "geoefend",
+        "hebt",
+        "hadden",
+        "kan",
+        "deedt",
+        "maakt",
+        "doe",
+        "verkregen",
+        "verkrijgen",
+        "doende",
+        "ik",
+        "gedaan",
+        "houdt",
+        "houden",
+        "zal",
+        "voeren",
+        "voert",
+        "besnijden",
+        "verrichtte",
+        "hij",
+        "zij",
+        "gij",
+        "bereidden",
+        "maker"
+      ],
+      "usage_en": [
+        "did",
+        "made",
+        "doest",
+        "done",
+        "do",
+        "offer",
+        "make",
+        "sacrifice",
+        "doeth",
+        "ordained",
+        "offered",
+        "so",
+        "executed",
+        "didst",
+        "perform",
+        "shewing",
+        "keep",
+        "deal",
+        "gotten",
+        "get",
+        "doing",
+        "execute",
+        "wrought",
+        "observe",
+        "committed",
+        "commit",
+        "maketh",
+        "pare",
+        "about",
+        "shewed",
+        "dress",
+        "dressed",
+        "maker",
+        "accomplish",
+        "procured",
+        "advance",
+        "appoint",
+        "apt",
+        "be at",
+        "become",
+        "bear",
+        "bestow",
+        "bring forth",
+        "bruise",
+        "be busy",
+        "certainly",
+        "have the charge of",
+        "deal with",
+        "deck",
+        "displease",
+        "ready dress-ed",
+        "put in execute-ion",
+        "exercise",
+        "fashion",
+        "feast",
+        "fight- ing man",
+        "finish",
+        "fit",
+        "fly",
+        "follow",
+        "fulfill",
+        "furnish",
+        "gather",
+        "go about",
+        "govern",
+        "grant",
+        "great",
+        "hinder",
+        "hold a feast",
+        "indeed",
+        "be industrious",
+        "journey",
+        "labour",
+        "maintain",
+        "be meet",
+        "be occupied",
+        "officer",
+        "bring come to pass",
+        "pracise",
+        "prepare",
+        "procure",
+        "provide",
+        "put",
+        "requite",
+        "serve",
+        "set",
+        "shew",
+        "sin",
+        "spend",
+        "surely",
+        "take",
+        "thoroughly",
+        "trim",
+        "very",
+        "vex",
+        "be warr- ior",
+        "work-man",
+        "yield",
+        "use."
+      ]
+    },
+    "H4541": {
+      "strong": "H4541",
+      "language": "hebrew",
+      "lemma": "מַסֵּכָה",
+      "translit": "maççêkâh",
+      "gloss_nl": null,
+      "gloss_en": "properly, a pouring over, i.e. fusion of metal (especially a cast image); by implication, a libation, i.e. league; concretely a coverlet (as if poured out)",
+      "usage_nl": [
+        "gegotene",
+        "beeld",
+        "gegoten"
+      ],
+      "usage_en": [
+        "molten",
+        "image",
+        "covering",
+        "molten image",
+        "vail."
+      ]
+    },
+    "H3701": {
+      "strong": "H3701",
+      "language": "hebrew",
+      "lemma": "כֶּסֶף",
+      "translit": "keçeph",
+      "gloss_nl": null,
+      "gloss_en": "silver (from its pale color); by implication, money",
+      "usage_nl": [
+        "geld",
+        "zilver",
+        "zilverlingen",
+        "gelds",
+        "zilveren"
+      ],
+      "usage_en": [
+        "money",
+        "silver",
+        "price",
+        "silver-ling."
+      ]
+    },
+    "H6091": {
+      "strong": "H6091",
+      "language": "hebrew",
+      "lemma": "עָצָב",
+      "translit": "ʻâtsâb",
+      "gloss_nl": null,
+      "gloss_en": "an (idolatrous) image",
+      "usage_nl": [],
+      "usage_en": [
+        "idol",
+        "image."
+      ]
+    },
+    "H8394": {
+      "strong": "H8394",
+      "language": "hebrew",
+      "lemma": "תָּבוּן",
+      "translit": "tâbûwn",
+      "gloss_nl": null,
+      "gloss_en": "intelligence; by implication, an argument; by extension, caprice",
+      "usage_nl": [
+        "verstand",
+        "verstands"
+      ],
+      "usage_en": [
+        "understanding",
+        "discretion",
+        "reason",
+        "skilfulness",
+        "wisdom."
+      ]
+    },
+    "H4639": {
+      "strong": "H4639",
+      "language": "hebrew",
+      "lemma": "מַעֲשֶׂה",
+      "translit": "maʻăseh",
+      "gloss_nl": null,
+      "gloss_en": "an action (good or bad); generally, a transaction; abstractly, activity; by implication, a product (specifically, a poem) or (generally) property",
+      "usage_nl": [
+        "werk",
+        "welgewrochte",
+        "werken",
+        "handenwerk",
+        "daden"
+      ],
+      "usage_en": [
+        "work",
+        "wrought",
+        "works",
+        "acts",
+        "act",
+        "art",
+        "bakemeat",
+        "business",
+        "deed",
+        "do-ing",
+        "labor",
+        "thing made",
+        "ware of making",
+        "occupation",
+        "thing offered",
+        "operation",
+        "possession",
+        "well",
+        "handy-",
+        "needle-",
+        "net- working",
+        "-manship",
+        "wrought."
+      ]
+    },
+    "H2796": {
+      "strong": "H2796",
+      "language": "hebrew",
+      "lemma": "חָרָשׁ",
+      "translit": "chârâsh",
+      "gloss_nl": null,
+      "gloss_en": "a fabricator or any material",
+      "usage_nl": [
+        "werkmeesters",
+        "werkmeester",
+        "smid"
+      ],
+      "usage_en": [
+        "craftsman",
+        "workman",
+        "smith",
+        "artificer",
+        "carpenter",
+        "engraver",
+        "maker",
+        "mason",
+        "skilful",
+        "worker",
+        "such as wrought."
+      ]
+    },
+    "H559": {
+      "strong": "H559",
+      "language": "hebrew",
+      "lemma": "אָמַר",
+      "translit": "ʼâmar",
+      "gloss_nl": "zeggen; spreken; bevelen; beweren",
+      "gloss_en": "to say (used with great latitude)",
+      "usage_nl": [
+        "had",
+        "zeide",
+        "zij",
+        "zeggen",
+        "sprak",
+        "zeggende",
+        "zeg",
+        "spreek",
+        "gezegd",
+        "zeiden",
+        "spraken",
+        "zeidet",
+        "ik",
+        "zal",
+        "zegt",
+        "zegge",
+        "zult",
+        "heeft",
+        "heb",
+        "hij",
+        "klaarlijk",
+        "gij",
+        "noemen",
+        "worden"
+      ],
+      "usage_en": [
+        "said",
+        "spake",
+        "saying",
+        "say",
+        "told",
+        "speak",
+        "tell",
+        "avouched",
+        "answer",
+        "saith",
+        "indeed",
+        "answered",
+        "sayest",
+        "saidst",
+        "call",
+        "termed",
+        "appoint",
+        "avouch",
+        "bid",
+        "boast self",
+        "certify",
+        "challenge",
+        "charge",
+        "at the",
+        "give command-ment",
+        "commune",
+        "consider",
+        "declare",
+        "demand",
+        "desire",
+        "determine",
+        "expressly",
+        "intend",
+        "name",
+        "plainly",
+        "promise",
+        "publish",
+        "report",
+        "require",
+        "speak against",
+        "of",
+        "still",
+        "suppose",
+        "talk",
+        "term",
+        "that is",
+        "think",
+        "use speech",
+        "utter",
+        "verily",
+        "yet."
+      ]
+    },
+    "H120": {
+      "strong": "H120",
+      "language": "hebrew",
+      "lemma": "אָדָם",
+      "translit": "ʼâdâm",
+      "gloss_nl": null,
+      "gloss_en": "ruddy i.e. a human being (an individual or the species, mankind, etc.)",
+      "usage_nl": [
+        "mens",
+        "mensen",
+        "adams"
+      ],
+      "usage_en": [
+        "man",
+        "men",
+        "persons",
+        "men's",
+        "man's",
+        "adam",
+        "another",
+        "hypocrite",
+        "common sort",
+        "low",
+        "man mean",
+        "of low degree",
+        "person."
+      ]
+    },
+    "H2076": {
+      "strong": "H2076",
+      "language": "hebrew",
+      "lemma": "זָבַח",
+      "translit": "zâbach",
+      "gloss_nl": "offeren; een slachtoffer brengen",
+      "gloss_en": "to slaughter an animal (usually in sacrifice)",
+      "usage_nl": [
+        "slachten",
+        "offeren",
+        "hebben",
+        "geofferd",
+        "offerde",
+        "slachtte",
+        "willen"
+      ],
+      "usage_en": [
+        "offer",
+        "kill",
+        "sacrifice",
+        "sacrificedst",
+        "sacrificed",
+        "offered",
+        "slew",
+        "do sacrifice",
+        "slay."
+      ]
+    },
+    "H5401": {
+      "strong": "H5401",
+      "language": "hebrew",
+      "lemma": "נָשַׁק",
+      "translit": "nâshaq",
+      "gloss_nl": null,
+      "gloss_en": "to kiss, literally or figuratively (touch); also (as a mode of attachment), to equip with weapons",
+      "usage_nl": [
+        "heeft",
+        "kusse"
+      ],
+      "usage_en": [
+        "kissed",
+        "kiss",
+        "armed men",
+        "rule",
+        "that touched."
+      ]
+    },
+    "H5695": {
+      "strong": "H5695",
+      "language": "hebrew",
+      "lemma": "עֵגֶל",
+      "translit": "ʻêgel",
+      "gloss_nl": null,
+      "gloss_en": "a (male) calf (as frisking round), especially one nearly grown (i.e. a steer)",
+      "usage_nl": [
+        "kalf"
+      ],
+      "usage_en": [
+        "calf",
+        "bullock",
+        "calf."
+      ]
+    },
+    "H1242": {
+      "strong": "H1242",
+      "language": "hebrew",
+      "lemma": "בֹּקֶר",
+      "translit": "bôqer",
+      "gloss_nl": null,
+      "gloss_en": "properly, dawn (as the break of day); generally, morning",
+      "usage_nl": [
+        "morgens",
+        "morgen",
+        "allen"
+      ],
+      "usage_en": [
+        "morning",
+        "morrow",
+        "day",
+        "early",
+        "morrow."
+      ]
+    },
+    "H6051": {
+      "strong": "H6051",
+      "language": "hebrew",
+      "lemma": "עָנָן",
+      "translit": "ʻânân",
+      "gloss_nl": null,
+      "gloss_en": "a cloud (as covering the sky), i.e. the nimbus or thunder-cloud",
+      "usage_nl": [
+        "wolk",
+        "nevel",
+        "wolken"
+      ],
+      "usage_en": [
+        "cloud",
+        "clouds",
+        "cloud-y."
+      ]
+    },
+    "H7925": {
+      "strong": "H7925",
+      "language": "hebrew",
+      "lemma": "שָׁכַם",
+      "translit": "shâkam",
+      "gloss_nl": null,
+      "gloss_en": "literally, to load up (on the back of man or beast), i.e. to start early in the morning",
+      "usage_nl": [
+        "stond",
+        "op",
+        "stonden"
+      ],
+      "usage_en": [
+        "early",
+        "up",
+        "arise",
+        "be up",
+        "get oneself up",
+        "rise up early betimes",
+        "morning."
+      ]
+    },
+    "H2919": {
+      "strong": "H2919",
+      "language": "hebrew",
+      "lemma": "טַל",
+      "translit": "ṭal",
+      "gloss_nl": null,
+      "gloss_en": "dew (as covering vegetation)",
+      "usage_nl": [
+        "dauw"
+      ],
+      "usage_en": [
+        "dew",
+        "dew."
+      ]
+    },
+    "H1980": {
+      "strong": "H1980",
+      "language": "hebrew",
+      "lemma": "הָלַךְ",
+      "translit": "hâlak",
+      "gloss_nl": null,
+      "gloss_en": "to walk (in a great variety of applications, literally and figuratively)",
+      "usage_nl": [
+        "heen",
+        "wandelt",
+        "hebt",
+        "wandelde",
+        "hebben",
+        "gaat",
+        "heengaan",
+        "henengaan",
+        "wandelen",
+        "gingen",
+        "toe",
+        "ging",
+        "henen",
+        "henentrekken",
+        "heeft",
+        "gaan",
+        "komen",
+        "ga",
+        "en",
+        "nagewandeld"
+      ],
+      "usage_en": [
+        "went",
+        "goeth",
+        "came",
+        "walk",
+        "go",
+        "walketh",
+        "on",
+        "walking",
+        "come",
+        "walked",
+        "gone",
+        "up",
+        "all along",
+        "apace",
+        "behave self",
+        "on continually",
+        "be conversant",
+        "depart",
+        "be eased",
+        "enter",
+        "exercise self",
+        "follow",
+        "forth",
+        "forward",
+        "get",
+        "go about",
+        "abroad",
+        "along",
+        "away",
+        "out",
+        "up and down",
+        "greater",
+        "grow",
+        "be wont to haunt",
+        "lead",
+        "march",
+        "more and more",
+        "move self",
+        "needs",
+        "pass away",
+        "be at the point",
+        "quite",
+        "run along",
+        "send",
+        "speedily",
+        "spread",
+        "still",
+        "surely",
+        "tale-bearer",
+        "travel-ler",
+        "walk abroad",
+        "to and fro",
+        "to places",
+        "wander",
+        "wax",
+        "way- faring man",
+        "be weak",
+        "whirl."
+      ]
+    },
+    "H4671": {
+      "strong": "H4671",
+      "language": "hebrew",
+      "lemma": "מֹץ",
+      "translit": "môts",
+      "gloss_nl": null,
+      "gloss_en": "chaff (as pressed out, i.e. winnowed or (rather) threshed loose)",
+      "usage_nl": [],
+      "usage_en": [
+        "chaff."
+      ]
+    },
+    "H5590": {
+      "strong": "H5590",
+      "language": "hebrew",
+      "lemma": "סָעַר",
+      "translit": "çâʻar",
+      "gloss_nl": null,
+      "gloss_en": "to rush upon; by implication, to toss (transitive or intransitive, literal or figurative)",
+      "usage_nl": [
+        "voortgedrevene"
+      ],
+      "usage_en": [
+        "tempest",
+        "be toss with tempest-uous",
+        "be sore",
+        "troubled",
+        "come out as a drive with the",
+        "scatter with a whirlwind."
+      ]
+    },
+    "H1637": {
+      "strong": "H1637",
+      "language": "hebrew",
+      "lemma": "גֹּרֶן",
+      "translit": "gôren",
+      "gloss_nl": null,
+      "gloss_en": "a threshing-floor (as made even); by analogy, any open area",
+      "usage_nl": [
+        "dorsvloer"
+      ],
+      "usage_en": [
+        "floor",
+        "corn",
+        "barn",
+        "threshing- floor",
+        "threshing-",
+        "void place."
+      ]
+    },
+    "H6227": {
+      "strong": "H6227",
+      "language": "hebrew",
+      "lemma": "עָשָׁן",
+      "translit": "ʻâshân",
+      "gloss_nl": null,
+      "gloss_en": "smoke, literally or figuratively (vapor, dust, anger)",
+      "usage_nl": [
+        "rook"
+      ],
+      "usage_en": [
+        "smoke",
+        "smoke-ing."
+      ]
+    },
+    "H699": {
+      "strong": "H699",
+      "language": "hebrew",
+      "lemma": "אֲרֻבָּה",
+      "translit": "ʼărubbâh",
+      "gloss_nl": null,
+      "gloss_en": "a lattice; (by implication) a window, dovecot (because of the pigeon-holes), chimney (with its apertures for smoke), sluice (with openings for water)",
+      "usage_nl": [
+        "vensters"
+      ],
+      "usage_en": [
+        "windows",
+        "chimney",
+        "window."
+      ]
+    },
+    "H430": {
+      "strong": "H430",
+      "language": "hebrew",
+      "lemma": "אֱלֹהִים",
+      "translit": "ʼĕlôhîym",
+      "gloss_nl": "God; de Almachtige; rechters (in juridische context)",
+      "gloss_en": "gods in the ordinary sense; but specifically used (in the plural thus, especially with the article) of the supreme God; occasionally applied by way of deference to magistrates; and sometimes as a superlative",
+      "usage_nl": [
+        "god",
+        "gods",
+        "goden",
+        "godes",
+        "gode",
+        "heere"
+      ],
+      "usage_en": [
+        "god",
+        "gods",
+        "god's",
+        "judge",
+        "angels",
+        "exceeding",
+        "god gods -dess",
+        "-ly",
+        "very great",
+        "judges",
+        "mighty."
+      ]
+    },
+    "H776": {
+      "strong": "H776",
+      "language": "hebrew",
+      "lemma": "אֶרֶץ",
+      "translit": "ʼerets",
+      "gloss_nl": "land; aarde; gebied; de wereld",
+      "gloss_en": "the earth (at large, or partitively a land)",
+      "usage_nl": [
+        "egypteland",
+        "land",
+        "lands",
+        "aarde",
+        "lande",
+        "aardrijks",
+        "aardrijk",
+        "aardbodems"
+      ],
+      "usage_en": [
+        "land",
+        "earth",
+        "country",
+        "ground",
+        "world",
+        "common",
+        "field",
+        "natins",
+        "way",
+        "wilderness",
+        "world."
+      ]
+    },
+    "H3045": {
+      "strong": "H3045",
+      "language": "hebrew",
+      "lemma": "יָדַע",
+      "translit": "yâdaʻ",
+      "gloss_nl": "kennen; weten; begrijpen; ervaren; erkennen",
+      "gloss_en": "to know (properly, to ascertain by seeing); used in a great variety of senses, figuratively, literally, euphemistically and inferentially (including observation, care, recognition; and causatively, instruction, designation, punishment, etc.)",
+      "usage_nl": [
+        "geweten",
+        "weten",
+        "heeft",
+        "hebben",
+        "hadden",
+        "worden",
+        "ervarene",
+        "kent",
+        "weet",
+        "maken",
+        "wetet",
+        "kendet",
+        "maakte",
+        "bekent",
+        "heb",
+        "hebt",
+        "kennen",
+        "zult",
+        "zijnde",
+        "verstaan",
+        "wistet",
+        "ken",
+        "kenden",
+        "achtte",
+        "had",
+        "bekende",
+        "worde",
+        "erkenne",
+        "kennis",
+        "onderwezen",
+        "gijlieden",
+        "gij",
+        "wete",
+        "kende",
+        "zijn"
+      ],
+      "usage_en": [
+        "wot",
+        "know",
+        "known",
+        "sure",
+        "knowledge",
+        "knoweth",
+        "teach",
+        "knowest",
+        "knewest",
+        "consider",
+        "knew",
+        "understand",
+        "perceive",
+        "taught",
+        "shewed",
+        "acknowledge",
+        "acquaintance-ted with",
+        "advise",
+        "answer",
+        "appoint",
+        "assuredly",
+        "be aware",
+        "un- awares",
+        "can-not",
+        "certainly",
+        "comprehend",
+        "could they",
+        "cunning",
+        "declare",
+        "be diligent",
+        "can",
+        "cause to discern",
+        "discover",
+        "endued with",
+        "familiar friend",
+        "famous",
+        "feel",
+        "can have",
+        "be ig- norant",
+        "instruct",
+        "kinsfolk",
+        "kinsman",
+        "cause to let",
+        "make know",
+        "come to give",
+        "have",
+        "take knowledge",
+        "have knowledge",
+        "be",
+        "make",
+        "make to be",
+        "make self known",
+        "be learned",
+        "lie by man",
+        "mark",
+        "privy to",
+        "prognosticator",
+        "regard",
+        "have respect",
+        "skilful",
+        "shew",
+        "can man of skill",
+        "be sure",
+        "of a surety",
+        "can tell",
+        "have understanding",
+        "will be",
+        "wist",
+        "wit",
+        "wot."
+      ]
+    },
+    "H2108": {
+      "strong": "H2108",
+      "language": "hebrew",
+      "lemma": "זוּלָה",
+      "translit": "zûwlâh",
+      "gloss_nl": null,
+      "gloss_en": "probably scattering, i.e. removal; used adverbially, except",
+      "usage_nl": [
+        "behalve"
+      ],
+      "usage_en": [
+        "save",
+        "only",
+        "beside",
+        "but",
+        "save."
+      ]
+    },
+    "H3467": {
+      "strong": "H3467",
+      "language": "hebrew",
+      "lemma": "יָשַׁע",
+      "translit": "yâshaʻ",
+      "gloss_nl": "verlossen; redden; helpen; zegevieren",
+      "gloss_en": "properly, to be open, wide or free, i.e. (by implication) to be safe; causatively, to free or succor",
+      "usage_nl": [
+        "verlossen",
+        "verloste",
+        "zijn",
+        "verlost",
+        "heiland",
+        "beschikt",
+        "behouden",
+        "verlos"
+      ],
+      "usage_en": [
+        "save",
+        "rescue",
+        "saved",
+        "saviour",
+        "salvation",
+        "at all",
+        "avenging",
+        "defend",
+        "deliver-er",
+        "help",
+        "preserve",
+        "be safe",
+        "bring having salvation",
+        "save-iour",
+        "get victory."
+      ]
+    },
+    "H1115": {
+      "strong": "H1115",
+      "language": "hebrew",
+      "lemma": "בִּלְתִּי",
+      "translit": "biltîy",
+      "gloss_nl": null,
+      "gloss_en": "properly, a failure of, i.e. (used only as a negative particle, usually with a prepositional prefix) not, except, without, unless, besides, because not, until, etc.",
+      "usage_nl": [
+        "dan"
+      ],
+      "usage_en": [
+        "but",
+        "beside",
+        "because unsatiable",
+        "continual",
+        "except",
+        "from",
+        "lest",
+        "neither",
+        "no more",
+        "none",
+        "not",
+        "nothing",
+        "save",
+        "that no",
+        "without."
+      ]
+    },
+    "H4057": {
+      "strong": "H4057",
+      "language": "hebrew",
+      "lemma": "מִדְבָּר",
+      "translit": "midbâr",
+      "gloss_nl": "woestijn; wildernis; veeland",
+      "gloss_en": "a pasture (i.e. open field, whither cattle are driven); by implication, a desert; also speech (including its organs)",
+      "usage_nl": [
+        "woestijn"
+      ],
+      "usage_en": [
+        "wilderness",
+        "desert",
+        "south",
+        "speech",
+        "wilderness."
+      ]
+    },
+    "H8514": {
+      "strong": "H8514",
+      "language": "hebrew",
+      "lemma": "תַּלְאוּבָה",
+      "translit": "talʼûwbâh",
+      "gloss_nl": null,
+      "gloss_en": "desiccation",
+      "usage_nl": [],
+      "usage_en": [
+        "great drought."
+      ]
+    },
+    "H4830": {
+      "strong": "H4830",
+      "language": "hebrew",
+      "lemma": "מִרְעִית",
+      "translit": "mirʻîyth",
+      "gloss_nl": null,
+      "gloss_en": "pasturage; concretely, a flock",
+      "usage_nl": [
+        "weide"
+      ],
+      "usage_en": [
+        "pastures",
+        "flock",
+        "pasture."
+      ]
+    },
+    "H7646": {
+      "strong": "H7646",
+      "language": "hebrew",
+      "lemma": "שָׂבַע",
+      "translit": "sâbaʻ",
+      "gloss_nl": null,
+      "gloss_en": "to sate, i.e. fill to satisfaction (literally or figuratively)",
+      "usage_nl": [
+        "zijt",
+        "zijn",
+        "worden",
+        "verzadigd",
+        "zat",
+        "verzadigt",
+        "verzadigen"
+      ],
+      "usage_en": [
+        "full",
+        "satisfied",
+        "filled",
+        "satisfy",
+        "have enough",
+        "fill full",
+        "self",
+        "with",
+        "be to the full of",
+        "have plenty of",
+        "be satiate",
+        "satisfy with",
+        "suffice",
+        "be weary of."
+      ]
+    },
+    "H3820": {
+      "strong": "H3820",
+      "language": "hebrew",
+      "lemma": "לֵב",
+      "translit": "lêb",
+      "gloss_nl": "hart; verstand; innerlijk; wil",
+      "gloss_en": "the heart; also used (figuratively) very widely for the feelings, the will and even the intellect; likewise for the centre of anything",
+      "usage_nl": [
+        "hart",
+        "midden",
+        "harten",
+        "harte"
+      ],
+      "usage_en": [
+        "heart",
+        "midst",
+        "comfortably",
+        "mind",
+        "care for",
+        "consent",
+        "considered",
+        "courag-eous",
+        "friend-ly",
+        "broken-",
+        "hard-",
+        "merry-",
+        "stiff-",
+        "stout-",
+        "double heart-ed",
+        "heed",
+        "i",
+        "kindly",
+        "mind-ed",
+        "regard-ed",
+        "themselves",
+        "unawares",
+        "understanding",
+        "well",
+        "willingly",
+        "wisdom."
+      ]
+    },
+    "H7311": {
+      "strong": "H7311",
+      "language": "hebrew",
+      "lemma": "רוּם",
+      "translit": "rûwm",
+      "gloss_nl": null,
+      "gloss_en": "to be high actively, to rise or raise (in various applications, literally or figuratively)",
+      "usage_nl": [
+        "hebben",
+        "heffen",
+        "offerden",
+        "hoge",
+        "langer",
+        "lang",
+        "verheffe",
+        "verhevene",
+        "geweest",
+        "verhoogd",
+        "hij",
+        "verhogen",
+        "hef",
+        "op",
+        "zijn",
+        "opsteken",
+        "neemt",
+        "verhef",
+        "steekt",
+        "omhoog"
+      ],
+      "usage_en": [
+        "offer",
+        "levy",
+        "up",
+        "high",
+        "taller",
+        "tall",
+        "loud",
+        "exalted",
+        "exalt",
+        "lift",
+        "bring up",
+        "exalt self",
+        "extol",
+        "give",
+        "go up",
+        "haughty",
+        "heave up",
+        "be",
+        "lift up on",
+        "make on",
+        "set up on",
+        "too high-er",
+        "one",
+        "hold up",
+        "lift-er up",
+        "be lofty",
+        "a- loud",
+        "mount up",
+        "offer up",
+        "presumptuously",
+        "be promote-ion",
+        "proud",
+        "set up",
+        "tall-er",
+        "take away",
+        "off",
+        "breed worms."
+      ]
+    },
+    "H7911": {
+      "strong": "H7911",
+      "language": "hebrew",
+      "lemma": "שָׁכַח",
+      "translit": "shâkach",
+      "gloss_nl": null,
+      "gloss_en": "to mislay, i.e. to be oblivious of, from want of memory or attention",
+      "usage_nl": [
+        "vergeet",
+        "vergeten",
+        "ganselijk",
+        "hebben",
+        "worden",
+        "gesteld",
+        "vergate"
+      ],
+      "usage_en": [
+        "forget",
+        "all",
+        "forgot",
+        "forgotten",
+        "forgettest",
+        "at all",
+        "cause to forget."
+      ]
+    },
+    "H7826": {
+      "strong": "H7826",
+      "language": "hebrew",
+      "lemma": "שַׁחַל",
+      "translit": "shachal",
+      "gloss_nl": null,
+      "gloss_en": "a lion (from his characteristic roar)",
+      "usage_nl": [],
+      "usage_en": [
+        "fierce lion."
+      ]
+    },
+    "H5246": {
+      "strong": "H5246",
+      "language": "hebrew",
+      "lemma": "נָמֵר",
+      "translit": "nâmêr",
+      "gloss_nl": null,
+      "gloss_en": "a leopard (from its stripes)",
+      "usage_nl": [],
+      "usage_en": [
+        "leopard."
+      ]
+    },
+    "H1870": {
+      "strong": "H1870",
+      "language": "hebrew",
+      "lemma": "דֶּרֶךְ",
+      "translit": "derek",
+      "gloss_nl": null,
+      "gloss_en": "a road (as trodden); figuratively, a course of life or mode of action, often adverb",
+      "usage_nl": [
+        "weg",
+        "alleenlijk",
+        "wegen",
+        "weegs",
+        "reize",
+        "naar",
+        "reis"
+      ],
+      "usage_en": [
+        "journey",
+        "way",
+        "ways",
+        "toward",
+        "along",
+        "away",
+        "because of",
+        "by",
+        "conversation",
+        "custom",
+        "east- ward",
+        "manner",
+        "passenger",
+        "through",
+        "high- path- way-side",
+        "whither-soever."
+      ]
+    },
+    "H7789": {
+      "strong": "H7789",
+      "language": "hebrew",
+      "lemma": "שׁוּר",
+      "translit": "shûwr",
+      "gloss_nl": null,
+      "gloss_en": "to spy out, i.e. (generally) survey, (for evil) lurk for, (for good) care for",
+      "usage_nl": [],
+      "usage_en": [
+        "behold",
+        "lay wait",
+        "look",
+        "observe",
+        "perceive",
+        "regard",
+        "see."
+      ]
+    },
+    "H6298": {
+      "strong": "H6298",
+      "language": "hebrew",
+      "lemma": "פָּגַשׁ",
+      "translit": "pâgash",
+      "gloss_nl": null,
+      "gloss_en": "to come in contact with, whether by accident or violence; figuratively, to concur",
+      "usage_nl": [],
+      "usage_en": [
+        "meet with",
+        "together."
+      ]
+    },
+    "H1677": {
+      "strong": "H1677",
+      "language": "hebrew",
+      "lemma": "דֹּב",
+      "translit": "dôb",
+      "gloss_nl": null,
+      "gloss_en": "the bear (as slow)",
+      "usage_nl": [],
+      "usage_en": [
+        "bear."
+      ]
+    },
+    "H7909": {
+      "strong": "H7909",
+      "language": "hebrew",
+      "lemma": "שַׁכּוּל",
+      "translit": "shakkûwl",
+      "gloss_nl": null,
+      "gloss_en": "bereaved",
+      "usage_nl": [],
+      "usage_en": [
+        "barren",
+        "bereaved robbed of children whelps."
+      ]
+    },
+    "H7167": {
+      "strong": "H7167",
+      "language": "hebrew",
+      "lemma": "קָרַע",
+      "translit": "qâraʻ",
+      "gloss_nl": null,
+      "gloss_en": "to rend, literally or figuratively (revile, paint the eyes, as if enlarging them)",
+      "usage_nl": [],
+      "usage_en": [
+        "cut out",
+        "rend",
+        "surely",
+        "tear."
+      ]
+    },
+    "H5458": {
+      "strong": "H5458",
+      "language": "hebrew",
+      "lemma": "סְגוֹר",
+      "translit": "çᵉgôwr",
+      "gloss_nl": null,
+      "gloss_en": "properly, shut up, i.e. the breast (as enclosing the heart); also gold (as generally shut up safely)",
+      "usage_nl": [],
+      "usage_en": [
+        "caul",
+        "gold."
+      ]
+    },
+    "H398": {
+      "strong": "H398",
+      "language": "hebrew",
+      "lemma": "אָכַל",
+      "translit": "ʼâkal",
+      "gloss_nl": "eten; verteren; nuttigen; verslinden",
+      "gloss_en": "to eat (literally or figuratively)",
+      "usage_nl": [
+        "eten",
+        "hebben",
+        "worden",
+        "at",
+        "verteerde",
+        "etet",
+        "ete",
+        "verterend",
+        "verteren",
+        "hebt",
+        "spijsde",
+        "zult",
+        "wordt",
+        "eet",
+        "gegeten",
+        "afeten",
+        "opeten",
+        "zal",
+        "zijn",
+        "aten",
+        "gij",
+        "hij",
+        "spijzen",
+        "eter",
+        "spijzigen",
+        "opaten",
+        "verteerd",
+        "opgegeten"
+      ],
+      "usage_en": [
+        "eat",
+        "up",
+        "devoured",
+        "eaten",
+        "consuming",
+        "consume",
+        "fed",
+        "devour",
+        "eatest",
+        "consumed",
+        "feed",
+        "eater",
+        "at all",
+        "burn up",
+        "devour-er",
+        "dine",
+        "eat-er",
+        "feed with",
+        "food",
+        "freely",
+        "in...wise-deed",
+        "plenty",
+        "lay meat",
+        "quite."
+      ]
+    },
+    "H3833": {
+      "strong": "H3833",
+      "language": "hebrew",
+      "lemma": "לָבִיא",
+      "translit": "lâbîyʼ",
+      "gloss_nl": null,
+      "gloss_en": "to roar; a lion (properly, a lioness as the fiercer (although not a roarer;))",
+      "usage_nl": [
+        "leeuw"
+      ],
+      "usage_en": [
+        "lion",
+        "great",
+        "old",
+        "stout lion",
+        "lioness",
+        "young lion."
+      ]
+    },
+    "H2416": {
+      "strong": "H2416",
+      "language": "hebrew",
+      "lemma": "חַי",
+      "translit": "chay",
+      "gloss_nl": "levend; levende; leven",
+      "gloss_en": "alive; hence, raw (flesh); fresh (plant, water, year), strong; also (as noun, especially in the feminine singular and masculine plural) life (or living thing), whether literally or figuratively",
+      "usage_nl": [
+        "levend",
+        "levenden",
+        "gedierte",
+        "levende",
+        "levens",
+        "leven",
+        "wild",
+        "leeft",
+        "levet",
+        "leve",
+        "leef",
+        "rauw"
+      ],
+      "usage_en": [
+        "alive",
+        "live",
+        "beasts",
+        "life",
+        "living",
+        "liveth",
+        "raw",
+        "age",
+        "appetite",
+        "wild beast",
+        "company",
+        "congregation",
+        "life-time",
+        "live-ly",
+        "living creature",
+        "thing",
+        "maintenance",
+        "merry",
+        "multitude",
+        "be old",
+        "quick",
+        "running",
+        "springing",
+        "troop."
+      ]
+    },
+    "H1234": {
+      "strong": "H1234",
+      "language": "hebrew",
+      "lemma": "בָּקַע",
+      "translit": "bâqaʻ",
+      "gloss_nl": null,
+      "gloss_en": "to cleave; generally, to rend, break, rip or open",
+      "usage_nl": [
+        "voortbreken",
+        "kliefde",
+        "worden"
+      ],
+      "usage_en": [
+        "forth",
+        "dividing",
+        "cleave",
+        "make a breach",
+        "break forth into",
+        "out",
+        "in pieces",
+        "through",
+        "up",
+        "be ready to burst",
+        "cleave asunder",
+        "cut out",
+        "divide",
+        "hatch",
+        "rend asunder",
+        "rip up",
+        "tear",
+        "win."
+      ]
+    },
+    "H7843": {
+      "strong": "H7843",
+      "language": "hebrew",
+      "lemma": "שָׁחַת",
+      "translit": "shâchath",
+      "gloss_nl": null,
+      "gloss_en": "to decay, i.e. (causatively) ruin (literally or figuratively)",
+      "usage_nl": [
+        "verderven",
+        "verderft",
+        "verdorven",
+        "verderf",
+        "zekerlijk",
+        "verdervende",
+        "verderver"
+      ],
+      "usage_en": [
+        "destroy",
+        "corrupt",
+        "corrupted",
+        "utterly",
+        "corrupters",
+        "waster",
+        "destroying",
+        "batter",
+        "cast off",
+        "corrupt-er",
+        "thing",
+        "destroy-er",
+        "-uction",
+        "lose",
+        "mar",
+        "perish",
+        "spill",
+        "spoiler",
+        "waste-r."
+      ]
+    },
+    "H5828": {
+      "strong": "H5828",
+      "language": "hebrew",
+      "lemma": "עֵזֶר",
+      "translit": "ʻêzer",
+      "gloss_nl": null,
+      "gloss_en": "aid",
+      "usage_nl": [
+        "hulp"
+      ],
+      "usage_en": [
+        "help",
+        "help."
+      ]
+    },
+    "H165": {
+      "strong": "H165",
+      "language": "hebrew",
+      "lemma": "אֱהִי",
+      "translit": "ʼĕhîy",
+      "gloss_nl": null,
+      "gloss_en": "where",
+      "usage_nl": [],
+      "usage_en": [
+        "i will be hosea 13:10",
+        "14 which is often the rendering of the same hebrew form from h1961 הָיָה."
+      ]
+    },
+    "H4428": {
+      "strong": "H4428",
+      "language": "hebrew",
+      "lemma": "מֶלֶךְ",
+      "translit": "melek",
+      "gloss_nl": "koning; vorst; alleenheerser",
+      "gloss_en": "a king",
+      "usage_nl": [
+        "koningen",
+        "koning",
+        "konings"
+      ],
+      "usage_en": [
+        "kings",
+        "king",
+        "king's",
+        "royal."
+      ]
+    },
+    "H645": {
+      "strong": "H645",
+      "language": "hebrew",
+      "lemma": "אֵפוֹ",
+      "translit": "ʼêphôw",
+      "gloss_nl": null,
+      "gloss_en": "strictly a demonstrative particle, here; but used of time, now or then",
+      "usage_nl": [],
+      "usage_en": [
+        "here",
+        "now",
+        "where?"
+      ]
+    },
+    "H5892": {
+      "strong": "H5892",
+      "language": "hebrew",
+      "lemma": "עִיר",
+      "translit": "ʻîyr",
+      "gloss_nl": null,
+      "gloss_en": "a city (a place guarded by waking or a watch) in the widest sense (even of a mere encampment or post)",
+      "usage_nl": [
+        "steden",
+        "stad",
+        "vrijsteden",
+        "vrijstad",
+        "palmstad"
+      ],
+      "usage_en": [
+        "cities",
+        "city",
+        "towns",
+        "ai from margin",
+        "court from margin",
+        "town."
+      ]
+    },
+    "H8199": {
+      "strong": "H8199",
+      "language": "hebrew",
+      "lemma": "שָׁפַט",
+      "translit": "shâphaṭ",
+      "gloss_nl": "oordelen; rechtspreken; uitspraak doen; besturen",
+      "gloss_en": "to judge, i.e. pronounce sentence (for or against); by implication, to vindicate or punish; by extenssion, to govern; passively, to litigate (literally or figuratively)",
+      "usage_nl": [
+        "rechters",
+        "richten",
+        "richt",
+        "rechter",
+        "doet",
+        "recht",
+        "richters",
+        "rechten"
+      ],
+      "usage_en": [
+        "judges",
+        "judge",
+        "plead",
+        "avenge",
+        "that condemn",
+        "contend",
+        "defend",
+        "execute judgment",
+        "be a judge-ment",
+        "needs",
+        "reason",
+        "rule."
+      ]
+    },
+    "H5414": {
+      "strong": "H5414",
+      "language": "hebrew",
+      "lemma": "נָתַן",
+      "translit": "nâthan",
+      "gloss_nl": "geven; stellen; maken; toewijzen; overleveren",
+      "gloss_en": "to give, used with greatest latitude of application (put, make, etc.)",
+      "usage_nl": [
+        "gaf",
+        "werpen",
+        "leggen",
+        "doen",
+        "wedergeven",
+        "geven",
+        "zal",
+        "zult",
+        "geef",
+        "worden",
+        "werd",
+        "ganselijk",
+        "heb",
+        "leg",
+        "worde",
+        "heeft",
+        "had",
+        "gegeven",
+        "boven",
+        "zou",
+        "stelde",
+        "levere",
+        "gave",
+        "ik",
+        "geeft",
+        "hebben",
+        "geve",
+        "stel",
+        "uitspreken",
+        "voorstel",
+        "maak",
+        "gevet",
+        "mildelijk",
+        "steken",
+        "stellen",
+        "zetten",
+        "toegelaten",
+        "gevende",
+        "legden",
+        "hebt",
+        "zette",
+        "maken",
+        "dat",
+        "ware",
+        "voorgesteld",
+        "hij",
+        "acht",
+        "maakt",
+        "zwijgt",
+        "verheven"
+      ],
+      "usage_en": [
+        "gave",
+        "cast",
+        "put",
+        "putting",
+        "give",
+        "make",
+        "given",
+        "surely",
+        "avenge",
+        "appoint",
+        "add",
+        "set",
+        "made",
+        "deliver",
+        "giveth",
+        "delivered",
+        "them",
+        "shewed",
+        "lay",
+        "giving",
+        "send",
+        "yield",
+        "shew",
+        "turn",
+        "bestow",
+        "givest",
+        "thrust",
+        "suffered",
+        "up",
+        "laid",
+        "cause",
+        "were",
+        "count",
+        "grant",
+        "bringeth",
+        "direct",
+        "yelled",
+        "apply",
+        "ascribe",
+        "assign",
+        "be healed",
+        "bring forth",
+        "hither",
+        "charge",
+        "come",
+        "commit",
+        "consider",
+        "cry",
+        "deliver up",
+        "distribute",
+        "do",
+        "doubtless",
+        "without fail",
+        "fasten",
+        "frame",
+        "get",
+        "give forth",
+        "over",
+        "hang up",
+        "have",
+        "indeed",
+        "lay unto charge",
+        "give leave",
+        "lend",
+        "let out",
+        "lie",
+        "lift up",
+        "o that",
+        "occupy",
+        "offer",
+        "ordain",
+        "pay",
+        "perform",
+        "place",
+        "pour",
+        "print",
+        "pull",
+        "put forth",
+        "recompense",
+        "render",
+        "requite",
+        "restore",
+        "send out",
+        "set forth",
+        "shoot forth up",
+        "sing",
+        "slander",
+        "strike",
+        "sub- mit",
+        "suffer",
+        "take",
+        "trade",
+        "utter",
+        "weep",
+        "willingly",
+        "withdraw",
+        "would to god",
+        "yield."
+      ]
+    },
+    "H8269": {
+      "strong": "H8269",
+      "language": "hebrew",
+      "lemma": "שַׂר",
+      "translit": "sar",
+      "gloss_nl": null,
+      "gloss_en": "a head person (of any rank or class)",
+      "usage_nl": [
+        "krijgsoverste",
+        "hoofdlieden",
+        "oversten",
+        "vorsten"
+      ],
+      "usage_en": [
+        "captain",
+        "captains",
+        "princes",
+        "captain that had rule",
+        "chief captain",
+        "general",
+        "governor",
+        "keeper",
+        "lord",
+        "-task-master",
+        "prince-ipal",
+        "ruler",
+        "steward."
+      ]
+    },
+    "H639": {
+      "strong": "H639",
+      "language": "hebrew",
+      "lemma": "אַף",
+      "translit": "ʼaph",
+      "gloss_nl": null,
+      "gloss_en": "properly, the nose or nostril; hence, the face, and occasionally a person; also (from the rapid breathing in passion) ire",
+      "usage_nl": [
+        "toorn",
+        "toorns",
+        "neus",
+        "aanzienlijk",
+        "aangezicht"
+      ],
+      "usage_en": [
+        "anger",
+        "wrath",
+        "before",
+        "worthy",
+        "face",
+        "anger-gry",
+        "countenance",
+        "forebearing",
+        "forehead",
+        "long- suffering",
+        "nose",
+        "nostril",
+        "snout",
+        "wrath."
+      ]
+    },
+    "H3947": {
+      "strong": "H3947",
+      "language": "hebrew",
+      "lemma": "לָקַח",
+      "translit": "lâqach",
+      "gloss_nl": "nemen; grijpen; aanvaarden; halen; ontvangen",
+      "gloss_en": "to take (in the widest variety of applications)",
+      "usage_nl": [
+        "nam",
+        "zult",
+        "nemen",
+        "neem",
+        "namen",
+        "ontvangen",
+        "ik",
+        "wij",
+        "kreeg",
+        "aangenomen",
+        "ontvangt",
+        "genomen",
+        "neme",
+        "neemt",
+        "hebben",
+        "heeft",
+        "wedernemen",
+        "ingenomen",
+        "hale",
+        "worden",
+        "is",
+        "wegnemen",
+        "aannemen"
+      ],
+      "usage_en": [
+        "took",
+        "take",
+        "received",
+        "out",
+        "taken",
+        "receive",
+        "taketh",
+        "fetch",
+        "her",
+        "bring",
+        "have",
+        "away",
+        "accept",
+        "buy",
+        "carry away",
+        "drawn",
+        "get",
+        "infold",
+        "many",
+        "mingle",
+        "place",
+        "receive-ing",
+        "reserve",
+        "seize",
+        "send for",
+        "take away",
+        "-ing",
+        "up",
+        "use",
+        "win."
+      ]
+    },
+    "H5678": {
+      "strong": "H5678",
+      "language": "hebrew",
+      "lemma": "עֶבְרָה",
+      "translit": "ʻebrâh",
+      "gloss_nl": null,
+      "gloss_en": "an outburst of passion",
+      "usage_nl": [],
+      "usage_en": [
+        "anger",
+        "rage",
+        "wrath."
+      ]
+    },
+    "H5771": {
+      "strong": "H5771",
+      "language": "hebrew",
+      "lemma": "עָוֺן",
+      "translit": "ʻâvôn",
+      "gloss_nl": null,
+      "gloss_en": "perversity, i.e. (moral) evil",
+      "usage_nl": [
+        "ongerechtigheden",
+        "ongerechtigheid",
+        "misdaad"
+      ],
+      "usage_en": [
+        "iniquities",
+        "iniquity",
+        "fault",
+        "mischeif",
+        "punishment of iniquity",
+        "sin."
+      ]
+    },
+    "H6887": {
+      "strong": "H6887",
+      "language": "hebrew",
+      "lemma": "צָרַר",
+      "translit": "tsârar",
+      "gloss_nl": null,
+      "gloss_en": "to cramp, literally or figuratively, transitive or intransitive",
+      "usage_nl": [
+        "vijandelijk",
+        "gehandeld",
+        "benauwen",
+        "beangstigen"
+      ],
+      "usage_en": [
+        "vex",
+        "besiege",
+        "adversary",
+        "be in afflict-ion",
+        "beseige",
+        "bind up",
+        "be in",
+        "bring distress",
+        "enemy",
+        "narrower",
+        "oppress",
+        "pangs",
+        "shut up",
+        "be in a strait trouble",
+        "vex."
+      ]
+    },
+    "H2403": {
+      "strong": "H2403",
+      "language": "hebrew",
+      "lemma": "חַטָּאָה",
+      "translit": "chaṭṭâʼâh",
+      "gloss_nl": null,
+      "gloss_en": "an offence (sometimes habitual sinfulness), and its penalty, occasion, sacrifice, or expiation; also (concretely) an offender",
+      "usage_nl": [
+        "zondoffer",
+        "zondoffers",
+        "zonden",
+        "zonde"
+      ],
+      "usage_en": [
+        "offering",
+        "sins",
+        "sin",
+        "punishment",
+        "punishment of sin",
+        "purifying-fication for sin",
+        "sin-ner",
+        "offering."
+      ]
+    },
+    "H6845": {
+      "strong": "H6845",
+      "language": "hebrew",
+      "lemma": "צָפַן",
+      "translit": "tsâphan",
+      "gloss_nl": null,
+      "gloss_en": "to hide (by covering over); by implication, to hoard or reserve; figuratively to deny; specifically (favorably) to protect, (unfavorably) to lurk",
+      "usage_nl": [],
+      "usage_en": [
+        "esteem",
+        "hide-den one",
+        "self",
+        "lay up",
+        "lurk be set privily",
+        "keep secret-ly",
+        "place."
+      ]
+    },
+    "H2256": {
+      "strong": "H2256",
+      "language": "hebrew",
+      "lemma": "חֶבֶל",
+      "translit": "chebel",
+      "gloss_nl": null,
+      "gloss_en": "a rope (as twisted), especially a measuring line; by implication, a district or inheritance (as measured); or a noose (as of cords); figuratively, a company (as if tied together); also a throe (especially of parturition); also ruin",
+      "usage_nl": [
+        "landstreek",
+        "snoer"
+      ],
+      "usage_en": [
+        "region",
+        "country",
+        "lot",
+        "band",
+        "coast",
+        "company",
+        "cord",
+        "destruction",
+        "line",
+        "pain",
+        "pang",
+        "portion",
+        "rope",
+        "snare",
+        "sorrow",
+        "tackling."
+      ]
+    },
+    "H3205": {
+      "strong": "H3205",
+      "language": "hebrew",
+      "lemma": "יָלַד",
+      "translit": "yâlad",
+      "gloss_nl": null,
+      "gloss_en": "to bear young; causatively, to beget; medically, to act as midwife; specifically, to show lineage",
+      "usage_nl": [
+        "baarde",
+        "was",
+        "had",
+        "werd",
+        "gebaard",
+        "zijn",
+        "gewon",
+        "geboren",
+        "hebben",
+        "worden",
+        "baren",
+        "gewinnen",
+        "heeft",
+        "gegenereerd",
+        "hebt",
+        "voortbrenge"
+      ],
+      "usage_en": [
+        "bare",
+        "born",
+        "forth",
+        "begat",
+        "beget",
+        "come",
+        "begotten",
+        "beareth",
+        "bear",
+        "birth-day",
+        "make to bring forth children",
+        "young",
+        "bring up",
+        "calve",
+        "child",
+        "be delivered of a child",
+        "time of delivery",
+        "gender",
+        "hatch",
+        "labour",
+        "do the office of a midwife",
+        "declare pedigrees",
+        "be the son of",
+        "woman in",
+        "woman that travail-eth",
+        "-ing woman."
+      ]
+    },
+    "H935": {
+      "strong": "H935",
+      "language": "hebrew",
+      "lemma": "בּוֹא",
+      "translit": "bôwʼ",
+      "gloss_nl": "komen; ingaan; brengen; arriveren; binnengaan",
+      "gloss_en": "to go or come (in a wide variety of applications)",
+      "usage_nl": [
+        "ga",
+        "gaan",
+        "dragen",
+        "ingaan",
+        "komen",
+        "ging",
+        "is",
+        "zijn",
+        "brengen",
+        "hebben",
+        "kwam",
+        "inga",
+        "inleide",
+        "zij",
+        "kwamen",
+        "waren",
+        "lijdt",
+        "brachten",
+        "gingen",
+        "aankwamen",
+        "ingaat",
+        "komt",
+        "gaat",
+        "daarin",
+        "gekomen",
+        "zullen",
+        "kwaamt",
+        "inkomen",
+        "inkomt",
+        "ingebracht",
+        "inbracht",
+        "brengt",
+        "in",
+        "zijt",
+        "inkomet",
+        "heengaat",
+        "ondergaat",
+        "gegaan",
+        "kome",
+        "zijnde",
+        "zult",
+        "ondergaan",
+        "ben",
+        "gebracht",
+        "zal",
+        "inbrengen",
+        "inbreng",
+        "breng",
+        "bracht",
+        "ik",
+        "inbrenge"
+      ],
+      "usage_en": [
+        "come",
+        "bring",
+        "goeth",
+        "went",
+        "in",
+        "down",
+        "brought",
+        "out",
+        "came",
+        "abide",
+        "abideth",
+        "go",
+        "fallen",
+        "coming",
+        "entrance",
+        "goest",
+        "bringeth",
+        "pass",
+        "employ",
+        "enter",
+        "comest",
+        "up",
+        "cometh",
+        "entered",
+        "apply",
+        "attain",
+        "be",
+        "befall",
+        "besiege",
+        "bring forth",
+        "into",
+        "to pass",
+        "call",
+        "carry",
+        "certainly",
+        "cause",
+        "let",
+        "thing for to come against",
+        "upon",
+        "depart",
+        "doubtless again",
+        "eat",
+        "cause to enter in",
+        "-tering",
+        "-trance",
+        "-try",
+        "be fallen",
+        "fetch",
+        "follow",
+        "get",
+        "give",
+        "go down",
+        "to war",
+        "grant",
+        "have",
+        "indeed",
+        "in- vade",
+        "lead",
+        "lift up",
+        "mention",
+        "pull in",
+        "put",
+        "resort",
+        "run down",
+        "send",
+        "set",
+        "well stricken in age",
+        "surely",
+        "take in",
+        "way."
+      ]
+    },
+    "H2450": {
+      "strong": "H2450",
+      "language": "hebrew",
+      "lemma": "חָכָם",
+      "translit": "châkâm",
+      "gloss_nl": null,
+      "gloss_en": "wise, (i.e. intelligent, skilful or artful)",
+      "usage_nl": [
+        "wijze",
+        "wijs",
+        "wijzen",
+        "onwijs"
+      ],
+      "usage_en": [
+        "wise",
+        "unwise",
+        "cunning",
+        "cunning man",
+        "subtil",
+        "un-",
+        "wisehearted",
+        "man."
+      ]
+    },
+    "H1121": {
+      "strong": "H1121",
+      "language": "hebrew",
+      "lemma": "בֵּן",
+      "translit": "bên",
+      "gloss_nl": "zoon; afstammeling; kind; lid van een groep",
+      "gloss_en": "a son (as a builder of the family name), in the widest sense (of literal and figurative relationship, including grandson, subject, nation, quality or condition, etc., (like father or brother), etc.)",
+      "usage_nl": [
+        "zoon",
+        "zoons",
+        "oud",
+        "zonen",
+        "jong",
+        "kinderen",
+        "vreemden",
+        "eenjarig",
+        "eenjarige",
+        "jonge",
+        "jongen",
+        "mannen",
+        "kindskinderen",
+        "kind",
+        "kindskind",
+        "heeft",
+        "weiden",
+        "mensenkinderen"
+      ],
+      "usage_en": [
+        "son",
+        "old",
+        "children",
+        "sons",
+        "young",
+        "first",
+        "meet",
+        "sons'",
+        "children's",
+        "son's",
+        "worthy",
+        "child",
+        "breed",
+        "afflicted",
+        "age",
+        "ahoh- ammon- hachmon- lev- ite",
+        "anoint- ed one",
+        "appointed to",
+        "arrow",
+        "assyr- babylon- egypt- grec- ian",
+        "one born",
+        "bough",
+        "branch",
+        "young bullock",
+        "young calf",
+        "came up in",
+        "colt",
+        "common",
+        "corn",
+        "daughter",
+        "of first",
+        "firstborn",
+        "foal",
+        "very fruitful",
+        "postage",
+        "in",
+        "kid",
+        "lamb",
+        "man",
+        "mighty",
+        "nephew",
+        "people",
+        "rebel",
+        "robber",
+        "servant born",
+        "soldier",
+        "spark",
+        "steward",
+        "stranger",
+        "surely",
+        "them of",
+        "tumultuous one",
+        "valiant-est",
+        "whelp",
+        "young one",
+        "youth."
+      ]
+    },
+    "H5975": {
+      "strong": "H5975",
+      "language": "hebrew",
+      "lemma": "עָמַד",
+      "translit": "ʻâmad",
+      "gloss_nl": null,
+      "gloss_en": "to stand, in various relations (literal and figurative, intransitive and transitive)",
+      "usage_nl": [
+        "stellen",
+        "worden",
+        "stonden",
+        "stel",
+        "staan",
+        "stelde",
+        "hebbe",
+        "staat",
+        "stondt",
+        "stond",
+        "sta"
+      ],
+      "usage_en": [
+        "present",
+        "presented",
+        "stood",
+        "set",
+        "stand",
+        "standeth",
+        "stoodest",
+        "stayed",
+        "abide behind",
+        "appoint",
+        "arise",
+        "cease",
+        "confirm",
+        "continue",
+        "dwell",
+        "be employed",
+        "endure",
+        "establish",
+        "leave",
+        "make",
+        "ordain",
+        "be over",
+        "place",
+        "be present self",
+        "raise up",
+        "remain",
+        "repair",
+        "serve",
+        "set forth",
+        "over",
+        "-tle",
+        "up",
+        "make to",
+        "make to be at a",
+        "with- stand by",
+        "fast",
+        "firm",
+        "still",
+        "be at a stay up",
+        "tarry."
+      ]
+    },
+    "H6256": {
+      "strong": "H6256",
+      "language": "hebrew",
+      "lemma": "עֵת",
+      "translit": "ʻêth",
+      "gloss_nl": null,
+      "gloss_en": "time, especially (adverb with preposition) now, when, etc.",
+      "usage_nl": [
+        "tijd",
+        "tijde"
+      ],
+      "usage_en": [
+        "time",
+        "times",
+        "season",
+        "when",
+        "after",
+        "al- ways",
+        "certain",
+        "continually",
+        "evening",
+        "long",
+        "due season",
+        "so long as",
+        "even-",
+        "evening-",
+        "noon- tide",
+        "meal-",
+        "what time",
+        "when."
+      ]
+    },
+    "H4866": {
+      "strong": "H4866",
+      "language": "hebrew",
+      "lemma": "מִשְׁבֵּר",
+      "translit": "mishbêr",
+      "gloss_nl": null,
+      "gloss_en": "the orifice of the womb (from which the fetus breaks forth)",
+      "usage_nl": [],
+      "usage_en": [
+        "birth",
+        "breaking forth."
+      ]
+    },
+    "H6299": {
+      "strong": "H6299",
+      "language": "hebrew",
+      "lemma": "פָּדָה",
+      "translit": "pâdâh",
+      "gloss_nl": null,
+      "gloss_en": "to sever, i.e. ransom; gener. to release, preserve",
+      "usage_nl": [
+        "verlost",
+        "hebt",
+        "heeft",
+        "worden",
+        "vrijgekochten"
+      ],
+      "usage_en": [
+        "redeemed",
+        "at all",
+        "deliver",
+        "by any means",
+        "ransom",
+        "that are to be",
+        "let be redeem-ed",
+        "rescue",
+        "surely."
+      ]
+    },
+    "H3027": {
+      "strong": "H3027",
+      "language": "hebrew",
+      "lemma": "יָד",
+      "translit": "yâd",
+      "gloss_nl": "hand; macht; kracht; zijde; heerschappij",
+      "gloss_en": "a hand (the open one (indicating power, means, direction, etc.),",
+      "usage_nl": [
+        "hand",
+        "handen",
+        "dienst",
+        "zijden",
+        "handsteen",
+        "handinstrument",
+        "streek",
+        "plaats"
+      ],
+      "usage_en": [
+        "hand",
+        "hands",
+        "charge",
+        "coast",
+        "throwing",
+        "place",
+        "also",
+        "power",
+        "where",
+        "be able",
+        "about",
+        "armholes",
+        "at",
+        "axletree",
+        "because of",
+        "beside",
+        "border",
+        "bounty",
+        "broad",
+        "broken- handed",
+        "by",
+        "consecrate",
+        "creditor",
+        "custody",
+        "debt",
+        "dominion",
+        "enough",
+        "fellowship",
+        "force",
+        "from",
+        "hand-staves",
+        "-y work",
+        "he",
+        "himself",
+        "in",
+        "labour",
+        "large",
+        "ledge",
+        "left- handed",
+        "means",
+        "mine",
+        "ministry",
+        "near",
+        "of",
+        "order",
+        "ordinance",
+        "our",
+        "parts",
+        "pain",
+        "presumptuously",
+        "service",
+        "side",
+        "sore",
+        "state",
+        "stay",
+        "draw with strength",
+        "stroke",
+        "swear",
+        "terror",
+        "thee",
+        "by them",
+        "themselves",
+        "thine own",
+        "thou",
+        "through",
+        "thumb",
+        "times",
+        "to",
+        "under",
+        "us",
+        "wait on",
+        "way- side",
+        "wide",
+        "with him",
+        "me",
+        "you",
+        "work",
+        "yield",
+        "yourselves."
+      ]
+    },
+    "H7585": {
+      "strong": "H7585",
+      "language": "hebrew",
+      "lemma": "שְׁאוֹל",
+      "translit": "shᵉʼôwl",
+      "gloss_nl": null,
+      "gloss_en": "Hades or the world of the dead (as if a subterranean retreat), including its accessories and inmates",
+      "usage_nl": [
+        "hel",
+        "helle"
+      ],
+      "usage_en": [
+        "hell",
+        "grave",
+        "pit."
+      ]
+    },
+    "H1350": {
+      "strong": "H1350",
+      "language": "hebrew",
+      "lemma": "גָּאַל",
+      "translit": "gâʼal",
+      "gloss_nl": "lossen; vrijkopen; beschermen als bloedverwant",
+      "gloss_en": "to be the next of kin (and as such to buy back a relative's property, marry his widow, etc.)",
+      "usage_nl": [
+        "wreker",
+        "bloedwreker",
+        "bloedwrekers",
+        "verlosser",
+        "verlosten",
+        "worden",
+        "verlost"
+      ],
+      "usage_en": [
+        "avenger",
+        "revenger",
+        "redeemer",
+        "ransomed",
+        "redeemed",
+        "in any wise",
+        "at all",
+        "deliver",
+        "do",
+        "perform the part of near",
+        "next kinsfolk-man",
+        "purchase",
+        "ransom",
+        "redeem-er",
+        "revenger."
+      ]
+    },
+    "H4194": {
+      "strong": "H4194",
+      "language": "hebrew",
+      "lemma": "מָוֶת",
+      "translit": "mâveth",
+      "gloss_nl": "dood; dodenrijk",
+      "gloss_en": "death (natural or violent); concretely, the dead, their place or state (hades); figuratively, pestilence, ruin",
+      "usage_nl": [
+        "sterven",
+        "waren",
+        "stierf",
+        "dood",
+        "doods"
+      ],
+      "usage_en": [
+        "death",
+        "died",
+        "be dead-ly",
+        "die-d."
+      ]
+    },
+    "H1698": {
+      "strong": "H1698",
+      "language": "hebrew",
+      "lemma": "דֶּבֶר",
+      "translit": "deber",
+      "gloss_nl": null,
+      "gloss_en": "a pestilence",
+      "usage_nl": [
+        "pestilentie"
+      ],
+      "usage_en": [
+        "pestilence",
+        "murrain",
+        "plague."
+      ]
+    },
+    "H6987": {
+      "strong": "H6987",
+      "language": "hebrew",
+      "lemma": "קֹטֶב",
+      "translit": "qôṭeb",
+      "gloss_nl": null,
+      "gloss_en": "extermination",
+      "usage_nl": [],
+      "usage_en": [
+        "destruction."
+      ]
+    },
+    "H5164": {
+      "strong": "H5164",
+      "language": "hebrew",
+      "lemma": "נֹחַם",
+      "translit": "nôcham",
+      "gloss_nl": null,
+      "gloss_en": "ruefulness, i.e. desistance",
+      "usage_nl": [],
+      "usage_en": [
+        "repentance."
+      ]
+    },
+    "H5641": {
+      "strong": "H5641",
+      "language": "hebrew",
+      "lemma": "סָתַר",
+      "translit": "çâthar",
+      "gloss_nl": null,
+      "gloss_en": "to hide (by covering), literally or figuratively",
+      "usage_nl": [
+        "zijn",
+        "verborgene",
+        "verbergen",
+        "ganselijk",
+        "verborgen",
+        "ik",
+        "mij"
+      ],
+      "usage_en": [
+        "hide",
+        "secret",
+        "surely",
+        "hid",
+        "be absent",
+        "keep close",
+        "conceal",
+        "hide self",
+        "keep secret",
+        "surely."
+      ]
+    },
+    "H5869": {
+      "strong": "H5869",
+      "language": "hebrew",
+      "lemma": "עַיִן",
+      "translit": "ʻayin",
+      "gloss_nl": "oog; bron; aanzien; inzicht; oogopslag",
+      "gloss_en": "an eye (literally or figuratively); by analogy, a fountain (as the eye of the landscape)",
+      "usage_nl": [
+        "ogen",
+        "waterfonteinen",
+        "goed",
+        "oog",
+        "fonteinen"
+      ],
+      "usage_en": [
+        "sight",
+        "eyes",
+        "fountains",
+        "think",
+        "eye",
+        "thee",
+        "presence",
+        "fountain",
+        "seemeth",
+        "affliction",
+        "outward appearance",
+        "before",
+        "think best",
+        "colour",
+        "conceit",
+        "be content",
+        "countenance",
+        "displease",
+        "eye-brow",
+        "-d",
+        "-sight",
+        "face",
+        "favour",
+        "furrow from the margin",
+        "him",
+        "humble",
+        "knowledge",
+        "look",
+        "well",
+        "me",
+        "open-ly",
+        "not please",
+        "regard",
+        "resemblance",
+        "them",
+        "us",
+        "you-rselves."
+      ]
+    },
+    "H6500": {
+      "strong": "H6500",
+      "language": "hebrew",
+      "lemma": "פָּרָא",
+      "translit": "pârâʼ",
+      "gloss_nl": null,
+      "gloss_en": "to bear fruit",
+      "usage_nl": [],
+      "usage_en": [
+        "be fruitful."
+      ]
+    },
+    "H251": {
+      "strong": "H251",
+      "language": "hebrew",
+      "lemma": "אָח",
+      "translit": "ʼâch",
+      "gloss_nl": "broeder; verwant; medemens",
+      "gloss_en": "a brother (used in the widest sense of literal relationship and metaphorical affinity or resemblance (like father))",
+      "usage_nl": [
+        "broeder",
+        "broederen",
+        "broeders",
+        "ander"
+      ],
+      "usage_en": [
+        "brother",
+        "brethren",
+        "brethren's",
+        "brother's",
+        "another",
+        "brother-ly; kindred",
+        "like",
+        "other. compare also the proper names beginning with 'ah-' or 'ahi-'."
+      ]
+    },
+    "H6921": {
+      "strong": "H6921",
+      "language": "hebrew",
+      "lemma": "קָדִים",
+      "translit": "qâdîym",
+      "gloss_nl": null,
+      "gloss_en": "the fore or front part; hence (by orientation) the East (often adverbially, eastward, for brevity the east wind)",
+      "usage_nl": [],
+      "usage_en": [
+        "east-ward",
+        "wind."
+      ]
+    },
+    "H7307": {
+      "strong": "H7307",
+      "language": "hebrew",
+      "lemma": "רוּחַ",
+      "translit": "rûwach",
+      "gloss_nl": "geest; wind; adem; gezindheid",
+      "gloss_en": "wind; by resemblance breath, i.e. a sensible (or even violent) exhalation; figuratively, life, anger, unsubstantiality; by extension, a region of the sky; by resemblance spirit, but only of a rational being (including its expression and functions)",
+      "usage_nl": [
+        "geesten",
+        "geest",
+        "wind"
+      ],
+      "usage_en": [
+        "spirits",
+        "spirit",
+        "wind",
+        "air",
+        "anger",
+        "blast",
+        "breath",
+        "cool",
+        "courage",
+        "mind",
+        "quarter",
+        "side",
+        "spirit-ual",
+        "tempest",
+        "vain",
+        "whirl- wind-y."
+      ]
+    },
+    "H4726": {
+      "strong": "H4726",
+      "language": "hebrew",
+      "lemma": "מָקוֹר",
+      "translit": "mâqôwr",
+      "gloss_nl": null,
+      "gloss_en": "properly, something dug, i.e. a (general) source (of water, even when naturally flowing; also of tears, blood (by euphemism, of the female pudenda); figuratively, of happiness, wisdom, progeny)",
+      "usage_nl": [
+        "springader"
+      ],
+      "usage_en": [
+        "fountain",
+        "issue",
+        "spring",
+        "well-spring."
+      ]
+    },
+    "H954": {
+      "strong": "H954",
+      "language": "hebrew",
+      "lemma": "בּוּשׁ",
+      "translit": "bûwsh",
+      "gloss_nl": null,
+      "gloss_en": "properly, to pale, i.e. by implication to be ashamed; also (by implication) to be disappointed or delayed",
+      "usage_nl": [
+        "worden",
+        "zijt"
+      ],
+      "usage_en": [
+        "ashamed",
+        "be",
+        "make",
+        "bring to",
+        "cause",
+        "put to",
+        "with",
+        "a- shamed-d",
+        "be put to confounded-fusion",
+        "become dry",
+        "delay",
+        "be long."
+      ]
+    },
+    "H4599": {
+      "strong": "H4599",
+      "language": "hebrew",
+      "lemma": "מַעְיָן",
+      "translit": "maʻyân",
+      "gloss_nl": null,
+      "gloss_en": "a fountain (also collectively), figuratively, a source (of satisfaction)",
+      "usage_nl": [
+        "waterfonteinen"
+      ],
+      "usage_en": [
+        "fountains",
+        "fountain",
+        "spring",
+        "well."
+      ]
+    },
+    "H2717": {
+      "strong": "H2717",
+      "language": "hebrew",
+      "lemma": "חָרַב",
+      "translit": "chârab",
+      "gloss_nl": null,
+      "gloss_en": "to parch (through drought) i.e. (by analogy,) to desolate, destroy, kill",
+      "usage_nl": [
+        "verwoesters",
+        "droog",
+        "hebt",
+        "gans",
+        "worden",
+        "woest"
+      ],
+      "usage_en": [
+        "waste",
+        "up",
+        "dried",
+        "utterly",
+        "wasted",
+        "desolate",
+        "decay",
+        "be desolate",
+        "destroy-er",
+        "be dry up",
+        "slay",
+        "surely",
+        "lay",
+        "lie",
+        "make waste."
+      ]
+    },
+    "H8154": {
+      "strong": "H8154",
+      "language": "hebrew",
+      "lemma": "שָׁסָה",
+      "translit": "shâçâh",
+      "gloss_nl": null,
+      "gloss_en": "to plunder",
+      "usage_nl": [],
+      "usage_en": [
+        "destroyer",
+        "rob",
+        "spoil-er."
+      ]
+    },
+    "H214": {
+      "strong": "H214",
+      "language": "hebrew",
+      "lemma": "אוֹצָר",
+      "translit": "ʼôwtsâr",
+      "gloss_nl": null,
+      "gloss_en": "a depository",
+      "usage_nl": [
+        "schat",
+        "schatten"
+      ],
+      "usage_en": [
+        "treasure",
+        "treasures",
+        "armory",
+        "cellar",
+        "garner",
+        "store-house",
+        "treasure-house -y."
+      ]
+    },
+    "H2532": {
+      "strong": "H2532",
+      "language": "hebrew",
+      "lemma": "חֶמְדָּה",
+      "translit": "chemdâh",
+      "gloss_nl": null,
+      "gloss_en": "delight",
+      "usage_nl": [
+        "gewenste"
+      ],
+      "usage_en": [
+        "pleasant",
+        "desire",
+        "goodly",
+        "precious."
+      ]
+    },
+    "H3627": {
+      "strong": "H3627",
+      "language": "hebrew",
+      "lemma": "כְּלִי",
+      "translit": "kᵉlîy",
+      "gloss_nl": null,
+      "gloss_en": "something prepared, i.e. any apparatus (as an implement, utensil, dress, vessel or weapon)",
+      "usage_nl": [
+        "vaten",
+        "gereedschap",
+        "vat",
+        "instrument",
+        "krijgsgereedschap",
+        "kleed"
+      ],
+      "usage_en": [
+        "instruments",
+        "made",
+        "jewels",
+        "instrument",
+        "weapon",
+        "thing",
+        "weapons",
+        "pertaineth",
+        "vessel",
+        "vessels",
+        "armour-bearer",
+        "artillery",
+        "bag",
+        "carriage",
+        "furnish",
+        "furniture",
+        "jewel",
+        "that is made of",
+        "one from another",
+        "that which pertaineth",
+        "pot",
+        "psaltery",
+        "sack",
+        "stuff",
+        "tool",
+        "ware",
+        "whatsoever."
+      ]
+    },
+    "H8111": {
+      "strong": "H8111",
+      "language": "hebrew",
+      "lemma": "שֹׁמְרוֹן",
+      "translit": "Shômᵉrôwn",
+      "gloss_nl": null,
+      "gloss_en": "Shomeron, a place in Palestine",
+      "usage_nl": [
+        "samaria"
+      ],
+      "usage_en": [
+        "samaria",
+        "samaria."
+      ]
+    },
+    "H4784": {
+      "strong": "H4784",
+      "language": "hebrew",
+      "lemma": "מָרָה",
+      "translit": "mârâh",
+      "gloss_nl": null,
+      "gloss_en": "to be (causatively, make) bitter (or unpleasant); (figuratively) to rebel (or resist; causatively, to provoke)",
+      "usage_nl": [
+        "geweest",
+        "wederspannig",
+        "wederspannigen",
+        "zijt",
+        "geworden"
+      ],
+      "usage_en": [
+        "rebelled",
+        "rebellious",
+        "rebel",
+        "bitter",
+        "change",
+        "be disobedient",
+        "disobey",
+        "grievously",
+        "provocation",
+        "provoke-ing",
+        "be rebel against",
+        "-lious."
+      ]
+    },
+    "H5307": {
+      "strong": "H5307",
+      "language": "hebrew",
+      "lemma": "נָפַל",
+      "translit": "nâphal",
+      "gloss_nl": null,
+      "gloss_en": "to fall, in a great variety of applications (intransitive or causative, literal or figurative)",
+      "usage_nl": [
+        "zal",
+        "vallen",
+        "neder",
+        "nederwierp",
+        "liggende",
+        "vallende",
+        "iemand",
+        "afviel",
+        "nedervallen",
+        "hij",
+        "viel",
+        "zij"
+      ],
+      "usage_en": [
+        "fall",
+        "cast",
+        "down",
+        "lying",
+        "man",
+        "fell",
+        "be accepted",
+        "cast down",
+        "self",
+        "lots",
+        "out",
+        "cease",
+        "die",
+        "divide by lot",
+        "let fail",
+        "cause to",
+        "let",
+        "make",
+        "ready to fall away",
+        "-en",
+        "-ing",
+        "fell-ing",
+        "fugitive",
+        "have inheritance",
+        "inferior",
+        "be judged by mistake for h6419 פָּלַל",
+        "lay along",
+        "cause to lie down",
+        "light down",
+        "be hast lost",
+        "overthrow",
+        "overwhelm",
+        "perish",
+        "present-ed",
+        "make to rot",
+        "slay",
+        "smite out",
+        "surely",
+        "throw down."
+      ]
+    },
+    "H2719": {
+      "strong": "H2719",
+      "language": "hebrew",
+      "lemma": "חֶרֶב",
+      "translit": "chereb",
+      "gloss_nl": null,
+      "gloss_en": "drought; also a cutting instrument (from its destructive effect), as a knife, sword, or other sharp implement",
+      "usage_nl": [
+        "zwaard",
+        "zwaards",
+        "droogte",
+        "messen"
+      ],
+      "usage_en": [
+        "sword",
+        "knives",
+        "axe",
+        "dagger",
+        "knife",
+        "mattock",
+        "tool."
+      ]
+    },
+    "H5768": {
+      "strong": "H5768",
+      "language": "hebrew",
+      "lemma": "עוֹלֵל",
+      "translit": "ʻôwlêl",
+      "gloss_nl": null,
+      "gloss_en": "a suckling",
+      "usage_nl": [],
+      "usage_en": [
+        "babe",
+        "young child",
+        "infant",
+        "little one."
+      ]
+    },
+    "H7376": {
+      "strong": "H7376",
+      "language": "hebrew",
+      "lemma": "רָטָשׁ",
+      "translit": "râṭâsh",
+      "gloss_nl": null,
+      "gloss_en": "to dash down",
+      "usage_nl": [],
+      "usage_en": [
+        "dash in pieces."
+      ]
+    },
+    "H2030": {
+      "strong": "H2030",
+      "language": "hebrew",
+      "lemma": "הָרֶה",
+      "translit": "hâreh",
+      "gloss_nl": null,
+      "gloss_en": "pregnant",
+      "usage_nl": [],
+      "usage_en": [
+        "be",
+        "woman with child",
+        "conceive",
+        "great."
+      ]
+    },
+    "H3782": {
+      "strong": "H3782",
+      "language": "hebrew",
+      "lemma": "כָּשַׁל",
+      "translit": "kâshal",
+      "gloss_nl": null,
+      "gloss_en": "to totter or waver (through weakness of the legs, especially the ankle); by implication, to falter, stumble, faint or fall",
+      "usage_nl": [
+        "struikelden",
+        "gewisselijk",
+        "vallen",
+        "zij"
+      ],
+      "usage_en": [
+        "stumbled",
+        "utterly",
+        "fall",
+        "stumble",
+        "bereave from the margin",
+        "cast down",
+        "be decayed",
+        "cause to fail",
+        "cause",
+        "make to fall down",
+        "-ing",
+        "feeble",
+        "be the ruin-ed",
+        "of",
+        "be overthrown",
+        "cause to stumble",
+        "be weak."
+      ]
+    },
+    "H1697": {
+      "strong": "H1697",
+      "language": "hebrew",
+      "lemma": "דָּבָר",
+      "translit": "dâbâr",
+      "gloss_nl": "woord; zaak; ding; bevel; gebeurtenis; boodschap",
+      "gloss_en": "a word; by implication, a matter (as spoken of) or thing; adverbially, a cause",
+      "usage_nl": [
+        "woord",
+        "stuk",
+        "elk",
+        "zaak",
+        "raad",
+        "ding",
+        "woorden",
+        "zaken",
+        "bescheid",
+        "dingen",
+        "belialswoord",
+        "zake",
+        "twistzaken",
+        "woords",
+        "naspraak",
+        "opspraak",
+        "oorzake",
+        "niets",
+        "iets",
+        "last",
+        "stukken"
+      ],
+      "usage_en": [
+        "thing",
+        "matter",
+        "sake",
+        "word",
+        "counsel",
+        "words",
+        "cause",
+        "things",
+        "saying",
+        "nothing",
+        "commandments",
+        "sakes",
+        "any",
+        "manner",
+        "thought",
+        "matters",
+        "sentence",
+        "case",
+        "speech",
+        "because",
+        "some",
+        "business",
+        "dealings",
+        "spoken",
+        "act",
+        "advice",
+        "affair",
+        "answer",
+        "any such thing",
+        "because of",
+        "book",
+        "care",
+        "certain rate",
+        "chronicles",
+        "commandment",
+        "commune-ication",
+        "concern-ing",
+        "confer",
+        "dearth",
+        "decree",
+        "deed",
+        "disease",
+        "due",
+        "duty",
+        "effect",
+        "eloquent",
+        "errand",
+        "evil favoured- ness",
+        "glory",
+        "harm",
+        "hurt",
+        "iniquity",
+        "judgment",
+        "language",
+        "lying",
+        "message",
+        "no thing",
+        "oracle",
+        "ought",
+        "parts",
+        "pertaining",
+        "please",
+        "portion",
+        "power",
+        "promise",
+        "provision",
+        "purpose",
+        "question",
+        "rate",
+        "reason",
+        "report",
+        "request",
+        "as hast said",
+        "sign",
+        "so",
+        "some uncleanness",
+        "somewhat to say",
+        "song",
+        "talk",
+        "task",
+        "that",
+        "there done",
+        "thing concerning",
+        "thus",
+        "tidings",
+        "what-soever",
+        "wherewith",
+        "which",
+        "work."
+      ]
+    },
+    "H2896": {
+      "strong": "H2896",
+      "language": "hebrew",
+      "lemma": "טוֹב",
+      "translit": "ṭôwb",
+      "gloss_nl": null,
+      "gloss_en": "good (as an adjective) in the widest sense; used likewise as a noun, both in the masculine and the feminine, the singular and the plural (good, a good or good thing, a good man or woman; the good, goods or good things, good men or women), also as an adverb (well)",
+      "usage_nl": [
+        "ogen",
+        "goed",
+        "goede",
+        "best",
+        "goeden",
+        "beter",
+        "aangenaam"
+      ],
+      "usage_en": [
+        "best",
+        "good",
+        "goodly",
+        "prosperity",
+        "goods",
+        "better",
+        "favour",
+        "well",
+        "beautiful",
+        "bountiful",
+        "cheerful",
+        "at ease",
+        "fair word",
+        "be in favour",
+        "fine",
+        "glad",
+        "good deed",
+        "-lier",
+        "-liest",
+        "-ly",
+        "-ness",
+        "-s",
+        "graciously",
+        "joyful",
+        "kindly",
+        "kindness",
+        "liketh best",
+        "loving",
+        "merry",
+        "most",
+        "pleasant",
+        "pleaseth",
+        "pleasure",
+        "precious",
+        "ready",
+        "sweet",
+        "wealth",
+        "welfare",
+        "be well-favoured."
+      ]
+    },
+    "H7999": {
+      "strong": "H7999",
+      "language": "hebrew",
+      "lemma": "שָׁלַם",
+      "translit": "shâlam",
+      "gloss_nl": null,
+      "gloss_en": "to be safe (in mind, body or estate); figuratively, to be (causatively, make) completed; by implication, to be friendly; by extension, to reciprocate (in various applications)",
+      "usage_nl": [
+        "vergeldt",
+        "vergelden",
+        "maken",
+        "betalen",
+        "wedergeven",
+        "nemen"
+      ],
+      "usage_en": [
+        "repayeth",
+        "repay",
+        "peace",
+        "pay",
+        "reward",
+        "restore",
+        "ended",
+        "make amends",
+        "make an end",
+        "finish",
+        "full",
+        "give again",
+        "make good",
+        "re- pay again",
+        "make to be at peace-able",
+        "that is perfect",
+        "perform",
+        "make prosper-ous",
+        "recompense",
+        "render",
+        "requite",
+        "make restitution",
+        "surely."
+      ]
+    },
+    "H6499": {
+      "strong": "H6499",
+      "language": "hebrew",
+      "lemma": "פַּר",
+      "translit": "par",
+      "gloss_nl": null,
+      "gloss_en": "a bullock (apparently as breaking forth in wild strength, or perhaps as dividing the hoof)",
+      "usage_nl": [
+        "var",
+        "varren"
+      ],
+      "usage_en": [
+        "bullock",
+        "bullocks",
+        "young bull-ock",
+        "calf",
+        "ox."
+      ]
+    },
+    "H8193": {
+      "strong": "H8193",
+      "language": "hebrew",
+      "lemma": "שָׂפָה",
+      "translit": "sâphâh",
+      "gloss_nl": null,
+      "gloss_en": "the lip (as a natural boundary); by implication, language; by analogy, a margin (of a vessel, water, cloth, etc.)",
+      "usage_nl": [
+        "lippen",
+        "oever"
+      ],
+      "usage_en": [
+        "lips",
+        "brink",
+        "bank",
+        "band",
+        "binding",
+        "border",
+        "brim",
+        "edge",
+        "language",
+        "lip",
+        "prating",
+        "sea-shore",
+        "side",
+        "speech",
+        "talk",
+        "vain words."
+      ]
+    },
+    "H804": {
+      "strong": "H804",
+      "language": "hebrew",
+      "lemma": "אַשּׁוּר",
+      "translit": "ʼAshshûwr",
+      "gloss_nl": null,
+      "gloss_en": "Ashshur, the second son of Shem; also his descendants and the country occupied by them (i.e. Assyria), its region and its empire",
+      "usage_nl": [
+        "assur"
+      ],
+      "usage_en": [
+        "assyrian",
+        "assyria",
+        "asshur",
+        "assur",
+        "assyrians. see h838 אָשֻׁר."
+      ]
+    },
+    "H7392": {
+      "strong": "H7392",
+      "language": "hebrew",
+      "lemma": "רָכַב",
+      "translit": "râkab",
+      "gloss_nl": null,
+      "gloss_en": "to ride (on an animal or in a vehicle); causatively, to place upon (for riding or generally), to despatch",
+      "usage_nl": [
+        "rijden",
+        "vaart",
+        "weg"
+      ],
+      "usage_en": [
+        "ride",
+        "rideth",
+        "rode",
+        "bring on horse- back",
+        "carry",
+        "get oneself up",
+        "on horse- back",
+        "put",
+        "cause to",
+        "make to ride in a chariot",
+        "on",
+        "-r",
+        "set."
+      ]
+    },
+    "H5483": {
+      "strong": "H5483",
+      "language": "hebrew",
+      "lemma": "סוּס",
+      "translit": "çûwç",
+      "gloss_nl": null,
+      "gloss_en": "a horse (as leaping); also a swallow (from its rapid flight)",
+      "usage_nl": [
+        "paarden",
+        "paard"
+      ],
+      "usage_en": [
+        "horses",
+        "horse",
+        "crane",
+        "horse -back",
+        "-hoof. compare h6571 פָּרָשׁ."
+      ]
+    },
+    "H3490": {
+      "strong": "H3490",
+      "language": "hebrew",
+      "lemma": "יָתוֹם",
+      "translit": "yâthôwm",
+      "gloss_nl": null,
+      "gloss_en": "a bereaved person",
+      "usage_nl": [
+        "wees",
+        "wezen"
+      ],
+      "usage_en": [
+        "fatherless",
+        "fatherless child",
+        "orphan."
+      ]
+    },
+    "H7355": {
+      "strong": "H7355",
+      "language": "hebrew",
+      "lemma": "רָחַם",
+      "translit": "râcham",
+      "gloss_nl": null,
+      "gloss_en": "to fondle; by implication, to love, especially to compassionate",
+      "usage_nl": [
+        "erbarme",
+        "ontfermen",
+        "ontfermer",
+        "ontferme",
+        "ontfermd"
+      ],
+      "usage_en": [
+        "compassion",
+        "mercy",
+        "have compassion on",
+        "upon",
+        "love",
+        "find",
+        "have",
+        "obtain",
+        "shew mercy-iful",
+        "on",
+        "have pity",
+        "ruhamah",
+        "surely."
+      ]
+    },
+    "H7495": {
+      "strong": "H7495",
+      "language": "hebrew",
+      "lemma": "רָפָא",
+      "translit": "râphâʼ",
+      "gloss_nl": null,
+      "gloss_en": "properly, to mend (by stitching), i.e. (figuratively) to cure",
+      "usage_nl": [
+        "worden",
+        "heel",
+        "heelde",
+        "genezen"
+      ],
+      "usage_en": [
+        "healed",
+        "heal",
+        "repaired",
+        "cure",
+        "cause to heal",
+        "physician",
+        "repair",
+        "thoroughly",
+        "make whole. see h7503 רָפָה."
+      ]
+    },
+    "H4878": {
+      "strong": "H4878",
+      "language": "hebrew",
+      "lemma": "מְשׁוּבָה",
+      "translit": "mᵉshûwbâh",
+      "gloss_nl": null,
+      "gloss_en": "apostasy",
+      "usage_nl": [
+        "afkeringen",
+        "afgekeerde"
+      ],
+      "usage_en": [
+        "backslidings",
+        "backsliding",
+        "turning away."
+      ]
+    },
+    "H157": {
+      "strong": "H157",
+      "language": "hebrew",
+      "lemma": "אָהַב",
+      "translit": "ʼâhab",
+      "gloss_nl": null,
+      "gloss_en": "to have affection for (sexually or otherwise)",
+      "usage_nl": [
+        "liefhad",
+        "liefhebben",
+        "hebben",
+        "liefheeft",
+        "liefhebbende",
+        "liefhebt",
+        "beminde",
+        "had",
+        "lief",
+        "heeft",
+        "hebt",
+        "heb"
+      ],
+      "usage_en": [
+        "loved",
+        "love",
+        "loveth",
+        "beloved",
+        "lovedst",
+        "be- love-d",
+        "-ly",
+        "-r",
+        "like",
+        "friend."
+      ]
+    },
+    "H5071": {
+      "strong": "H5071",
+      "language": "hebrew",
+      "lemma": "נְדָבָה",
+      "translit": "nᵉdâbâh",
+      "gloss_nl": null,
+      "gloss_en": "properly (abstractly) spontaneity, or (adjectively) spontaneous; also (concretely) a spontaneous or (by inference, in plural) abundant gift",
+      "usage_nl": [
+        "offeren",
+        "offer",
+        "vrijwillige"
+      ],
+      "usage_en": [
+        "offerings",
+        "offering",
+        "free-will offering",
+        "freely",
+        "plentiful",
+        "voluntary-ily",
+        "willing-ly",
+        "offering."
+      ]
+    },
+    "H6524": {
+      "strong": "H6524",
+      "language": "hebrew",
+      "lemma": "פָּרַח",
+      "translit": "pârach",
+      "gloss_nl": null,
+      "gloss_en": "to break forth as a bud, i.e. bloom; generally, to spread; specifically, to fly (as extending the wings); figuratively, to flourish",
+      "usage_nl": [],
+      "usage_en": [
+        "abroad",
+        "abundantly",
+        "blossom",
+        "break forth out",
+        "bud",
+        "flourish",
+        "make fly",
+        "grow",
+        "spread",
+        "spring up."
+      ]
+    },
+    "H7799": {
+      "strong": "H7799",
+      "language": "hebrew",
+      "lemma": "שׁוּשַׁן",
+      "translit": "shûwshan",
+      "gloss_nl": null,
+      "gloss_en": "a lily (from its whiteness), as aflower of architectural ornament; also a (straight) trumpet (from the tubular shape)",
+      "usage_nl": [],
+      "usage_en": [
+        "lily",
+        "shoshannim."
+      ]
+    },
+    "H5221": {
+      "strong": "H5221",
+      "language": "hebrew",
+      "lemma": "נָכָה",
+      "translit": "nâkâh",
+      "gloss_nl": null,
+      "gloss_en": "to strike (lightly or severely, literally or figuratively)",
+      "usage_nl": [
+        "verslagenen",
+        "was",
+        "verslagene",
+        "versla",
+        "is",
+        "heeft",
+        "had",
+        "slaat",
+        "slager",
+        "sloegen",
+        "sloeg",
+        "ganselijk",
+        "slaan",
+        "hebben",
+        "sla",
+        "slagen",
+        "verslaat",
+        "verslaan",
+        "worden",
+        "steken",
+        "geslagen"
+      ],
+      "usage_en": [
+        "slain",
+        "smite",
+        "smote",
+        "smitten",
+        "killeth",
+        "slayer",
+        "surely",
+        "slay",
+        "beaten",
+        "stripes",
+        "beat",
+        "smiteth",
+        "struck",
+        "stricken",
+        "smiters",
+        "cast forth",
+        "clap",
+        "give wounds",
+        "go forward",
+        "indeed",
+        "kill",
+        "make slaughter",
+        "murderer",
+        "punish",
+        "slaughter",
+        "slay-er",
+        "-ing",
+        "smite-r",
+        "strike",
+        "be stricken",
+        "give stripes",
+        "wound."
+      ]
+    },
+    "H8328": {
+      "strong": "H8328",
+      "language": "hebrew",
+      "lemma": "שֶׁרֶשׁ",
+      "translit": "sheresh",
+      "gloss_nl": null,
+      "gloss_en": "a root (literally or figuratively)",
+      "usage_nl": [
+        "wortel"
+      ],
+      "usage_en": [
+        "root",
+        "bottom",
+        "deep",
+        "heel",
+        "root."
+      ]
+    },
+    "H3844": {
+      "strong": "H3844",
+      "language": "hebrew",
+      "lemma": "לְבָנוֹן",
+      "translit": "Lᵉbânôwn",
+      "gloss_nl": null,
+      "gloss_en": "Lebanon, a mountain range in Palestine",
+      "usage_nl": [
+        "libanon"
+      ],
+      "usage_en": [
+        "lebanon",
+        "lebanon."
+      ]
+    },
+    "H3127": {
+      "strong": "H3127",
+      "language": "hebrew",
+      "lemma": "יוֹנֶקֶת",
+      "translit": "yôwneqeth",
+      "gloss_nl": null,
+      "gloss_en": "a sprout",
+      "usage_nl": [],
+      "usage_en": [
+        "tender branch",
+        "young twig."
+      ]
+    },
+    "H3212": {
+      "strong": "H3212",
+      "language": "hebrew",
+      "lemma": "יָלַךְ",
+      "translit": "yâlak",
+      "gloss_nl": null,
+      "gloss_en": "to walk (literally or figuratively); causatively, to carry (in various senses)",
+      "usage_nl": [
+        "voort",
+        "ging",
+        "gingen",
+        "doorwandelden",
+        "gaan",
+        "wandelen",
+        "voorttrekken",
+        "ga",
+        "gaat",
+        "heeft",
+        "wandelende",
+        "heengaat",
+        "henen",
+        "zijn",
+        "heen",
+        "door",
+        "zijt",
+        "volgt",
+        "liep",
+        "toog",
+        "hij",
+        "navolgen",
+        "volgde",
+        "komt",
+        "wandelt",
+        "henengaan",
+        "zij",
+        "leidde",
+        "nawandeldet",
+        "nagewandeld",
+        "leidt",
+        "nawandelen"
+      ],
+      "usage_en": [
+        "departed",
+        "went",
+        "through",
+        "go",
+        "walking",
+        "walk",
+        "walkest",
+        "led",
+        "take",
+        "in",
+        "gone",
+        "bring",
+        "followed",
+        "follow",
+        "ran",
+        "back",
+        "now",
+        "come",
+        "on",
+        "wentest",
+        "walked",
+        "again",
+        "away",
+        "bear",
+        "carry away",
+        "come away",
+        "depart",
+        "flow",
+        "follow-ing",
+        "get away",
+        "hence",
+        "him",
+        "cause to",
+        "made go away",
+        "-ing",
+        "-ne",
+        "one's way",
+        "out",
+        "grow",
+        "lead forth",
+        "let down",
+        "march",
+        "prosper",
+        "pursue",
+        "cause to run",
+        "spread",
+        "take away -journey",
+        "vanish",
+        "cause to walk-ing",
+        "wax",
+        "be weak."
+      ]
+    },
+    "H1935": {
+      "strong": "H1935",
+      "language": "hebrew",
+      "lemma": "הוֹד",
+      "translit": "hôwd",
+      "gloss_nl": null,
+      "gloss_en": "grandeur (i.e. an imposing form and appearance)",
+      "usage_nl": [
+        "heerlijkheid"
+      ],
+      "usage_en": [
+        "honour",
+        "beauty",
+        "comeliness",
+        "excellency",
+        "glorious",
+        "glory",
+        "goodly",
+        "majesty."
+      ]
+    },
+    "H2132": {
+      "strong": "H2132",
+      "language": "hebrew",
+      "lemma": "זַיִת",
+      "translit": "zayith",
+      "gloss_nl": null,
+      "gloss_en": "an olive (as yielding illuminating oil), the tree, the branch or the berry",
+      "usage_nl": [
+        "olijfgaarden",
+        "olijfbomen",
+        "olijfboom"
+      ],
+      "usage_en": [
+        "trees",
+        "olive",
+        "tree",
+        "olives",
+        "olive tree",
+        "-yard",
+        "olivet."
+      ]
+    },
+    "H7381": {
+      "strong": "H7381",
+      "language": "hebrew",
+      "lemma": "רֵיחַ",
+      "translit": "rêyach",
+      "gloss_nl": null,
+      "gloss_en": "odor (as if blown)",
+      "usage_nl": [
+        "reuk",
+        "reuks"
+      ],
+      "usage_en": [
+        "savour",
+        "scent",
+        "smell."
+      ]
+    },
+    "H3427": {
+      "strong": "H3427",
+      "language": "hebrew",
+      "lemma": "יָשַׁב",
+      "translit": "yâshab",
+      "gloss_nl": "wonen; zitten; verblijven; gevestigd zijn",
+      "gloss_en": "properly, to sit down (specifically as judge. in ambush, in quiet); by implication, to dwell, to remain; causatively, to settle, to marry",
+      "usage_nl": [
+        "zich",
+        "zat",
+        "woonde",
+        "wonen",
+        "verbleef",
+        "blijven",
+        "inwoners",
+        "woont",
+        "bewonen",
+        "zijn",
+        "gebleven",
+        "woonden",
+        "gij",
+        "bleeft",
+        "gewoond",
+        "wij",
+        "zit",
+        "ik",
+        "zitten",
+        "hebt",
+        "samenwonen",
+        "hebben",
+        "blijft",
+        "blijve",
+        "blijf",
+        "bleef",
+        "moge",
+        "neder",
+        "gezeten",
+        "worden"
+      ],
+      "usage_en": [
+        "down",
+        "sat",
+        "dwelt",
+        "dwell",
+        "abode",
+        "sit",
+        "inhabitants",
+        "in",
+        "abide",
+        "remained",
+        "inhabit",
+        "sittest",
+        "dwellest",
+        "sitteth",
+        "remain",
+        "ease",
+        "tarry",
+        "set",
+        "inhabited",
+        "inhabitant",
+        "make to abide-ing",
+        "continue",
+        "cause to",
+        "make to dwell-ing",
+        "ease self",
+        "endure",
+        "establish",
+        "fail",
+        "habitation",
+        "haunt",
+        "make to inhabit-ant",
+        "make to keep house",
+        "lurking",
+        "marry-ing",
+        "bring again to place",
+        "return",
+        "seat",
+        "set-tle",
+        "down- sit-down",
+        "still",
+        "-ting down",
+        "-ting place -uate",
+        "take",
+        "tarry."
+      ]
+    },
+    "H6738": {
+      "strong": "H6738",
+      "language": "hebrew",
+      "lemma": "צֵל",
+      "translit": "tsêl",
+      "gloss_nl": null,
+      "gloss_en": "shade, whether literal or figurative",
+      "usage_nl": [
+        "schaduw"
+      ],
+      "usage_en": [
+        "shadow",
+        "defence",
+        "shade-ow."
+      ]
+    },
+    "H2421": {
+      "strong": "H2421",
+      "language": "hebrew",
+      "lemma": "חָיָה",
+      "translit": "châyâh",
+      "gloss_nl": null,
+      "gloss_en": "to live, whether literally or figuratively; causatively, to revive",
+      "usage_nl": [
+        "leven",
+        "leeft",
+        "gebleven",
+        "behouden",
+        "levet",
+        "levend",
+        "leve",
+        "make"
+      ],
+      "usage_en": [
+        "saved",
+        "alive",
+        "live",
+        "lived",
+        "save",
+        "revive",
+        "keep leave",
+        "make alive",
+        "certainly",
+        "give promise life",
+        "let",
+        "suffer to live",
+        "nourish up",
+        "preserve alive",
+        "quicken",
+        "recover",
+        "repair",
+        "restore to life",
+        "god save alive",
+        "life",
+        "lives",
+        "surely",
+        "be whole."
+      ]
+    },
+    "H1715": {
+      "strong": "H1715",
+      "language": "hebrew",
+      "lemma": "דָּגָן",
+      "translit": "dâgân",
+      "gloss_nl": null,
+      "gloss_en": "properly, increase, i.e. grain",
+      "usage_nl": [
+        "koren"
+      ],
+      "usage_en": [
+        "corn",
+        "corn floor",
+        "wheat."
+      ]
+    },
+    "H1612": {
+      "strong": "H1612",
+      "language": "hebrew",
+      "lemma": "גֶּפֶן",
+      "translit": "gephen",
+      "gloss_nl": null,
+      "gloss_en": "a vine (as twining), especially the grape",
+      "usage_nl": [
+        "wijnstokken",
+        "wijnstok"
+      ],
+      "usage_en": [
+        "vines",
+        "vine",
+        "tree."
+      ]
+    },
+    "H2143": {
+      "strong": "H2143",
+      "language": "hebrew",
+      "lemma": "זֵכֶר",
+      "translit": "zêker",
+      "gloss_nl": null,
+      "gloss_en": "a memento, abstractly recollection (rarely if ever); by implication, commemoration",
+      "usage_nl": [
+        "gedachtenis"
+      ],
+      "usage_en": [
+        "remembrance",
+        "memorial",
+        "memory",
+        "scent."
+      ]
+    },
+    "H3196": {
+      "strong": "H3196",
+      "language": "hebrew",
+      "lemma": "יַיִן",
+      "translit": "yayin",
+      "gloss_nl": null,
+      "gloss_en": "wine (as fermented); by implication, intoxication",
+      "usage_nl": [
+        "wijn"
+      ],
+      "usage_en": [
+        "wine",
+        "banqueting",
+        "wine-bibber."
+      ]
+    },
+    "H6030": {
+      "strong": "H6030",
+      "language": "hebrew",
+      "lemma": "עָנָה",
+      "translit": "ʻânâh",
+      "gloss_nl": null,
+      "gloss_en": "properly, to eye or (generally) to heed, i.e. pay attention; by implication, to respond; by extension to begin to speak; specifically to sing, shout, testify, announce",
+      "usage_nl": [
+        "antwoordden",
+        "getuigen",
+        "gij",
+        "spreken",
+        "betuigen",
+        "betuigd",
+        "antwoorden",
+        "antwoordde",
+        "zal",
+        "antwoord",
+        "antwoorder",
+        "verhoord"
+      ],
+      "usage_en": [
+        "answered",
+        "testify",
+        "bear",
+        "testified",
+        "answer",
+        "speak",
+        "answereth",
+        "hear",
+        "heard",
+        "give account",
+        "afflict by mistake for h6031 עָנָה",
+        "cause to",
+        "give answer",
+        "bring low by mistake for h6031 עָנָה",
+        "cry",
+        "leannoth",
+        "lift up",
+        "say",
+        "scholar",
+        "give a shout",
+        "sing together by course",
+        "utter",
+        "bear witness. see also h1042 בֵּית עֲנוֹת",
+        "h1043 בֵּית עֲנָת."
+      ]
+    },
+    "H7488": {
+      "strong": "H7488",
+      "language": "hebrew",
+      "lemma": "רַעֲנָן",
+      "translit": "raʻănân",
+      "gloss_nl": null,
+      "gloss_en": "verdant; by analogy, new; figuratively, prosperous",
+      "usage_nl": [
+        "groenen"
+      ],
+      "usage_en": [
+        "green",
+        "flourishing."
+      ]
+    },
+    "H1265": {
+      "strong": "H1265",
+      "language": "hebrew",
+      "lemma": "בְּרוֹשׁ",
+      "translit": "bᵉrôwsh",
+      "gloss_nl": null,
+      "gloss_en": "a cypress (?) tree; hence, a lance or a musical instrument (as made of that wood)",
+      "usage_nl": [
+        "denneboom"
+      ],
+      "usage_en": [
+        "tree",
+        "fir tree."
+      ]
+    },
+    "H6529": {
+      "strong": "H6529",
+      "language": "hebrew",
+      "lemma": "פְּרִי",
+      "translit": "pᵉrîy",
+      "gloss_nl": null,
+      "gloss_en": "fruit (literally or figuratively)",
+      "usage_nl": [
+        "takken",
+        "vrucht"
+      ],
+      "usage_en": [
+        "boughs",
+        "fruit",
+        "firstfruits",
+        "bough",
+        "first-fruit-ful",
+        "reward."
+      ]
+    },
+    "H4672": {
+      "strong": "H4672",
+      "language": "hebrew",
+      "lemma": "מָצָא",
+      "translit": "mâtsâʼ",
+      "gloss_nl": null,
+      "gloss_en": "properly, to come forth to, i.e. appear or exist; transitively, to attain, i.e. find or acquire; figuratively, to occur, meet or be present",
+      "usage_nl": [
+        "heeft",
+        "hebben",
+        "zal",
+        "vinden",
+        "treffen",
+        "worden",
+        "treft",
+        "wordt",
+        "gevonden",
+        "is",
+        "zijn",
+        "getroffen",
+        "vond",
+        "gij",
+        "vindt"
+      ],
+      "usage_en": [
+        "gotten",
+        "found",
+        "out",
+        "find",
+        "come",
+        "lighteth",
+        "hath",
+        "befall",
+        "befallen",
+        "finding",
+        "be able",
+        "being",
+        "catch",
+        "certainly",
+        "cause to come on",
+        "to",
+        "to hand",
+        "deliver",
+        "be enough cause to find-ing",
+        "occasion",
+        "get hold upon",
+        "have here",
+        "be here",
+        "hit",
+        "be left",
+        "light up- on",
+        "meet with",
+        "occasion serve",
+        "be present",
+        "ready",
+        "speed",
+        "suffice",
+        "take hold on."
+      ]
+    },
+    "H995": {
+      "strong": "H995",
+      "language": "hebrew",
+      "lemma": "בִּין",
+      "translit": "bîyn",
+      "gloss_nl": null,
+      "gloss_en": "to separate mentally (or distinguish), i.e.(generally) understand",
+      "usage_nl": [
+        "verstandige",
+        "verstandig",
+        "op",
+        "onderwees",
+        "merken",
+        "verstaat",
+        "geven",
+        "gelet",
+        "verstaan",
+        "let",
+        "merkt"
+      ],
+      "usage_en": [
+        "understanding",
+        "consider",
+        "instructed",
+        "understood",
+        "considering",
+        "attend",
+        "be cunning",
+        "diligently",
+        "direct",
+        "discern",
+        "eloquent",
+        "feel",
+        "inform",
+        "instruct",
+        "have intelligence",
+        "know",
+        "look well to",
+        "mark",
+        "perceive",
+        "be prudent",
+        "regard",
+        "can skill-full",
+        "teach",
+        "think",
+        "cause",
+        "make to",
+        "get",
+        "give",
+        "have understand-ing",
+        "view",
+        "deal wise-ly",
+        "man."
+      ]
+    },
+    "H3477": {
+      "strong": "H3477",
+      "language": "hebrew",
+      "lemma": "יָשָׁר",
+      "translit": "yâshâr",
+      "gloss_nl": null,
+      "gloss_en": "straight (literally or figuratively)",
+      "usage_nl": [
+        "recht"
+      ],
+      "usage_en": [
+        "right",
+        "convenient",
+        "equity",
+        "jasher",
+        "just",
+        "meet-est",
+        "pleased well right-eous",
+        "straight",
+        "most upright-ly",
+        "-ness."
+      ]
+    },
+    "H6662": {
+      "strong": "H6662",
+      "language": "hebrew",
+      "lemma": "צַדִּיק",
+      "translit": "tsaddîyq",
+      "gloss_nl": "rechtvaardige; wie juist en getrouw handelt",
+      "gloss_en": "just",
+      "usage_nl": [
+        "rechtvaardige",
+        "rechtvaardigen",
+        "rechtvaardig"
+      ],
+      "usage_en": [
+        "righteous",
+        "just",
+        "lawful",
+        "righteous man."
+      ]
+    },
+    "H6586": {
+      "strong": "H6586",
+      "language": "hebrew",
+      "lemma": "פָּשַׁע",
+      "translit": "pâshaʻ",
+      "gloss_nl": null,
+      "gloss_en": "to break away (from just authority), i.e. trespass, apostatize, quarrel",
+      "usage_nl": [
+        "overtreden",
+        "overtreders",
+        "overtraden"
+      ],
+      "usage_en": [
+        "rebelled",
+        "transgressors",
+        "transgressed",
+        "offend",
+        "rebel",
+        "revolt",
+        "transgress-ion",
+        "-or."
+      ]
+    }
+  }
+}

@@ -11,76 +11,6 @@
     {
       "osis": "Hos.14.2",
       "ref": "14:2",
-      "sv": "Bekeer u, o Israel! tot den HEERE, uw God, toe; want gij zijt gevallen om uw ongerechtigheid.",
-      "kjv": [
-        {
-          "t": "O",
-          "s": null
-        },
-        {
-          "t": "Israel,",
-          "s": "H3478"
-        },
-        {
-          "t": "return",
-          "s": "H7725"
-        },
-        {
-          "t": "unto",
-          "s": null
-        },
-        {
-          "t": "the",
-          "s": null
-        },
-        {
-          "t": "LORD",
-          "s": "H3068"
-        },
-        {
-          "t": "thy",
-          "s": null
-        },
-        {
-          "t": "God;",
-          "s": "H430"
-        },
-        {
-          "t": "for",
-          "s": null
-        },
-        {
-          "t": "thou",
-          "s": null
-        },
-        {
-          "t": "hast",
-          "s": null
-        },
-        {
-          "t": "fallen",
-          "s": "H3782"
-        },
-        {
-          "t": "by",
-          "s": null
-        },
-        {
-          "t": "thine",
-          "s": null
-        },
-        {
-          "t": "iniquity.",
-          "s": "H5771"
-        }
-      ],
-      "alignments": {
-        "sv": []
-      }
-    },
-    {
-      "osis": "Hos.14.3",
-      "ref": "14:3",
       "sv": "Neem [deze] woorden met u, en bekeer u tot den HEERE; zeg tot Hem: Neem weg alle ongerechtigheid, en geef het goede, zo zullen wij betalen de varren onzer lippen.",
       "kjv": [
         {
@@ -202,16 +132,11 @@
       ],
       "alignments": {
         "sv": []
-      },
-      "notes": {
-        "kjv": [
-          "receive: or, give good"
-        ]
       }
     },
     {
-      "osis": "Hos.14.4",
-      "ref": "14:4",
+      "osis": "Hos.14.3",
+      "ref": "14:3",
       "sv": "Assur zal ons niet behouden, wij zullen niet rijden op paarden, en tot het werk onzer handen niet meer zeggen: Gij zijt onze God. Immers zal een wees bij U ontfermd worden.",
       "kjv": [
         {
@@ -356,8 +281,8 @@
       }
     },
     {
-      "osis": "Hos.14.5",
-      "ref": "14:5",
+      "osis": "Hos.14.4",
+      "ref": "14:4",
       "sv": "Ik zal hunlieder afkering genezen, Ik zal hen vrijwilliglijk liefhebben; want Mijn toorn is van hem gekeerd.",
       "kjv": [
         {
@@ -438,8 +363,8 @@
       }
     },
     {
-      "osis": "Hos.14.6",
-      "ref": "14:6",
+      "osis": "Hos.14.5",
+      "ref": "14:5",
       "sv": "Ik zal Israel zijn als de dauw; hij zal bloeien als de lelie, en hij zal zijn wortelen uitslaan als de Libanon.",
       "kjv": [
         {
@@ -529,17 +454,11 @@
       ],
       "alignments": {
         "sv": []
-      },
-      "notes": {
-        "kjv": [
-          "grow: or, blossom",
-          "cast: Heb. strike"
-        ]
       }
     },
     {
-      "osis": "Hos.14.7",
-      "ref": "14:7",
+      "osis": "Hos.14.6",
+      "ref": "14:6",
       "sv": "Zijn scheuten zullen zich uitspreiden, en zijn heerlijkheid zal zijn als des olijfbooms, en hij zal een reuk hebben als de Libanon.",
       "kjv": [
         {
@@ -617,16 +536,11 @@
       ],
       "alignments": {
         "sv": []
-      },
-      "notes": {
-        "kjv": [
-          "spread: Heb. go"
-        ]
       }
     },
     {
-      "osis": "Hos.14.8",
-      "ref": "14:8",
+      "osis": "Hos.14.7",
+      "ref": "14:7",
       "sv": "Zij zullen wederkeren, zittende onder zijn schaduw; zij zullen ten leven voortbrengen [als] koren, en bloeien als de wijnstok; zijn gedachtenis zal zijn als de wijn van Libanon.",
       "kjv": [
         {
@@ -748,17 +662,11 @@
       ],
       "alignments": {
         "sv": []
-      },
-      "notes": {
-        "kjv": [
-          "grow: or, blossom",
-          "scent: or, memorial"
-        ]
       }
     },
     {
-      "osis": "Hos.14.9",
-      "ref": "14:9",
+      "osis": "Hos.14.8",
+      "ref": "14:8",
       "sv": "Efraim! wat heb Ik meer met de afgoden te doen? Ik heb [hem] verhoord, en zal op hem zien; Ik zal [hem] zijn als een groenende denneboom; uw vrucht is uit Mij gevonden.",
       "kjv": [
         {
@@ -888,6 +796,160 @@
         {
           "t": "found.",
           "s": "H4672"
+        }
+      ],
+      "alignments": {
+        "sv": []
+      }
+    },
+    {
+      "osis": "Hos.14.9",
+      "ref": "14:9",
+      "sv": "Wie is wijs? die versta deze dingen; [wie] is verstandig? die bekenne ze; want des HEEREN wegen zijn recht, en de rechtvaardigen zullen daarin wandelen, maar de overtreders zullen daarin vallen.",
+      "kjv": [
+        {
+          "t": "Who",
+          "s": null
+        },
+        {
+          "t": "is",
+          "s": null
+        },
+        {
+          "t": "wise,",
+          "s": "H2450"
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "understand",
+          "s": "H995"
+        },
+        {
+          "t": "these",
+          "s": null
+        },
+        {
+          "t": "things?",
+          "s": null
+        },
+        {
+          "t": "prudent,",
+          "s": "H995"
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "he",
+          "s": null
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "know",
+          "s": "H3045"
+        },
+        {
+          "t": "them?",
+          "s": null
+        },
+        {
+          "t": "for",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "ways",
+          "s": "H1870"
+        },
+        {
+          "t": "of",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "LORD",
+          "s": "H3068"
+        },
+        {
+          "t": "are",
+          "s": null
+        },
+        {
+          "t": "right,",
+          "s": "H3477"
+        },
+        {
+          "t": "and",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "just",
+          "s": "H6662"
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "walk",
+          "s": "H3212"
+        },
+        {
+          "t": "in",
+          "s": null
+        },
+        {
+          "t": "them:",
+          "s": null
+        },
+        {
+          "t": "but",
+          "s": null
+        },
+        {
+          "t": "the",
+          "s": null
+        },
+        {
+          "t": "transgressors",
+          "s": "H6586"
+        },
+        {
+          "t": "shall",
+          "s": null
+        },
+        {
+          "t": "fall",
+          "s": "H3782"
+        },
+        {
+          "t": "therein.",
+          "s": null
         }
       ],
       "alignments": {
@@ -1050,273 +1112,6 @@
     }
   ],
   "lexicon": {
-    "H3478": {
-      "strong": "H3478",
-      "language": "hebrew",
-      "lemma": "יִשְׂרָאֵל",
-      "translit": "Yisrâʼêl",
-      "gloss_nl": "Israël; hij die strijdt met God",
-      "gloss_en": "Jisrael, a symbolical name of Jacob; also (typically) of his posterity",
-      "usage_nl": [
-        "israels",
-        "israel",
-        "israelietischen",
-        "israelieten"
-      ],
-      "usage_en": [
-        "israel",
-        "israelites",
-        "israel's",
-        "israel."
-      ]
-    },
-    "H7725": {
-      "strong": "H7725",
-      "language": "hebrew",
-      "lemma": "שׁוּב",
-      "translit": "shûwb",
-      "gloss_nl": "terugkeren; omkeren; bekeren; herstellen",
-      "gloss_en": "to turn back (hence, away) transitively or intransitively, literally or figuratively (not necessarily with the idea of return to the starting point); generally to retreat; often adverbial, again",
-      "usage_nl": [
-        "wederom",
-        "zijn",
-        "worden",
-        "afgewend",
-        "afkeren",
-        "wederkeren",
-        "weder",
-        "wederbrengen",
-        "zeiden",
-        "wederkwaamt",
-        "hervatten",
-        "wende",
-        "ganselijk",
-        "toesturen",
-        "wedergeeft",
-        "omkeren",
-        "afkere",
-        "zekerlijk",
-        "wedergeven",
-        "keren",
-        "nemen",
-        "bekeren",
-        "wenden",
-        "henen",
-        "kwam",
-        "wederkerenden",
-        "zou",
-        "brengen",
-        "zal",
-        "zich",
-        "wederkeert",
-        "opmaakt",
-        "afkeert",
-        "afgekeerd",
-        "u",
-        "bekeerd"
-      ],
-      "usage_en": [
-        "returned",
-        "away",
-        "turned",
-        "return",
-        "again",
-        "restore",
-        "bring",
-        "brought",
-        "turn",
-        "consider",
-        "get",
-        "case",
-        "back",
-        "deliver",
-        "restored",
-        "call",
-        "render",
-        "converts",
-        "returneth",
-        "restorer",
-        "break",
-        "build",
-        "circumcise",
-        "dig",
-        "do anything",
-        "do evil",
-        "feed",
-        "lay down",
-        "lie down",
-        "lodge",
-        "make",
-        "rejoice",
-        "send",
-        "take",
-        "weep again",
-        "cause to answer again",
-        "in any case wise",
-        "at all",
-        "averse",
-        "bring again",
-        "home again",
-        "call to mind",
-        "carry again back",
-        "cease",
-        "certainly",
-        "come again back",
-        "continually",
-        "convert",
-        "deliver again",
-        "deny",
-        "draw back",
-        "fetch home again",
-        "fro",
-        "get oneself back again",
-        "give again",
-        "go again back",
-        "home",
-        "go out",
-        "hinder",
-        "let",
-        "see more",
-        "needs",
-        "be past",
-        "pay",
-        "pervert",
-        "pull in again",
-        "put again",
-        "up again",
-        "recall",
-        "recompense",
-        "recover",
-        "refresh",
-        "relieve",
-        "render again",
-        "requite",
-        "rescue",
-        "retrieve",
-        "cause to",
-        "make to return",
-        "reverse",
-        "reward",
-        "say nay",
-        "send back",
-        "set again",
-        "slide back",
-        "still",
-        "surely",
-        "take back off",
-        "make to turn again",
-        "self again",
-        "back again",
-        "backward",
-        "from",
-        "off",
-        "withdraw."
-      ]
-    },
-    "H3068": {
-      "strong": "H3068",
-      "language": "hebrew",
-      "lemma": "יְהֹוָה",
-      "translit": "Yᵉhôvâh",
-      "gloss_nl": "HEERE; de Eeuwige; de Eigennaam van God (JHWH / Yahweh)",
-      "gloss_en": "Jehovah, Jewish national name of God",
-      "usage_nl": [
-        "heere",
-        "heeren",
-        "god",
-        "hij"
-      ],
-      "usage_en": [
-        "lord",
-        "lord's",
-        "jehovah",
-        "the lord. compare h3050 יָהּ",
-        "h3069 יְהֹוִה."
-      ]
-    },
-    "H430": {
-      "strong": "H430",
-      "language": "hebrew",
-      "lemma": "אֱלֹהִים",
-      "translit": "ʼĕlôhîym",
-      "gloss_nl": "God; de Almachtige; rechters (in juridische context)",
-      "gloss_en": "gods in the ordinary sense; but specifically used (in the plural thus, especially with the article) of the supreme God; occasionally applied by way of deference to magistrates; and sometimes as a superlative",
-      "usage_nl": [
-        "god",
-        "gods",
-        "goden",
-        "godes",
-        "gode",
-        "heere"
-      ],
-      "usage_en": [
-        "god",
-        "gods",
-        "god's",
-        "judge",
-        "angels",
-        "exceeding",
-        "god gods -dess",
-        "-ly",
-        "very great",
-        "judges",
-        "mighty."
-      ]
-    },
-    "H3782": {
-      "strong": "H3782",
-      "language": "hebrew",
-      "lemma": "כָּשַׁל",
-      "translit": "kâshal",
-      "gloss_nl": null,
-      "gloss_en": "to totter or waver (through weakness of the legs, especially the ankle); by implication, to falter, stumble, faint or fall",
-      "usage_nl": [
-        "struikelden",
-        "gewisselijk",
-        "vallen",
-        "zij"
-      ],
-      "usage_en": [
-        "stumbled",
-        "utterly",
-        "fall",
-        "stumble",
-        "bereave from the margin",
-        "cast down",
-        "be decayed",
-        "cause to fail",
-        "cause",
-        "make to fall down",
-        "-ing",
-        "feeble",
-        "be the ruin-ed",
-        "of",
-        "be overthrown",
-        "cause to stumble",
-        "be weak."
-      ]
-    },
-    "H5771": {
-      "strong": "H5771",
-      "language": "hebrew",
-      "lemma": "עָוֺן",
-      "translit": "ʻâvôn",
-      "gloss_nl": null,
-      "gloss_en": "perversity, i.e. (moral) evil",
-      "usage_nl": [
-        "ongerechtigheden",
-        "ongerechtigheid",
-        "misdaad"
-      ],
-      "usage_en": [
-        "iniquities",
-        "iniquity",
-        "fault",
-        "mischeif",
-        "punishment of iniquity",
-        "sin."
-      ]
-    },
     "H3947": {
       "strong": "H3947",
       "language": "hebrew",
@@ -1502,6 +1297,170 @@
         "wherewith",
         "which",
         "work."
+      ]
+    },
+    "H7725": {
+      "strong": "H7725",
+      "language": "hebrew",
+      "lemma": "שׁוּב",
+      "translit": "shûwb",
+      "gloss_nl": "terugkeren; omkeren; bekeren; herstellen",
+      "gloss_en": "to turn back (hence, away) transitively or intransitively, literally or figuratively (not necessarily with the idea of return to the starting point); generally to retreat; often adverbial, again",
+      "usage_nl": [
+        "wederom",
+        "zijn",
+        "worden",
+        "afgewend",
+        "afkeren",
+        "wederkeren",
+        "weder",
+        "wederbrengen",
+        "zeiden",
+        "wederkwaamt",
+        "hervatten",
+        "wende",
+        "ganselijk",
+        "toesturen",
+        "wedergeeft",
+        "omkeren",
+        "afkere",
+        "zekerlijk",
+        "wedergeven",
+        "keren",
+        "nemen",
+        "bekeren",
+        "wenden",
+        "henen",
+        "kwam",
+        "wederkerenden",
+        "zou",
+        "brengen",
+        "zal",
+        "zich",
+        "wederkeert",
+        "opmaakt",
+        "afkeert",
+        "afgekeerd",
+        "u",
+        "bekeerd"
+      ],
+      "usage_en": [
+        "returned",
+        "away",
+        "turned",
+        "return",
+        "again",
+        "restore",
+        "bring",
+        "brought",
+        "turn",
+        "consider",
+        "get",
+        "case",
+        "back",
+        "deliver",
+        "restored",
+        "call",
+        "render",
+        "converts",
+        "returneth",
+        "restorer",
+        "break",
+        "build",
+        "circumcise",
+        "dig",
+        "do anything",
+        "do evil",
+        "feed",
+        "lay down",
+        "lie down",
+        "lodge",
+        "make",
+        "rejoice",
+        "send",
+        "take",
+        "weep again",
+        "cause to answer again",
+        "in any case wise",
+        "at all",
+        "averse",
+        "bring again",
+        "home again",
+        "call to mind",
+        "carry again back",
+        "cease",
+        "certainly",
+        "come again back",
+        "continually",
+        "convert",
+        "deliver again",
+        "deny",
+        "draw back",
+        "fetch home again",
+        "fro",
+        "get oneself back again",
+        "give again",
+        "go again back",
+        "home",
+        "go out",
+        "hinder",
+        "let",
+        "see more",
+        "needs",
+        "be past",
+        "pay",
+        "pervert",
+        "pull in again",
+        "put again",
+        "up again",
+        "recall",
+        "recompense",
+        "recover",
+        "refresh",
+        "relieve",
+        "render again",
+        "requite",
+        "rescue",
+        "retrieve",
+        "cause to",
+        "make to return",
+        "reverse",
+        "reward",
+        "say nay",
+        "send back",
+        "set again",
+        "slide back",
+        "still",
+        "surely",
+        "take back off",
+        "make to turn again",
+        "self again",
+        "back again",
+        "backward",
+        "from",
+        "off",
+        "withdraw."
+      ]
+    },
+    "H3068": {
+      "strong": "H3068",
+      "language": "hebrew",
+      "lemma": "יְהֹוָה",
+      "translit": "Yᵉhôvâh",
+      "gloss_nl": "HEERE; de Eeuwige; de Eigennaam van God (JHWH / Yahweh)",
+      "gloss_en": "Jehovah, Jewish national name of God",
+      "usage_nl": [
+        "heere",
+        "heeren",
+        "god",
+        "hij"
+      ],
+      "usage_en": [
+        "lord",
+        "lord's",
+        "jehovah",
+        "the lord. compare h3050 יָהּ",
+        "h3069 יְהֹוִה."
       ]
     },
     "H559": {
@@ -1695,6 +1654,27 @@
         "take away",
         "utterly",
         "yield."
+      ]
+    },
+    "H5771": {
+      "strong": "H5771",
+      "language": "hebrew",
+      "lemma": "עָוֺן",
+      "translit": "ʻâvôn",
+      "gloss_nl": null,
+      "gloss_en": "perversity, i.e. (moral) evil",
+      "usage_nl": [
+        "ongerechtigheden",
+        "ongerechtigheid",
+        "misdaad"
+      ],
+      "usage_en": [
+        "iniquities",
+        "iniquity",
+        "fault",
+        "mischeif",
+        "punishment of iniquity",
+        "sin."
       ]
     },
     "H2896": {
@@ -2084,6 +2064,35 @@
         "yourselves."
       ]
     },
+    "H430": {
+      "strong": "H430",
+      "language": "hebrew",
+      "lemma": "אֱלֹהִים",
+      "translit": "ʼĕlôhîym",
+      "gloss_nl": "God; de Almachtige; rechters (in juridische context)",
+      "gloss_en": "gods in the ordinary sense; but specifically used (in the plural thus, especially with the article) of the supreme God; occasionally applied by way of deference to magistrates; and sometimes as a superlative",
+      "usage_nl": [
+        "god",
+        "gods",
+        "goden",
+        "godes",
+        "gode",
+        "heere"
+      ],
+      "usage_en": [
+        "god",
+        "gods",
+        "god's",
+        "judge",
+        "angels",
+        "exceeding",
+        "god gods -dess",
+        "-ly",
+        "very great",
+        "judges",
+        "mighty."
+      ]
+    },
     "H3490": {
       "strong": "H3490",
       "language": "hebrew",
@@ -2274,6 +2283,26 @@
       "usage_en": [
         "dew",
         "dew."
+      ]
+    },
+    "H3478": {
+      "strong": "H3478",
+      "language": "hebrew",
+      "lemma": "יִשְׂרָאֵל",
+      "translit": "Yisrâʼêl",
+      "gloss_nl": "Israël; hij die strijdt met God",
+      "gloss_en": "Jisrael, a symbolical name of Jacob; also (typically) of his posterity",
+      "usage_nl": [
+        "israels",
+        "israel",
+        "israelietischen",
+        "israelieten"
+      ],
+      "usage_en": [
+        "israel",
+        "israelites",
+        "israel's",
+        "israel."
       ]
     },
     "H6524": {
@@ -3285,6 +3314,39 @@
         "revolt",
         "transgress-ion",
         "-or."
+      ]
+    },
+    "H3782": {
+      "strong": "H3782",
+      "language": "hebrew",
+      "lemma": "כָּשַׁל",
+      "translit": "kâshal",
+      "gloss_nl": null,
+      "gloss_en": "to totter or waver (through weakness of the legs, especially the ankle); by implication, to falter, stumble, faint or fall",
+      "usage_nl": [
+        "struikelden",
+        "gewisselijk",
+        "vallen",
+        "zij"
+      ],
+      "usage_en": [
+        "stumbled",
+        "utterly",
+        "fall",
+        "stumble",
+        "bereave from the margin",
+        "cast down",
+        "be decayed",
+        "cause to fail",
+        "cause",
+        "make to fall down",
+        "-ing",
+        "feeble",
+        "be the ruin-ed",
+        "of",
+        "be overthrown",
+        "cause to stumble",
+        "be weak."
       ]
     }
   }
