@@ -7,6 +7,7 @@ label:
   en: Vayetze
 
 status: published
+bible_data: false  # Verse cache not complete; use STEP Bible for full reading until authentic verses are added.
 current: false
 reading_layout: book
 published_at: 2026-11-18
