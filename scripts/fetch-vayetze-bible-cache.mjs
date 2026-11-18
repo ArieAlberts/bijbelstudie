@@ -37,7 +37,8 @@ function strongCode(raw, prefix) {
 
 // Extract the text and positional Strong markings without rewriting Scripture.
 function parseTaggedVerse(html, prefix) {
-  const input = String(html || '').replace(/<br\s*\/?>/gi, ' ');
+  const input = String(html || '').replace(/<br\s*\/?>/gi, ' ')
+    .replace(/^\s*\[\d{1,3}:\d{1,3}\]\s*/, '');
   const parts = input.split(/(<s\b[^>]*>[\s\S]*?<\/s>)/gi);
   let text = '';
   const marks = [];
@@ -58,7 +59,7 @@ function parseTaggedVerse(html, prefix) {
       // Formatting markup is removed; text between tags is retained.
       const visible = decodeEntities(part.replace(/<[^>]*>/g, ''))
         .replace(/\u00a0/g, ' ').replace(/\s+/g, ' ');
-      text += visible;
+      text += text.endsWith(' ') && visible.startsWith(' ') ? visible.trimStart() : visible;
     }
   }
   const leftTrim = text.length - text.trimStart().length;
